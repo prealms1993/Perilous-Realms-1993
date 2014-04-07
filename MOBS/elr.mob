@@ -1,0 +1,354 @@
+9200
+{
+name { An Unseen Servant }
+namelist { Unseen Servant }
+shortdesc { An visible Unseen Servant floats around aimlessly, waiting to be summoned. }
+longdesc {
+It definitely wants a master.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 1 }
+alignment { 0 }
+gold { 50 }
+hit_bonus { 10 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 100, 0 }
+body { 100, 0 }
+arms { 100, 0 }
+legs { 100, 0 }
+feet { 100, 0 }
+hp { 1, 10, 10  }
+move { 300 }
+experience { 215 }
+damage { 1, 5, 1  }
+affected { detect-invisible }
+act { stay-zone }
+}
+9201
+{
+name { A Dust Devil }
+namelist { Dust Devil }
+shortdesc { The Dust Devil floats long, picking up debris left lying around. }
+longdesc {
+A swirling vortex of dust.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 3 }
+alignment { -10 }
+gold { 100 }
+hit_bonus { 10 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 80, 0 }
+body { 80, 0 }
+arms { 80, 0 }
+legs { 80, 0 }
+feet { 80, 0 }
+hp { 5, 6, 20  }
+move { 300 }
+experience { 457 }
+damage { 1, 7, 1  }
+affected { detect-invisible }
+act { scavenger, stay-zone }
+}
+9202
+{
+name { A Lesser Air Elemental }
+namelist { Lesser Air Elemental }
+shortdesc { One of the lesser Air Elementals exists here. }
+longdesc {
+A swirling mass of air.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 19 }
+alignment { 0 }
+gold { 150 }
+hit_bonus { 10 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 50, 0 }
+body { 50, 0 }
+arms { 50, 0 }
+legs { 50, 0 }
+feet { 50, 0 }
+hp { 1, 5, 96  }
+move { 300 }
+experience { 1719 }
+damage { 2, 4, 1  }
+affected { invisible, detect-invisible }
+act { sentinel }
+}
+9203
+{
+name { An Invisible Stalker }
+namelist { Invisible Stalker }
+shortdesc { A Stalker is standing here, glaring at you. }
+longdesc {
+He seems pretty nasty, but he does hold the key to the other realms.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 25 }
+alignment { 0 }
+gold { 175 }
+hit_bonus { 10 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 40, 1 }
+body { 40, 1 }
+arms { 40, 1 }
+legs { 40, 1 }
+feet { 40, 1 }
+hp { 5, 10, 100  }
+move { 300 }
+experience { 3376 }
+damage { 2, 4, 3  }
+affected { invisible, detect-invisible, sanctuary }
+act { scavenger, stay-zone }
+}
+9204
+{
+name { The Djinn }
+namelist { Djinn }
+shortdesc { A powerful Djinn, Lord of this Element, glances at you with scorn. }
+longdesc {
+Clad in silken Pantalons and a flowing azure cloak, he seems in control of
+the situation.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 31 }
+alignment { 500 }
+gold { 300 }
+hit_bonus { 15 }
+dam_bonus { 2 }
+attacks_per_round { 1 }
+head { 20, 1 }
+body { 20, 1 }
+arms { 20, 1 }
+legs { 20, 1 }
+feet { 20, 1 }
+hp { 10, 10, 100  }
+move { 300 }
+experience { 4250 }
+damage { 2, 6, 4  }
+immune { charm }
+affected { detect-evil, detect-invisible, sense-life, sanctuary }
+act { stay-zone, wimpy }
+}
+9205
+{
+name { The Djnniyeh }
+namelist { Djinniyeh Wife }
+shortdesc { A Djinniyeh reclines upon a silken cushion. }
+longdesc {
+This Djinniyeh, while not very strong, is in command of superior magical
+forces.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 40 }
+alignment { 500 }
+gold { 500 }
+hit_bonus { 20 }
+dam_bonus { 2 }
+attacks_per_round { 1 }
+head { 20, 1 }
+body { 20, 1 }
+arms { 20, 1 }
+legs { 20, 1 }
+feet { 20, 1 }
+hp { 10, 10, 150  }
+move { 300 }
+experience { 5540 }
+damage { 2, 2, 1  }
+immune { charm }
+affected { detect-invisible, sanctuary }
+act { stay-zone, wimpy }
+}
+9206
+{
+name { The Greater Air Elemental Guard }
+namelist { Greater Air Elemental Guard }
+shortdesc { A Greater Air Elemental stands guard here. }
+longdesc {
+This mass of air looks very large and hard to hit.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 23 }
+alignment { 1 }
+gold { 175 }
+hit_bonus { 20 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 0, 0 }
+body { 0, 0 }
+arms { 0, 0 }
+legs { 0, 0 }
+feet { 0, 0 }
+hp { 5, 5, 100  }
+move { 300 }
+experience { 3493 }
+damage { 3, 4, 3  }
+affected { detect-invisible, sanctuary }
+act { sentinel }
+}
+9210
+{
+name { The Water Wierd }
+namelist { water wierd }
+shortdesc { You faintly make out a disturbance in the water here. }
+longdesc {
+A vaguely snake-like discoloration of the water.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 9 }
+alignment { -400 }
+gold { 130 }
+hit_bonus { 5 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 30, 0 }
+body { 30, 0 }
+arms { 30, 0 }
+legs { 30, 0 }
+feet { 30, 0 }
+hp { 2, 10, 60  }
+move { 300 }
+experience { 1023 }
+damage { 2, 4, 1  }
+affected { invisible, detect-invisible }
+act { scavenger, aggressive, stay-zone }
+}
+9211
+{
+name { Lesser Water Elemental }
+namelist { lesser water elemental }
+shortdesc { One of the Lesser Water Elementals swirls here. }
+longdesc {
+Two orbs of deep green peer out of this wave.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 12 }
+alignment { 0 }
+gold { 150 }
+hit_bonus { 10 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 10, 0 }
+body { 10, 0 }
+arms { 10, 0 }
+legs { 10, 0 }
+feet { 10, 0 }
+hp { 7, 5, 60  }
+move { 300 }
+experience { 1341 }
+damage { 2, 5, 1  }
+act { stay-zone }
+}
+9212
+{
+name { A Triton }
+namelist { triton }
+shortdesc { A strange fish-man is swimming by you }
+longdesc {
+The lower half of this creature ends in two finned legs, while his
+torso, head, and arms are handsomely human.  He has a silvery skin,
+which fades into sliver-blue scales on the lower half of his body.
+His hair is deep blue.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 25 }
+alignment { 200 }
+gold { 175 }
+hit_bonus { 10 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 30, 1 }
+body { 30, 1 }
+arms { 30, 1 }
+legs { 30, 1 }
+feet { 30, 1 }
+hp { 10, 10, 70  }
+move { 300 }
+experience { 2390 }
+damage { 2, 5, 2  }
+affected { detect-invisible }
+act { scavenger, stay-zone }
+}
+9213
+{
+name { The Greater Water Elemental }
+namelist { greater water elemental }
+shortdesc { This Elemental seems much more powerful than the lesser's of its kind. }
+longdesc {
+A very large pool of swirling water.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 24 }
+alignment { 0 }
+gold { 175 }
+hit_bonus { 13 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 0, 0 }
+body { 0, 0 }
+arms { 0, 0 }
+legs { 0, 0 }
+feet { 0, 0 }
+hp { 1, 100, 70  }
+move { 300 }
+experience { 2498 }
+damage { 5, 3, 4  }
+affected { detect-invisible }
+act { stay-zone }
+}
+9214
+{
+name { Steven the Marid }
+namelist { steven marid }
+shortdesc { A tall Marid named Steven glances at you with his arms crossed in contempt. }
+longdesc {
+A tall, arrogant Marid.  His muscles are very well devolped.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 42 }
+alignment { 200 }
+gold { 500 }
+hit_bonus { 15 }
+dam_bonus { 2 }
+attacks_per_round { 1 }
+head { -10, 0 }
+body { -10, 0 }
+arms { -10, 0 }
+legs { -10, 0 }
+feet { -10, 0 }
+hp { 1, 100, 200  }
+move { 300 }
+experience { 6567 }
+damage { 4, 5, 5  }
+affected { detect-invisible, sanctuary }
+act { scavenger, stay-zone }
+}

@@ -1,0 +1,16 @@
+
+0
+{
+  name { First Bank of Silliness }
+  desc {
+"   You are in the Bank of Silliness.  A sign is pasted by the door.
+  }
+  extra {
+	keywords { note sign" }
+	desc { "  The sign reads :
+     Type 'Deposit', 'Withdraw', Or 'Balance' here. (what else would you do
+in a bank, rob it???)
+	}
+  }
+  flags { no_mob, indoors }
+}

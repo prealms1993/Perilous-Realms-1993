@@ -1,0 +1,171 @@
+
+0
+{
+  name { Quifael's monster pen }
+  desc {
+You are in a big, subterranean room with heavy massive stone walls and no
+windows whatsoever.  A virtual ladder leads upwards.
+  }
+  flags { indoors, private }
+  exits {
+	to { u, 2 }
+	  desc { The ladder leads to the laboratory.
+}
+  }
+}
+
+1
+{
+  name { Quifael's study }
+  desc {
+You are in a small, comfortable study room.  The walls are lined with
+bookcases filled with dusty volumes of all sizes.  In the fireplace burns a
+crackling fire that makes the room warm and cosy, and in front of an oakwood
+reading desk is a large old-fashioned chair.
+  }
+  extra {
+	keywords { bookcase bookcases volume volumes book books" }
+	desc { Most of the books are heavy, leatherbound and covered in a thin layer of dust.
+There are many titles on necromancy, conjuring and other spheres of Magick,
+but also some on computer science (although these seem to be VERY dusty
+indeed) and a fair collection of horror literature, ranging from Bram Stoker
+and H. P. Lovecraft to Anne Rice and Stephen King.
+	}
+	keywords { fireplace" }
+	desc { The fireplace isn't particularly big, but the fire crackles merrily in it.
+	}
+	keywords { desk" }
+	desc { It is very massive and but seems worn from many years of use.
+	}
+	keywords { chair" }
+	desc { It is big and old-fashioned, but quite comfortable nevertheless.
+	}
+  }
+  flags { no_mob, indoors, private }
+  exits {
+	to { s, 4 }
+	  desc { The corridor leads south to the hall.
+}
+  }
+}
+
+2
+{
+  name { Quifael's laboratory }
+  desc {
+You are in a room filled with shelves containing all sorts of weird equipment.
+The walls are lined with numerous shelves and a massive working desk is by
+the north wall.  The air smells of rare chemicals and spices.
+A virtual ladder leads downwards.
+A magical portal is hovering in the air just in front of the east wall.
+  }
+  extra {
+	keywords { shelves" }
+	desc { The shelves contain a mass of bottles, jars and boxes of different shapes and
+sizes, of which some contain powders and liquids in various colours.  Others
+contain dragon's claws, giant's eyes, rabbit's ears and other body parts of
+different monsters.
+	}
+	keywords { desk" }
+	desc { On the desk is a peculiar apparatus of glass bottles and globes connected by
+small pipelines.  The green liquid inside the apparatus' globes and pipelines
+is bubbling steadily.
+	}
+  }
+  flags { no_mob, indoors, private }
+  exits {
+	to { e, 3 }
+	  desc { To the east is the magical portal.
+}
+	to { d, 0 }
+	  desc { The virtual ladder leads down to the monster pen.
+}
+  }
+}
+
+3
+{
+  name { Quifael's virtual balcony }
+  desc {
+You are on a transparent balcony hanging in mid-air.  You notice a faint blue
+glow surrounding everything, even yourself, making it seem as transparent as
+the balcony itself.  From here, you have a terrific view of the whole Forest
+of Haon-Dor.
+A transparent bronze plate has been bolted to the balcony railing.
+A magical portal is hovering in the air to the west.
+  }
+  extra {
+	keywords { balcony railing" }
+	desc { Quite transparent, but visible anyway, because of the blue glow that surrounds
+the whole place.
+	}
+	keywords { plate" }
+	desc { The transparent bronze plate looks quite strange, but the engraved letters are
+quite easy to read, nevertheless :-
+
+              Quifael's Virtual Balcony
+
+                   Do not lean out!
+
+  Please do not try to attract the attention of any
+      adventurers in the forest, as you are not
+         really in existence at the moment.
+
+        (This could possibly mess up Reality,
+      and we wouldn't want to do that, would we?)
+	}
+	keywords { forest Haon-Dor view" }
+	desc { Through the tree crowns, you see fellow adventurers walking around in the
+forest, gathering mushrooms, eating blackberries, committing rabbit genocide
+and generally having a good time.
+	}
+  }
+  flags { indoors, private }
+  exits {
+	to { w, 2 }
+	  desc { The magical portal is to the west.
+}
+  }
+}
+
+4
+{
+  name { Quifael's hall }
+  desc {
+You are in sparsely decorated and quite dusty hall.  Old wooden doors lead
+north, east and south and to the west is the front door.
+An old mirror hangs on the wall.
+  }
+  extra {
+	keywords { mirror" }
+	desc { You see yourself looking back at you.
+	}
+  }
+  flags { indoors, private }
+  exits {
+	to { n, 1 }
+	  desc { The study is to the north.}
+	to { e, 2 }
+	  desc { The laboratory is to the east.}
+	to { s, 5 }
+	  desc { The kitchen is to the south.}
+	to { w, Midgard:126 }
+	  key { 3301 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { The front door leads to Park Road.}
+  }
+}
+
+5
+{
+  name { Quifael's kitchen }
+  desc {
+You are in an old-fashioned kitchen.
+  }
+  flags { indoors, private }
+  exits {
+	to { n, 4 }
+	  desc { The hall is to the north.}
+  }
+}

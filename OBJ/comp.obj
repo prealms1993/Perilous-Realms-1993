@@ -1,0 +1,860 @@
+900
+{
+        name { a small egg }
+        namelist { egg small }
+        long { a small egg is lying here }
+        weight { 1 }
+        value { 2 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+901
+{
+        name { a pile of sulpher }
+        namelist { sulpher pile }
+        long { a small pile of sulpher is in the corner of the room }
+        weight { 1 }
+        value { 5 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+902
+{
+        name { a piece of quartz crystal }
+        namelist { quartz crystal }
+        long { a piece of quartz crystal is refracting the light }
+        weight { 1 }
+        value { 21 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+903
+{
+        name { an eyeball }
+        namelist { eyeball }
+        long { an eyeball that seems to have lost its socket is laying here }
+        weight { 1 }
+        value { 15 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+904
+{
+        name { a piece of fur }
+        namelist { fur }
+        long { a piece of fur from some unknown animal is laying in the dirt }
+        weight { 1 }
+        value { 15 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+905
+{
+        name { an amber rod }
+        namelist { amber rod }
+        long { an amber rod is turning the floor a light red color }
+        weight { 1 }
+        value { 10 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+906
+{
+        name { a pile of tungsten powder }
+        namelist { tungsten powder }
+        long { a small pile of tungsten powder is scattered on the floor }
+        weight { 1 }
+        value { 12 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+907
+{
+        name { an icicle }
+        namelist { icicle }
+        long { an icicle is melting into a small puddle here }
+        weight { 1 }
+        value { 14 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+908
+{
+        name { a feather }
+        namelist { feather }
+        long { a feather from an unknown bird is fluttering in the wind }
+        weight { 1 }
+        value { 2 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        wear { take, hold }
+}
+909
+{
+        name { a vitamin }
+        namelist { vitamin }
+        long { a fred flintstone vitamin is ground into the dirt here }
+        weight { 1 }
+        value { 4 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+910
+{
+        name { some steroids }
+        namelist { steroids }
+        long { a vial of steroids has been discarded here }
+        weight { 1 }
+        value { 17 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+911
+{
+        name { a carrot }
+        namelist { carrot }
+        long { you see the sprouts of a growing carrot here }
+        weight { 1 }
+        value { 23 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+912
+{
+        name { armadillo hide }
+        namelist { armadillo hide }
+        long { some poor unfortunate armadillos hide is laying in the dirt here }
+        weight { 1 }
+        value { 21 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+913
+{
+        name { a mirror }
+        namelist { mirror }
+        long { a small mirror has been dropped here }
+        weight { 1 }
+        value { 23 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+914
+{
+        name { a ball of clay }
+        namelist { ball clay }
+        long { a small ball of clay has been left in the dirt here }
+        weight { 1 }
+        value { 35 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+915
+{
+        name { mandrake root }
+        namelist { mandrake root }
+        long { the root of a mandrake is sticking up out of the ground }
+        weight { 1 }
+        value { 31 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+916
+{
+        name { a lens }
+        namelist { lens }
+        long { a small lens is lying here }
+        weight { 1 }
+        value { 20 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+917
+{
+        name { garlic }
+        namelist { garlic }
+        long { some garlic hangs on a peg here }
+        weight { 1 }
+        value { 15 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+918
+{
+        name { ginseng }
+        namelist { ginseng }
+        long { a ginseng root is growing up out of the ground }
+        weight { 1 }
+        value { 10 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+919
+{
+        name { a bottle of perfume }
+        namelist { bottle perfume }
+        long { a bottle of stinky perfume has been discarded here }
+        weight { 1 }
+        value { 90 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+920
+{
+        name { a small black pearl }
+        namelist { black pearl }
+        long { a small black pearl is laying in the dust }
+        weight { 1 }
+        value { 37 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+921
+{
+        name { some fish gills }
+        namelist { fish gills }
+        long { parts of a gutted fish lay in the dirt stinking up the area }
+        weight { 1 }
+        value { 25 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+922
+{
+        name { a small piece of glass }
+        namelist { glass }
+        long { a small piece of glass has been broken off a window }
+        weight { 1 }
+        value { 17 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+923
+{
+        name { a valium }
+        namelist { valium }
+        long { a valium has been lost here }
+        weight { 1 }
+        value { 73 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+924
+{
+        name { a small sponge  }
+        namelist { sponge }
+        long { a small sponge is soaking up some water }
+        weight { 1 }
+        value { 16 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+925
+{
+        name { a set of used lock-picks }
+        namelist { lock-picks picks }
+        long { a set of used lock-picks have been discarded here }
+        weight { 1 }
+        value { 50 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+926
+{
+        name { a small pile of flash powder }
+        namelist { flash powder }
+        long { a small pile of flash powder is smoking }
+        weight { 1 }
+        value { 19 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+927
+{
+        name { a hand fan }
+        namelist { hand fan }
+        long { a hand fan is blowing around in the breeze }
+        weight { 1 }
+        value { 14 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+928
+{
+        name { a small prism }
+        namelist { small prism }
+        long { a small prism is creating beautiful rainbows here }
+        weight { 1 }
+        value { 25 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+929
+{
+        name { a backscratcher }
+        namelist { backscratcher }
+        long { a backscratcher with a broken tooth has been tossed away here }
+        weight { 1 }
+        value { 33 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+930
+{
+        name { a tuning fork }
+        namelist { tuning fork }
+        long { a tuning fork is humming with the wind }
+        weight { 1 }
+        value { 35 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { hum }
+        wear { take, hold }
+}
+931
+{
+        name { a blindfold }
+        namelist { blindfold }
+        long { a black blindfold is laying here }
+        weight { 1 }
+        value { 47 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+932
+{
+        name { a rod of faults }
+        namelist { rod faults }
+        long { a rod of faults is laying here }
+        weight { 1 }
+        value { 44 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+933
+{
+        name { a rod of iron }
+        namelist { rod iron }
+        long { a small rod of iron is laying in the dust }
+        weight { 1 }
+        value { 45 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+934
+{
+        name { some vampire dust }
+        namelist { vampire dust }
+        long { a vampire has crumbled away here }
+        weight { 1 }
+        value { 30 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+935
+{
+        name { a vial of acid }
+        namelist { vial acid }
+        long { a vial of some vicious liquid is bubbling madly away here }
+        weight { 1 }
+        value { 35 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+936
+{
+        name { a crystal ball }
+        namelist { crystal ball }
+        long { someone has left their crystal ball here }
+        weight { 1 }
+        value { 45 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+937
+{
+        name { blood of a devil }
+        namelist { blood devil }
+        long { a puddle of some evil black blood is on the floor }
+        weight { 1 }
+        value { 55 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+938
+{
+        name { an energy pill }
+        namelist { energy pill }
+        long { a pill of pure energy is laying here }
+        weight { 1 }
+        value { 50 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+939
+{
+        name { some magic pebbles }
+        namelist { magic pebbles }
+        long { some magic pebbles are half burried in the dirt }
+        weight { 1 }
+        value { 40 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+940
+{
+        name { some sapphire dust }
+        namelist { sapphire dust }
+        long { a crushed sapphire has been discarded here }
+        weight { 1 }
+        value { 30 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+941
+{
+        name { diamond dust }
+        namelist { diamond dust }
+        long { a pile of dust from the diamond mining process is scattered about }
+        weight { 1 }
+        value { 2500 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+942
+{
+        name { nightshade }
+        namelist { nightshade }
+        long { a nightshade bush is growing here }
+        weight { 1 }
+        value { 35 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+943
+{
+        name { a funnel }
+        namelist { funnel }
+        long { a small funnel is laying in the dust }
+        weight { 1 }
+        value { 5 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+944
+{
+        name { a red rose }
+        namelist { red rose }
+        long { a small rose bush with red roses on it is growing here }
+        weight { 1 }
+        value { 15 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        wear { take, hold }
+}
+945
+{
+        name { holy water }
+        namelist { holy water }
+        long { a vial of holy water has been left here }
+        weight { 1 }
+        value { 7 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+946
+{
+        name { unholy water }
+        namelist { unholy water }
+        long { a vial of unholy water has been left here }
+        weight { 1 }
+        value { 7 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        wear { take, hold }
+}
+947
+{
+        name { mistletoe }
+        namelist { mistletoe }
+        long { a mistletoe bush is growing here }
+        weight { 1 }
+        value { 8 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+948
+{
+        name { a vial of pcp }
+        namelist { pcp vial }
+        long { a small vial of pcp has been thrown away here (bad stuff) }
+        weight { 1 }
+        value { 20 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        wear { take, hold }
+}
+949
+{
+        name { elderberries }
+        namelist { elderberries }
+        long { a wild elderberry bush is growing here }
+        weight { 1 }
+        value { 6 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+950
+{
+        name { a can of jolt }
+        namelist { jolt }
+        long { a half empty can of jolt has been discarded here }
+        weight { 1 }
+        value { 7 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+951
+{
+        name { a ball of cotton }
+        namelist { ball cotton }
+        long { a puffy ball of cotton is soaking up some water here }
+        weight { 1 }
+        value { 5 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+952
+{
+        name { poison ivy }
+        namelist { poison ivy }
+        long { some poison ivy is growing here. }
+        weight { 1 }
+        value { 34 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}
+953
+{
+        name { a bandaid }
+        namelist { bandaid }
+        long { a crumpled bandaid has been discarded here }
+        weight { 1 }
+        value { 25 }
+        rent { 5 }
+        type {
+                treasure {
+                        value { 0 }
+                }
+        }
+        bits { glow }
+        wear { take, hold }
+}

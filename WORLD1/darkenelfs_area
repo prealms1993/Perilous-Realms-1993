@@ -1,0 +1,3259 @@
+
+0
+{
+  name { Thick Forest }
+  desc {
+"   You are lost in thick forest, tangles of bushes and the shadowy tree
+trunks prevent you from seeing far in any direction.  Even the surrounding
+mountains don't help, as they are in all directions.
+  }
+  sector { Forest }
+  exits {
+	to { n, 151 }
+	to { e, 152 }
+	to { w, 1 }
+  }
+}
+
+1
+{
+  name { Rocky Clearing }
+  desc {
+"   You are standing in a rocky clearing, strewn with the debris of the many
+landslides, which have cascaded down the cliffs to the south and west.  To
+the east and north paths plunge back in amongst the trees that fill most of
+the valley.  A precarious path leads over the mountain to the West.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 118 }
+	to { e, 0 }
+	to { w, 2 }
+  }
+}
+
+2
+{
+  name { Mountain Crest }
+  desc {
+"   You stand at the top of one of the mountains overlooking the valley.  Just
+to the east, the path you are on becomes rather precarious, sloping sharply
+down into a rocky clearing.  To the west, the descent is more gradual, ending
+in a rocky slope.  You should be very careful.  It looks like the area could
+all tumble down in a landslide in a second!
+  }
+  sector { Mountains }
+  exits {
+	to { e, 1 }
+	to { w, 3 }
+  }
+}
+
+3
+{
+  name { Rocky Climb }
+  desc {
+"   You are walking on a steep mountain path which leads over the top of the
+mountain to the east and downwards towards a ravaged forest to the North.
+You suspect that the view here would be quite beautiful if not for the noxious
+fumes wafting up from the forest below, which cause your eyes to constantly
+water.  Looking at the forest, you believe that it must have once been quite
+beautiful.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 4 }
+	to { e, 2 }
+  }
+}
+
+4
+{
+  name { Scenic View }
+  desc {
+"   Once, this mountain trail surely was the best place to view the elven
+forest.  Now, you can only see the destruction.  To the North and West,
+you gaze out at the corrupted, desolate land which was once so beautiful.
+Amid the destruction, you see a few points of life.  Just to the Northeast
+of you stands a tall, healthy oak tree, while further to the North, you
+actually think you see green.  The mountain trail you are on continues North
+and South, while a small path leads up from the forest to the West.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 5 }
+	to { s, 3 }
+	to { w, 6 }
+  }
+}
+
+5
+{
+  name { Thorny Path }
+  desc {
+"   You are ascending a path into the mountains, which continues to the North
+and South.  The region seems just as desolate as the forest below you.  The
+ground is cracked and dying, and the only vegetation is a thorny brush, which
+practically cover the path, ripping at your clothes.  The entire Eastern
+cliff is covered by a wall of thorns.  On the other side, just to the West
+is a sharp drop.  Past it, you can see the entire elven forest.  The eerie,
+corrupted view turns your stomach.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 11 }
+	to { s, 4 }
+  }
+}
+
+6
+{
+  name { Corrupted Woods }
+  desc {
+"   You stand in what must have once been a very beautiful grove of trees.
+Now, it has been mutated beyond recognition.  The grotesque shapes of the 
+trees are all but indescribable.  You get the impression that this forest 
+has been destroyed by some great, evil force which may still lurk about...
+  }
+  sector { Forest }
+  exits {
+	to { n, 13 }
+	to { e, 4 }
+	to { w, 7 }
+  }
+}
+
+7
+{
+  name { Tainted Trees }
+  desc {
+"   You are in a grove of tall trees which seem tainted.  They glow with a
+sickly green aura which speaks of evil, pestilence and disease.  You suppress
+a shudder and view your surroundings.  To the south and west lie this 
+forest's protective mountains, while woods lie to the east.  To the North, a
+wide swath of destructions cuts into the heart of this realm.
+  }
+  sector { Forest }
+  exits {
+	to { n, 8 }
+	to { e, 6 }
+  }
+}
+
+8
+{
+  name { Blackened Oaks }
+  desc {
+"   Your heart skips a beat as you enter this grove of trees.  Without a
+doubt, this grove used to contain some of the strongest and most beautiful
+trees in the entire elven forest.  Now, it looks as though a giant hand
+came down from the heavens, and simply pushed the trees down, in a line from
+West to East.  The few Oaks which still stand have been warped into unhealthy
+shapes, which nature itself could never produce.  Following the line of 
+downed trees, you realize that it leads to a freshly hewn pathway in the
+mountains to the West.
+  }
+  sector { Forest }
+  exits {
+	to { n, 14 }
+	to { e, 13 }
+	to { s, 7 }
+	to { w, 9 }
+  }
+}
+
+9
+{
+  name { Freshly Hewn Pathway }
+  desc {
+"   You stand in a pathway which is quite freshly-hewn.  From the marks made
+during the construction of this pathway, it seems that something moved out
+into the forest from the west.  To the west, the stench of brimstone is
+stronger than ever.
+  }
+  sector { Forest }
+  exits {
+	to { e, 8 }
+	to { w, 10 }
+  }
+}
+
+10
+{
+  name { Guarded Cave }
+  desc {
+"   You stand at the entrance to a dark cave.  The destroyed forest is behind
+you, to the east, while to the west lies the unknown.  Within the cave, you
+see dark shadows flittering about.  The scent of brimstone is stronger
+than ever here, and the sense of foreboding that you felt when you first
+entered the forest clutches anew at you heart.  You have little doubt that
+one of the great evils lies within this cave...
+  }
+  flags { indoors }
+  exits {
+	to { e, 9 }
+	to { w, 18 }
+  }
+}
+
+11
+{
+  name { The Elven Forest }
+  desc {
+"   You stand at the entrance of what was once a grand elven forest.  Now, it
+lies in ruins about you.  Blackened stumps abound and the trees which still
+stand reek of decay.  This secluded vale has obviously been destroyed by some
+great disaster.  You are overcome by a sense of foreboding!  The evil which
+ruined this forest may still be around!
+   Although deeply disturbed by the destruction around you, you manage to 
+look about to determine your position.  To the North and East are the 
+mountains which shield this valley.  The area to the South of you also heads
+into mountains, but a path makes passage possible.  An archway marks a tunnel
+through the eastern mountains.
+  }
+  sector { Forest }
+  exits {
+	to { e, 49 }
+	to { s, 5 }
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { Ruined Glade }
+  desc {
+"   You are in a small clearing in the ruins of the elven forest.  The ground
+in this clearing is blackened and infertile.  It is obvious that nothing 
+will grow here for a long time.  The only sign of life here is a circle of
+toadstools which lies near the center of the glade.  All around you is ruined
+forest.  Just to the North, however, you think that you see some greenery.
+  }
+  sector { Forest }
+  exits {
+	to { n, 15 }
+	to { e, 11 }
+	to { s, 13 }
+	to { w, 14 }
+  }
+}
+
+13
+{
+  name { Shattered Forest }
+  desc {
+"   You cry out in horror as you witness what has been done to this forest.
+All about, trees lie downed, as if hewn by some giant axe.  However, even 
+the twisted corpses of the trees seem unnatural.  Somehow, a single oak tree
+in the center of the swath of destruction seems to have survived.  It lies
+just to the east of you.  To the west, the line of destruction seems to
+continue.  Mercifully, mountains to the east protected any further realms 
+from this corruption.
+  }
+  sector { Forest }
+  exits {
+	to { n, 12 }
+	to { s, 6 }
+	to { w, 8 }
+  }
+}
+
+14
+{
+  name { Warped Glen }
+  desc {
+"   You have wandered into a small glen which is grotesquely warped.  Trees
+form weird, diabolical shapes, and the area seems pervaded by the stench of
+brimstone.  You gag to avoid breathing the fouled air.  To the North and West
+are the mountains which shield this valley.  It is quite unfortunate that
+they did not protect the forest from whatever destroyed it...
+  }
+  sector { Forest }
+  exits {
+	to { e, 12 }
+	to { s, 8 }
+  }
+}
+
+15
+{
+  name { Forest Path }
+  desc {
+"   You are walking down a forest path which seems less corrupted than the
+surrounding areas.  Some wildlife still lives, and the trees are not rotting
+or dead.  You see some of the beauty which once existed in this realm.
+   To the north of you lies more vibrant forest, while to the south you see 
+only destruction.
+  }
+  sector { Forest }
+  exits {
+	to { n, 16 }
+	to { s, 12 }
+  }
+}
+
+16
+{
+  name { Forest Home }
+  desc {
+"   You have entered a small forested area of great beauty, in sharp contrast
+to the destruction to the south.  About you, the sounds of nature abound.
+If not for the memory of the tainted forest to the south, you could become
+easily lost in the beauty here.  Just to the East of you, partially hidden by
+healthy trees, is a small cottage.  To the North and West are the mountains 
+which seclude this valley.
+  }
+  sector { Forest }
+  exits {
+	to { e, 17 }
+	to { s, 15 }
+  }
+}
+
+17
+{
+  name { Dinthiar's Cottage }
+  desc {
+"   You have entered the home of Dinthiar, the Elven King.  It is a rather
+simple dwelling.  A bed, table and chair are the only furnishings.  However,
+the whole room is given a 'foresty' feel by the ivy which grows up the walls,
+and by the potted plants which hang from the ceiling.  It is exactly the type
+of dwelling that you would expect an elf to have.
+  }
+  flags { indoors }
+  exits {
+	to { w, 16 }
+  }
+}
+
+18
+{
+  name { Entry Room }
+  desc {
+"   Standing at the entrance to this system of caves, the only description
+which comes to mind is 'hellish.'  The caverns glow with a strange red
+aura which speaks of nothing more than hellfire.  It almost seems to you that
+you can hear the screams of the damned.  A set of stairs leads downwards, and
+the heat coming from below almost knocks you out.  Just to the North is a
+roughly carved doorway.  Next to the door is a sign.
+  }
+  extra {
+	keywords { sign" }
+	desc { "   The sign says: Please check in your soul before entering.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 19 }
+	to { e, 10 }
+	to { d, 20 }
+  }
+}
+
+19
+{
+  name { Coat Room }
+  desc {
+"   With a morbid sense of curiosity, you enter the cave where you have been
+directed in order to check your soul.  Quite surprisingly, you are not
+instantly zapped by some evil being.  Instead, the room seems to be a quite
+simple coat room.  Lining the walls are coats of every shape and size, 
+checked in, no doubt, due to the heat below.  You would laugh at how
+ridiculous this whole scene looked if not for the evil that you feel below
+you.
+  }
+  flags { indoors }
+  exits {
+	to { s, 18 }
+  }
+}
+
+20
+{
+  name { Guard Room }
+  desc {
+"   The heat in this room is stifling.  As you struggle to breath the scalding
+air, you manage to take in the surroundings.  All about, you can see squalor.
+A broken tables lies off to one corner, with the remnants of a meal, ages old
+on it, and several broken chairs litter the floor.  The room itself actually
+reeks of garbage, and covering the walls are a dried up substance that looks
+suspiciously like blood.  A crudely letter sign on the wall reads GARD ROME.
+To the South is an archway that seems to lead into a somewhat cleaner room,
+and to the East, you see a door.
+  }
+  flags { indoors }
+  exits {
+	to { e, 22 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 21 }
+	to { u, 18 }
+  }
+}
+
+21
+{
+  name { Demon Treasury }
+  desc {
+"   This room seems to be somewhat cleaner than the guard room to the North,
+but not much.  The same reek of garbage pervades the air, and piles of 
+litter have been shoved to the sides of the room.  However, in the center of
+the room is a wooden pedestal which has been polished to perfection, and
+which is exceedingly clean.  You have come through the only entrance to this
+room.
+  }
+  flags { indoors }
+  exits {
+	to { n, 20 }
+  }
+}
+
+22
+{
+  name { Stairs to Hades }
+  desc {
+"   You have no doubt in your mind that the stairs in the middle of this room
+must go down to hell itself.  If you thought the earlier rooms were hot, you
+were obviously sadly mistaken.  Here, every breath you take burns your lungs.
+Your skin is already beginning to blister from the intense heat, and you are
+worried that your clothing may spontaneously combust!  As well, flames 
+appear in the corners of this room and the smell of brimstone is so strong
+that it makes you want to vomit immediately.  Surely, nothing but Hades 
+itself could lie in the Inferno below...
+   To the West you see a door.
+  }
+  flags { indoors }
+  exits {
+	to { w, 20 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 23 }
+  }
+}
+
+23
+{
+  name { Hot Cavern }
+  desc {
+"   You stand in a huge, natural cavern.  It is not just hot, but rather
+almost unbearable.  To the south of you is another natural cavern, while to
+the east lies a passage which is obviously man-made.  Just to the west is a
+stone door, set in the wall of the cavern.  A diamond shaped hole lies in 
+the center of the stone.
+  }
+  flags { indoors }
+  exits {
+	to { e, 39 }
+	to { s, 24 }
+	to { w, 43 }
+	  info { door, closed }
+	  keywords { door" }
+	to { u, 22 }
+  }
+}
+
+24
+{
+  name { Fungus Cavern }
+  desc {
+"   You are quite delighted to find that this cavern is much cooler than the
+surrounding ones.  In fact, the change in temperature is so dramatic that
+you begin to shiver uncontrollably.  All about this room are various types of
+fungi.  You can make out familiar toadstools and mushrooms.  In addition,
+you see more much exotic fungi than you have never encountered before.  
+Perhaps, you think, you are the only mortal to ever have ventured this far
+into the earth.  Other natural caverns lie to the North and South.
+  }
+  exits {
+	to { n, 23 }
+	to { s, 25 }
+  }
+}
+
+25
+{
+  name { Large Lake }
+  desc {
+"   Although not as cool as the marvelous fungus cavern, this room is much 
+more comfortable than the surrounding caves.  In the center of this cavern is
+a large lake.  Looking over the walls, you notice strange writing.  It
+almost looks like elven writing, somehow corrupted.  Overall, the entire
+cavern seems quite gloomy.  The lake seems to have dried up, and a large
+hole leading downward lies in its center.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 24 }
+	to { d, 26 }
+  }
+}
+
+26
+{
+  name { Long Ladder }
+  desc {
+"   You are midway up a very long ladder.  It seems rather damp, as if water
+has been constantly dripped on it.  You think you can manage to keep a grip
+on the ladder which extends far above and below you.
+  }
+  flags { dark }
+  exits {
+	to { u, 25 }
+	to { d, 27 }
+  }
+}
+
+27
+{
+  name { Cavern of the Dark Elves }
+  desc {
+"   You have entered an enormous cavern.  You are awed by the vastness of
+this room.  As you acclimate to this dark, damp environment, you remember of
+the ancient legends you have heard of a dark race of elves living below the
+surface.  Looking around you, you notice many dark shapes moving in the 
+shadows.  Perhaps it would be best to move through these realms quickly, 
+for the dark shapes would overwhelm you by sheer numbers if you stay here
+any longer.  The tunnel branches off in all directions, while a ladder leads
+upward.
+  }
+  flags { dark }
+  exits {
+	to { n, 30 }
+	to { e, 28 }
+	to { s, 35 }
+	to { w, 37 }
+	to { u, 26 }
+  }
+}
+
+28
+{
+  name { Glowing Passage }
+  desc {
+"   You walk down a passage which curves to the West and South.  The passage
+is lit by an eerie green glow which seems to come from fungus growth on the
+walls.  Every once in a while, you think you see a dark shape at the edge
+of your vision, but then it could just be your imagination.
+  }
+  exits {
+	to { s, 29 }
+	to { w, 27 }
+  }
+}
+
+29
+{
+  name { Fungoid Cavern }
+  desc {
+"   You stand in an enormous cavern which seems to be wall-to-wall fungus.
+Besides mushrooms and other common fungus, you also see many unusual ones,
+much as in the fungus cavern above.  As well, the green fungus from the
+the passageway to the North may be seen.
+  }
+  exits {
+	to { n, 28 }
+  }
+}
+
+30
+{
+  name { Dark Elf Temple }
+  desc {
+"   You have emerged into the largest subterranean cavern that you have ever
+seen.  Above you, the roof lies somewhere beyond the radius of your light
+source, while to the sides of this cavern, you can just barely make out the
+walls.  Most astounding is a temple lying in the center of this cavern, which
+has apparently been constructed entirely underground!  The temple is made out
+of some type of dark stone which glows with an unholy black light.  Without
+a doubt, this temple is dedicated to some dark deity.  You may enter it to 
+the North.  Off to the east and south lie other exits from this cavern.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { n, 32 }
+	to { e, 31 }
+	to { s, 27 }
+  }
+}
+
+31
+{
+  name { Temple Guard Room }
+  desc {
+"   You stand in the room which housed the two dark elves who guarded the
+temple.  It is a rather dark and dreary.  On the ground lie two worn
+mattresses, while a wobbly table stands to the side.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { w, 30 }
+  }
+}
+
+32
+{
+  name { Inside the Temple }
+  desc {
+"   You stand just inside the temple of the dark elves.  Looking around, you
+realize that it is quite beautiful, even though the beauty seems somehow 
+evil.  You are chilled by a sense of foreboding as you think of what dark 
+acts may have been committed inside this place of worship, for some nameless
+evil god.
+  You see small archways out of this room to the North and West.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { n, 34 }
+	to { s, 30 }
+	to { w, 33 }
+  }
+}
+
+33
+{
+  name { Temple Treasury }
+  desc {
+"   You stand in the treasury of this grand dark elven temple.  This side room
+is just as beautiful, in its dark, alluring way, as the main worship room to
+the east.  Looking around, you are surprised to see that the treasury is 
+empty!  You see a large note scrawled on the wall in a dark red ink, possibly
+the blood of sacrifice.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { e, 32 }
+  }
+}
+
+34
+{
+  name { Dark Priest's Lair }
+  desc {
+"   You stand in a room which is consumed by darkness.  Shadows flicker every-
+where, seeming almost alive.  For a moment, you worry that your light source
+may be extinguished.  Glancing around, through the inky darkness, you realize
+that you are in some type of bedroom.  Evil religious icons and grotesque
+paintings line the walls.  In the corner sits an altar which is covered by
+a dark red liquid.  Without a doubt, this is the home of the Priest of the
+dark elves.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { s, 32 }
+  }
+}
+
+35
+{
+  name { Elven Barracks }
+  desc {
+"   You are in a large barracks for the dark elf troops.  The whole place 
+seems run down.  Trash litters the floor and most of the beds in this room 
+are destroyed.  It looks as if, for the most part, the dark elves do not 
+bother to maintain an army now that their enemies, the good elves above,
+are gone.
+   Exits leave these barracks to the North and South.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { n, 27 }
+	to { s, 36 }
+  }
+}
+
+36
+{
+  name { Captain's Quarters }
+  desc {
+"   You stand in a large room which seems to have been well kept.  It has none
+of the squalor of the barracks to the North.  There is a neat bed here, as
+well as an organized desk.  However, the entire room is covered by a layer 
+of dust.  Obviously, these quarters have not been used for quite some time.
+The only exit is to the North.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { n, 35 }
+  }
+}
+
+37
+{
+  name { Elven Barracks }
+  desc {
+"   You are in a large barracks for the dark elf troops.  The whole place 
+seems run down.  Trash litters the floor and most of the beds in this room 
+are destroyed.  It looks as if, for the most part, the dark elves do not 
+bother to maintain an army now that their enemies, the good elves above,
+are gone.
+   Exits leave these barracks to the West and East.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { e, 27 }
+	to { w, 38 }
+  }
+}
+
+38
+{
+  name { Commander's Quarters }
+  desc {
+"   You stand in a large, well-kept room.  It has none of the squalor of the
+barracks to the East.  There is a neat bed here, with a tidy table next to 
+it.  If it weren't for the fact everything in this room was black, the place
+might actually look cheery.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { e, 37 }
+  }
+}
+
+39
+{
+  name { Demonic Museum }
+  desc {
+"   You have entered what could only be a demonic museum.  All about you are
+statues and paintings, most of which are quite grotesque.  You see sculptures
+of demons torturing humans in many gruesome ways, as well as paintings of 
+what must be Hades.  The whole site is quite sickening.  Doors lead North, 
+East and South into additional museum rooms, while to the west lies the exit
+to this perverted place.
+  }
+  exits {
+	to { n, 41 }
+	to { e, 40 }
+	to { s, 42 }
+	to { w, 23 }
+  }
+}
+
+40
+{
+  name { Mosaic Room }
+  desc {
+"   The entirety of this room is covered by a huge mosaic.  It covers all of 
+the walls, as well as the ceiling and the floor.  You realize immediately 
+that the area shown in the mosaic is that which mortals call the wasteland.
+  You see images of fire, a sword of awesome power, crystal flame and a great
+djinni.  For a moment, you almost become lost in the awesome vision.
+   Flaming red letters in the center of the room spell out the words, HOME,
+SWEET, HOME.
+  }
+  exits {
+	to { w, 39 }
+  }
+}
+
+41
+{
+  name { Hate Gallery }
+  desc {
+"   All throughout this room are paintings of a gruesome undead beast.
+Without a doubt, it must be the DemoLich who, when fighting Asmodeus, was
+rumored to have helped cause the destruction of the elven forest.  The fact 
+that the DemoLich is an enemy of the demon lord here is made quite clear by
+the 'voice' you hear chanting in your head.  Over and over, you hear 'hate. 
+hate. hate. hate...'
+  }
+  exits {
+	to { s, 39 }
+  }
+}
+
+42
+{
+  name { Art Gallery }
+  desc {
+"   This part of the Demonic museum seems to be entirely devoted to demonic
+art.  The pieces are all quite horrific, and there is definitely nothing
+valuable here.  You are almost drawn by a morbid curiosity to look at all of
+the terrifying pictures.  The only exit out of this awful place lies to the 
+North.
+  }
+  exits {
+	to { n, 39 }
+  }
+}
+
+43
+{
+  name { Boiling Lake }
+  desc {
+"   You have entered another natural cavern.  In the middle of the cavern is a
+huge lake.  Indeed, the scene would appear to be quite normal if not for the
+fact that lake was actually boiling.  It has become so hot in this room that
+water itself is unable to remain in its liquid form!  Surely, you must escape
+this demonic realm soon!  Avenues of retreat from here lie to the North and
+East.
+  }
+  exits {
+	to { n, 44 }
+	to { e, 23 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+44
+{
+  name { Stone Room }
+  desc {
+"   You stand in a perfectly cubical room, obviously not natural.  What makes
+the room eerie is the fact that no signs of construction are visible.  It is
+almost as if the entire room sprung from the earth in its present shape.  To
+the South you hear the sounds of liquid boiling, while to the north, beyond
+a perfect archway, you see what looks like a throne room.
+   A sign sits above the door here.
+  }
+  extra {
+	keywords { sign" }
+	desc { The sign reads, abandon Hope all ye who enter here.
+	}
+  }
+  exits {
+	to { n, 45 }
+	to { s, 43 }
+  }
+}
+
+45
+{
+  name { Throne Room }
+  desc {
+"   You have entered the throne room of Asmodeus, the Demon Lord who, in his
+battle with the evil DemoLich, destroyed the beautiful elven forest.  You
+rapidly glance around the room and see, in the middle of the room, a throne
+made out of human bones.  You gag at the sight, and rapidly look for exits
+from this room.  They lie to the South and West.
+  }
+  exits {
+	to { s, 44 }
+	to { w, 46 }
+  }
+}
+
+46
+{
+  name { The Den }
+  desc {
+"   You have entered Asmodeus' study.  In the center of the room is a desk,
+which you realize is covered with human skin.  Putting that thought out of
+your mind you look around the rest of the room.  The walls are made of the
+red rock that is common throughout the caves and the smell of sulphur, like
+always, all but overwhelms you.  Still, your eyes keep returning to that
+gruesome desk.  Looking for exits to this room, you find three.  They lie to
+the North, East and South.
+  }
+  exits {
+	to { n, 48 }
+	to { e, 45 }
+	to { s, 47 }
+  }
+}
+
+47
+{
+  name { Asmodeus' Bedroom }
+  desc {
+"   You realize that this must be what the demonlord calls a bedroom.  It is
+little more than a space of level rock in the center of the room.  Asmodeus
+obviously worries little about the ordinary comforts of life.  At the least,
+this room is not as grotesque as the study that you just passed through.
+  }
+  exits {
+	to { n, 46 }
+  }
+}
+
+48
+{
+  name { Asmodeus' Treasury }
+  desc {
+"   You have entered the treasury of the vile demon-lord, Asmodeus.  In the
+corner of this room sits an easy chair.  Without a doubt, Asmodeus would 
+spend long hours in here, simply counting his treasures.  You grin evilly at
+the thought of stealing from a demon lord.
+  }
+  exits {
+	to { s, 46 }
+  }
+}
+
+49
+{
+  name { Mountain Passage }
+  desc {
+"   You are walking down a long passage which has been carved out of the 
+heart of the mountain.  It is obvious that great time has been spent carving
+this passage.  You have heard rumors of the dwarves of the North cutting a
+passage through to a beautiful forest for the elves of this realm.  Perhaps,
+that beautiful, fabled realm lies to the West!
+  }
+  exits {
+	to { e, 50 }
+	to { w, 11 }
+  }
+}
+
+50
+{
+  name { North-Western Corner Of Valley }
+  desc {
+"   You are standing in amongst some trees in the North-Western corner of the
+valley.  Soaring cliffs bar any route either north or west, but the valley
+extends to the south and east.  A passage leads through the mountain to the
+West.
+  }
+  exits {
+	to { e, 51 }
+	to { s, 114 }
+	to { w, 49 }
+  }
+}
+
+51
+{
+  name { Northern End Of Valley }
+  desc {
+"   You are near the northern end of the valley.  The dark mountains close up
+around you to the north, although a narrow track for some reason leads north
+right towards the very end of the valley.  Elsewhere around you the view is
+obscured by trees, although from the south you can hear the musical tinkle of
+water.
+  }
+  exits {
+	to { n, 52 }
+	to { e, 89 }
+	to { s, 113 }
+	to { w, 50 }
+  }
+}
+
+52
+{
+  name { North End Of Valley }
+  desc {
+"   You are at the northern end of a steep mountainous valley.  The valley
+extends away southward as far as you can see, flanked on each side by the
+mighty mountain peaks towering into the clouds.
+   A narrow gully leads west up the side of a cliff, climbing at a dangerous
+looking angle towards the top.
+  }
+  exits {
+	to { s, 51 }
+	to { w, 53 }
+	to { u, 53 }
+  }
+}
+
+53
+{
+  name { Narrow Gully }
+  desc {
+"   You are clambering through a narrow rocky gully, the floor of which is
+sloping at an angle of almost 45 degrees.  Shale and loose stone make the
+gully treacherous, as your feet send bits of rock tumbling down into the
+valley below.
+   You can clamber up the gully towards a turning or down towards the valley
+floor.
+  }
+  exits {
+	to { e, 52 }
+	to { w, 54 }
+	to { u, 54 }
+	to { d, 52 }
+  }
+}
+
+54
+{
+  name { Narrow Gully }
+  desc {
+"   The path turns sharply from the north here, plunging steeply down into a
+narrow gully, a mere six feet wide.
+  }
+  exits {
+	to { n, 55 }
+	to { e, 53 }
+	to { u, 55 }
+	to { d, 53 }
+  }
+}
+
+55
+{
+  name { Rocky Path Winding Down }
+  desc {
+"   You are following a rocky path winding down southward into a narrow, steep
+sided valley, the only other exit is west towards a huge citadel set on the
+mountain top.
+  }
+  flags { no_mob }
+  exits {
+	to { s, 54 }
+	to { w, 56 }
+	to { d, 54 }
+  }
+}
+
+56
+{
+  name { Citadel Entrance }
+  desc {
+"   You are standing at the entrance to a huge citadel, carved from the very
+rock of the mountains.  A pair of gates are set into the southern edge of the
+deep rocky bowl you stand in.  A single exit leads east down a narrow path
+into the valley below.
+  }
+  flags { no_mob }
+  exits {
+	to { e, 55 }
+	to { s, 57 }
+	  info { door, closed }
+	  keywords { gate" }
+  }
+}
+
+57
+{
+  name { Dwarven Gatehall }
+  desc {
+"   You are standing in the dwarven gatehall.  A wide passage leads south 
+into the great hall.  To the north the huge dwarven gates stand solid, their
+massive iron bulk ready to bar all entry in the event of a war.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 56 }
+	  info { door, closed }
+	  keywords { gate" }
+	to { s, 58 }
+  }
+}
+
+58
+{
+  name { Great Hall }
+  desc {
+"   You stand in the dwarven Great Hall, a huge carved room of spectacular
+design, with a massive fan-vaulted ceiling.  The spectacular arches and
+pillars are all decorated with dwarven battle scenes and, high up, dwarven
+momentos ofgreat age are hung, golden banners, shining axes, helms, and many
+other items of war and craft.
+   High arched exits lead north, east and south, a set of narrow stairs lead
+down into the cellars, and a wide sweeping staircase leads up to a high
+balcony overlooking the hall.
+  }
+  exits {
+	to { n, 57 }
+	to { e, 59 }
+	to { s, 60 }
+	to { u, 64 }
+	to { d, 74 }
+  }
+}
+
+59
+{
+  name { Dwarven Smithy }
+  desc {
+"   You are standing in the smithy, a large room given over to one of the
+dwarves of great skills.  A narrow doorway leads west.
+  }
+  exits {
+	to { w, 58 }
+  }
+}
+
+60
+{
+  name { The Dwarven Dining Hall }
+  desc {
+"   This huge hall is another tribute to the skilled stonework of the 
+dwarves, a circular hall with a spectacular painted domed roof that seems 
+lost in the shadows high above you.  From the walls, spectacularly carved
+gargoyles leer down, attempting to put you off your food.
+   Passages lead north, east and west.
+  }
+  exits {
+	to { n, 58 }
+	to { e, 61 }
+	to { w, 62 }
+  }
+}
+
+61
+{
+  name { Side Hall }
+  desc {
+"   You are standing in a small pillared side hall.  Less splendid than the
+other halls, the room seems more sober and thoughtful.  A doorway leads west.
+  }
+  exits {
+	to { w, 60 }
+  }
+}
+
+62
+{
+  name { Dwarven Kitchen }
+  desc {
+"   You are in a sooty, low roofed kitchen.  An exit leads north into a small
+pantry, and another leads east into a large hall.
+  }
+  exits {
+	to { n, 63 }
+	to { e, 60 }
+  }
+}
+
+63
+{
+  name { Pantry }
+  desc {
+"   You are in the dwarves' pantry.  The only exit is south into the kitchens
+where the dwarves prepare their meals.
+  }
+  exits {
+	to { s, 62 }
+  }
+}
+
+64
+{
+  name { Upper Landing }
+  desc {
+"   You are standing on the upper landing looking over the lower levels of 
+the great hall.  A set of stairs lead down into the hall itself, while at
+various points around the landing doorways lead off.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 69 }
+	to { e, 65 }
+	to { s, 70 }
+	to { w, 71 }
+	to { d, 58 }
+  }
+}
+
+65
+{
+  name { Narrow Passage }
+  desc {
+"   You are standing in a narrow east west passage that links the east tower
+with the Great Hall.
+  }
+  exits {
+	to { e, 66 }
+	to { w, 64 }
+  }
+}
+
+66
+{
+  name { East Tower }
+  desc {
+"   You are standing in the lower room of the east tower.  The room is bare 
+and the thick stone walls seem to hem you in.  A narrow staircase winds up to
+the top of the tower, and a passage leads west.
+  }
+  exits {
+	to { w, 65 }
+	to { u, 67 }
+  }
+}
+
+67
+{
+  name { Top Of East Tower }
+  desc {
+"   You are standing at the top of the east tower.  A narrow staircase winds
+down, and to the west is a door.
+  }
+  exits {
+	to { w, 68 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 66 }
+  }
+}
+
+68
+{
+  name { The Treasury }
+  desc {
+"   You are standing in the dwarven treasury.  A large and very well
+protected room that few are privileged to see.  A single door leads east.
+   There is a charred shape on the wall, somewhat resembling the remains
+of the ex necromancer Moog, and scratched on the wall you see the words "Die
+Frog...the ex knight to be!".  A second notice reads "Who's he?" and another
+asks "What's a Moog?"
+  }
+  exits {
+	to { e, 67 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+69
+{
+  name { The Throne Room }
+  desc {
+"   You stand in the center of the Dwarven Throne room, a vast arched hall
+whose ceiling appears to be a huge picture of a dwarf's head made purely from
+rare and precious metals.  A single door leads south.
+  }
+  exits {
+	to { s, 64 }
+  }
+}
+
+70
+{
+  name { Dwarven Bedroom }
+  desc {
+"   You are in a dwarven bedroom.  A single doorway leads north.
+  }
+  exits {
+	to { n, 64 }
+  }
+}
+
+71
+{
+  name { Passage }
+  desc {
+"   You are following a narrow passage that leads east-west, linking the west
+tower and the Great Hall.
+  }
+  exits {
+	to { e, 64 }
+	to { w, 72 }
+  }
+}
+
+72
+{
+  name { West Tower }
+  desc {
+"   You are in a small room at the base of the west tower.  A narrow passage
+leads east, and a set of spiral stairs climb up towards the top of the tower.
+  }
+  exits {
+	to { e, 71 }
+	to { u, 73 }
+  }
+}
+
+73
+{
+  name { Top Of West Tower }
+  desc {
+"   You are in a small room at the top of the west tower.  It looks out 
+across a vast expanse of land.  As your eyes wander across the skyline you
+can pick out the Desert of Fools, the valley and the black tower far in the
+distance.  Clearly this is the dwarven watch post in times of war.
+   Stone stairs lead down.
+  }
+  exits {
+	to { d, 72 }
+  }
+}
+
+74
+{
+  name { Dwarven Cellars }
+  desc {
+"   You are in the huge cellar of the dwarven fortress.  Massive pillars of
+stone, and stone arches bear the weight of the mighty stoneworks above.  A
+narrow staircase winds down into darkness and up into the main castle hall.
+  }
+  exits {
+	to { e, 75 }
+	to { u, 58 }
+	to { d, 76 }
+  }
+}
+
+75
+{
+  name { Side Cellar }
+  desc {
+"   You are standing in a small damp side cellar.  The cellar is cold and
+musty, and probably also serves as the dwarven cold store.
+  }
+  exits {
+	to { w, 74 }
+  }
+}
+
+76
+{
+  name { Stairs }
+  desc {
+"   You are standing at the bottom of some dwarven stairs that lead north
+along a passage, and up into what appears to be the cellars of a huge dwarven
+fortress.
+  }
+  exits {
+	to { n, 77 }
+	to { u, 74 }
+  }
+}
+
+77
+{
+  name { Dwarven Tunnel }
+  desc {
+"   You are standing at a junction between passages.  A passage leads north 
+and south, while another branches off to the east.
+  }
+  exits {
+	to { n, 80 }
+	to { e, 78 }
+	to { s, 76 }
+  }
+}
+
+78
+{
+  name { Dwarven Store Room }
+  desc {
+"   You are in a small dwarven store room.  To the south is another door, and
+a passage leads west.
+  }
+  exits {
+	to { s, 79 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 77 }
+  }
+}
+
+79
+{
+  name { Dwarven Store }
+  desc {
+"   You are in a dark shadowy store room.  A single door leads north.  There
+is a small chute, too steep and slippery to climb, in the south wall.  Its
+purpose is a complete mystery.
+  }
+  exits {
+	to { n, 78 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+80
+{
+  name { Wide Passage }
+  desc {
+"   You are standing in a wide but low dwarven passage way which leads south
+and west.  There is a door to the north.
+  }
+  exits {
+	to { n, 88 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 77 }
+	to { w, 81 }
+  }
+}
+
+81
+{
+  name { Dwarven Hall }
+  desc {
+"   You are in a pillared dwarven hall, with a high arched roof.  The 
+carefully sculpted ceiling bears a picture of a beautiful woman at work, rest
+and play. The last is by far the most interesting...
+   Passages lead east and south, and a door lies north.
+  }
+  exits {
+	to { n, 82 }
+	  info { door, closed }
+	  keywords { door" }
+	to { e, 80 }
+	to { s, 83 }
+  }
+}
+
+82
+{
+  name { Armory }
+  desc {
+"   You are in a small dwarven armory.  The only exit is a door to the south.
+  }
+  exits {
+	to { s, 81 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+83
+{
+  name { Long Passage }
+  desc {
+"   You are following a long narrow passage which runs west to a door, and
+turns north into a hall.
+  }
+  exits {
+	to { n, 81 }
+	to { w, 84 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+84
+{
+  name { Narrow Stairs }
+  desc {
+"   You are on a small landing on the narrow staircase.  The roof here is a
+mere four feet high, so those taller than dwarves are forced to stoop.  
+There is a low door in the east wall.  The stairs continue up and down from 
+here.
+  }
+  exits {
+	to { e, 83 }
+	  info { door, closed }
+	  keywords { door" }
+	to { u, 86 }
+	to { d, 85 }
+  }
+}
+
+85
+{
+  name { Narrow Stairs }
+  desc {
+"   The stairs end abruptly in a small room hewn from the living rock. The
+walls are rough, giving this room that "about to be worked on" feel.  At the
+moment, however, your only exit is back up the stairs.
+  }
+  exits {
+	to { u, 84 }
+  }
+}
+
+86
+{
+  name { Narrow Stairs }
+  desc {
+"   You are descending a set of narrow stairs which twist and turn sharply as
+they plunge steeply down into darkness.  Above you the stairs flatten out
+into a small room.
+  }
+  exits {
+	to { u, 87 }
+	to { d, 84 }
+  }
+}
+
+87
+{
+  name { The Small Room }
+  desc {
+"   You are in a small room at the top of a narrow flight of stairs.  The
+room looks bare and empty and is one of those rooms which have no real reason
+to exist apart from linking two other rooms together.
+  }
+  exits {
+	to { d, 86 }
+  }
+}
+
+88
+{
+  name { Dwarven Guardroom }
+  desc {
+"   You are in what appears to be a dwarven guardroom.  The roof is low and
+those other than dwarves have to crouch down inside it.  A door leads south.
+  }
+  exits {
+	to { s, 80 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+89
+{
+  name { Oak Forest }
+  desc {
+"   You are walking through well spaced oak trees, whose low tangled branches
+reach out around you, confusing the light and rustling quietly in the wind.
+   The forest extends in all direction save from the north, where it stops
+abruptly, cut short by a massive towering cliff.  To the west there seems to
+be a clearing.
+   A path climbs up the cliff side to the north.
+  }
+  exits {
+	to { n, 90 }
+	to { e, 122 }
+	to { s, 120 }
+	to { w, 51 }
+  }
+}
+
+90
+{
+  name { Tree Tops }
+  desc {
+"   You are almost at the bottom of the cliff path, which leads south into
+thick forest.  The steps wind up and up the cliff dwindling to a mere speck.
+  }
+  exits {
+	to { s, 89 }
+	to { u, 91 }
+	to { d, 89 }
+  }
+}
+
+91
+{
+  name { The Cliff Steps }
+  desc {
+"   You are standing on a set of narrow winding steps carved into the side of
+a cliff face. The steps climb up and up above you, but below you can now make
+out the ground, and the treetops.
+  }
+  exits {
+	to { u, 92 }
+	to { d, 90 }
+  }
+}
+
+92
+{
+  name { The Cliff Steps }
+  desc {
+"   You are standing on a set of narrow winding steps carved into the side of
+a steep cliff face.  The steps descend down as far as you can see, and
+contemplating them for a long time leaves you feeling giddy.  The steps lead
+upwards to the lip of the cliff.  To the east, but well beyond your jumping
+ability, you can see a wide ledge and what appears to be a cave mouth.
+Fortunately, someone in recent times has built a rope bridge leading east
+across to the ledge.
+  }
+  exits {
+	to { e, 106 }
+	to { u, 93 }
+	to { d, 91 }
+  }
+}
+
+93
+{
+  name { Path }
+  desc {
+"   You are following a narrow winding path off the moors, leading south 
+toward some steps.  The view southward from here is breathtaking, as the 
+steps are at the edge of a steep drop, giving you a superb vantage upon the
+wild misty mountains.  The peaks soar high around you, walling in a wide
+valley.  The lush green of the valley deep below, and the glittering of water
+contrast superbly with the snowy cloud veiled mountain tops, a stunning
+picture that you could contemplate for hours...
+  }
+  exits {
+	to { n, 94 }
+	to { s, 92 }
+	to { d, 92 }
+  }
+}
+
+94
+{
+  name { Misty Moorland }
+  desc {
+"   You are standing on the south-eastern edge of a vast tract of misty,
+tangled moorland.  Thick gorse and bracken make travel almost impossible save
+for narrow, animal-worn tracks to the north and east.
+  }
+  exits {
+	to { n, 97 }
+	to { e, 95 }
+	to { s, 93 }
+  }
+}
+
+95
+{
+  name { Misty Moorland }
+  desc {
+"   You are wandering amidst the thickets and stones far out upon the moor.
+Grey and barren, they extend all around you.  Thick gorse and bushes prevent
+even the most determined adventurer from doing anything but following the
+paths to the north and west.
+  }
+  exits {
+	to { n, 96 }
+	to { w, 94 }
+  }
+}
+
+96
+{
+  name { The Stone Circle On The Moor }
+  desc {
+"   You are standing in the center of an ancient circle of jagged stones 
+hidden in a deep bowl in the center of the moors.  Narrow scarcely used 
+tracks wind up from the deathly quiet bowl.  The center of the circle is a
+black, gloomy altar to some ancient god.
+  }
+  exits {
+	to { n, 99 }
+	to { e, 100 }
+	to { s, 95 }
+	to { w, 97 }
+  }
+}
+
+97
+{
+  name { Western Edge Of Moor }
+  desc {
+"   You are standing somewhere near the western edge of the moors.  Narrow,
+gorse-walled paths wind their narrow ways north east and south from here.
+  }
+  exits {
+	to { n, 98 }
+	to { e, 96 }
+	to { s, 94 }
+  }
+}
+
+98
+{
+  name { Rocky End }
+  desc {
+"   The path you are following across the moor ends here, in a narrow rocky
+hollow.  The only way back seems to be back down the path.
+  }
+  exits {
+	to { s, 97 }
+  }
+}
+
+99
+{
+  name { Lost On The Moor }
+  desc {
+"   You are lost somewhere on a vast expanse of ancient moorlands.  Thick
+bushes and tangled piles of gorse and rock prevent you from seeing far in any
+direction, though narrow paths wind east, west and south across the moor.
+  }
+  exits {
+	to { e, 103 }
+	to { s, 100 }
+	to { w, 98 }
+  }
+}
+
+100
+{
+  name { Lost On The Moor }
+  desc {
+"   You are lost on the moor.  Thick gorse and tangled bushes prevent you 
+from seeing far in any direction.  A multitude of little twisted paths wind
+in all directions from here.
+  }
+  exits {
+	to { n, 99 }
+	to { e, 101 }
+	to { s, 95 }
+	to { w, 97 }
+  }
+}
+
+101
+{
+  name { By The Pit }
+  desc {
+"   You are standing on the rim of a huge open pit looking down some twenty
+feet to the floor below.  The walls of the pit are too sheer to climb down,
+which is unfortunate as there seem to be caves leading off from it.   A path
+winds its dusty way north out onto the moor.
+   Though you cannot climb down unaided, some kind soul has left behind a
+rope ladder, which leads down into the pit.
+  }
+  exits {
+	to { n, 100 }
+	to { d, 102 }
+  }
+}
+
+102
+{
+  name { Bottom Of Pit }
+  desc {
+"   You are standing at the bottom of a huge open pit.  The pit walls are
+almost sheer, and well beyond climbing.  A narrow tunnel leads south into 
+shadow.  A rope ladder leads up out of the pit.
+  }
+  exits {
+	to { s, 108 }
+	to { u, 101 }
+  }
+}
+
+103
+{
+  name { Rocky Waste }
+  desc {
+"   You are standing on the northeastern corner of the moor, looking out 
+across a mass of jumbled rock.  Paths lead south and west across the moor,
+while the rock steepens into precipitous cliffs to the east and north,
+preventing further travels.
+  }
+  exits {
+	to { s, 104 }
+	to { w, 99 }
+  }
+}
+
+104
+{
+  name { By The Ruined Cottage }
+  desc {
+"   You are standing somewhere on the eastern side of the moor.  A narrow worn
+path leads east between two crumbling dry-stone walls towards the remains of
+an old cottage.
+  }
+  exits {
+	to { n, 103 }
+	to { e, 105 }
+	to { w, 100 }
+  }
+}
+
+105
+{
+  name { Inside The Ruined Cottage }
+  desc {
+"   You are standing in the sad, desolate ruins of an old farmhouse.  The 
+roof has long since caved in, leaving a crumbling shell to gradually fall.  A
+single doorway leads west back outside onto the moor.
+  }
+  exits {
+	to { w, 104 }
+  }
+}
+
+106
+{
+  name { On The Ledge }
+  desc {
+"   You are standing on a narrow ledge high up the side of some steep cliffs.
+The ledge continues west beside a narrow cave mouth.  To the east the ledge
+ends some twenty feet short of a set of steps, which climb up the cliff side
+from the valley below.  Fortunately, someone had the foresight to install a
+rope bridge, which leads west across to the steps.
+  }
+  exits {
+	to { e, 107 }
+	to { w, 92 }
+  }
+}
+
+107
+{
+  name { Cavemouth }
+  desc {
+"   You are standing on a narrow precipitous ledge.  The ledge runs east-west
+...and to the north a narrow cave mouth leads into semi-darkness.  Braving
+vertigo, you gaze over the lip of the ledge across the vast expanse of trees
+far below.
+  }
+  exits {
+	to { n, 108 }
+	to { e, 109 }
+	to { w, 106 }
+  }
+}
+
+108
+{
+  name { Narrow Cave }
+  desc {
+"   You are standing in a long narrow cave.  Dim and pallid light shines in
+from the cave mouth to the south, illuminating passageways north and east.
+  }
+  exits {
+	to { n, 102 }
+	to { e, 111 }
+	to { s, 107 }
+  }
+}
+
+109
+{
+  name { Ledge }
+  desc {
+"   The ledge narrows here, become only a couple of inches wide as it leads
+further eastwards.  To the west the ledge widens out.
+  }
+  exits {
+	to { e, 110 }
+	to { w, 107 }
+  }
+}
+
+110
+{
+  name { Ledge }
+  desc {
+"   Your feet slip on the dangerously thin ledge, and you plunge rapidly
+downwards to your death...
+  }
+  flags { death }
+}
+
+111
+{
+  name { Narrow Tunnel }
+  desc {
+"   You are clambering along a narrow slanted passage.  Rubble and loose 
+stones rain down around you as you move, suggesting the roof is not very 
+strong.  Light shines along the passage from a junction to the west.
+  }
+  exits {
+	to { e, 112 }
+	to { w, 108 }
+  }
+}
+
+112
+{
+  name { Forgotten Place }
+  desc {
+"   You are standing in a dim forgotten place, deep underground.  The rocks
+around you seem placid and silent, as if in silent contemplation of some
+deeper, more ancient power of the earth.
+  }
+  exits {
+	to { w, 111 }
+  }
+}
+
+113
+{
+  name { Stream }
+  desc {
+"   You are standing beside a narrow stream, which tinkles eastwards through
+the trees.  You can travel through the trees in any direction save south 
+where the stream has cut a deep channel too wide to ford.
+  }
+  exits {
+	to { n, 51 }
+	to { e, 120 }
+	to { w, 114 }
+  }
+}
+
+114
+{
+  name { Stream }
+  desc {
+"   You are standing beside a small silvery stream which gurgles gently from
+a rocky hollow to the west, to run gently eastwards between the trees which
+surround you.
+   Tracks lead through the trees in all directions.
+  }
+  exits {
+	to { n, 50 }
+	to { e, 113 }
+	to { s, 118 }
+	to { w, 115 }
+  }
+}
+
+115
+{
+  name { Spring }
+  desc {
+"   You are standing in a small rocky hollow on the edge of the western
+mountains.  A single spring trickles from the rock here, running eastwards 
+out into the valley proper.  Apart from east back into the valley, steep
+rocky cliffs bar all exits, save west along a narrow ledge.
+  }
+  exits {
+	to { e, 114 }
+	to { w, 116 }
+  }
+}
+
+116
+{
+  name { Ledge }
+  desc {
+"   You are standing on a narrow ledge overlooking a crystal pool where a
+spring issues from the mountain.  The ledge leads east back to the spring
+or west towards a small hut, carefully concealed from view.
+  }
+  exits {
+	to { e, 115 }
+	to { w, 117 }
+  }
+}
+
+117
+{
+  name { Hidden Hut }
+  desc {
+"   You are inside a low wooden hut, carefully concealed by greenery and 
+rocks to provide a quiet, restful shelter.  To judge from the bed in the
+corner, the occupant of the hut was here recently.
+   The only exit is a door to the east.
+  }
+  exits {
+	to { e, 116 }
+  }
+}
+
+118
+{
+  name { Stream }
+  desc {
+"   You are standing on the south bank of a small gently flowing stream,
+surrounded by dense forest.  Gaps through the trees allow you to travel in 
+any direction with a small amount of effort and squeezing through bushes.
+   The water is so shallow here you can easily wade across.
+  }
+  exits {
+	to { n, 114 }
+	to { e, 151 }
+	to { s, 1 }
+	to { w, 119 }
+  }
+}
+
+119
+{
+  name { Forest Edge }
+  desc {
+"   You are standing in amongst some trees.  The forest continues only to the
+east, as all other routes are blocked by tall sheer cliffs.  To the west, a
+huge door has been cut into the cliff.
+  }
+  exits {
+	to { e, 118 }
+	to { w, Felix_Arena:2 }
+  }
+}
+
+120
+{
+  name { Humpbacked Bridge }
+  desc {
+"   You are standing at the northern end of a small humpbacked bridge, a
+picturesque stone structure coated in moss and creepers, which crosses the
+stream to the south of you.  Paths seem to converge here from the north, west
+and east.
+  }
+  exits {
+	to { n, 89 }
+	to { e, 121 }
+	to { s, 150 }
+	to { w, 113 }
+  }
+}
+
+121
+{
+  name { Stream Edge }
+  desc {
+"   You are on the edge of the stream, hemmed close to the water by thick
+bushes, and clumps of reeds. One or two gaps in the hedges allow you to
+squeeze northwards back into the main part of the forest.  Other paths
+allow you to walk east or west along the stream bank.
+  }
+  exits {
+	to { n, 122 }
+	to { e, 123 }
+	to { w, 120 }
+  }
+}
+
+122
+{
+  name { Forests Edge }
+  desc {
+"   You stand on the edge of the forest, which extends south east and west as
+far as you can see. To the north the trees give way to a grassy hill.  A
+narrow, worn path leads north up the hill.
+   To the south the path through the forest is almost blocked by thick 
+hedges, but a few gaps enable you to squeeze through.
+  }
+  exits {
+	to { n, 124 }
+	to { e, 123 }
+	to { s, 121 }
+	to { w, 89 }
+	to { u, 124 }
+  }
+}
+
+123
+{
+  name { Thick Forest }
+  desc {
+"   You are lost amidst a thick mass of trees and bushes which block direct
+paths, forcing you to take long and probably circular routes in your attempts
+to get past them.
+  }
+  exits {
+	to { n, 122 }
+	to { w, 121 }
+  }
+}
+
+124
+{
+  name { Path }
+  desc {
+"   You stand on a path which leads down into the valley and northwards into a
+churchyard of some sort, with a ruined church standing beside it.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 125 }
+	to { s, 121 }
+	to { d, 121 }
+  }
+}
+
+125
+{
+  name { Churchyard }
+  desc {
+"   You stand in what is apparently an old and unused churchyard.  Weeds and
+moss cover the crumbling gravestones and paths.  To the east is a huge,
+ancient church, now decaying and surrounded by bits of fallen stonework.  To
+the north, the graveyard continues.
+  }
+  exits {
+	to { n, 140 }
+	to { e, 126 }
+	to { s, 124 }
+  }
+}
+
+126
+{
+  name { Arched Entry }
+  desc {
+"   You stand in what must have once been a magnificent arched entrance, with
+huge oak doors, and a carved doorway fit for a palace.  Now however the doors
+lie in rotting pieces on the floor, and rain drips down the moss covered 
+stonework.
+  }
+  exits {
+	to { e, 127 }
+	to { w, 125 }
+  }
+}
+
+127
+{
+  name { The Church }
+  desc {
+"   You stand in the center of the now battered and dilapidated church.  
+Water runs down the walls, dripping in pools onto the rotting remains of the
+pews.  The church extends northwards, and southward towards the altar. To the
+west is the exit.
+  }
+  exits {
+	to { n, 128 }
+	to { s, 130 }
+	to { w, 126 }
+  }
+}
+
+128
+{
+  name { North End Of Church }
+  desc {
+"   You stand at the north end of the church, looking south down between the
+silent rows of rotting pews.  Another doorway leads east into a small room.
+  }
+  exits {
+	to { e, 129 }
+	to { s, 127 }
+  }
+}
+
+129
+{
+  name { A Decaying Room }
+  desc {
+"   You stand in a decaying room, the stone walls and floor are soaked with
+dampness, and whatever used to be stored in here has long since rotted away.
+The timbers of the roof above you now sag dangerously and the whole room 
+smells of rot.  A single doorway leads west.
+  }
+  exits {
+	to { w, 128 }
+  }
+}
+
+130
+{
+  name { By The Altar }
+  desc {
+"   You are standing beside the altar, now barely recognizable, a smashed and
+aged pile of rotten wood and fabrics, hiding mossy stonework beneath.  A set
+of steps lead up to the east, probably to the church tower.  The main church
+hall is north, and to the south you can go behind the altar.
+  }
+  exits {
+	to { n, 127 }
+	to { e, 132 }
+	to { s, 131 }
+  }
+}
+
+131
+{
+  name { Behind The Altar }
+  desc {
+"   You stand behind the altar looking northwards along the length of the
+church, which is a very sorry sight indeed.  Everything wooden is rotting,
+the stonework is moss covered, and gaping holes in the roof allow you to look
+skyward.
+  }
+  exits {
+	to { n, 130 }
+  }
+}
+
+132
+{
+  name { Stairs }
+  desc {
+"   You stand on a set of slippery stone steps which lead both downwards and
+upwards from here.  Doorways lead south into a small room and west into the
+main church hall.
+  }
+  exits {
+	to { s, 133 }
+	to { w, 130 }
+	to { u, 137 }
+	to { d, 139 }
+  }
+}
+
+133
+{
+  name { The Bell Room }
+  desc {
+"   You are standing in a small stone room, which is both wet and cold.  The
+wooden roof above you has holes in it through which ropes hang, presumably 
+for the church bells.  A single doorway leads north.
+  }
+  exits {
+	to { n, 132 }
+	to { u, 134 }
+  }
+}
+
+134
+{
+  name { At The Bells }
+  desc {
+"   You stand in a large chamber packed with bells.  There is a doorway to
+the north, or you could shin down a bell rope.
+  }
+  exits {
+	to { n, 135 }
+	to { d, 133 }
+  }
+}
+
+135
+{
+  name { The Tower }
+  desc {
+"   You stand in the room at the top of the tower.  A set of dangerous 
+looking steps lead down to the main part of the church.  To the south the 
+room opens up into a large chamber full of bells.
+  }
+  exits {
+	to { s, 134 }
+	to { d, 136 }
+  }
+}
+
+136
+{
+  name { Stairs }
+  desc {
+"   You stand on a set of stairs descending to the main part of the church.
+As you move about, you hear the alarming sounds of creaking boards.  The 
+stairs give way, and you fall crushingly to your death...
+  }
+  flags { death }
+  exits {
+	to { u, 135 }
+	to { d, 137 }
+  }
+}
+
+137
+{
+  name { The Stairs }
+  desc {
+"   You are climbing a set of steep, slippery stairs that lead up into the
+church tower.  Water runs down the steps, collecting in mossy pools, where 
+the cracks and dips in the stonework allow it.  The steps turn from stone to
+wood up above, and look very rickety.
+   To the west a doorway leads out into the pulpit.
+  }
+  exits {
+	to { w, 138 }
+	to { u, 136 }
+	to { d, 132 }
+  }
+}
+
+138
+{
+  name { The Pulpit }
+  desc {
+"   You stand in the rotting remains of what was the pulpit, looking north
+along the length of the church hall, a sorry sight indeed, and also gazing up
+through the holes in the roof, skyward.
+   A doorway leads east onto some stairs.
+  }
+  exits {
+	to { e, 137 }
+  }
+}
+
+139
+{
+  name { The Crypt }
+  desc {
+"   You are in a small room, standing before the entrance to a vast and 
+ancient crypt.  Low moaning sounds echo from within the catacombs before 
+you, sending chills up your spine.
+   An archway, its keystone carved in the shape of a human skull, leads 
+south into darkness, while cool air blows in from the relative safety of the
+church above.
+A thick layer of dust covers everything, and swirls around as you move.
+  }
+  exits {
+	to { s, Mordilnia:95 }
+	to { u, 132 }
+  }
+}
+
+140
+{
+  name { Graveyard }
+  desc {
+"   You are standing at the southern end of the graveyard, following a path
+which leads north, beside a stone wall.  To the south is the churchyard, and
+the old church itself.  To the west a worn rut in the grass leads out across
+some marshy ground, past a sign which reads "Danger Marshland".
+   A small grave bears the inscription "Orcus: He wasn't nice and paid the
+price."
+  }
+  exits {
+	to { n, 142 }
+	to { s, 125 }
+	to { w, 141 }
+  }
+}
+
+141
+{
+  name { Gloop }
+  desc {
+"   You sink into the treacherous marsh with a gloop!
+  }
+  exits {
+	to { e, 140 }
+  }
+}
+
+142
+{
+  name { Graveyard }
+  desc {
+"   You are standing at the southern end of the graveyard.  To the south a 
+path leads out of the graveyard down towards the church.  To the north are
+several barrows.
+  }
+  exits {
+	to { n, 143 }
+	to { s, 140 }
+  }
+}
+
+143
+{
+  name { The Barrow }
+  desc {
+"   You stand near the top of a large mound.  A path leads south back into 
+the main part of the graveyard, north to another mound and east towards a
+pillar set on the top of the mound.
+  }
+  exits {
+	to { n, 144 }
+	to { e, 146 }
+	to { s, 142 }
+  }
+}
+
+144
+{
+  name { The North Barrow }
+  desc {
+"   You stand on the top of a large mound at the north end of the graveyard.
+A path leads back southward.  To the east you see one lonely mound.
+   On a small gravestone is written "Beware of the Moog".
+  }
+  exits {
+	to { e, 145 }
+	to { s, 143 }
+  }
+}
+
+145
+{
+  name { The Northeast Barrow }
+  desc {
+"   The heaviness and darkness of this grave is so prevalent that even during
+the middle of the day you need a light to see.  The mound here is overgrown
+with weeds and the tombstone is old and uncared for.  The stone, although
+aged and cracked, is readable, and says:
+
+  Do you know that it hurts?       Yet this is their reward?
+    Do you feel my pain?             Tied up in anguish?
+  Can you understand my meaning,   What example is this,
+    My reason for what I do?         That they do not understand?
+
+                     In the end I failed,
+                       At what I most loved,
+                       Hurting them, I care.
+                                        -Pooka
+  }
+  exits {
+	to { w, 144 }
+  }
+}
+
+146
+{
+  name { Top of Barrow }
+  desc {
+"   You stand on the top of a huge barrow.  A single path leads back to the
+west.  A huge stone pillar stands on the center of the barrow marked with the
+following words:
+        Born To Live
+        Bound To Die
+        Born To Love
+        Bound To Cry
+        Born To Win
+        Bound To Lose
+        Peace At Last
+        Death Not Gloom
+   A heavy stone slab equipped with a padlock appears to bar an exit
+downwards.
+  }
+  exits {
+	to { w, 143 }
+	to { d, 147 }
+	  info { door, closed }
+	  keywords { slab" }
+  }
+}
+
+147
+{
+  name { Silent Room }
+  desc {
+"   You are standing in a small dark room, beneath the northern barrow.  All
+around you lie the relics of an ancient time, crumbling slowly into dust.
+Everything is dark and creepy, and the sense of malice and foreboding makes
+you jump at the slightest movement in the shadows.  The center of the room is
+a tall gravestone bearing the words:
+   "White The Wizard - A man pledged never to make his own coffee."
+A heavy stone slab has been shifted to one side, allowing access upwards.
+  }
+  exits {
+	to { u, 146 }
+	  info { door, closed }
+	  keywords { slab" }
+  }
+}
+
+148
+{
+  name { Icy Passage }
+  desc {
+"   The ice on the walls is clear enough for you to see the stone beneath it.
+The floor is a sheet of smooth ice, so you find it easier to move by sliding
+your feet than by actually lifting each foot up.
+  }
+  exits {
+	to { e, 149 }
+	to { w, 173 }
+  }
+}
+
+149
+{
+  name { The Lost Shrine of the Ice People }
+  desc {
+"   A cobweb brushes across your face.  From the abundance of them here, it
+would seem that this room does not see much use.  Though the dimness of the
+light does not allow you to be sure, the groaning of the ceiling causes you
+to move quietly, as you would rather not have the tons of mountain above
+you fall in.
+   Closer inspection of the walls reveals ancient, intricate images of huge
+glaciers and a figure you can only guess to be the god of the Ice People,
+who they venerate here.
+  }
+  exits {
+	to { w, 148 }
+  }
+}
+
+150
+{
+  name { South End Of Bridge }
+  desc {
+"   You are standing at the south end of a small picturesque humpbacked 
+bridge.  The bridge crosses a stream to the north, while paths run south into
+the forest, and east and west along the banks of the stream.
+  }
+  exits {
+	to { n, 120 }
+	to { s, 152 }
+	to { w, 151 }
+  }
+}
+
+151
+{
+  name { Beside The Stream }
+  desc {
+"   You are on the south bank of the stream. Thick forest lies in all
+directions save north where the stream gurgles its way eastwards, following
+a deep channel, too wide to cross.
+   Through the trees to the east you can make out a small bridge.
+  }
+  exits {
+	to { e, 150 }
+	to { s, 0 }
+	to { w, 118 }
+  }
+}
+
+152
+{
+  name { Forest Track }
+  desc {
+"   You are following a track which leads north through the forest towards a
+humpbacked bridge.  The track seems to form here from a myriad of tiny trails
+which lead in all directions through the trees.
+   A wide paved path winds up a huge mound set amongst the trees.  On the top
+of the mound you can make out a temple of some sort.
+  }
+  exits {
+	to { n, 150 }
+	to { e, 154 }
+	to { s, 155 }
+	to { w, 0 }
+	to { u, 153 }
+  }
+}
+
+153
+{
+  name { The Temple Of Paradise }
+  desc {
+"   You stand in the Temple of Paradise, a huge stone structure whose walls 
+are decorated with ancient carvings and runes, some so old that even the
+priests no longer know their meanings.
+   A single set of steps lead south, descending the huge mound upon which the
+temple is built and ending in the forests below.
+   At your feet a huge sacrificial pit allows you to give valuables to the
+gods in the hope of being rewarded.
+A roaring fire burns here.  Its flames make the temple sparkle and glitter.
+  }
+  flags { no_mob }
+  exits {
+	to { s, 152 }
+	to { d, 152 }
+  }
+}
+
+154
+{
+  name { Pool }
+  desc {
+"   You are standing beside a small, smooth pool, fed from a stream which 
+runs in from the north.  The cool shallow waters of the pool flicker and 
+dance with the breeze, reflecting the swaying trees, and the tiny dark specks
+of the thousands of insects which dart back and forth around you.
+   Paths lead through the forest in all directions from here.
+  }
+  exits {
+	to { w, 152 }
+  }
+}
+
+155
+{
+  name { End of Valley }
+  desc {
+"   You are at the southern end of the valley.  The trees continue north, 
+east, and west from here, but to the south everything ends in a huge black
+cliff, which soars high up above you at close to vertical for several hundred
+feet.  On its top your eyes seem to catch the flicker of something 
+glittering.
+   A narrow rocky crack leads south down the narrowing gap between the 
+cliffs.
+  }
+  exits {
+	to { n, 152 }
+	to { s, 156 }
+  }
+}
+
+156
+{
+  name { End of Gap }
+  desc {
+"   You are in a narrow rocky gap, which closes up to the south, ending in a
+wide arched tunnel, with a carved entrance.  The tunnel plunges south into
+the mountain depths.  To the north the gap widens up leading back out into 
+the forest.
+  }
+  exits {
+	to { n, 155 }
+	to { s, 157 }
+  }
+}
+
+157
+{
+  name { Deep Tunnel }
+  desc {
+"   You are following a deep, seemingly magically lit tunnel, which plunges
+beneath the mountain.  The tunnel continues north and south.
+  }
+  exits {
+	to { n, 156 }
+	to { s, 158 }
+  }
+}
+
+158
+{
+  name { Dark Tunnel }
+  desc {
+"   You are following a dim magically lit tunnel which burrows deep
+underground.  The walls glow gently showing off the myriad sparkling colors
+of the tunnel walls, which were quite evidently dug, and are certainly not
+natural.
+  }
+  exits {
+	to { n, 157 }
+	to { s, 159 }
+  }
+}
+
+159
+{
+  name { Gate of Sorcerers }
+  desc {
+"   You are outside The Gate of Sorcerers.  Its mighty pillars tower up 
+around you, shielding you from the worst of the snow that is falling and from
+some of the icy winds.  The ancient arched gateway between the pillars leads
+north into a wide magically lit passage which disappears into the roots of
+the earth.
+   You may enter the gate to the north, a lighted inn to the east, or trudge
+south into the snows.
+  }
+  exits {
+	to { n, 158 }
+	to { e, 161 }
+	to { s, 160 }
+  }
+}
+
+160
+{
+  name { Blizzard }
+  desc {
+"   You are lost in a blizzard, almost blinded by the driving snows.  The
+howling icy wind sends huge clouds of snow whistling across the plain,
+totally obscuring your view.
+   The snows extend in all directions save north, where a lighted inn offers
+warmth, food, and shelter from the elements.
+  }
+  exits {
+	to { n, 161 }
+	to { e, 162 }
+	to { s, 163 }
+	to { w, 159 }
+  }
+}
+
+161
+{
+  name { Warm Haven }
+  desc {
+"   After hours of trudging through the snow you come upon a tiny inn.  A 
+sign above the door says "Warm Haven -- Abandon Cold, All Ye Who Enter."  The
+room is crowded with burly adventurers, shy novices, and the bustling of
+serving wenches and bar-maids trying to take everyone's orders.
+   The main door is to the south, and a side-door heads west into the frozen
+wastes.  A number of urchins are gathered around the crackling fire to hear
+tales and songs from the Bard.
+  }
+  exits {
+	to { s, 160 }
+	to { w, 159 }
+  }
+}
+
+162
+{
+  name { Crevasse }
+  desc {
+"   You are standing on the edge of a deep crevasse looking down into 
+darkness.  Heavy snow is falling all around you partially hiding the distant
+mountains in clouds of whiteness.
+   The snows extend in all direction save east, where the crevasse bars the
+route.  You could clamber down into the crevasse but would have great 
+problems in getting back out of it.
+  }
+  exits {
+	to { n, 160 }
+	to { s, 160 }
+	to { w, 160 }
+	to { d, 164 }
+  }
+}
+
+163
+{
+  name { Blizzard Pass }
+  desc {
+"   You are trudging through deep snow as you follow a narrow track that 
+winds down a long pass leading ever southward.  Its end is hidden by the
+flurries of snow that are still falling.  On either side of you the mountains
+tower high above the pass, their peaks veiled in clouds.  At one point,
+however, the cliff is nowhere near as steep and a fair way up a single
+window has been cut, looking out across the snows.
+  }
+  exits {
+	to { n, 160 }
+	to { s, 166 }
+  }
+}
+
+164
+{
+  name { Crevasse Bottom }
+  desc {
+"   You are at the bottom of the crevasse.  Daylight, and a great deal of 
+snow, comes through the top of the crevasse.  A single man-made passage
+leads east into a strange temple.
+  }
+  exits {
+	to { e, 165 }
+  }
+}
+
+165
+{
+  name { Elemental Temple }
+  desc {
+"   You are in the Temple Of The Elements, surrounded by decorations 
+depicting Earth, Air, Fire and Water.  This strange icy place gives off a
+feeling of unbalance and growing evil.
+  }
+  exits {
+	to { w, 164 }
+  }
+}
+
+166
+{
+  name { The Pass }
+  desc {
+"   You are following the pass as it runs north-south through the mountains.
+There is a small cave mouth to the west.
+  }
+  exits {
+	to { n, 163 }
+	to { s, 174 }
+	to { w, 167 }
+  }
+}
+
+167
+{
+  name { Snow Cave }
+  desc {
+"   You are in a glittering ice cave, its floor and walls covered with
+loose, deep snow.  The cave mouth is east, and a hole has been dug south
+through the snow.
+  }
+  flags { no_mob }
+  exits {
+	to { e, 166 }
+	to { s, 168 }
+  }
+}
+
+168
+{
+  name { Glittering Hall }
+  desc {
+"   You are in a glittering hall made entirely of ice.  Multi-hued icicles 
+hang from the ceiling and the hall seems to be gradually melting!  A slippery
+path leads south, and a hole has been dug north through the snow.
+  }
+  exits {
+	to { n, 167 }
+	to { s, 169 }
+  }
+}
+
+169
+{
+  name { Ice Palace }
+  desc {
+"   You are in a huge ice hall forming the center of the ice palace.  Huge
+pillars hold up the roof, although small amounts of water now trickle down
+them.  Archways lead in all directions.
+  }
+  exits {
+	to { n, 168 }
+	to { e, 170 }
+	to { s, 172 }
+	to { w, 171 }
+  }
+}
+
+170
+{
+  name { The Ice Throne }
+  desc {
+"   You are in an icy throne hall covered with many ornate carvings of icy
+wastes.  The hall is deserted, and it appears whoever is king of this icy
+domain is absent.  To the west is the main hall.
+   Sitting against the east wall, you see a throne made completely of ice.
+  }
+  exits {
+	to { e, 173 }
+	  info { door, closed }
+	  keywords { throne" }
+	to { w, 169 }
+  }
+}
+
+171
+{
+  name { Magician's Research Room }
+  desc {
+"   You are in a magician's research room, surrounded by a clutter of useless
+equipment.  This room is also entirely ice, and to judge from the damp
+equipment, the roof has melted quite considerably.
+   There is a doorway to the east.
+  }
+  exits {
+	to { e, 169 }
+  }
+}
+
+172
+{
+  name { Royal Bedroom }
+  desc {
+"   You are in the royal bedroom.  The bed appears to have melted.  There is
+a large cupboard on the south wall and a doorway to the north.
+  }
+  exits {
+	to { n, 169 }
+  }
+}
+
+173
+{
+  name { The Cave of the Ice People }
+  desc {
+"   You are standing in a vast icy cave.  Ice covers the floor, making your
+balance precarious at best.  Judging from the footprints, however, it seems
+others have been here before you and safely traversed this slippery surface.
+A message carved into one wall reads "We Always Bit Chips."
+   Passages lead in all directions.
+  }
+  exits {
+	to { e, 148 }
+	to { w, 170 }
+	  info { door, closed }
+	  keywords { throne" }
+  }
+}
+
+174
+{
+  name { Narrow Pass }
+  desc {
+"   You are trudging along a gloomy narrow pass pelted with snow while the 
+icy wind feels like daggers stabbing into your unprotected flesh.  The pass
+continues north and south.
+  }
+  exits {
+	to { n, 166 }
+	to { s, 175 }
+  }
+}
+
+175
+{
+  name { The Pass }
+  desc {
+"   You are trudging along the pass.  The wind here whips around in a 
+circular pattern, almost veiling a narrow ravine leading eastwards.  The 
+pass continues north and south.
+  }
+  exits {
+	to { n, 174 }
+	to { e, 176 }
+	to { s, 178 }
+  }
+}
+
+176
+{
+  name { Ravine }
+  desc {
+"   You are on a path climbing up a narrow ravine towards the crumbling 
+remains of a snow shrouded temple.
+  }
+  exits {
+	to { e, 177 }
+	to { w, 175 }
+  }
+}
+
+177
+{
+  name { Snow Temple }
+  desc {
+"   You are in the snowy ruins of an ancient temple.  The view from here is
+stunning and very picturesque but the lashing snow and icy wind are enough to
+dissuade you from sightseeing.
+  }
+  exits {
+	to { w, 176 }
+  }
+}
+
+178
+{
+  name { Southern Pass }
+  desc {
+"   You are trudging down the pass.  The towering mountains, their heads
+cloaked in snow, seem to leer down at you as your feet crunch into the
+fresh, deep and rather cold snow.  The pass continues north and south.
+  }
+  exits {
+	to { n, 175 }
+	to { s, 179 }
+  }
+}
+
+179
+{
+  name { The End of The Pass }
+  desc {
+"   You are at the southern end of the pass.  The snow gives way rapidly to a
+pleasant autumn sun, its gentle beams filling the whole vista with a 
+shimmering, beautiful golden hue.  Tracks lead north, east, and west.
+  }
+  exits {
+	to { n, 178 }
+	to { e, 180 }
+  }
+}
+
+180
+{
+  name { The Valley }
+  desc {
+"   You are in a green and fair valley amidst the gently murmuring oaks.  The
+sun shines gently through the trees sending dancing, golden beams rippling
+across the shadowy grass while midges dance between the branches.  One
+particularly large oak tree rises up to the north.
+  }
+  exits {
+	to { e, 181 }
+	to { w, 179 }
+  }
+}
+
+181
+{
+  name { The Humpbacked Bridge }
+  desc {
+"   You are standing on a crumbling humpbacked bridge looking over the side
+down onto a wide but shallow stream.  The sun sparkles gently off the ripples
+as the stream passes across pebbles and rocks and the fish swim between them.
+You hear the faint roar of a waterfall somewhere downstream.
+   You can go east or west across the bridge or follow the stream southwards.
+A sign has been posted by the bridge.
+  }
+  extra {
+	keywords { sign" }
+	desc { "                                ____
+        _______________________/____\
+       /                       |    |
+      < WEST  Blizzard Pass    |    |
+       \_______________________|    |__________________
+                               |    |                  \
+              _________________|    |   Mordilnia  EAST >
+             /                 |    |__________________/
+            < SOUTH  Forest    |    |
+             \_________________|    |
+                               |    |
+                               |    |
+                               |    |
+                        (*)    |    |   (*) 
+________________________\|/____|    |___\|/__________________________________
+                               |____|
+	}
+  }
+  exits {
+	to { e, 197 }
+	to { s, 182 }
+	to { w, 180 }
+  }
+}
+
+182
+{
+  name { Stream Bank }
+  desc {
+"   You stand on a quiet grassy stream bank.  The water burbles gently past
+you, shaded by the thick trees and bushes which grow along the bank.
+Towering oaks cast dark rippling shadows across the almost mirrorlike
+rippling water which flickers in the light.  The undergrowth blocks any way 
+southwards along the stream, but thins out to the north and west where paths
+lead off.
+  }
+  exits {
+	to { n, 181 }
+	to { w, 183 }
+  }
+}
+
+183
+{
+  name { Forest }
+  desc {
+"   The forest here is green and lively, its thick young growth tangled and
+glowing with life.  A narrow stream trickles away to the east, and a path 
+runs down towards it.
+  }
+  exits {
+	to { n, 184 }
+	to { e, 182 }
+	to { s, 185 }
+	to { w, 186 }
+  }
+}
+
+184
+{
+  name { Forest }
+  desc {
+"   You are lost amid the tangled trees and bushes of the forest.  Dark gloomy
+trunks seem to leer down at you, as you duck between the low twisted and
+warped branches.
+  }
+  exits {
+	to { n, 183 }
+	to { e, 187 }
+	to { s, 188 }
+	to { w, 187 }
+  }
+}
+
+185
+{
+  name { Forest }
+  desc {
+"   The forest thins a little here, entering a green and fresh glade.  Shafts
+of bright sunlight strike through the forest canopy from above illuminating
+the maze of trails which lead in all directions from the forest glade.
+  }
+  exits {
+	to { n, 189 }
+	to { e, 189 }
+	to { s, 190 }
+	to { w, 190 }
+  }
+}
+
+186
+{
+  name { Forest }
+  desc {
+"   You are standing in a small clearing deep in the forest.  The thick trees
+press inwards from all sides, searching to cover this tiny gap in their mighty
+ranks.  A huge tree lies across the clearing, apparently uprooted by the wind.
+Quite possibly this is what left the clearing in the first place.
+  }
+  exits {
+	to { n, 187 }
+	to { e, 183 }
+	to { s, 183 }
+	to { w, 191 }
+  }
+}
+
+187
+{
+  name { Forest }
+  desc {
+"   You would guess you are now somewhere near the center of the forest.
+Certainly you can see nothing but trees around here.  Narrow tracks lead off
+in all directions.
+  }
+  exits {
+	to { n, 185 }
+	to { e, 185 }
+	to { s, 184 }
+	to { w, 188 }
+  }
+}
+
+188
+{
+  name { Forest }
+  desc {
+"   The forest here is tangled and very thick.  Branches whip out against you
+from all directions, scratching at your arms and legs.  Trails lead off
+through the dense brush, although they are evidently little used.
+  }
+  exits {
+	to { n, 189 }
+	to { e, 187 }
+	to { s, 190 }
+	to { w, 185 }
+  }
+}
+
+189
+{
+  name { The Path }
+  desc {
+"   You are standing on a narrow path which winds roughly southward through 
+the tangled trees around you.  The forest here is mostly pines and thick
+layers of pine needles cover the forest floor.
+  }
+  exits {
+	to { e, 190 }
+	to { s, 188 }
+	to { w, 185 }
+  }
+}
+
+190
+{
+  name { Forest }
+  desc {
+"   The forest here is thick and dark, with little light seeping through at 
+any point.  Fortunately, the darkness is only sufficient to dim your sight,
+making you jump at the shadows amongst the swaying trees.
+  }
+  exits {
+	to { n, 188 }
+	to { e, 185 }
+	to { s, 189 }
+	to { w, 189 }
+  }
+}
+
+191
+{
+  name { Forest }
+  desc {
+"   You are following a path through the trees.  The path diverges here and
+paths run off in all directions, turning and twisting into the forest.
+  }
+  exits {
+	to { n, 186 }
+	to { e, 192 }
+	to { s, 185 }
+	to { w, 190 }
+  }
+}
+
+192
+{
+  name { Forest }
+  desc {
+"   The forest seems friendlier here than in most places.  The tall straight
+trees give plenty of room to move around and lack the annoying tangles of
+low branches which scratch at you throughout the surrounding forest.  A 
+narrow, worn path leads northwards.
+  }
+  exits {
+	to { n, 193 }
+	to { e, 185 }
+	to { s, 184 }
+	to { w, 191 }
+  }
+}
+
+193
+{
+  name { Forest }
+  desc {
+"   You are following a damp muddy path which runs south and east from here.
+A large notice, half covered by thick tangled bushes points east and reads
+"T rq /th'  |<ey".  Years of rain and wind have pounded the other letters
+beyond reading.
+  }
+  exits {
+	to { n, 190 }
+	to { e, 194 }
+	to { s, 185 }
+	to { w, 192 }
+  }
+}
+
+194
+{
+  name { Forest }
+  desc {
+"   You are following a path through the forest, which turns abruptly from 
+the west back southward into a particularly dense thicket.  The trees all
+around you, though dense, are not enough to deter a truly intrepid explorer.
+  }
+  exits {
+	to { n, 183 }
+	to { e, 192 }
+	to { s, 195 }
+	to { w, 193 }
+  }
+}
+
+195
+{
+  name { The Clearing }
+  desc {
+"   You stand in a large partly shaded clearing deep in the woods.  From the
+edges of the trees faint rustling disturbs the eerie quietness.  All around
+you are thick trees save to the south where the trees end abruptly at a low
+rocky outcrop.
+  }
+  exits {
+	to { n, 193 }
+	to { e, 187 }
+	to { s, 196 }
+	to { w, 187 }
+  }
+}
+
+196
+{
+  name { The Troll's Cave }
+  desc {
+"   You stand in a large very smelly cave.  The walls and floor are littered
+with the remains of many an unsavory meal.  A single passage leads north out
+into the sunlight.
+  }
+  exits {
+	to { n, 195 }
+  }
+}
+
+197
+{
+  name { Outside the MidWest Gate of Mordilnia }
+  desc {
+"   You stand at the fringe of the wilderness; east of here lies the haven 
+of the walls of Mordilnia.  You can hear the life of the city, and marvel at
+its size.  West of here is a humpbacked bridge, spanning the gap of a small
+stream which flows endlessly through the forest.
+  }
+  sector { Field }
+  exits {
+	to { e, 198 }
+	  info { door, closed }
+	  keywords { gate" }
+	to { w, 181 }
+  }
+}
+
+198
+{
+  name { Inside the MidWest Gate of Mordilnia }
+  desc {
+"   You are by two towers that have been built into the hard granite wall
+with a strong iron gate in between; wicked, barbed spikes protruding up and
+down along every other bar - like the hungry jaws of some demented 
+nether-beast.
+   Temple Road runs north and south from here, its dull, cobbled surface
+visually muted by the windblown dust which forms a thin line over its flat
+surface.  Eastward, you see the Temple of Mordilnia, in all its modest and
+holy splendor.
+  }
+  sector { City }
+  exits {
+	to { n, Mordilnia:0 }
+	to { e, 199 }
+	to { s, Mordilnia:31 }
+	to { w, 197 }
+	  info { door, closed }
+	  keywords { gate" }
+  }
+}
+
+199
+{
+  name { The Temple of Mordilnia }
+  desc {
+"   The grand, marble floor of this holy house lies unscathed - though many
+feet have tread its surface, both bare and shod.  The high-domed ceiling
+shows a sky of many shades and hues.
+   Midway from floor to ceiling, a balcony-like second floor stands, hand
+woven tapestries adorning the smooth granite walls.  From here to the floor
+above, a grand, spiralling stairway ascends, its polished cherrywood surface
+casting a multitude of tiny daggers of reflected light into your eyes.
+   Through the arched portal to the west, one can venture to Temple Road,
+and the MidWest Gate, leading far out through the wilderlands.
+  }
+  flags { indoors }
+  exits {
+	to { w, 198 }
+	to { u, Mordilnia:81 }
+  }
+}

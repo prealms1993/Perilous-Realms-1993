@@ -1,0 +1,718 @@
+
+0
+{
+  name { The edge of the forest }
+  desc {
+You are standing at the eastern edge of a big forest.  To the east is the West
+Gate of Midgaard and to the west is a narrow trail, leading in through the
+forest.
+  }
+  sector { Field }
+  extra {
+	keywords { trail" }
+	desc { The forest trail winds westwards through the trees.
+	}
+	keywords { tree trees" }
+	desc { The trees are quite tall considering most of them appear to be quite young.
+On one of the trees, crude letters forming the word "Haon-Dor" have been
+carved into the bark.
+	}
+  }
+  flags { no_mob }
+  exits {
+	to { n, Shire:0 }
+	  desc { You hear a faint sound.
+}
+	to { e, Midgard:246 }
+	  desc { You see the West Gate of the City of Midgaard.
+}
+	to { w, 1 }
+	  desc { You see the narrow forest trail winding westwards in between the trees.
+}
+  }
+}
+
+1
+{
+  name { A trail through the light forest }
+  desc {
+You are on a trail leading through the forest.  To the east is the forest edge
+and to the west, the trail leads further into the forest.  A small winding
+path leads towards the north.
+  }
+  sector { Forest }
+  extra {
+	keywords { trail" }
+	desc { The forest trail winds east-west through the trees.
+	}
+	keywords { tree trees" }
+	desc { The trees here are quite young and fresh.  They seem to accommodate many kinds
+of birds, insects and other small animals.
+	}
+	keywords { birds insects animals" }
+	desc { Very cute little creatures, they seem to enjoy life.
+	}
+  }
+  exits {
+	to { n, Felix_Arena:152 }
+	to { e, 0 }
+	  desc { The trail continues eastwards out of the forest.
+}
+	to { w, 2 }
+	  desc { You see the narrow forest trail winding westwards in between the trees.
+}
+  }
+}
+
+2
+{
+  name { A trail through the light forest }
+  desc {
+You are on a narrow trail leading east and west through the forest.  To the
+west, the forest gradually becomes more dense.  A small forest path leads
+south.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { trail" }
+	desc { The forest trail winds east-west through the trees.
+	}
+	keywords { tree trees" }
+	desc { The young, slender trees look beautiful, their fresh, green leaves moving
+lightly in the wind.
+	}
+  }
+  exits {
+	to { e, 1 }
+	  desc { The trail continues eastwards through the young trees.
+}
+	to { s, 11 }
+	  desc { The small path leads south through the young trees.
+}
+	to { w, 3 }
+	  desc { You see the narrow forest trail winding westwards into the dense forest.
+}
+  }
+}
+
+3
+{
+  name { A trail through the dense forest }
+  desc {
+You are on a trail leading east and west through the dense forest.  To the
+east, the forest gradually seems to become lighter.
+  }
+  sector { Forest }
+  extra {
+	keywords { trail" }
+	desc { The forest trail seems almost fragile compared to the massive trunks.
+	}
+	keywords { tree trees" }
+	desc { The dense crowns of the mature trees leave only a fraction of the sky to be
+seen through the leaves.
+	}
+  }
+  exits {
+	to { e, 2 }
+	  desc { The trail continues eastwards to the younger part of the forest.
+}
+	to { w, 4 }
+	  desc { You see the narrow trail winding westwards through the dense forest.
+}
+  }
+}
+
+4
+{
+  name { A trail through the dense forest }
+  desc {
+You are on a trail leading east and west through the dense forest.  To the
+west, the trees are so huge and their crowns so dense that forest remains in
+total darkness.  A small path leads south through the trees.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { trail" }
+	desc { The forest trail seems almost fragile compared to the massive trunks.
+	}
+	keywords { tree trees" }
+	desc { The crowns of the old trees almost cut out all light.
+	}
+  }
+  exits {
+	to { e, 3 }
+	  desc { The trail continues eastwards through the dense forest.
+}
+	to { s, 5 }
+	  desc { The small path leads south through the trees.
+}
+	to { w, Haondor_dark:0 }
+	  desc { The narrow trail almost seems to disappear between the enourmous trunks.
+}
+  }
+}
+
+5
+{
+  name { A small path in the dense forest }
+  desc {
+You are on a small path leading through the dense forest.  The crowns of the
+old trees leave the forest in an unreal twilight illumination.  The path
+continues north and south.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The trees are mostly old beeches and oaks.
+	}
+  }
+  exits {
+	to { n, 4 }
+	  desc { The small path leads north through the trees.
+}
+	to { s, 6 }
+	  desc { The small path leads south through the trees.
+}
+  }
+}
+
+6
+{
+  name { A small path in the dense forest }
+  desc {
+You are on a small path leading through the dense forest.  The crowns of the
+old trees leave the forest in an unreal twilight illumination.  The path
+continues north and east.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The trees are mostly old beeches and oaks.
+	}
+  }
+  exits {
+	to { n, 5 }
+	  desc { The small path leads north through the trees.
+}
+	to { e, 7 }
+	  desc { The small path leads east through the trees.
+}
+  }
+}
+
+7
+{
+  name { An intersection in the dense forest }
+  desc {
+You are on a small path leading through the dense forest.  The crowns of the
+old trees leave the forest in an unreal twilight illumination.  The forest
+gradually lightens to the east.  Paths lead east, west and south.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The trees are mostly old beeches and oaks.
+	}
+  }
+  exits {
+	to { e, 8 }
+	  desc { You can barely make out a clearing to the east.
+}
+	to { s, 12 }
+	  desc { The small path leads south through the trees.
+}
+	to { w, 6 }
+	  desc { The small path leads west through the trees.
+}
+  }
+}
+
+8
+{
+  name { The forest clearing }
+  desc {
+You are in a clearing in the forest.  Lots of fresh stumps of varying sizes
+protrude from the ground and heavy logs are stacked neatly in a big pile
+supported by stakes set into the ground.  Paths lead north, east and west.
+  }
+  sector { Forest }
+  extra {
+	keywords { log logs" }
+	desc { Even though the logs have been chopped to shorter pieces, they are quite heavy
+as they are fresh and still filled with sap.
+	}
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { stake stakes" }
+	desc { The stakes keep the logs from rolling down.
+	}
+	keywords { stump stumps" }
+	desc { There are more stumps than logs and some of the stumps are partly covered in
+moss.
+	}
+	keywords { tree trees" }
+	desc { The trees are mostly old beeches and oaks.
+	}
+  }
+  exits {
+	to { n, 11 }
+	  desc { The small path leads north through the trees.
+}
+	to { e, 9 }
+	  desc { The small path leads east through the trees.
+}
+	to { w, 7 }
+	  desc { The small path leads west through the trees.
+}
+  }
+}
+
+9
+{
+  name { Outside a small cabin in the forest }
+  desc {
+You are outside a small cabin built entirely from heavy logs.  There is a
+wooden door to the north and small paths lead west and south through the trees.
+  }
+  sector { Forest }
+  extra {
+	keywords { cabin logs" }
+	desc { It looks simple but comfortable and the slender trees make the whole place seem
+pretty idyllic.  It's a cabin built from logs.  Wooden logs, not system logs.
+	}
+	keywords { path paths" }
+	desc { The path is probably used by the cabin's inhabitants.
+	}
+	keywords { tree trees" }
+	desc { The trees are fairly young, not much more than a hundred years or so.
+	}
+  }
+  exits {
+	to { n, 10 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	  desc { The wooden door is quite sturdy but does not appear to be equipped with a lock.
+}
+	to { s, 14 }
+	  desc { The small path leads south through the dense forest.
+}
+	to { w, 8 }
+	  desc { The small path leads west through the light forest.
+}
+  }
+}
+
+10
+{
+  name { Inside the cabin }
+  desc {
+You are inside a small one-room cabin made entirely from heavy logs.  It is
+very sparsely furnished, containing only most basic housekeeping equipment,
+such as a bed, a chair and a table.
+  }
+  extra {
+	keywords { bed" }
+	desc { It is definitely not the most comfortable bed you have seen in your life.
+	}
+	keywords { chair" }
+	desc { It is made from oak and looks strong and sturdy.
+	}
+	keywords { table" }
+	desc { A heavy table that doesn't even appear to rock.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 9 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	  desc { The wooden door leads south.
+}
+  }
+}
+
+11
+{
+  name { A small path through the light forest }
+  desc {
+You are on a small path leading through the forest.  The trees are tall and
+slender.  Paths lead north and south.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The trees are fairly young, not much more than a hundred years or so.
+	}
+  }
+  exits {
+	to { n, 2 }
+	  desc { The path leads north through the young trees.
+}
+	to { s, 8 }
+	  desc { The path leads south through the young trees.
+}
+  }
+}
+
+12
+{
+  name { An intersection in the dense forest }
+  desc {
+You are on a small path leading through the dense forest.  The crowns of the
+old trees leave the forest floor in an unreal twilight illumination.  Paths
+lead north, east and south.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The trees are mostly old beeches and oaks.
+	}
+  }
+  exits {
+	to { n, 7 }
+	  desc { The small path leads north through the trees.
+}
+	to { e, 13 }
+	  desc { The small path leads east through the trees.
+}
+	to { s, 21 }
+	  desc { The small path leads south through the trees.
+}
+  }
+}
+
+13
+{
+  name { A small path in the dense forest }
+  desc {
+You are on a small path leading through the dense forest.  The crowns of the
+old trees leave the forest in an unreal twilight illumination.  The path
+continues east and west.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The trees are mostly old beeches and oaks.
+	}
+  }
+  exits {
+	to { e, 14 }
+	  desc { The small path leads east through the trees.
+}
+	to { w, 12 }
+	  desc { The small path leads west through the trees.
+}
+  }
+}
+
+14
+{
+  name { An intersection in the dense forest }
+  desc {
+You are on a small path leading through the dense forest.  The forest gradually
+lightens to the north.  Paths lead north, east and west.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The crowns of the old trees leave the forest in an unreal twilight
+illumination.
+	}
+  }
+  exits {
+	to { n, 9 }
+	  desc { The path leads north to a lighter part of the forest.
+}
+	to { e, 15 }
+	  desc { The small path leads east through the trees.
+}
+	to { w, 13 }
+	  desc { The small path leads west through the trees.
+}
+  }
+}
+
+15
+{
+  name { A small path in the dense forest }
+  desc {
+You are on a small path leading through the dense forest.  The crowns of the
+old trees leave the forest in an unreal twilight illumination.  The path
+continues south and west.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The trees are mostly old beeches and oaks.
+	}
+  }
+  exits {
+	to { s, 16 }
+	  desc { The small path leads south through the trees.
+}
+	to { w, 14 }
+	  desc { The small path leads west through the trees.
+}
+  }
+}
+
+16
+{
+  name { A small path in the dense forest }
+  desc {
+You are on a small path leading through the dense forest.  The crowns of the
+old trees leave the forest in an unreal twilight illumination.  The path
+continues north and south.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The trees are mostly old beeches and oaks.
+	}
+  }
+  exits {
+	to { n, 15 }
+	  desc { The small path leads north through the trees.
+}
+	to { s, 17 }
+	  desc { The small path leads south through the trees.
+}
+  }
+}
+
+17
+{
+  name { A small path in the dense forest }
+  desc {
+You are on a small path leading through the dense forest.  The forest seems to
+become lighter to the west.  The path continues north and west.
+  }
+  sector { Forest }
+  extra {
+	keywords { tree trees" }
+	desc { The crowns of the old trees leave the forest in an unreal twilight
+illumination.
+	}
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+  }
+  exits {
+	to { n, 16 }
+	  desc { The small path leads north through the trees.
+}
+	to { s, Midgard:160 }
+	  key { 1 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+	to { w, 18 }
+	  desc { The small path leads west through the trees to a lighter part of the forest.
+}
+  }
+}
+
+18
+{
+  name { An intersection in the light forest }
+  desc {
+You are on a small path leading through the forest.  A path leads north to a
+small field and other paths lead east and west into the dense forest.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The tall trees are young and slender, not much more than a hundred years or so.
+	}
+  }
+  exits {
+	to { n, 23 }
+	  desc { The path leads north to a small, grassy field.
+}
+	to { e, 17 }
+	  desc { The path leads east to a dense part of the forest.
+}
+	to { w, 19 }
+	  desc { The path leads west to a dense part of the forest.
+}
+  }
+}
+
+19
+{
+  name { A small path in the dense forest }
+  desc {
+You are on a small path leading through the dense forest.  The forest seems to
+become lighter to the east.  The path continues north and east.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The crowns of the old trees leave the forest in an unreal twilight
+illumination.
+	}
+  }
+  exits {
+	to { n, 20 }
+	  desc { The small path leads north through the trees.
+}
+	to { e, 18 }
+	  desc { The small path leads east through the trees to a lighter part of the forest.
+}
+  }
+}
+
+20
+{
+  name { A small path in the dense forest }
+  desc {
+You are on a small path leading through the dense forest.  The crowns of the
+old trees leave the forest in an unreal twilight illumination.  The path
+continues south and west.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The trees are mostly old beeches and oaks.
+	}
+  }
+  exits {
+	to { s, 19 }
+	  desc { The small path leads south through the trees.
+}
+	to { w, 21 }
+	  desc { The small path leads west through the trees.
+}
+  }
+}
+
+21
+{
+  name { A small path in the dense forest }
+  desc {
+You are on a small path leading through the dense forest.  To the west there is
+a cave entrance.  The path continues north and east.
+  }
+  sector { Forest }
+  extra {
+	keywords { path paths" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees" }
+	desc { The crowns of the old trees leave the forest in an unreal twilight
+illumination.
+	}
+	keywords { cave entrance" }
+	desc { The irregular opening is eight feet wide and six feet tall.  An acrid smell
+emanates from within.
+	}
+  }
+  exits {
+	to { n, 12 }
+	  desc { The small path leads north through the trees.
+}
+	to { e, 20 }
+	  desc { The small path leads east through the trees.
+}
+	to { w, 22 }
+	  desc { The cave is very dark.
+}
+  }
+}
+
+22
+{
+  name { Inside the cave }
+  desc {
+You are in a natural cave.  Various sorts of debris cover the stone floor,
+emitting a rather unpleasant smell that makes the air thick and hard to
+breathe.  The only obvious exit is east.
+  }
+  extra {
+	keywords { debris" }
+	desc { It consists mostly of gnawed bones mixed with small pieces of torn fur.
+	}
+	keywords { cave walls floor stone" }
+	desc { Quite uninteresting.
+	}
+	keywords { air smell" }
+	desc { Kind of transparent, but quite noticeable nevertheless.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 21 }
+	  desc { The cave opening is to the east.
+}
+  }
+}
+
+23
+{
+  name { On a small, grassy field }
+  desc {
+You are in a small, grassy field somewhere in the forest.  The tall grass
+nearly reaches your waist, and the surrounding oaks and beeches form an almost
+wall-like thicket on all sides of the field.  A small path leads south through
+the trees.
+  }
+  sector { Field }
+  extra {
+	keywords { grass" }
+	desc { The tall grass makes a nice hiding place for animals.
+	}
+	keywords { path" }
+	desc { The narrow path is probably used by the animals living in the forest.
+	}
+	keywords { tree trees thicket" }
+	desc { The trees form a close thicket.
+	}
+  }
+  exits {
+	to { s, 18 }
+	  desc { The small path leads south in between the trees.
+}
+  }
+}

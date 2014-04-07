@@ -1,0 +1,1820 @@
+
+0
+{
+  name { Cliff edge high in the mountains }
+  desc {
+"  The path suddenly ends as you reach the edge of a cliff.  Lookin out over
+the edge you see a great valley with large trees and winding rivers.  Hanging
+high above all this is a huge majestic castle, which seems to defy gravity
+by staying where it is.  The mountain path continues south.
+A large sign rests near the edge of the cliff here.
+  }
+  sector { Mountains }
+  extra {
+	keywords { sign" }
+	desc { "       **************************************************
+       *                                                *
+       *                   From                         *
+       *            The Midgaard council                *
+       *                                                *
+       *         -------->WARNING<---------             *
+       *                                                *
+       *             The area too the north             *
+       *                Is very dangerous               *
+       *             Experienced adventures             *
+       *                    Only                        *
+       *                                                *
+       **************************************************
+	}
+  }
+  flags { no_mob }
+  exits {
+	to { n, 1 }
+	to { s, Road_malvaria:15 }
+  }
+}
+
+1
+{
+  name { Soaring in the air }
+  desc {
+"  The view here is absolutely fantastic.  You can see the rolling hills and
+winding streams far down below you.  A large white castle is floating in
+the cloads high above you.  A mountain cliff lies to the south.
+  }
+  sector { Air }
+  exits {
+	to { n, 4 }
+	to { e, 4 }
+	to { s, 0 }
+	to { w, 5 }
+	to { u, 2 }
+	to { d, 5 }
+  }
+}
+
+2
+{
+  name { Higher up in the air }
+  desc {
+"  You are soring high above the valley floor.  Wisps of clouds float around
+you.  Every once in awile you catch a glimpse of another flying creature
+moving behind a cloud in the distance.  The gate to the castle lies to the
+north.
+  }
+  sector { Air }
+  exits {
+	to { n, 3 }
+	to { d, 1 }
+  }
+}
+
+3
+{
+  name { The gates to the Castle Nodonn }
+  desc {
+"  You stand before two huge pillers of marble, spread between them is a finely
+crafted silvery gate.  The lock seems to glow faintly in the misty air.  The
+courtyard is visible just beyond the gates.  The only exit is to the south
+unless you can find some way past the gates.
+  }
+  exits {
+	to { n, 6 }
+	  key { 57553 }
+	  info { door, closed }
+	  keywords { Gate north" }
+	to { s, 2 }
+  }
+}
+
+4
+{
+  name { Swirling winds }
+  desc {
+Swirling currents of winds buffer you back and forth.  You feel as if you 
+have lost congtrol of where you are going.
+  }
+  sector { Air }
+  exits {
+	to { n, 5 }
+	to { e, 5 }
+	to { s, 5 }
+	to { w, 1 }
+	to { u, 4 }
+	to { d, 5 }
+  }
+}
+
+5
+{
+  name { Swirling winds }
+  desc {
+swirling currents of winds buffer you back and forth.  You feel as if you 
+have lost control of where you are going.
+  }
+  sector { Air }
+  exits {
+	to { n, 5 }
+	to { e, 1 }
+	to { s, 4 }
+	to { w, 5 }
+	to { u, 5 }
+	to { d, 4 }
+  }
+}
+
+6
+{
+  name { The southern courtyards }
+  desc {
+"   You stand at the southern end of a large courtyard.  The ground appears
+to be made of solid clouds.  Its fuzzy and has a springy feel to it.  The
+skies above you is clear of clouds and bright blue.  Exits lead in most 
+directions.
+  }
+  exits {
+	to { n, 7 }
+	to { e, 9 }
+	to { s, 3 }
+	  key { 57553 }
+	  info { door, closed }
+	  keywords { gate south" }
+	to { w, 30 }
+  }
+}
+
+7
+{
+  name { Center courtyards }
+  desc {
+"  The courtyard is dominated by a large fountain resting in the center.  The
+towering pillers to the north hold up a large statue of an awsome dragon. 
+You can hear the sounds of clanking armour to the east and west, while the
+courtyards continue both north and south.
+  }
+  exits {
+	to { n, 8 }
+	to { e, 37 }
+	  info { door, closed }
+	  keywords { Door" }
+	to { s, 6 }
+	to { w, 38 }
+	  info { door, closed }
+	  keywords { Door" }
+  }
+}
+
+8
+{
+  name { The northern courtyard }
+  desc {
+"   Standing beneath the giant piller of the dragon you see large white stairs
+going around the piller leading up.  At the base of the piller is a small iron
+grate, which is the source of the faint screaming you can hear.  To the south
+is the courtyards.
+  }
+  exits {
+	to { n, 41 }
+	  key { 57541 }
+	  info { door }
+	  keywords { Grate" }
+	to { s, 7 }
+	to { u, 39 }
+  }
+}
+
+9
+{
+  name { The east alcove }
+  desc {
+"  This small room is the border between the staircase to your east and the
+courtyards to the west.  It has a few large chairs on the souther wall
+and soom fine paintings on the north.  It is made of pure white marlbe which
+seems to give of a faint blue light.
+  }
+  flags { indoors }
+  exits {
+	to { e, 10 }
+	  key { 57510 }
+	  info { door }
+	  keywords { Door" }
+	to { w, 6 }
+  }
+}
+
+10
+{
+  name { Bottem of the stairs }
+  desc {
+"  You stand at the bottem of a large marble staircase.  The walls are covered
+with ingravings of beutifly flying creatures.  None of which you have ever 
+seen before.  A hallway leads north and a room is off to the west.
+You can also climb the stairs up.
+  }
+  flags { indoors }
+  exits {
+	to { n, 71 }
+	to { w, 9 }
+	  key { 57510 }
+	  info { door }
+	  keywords { Door" }
+	to { u, 11 }
+  }
+}
+
+11
+{
+  name { A spiraling staircase }
+  desc {
+"  You are standing on a large marble staircase.  There is a small window which is just begging for you to look out.  A glowing marble statue stands near the
+window.  A hallway leads both north and west.  Or you can climb both up and down.
+  }
+  extra {
+	keywords { window out outside" }
+	desc { The guardian statue whispers to you 'You dont want to do that'
+The guardian statue pokes you in the ribs.
+The guardian statue winks at you.
+	}
+	keywords { out window outside" }
+	desc { The guardian statue whispers to you 'You dont want to do that'
+The guardian statue pokes you in the ribs
+' Ouch, that hurts!
+emote sniffs sadly as tears well up in his big baby blue eyes.
+..
+
+	}
+	keywords { guardian guard statue" }
+	desc { It glows faintly and seems to be watching you.
+	}
+	keywords { guard guardian statue" }
+	desc { It glows fainlty and seems to be watching you.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 70 }
+	to { u, 12 }
+	to { d, 10 }
+  }
+}
+
+12
+{
+  name { Top of the staircase }
+  desc {
+"  You stand atop a large staircase leading down.  The staircase is made of 
+pure white marble, and is large enough to allow 5 men to walk down it abreast
+of each other.  Hallways lead both north and west of here.  A smaller stair-
+case leads up.
+  }
+  flags { indoors }
+  exits {
+	to { n, 13 }
+	to { w, 36 }
+	to { u, 74 }
+	to { d, 11 }
+  }
+}
+
+13
+{
+  name { Hallway on the upper floor }
+  desc {
+"  The walls of this hallway glow with a faint blue light, though a window on
+the eastern wall helps give this place some illumination.  A door is on the
+western wall while the hallway continues north and a set of stairs lies to the
+south.
+  }
+  extra {
+	keywords { window out outside" }
+	desc { As you approach the window a large winged deamon flies by and you duck for
+fear of him spotting you.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 15 }
+	to { s, 12 }
+	to { w, 14 }
+	  info { door }
+	  keywords { Door" }
+  }
+}
+
+14
+{
+  name { A Plush bedroom }
+  desc {
+"  This rather large room holds a comfertable bed and drawer.  It seems to be 
+unused right now.  The room has a few paintings and one statue which seems to
+be glowing.  A door is on the eastern wall.
+  }
+  extra {
+	keywords { statue" }
+	desc { A guardian statue whispers to you 'Hello, I am your faithfull room servent.'
+A guardian statue whispers to you 'How my I be of service to you?'
+	}
+  }
+  exits {
+	to { e, 13 }
+	  info { door }
+	  keywords { Door" }
+  }
+}
+
+15
+{
+  name { Hallway on the upper floor }
+  desc {
+"  You stand in a large marble hallway.  A Large oak door lies on the western
+wall.  while a few statues stand on the eastern wall.  A staircase is visible
+to the north while the hallway continues south.
+  }
+  extra {
+	keywords { statue guardian" }
+	desc { A guardian statue looks at you.
+A guardian statues says 'You dont belong here..'
+A guardian statue shouts 'Guards, An intruder in in the castle.'
+A guardian statue pokes you in the ribs.
+	}
+	keywords { statue" }
+	desc { A guardian statue shouts 'Guards, an intruders is here on the top floor'
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 17 }
+	to { s, 13 }
+	to { w, 16 }
+	  info { door }
+	  keywords { Door" }
+  }
+}
+
+16
+{
+  name { A large Bedroom }
+  desc {
+"  This large bedroom is well used.  Cloths lie across the floor in total
+disarray.  The walls are covered with many a fine paintings, while the 
+cealing is light by a large glowing ball of light.  A large door lies on
+the eastern wall.
+  }
+  flags { indoors }
+  exits {
+	to { e, 15 }
+	  info { door }
+	  keywords { Door" }
+  }
+}
+
+17
+{
+  name { Top of the staircase }
+  desc {
+"  You are standing at the top of a large marble staircase.  The walls are
+adorned with many small inscriptions.  A hallway leads both west and south.
+And the stairs also lead down.
+  }
+  exits {
+	to { s, 15 }
+	to { w, 18 }
+	to { d, 68 }
+  }
+}
+
+18
+{
+  name { Hallway along the top floor }
+  desc {
+"  You are in a large marble hallway leading east and west.  The walls are bare
+here.  A large oak door rests in the southern wall.   A faint light is emited 
+from the marble walls.
+  }
+  flags { indoors }
+  exits {
+	to { e, 17 }
+	to { w, 19 }
+  }
+}
+
+19
+{
+  name { Hallway along the top floor }
+  desc {
+"  You stand in a large marlbe hallway.  A large painting hangs from the northern wall.  An oak door rests in the southern wall.  The hallway continues east.
+and a staircase is to the west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 18 }
+	to { w, 20 }
+  }
+}
+
+20
+{
+  name { A staircase going up and down }
+  desc {
+"  The marble staircase here goes both up and down.  Weird noises can be heard
+coming from above.  Hallways lead both east and south.  While the stairs do
+continue down and up.
+  }
+  flags { indoors }
+  exits {
+	to { e, 19 }
+	to { s, 34 }
+	to { u, 21 }
+	to { d, 25 }
+  }
+}
+
+21
+{
+  name { A strangly dark staircase }
+  desc {
+"  Light poors in from down below, but is quicky absored by the walls around
+you.  The walls are still of pure white marble and are covered with strange
+dark red inscriptions.  The noises coming from above are still faint and hard
+to distingish.
+  }
+  flags { indoors }
+  exits {
+	to { u, 22 }
+	to { d, 20 }
+  }
+}
+
+22
+{
+  name { A strangly dark staircase }
+  desc {
+"  This room is almost totaly dark.  The light coming from you is almost totaly
+absord by the white marble.  You can hardly make out a trapdoor above you.
+  }
+  flags { indoors }
+  exits {
+	to { u, 23 }
+	  key { 57523 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+	to { d, 21 }
+  }
+}
+
+23
+{
+  name { A dark and hideous lab }
+  desc {
+"  Your light is totaly useless here, fortuanitly an eerie red light glows from
+most everything in this room.  The white marble walls are totaly covered up by
+various bookcases and other equipment of which you understand little.  That
+which you do understand is of the type used to tourture and main others.  The
+bookcases are filled with books with strange glowing runes on them.  While the
+center of the room is dominated by a large stone table finely polished to be
+completly smooth and flat.  A small desk is near the western wall, with a small
+chair next to it.  The desk is covered with scrolls of various types.  Near the
+bookcases on the north wall is a large stand with what appears to be a crystal
+ball standing in it.  The southern wall is almost totaly covered with shelves 
+containing many flask, jars and boxes of various components often used in
+magic.  The floor is covered with dust here, and you can see tracks leading
+up to the eastern wall, where some of the strange equipment lies.
+  }
+  extra {
+	keywords { ball crystal crystalball crystall" }
+	desc { You see a swirling mist of vapors, the vapors appear to be of many colours
+but red seems to dominate them all.  As you watch the colours seem to form
+strange pictures.  After a time the pictures take on beings who look much like
+you.  The beings seem to be exploring the eastern wall, one of the holding
+a large silver key.  suddenly, as one of them insterts the key into a hidden
+lock the eastern wall opens up revealing a dark chamber.  From the chamber is
+seen a large humaniod shape.  Though it possess the shape of a human it most
+surely isnot a human.  If it is anything its a Death knight.  And it dont
+look happy to see those that have unlocked its lair.
+	}
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 24 }
+	  key { 57524 }
+	  info { door }
+	  keywords { secret" }
+	to { s, 24 }
+	  key { 57554 }
+	  info { door }
+	  keywords { secret" }
+	to { d, 22 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+  }
+}
+
+24
+{
+  name { A secret chamber }
+  desc {
+"  The secret compartment is covered with various rare and magical components.
+It also contains the remains of many creatures which appears to have been fed
+to a somewhat viscious guardian.
+  }
+  flags { dark, indoors, no_sum, private }
+  exits {
+	to { w, 23 }
+	  key { 57554 }
+	  info { door }
+	  keywords { secret" }
+  }
+}
+
+25
+{
+  name { A spirling staircase }
+  desc {
+"  A large marble staircase here spirals up and down.  Hallways lead both
+east and south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 65 }
+	to { s, 60 }
+	to { u, 20 }
+	to { d, 26 }
+  }
+}
+
+26
+{
+  name { Bottem of a staircase }
+  desc {
+"  A spirling staircase leads up to higher floors.  The marble walls glow
+with a fiant blue light.  Otherwise the walls are bare.  Hallways lead both
+east and south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 27 }
+	  info { door }
+	  keywords { door" }
+	to { u, 25 }
+  }
+}
+
+27
+{
+  name { A hallway leading north and south }
+  desc {
+"  This marble hallway goes both north and south.  To the north lies a staircase
+while to the south the hallway does continue.
+  }
+  flags { indoors }
+  exits {
+	to { n, 26 }
+	  info { door }
+	  keywords { door" }
+	to { s, 28 }
+  }
+}
+
+28
+{
+  name { A hallway leading north and south }
+  desc {
+"  This marble hallway goes both north and south.  The walls here are covered
+with fine paintings of various parties held in the courtyards.  To the north
+the hallway continues and to the south is a staircase.  A door lies in the
+east wall.
+  }
+  flags { indoors }
+  exits {
+	to { n, 27 }
+	to { s, 29 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+29
+{
+  name { Bottem of a staircase }
+  desc {
+" A large white marble staircase leads up to the second floor.  A marble hall-
+way continues north and a small room lies through a door to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 28 }
+	  info { door }
+	  keywords { door" }
+	to { e, 30 }
+	to { u, 31 }
+  }
+}
+
+30
+{
+  name { the west alcove }
+  desc {
+"   This is a small rooom that connects the courtyards with the western stair-
+case.  Its made of solid marble which seems to give off a fiant blue light, 
+this light seems to be the only visible source of light for this room.  Even
+so you have no trouble seeing where you are.  The walls are covered with
+fine paintings.  A door is on the west wall and the courtyard is out the east.
+  }
+  flags { indoors }
+  exits {
+	to { e, 6 }
+	to { w, 29 }
+	  key { 57530 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+31
+{
+  name { A spiriling staircase }
+  desc {
+"  You stand on a large marble staircase leading both up and down.  A large
+hallway leads both east and south.  A window invites you to look out on the 
+weastern wall.
+  }
+  extra {
+	keywords { window out outside" }
+	desc { Someone arrives from a column of flame.
+Someone whispers to you 'You dont want to do that'
+Someone pokes you in the ribs.
+Someone disappears in a column of flame.
+	}
+  }
+  exits {
+	to { n, 59 }
+	to { u, 32 }
+	to { d, 29 }
+  }
+}
+
+32
+{
+  name { Top of the staircase }
+  desc {
+"  You stand at the top of a large marble staircase.  Light comes in through a
+window on the southern wall.  Exits lead north and east though hallways.  And
+down the stairs.
+  }
+  extra {
+	keywords { window" }
+	desc { As you approach the window a strong gust of wind throws you back against the 
+wall.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 33 }
+	to { e, 35 }
+	to { d, 31 }
+  }
+}
+
+33
+{
+  name { Hallway on the top floor }
+  desc {
+"  You stand in a well lite hallway leading north and south.  A large oak door
+lies in the eastern wall, while a small window rests in the western.  
+  }
+  extra {
+	keywords { window out outside" }
+	desc { A bansee flies by just as you aproach the window and you duck for cover.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 34 }
+	to { e, 76 }
+	  info { door }
+	  keywords { Door" }
+	to { s, 32 }
+  }
+}
+
+34
+{
+  name { Hallway on the top floor }
+  desc {
+"  You stand in a large marble hallway leading north and south.  A large oak
+door lies in the eastern wall.  As you look up you see that the ceiling is covered with large murals of great battles.
+  }
+  flags { indoors }
+  exits {
+	to { n, 20 }
+	to { e, 77 }
+	  info { door }
+	  keywords { Door" }
+	to { s, 33 }
+  }
+}
+
+35
+{
+  name { Hallway on the top floor }
+  desc {
+"  This large hallway has its marble walls covered with paintings.  Otherwise
+its much like anyother marble hallway.  You can see a staircase to the west
+and the hallway continues east, while a door lies on the north wall and a window on the south.
+  }
+  extra {
+	keywords { window out outside" }
+	desc { As you look out the window a Strong gust of winds drags you out.
+.                                                              .
+You have a great view of the valley floor way down below you.
+The lush forests and rivers seem to sparkle brillently.
+You catch glimpes of beutiful creatures flying about all around you.
+.                                                               .
+A strong wind begins to pull you down to the ground.
+You desperetly try to fly up, but its to no avail.
+.                                                .
+You begine to fall faster and faster.
+.                                    .
+Your falling very fast now as you see the ground coming up to meet you.
+.                                                                     .
+A large green hill seems to be your target as you quickly approach it.
+.                                                                    .
+Seconds before you hit, the wind stops sucking you down...but its to latee.
+
+THAT REALLY HURT!
+
+Your are in pretty bad shape, and are unable to do anything.
+
+You are in pretty bad shape, and are unable to do anything.
+
+You dizzly wake up.
+A small faiery whispers to you 'I told you that you didnt want to do that.'
+A small faiery leaves south.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 36 }
+	to { w, 32 }
+  }
+}
+
+36
+{
+  name { Hallway on the top floor }
+  desc {
+"  You stand in a large hallway leading east and west.  The walls are made of
+pure white marble, and seem to glow with a faint blue light.  A small window is
+on the southern wall and a door is on the north.  You can see the staircase
+to the east and the hall countines west.
+  }
+  extra {
+	keywords { window out outside" }
+	desc { A small woodpecker has arrived from the south.
+A small woodpecker pecks you on your head.
+A small woodpecker whispers to you 'You really  dont want to do that'
+A small woodpecker leaves south.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 12 }
+	to { w, 35 }
+  }
+}
+
+37
+{
+  name { Barracks }
+  desc {
+"  This barracks contains many large double bunks used to hold the guards of
+this castle when they are off duty.  The walls are covered with weapons cases
+and the floor is litered with armour.
+An exit lies to the west.
+  }
+  exits {
+	to { w, 7 }
+  }
+}
+
+38
+{
+  name { Barracks }
+  desc {
+"  This large room seems to have many double bunks lying around.   A few cases
+of weapons adorns the walls.  and a fair amount of armor lies under the bunks
+The walls are ofcourse all made of white marble.  and the light does come from
+them.  A door lies to the east. 
+  }
+  exits {
+	to { e, 7 }
+  }
+}
+
+39
+{
+  name { The Royal Staircase }
+  desc {
+"  A winding staircase made of white marble leads down to the lower ground.
+The walls here are adorned with many examples of weaponery and armour.  The
+fine expamples of this armour makes you dread fighting any of those who 
+might be using such armour.  To the north lies a room, while down leads to
+the courtyards.
+  }
+  extra {
+	keywords { weapons weapon" }
+	desc { The weapons seem to be in perfect condition.  tempting you to try and take 
+them.  but they are securly fashioned to the wall.  and no manner of trying
+will break them free
+	}
+	keywords { armour armor" }
+	desc { The armours are all made of a silver and mithreal blended toghether.  they
+seem to glow magicaly.  yet as you try to take them, they refuse to budge 
+from where they stand.
+	}
+  }
+  exits {
+	to { n, 40 }
+	to { d, 8 }
+  }
+}
+
+40
+{
+  name { Before the door to the kings chamber }
+  desc {
+"  You stand before the entrance to the kings royal throne room.  The walls here
+are covered with fine tapestries.  Statues of gods and heroes stand on either
+side of you,  seeming to guard against those who might bring harm to those
+that reside to the north.  The marble floors here echo loudly every footfall
+you make.  While the ceiling fades into mist above you.  To the south lies
+the stairs and to the north lies an oak door.
+  }
+  extra {
+	keywords { door" }
+	desc { A huge oak door.
+	}
+	keywords { statue" }
+	desc { Many a statue aline the walls in this room.  The status stand 10 feet tall,
+and are made of pure marble.  They seem to glare down at you, as if you didnt
+belong here.
+	}
+  }
+  exits {
+	to { n, 50 }
+	  key { 57551 }
+	  info { door, closed }
+	  keywords { Door north" }
+	to { s, 39 }
+  }
+}
+
+41
+{
+  name { Checkpoint }
+  desc {
+"   While the marble walls still glow with a blue light, the gloom of this 
+place casts a shadow over all.  A sturdy desk lies near the east wall, while
+an weapons case hangs from the west.  A passage leads north with the court-
+yards leads back south.
+  }
+  exits {
+	to { n, 42 }
+	to { s, 8 }
+	  key { 57541 }
+	  info { door }
+	  keywords { Grate" }
+  }
+}
+
+42
+{
+  name { A dark and dusty hallway }
+  desc {
+"   This dark hallway is covered with dust.  Besides the cell doors to the easst
+and west, this place is quite boring.  The hallway countines north and the
+checkpoint is too the south.
+  }
+  extra {
+	keywords { cell" }
+	desc { A solid iron cell door blocks the way.  It apears to have a lock.
+	}
+  }
+  exits {
+	to { n, 43 }
+	to { e, 56 }
+	  key { 57550 }
+	  info { door, closed }
+	  keywords { door east" }
+	to { s, 41 }
+	to { w, 66 }
+	  key { 57550 }
+	  info { door, closed }
+	  keywords { door west" }
+  }
+}
+
+43
+{
+  name { A dark and dusty hallway }
+  desc {
+"   This dark hallway is covered with dust.  Besides the cell doors to the east
+and west, this place is quite boring.  You see an intersection to the north
+and the hallway continues south.
+  }
+  extra {
+	keywords { cell" }
+	desc { A cell door lies on both the east and west walls. It appears to have a simple
+lock on it.
+	}
+  }
+  exits {
+	to { n, 44 }
+	to { e, 58 }
+	  key { 57550 }
+	  info { door, closed }
+	  keywords { Door east" }
+	to { s, 42 }
+	to { w, 57 }
+	  key { 57550 }
+	  info { door, closed }
+	  keywords { Door West" }
+  }
+}
+
+44
+{
+  name { An intersection in the hallway }
+  desc {
+"  This intersection leads in all directions but up and down.  The marble
+walls seem to lead only north and south, while plain stone walls lead east
+and west.
+  }
+  exits {
+	to { n, 45 }
+	to { e, 79 }
+	to { s, 43 }
+	to { w, 78 }
+  }
+}
+
+45
+{
+  name { A dark hallway }
+  desc {
+"  This dark hallway leads north and south.  You feel strange powers rest to
+the north.  The walls are covered with murals of times long past.  
+  }
+  exits {
+	to { n, 46 }
+	  info { door }
+	  keywords { Door" }
+	to { s, 44 }
+  }
+}
+
+46
+{
+  name { A narrow tunnel leading up }
+  desc {
+"  A large mound 4 feet high blocks your path to the north.  You seem to be
+able to climb above it.  True fear seems to be eminating from what ever lies
+to the north.
+  }
+  exits {
+	to { s, 45 }
+	  info { door }
+	  keywords { Door" }
+	to { u, 47 }
+  }
+}
+
+47
+{
+  name { An unused passage }
+  desc {
+"  Stark terror awaits you as you walk this unused passage.
+  }
+  exits {
+	to { n, 48 }
+	to { d, 46 }
+  }
+}
+
+48
+{
+  name { Before the Iron doors }
+  desc {
+"  Standing here below these doors is a true test of courage.  Many a mortal
+would have long ago fled in total terror of thise place.  Yet here you stand,
+how brave of you, and how foolish if you continue.
+  }
+  extra {
+	keywords { door iron doors" }
+	desc { The iron doors is covered with anchient runes of warding and protection.  You
+feel as if the runes wernt meant to protect what lies inside from you, but
+to protect the world from that which lies inside.
+The doors feel DEATHLY cold.
+	}
+  }
+  exits {
+	to { n, 49 }
+	  key { 57552 }
+	  info { door, closed }
+	  keywords { Iron north" }
+	to { s, 47 }
+  }
+}
+
+49
+{
+  name { The Crypt of the King Vie-Tiamen }
+  desc {
+"  The circular walls here covered with glowing runes of protection and 
+warding.  Flashes of light sparkel between the walls and the coffin in the
+center.  The coffin, also covered with runes, lies slightly agar.  The runes
+upon the coffin seem to have lost their glow and lie useless.  Magical powers
+seem to be straining to prevent the coffin from opening.  flashes of magic 
+energy of many colours busrt forth all around you.  Suddenly, as if sensing
+your presence a large and dark shape takes form above the coffin. Just as
+sudden, all the runes upon the coffin go dark and powerless.  You sense that you
+are about to die...
+  }
+  exits {
+	to { s, 48 }
+	  key { 57552 }
+	  info { door, closed }
+	  keywords { iron south" }
+  }
+}
+
+50
+{
+  name { Before the Throne room }
+  desc {
+"  This room is covered in the richest tapestries this castle possess.  They
+seem to depict epic battles between flying dragons and great warriors.  The
+battles all seem to take place among the clouds and lighting seems to be
+common in all the pictures.  Too the north is the throne room and too the 
+south is an oak door.
+  }
+  extra {
+	keywords { door s" }
+	desc { An oak door
+	}
+  }
+  exits {
+	to { n, 51 }
+	to { s, 40 }
+	  key { 57551 }
+	  info { door, closed }
+	  keywords { door south" }
+  }
+}
+
+51
+{
+  name { The Throne room }
+  desc {
+"  You stand before a huge throne made of the purest white marble.  The throne
+is intricately inlaid with silver symbols of magic and poewr.  At the head of
+the throne is an ancient symbol, made of the purest platinum, of an ancient
+god long forgoten by mortal man.
+  The throne stands in the center of a marble dais raised a few feet off the   
+ground.  The dais is decorated with indentations running verticaly all the
+way around it.  To the east and west stand two sturdy doors and too the south
+is the gate used too enter this room.
+  }
+  extra {
+	keywords { dais" }
+	desc { Upon closer inspection you notice a well hidden door.
+	}
+	keywords { throne" }
+	desc { A large throne made of marble.  richly inlaid with silver.
+	}
+  }
+  exits {
+	to { n, 54 }
+	  info { door }
+	  keywords { Dais" }
+	to { e, 53 }
+	  info { door }
+	  keywords { Door
+Door" }
+	to { s, 50 }
+	to { w, 52 }
+	  info { door }
+	  keywords { Door" }
+  }
+}
+
+52
+{
+  name { The kings Chamber }
+  desc {
+"  This room is covered with a plush blue carpet.  Lying on top of the carpet
+are carious chairs and desks.  This appears to be where the kings  holds
+informal meetings.  To the south is the kings bedroom and to the east is the
+Throne room.
+  }
+  exits {
+	to { e, 51 }
+	  info { door }
+	  keywords { Door" }
+	to { s, 55 }
+  }
+}
+
+53
+{
+  name { The Royal guards chamber }
+  desc {
+"  This room is where the finest of the guards take there naps.  It is 
+well furnished but not overly so.  Being that there are 8 bunks you sense
+that the kings royal guards number 8.
+  }
+  extra {
+	keywords { bed" }
+	desc { A modist bed about 7 feet long and 2 feet wide.
+edit extra bed bunk
+	}
+	keywords { bed bunk" }
+	desc { a modist bed about 8 feet long and 4 feet wide.
+	}
+  }
+  exits {
+	to { w, 51 }
+	  info { door }
+	  keywords { Door
+edit name The Royal guards chamber
+l" }
+  }
+}
+
+54
+{
+  name { A small room inside the Dais. }
+  desc {
+"  You stand in a small room below the dais, it contains many artifacts of 
+used by the king and queen in times of need.  The walls here are rough and
+dirty, while the floor is covered with dust.  The only exit is back through
+the dais.
+  }
+  exits {
+	to { s, 51 }
+	  info { door }
+	  keywords { Dais" }
+  }
+}
+
+55
+{
+  name { The kings sleeping quaters }
+  desc {
+"  This huge room id dwarfed by the bed standing in its centre.  Over 12 feet
+long and 10 feet wide, you have never seen a bed so large.  The bed is covered
+in the finest silks and is covered by a veil which obscures the veiw of what
+lies in the bed.  The room has a grand desk with a large mirror and a closet
+filled with garments.  To the north is the kings study.
+  }
+  extra {
+	keywords { bed" }
+	desc { A large bed, it appears to be empty.
+	}
+	keywords { desk" }
+	desc { A desk made of marble with white oak drawers.  its contains nothing but
+documents which you can not read.
+	}
+	keywords { closet" }
+	desc { A large closet filled with cloths.....none of which fits you.
+	}
+  }
+  exits {
+	to { n, 52 }
+  }
+}
+
+56
+{
+  name { Prison cell }
+  desc {
+"  You sure don't want to stay here long.  The cell is perfectly spotless and
+the walls gleam with a bright white light.  Everywhere you look, all you can
+see is bright light.  The light gets irritting fast, and closing your eyes
+does no good.  You can only feel that you exit is to the west.
+  }
+  exits {
+	to { w, 42 }
+	  key { 57550 }
+	  info { door, closed }
+	  keywords { door west" }
+  }
+}
+
+57
+{
+  name { Prison cell }
+  desc {
+"  You sure dont want to stay here long.  The place is spotless and the walls
+gleam with a bright light.  Everywhere you look you are blinded by the 
+briliance of the walls.  You sense that an exit might lead to the east.
+  }
+  exits {
+	to { e, 43 }
+	  key { 57550 }
+	  info { door, closed }
+	  keywords { door east" }
+  }
+}
+
+58
+{
+  name { Prison cell }
+  desc {
+"   You sure wish you wernt here.  You cant see anything, everything is giving
+off such a light that you are blinded.  You may be able to stumble your way
+west.
+  }
+  exits {
+	to { w, 43 }
+	  key { 57550 }
+	  info { door, closed }
+	  keywords { door west" }
+  }
+}
+
+59
+{
+  name { A large plain marble hallway }
+  desc {
+"  This north south marble hallway seems well used, the walls are covered with
+fine paintings of large feists which seem to have all been held in the room to 
+the east.  The eastern wall is covered with a very large oak door.
+  }
+  flags { indoors }
+  exits {
+	to { n, 60 }
+	to { e, 61 }
+	  info { door }
+	  keywords { Door" }
+	to { s, 31 }
+  }
+}
+
+60
+{
+  name { A large plain marble hallway }
+  desc {
+"  This marble hallway is pretty bare of all decorations.  The eastern wall
+has a small door with many fine smelling foods and drinks have come up from
+under the door.
+  }
+  flags { indoors }
+  exits {
+	to { n, 25 }
+	to { e, 62 }
+	  info { door }
+	  keywords { Door" }
+	to { s, 59 }
+  }
+}
+
+61
+{
+  name { Dining hall }
+  desc {
+"  The western end of this dinning hall is large and covered with many large
+tables and chairs.  It seems able to hold grand feasts with hundreds of 
+people easly eating here.  The dinning hall continues east, where a grand
+table is sitting, a door leads north to the kitchen and west to a hallway.
+  }
+  flags { indoors }
+  exits {
+	to { n, 62 }
+	to { e, 63 }
+	to { w, 59 }
+	  info { door }
+	  keywords { Door" }
+  }
+}
+
+62
+{
+  name { Kitchen }
+  desc {
+"  The kitchen is a large room with many pots, pans and tools used in the
+creation of fine meals.  Three large fire pits sit in the northen wall, while
+the southern wall is a large counter used to create the food.  A small door
+on the eastern wall seems to lead to the pantry.  }
+  flags { indoors }
+  exits {
+	to { e, 64 }
+	to { s, 61 }
+	to { w, 60 }
+	  info { door }
+	  keywords { Door" }
+  }
+}
+
+63
+{
+  name { The kings dinning area }
+  desc {
+"  A few large tables stand to the west of you, but they are all dominated
+easily by the huge marble table standing high on top of a pedastal to the east
+of you.  This is odviously where the royal house eats and all those that
+stand in favor of the king.  This table could easly hold 20 people comfortably.
+  }
+  flags { indoors }
+  exits {
+	to { e, 70 }
+	  info { door }
+	  keywords { Door" }
+	to { w, 61 }
+  }
+}
+
+64
+{
+  name { Pantry }
+  desc {
+"  This pantry stores large amounts of spices, herbs and foods.  Barrels line
+most of the walls, with shelves filled with spices and herbs standing atop the
+barrels.  Smoked meat is hanging from the bottem of the shelves on the eastern
+wall.  A door leads west.
+  }
+  flags { indoors }
+  exits {
+	to { w, 62 }
+  }
+}
+
+65
+{
+  name { a large marble hallway }
+  desc {
+"  This large marble hallway leads east and west.  Sounds of chopping and slicing, comes from the southern wall, other wise everything is fairly silent.  
+  }
+  exits {
+	to { e, 67 }
+	to { w, 25 }
+  }
+}
+
+66
+{
+  name { Prison cell }
+  desc {
+"   You really dont want to stay here long.  The place is totaly spotless and
+the walls gleam with a bright light.  Everywhere you look you are blinded
+and it becomes quite irritating after only a few minutes.  You sense that
+an exits might be east.
+  }
+  exits {
+	to { e, 42 }
+	  key { 57550 }
+	  info { door, closed }
+	  keywords { door east" }
+  }
+}
+
+67
+{
+  name { A large marble hallway }
+  desc {
+"  This large marble hallway leads east and west.  A staircase is visible to  the, east and the hallway continues west.  The southern wall is covered with a 
+large painting of a great hunt.
+  }
+  exits {
+	to { e, 68 }
+	to { w, 65 }
+  }
+}
+
+68
+{
+  name { A staircase }
+  desc {
+"  This marble staircase is much like the other staircases.  Its large, well
+lighted, has a small window in the northen wall, with a small statue near it.
+and it leads up and down.  Hallways also lead south and west.
+  }
+  extra {
+	keywords { statue guardian" }
+	desc { The guardian statue smiles at you.
+emote gives you a great big bear hug!
+
+	}
+	keywords { guardian statue" }
+	desc { The guardian statue looks almost alive.
+The guardian statue smiles at you.
+	}
+	keywords { window out outside" }
+	desc { The guardian statue whipsers to you 'You dont want to do that.'
+The guardian statue pokes you in the ribs.
+The guardian statue smiles at you.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 69 }
+	to { w, 67 }
+	to { u, 17 }
+	to { d, 73 }
+  }
+}
+
+69
+{
+  name { A large marble hallway }
+  desc {
+"  This large marble hallway is covered with fine rugs and is very confortable
+to walk across.  You just hope that noone notices the muddy tracks you leave
+across it.  The hallway leads north to a staircase and south to more hallway.
+  }
+  flags { indoors }
+  exits {
+	to { n, 68 }
+	to { s, 70 }
+  }
+}
+
+70
+{
+  name { A large marble hallway. }
+  desc {
+"  This large marble hallway is bare except a for a few large marble benchs
+lying against the eastern wall.  The hallway leads south to a staircase or 
+north to more hallway.
+  }
+  flags { indoors }
+  exits {
+	to { n, 69 }
+	to { s, 11 }
+	to { w, 63 }
+	  info { door }
+	  keywords { Door" }
+  }
+}
+
+71
+{
+  name { a Small service hallway }
+  desc {
+"  This hallway seems unused and smaller then the rest of the hallways.  It
+leads north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 72 }
+	to { s, 10 }
+  }
+}
+
+72
+{
+  name { A small service hallway }
+  desc {
+"  This hallway seems unused and small compared to the rest of the castle.
+To the north is a small marble staircase and to the south the hallway continues
+  }
+  flags { indoors }
+  exits {
+	to { n, 73 }
+	to { s, 71 }
+  }
+}
+
+73
+{
+  name { Bottem of a marble staircase }
+  desc {
+"  This marble staircase leads up to the next floor.  It also has a small
+hallway leading south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 72 }
+	to { u, 68 }
+  }
+}
+
+74
+{
+  name { A narrow staircase }
+  desc {
+"  You are in the middle of a narrow marble staircase.  Narrow atleast by the
+standers of this castle.  Plenty big enough for you.  The stairs lead both
+up and down.
+  }
+  flags { indoors }
+  exits {
+	to { u, 75 }
+	  info { door }
+	  keywords { Trapdoor" }
+	to { d, 12 }
+  }
+}
+
+75
+{
+  name { Atop a large tower. }
+  desc {
+"  You stand at the top of a large tower.  You have a great view of the 
+area around this castle.  You can see distant villages far below you, while
+many creatures fly about you.  The tower appears to made for defence, against
+what you do now know.
+  }
+  exits {
+	to { d, 74 }
+	  info { door }
+	  keywords { Trapdoor" }
+  }
+}
+
+76
+{
+  name { A large bedroom }
+  desc {
+"  This bedroom contains many small beds, quite a few dressers and a few mirrors.  It appears to be the room where most of the servents lives.  The walls are 
+mostly bare, and what does hang from them is of poor quality.  A door rests
+on the western wall.
+  }
+  flags { indoors }
+  exits {
+	to { w, 33 }
+	  info { door }
+	  keywords { Door" }
+  }
+}
+
+77
+{
+  name { A large bedroom }
+  desc {
+"  This large bedroom is almost totaly empty.  All that remains here is a large
+bed and a small drawer.  A door lies on the western wall.
+  }
+  flags { indoors }
+  exits {
+	to { w, 34 }
+	  info { door }
+	  keywords { Door" }
+  }
+}
+
+78
+{
+  name { A small stone hallway }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 44 }
+	to { s, 80 }
+	  info { door }
+	  keywords { Door" }
+  }
+}
+
+79
+{
+  name { A small dark stone hallway }
+  desc {
+"  This small stone hallway lies dark in shadows.  A strange wind blows from
+the south.  To the east is the intersection.
+  }
+  exits {
+	to { s, 81 }
+	to { w, 44 }
+  }
+}
+
+80
+{
+  name { A store room }
+  desc {
+"  This large stone room is just that.. a store room.
+  }
+  exits {
+	to { n, 78 }
+	  info { door }
+	  keywords { Door" }
+  }
+}
+
+81
+{
+  name { A Broken down store room }
+  desc {
+"  This store rooms features are totaly overshadowed by a huge hole in the 
+eastern wall.  This hole does not look like a normal feature.  The wind
+blowing from the hole seems to be tearing at your feet.  You are just barely
+able to hold on.
+  }
+  exits {
+	to { n, 79 }
+	to { e, 82 }
+  }
+}
+
+82
+{
+  name { Out side the castle }
+  desc {
+"  You float outside the castle.  The hole in the wall is still visible, but
+the winds tear you away from it.  You seem unable to reach it.
+  }
+  sector { Air }
+  exits {
+	to { n, 84 }
+	to { e, 83 }
+	to { s, 84 }
+	to { w, 82 }
+	to { u, 82 }
+	to { d, 84 }
+  }
+}
+
+83
+{
+  name { swirling winds }
+  desc {
+"  The winds here buffer you about at there own will.  You have little control
+over where you go.
+  }
+  sector { Air }
+  exits {
+	to { n, 84 }
+	to { e, 82 }
+	to { s, 83 }
+	to { w, 82 }
+	to { u, 85 }
+	to { d, 84 }
+  }
+}
+
+84
+{
+  name { Swirling winds }
+  desc {
+"  The winds here buffer you about at there own will.  You have little control
+over where you go.
+  }
+  sector { Air }
+  exits {
+	to { n, 5 }
+	to { e, 83 }
+	to { s, 83 }
+	to { u, 84 }
+	to { d, 84 }
+  }
+}
+
+85
+{
+  name { Slighty calmer swirling winds }
+  desc {
+"  The winds here a slightly clamer.
+  }
+  sector { Air }
+  exits {
+	to { n, 86 }
+	to { e, 82 }
+	to { s, 84 }
+	to { w, 85 }
+	to { u, 85 }
+	to { d, 83 }
+  }
+}
+
+86
+{
+  name { Near a ledge on a cliff. }
+  desc {
+"  Your floating near a ledge set inside a large cliff.  Just above the ledge
+a large cave is visible.
+  }
+  sector { Air }
+  exits {
+	to { n, 87 }
+	to { e, 83 }
+	to { s, 85 }
+	to { w, 86 }
+	to { u, 86 }
+	to { d, 86 }
+  }
+}
+
+87
+{
+  name { Before a large cave }
+  desc {
+"  A large gaping cave lies just to the north.  Bones of many small
+animiles litter the ground before you. Upon closser inspection some of the 
+bones arnt that small.
+  }
+  sector { Mountains }
+  flags { no_mob }
+  exits {
+	to { n, 88 }
+	to { s, 86 }
+	to { u, 86 }
+  }
+}
+
+88
+{
+  name { Inside a large cave }
+  desc {
+"  This large cave is heated by some unknown source.  The bones here are few
+and far between, most of them appears to have been burned to ashes long ago.
+The cave continues north and east.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 89 }
+	to { e, 93 }
+	to { s, 87 }
+  }
+}
+
+89
+{
+  name { A bend in the cave }
+  desc {
+"  Here the cave turns into a tunnel and takes a sharp bend to the east.  You
+hear strange noises coming from the caves to the east.  inculinding heavy
+snoring.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { e, 90 }
+	to { s, 88 }
+  }
+}
+
+90
+{
+  name { Before a large cave }
+  desc {
+"  The tunnel here has a few gold trinkits and items lying about.  They seem
+to have fallon out of something as they were draged east.  Looking east
+you see a large cave with mounds of gold lying in it.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { e, 91 }
+	to { w, 89 }
+  }
+}
+
+91
+{
+  name { A dragons cave }
+  desc {
+"  The gold mounds seem to be unfortantly fused together in one large mound
+You cant even budge this gold much less take it.  The gold seems to have
+been fused useing great heat, prehaps heat from a large dragon, like the one
+sleeping in the corner off to the south.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { w, 90 }
+  }
+}
+
+92
+{
+  name { 57592 }
+  desc {
+Empty
+  }
+}
+
+93
+{
+  name { Cave in }
+  desc {
+"  A recent cave in here prevents you from going any further.  The only
+remaining exit lies to the west.  A small sign is posted on the wall here.
+  }
+  sector { Mountains }
+  extra {
+	keywords { sign" }
+	desc { From the digging crews.
+To whom ever reads this.
+
+  Where are making great progress on removing the ruble from this once long
+tunnel.  We hope to have it done soon.
+	}
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { w, 88 }
+  }
+}

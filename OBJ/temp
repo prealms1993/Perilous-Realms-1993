@@ -1,0 +1,18 @@
+902
+{
+        name { Saladins chest plate made from old rags. }
+        namelist { chest plate rags }
+        long { Saladin armor made from old rags has been left here. }
+        weight { 15 }
+        rent { 50000 }
+        value { 150000 }
+        material { cloth }
+        type {
+                armor {
+                      effective_ac { 25 }
+                      force { 25 }
+                      }
+             }
+        wear { take, body }
+}
+

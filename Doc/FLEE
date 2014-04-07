@@ -1,0 +1,38 @@
+COMMAND FLEE
+
+General Description:
+  Attempt to flee from your attacker in the quickest way possible.
+
+Chance of Success:
+  6 attemps are made at fleeing for each invocation of this commmand... each
+  of the 6 attempts is in a random direction.  The flee succeeds if you
+  successfully can walk in the direction it sent you.
+
+Result of Success:
+  You escape whoever you were fighting.
+  If you are over 3rd level, you loos 1/10 of the monsters experience
+  if you are over half of your hitpoints, or 1/25 of the monthers experience
+  if you are over 1/20 of your hitpoints... If you are less than 1/20, you
+  loos 1/100 of the experience of the opponent.
+  No matter what, you can not loose more than 100K xp, or 1/100 your xp.
+
+  If the person doing the fleeing is a monster, then whoever they fleed from
+  is added to their list of "feared" people.
+
+  If the person fleeing is a character, the following is used to determine
+  whether or not a mobile will start hunting you:
+    percent = 100 * monsters_hp / max_hp
+    if random(1,101) > percent then if one of the following holds, the monster
+    will start hunting you
+	1) The monster hates you.
+	2) You are good and the monster is evil
+	3) You are evil and the monster is good
+	
+
+Results of Failure:
+  You don't escape.
+
+Restrictions:
+  In the ARENA, you do not loose experience points.
+  If you are not fighting anyone, you do not loose experience.
+  You can not flee into a death trap.

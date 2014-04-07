@@ -1,0 +1,15 @@
+
+0
+{
+  name { In Mirkwood }
+  desc {
+"   You come to a huge expanse of spider webs.  Icky.  Now you know why it is
+called Mirkwood, although you start to think that Arachnos would be a better
+name...  You can go north into Arachnos or East back into Mirkwood. 
+  }
+  sector { Field }
+  exits {
+	to { n, Arachnos:1 }
+	to { e, Mirkwood1:0 }
+  }
+}

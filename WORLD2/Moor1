@@ -1,0 +1,58 @@
+
+0
+{
+  name { The Beginnings of a Moor }
+  desc {
+"  You can see a great moor lying to the north of here.  Some of the fog
+lies in patches around as you are at the entrance to the moors.  To the
+south you can make out a city wall and what appears to be the safety of
+Midgard.
+  }
+  exits {
+	to { n, 1 }
+	to { s, Midgard_trail:4 }
+  }
+}
+
+1
+{
+  name { A Ghastly Moor }
+  desc {
+"  You trudge along this great expanse of a moor.  The mirky fog wisps
+around your ankles almost alive and trying to grab you.  The grass is
+ankle high and chills your feet to the bone.
+  }
+  exits {
+	to { n, Canticle:1 }
+	to { s, 0 }
+  }
+}
+
+2
+{
+  name { A Stray Trail }
+  desc {
+"  You seemed to have strayed away from the safety of Midgard.  Some type of
+ruins are off to the northeast of here.  The trail continues to the 
+unexplored north and to the south where the gates of Midgard come to view.
+  }
+  exits {
+	to { n, 3 }
+	to { s, Midgard_trail:2 }
+  }
+}
+
+3
+{
+  name { Outside some Ruins }
+  desc {
+"  You stand outside some crumbling ruins which lie to the east.  A trail
+heads off in the south leading toward the safety of Midgard, the greatest
+city in the land.  The ground here shows no signs of travel.  You might
+be the first to actually explore the ruins if you decide to continue.
+  }
+  exits {
+	to { e, Warg_ally:1 }
+	to { s, 2 }
+  }
+}

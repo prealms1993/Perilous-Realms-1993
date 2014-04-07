@@ -1,0 +1,24 @@
+
+0
+{
+  name { The Chat Room }
+  desc {
+"   You are lounging in a quiet cozy parlor, warmed by a gentle magical fire
+which twinkles happily in a warm fireplace.  There are no doors out.  Clearly
+the owner of this room needs none.
+  }
+  flags { indoors, private }
+}
+
+1
+{
+  name { Moses' Hangout }
+  desc {
+"   You see here a cozy little room with a fireplace.  You can tell it is Moses'
+room by the two stone tablets and a bible on a small ledge near the fireplace.
+This room was designed for total relaxation.  You can watch television, listen
+to the stereo, even soak in a hot tub.
+There is a bell here for the butler.
+  }
+  flags { indoors, private }
+}

@@ -1,0 +1,134 @@
+906
+{
+        name { Bombadils bomb proof chest plate }
+        namelist { chest plate bomb }
+        long { Bombadil has lost his mind and his chest plate here. }
+        weight { 12 }
+        rent { 50000 }
+        value { 150000 }
+        material { steel }
+        type {
+                armor {
+                      effective_ac { 25 }
+                      force { 25 }
+                      }
+             }
+        wear { take, body }
+}
+907
+{
+        name { Bombadils ring of strength }
+        namelist { ring strength }
+        long { Bombadil has lost his mind and ring of strength here. }
+        weight { 2 }
+        rent { 50000 }
+        value { 150000 }
+        material { silver }
+        type {
+                armor {
+                      effective_ac { 1 }
+                      force { 1 }
+                      }
+             }
+        wear { take, finger }
+        apply {
+               strength { 4 }
+              }
+}
+908
+{
+        name { Jumas ring of strength }
+        namelist { ring strength }
+        long { Juma has lost his mind and ring of strength here. }
+        weight { 2 }
+        rent { 50000 }
+        value { 150000 }
+        material { silver }
+        type {
+                armor {
+                      effective_ac { 1 }
+                      force { 1 }
+                      }
+             }
+        wear { take, finger }
+        apply {
+               strength { 4 }
+              }
+}
+909
+{
+        name { Jumas ring of precision }
+        namelist { ring precision }
+        long { Juma has lost his mind and ring of precision here. }
+        weight { 2 }
+        rent { 50000 }
+        value { 150000 }
+        material { silver }
+        type {
+                armor {
+                      effective_ac { 1 }
+                      force { 1 }
+                      }
+             }
+        wear { take, finger }
+        apply {
+               hitroll { 3 }
+              }
+}
+910
+{
+        name { Jumas shiny leg plates }
+        namelist { leg plate }
+        long { Juma has lost his mind and his leg plates here. }
+        weight { 8 }
+        rent { 40000 }
+        value { 50000 }
+        material { steel }
+        type {
+                armor {
+                      effective_ac { 15 }
+                      force { 15 }
+                      }
+             }
+        wear { take, legs }
+}
+911
+{
+        name { Darkwinds ring of smooth moves }
+        namelist { ring dexterity }
+        long { Darkwind has lost his mind and ring of dexterity here. }
+        weight { 2 }
+        rent { 50000 }
+        value { 150000 }
+        material { silver }
+        type {
+                armor {
+                      effective_ac { 1 }
+                      force { 1 }
+                      }
+             }
+        wear { take, finger }
+        apply {
+               dexterity { 4 }
+              }
+}
+912
+{
+        name { Darkwinds ring of energy }
+        namelist { ring strength }
+        long { Darkwind has lost his mind and ring of energy here. }
+        weight { 2 }
+        rent { 50000 }
+        value { 150000 }
+        material { silver }
+        type {
+                armor {
+                      effective_ac { 1 }
+                      force { 1 }
+                      }
+             }
+        wear { take, finger }
+        apply {
+               mana { 25 }
+              }
+}

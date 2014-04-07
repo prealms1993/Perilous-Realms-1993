@@ -1,0 +1,1629 @@
+
+0
+{
+  name { The plains }
+  desc {
+You are on the dry plains, far north of Midgaard. As far as you can see, 
+there is nothing, except for the cliffs to the south, and a faint green band
+to the north-east. There is a curious looking hole in the cliff to the south.
+  }
+  sector { Field }
+  exits {
+	to { n, 6 }
+	to { e, 1 }
+	to { s, Quinmoor:24 }
+	to { w, 2 }
+  }
+}
+
+1
+{
+  name { The plains }
+  desc {
+The land here is extremely flat, and if anything lives here, it must be 
+verry small, for you are sure you could see a man from a mile away.
+  }
+  sector { Field }
+  exits {
+	to { n, 7 }
+	to { e, 3 }
+	to { w, 0 }
+  }
+}
+
+2
+{
+  name { The plains }
+  desc {
+The plains are dry, and there seems to be no vegetation, but there 
+is a suspicious looking green band to the north-west. 
+  }
+  sector { Field }
+  exits {
+	to { n, 5 }
+	to { e, 0 }
+	to { s, 2 }
+	to { w, 4 }
+  }
+}
+
+3
+{
+  name { The plains }
+  desc {
+To the north you see a very faint trail. To the south east, you seem to be 
+able to make out a break in the cliffs, perhaps a valley.
+  }
+  sector { Field }
+  exits {
+	to { n, 8 }
+	to { e, 3 }
+	to { w, 1 }
+  }
+}
+
+4
+{
+  name { The plains }
+  desc {
+you are near the edge of what seems to be an ancient forest. What sickness
+could have befallen these lands to turn this once beautiful forest into the
+desolate, desert like plains you stand upon you may never know. One thing
+is for sure, though, these forests are disappearing even now. The trees on
+the edge are withered, and they are obviously dying. 
+  }
+  sector { Field }
+  exits {
+	to { n, 24 }
+	to { e, 5 }
+	to { s, 4 }
+	to { w, 2 }
+  }
+}
+
+5
+{
+  name { The plains }
+  desc {
+You are to the south of an ancient forest. There seems to be a break in the
+trees to the west, but there is no way in here. Strange, though, the
+trees seem to be dying, and there is no undergrowth visible on the edge.
+  }
+  sector { Field }
+  exits {
+	to { n, 5 }
+	to { e, 6 }
+	to { s, 2 }
+	to { w, 4 }
+  }
+}
+
+6
+{
+  name { The plains }
+  desc {
+The plains here are as desolate as any desert you have seen. The way they seem
+to stretch on forever is enough to make you think there is something wrong here.
+  }
+  sector { Field }
+  exits {
+	to { n, 7 }
+	to { e, 7 }
+	to { s, 0 }
+	to { w, 5 }
+  }
+}
+
+7
+{
+  name { The plains }
+  desc {
+You are on the dry, bleak plains. There seems to be no end to the 
+desolation. There is a faint brown path to the east, but no sign of
+recent travel.
+  }
+  sector { Field }
+  exits {
+	to { n, 6 }
+	to { e, 8 }
+	to { s, 1 }
+	to { w, 1 }
+  }
+}
+
+8
+{
+  name { The plains }
+  desc {
+You seem to be at the beginning, or more likely, the end of a path. It is
+marked only by a faint brown color in the sand, for there are no signs
+of travel, and it slowly disappears to the west. The path continues east.
+  }
+  sector { Field }
+  exits {
+	to { n, 10 }
+	to { e, 9 }
+	to { s, 3 }
+	to { w, 7 }
+  }
+}
+
+9
+{
+  name { On a windy path }
+  desc {
+The path turns here, and heads north. The air seems somewhat cooler, and there
+is a faint breeze.
+  }
+  sector { Field }
+  exits {
+	to { n, 10 }
+	to { e, 9 }
+	to { s, 9 }
+	to { w, 8 }
+  }
+}
+
+10
+{
+  name { On a windy path }
+  desc {
+The path turns again here, and heads to the east. The breeze grows stronger,
+but no cooler.
+  }
+  sector { Field }
+  exits {
+	to { n, 11 }
+	to { e, 11 }
+	to { s, 9 }
+	to { w, 8 }
+  }
+}
+
+11
+{
+  name { On a windy path }
+  desc {
+The path turns yet again here, and now heads to the south, where it joins a huge
+road. The breeze is rather strong here, and much cooler.
+  }
+  sector { Field }
+  exits {
+	to { n, 10 }
+	to { e, 12 }
+	to { s, 12 }
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { The great northern road }
+  desc {
+You are on a huge cobblestone road. The amount of effort that must have been
+expended to build this immense road is astounging. The road leads off to the
+north and south, to the north there is a tiny white dot on the horizon, and to
+the south the road passes through a break in the cliffs. To the west there
+is a faint brown line. The breeze is growing much stronger.
+  }
+  sector { Field }
+  exits {
+	to { n, 13 }
+	to { e, Quinmoor:7 }
+	to { s, Quinmoor:28 }
+	to { w, 11 }
+  }
+}
+
+13
+{
+  name { The great northern road }
+  desc {
+The road marches on northward, seemingly headed towards that growing white 
+dot on the horizon. The road continues southward towards a break in the cliffs.
+  }
+  sector { Field }
+  exits {
+	to { n, 14 }
+	to { e, 12 }
+	to { s, 12 }
+	to { w, 13 }
+  }
+}
+
+14
+{
+  name { The great northern road }
+  desc {
+The road here is flanked on the west by the dry, desolate plains, and on the
+east by a strange forest you could've sworn wasn't there a second ago.
+  }
+  sector { Field }
+  exits {
+	to { n, 15 }
+	to { e, 19 }
+	to { s, 13 }
+	to { w, 7 }
+  }
+}
+
+15
+{
+  name { The great northern road }
+  desc {
+The road continues, and is still bordered by the forest on the east, and
+the plains on the west.
+  }
+  sector { Field }
+  exits {
+	to { n, 16 }
+	to { e, 20 }
+	to { s, 14 }
+	to { w, 7 }
+  }
+}
+
+16
+{
+  name { The great northern road }
+  desc {
+The forest here seems to be a little like a jungle. The white dot on the 
+horizon has been steadily growing, and is getting to the point where
+you can make out four towers. You conclude that it must be a castle.
+  }
+  sector { Field }
+  exits {
+	to { n, 17 }
+	to { e, 21 }
+	to { s, 15 }
+	to { w, 7 }
+  }
+}
+
+17
+{
+  name { The great northern road }
+  desc {
+The forest suddenly ends to the north, but you can still enter it to the east.
+The plains are as dreary as ever to the west, and you shudder at the thought
+of re-entering them.
+  }
+  sector { Field }
+  exits {
+	to { n, 18 }
+	to { e, 22 }
+	to { s, 16 }
+	to { w, 7 }
+  }
+}
+
+18
+{
+  name { The great northern road }
+  desc {
+What began as a white dot on the horizon has grown into the most imposing
+castle you've ever seen. This castle is not only a castle, though, it's
+the heart of an empire, and a thriving city. The road continues north and south.
+  }
+  sector { Field }
+  exits {
+	to { s, 17 }
+  }
+}
+
+19
+{
+  name { The forest }
+  desc {
+You are in a mysterious forest. To the west you can barely make out the road,
+but to the east the forest is much thicker. Strange, where the edge of the 
+forest should be to the south, there is only more forest.
+  }
+  sector { Forest }
+  exits {
+	to { n, 20 }
+	to { e, 36 }
+	to { s, 22 }
+	to { w, 14 }
+  }
+}
+
+20
+{
+  name { The forest }
+  desc {
+You are in a mysterious forest. To the west you can barely make out the road,
+but to the east the forest is much thicker.
+  }
+  sector { Forest }
+  exits {
+	to { n, 21 }
+	to { e, 36 }
+	to { s, 19 }
+	to { w, 15 }
+  }
+}
+
+21
+{
+  name { The forest }
+  desc {
+You are in a mysterious forest. To the west you can barely make out the road,
+but to the east the forest grows much thicker.
+  }
+  sector { Forest }
+  exits {
+	to { n, 22 }
+	to { e, 36 }
+	to { s, 20 }
+	to { w, 16 }
+  }
+}
+
+22
+{
+  name { The forest }
+  desc {
+You are in a mysterious forest. To the west you can barely make out the road,
+but to the east the forest is much thicker. Strange, where the edge of the 
+forest should be to the north, there is only more forest.
+  }
+  sector { Forest }
+  exits {
+	to { n, 19 }
+	to { e, 36 }
+	to { s, 21 }
+	to { w, 17 }
+  }
+}
+
+23
+{
+  name { The forest }
+  desc {
+You seem to be at some kind of gate. To the east is the forest, as well as
+to the west, but as far as you can see, to the north and the south, there is
+a straight line of huge, huge trees, extremely close together, making passage
+to the west impossible everywhere but here. The forest to the west shows no 
+signs of the sickness affecting parts ot the eastern forest, and is seems much
+more open.
+  }
+  sector { Forest }
+  extra {
+	keywords { sign neon" }
+	desc { It floats unmoving in the air, the only light in this dark place. The blue
+script letters seem somehow magical.
+	}
+	keywords { couch" }
+	desc { It is made of leather, and when you sit on it, it conforms to your shape,
+and reclines. You feel completely at peace.
+	}
+  }
+  flags { no_mob }
+  exits {
+	to { e, 34 }
+	to { w, 35 }
+  }
+}
+
+24
+{
+  name { The forest }
+  desc {
+You are in the edge of a very old forest... The trees here are withered, 
+but the shade is a welcome relief from the bright sun of the plains.
+  }
+  sector { Forest }
+  flags { no_mob }
+  exits {
+	to { n, 25 }
+	to { e, 24 }
+	to { s, 4 }
+	to { w, 24 }
+  }
+}
+
+25
+{
+  name { The forest }
+  desc {
+You wonder how anything could destroy such a great and beautiful forest.
+The canopy is at least a hundred feet high.
+  }
+  sector { Forest }
+  exits {
+	to { n, 30 }
+	to { e, 27 }
+	to { s, 24 }
+	to { w, 26 }
+  }
+}
+
+26
+{
+  name { The forest }
+  desc {
+You are in an ancient forest. The canopy is rather high, and makes it quite 
+dark. Strangelyy enough, there is no undergrowth.
+  }
+  sector { Forest }
+  exits {
+	to { n, 28 }
+	to { e, 25 }
+	to { s, 26 }
+	to { w, 26 }
+  }
+}
+
+27
+{
+  name { The forest }
+  desc {
+You are in an ancient forest. The canopy is very high, and makes it quite
+dark. Strangely enough, there is no undergrowth.
+  }
+  sector { Forest }
+  exits {
+	to { n, 31 }
+	to { e, 27 }
+	to { s, 27 }
+	to { w, 25 }
+  }
+}
+
+28
+{
+  name { The forest }
+  desc {
+You are in an old, old forest. The canopy is very high, and it makes it quite
+dark. Strangely enough, there is no undergrowth.
+  }
+  sector { Forest }
+  exits {
+	to { n, 34 }
+	to { e, 30 }
+	to { s, 26 }
+  }
+}
+
+29
+{
+  name { Deep in the forest of the Ents }
+  desc {
+You are deep inside the forest of the Ents. There is an impenetrable barrier
+formed by the trees to the east, but there appears to be a break in the row
+to the north.
+  }
+  sector { Forest }
+  exits {
+	to { n, 35 }
+	to { w, 37 }
+  }
+}
+
+30
+{
+  name { The forest }
+  desc {
+You are deep in an ancient forest. The canopy is rather high, and it makes it
+quite dark. Strangely enough, there is no undergrowth.
+  }
+  sector { Forest }
+  exits {
+	to { n, 33 }
+	to { e, 31 }
+	to { s, 25 }
+	to { w, 28 }
+  }
+}
+
+31
+{
+  name { The forest }
+  desc {
+You are deep inside an ancient forest. The canopy is at least 100 feet high,
+and it makes it quite dark. Strangely enough, there is no undergrowth.
+  }
+  sector { Forest }
+  exits {
+	to { n, 32 }
+	to { e, 31 }
+	to { s, 27 }
+	to { w, 30 }
+  }
+}
+
+32
+{
+  name { The forest }
+  desc {
+You are in an ancient forest. The canopy is rather dense, and allows little
+light through. Strangely enough, there is no undergrowth.
+  }
+  sector { Forest }
+  exits {
+	to { n, 46 }
+	to { e, 43 }
+	to { s, 31 }
+	to { w, 33 }
+  }
+}
+
+33
+{
+  name { The forest }
+  desc {
+You are in an ancient forest. The canopy is extremely dense, and allows little
+light through. Strangely, there is no undergrowth.
+  }
+  sector { Forest }
+  exits {
+	to { n, 47 }
+	to { e, 32 }
+	to { s, 30 }
+	to { w, 34 }
+  }
+}
+
+34
+{
+  name { The forest }
+  desc {
+You are in an old, old forest. The canopy is very dense, and allows very
+little light through. Strangely, there is no undergrowth.
+  }
+  sector { Forest }
+  exits {
+	to { n, 48 }
+	to { e, 33 }
+	to { s, 28 }
+	to { w, 23 }
+  }
+}
+
+35
+{
+  name { Deep in the forest of the Ents }
+  desc {
+You are near what seems to be a gate between this forest and the other.
+The 'fence' is formed by huge trees lined up so close there isn't space 
+to pass between them.
+  }
+  sector { Forest }
+  exits {
+	to { n, 49 }
+	to { e, 23 }
+	to { s, 29 }
+	to { w, 42 }
+  }
+}
+
+36
+{
+  name { The deep forest }
+  desc {
+Strange, you could've sworn you came from the west. If you did, there's no way 
+back. The forest seems to have closed in on you, and the only way out is to the
+east.
+  }
+  sector { Forest }
+  exits {
+	to { e, 79 }
+  }
+}
+
+37
+{
+  name { Deep in the forest of the Ents }
+  desc {
+The forest is very open, almost resembling a meadow. There are scattered trees,
+and to the west you can see a waterfall... What the? Strange, those trees seem
+to be walking around... 
+  }
+  sector { Forest }
+  exits {
+	to { n, 42 }
+	to { e, 29 }
+	to { s, 37 }
+	to { w, 38 }
+  }
+}
+
+38
+{
+  name { Deep in the forest of the Ents }
+  desc {
+There is an inviting looking pool to the west, fed by a waterfall.. 
+The forest is very light and airy here, you feel like sleeping..
+  }
+  sector { Forest }
+  exits {
+	to { e, 41 }
+	to { s, 39 }
+	to { w, 39 }
+  }
+}
+
+39
+{
+  name { Deep in the forest of the Ents }
+  desc {
+You are swimming in a beautiful blue pool. The water tastes wonderful, 
+though drinking it wasn't intentional. As you swim around, you notice that
+there seems to be a cave behind the waterfall.
+  }
+  sector { Forest }
+  exits {
+	to { n, 40 }
+	to { e, 38 }
+	to { s, 75 }
+  }
+}
+
+40
+{
+  name { Deep in the forest of the Ents }
+  desc {
+There is a sparkling, beautiful pool to the south, fed by a high waterfall.
+The urge to take a swim is irrisistable.
+  }
+  sector { Forest }
+  tele { 30, 1, 39 }
+  exits {
+	to { n, 52 }
+	to { e, 41 }
+	to { s, 39 }
+	to { w, 40 }
+  }
+}
+
+41
+{
+  name { Deep in the forest of the Ents }
+  desc {
+The forest is very beautiful here, and the view is spectacular. To the south
+east is a waterfall, and a shining blue pool, fed by the waterfall.
+  }
+  sector { Forest }
+  exits {
+	to { n, 51 }
+	to { e, 42 }
+	to { s, 38 }
+	to { w, 40 }
+  }
+}
+
+42
+{
+  name { Deep in the forest of the Ents }
+  desc {
+You are deep in the oldest part of the forest. The trees look like they've
+been here since before time began.
+  }
+  sector { Forest }
+  exits {
+	to { n, 50 }
+	to { e, 35 }
+	to { s, 37 }
+	to { w, 41 }
+  }
+}
+
+43
+{
+  name { The forest }
+  desc {
+You are in a very old forest. The canopy is very dense, and allows little
+light through. Strangely, there is little undergrowth.
+  }
+  sector { Forest }
+  exits {
+	to { n, 45 }
+	to { e, 43 }
+	to { s, 43 }
+	to { w, 32 }
+  }
+}
+
+44
+{
+  name { The forest }
+  desc {
+You are in a very old forest. The canopy is very dense, and allows little
+light in. Strangely, there is little undergrowth.
+  }
+  sector { Forest }
+  exits {
+	to { n, 61 }
+	to { e, 44 }
+	to { s, 44 }
+	to { w, 45 }
+  }
+}
+
+45
+{
+  name { The forest }
+  desc {
+You are in a very old forest. The canopy is very dense, and allows very little
+light through. Strangely, there is no undergrowth.
+  }
+  sector { Forest }
+  exits {
+	to { n, 60 }
+	to { e, 44 }
+	to { s, 43 }
+	to { w, 46 }
+  }
+}
+
+46
+{
+  name { The forest }
+  desc {
+You are in a very old forest. The canopy is very high, but allows little light
+to enter. What little light makes it through lends a greenish glow to the 
+forest. Off to the north, you begin to make a hill.
+  }
+  sector { Forest }
+  exits {
+	to { n, 59 }
+	to { e, 45 }
+	to { s, 32 }
+	to { w, 47 }
+  }
+}
+
+47
+{
+  name { The forest }
+  desc {
+You are in an ancient forest. A green glow is the only light here.
+  }
+  sector { Forest }
+  exits {
+	to { n, 58 }
+	to { e, 46 }
+	to { s, 33 }
+	to { w, 48 }
+  }
+}
+
+48
+{
+  name { The forest }
+  desc {
+You are in an ancient forest. The canopy is very high, and there is a faint
+green glow. To the west, there is line of trees, a seemingly impenetrable
+barrier.
+  }
+  sector { Forest }
+  exits {
+	to { n, 57 }
+	to { e, 47 }
+	to { s, 34 }
+  }
+}
+
+49
+{
+  name { Deep in the forest of the Ents }
+  desc {
+You are in the oldest part of this forest. To the east passage is blocked
+by a line of closely growing trees. The high canopy lends a green glow to 
+the forest.
+  }
+  sector { Forest }
+  exits {
+	to { n, 56 }
+	to { s, 35 }
+	to { w, 50 }
+  }
+}
+
+50
+{
+  name { Deep in the forest of the Ents }
+  desc {
+You are in an ancient forest. It seems that these trees must be older
+than the world itself.
+  }
+  sector { Forest }
+  exits {
+	to { n, 55 }
+	to { e, 49 }
+	to { s, 42 }
+	to { w, 51 }
+  }
+}
+
+51
+{
+  name { Deep in the forest of the Ents }
+  desc {
+You are in the oldest part of an ancient forest. The trees are huge, but 
+are very spread out. The dense canopy lends a green glow to the forest,
+and it gives a very open, airy feeling.
+  }
+  sector { Forest }
+  exits {
+	to { n, 54 }
+	to { e, 50 }
+	to { s, 41 }
+	to { w, 52 }
+  }
+}
+
+52
+{
+  name { Deep in the forest of the Ents }
+  desc {
+You are deep in the oldest part of an ancient forest. The trees are huge, but 
+are very spread out. The dense canopy lends a greenish glow to the forest,
+and gives it a very open, airy feeling.
+  }
+  sector { Forest }
+  exits {
+	to { n, 53 }
+	to { e, 51 }
+	to { s, 40 }
+	to { w, 52 }
+  }
+}
+
+53
+{
+  name { Deep in the forest of the Ents }
+  desc {
+You are in the oldest part of an ancient forest. The trees are huge, but
+rather spread out. The dense canopy lends a greenish glow, and adds to
+the open, airy feeling.
+  }
+  sector { Forest }
+  exits {
+	to { n, 53 }
+	to { e, 54 }
+	to { s, 52 }
+	to { w, 53 }
+  }
+}
+
+54
+{
+  name { Deep in the forest of the Ents }
+  desc {
+You are in the oldest part of an ancient forest. The trees are huge, but
+rather spread out. The dense canopy lends a greenish glow, and adds to
+the open, living feeling.
+  }
+  sector { Forest }
+  exits {
+	to { n, 54 }
+	to { e, 55 }
+	to { s, 51 }
+	to { w, 53 }
+  }
+}
+
+55
+{
+  name { Deep in the forest of the Ents }
+  desc {
+You are deep in the oldest part of an ancient forest. The trees are huge,
+but spread out, giving this place an open, airy feeling.
+  }
+  sector { Forest }
+  exits {
+	to { n, 55 }
+	to { e, 56 }
+	to { s, 50 }
+	to { w, 54 }
+  }
+}
+
+56
+{
+  name { Deep in the forest of the Ents }
+  desc {
+You are in the older part of an ancient forest. To the east there is a line
+of huge trees, growing so close together that it is impossible to pass that
+way.
+  }
+  sector { Forest }
+  exits {
+	to { n, 56 }
+	to { s, 49 }
+	to { w, 55 }
+  }
+}
+
+57
+{
+  name { The forest }
+  desc {
+You seem to be near some sort of border. The trees to the west are growing
+so close together that they make passage impossible.
+  }
+  sector { Forest }
+  exits {
+	to { n, 57 }
+	to { e, 58 }
+	to { s, 48 }
+  }
+}
+
+58
+{
+  name { The forest }
+  desc {
+You are near a small hill in the forest. The hill is directly north,
+and you see a small hole in the side. The light coming in through the
+canopy is greenish, while the light coming in through the clearing is
+very bright, white light.
+  }
+  sector { Forest }
+  exits {
+	to { n, 59 }
+	to { e, 59 }
+	to { s, 47 }
+	to { w, 57 }
+  }
+}
+
+59
+{
+  name { The forest }
+  desc {
+You are just south of a small hill in the forest. There appears to be some sort
+of door in the side of the hill. The canopy thins out here, and is allowing
+much more light in.
+  }
+  sector { Forest }
+  exits {
+	to { n, 62 }
+	to { e, 60 }
+	to { s, 46 }
+	to { w, 58 }
+  }
+}
+
+60
+{
+  name { The forest }
+  desc {
+You are to the south of a small hill in the forest. The canopy thins out over
+the hill, and around the edges the leaves appear somewhat brown.
+  }
+  sector { Forest }
+  exits {
+	to { n, 59 }
+	to { e, 61 }
+	to { s, 45 }
+	to { w, 59 }
+  }
+}
+
+61
+{
+  name { The forest }
+  desc {
+You are in an ancient forest. The trees are huge, and the canopy must be a
+hundred feet high. The canopy is so dense that very little light passes through,
+and the light that penetrates lends a greenish glow to the forest.
+  }
+  sector { Forest }
+  exits {
+	to { n, 61 }
+	to { e, 61 }
+	to { s, 44 }
+	to { w, 60 }
+  }
+}
+
+62
+{
+  name { In a troll lair }
+  desc {
+You are at the entrance to a huge cave. To the north, a cavern stretches out
+before you, but your eyes are met with a horrific sight. Everywhere there are
+skeletons, and half eaten animals strewn about. The stench of decomposing
+flesh is enough to make you puke.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 63 }
+	to { s, 59 }
+  }
+}
+
+63
+{
+  name { In a troll lair }
+  desc {
+You are in a huge cavern. It is very dark here, and you can make out faint
+shapes moving about to the north.   }
+  flags { dark, indoors }
+  exits {
+	to { n, 67 }
+	to { e, 65 }
+	to { s, 62 }
+	to { w, 64 }
+  }
+}
+
+64
+{
+  name { In a troll lair }
+  desc {
+You are in a huge cavern. It is very dark here, but you can make out faint
+shapes moving about to the north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 66 }
+	to { e, 63 }
+  }
+}
+
+65
+{
+  name { In a troll lair }
+  desc {
+You are at the edge of the large cavern. To the north-east you see a hole
+in the wall, though. There is a little light coming in through the exit,
+enough to keep those creatures from passing in front of it.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 68 }
+	to { w, 63 }
+  }
+}
+
+66
+{
+  name { In a troll lair }
+  desc {
+You are against the west wall of the cavern. To the east, and all around you,
+you see dark shapes milling around. 
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 78 }
+	to { e, 67 }
+	to { s, 64 }
+  }
+}
+
+67
+{
+  name { In a troll lair }
+  desc {
+You are in the center of the cavenrn. The ceiling arches up to a small hole
+which is covered with branches and leaves to prevent sunlight penetration.
+There are remnant s here of a fire, still warm.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 77 }
+	to { e, 68 }
+	to { s, 63 }
+	to { w, 66 }
+  }
+}
+
+68
+{
+  name { In a troll lair }
+  desc {
+There is a tunnel leading off east here, but it is not natural.
+The ceiling is supported by thick beams, and the walls bear scars of
+carving. I would highly advise against going in, though, because the
+closest beam is cracked, and bears signs of stress. There is a skull nailed 
+to the wall above the door.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 76 }
+	to { e, 69 }
+	to { s, 65 }
+	to { w, 67 }
+  }
+}
+
+69
+{
+  name { A small, dark hallway }
+  desc {
+The boards creak as you enter, and I would recommend getting out of here as
+fast as possible. 
+  }
+  flags { dark, indoors }
+  tele { 10, 1, Quinmoor:3 }
+  exits {
+	to { e, 70 }
+	to { w, 68 }
+  }
+}
+
+70
+{
+  name { A fork in the hallway }
+  desc {
+Originally, you could follow the direction of the hallway, or go west.
+It seems that a recent cave in has made this into a normal hallway.
+There is a small room to the south, as well as a larger room to the north.
+  }
+  flags { dark }
+  exits {
+	to { n, 72 }
+	to { s, 71 }
+  }
+}
+
+71
+{
+  name { A small room }
+  desc {
+You seem to be in the heart of the lair. Skeletons and half rotten carcases
+are strewn about, but there seems to be something important to the east.
+The door is heavily guarded, and there appears to be a priest of some sort
+with the guards.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 70 }
+	to { e, Quinmoor:27 }
+	  key { 31012 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+72
+{
+  name { A dead end }
+  desc {
+You appear to be at a dead end. Nowever, there appears to be a small hole
+in the wall, and at closer inspection, it reveals a door.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 73 }
+	  info { door }
+	  keywords { passage door" }
+	to { s, 70 }
+  }
+}
+
+73
+{
+  name { A new hallway }
+  desc {
+As you enter, the wall snaps shut. There is no trace of where the edge
+was a moment ago. It appears that there is only one way to go. Onward.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 74 }
+  }
+}
+
+74
+{
+  name { A dark, damp hallway }
+  desc {
+The air here is fresh, and strangely, damp and cool. The torches in the wall
+have long since gone out, and the only light is a faint greenish glow to the
+north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 75 }
+	to { s, 73 }
+  }
+}
+
+75
+{
+  name { A dark, damp hallway }
+  desc {
+You are at the end of the tunnel. Between you and the forest, however,
+is a wall of water, or more correctly, the waterfall. 
+  }
+  flags { dark, no_mob }
+  exits {
+	to { n, 39 }
+	to { s, 74 }
+  }
+}
+
+76
+{
+  name { A troll lair }
+  desc {
+You are in the north-eastern corner of the cavern. There seems to be some sort
+of makeshift bed here.
+  }
+  extra {
+	keywords { bed" }
+	desc { It is just a bed of twigs with leaves spread out on top of it.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 68 }
+	to { w, 77 }
+  }
+}
+
+77
+{
+  name { A troll lair }
+  desc {
+You are against the north wall of the cavern. The stench is especially bad here,
+as the trolls do not seem to mind letting things decompose somewhat before 
+eating them. There is a leg of some kind, and something unmistakably 
+recognizable...a human skull.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 76 }
+	to { s, 67 }
+	to { w, 78 }
+  }
+}
+
+78
+{
+  name { A troll lair }
+  desc {
+You seem to be at the `pantry' of the lair. There are three dead humans hanging
+here, and even in this light you can tell that they have been dead a long time.
+One of them is missing both a leg and a head, the others seemingly complete,
+except fot the fact that they have no eyes.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 77 }
+	to { s, 66 }
+  }
+}
+
+79
+{
+  name { Lost in the midnight forest }
+  desc {
+The forest seems to guide you aroung, and you have little control over
+where you go. The trees are mainly thorny, ugly things. The canopy is
+so thick that there is no light.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 80 }
+	to { s, 85 }
+  }
+}
+
+80
+{
+  name { Lost in the midnight forest }
+  desc {
+The trees here are knarled, ugly things. As you turn, you are torn by thorns,
+and your face is brushed by leaves.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 81 }
+	to { s, 86 }
+	to { w, 79 }
+  }
+}
+
+81
+{
+  name { Lost in the midnight forest }
+  desc {
+The canopy is not much higher than your head, but is very thick, as no
+light penetrates to reach you. The trees are thorny and knarled, and
+there seems to be no end to this forest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 82 }
+	to { s, 87 }
+	to { w, 80 }
+  }
+}
+
+82
+{
+  name { Lost in the midnight forest }
+  desc {
+The canopy here is slightly higher than other places, but is still just as
+thick. You look at one tree which looks dead, but it is anything but that.
+It is crawling with hundreds of ants.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 83 }
+	to { s, 88 }
+	to { w, 81 }
+  }
+}
+
+83
+{
+  name { Lost in the midnight forest }
+  desc {
+You are in a rather young, but unhealthy forest. The trees are dominated
+bu huge thorns, glistening with poison.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 84 }
+	to { s, 89 }
+	to { w, 82 }
+  }
+}
+
+84
+{
+  name { Lost in the midnight forest }
+  desc {
+You are in a dense, ugly forest.The trees are thorny, and the plants seem to
+grab at your legs.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 90 }
+	to { w, 83 }
+  }
+}
+
+85
+{
+  name { Lost in the midnight forest }
+  desc {
+The trees are knarled, ugly things, and the plants seem to grab at your legs.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 79 }
+	to { e, 86 }
+	to { s, 91 }
+  }
+}
+
+86
+{
+  name { Lost in the midnight forest }
+  desc {
+You are in a strangely open part of the forest. You can move in any 
+direction, and the plants seem to be staying out of the way.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 80 }
+	to { e, 87 }
+	to { s, 92 }
+	to { w, 85 }
+  }
+}
+
+87
+{
+  name { Lost in the midnight forest }
+  desc {
+You are in a strangely open part of the forest. You can move in almost
+any direction, and the plants seem to be staying out of the way.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 81 }
+	to { e, 88 }
+	to { s, 93 }
+	to { w, 86 }
+  }
+}
+
+88
+{
+  name { Lost in the midnight forest }
+  desc {
+You are in an unusually open part of the forest. You can move in almost
+any direction, and the plants seem to be staying out of the way.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 82 }
+	to { e, 89 }
+	to { s, 94 }
+	to { w, 87 }
+  }
+}
+
+89
+{
+  name { Lost in the midnight forest }
+  desc {
+You are in a rather open part of the forest. You can move in almost
+any direction, and the plants seem to be staying out of the way.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 83 }
+	to { e, 90 }
+	to { s, 95 }
+	to { w, 88 }
+  }
+}
+
+90
+{
+  name { Lost in the midnight forest }
+  desc {
+You are in a seemingly young forest. It seems rather sick, however, 
+for all the trees are thorny, and are knarled and misshapen beyond belief.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 84 }
+	to { s, 96 }
+	to { w, 89 }
+  }
+}
+
+91
+{
+  name { Lost in the midnight forest }
+  desc {
+The forest here is composed of sick, knarled trees. The thorns on the trees
+are glistening with poison, and look lethal.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 85 }
+	to { e, 92 }
+  }
+}
+
+92
+{
+  name { Lost in the midnight forest }
+  desc {
+The forest is composed of very short, misshapdn en trees. The thorns they
+bear are seemingly covered with poison.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 86 }
+	to { e, 93 }
+	to { w, 91 }
+  }
+}
+
+93
+{
+  name { Lost in the midnight forest }
+  desc {
+You are wandering, lost in the forest. Something tells you, however, that you
+are going in the right direction.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 87 }
+	to { e, 94 }
+	to { w, 92 }
+  }
+}
+
+94
+{
+  name { Lost in the midnight forest }
+  desc {
+You are wandering, lost in this distorted, ugly forest. You have a feeling
+that you are going in the right direction.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 88 }
+	to { e, 95 }
+	to { w, 93 }
+  }
+}
+
+95
+{
+  name { Lost in the midnight forest }
+  desc {
+You are lost in this ugly, dangerous forest. The trees are covered with
+thorns, and they are dripping with poison.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 89 }
+	to { e, 96 }
+	to { w, 94 }
+  }
+}
+
+96
+{
+  name { Lost in the midnight forest }
+  desc {
+You are wandering, lost, in this ugly distorted forest. The trees are 
+terrible, thorn covered, knarled things.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 90 }
+	to { e, 97 }
+	to { w, 95 }
+  }
+}
+
+97
+{
+  name { Lost in the midnight forest }
+  desc {
+You are wandering in the forest, but you begin to feel hope again.
+To the east you see a break in the trees, and beyond it the road.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 98 }
+	to { w, 96 }
+  }
+}
+
+98
+{
+  name { Lost in the midnight forest }
+  desc {
+You are almost out of the forest, but you have a strange feeling. The road
+you left was on the other side of the forest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 99 }
+	to { w, 97 }
+  }
+}
+
+99
+{
+  name { Lost in the midnight forest }
+  desc {
+Just as the forest closed you in some time ago, it seems to have shut you 
+out in the same fashion. The hole you made coming out has been filled by
+a knarled, but extremely thorny tree, which, it seems, has just sprung up.
+You can only go one way now, back to the road, which is..East?? 
+Strange place this forest...
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 18 }
+  }
+}

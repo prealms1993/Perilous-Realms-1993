@@ -1,0 +1,709 @@
+2101
+{
+name { A marauder }
+namelist { marauder }
+shortdesc { A marauder is here. }
+longdesc {
+The marauder looks desceptively human.  But there is no hint of
+intelligence - he is just a rapacious beast.
+}
+race { human }
+height { 100 }
+level { 185 }
+alignment { -999 }
+gold { 5000 }
+hit_bonus { 8 }
+dam_bonus { 8 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 20, 80, 400  }
+move { 200 }
+experience { 54291 }
+damage { 3, 8, 12  }
+immune { backstab, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2102
+{
+name { A hyena }
+namelist { hyena }
+shortdesc { A snarling hyena is here. }
+longdesc {
+The hyena is pack animal.  She is rather helpless alone, but can
+be trouble in a large group.
+}
+race { none }
+height { 100 }
+level { 175 }
+alignment { -999 }
+gold { 5000 }
+hit_bonus { 8 }
+dam_bonus { 8 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 20, 80, 200  }
+move { 200 }
+experience { 35747 }
+damage { 3, 8, 12  }
+immune { backstab, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2103
+{
+name { Aello, the First Harpy }
+namelist { Aello harpy }
+shortdesc { Aello, the First Harpy, is here }
+longdesc {
+A harpy has the head and body of a woman, with the wings, legs, and
+talons of a bird of prey.
+}
+race { none }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 198770 }
+damage { 4, 8, 12  }
+immune { backstab, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2104
+{
+name { Ocypete, the Second Harpy }
+namelist { Ocypete harpy }
+shortdesc { Ocypete, the Second Harpy, is here }
+longdesc {
+A harpy has the head and body of a woman, with the wings, legs, and
+talons of a bird of prey.
+}
+race { none }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 3, 8, 12  }
+immune { backstab, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2105
+{
+name { Celeno, the Third Harpy }
+namelist { Celeno harpy }
+shortdesc { Celeno, the Third Harpy, is here }
+longdesc {
+ A harpy has the head and body of a woman, with the wings, legs, and
+talons of a bird of prey.
+}
+race { none }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 3, 8, 12  }
+immune { backstab, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2106
+{
+name { The Statue of Hades }
+namelist { statue hades }
+shortdesc { A lifelike statue of Hades, the ruler of the underworld, is here }
+longdesc {
+a statue
+}
+race { giant }
+height { 100 }
+level { 306 }
+alignment { -999 }
+gold { 22500 }
+hit_bonus { 15 }
+dam_bonus { 15 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 2900  }
+move { 200 }
+experience { 304344 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2107
+{
+name { Stheno, the First Gorgon }
+namelist { Stheno gorgon }
+shortdesc { Stheno, the First Gorgon, is here }
+longdesc {
+A gorgon is a creature with snakes for hair, and that is not the end
+of her charms.
+}
+race { undead }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 4 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 195399 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2108
+{
+name { Euryale, the Second Gorgon }
+namelist { Euryale gorgon }
+shortdesc { Euryale, the Second Gorgon, is here }
+longdesc {
+A gorgon is a creature with snakes for hair, and that is not the end
+of her charms.
+}
+race { undead }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 4 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 195399 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2109
+{
+name { Medusa, the Third Gorgon }
+namelist { Medusa gorgon }
+shortdesc { Medusa, the Third Gorgon, is here. }
+longdesc {
+A gorgon is a creature with snakes for hair, and that is not the end
+of her charms.
+}
+race { undead }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 13 }
+dam_bonus { 11 }
+attacks_per_round { 4 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 198720 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2110
+{
+name { the monoceros }
+namelist { monoceros }
+shortdesc { The monoceros is here. }
+longdesc {
+The monoceros is a close relative to the unicorn, and is a noble
+beast.
+}
+race { none }
+height { 100 }
+level { 238 }
+alignment { 999 }
+gold { 13000 }
+hit_bonus { 20 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 205462 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { stay-zone }
+}
+2111
+{
+name { Alecto, the First Fury }
+namelist { Alecto fury }
+shortdesc { Alecto, the First Fury, is here. }
+longdesc {
+The furies where born of the blood of the wounded Uranus, attendants
+of Proserpina.  Their heads are wreathed with serpents.
+}
+race { none }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2112
+{
+name { Tisiphone, the Second Fury }
+namelist { Tisiphone fury }
+shortdesc { Tisiphone, the Second Fury, is here. }
+longdesc {
+The furies where born of the blood of the wounded Uranus, attendants
+of Proserpina.  Their heads are wreathed with serpents.
+}
+race { none }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2113
+{
+name { Megaera, the Third Fury }
+namelist { Megaera fury }
+shortdesc { Megaera, the Third Fury, is here. }
+longdesc {
+The furies where born of the blood of the wounded Uranus, attendants
+of Proserpina.  Their heads are wreathed with serpents.
+}
+race { none }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2114
+{
+name { The Lesser God Aeacus }
+namelist { Aeacus }
+shortdesc { Aeacus, a lesser god of the underworld, is here. }
+longdesc {
+During his earthly life, Aeacus was King of Aegina.
+}
+race { undead }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 6, 8, 12  }
+immune { pierce, charm }
+affected { sanctuary, detect-invisible }
+act { aggressive, stay-zone }
+}
+2115
+{
+name { The Lesser God Radamanthus }
+namelist { Radamanthus }
+shortdesc { Radamanthus, a lesser god of the underworld, is here. }
+longdesc {
+Radamanthus is a mystery.
+}
+race { undead }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 20 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 4, 8, 12  }
+immune { pierce, charm }
+affected { sanctuary, true-sight, detect-invisible }
+act { aggressive, stay-zone }
+}
+2116
+{
+name { The Lesser God Minos }
+namelist { Minos }
+shortdesc { Minos, a lesser god of the underworld, is here. }
+longdesc {
+During his earthly life, Minos was the King of Crete.
+}
+race { undead }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 20 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 4, 8, 12  }
+immune { pierce, charm }
+affected { sanctuary, true-sight, detect-invisible }
+act { aggressive, stay-zone }
+}
+2117
+{
+name { a hound of Hades }
+namelist { hound }
+shortdesc { One of the hounds of Hades is here, howling. }
+longdesc {
+The hound is fearsome, with large teeth, and eyes that glow yellow.
+}
+race { none }
+height { 100 }
+level { 281 }
+alignment { -999 }
+gold { 20000 }
+hit_bonus { 14 }
+dam_bonus { 14 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 1900  }
+move { 200 }
+experience { 264139 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2118
+{
+name { Hecate }
+namelist { Hecate }
+shortdesc { Hecate, the Goddess of Sorcery and Witchcraft, is here. }
+longdesc {
+Hecate was rumored to be visible only to dogs.
+}
+race { undead }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2119
+{
+name { Proserpina }
+namelist { Proserpina }
+shortdesc { Proserpina, the Queen of the Underworld, is wandering about. }
+longdesc {
+Proserpina looks unhappy.  Perhaps because Hades abducted her from
+her garden and brought her to the Underworld?
+}
+race { undead }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2120
+{
+name { Hades }
+namelist { Hades King }
+shortdesc { Hades, the King of the Underworld, is standing here. }
+longdesc {
+Hades fears nobody, save perhaps Zeus.
+}
+race { undead }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2121
+{
+name { a eunuch }
+namelist { eunuch }
+shortdesc { A eunuch is milling about. }
+longdesc {
+The eunuch was brought here to help (guard?) Proserpina.
+}
+race { human }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2122
+{
+name { Hypnos }
+namelist { Hypnos }
+shortdesc { Hypnos, the God of Dreams, is here. }
+longdesc {
+Hypnos may be kindest of the gods of the underworld.
+}
+race { undead }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2123
+{
+name { a larger hound of Hades }
+namelist { hound larger }
+shortdesc { One of the larger hounds of Hades is here, howling loudly. }
+longdesc {
+The hound is fearsome, with huge teeth, and eyes that glow.
+}
+race { none }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 3 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 190342 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+2124
+{
+name { The 50 Headed Hydra }
+namelist { hydra }
+shortdesc { The 50 Headed Hydra is here, gyrating, screaming, snorting, salivating... }
+longdesc {
+It's a lot to look at.
+}
+race { none }
+height { 100 }
+level { 238 }
+alignment { -999 }
+gold { 13000 }
+hit_bonus { 11 }
+dam_bonus { 11 }
+attacks_per_round { 15 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 90, 900  }
+move { 200 }
+experience { 251020 }
+damage { 3, 8, 12  }
+immune { pierce, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}

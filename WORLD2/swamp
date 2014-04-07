@@ -1,0 +1,486 @@
+
+1
+{
+  name { Broken Road }
+  desc {
+This section of the town has gone into disrepair and is slowly being
+drowned by the nearby swamp to the south, that is creeping slowly
+towards the town.  Several large caved in buildings lay in
+fragments all over the place, torn apart by the elements, as well as
+some form of conflict.  There is a large sign here, which you should read
+if you want to avoid losing all your items.
+  }
+  sector { Field }
+  extra {
+	keywords { buildings" }
+	desc { The buildings are what seem to have been ones made for the production of
+siege equipment as well as hand-to-hand weapons.  Since the weakening
+of the Temple of Evil, buried in the swamps, there has been little
+need of such a large production of equipment.
+	}
+	keywords { swamp" }
+	desc { The swamp to the south even reaches as far as this point.. it makes the
+ground and air about you moist.
+	}
+	keywords { sign" }
+	desc { "	The sign reads:
+ 
+   Beware all you who enter!  The swamp is not for anyone without VERY
+good armor and just a whole lot of hit points.
+ 
+	}
+  }
+  exits {
+	to { n, SW_wilderness:5 }
+	  desc { The road leading back to Midgard lies to the north...}
+	to { s, 2 }
+	  desc { A broken road leading southward into the marsh...}
+  }
+}
+
+2
+{
+  name { Swamps Edge }
+  desc {
+You stand on a broken road way southeast of town.  Briars and marsh plants
+stick to your boots and clothes, and clouds cover the skies above the murky
+marsh.. leaving the path before you dark and sinister.  You see some
+disturbances in the marsh a few hundred feet to the east, but after a few
+strangled screams, the sounds stop.
+  }
+  sector { Mountains }
+  extra {
+	keywords { clouds" }
+	desc { They look dark and sinister, and somewhat unnatural.
+	}
+	keywords { disturbances" }
+	desc { You see several large beasts pounding a human into bloody slag.
+	}
+	keywords { plants" }
+	desc { A variety of plant life seems be trying to attach itself to you.
+	}
+  }
+  exits {
+	to { n, 1 }
+	  desc { To the north you see some decrepit old buildings laying in ruin..}
+	to { e, 3 }
+	  desc { To the east lies a series of bogs and shallows that look rather threatening.}
+	to { s, 4 }
+	  desc { You notice a large hill rising out of the marsh to the south.}
+  }
+}
+
+3
+{
+  name { Marshy Forest }
+  desc {
+This area is by no means a forest, but for those who dwell in these sparse
+trees it is one.  Occasionally you see a humanoid form floating face down in
+the murky waters, but most the time you only find pieces.  You hear a loud
+bellow in the distance.  And feel fear creep into your heart.
+  }
+  sector { Mountains }
+  extra {
+	keywords { humanoid human body" }
+	desc { He looks rather mangled and shredded. You see one large gash mark that looks
+like it came from the claw of some huge beast.
+	}
+	keywords { pieces" }
+	desc { You see a few arms and legs and some unrecognizable parts floating in the
+water.
+	}
+  }
+  flags { dark }
+  exits {
+	to { e, 5 }
+	  desc { Eastward is the thick bog of ooze...}
+	to { w, 4 }
+	  desc { Westward lies the remnants of a broken and shattered roadway being swallowed
+by the marsh.
+}
+  }
+}
+
+4
+{
+  name { On a hill. }
+  desc {
+You stand atop a hill on the northwestern side of the evil swamp. Dark
+clouds whip around you and the wind raises its sound less voice and
+assails you.
+  }
+  sector { Hills }
+  flags { dark }
+  exits {
+	to { n, 2 }
+	  desc { To the north lies a damp broken roadway.}
+	to { e, 9 }
+	  desc { A dark pool congeals to the east.}
+	to { s, 10 }
+	  desc { A gloomy path leads down the hill into the swamp.}
+  }
+}
+
+5
+{
+  name { An Oozing Bog }
+  desc {
+You stand in an oozing quagmire, A creaking beat fills the air,
+accompanied by groans and a soughing of the air.  Several large winged
+beasts flap over you and send chilling glares your way.  You feel out
+of place, and feel that the occupants of this realm will soon
+have you for a feast.
+  }
+  sector { Mountains }
+  extra {
+	keywords { beasts" }
+	desc { You see a large possibly demon type creature flapping heavily above you.
+	}
+  }
+  flags { dark }
+  exits {
+	to { e, 5 }
+	  desc { Eastward lies a horde of disgusting looking monsters.}
+	to { w, 3 }
+	  desc { Westward lies a marshy area.}
+  }
+}
+
+6
+{
+  name { Evil Horde }
+  desc {
+There are a huge assortment of strange beasts and demons dwelling here,
+hopefully you have a means of teleporting out of this area as all
+passage from this area seems to be blocked by the horde.  The ground here
+is still soft but has much more stability than the previous areas
+you have passed through.
+  }
+  sector { Mountains }
+  extra {
+	keywords { limb" }
+	desc { The limb looks like it is attached to a trap door in the ground.
+	}
+	keywords { horde" }
+	desc { It doesn't look very friendly.
+	}
+  }
+  flags { dark }
+  exits {
+	to { e, 6 }
+	  info { door, closed }
+	  keywords { limb" }
+	  desc { You see a large tree limb that looks easily moved.}
+  }
+}
+
+7
+{
+  name { Thing's lair }
+  desc {
+A horrible swamp thing resides here.  Bones and mutilated corpses litter the
+area, leaving you sick to your stomach, the stench is unbearable.
+  }
+  sector { Water Swim }
+  extra {
+	keywords { corpses" }
+	desc { You notice a note on one of the corpses it says : "Best ye forget the temple,
+it is not for the likes of you..."
+	}
+  }
+  flags { dark }
+  exits {
+	to { w, 8 }
+	  desc { A pool of quick sand lies to the west.}
+  }
+}
+
+8
+{
+  name { Pool of quick sand }
+  desc {
+You stand by a large oozing pool of quick sand.  Luckily only a complete
+clutz could not avoid it.  Dancing lights fly about you and one seems to
+be taunting you towards the pool.
+  }
+  sector { Water Swim }
+  extra {
+	keywords { lights" }
+	desc { From the stories you have heard, you recognize them as will-o-wisps	}
+	keywords { quicksand" }
+	desc { It looks deadly to the foolish.
+	}
+  }
+  flags { dark }
+  exits {
+	to { e, 7 }
+	  desc { The swamp thing's lair.}
+	to { s, 14 }
+	  desc { A murky bog.}
+	to { w, 9 }
+	  desc { A dark pool lies to the west.}
+  }
+}
+
+9
+{
+  name { A dark pool. }
+  desc {
+You stand beside a large dark pond.  The water boils not with heat, but with
+motion, as if it is alive.  A creaking beat pulses through the air, leaving
+you with a cold sweat and fear in your heart.
+  }
+  sector { Water Swim }
+  extra {
+	keywords { pond" }
+	desc { It looks like something alive...
+	}
+  }
+  flags { dark }
+  exits {
+	to { e, 8 }
+	  desc { A large pool of quicksand lies to the east.}
+	to { s, 11 }
+	  desc { You sense an evil presence to the south... amidst a black cloud of darkness.}
+	to { w, 4 }
+	  desc { A hill rises out of the swamp to the east.}
+  }
+}
+
+10
+{
+  name { Gloomy path through the marsh. }
+  desc {
+To the north lies a hill, shrouded in dark clouds, and to the south lies
+a huge patch of vegetation.  You sense an evil presence and notice
+a beast flying over head to the south east, towards what looks to be a
+huge fortress, half buried in the marsh.
+  }
+  sector { Water Swim }
+  extra {
+	keywords { clouds" }
+	desc { The clouds look dark and foreboding.
+	}
+	keywords { beast" }
+	desc { It looks to be a demon of some foul breed.
+	}
+	keywords { fortress" }
+	desc { It is Gigantic, nearly a hundred foot high walls surround it, a tall tower on
+the north eastern side of the fortress has a window which glows blue
+with magical energy of some sort.
+	}
+	keywords { vegetation" }
+	desc { It looks sentient.
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 9 }
+	  desc { To the north a hill protrudes from the marshes.}
+	to { s, 12 }
+	  desc { To the south a huge mass of vegetation seems to quiver with life.}
+  }
+}
+
+11
+{
+  name { Cloud of darkness. }
+  desc {
+As you travel through this cloud of darkness, a fear such as you have never
+known before, assails you.
+  }
+  sector { Water Swim }
+  flags { dark }
+  exits {
+	to { n, 9 }
+	  desc { A dark pool lies to the north.}
+	to { s, 13 }
+	  desc { An obelisk lies to the south.}
+  }
+}
+
+12
+{
+  name { Near Vegetation from hell. }
+  desc {
+You stand near some of the strangest plant life you have ever seen.  There
+seems to be a mixture of vegetable and fruit tree's as well as just plain
+fern's and some other indescribable life forms.  Some of the plants seem
+to be hostile.
+  }
+  sector { Water Swim }
+  extra {
+	keywords { plant" }
+	desc { They look rather violent, and snap at you when you come near.
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 10 }
+	  desc { To the north is a gloomy path through the marsh.}
+	to { e, 13 }
+	  desc { Eastward is a large, black stone monolith.}
+  }
+}
+
+13
+{
+  name { By the Monolith. }
+  desc {
+You are standing near a monolith, which protrudes some 20 feet from the
+marsh into the air.  It's black obsidian surface shines darkly in the
+strange, almost unearthly light that enters through the clouds above.
+  }
+  sector { Mountains }
+  extra {
+	keywords { monolith" }
+	desc { This huge monolith resembles nothing you have ever seen before.
+You have a strong feeling not to go within.
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 11 }
+	  desc { To the north is a cloud of darkest evil.}
+	to { e, 14 }
+	  desc { Eastward lies a murky bog.}
+	to { d, 20 }
+	  key { 857 }
+	  info { door, closed }
+	  desc { The base of the Monolith has a door in it.}
+  }
+}
+
+14
+{
+  name { Murky Bog. }
+  desc {
+A murky bog surrounds you, to the east a Monolith juts forth from the ground.
+And far to the north lies a huge pool of quicksand.  Snarls can be heard
+echoing as if from a great distance, and you look up to see a pit fiend
+flapping steadfastly by.
+  }
+  sector { Mountains }
+  extra {
+	keywords { monolith" }
+	desc { This is a huge obsidian stone block stuck in the marsh.
+	}
+	keywords { fiend" }
+	desc { It snarls at you, spits in your direction and flaps its way back to the
+fortress.
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 8 }
+	  desc { To the north lies a huge pool of quicksand.}
+	to { e, 15 }
+	  desc { To the east the marsh turns into a small lake.}
+	to { w, 13 }
+	  desc { Westward a Large monolith awaits adventurer's.}
+  }
+}
+
+15
+{
+  name { Northern Lake side. }
+  desc {
+Floating on this boiling lake is not what you would consider an enjoyable
+experience.  Many a creature bumps the bottom of your boat, and glares
+at you through unblinking eyes from the waters below.  The Southern
+portion of the lake looks calm and serene compared to this wild place.
+  }
+  sector { Water NoSwim }
+  extra {
+	keywords { creatures" }
+	desc { A wide (yes Very wide) variety of wild life swimming about below you.
+	}
+  }
+  flags { dark }
+  exits {
+	to { s, 16 }
+	  desc { The southern portion of the lake lies to the south.}
+	to { w, 14 }
+	  desc { To the west lies a murky bog.}
+  }
+}
+
+16
+{
+  name { Southern Lake side. }
+  desc {
+You are floating on a calm section of a blue crystal clear water.  You
+feel much more at ease then you were before in this area.  Then a wave
+of fear passes over you.  You are not alone.
+  }
+  sector { Water NoSwim }
+  extra {
+	keywords { north" }
+	desc { The way to the north seems to be impassable, due to the rough water and
+strange wild life.
+	}
+  }
+  flags { dark }
+  exits {
+	to { w, 17 }
+	  desc { To the west is a beach where your boat can land.}
+  }
+}
+
+17
+{
+  name { Beach }
+  desc {
+You are on a sandy shore, marsh life is creeping all across the surface,
+To the west lies the Evil fortress, you see figures walking along the
+battlements and also a pit fiend landing atop one of the many buildings
+protected by the huge almost-one-hundred-foot-high-wall.
+  }
+  sector { Mountains }
+  extra {
+	keywords { fortress" }
+	desc { It is hewn of black stone, and fortified like nothing you have ever dreamed
+of.
+	}
+  }
+  flags { dark }
+  exits {
+	to { e, 16 }
+	  desc { To the east lies the Southern portion of a small lake.}
+	to { w, 18 }
+	  desc { To the west lies a Huge fortress.}
+  }
+}
+
+18
+{
+  name { Before the Great Gates. }
+  desc {
+You stand before the gates of a Huge fortress, several large demons
+guard the gate before you, but the drawbridge is down, the gates open,
+and the portcullis has been drawn up.  This place looks very dangerous,
+in fact you have no idea why you are still here.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 17 }
+	  desc { To the east is a marshy beach.}
+	to { s, 18 }
+	  info { door, closed }
+	  desc { A long arrow slitted tunnel leads south through the gate.}
+  }
+}
+
+20
+{
+  name { The room }
+  desc {
+"  You don't know what this room is supposed to be, but look!  something is
+here!
+  }
+  sector { Forest }
+  exits {
+	to { u, 13 }
+  }
+}

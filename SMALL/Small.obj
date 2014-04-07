@@ -1,0 +1,61 @@
+1000
+{
+        name { a note }
+        namelist { note paper }
+        long { A note lies here, discarded. }
+        weight { 1 }
+        value { 0 }
+        rent { 1 }
+        type {
+                note { 1, 0, 0, 0 }
+        }
+        wear { take }
+}
+1001
+{
+        name { a pen }
+        namelist { pen quill }
+        long { A fine quill pen lies here. }
+        weight { 1 }
+        value { 0 }
+        rent { 10 }
+        type {
+                pen { 0, 0, 0, 0 }
+        }
+        wear { take, hold }
+}
+3097
+{
+        name { a bulletin board }
+        namelist { board bulletin }
+       long { A large bulletin board is mounted on a wall here. }
+        type {
+                board { 0, 0, 0, 0 }
+        }
+        extras {
+                keywords { board }
+                desc {
+Use "Look AT board" to see a listing of the messages. Use Read
+<message number>" or "Remove <message number>" to read or remove
+message, respectively.
+   }
+  }
+}
+25102
+{
+        name { a bulletin board }
+        namelist { board bulletin }
+       long { A large bulletin board is mounted on a wall here. }
+        type {
+                board { 0, 0, 0, 0 }
+        }
+        extras {
+                keywords { board }
+                desc {
+Use "Look AT board" to see a listing of the messages. Use Read
+<message number>" or "Remove <message number>" to read or remove
+message, respectively.
+   }
+  }
+}
+

@@ -1,0 +1,17 @@
+913
+{
+        name { Dimis muddy boots }
+        namelist { boots muddy }
+        long { Dimi has lost his mind and his boots here. }
+        weight { 2 }
+        rent { 20000 }
+        value { 30000 }
+        material { leather }
+        type {
+                armor {
+                      effective_ac { 15 }
+                      force { 15 }
+                      }
+             }
+        wear { take, feet }
+}

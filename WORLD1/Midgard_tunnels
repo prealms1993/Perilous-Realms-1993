@@ -1,0 +1,1949 @@
+
+0
+{
+  name { Hallway }
+  desc {
+"   This is a trail in a cavern under Midgard.  A wooden stair going up 
+leads back out to the midgard, while the hallway continues to the north.
+To the north, down the corridor a ways, you see a couple of doors and a 
+large mural.
+  }
+  extra {
+	keywords { door wooden" }
+	desc { "  The door is made of strong oak.  It would be very difficult to chop down.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 1 }
+	  desc { You see a hallway
+}
+	to { u, Midgard:20 }
+  }
+}
+
+1
+{
+  name { Hallway }
+  desc {
+"  You are in the middle of a hallway in the labyrinth of Midgard.  To the 
+south the hallway ends, with a door to the east.  To the north, the hallway
+continues.  To the west there is a door.
+  }
+  extra {
+	keywords { door wooden" }
+	desc { "  The door is made of strong oak.  It would be very difficult to chop down.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 2 }
+	  desc { You see a hallway
+}
+	to { s, 0 }
+	  desc { You see the end of a hallway
+}
+	to { w, 3 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	  desc { You see a wooden door
+}
+  }
+}
+
+2
+{
+  name { Hallway }
+  desc {
+"   On the western wall you see a mural of Viking warriors.  To the east, there 
+is a wooden door clearly marked 'kitchen'.  To the north is another large door.
+  }
+  extra {
+	keywords { brown thing" }
+	desc { "   You look very closely and see that there is a large rat eagerly chewing 
+into one of the corpses!  What a disgusting sight!
+	}
+	keywords { corpse corpses bodies" }
+	desc { "   Bodies litter the ground behind the Viking warriors.  You can see some
+sort of brown thing on top of one of the more distant corpses.
+	}
+	keywords { necklace" }
+	desc { "   The necklace is made of gold, with jade stones.  It glows softly.
+	}
+	keywords { holy symbol" }
+	desc { "   The holy symbol is that of a great silver tree, with a black background.
+Could it be that the silver is tarnished?  Perhaps it is just a trick of the
+light.
+	}
+	keywords { belt wide" }
+	desc { "   The belt is made of black leather, with a silver buckle.  On the buckle is
+a pair of blood red spears crossed to make an 'X'
+	}
+	keywords { ring" }
+	desc { "   The ring is made of gold and jade.  It looks like it contains much power.
+	}
+	keywords { robes" }
+	desc { "   The white robes of the Viking priest shimmer softly.  Near the bottom, the
+shadows make the robes dull grey in color.
+	}
+	keywords { figure priest" }
+	desc { "   The Viking priest has a smirk on his face as he prays.  He appears to
+approve of this bloodshed, or at least know something that you don't.  He
+is dressed in fine white robes, and he has several magical devices about him,
+a ring, a holy symbol, a necklace and a wide belt.
+	}
+	keywords { axes" }
+	desc { "   The axes wielded by the Viking warriors drip with blood.  On the hilt,
+you can see a mark, it looks like two blood red spears crossed to form an
+'X'
+	}
+	keywords { weapons" }
+	desc { "   The axes that the warriors hold drip with blood from the fallen foes.
+	}
+	keywords { clouds" }
+	desc { "   The clouds look dark and foreboding.  Small flashes of lightning are 
+frozen in place.
+	}
+	keywords { warriors" }
+	desc { "   The Viking warriors look nearly berserk, madness fills their eyes, and
+the axes drip with gore.  You wonder why such a peaceful place has such 
+an unusually graphic and bloody mural.
+	}
+	keywords { horde" }
+	desc { "   The horde of Viking warriors wear armor of leather and chain.  Blood drips
+from their clothing as they work to ensure their place in the grand hall of
+Valhalla.
+	}
+	keywords { mural painting" }
+	desc { "  A horde of mighty Viking warriors is charging from a Longboat straight
+towards you, raising their swords and axes to split your skull.  In the boat,
+you see a figure clothed in simple white robes, praying.  He seems to be 
+illuminated by a soft white light.  Dark clouds cover the sky, and corpses
+litter the ground behind the warriors.  You get an uneasy feeling when looking
+at this mural.
+	}
+	keywords { door kitchen wooden" }
+	desc { The kitchen door is unremarkable.  The kitchen is quiet.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 4 }
+	  desc { You see the hallway end at a large door.
+}
+	to { s, 1 }
+	  desc { You see a door to the west, and farther on, a doorway to the east before the
+hallway dead ends.
+}
+  }
+}
+
+3
+{
+  name { Dining Hall }
+  desc {
+"   The Temple dining hall is long and quiet.  The tables and benches are made
+of simple wood.  You find this a very peaceful, "earthy" place.  You can
+see a door to the west, and a door to the east.
+  }
+  extra {
+	keywords { table" }
+	desc { "  For the most part, the tables are unremarkable.  However, etched into the
+wooden surface of one are the words 'The chef serves ratmeat!'
+	}
+	keywords { bench" }
+	desc { "  The benches are unremarkable.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 1 }
+	  key { 100 }
+	  info { door, closed }
+	  desc { You see a door leading to a hallway.
+}
+	to { w, 5 }
+  }
+}
+
+4
+{
+  name { Library }
+  desc {
+"   This is a large library, with stacks and stacks of books.  It is very
+very quiet here, just like the rest of the temple.  Shelves of books
+cover all of the walls, the library continues to the north, and there is
+a door to the south, and to the west.
+  }
+  extra {
+	keywords { fancy brown" }
+	desc { "   The fancy brown bookmark has a number written on it : S27 800.76 P151
+	}
+	keywords { yellow post note post-it" }
+	desc { "   The yellow post-it note has the words 'Don't eat the stew if you wish to
+remain well.'
+	}
+	keywords { paper piece bookmark" }
+	desc { "   Most of the bookmarks have unremarkable bits of scribble on them.
+However, two of them, a yellow post it note, and a fancy brown bookmark
+	}
+	keywords { shelves" }
+	desc { "   The shelves are old, and sagging from the weight of the books.
+	}
+	keywords { books" }
+	desc { "   The books are old and musty.  Small bookmarks and pieces of paper
+are stuck in many of them.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 61 }
+	to { s, 2 }
+	  key { 100 }
+	  info { door, closed }
+	  desc { You see a door leading to a hallway
+}
+	to { w, 60 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden w" }
+  }
+}
+
+5
+{
+  name { Western Hallway }
+  desc {
+"   The hallway stretches to the north, and south.  There is a small door
+in the western wall, and a larger door marked 'Dining Hall' to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 8 }
+	to { e, 3 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden e" }
+	to { s, 7 }
+	to { w, 6 }
+	  key { 101 }
+	  info { door, closed }
+	  keywords { door key" }
+  }
+}
+
+6
+{
+  name { The Adept's chamber }
+  desc {
+"   This is the simple room of the Temple Adept.  He lives frugally, with
+only the sparsest of furniture, a bed, a small table, a chair.  On the wall
+is a small painting.
+  }
+  extra {
+	keywords { underside" }
+	desc { "   There is a silver tree marked on the underside of the chair.
+	}
+	keywords { note" }
+	desc { The note has been smeared, as if someone hastily closed the book upon it.
+You can only read the following :
+   Ste----, I m--t --ow -----u are with ----
+   The L---ar- re---n- o-r o-l- sa-- ha-v--
+   L-av- a note in the Bo-- of R--n--o-.
+L.
+	}
+	keywords { book" }
+	desc { The book is only halfway complete.  There is a note stuck to one of the
+finished pages.
+	}
+	keywords { chair table bed furniture furnishings" }
+	desc { "   The chair is made of simple wood, with 3 legs, and only a rudimentary
+back.  The bed looks small, and uncomfortable.  The table is stained with
+ink from many long hours of transcription.  There is a book on the table,
+only halfway complete.
+	}
+	keywords { painting wall" }
+	desc { This is a tastefully rendered painting of the Life Tree.  As always, the
+Midgaard serpent gnaws at the roots, while all life is nurtured within
+the tree's boughs.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 5 }
+	  key { 101 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+7
+{
+  name { Western Hallway }
+  desc {
+"  The hallway runs north and east.  There is a musty smell to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 5 }
+	to { e, 53 }
+  }
+}
+
+8
+{
+  name { Western Hallway }
+  desc {
+The hallway branches into a T here, going east, west, and south.
+There is a door to the north.   To the east, the ever present torches
+have apparently gone out, and the area is shrouded in darkness
+  }
+  flags { indoors }
+  exits {
+	to { n, 9 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	to { e, 10 }
+	to { s, 5 }
+	to { w, 14 }
+  }
+}
+
+9
+{
+  name { The Attendants' Chamber }
+  desc {
+"  This room is the dormitory for the attendants.  Here they rest for a time,
+during the long, tedious, but spiritually fulfilling days.  There are 12
+cots here, each looks quite uncomfortable.  There is a table at the north
+end of this room, next to a door.  There is also a door to the south.
+  }
+  extra {
+	keywords { underside" }
+	desc { "  There are brownish-red X marks on the underside of each of the
+beds.
+	}
+	keywords { table" }
+	desc { The table is unremarkable.  In one of the drawers, you see a pair of axes
+etched into the wood.  It looks like someone has tried to deface this 
+etching.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 26 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+	to { s, 8 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door door" }
+  }
+}
+
+10
+{
+  name { Darkened Hallway }
+  desc {
+"   The hallway here is dim, but not too dark to see.  There is a door
+to the north.  To the west there is a T crossing.  The passage east is
+lost in shadows.
+  }
+  flags { indoors }
+  exits {
+	to { n, 13 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	to { e, 11 }
+	to { w, 8 }
+  }
+}
+
+11
+{
+  name { Darkened Hallway }
+  desc {
+"   This room is pitch black.  The torches that flicker along the
+corridor elsewhere do not flicker here.  The sconces are still here,
+however.  To the east, the hallway lightens some.  To the west is a 
+large, heavy wooden door.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 12 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden large" }
+	to { w, 10 }
+  }
+}
+
+12
+{
+  name { Cellar Access }
+  desc {
+"   This appears to be a passage down into the cellar.  There is a large
+wooden door to the west, and a set of stairs leading down.  You can faintly
+hear water down below.   There are a few scraps in this room, a bucket,
+a broom... Nothing really worth taking.
+  }
+  extra {
+	keywords { broom scraps bucket" }
+	desc { As you examine the items more closely, you notice a huge rat scurrying
+out of sight.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 11 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden large" }
+	to { d, 63 }
+  }
+}
+
+13
+{
+  name { The Acolytes' Chamber }
+  desc {
+"   This is the bedroom of the acolytes.  There are 8 beds, each lined up 
+on the walls.  There is a table to the north.   The only exit lies to
+the south, through a small wooden door
+  }
+  extra {
+	keywords { underside" }
+	desc { "  There is nothing on the underside of any of the chairs in this
+room.
+	}
+	keywords { bed" }
+	desc { The beds are small and uncomfortable.  They are all impeccably well made,
+even a soldier would be impressed.
+	}
+	keywords { table" }
+	desc { There is nothing unusual about the table.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 10 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+14
+{
+  name { Western Hallway }
+  desc {
+"  The hallway extends to the east and west.  To the south is a stretch of
+blank wall, and to the north is a wooden door.
+  }
+  flags { indoors }
+  exits {
+	to { n, 15 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+	to { e, 8 }
+	to { w, 16 }
+  }
+}
+
+15
+{
+  name { Believers' Dormitory }
+  desc {
+"   This is a fairly large room, with about 20 small bunk beds lined up
+along the walls.  There is a door to the south, a table against the east wall,
+and a small desk at the western wall.
+  }
+  extra {
+	keywords { table east" }
+	desc { The table has a small piece of paper fluttering on it.
+	}
+	keywords { desk west" }
+	desc { The desk has several drawers, all of them are slightly open.
+	}
+	keywords { paper" }
+	desc { The paper has a bit of doodling on it... Nothing important.
+	}
+	keywords { drawer" }
+	desc { As you open one of the desk drawers, something moves inside.  You hear
+a scratching sound, and then silence.  The drawer appears to be stuck.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 14 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+  }
+}
+
+16
+{
+  name { Western Hallway }
+  desc {
+The hallway stretches east and west.  There is a door to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 14 }
+	to { s, 17 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+	to { w, 18 }
+  }
+}
+
+17
+{
+  name { The Deacon's Chamber }
+  desc {
+"   This room is small, and roughly furnished.  You see a bed, a table
+and a chair.  None of which are worth taking.
+  }
+  extra {
+	keywords { table chair bed" }
+	desc { There is nothing remarkable about either the table, chair or bed.
+(sorry) :-)
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 16 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+  }
+}
+
+18
+{
+  name { Western Hallway }
+  desc {
+"   The hallway continues to the east and west.   There is a door to the
+north, and a door to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 19 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+	to { e, 16 }
+	to { s, 20 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+	to { w, 21 }
+  }
+}
+
+19
+{
+  name { The Vicar's Chamber }
+  desc {
+"   This room is spartan, there is a small but comfortable looking bed,
+a small desk, and a chair with a seat cushion.  On the wall there is a
+painting.
+  }
+  extra {
+	keywords { painting wall" }
+	desc { The painting is of a feathered dragon.  The body of the dragon is golden,
+while the feathers are jade.   It is a very pretty painting.
+	}
+	keywords { table chair desk bed" }
+	desc { The furniture in this room is not particularly comfortable looking, but
+it is not uncomfortable looking either.
+	}
+  }
+  exits {
+	to { s, 18 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+  }
+}
+
+20
+{
+  name { The Priest's Chamber }
+  desc {
+"   This is the chamber of the priest.  There is a small bed, a desk,
+and a sturdy chair here.  You see an embroidered quilt lying on the bed.
+There is a door to the north.
+  }
+  extra {
+	keywords { chair table" }
+	desc { There is nothing remarkable about either the chair or the table
+	}
+	keywords { bed" }
+	desc { The bed is plain, and not uncomfortable looking.  There is a large quilt
+thrown across it.
+	}
+	keywords { quilt" }
+	desc { The quilt is soft, and smooth.  It is white, with green trim.  In the
+center of the quilt is a feathered dragon, with a golden body, and 
+jade feathers.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 18 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+  }
+}
+
+21
+{
+  name { Western Hallway }
+  desc {
+"   The hallway forms a 'T' intersection here, with hallways to the
+north, south and east.  To the west is a wooden door.  You hear the faint
+sound of chanting from the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 22 }
+	to { e, 18 }
+	to { s, 35 }
+	to { w, 34 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden w" }
+  }
+}
+
+22
+{
+  name { Western Hallway }
+  desc {
+"   The hallway stretches north, and south.  There is a wooden door to the
+west.
+   There is a chanting sound coming from the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 23 }
+	to { s, 21 }
+	to { w, 33 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden w" }
+  }
+}
+
+23
+{
+  name { Western Hallway }
+  desc {
+"   The hallway bends to the east and south.  There are doors to the
+north and west.  To the west, you can hear a chanting sound.
+  }
+  flags { indoors }
+  exits {
+	to { n, 28 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+	to { e, 24 }
+	to { s, 22 }
+	to { w, 27 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden w" }
+  }
+}
+
+24
+{
+  name { Western Hallway }
+  desc {
+"   There is a door to the north, and the hallway continues east, and
+west.  You hear chanting to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 29 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+	to { e, 25 }
+	to { w, 23 }
+  }
+}
+
+25
+{
+  name { Western Hallway }
+  desc {
+"   The hallway stretches to the east, and west.  You can hear chanting to
+the west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 26 }
+	to { w, 24 }
+  }
+}
+
+26
+{
+  name { Western Hallway }
+  desc {
+The hallway runs east to west.  There is a door to the north, and a door
+to the south.  To the west, you can faintly here some sort of chanting.
+  }
+  flags { indoors }
+  exits {
+	to { n, 30 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+	to { e, 32 }
+	to { s, 9 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+	to { w, 25 }
+  }
+}
+
+27
+{
+  name { The Study }
+  desc {
+"   This room is fairly large, with chairs and tables placed neatly about.
+There is a fireplace, cold and empty, and a large painting on the wall.
+There is a small barred window to the west.  The only exit is to the east,
+through a wooden door.  Although you have no idea where it is coming from, 
+a loud chanting sound can be heard, echoing through the room, and out into
+the hallway.
+  }
+  extra {
+	keywords { ash grate" }
+	desc { "  As you get closer to the ash grate, the noise gets louder.  There must be
+some sort of conduit between here and wherever the sound is coming from.
+There does not look as though there could be an exit here, however.
+	}
+	keywords { chimney" }
+	desc { As you move near the chimney, you hear a rustling sound, as if many small
+bodies were scurrying away.  The chanting sound is definitely coming from
+below.
+	}
+	keywords { window barred" }
+	desc { The window overlooks the northwestern part of the city.  Looks like the
+wizard's shop is expanding.
+	}
+	keywords { fireplace" }
+	desc { Aha!  This is where the sound is loudest.  You can't tell for sure if
+the sound is coming from the chimney, or the ash grate.
+	}
+	keywords { chair table chairs tables" }
+	desc { "   The chairs and tables are unremarkable.  They look fairly well worn, and
+the chairs look a little bit on the comfortable side.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 23 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden e" }
+  }
+}
+
+28
+{
+  name { The Minister's Chamber }
+  desc {
+"   This is the bedroom of the Minister.  A medium sized bed rests against the
+wall, and a comfortable chair has been placed in front of a desk.  There are
+some papers and a small statuette on the desk.  The only exit is south.
+  }
+  extra {
+	keywords { underside" }
+	desc { "   There is a brownish-red X marked on the bottom of the chair.
+	}
+	keywords { statuette" }
+	desc { The statuette is a representation of a golden dragon with jade wings.
+You reach for it greedily, but you see that it is a fake.
+	}
+	keywords { papers" }
+	desc { the papers seem to be financial data on the costs to run the temple.
+Although you are not a financial expert on the temple, it seems that a 
+large portion of the funds are being allocated to a "Project M".
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 23 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+  }
+}
+
+29
+{
+  name { The Novices' Chamber }
+  desc {
+"   This is the dormitory of the Novices.  There are 6 small, uncomfortable
+looking beds lined along the walls.   There is a table to the east, and a
+desk to the west.  To the south is a wooden door.
+  }
+  extra {
+	keywords { desk" }
+	desc { There is nothing unusual about the desk.
+	}
+	keywords { table" }
+	desc { The table is unremarkable.
+	}
+	keywords { bed" }
+	desc { The beds are hard and scratchy looking.
+	}
+	keywords { underside" }
+	desc { "  There is nothing on the underside of either the table, desk, or
+any of the beds.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 24 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+  }
+}
+
+30
+{
+  name { The Missionary's Chamber }
+  desc {
+"   This room is nearly bare.  There is a medium sized bed-frame, but it
+has no mattress.  There is a desk against the wall, but no chair.
+There is a door to the south.
+  }
+  extra {
+	keywords { dust" }
+	desc { "   The dust is about 1/4 of an inch thick.
+	}
+	keywords { desk" }
+	desc { "  The desk has a fine layer of dust on it, it hasn't been used in quite a
+while.  Someone has draw a smiley face in the dust.
+	}
+	keywords { bed frame bed-frame" }
+	desc { The bed-frame looks like it hasn't been used in a long time.  Perhaps the 
+Missionary is out corrupting and destroying ancient cultures?
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 26 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+  }
+}
+
+31
+{
+  name { The Missionary's Chamber }
+  desc {
+"   This room is completely empty.  There is nothing in this room at all
+except a small pile of trash in the corner.  There is a door to the south
+  }
+  extra {
+	keywords { trash pile" }
+	desc { "  The pile of trash contains some bits of paper, and a dead rat corpse.
+It looks like it has been here for some time.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 32 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+  }
+}
+
+32
+{
+  name { Western Hallway }
+  desc {
+"   The hallway stretches east to west.  There is a door to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 31 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+	to { e, 60 }
+	to { w, 26 }
+  }
+}
+
+33
+{
+  name { The Canon's Chamber }
+  desc {
+"   A comfortable looking bed rests against the wall of this carpeted
+room.  There is a plush chair against the wall, and a large oaken desk
+next to the door.  There is a large painting over the bed.
+  }
+  extra {
+	keywords { painting" }
+	desc { "   The painting is a rendering of a large golden dragon with emerald-green
+wings.
+	}
+	keywords { underside" }
+	desc { "   There is a brownish-red X marked on the underside of this chair.
+	}
+	keywords { paper bits" }
+	desc { " One of the pieces of paper reads:
+    'Some of them are noticing the change.  Burn the books.'
+ 
+   It is signed with a flourished R.
+	}
+	keywords { desk" }
+	desc { "  On the desk are some scattered bits of paper.
+	}
+	keywords { chair" }
+	desc { "   The chair is made of rich leather, and is well-crafted.  It looks like
+someone has spent many comfortable hours in this chair.
+	}
+	keywords { bed" }
+	desc { "  The bed is very comfortable looking.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 22 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden e" }
+  }
+}
+
+34
+{
+  name { The Levite's Chamber }
+  desc {
+"   There is a comfortable bed against the wall, and a large oaken desk
+pushed up next to the door.  A worn leather chair sits in front of
+the desk.  
+  }
+  extra {
+	keywords { underside" }
+	desc { "   There is a brownish-red X on the underside of the chair.
+	}
+	keywords { chair" }
+	desc { "  The chair looks expensive, and well made.
+	}
+	keywords { bed desk chair" }
+	desc { "  The desk, bed and chair all look fairly nice, and tastefully
+made.  
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 21 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden e" }
+  }
+}
+
+35
+{
+  name { Western Hallway }
+  desc {
+"   The hallway exits north and south.  There is a door to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 21 }
+	to { s, 37 }
+	to { w, 36 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden w" }
+  }
+}
+
+36
+{
+  name { The Curate's Chamber }
+  desc {
+"  This tiny room is nearly empty.  There is a small, uncomfortable wooden
+bed, and a short, poorly made 3 legged stool.  A table sits in the corner,
+and a small tallow candle flickers yellowly.  There is a small painting on
+the wall.
+  }
+  extra {
+	keywords { underside" }
+	desc { "   There is a tree on the underside of the stool, marked in silver. It
+looks as though someone tried to mark an X on the tree, but the X has
+faded badly.
+	}
+	keywords { bed stool" }
+	desc { "   The bed and stool look like they were handmade by someone who was not
+a carpenter.  They look splintery and uncomfortable.  The mattress on the
+bed is made of straw.
+	}
+	keywords { table" }
+	desc { "   The table has bits of ash scattered about the surface.
+	}
+	keywords { painting wall" }
+	desc { "   The painting is of the Life Tree of Midgaard.  All of life is nurtured
+in its boughs, while the Midgaard serpent gnaws at the roots.  The serpent
+looks a little unusual.
+	}
+	keywords { serpent" }
+	desc { "   The serpent looks like it has been recently altered.  The body seems
+to be a mix of brown and gold.
+	}
+	keywords { body" }
+	desc { "   The body looks like it was originally brown, but gold has been more
+recently added.
+	}
+	keywords { candle" }
+	desc { "   The candle is almost a stub.  Judging by the melted wax, this candle
+has been used for a long time.
+	}
+	keywords { mattress" }
+	desc { "   The mattress is made of straw, and looks rather annoying to have to 
+sleep on.  You can see a bit of paper sticking out of the corner of the
+mattress
+	}
+	keywords { paper" }
+	desc { "  The piece of paper is a note.  It reads:
+Ryadel has gone too far.   His work is twisting the minds of the 
+new acolytes.  If he is not stopped, I fear that his activities will
+corrupt our entire temple to his evil ways.  Unfortunately, I can think 
+of no way to stop him.  The answer is in the library.  It must be
+somewhere in the library!
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 35 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden e" }
+	  desc { You can see the hallway
+}
+  }
+}
+
+37
+{
+  name { Western Hallway }
+  desc {
+"  The hallway runs north to south.  There are wooden doors to the east and
+west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 35 }
+	to { e, 39 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden e" }
+	to { s, 40 }
+	to { w, 38 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden w" }
+  }
+}
+
+38
+{
+  name { The Healer's Chamber }
+  desc {
+"   The Healer lives in some luxury.  A large, soft bed rests against one
+wall, and there is an embroidered carpet on the floor.  An oaken desk 
+sits next to the door, and a leather chair sits in front of the desk.
+  }
+  extra {
+	keywords { underside" }
+	desc { "   The underside of the chair has a brownish-red X marked on it.
+	}
+	keywords { carpet embroidered" }
+	desc { "   The carpet is embroidered with a design of a golden dragon with
+green feathered wings.
+	}
+	keywords { chair" }
+	desc { "   The chair is well made, and looks expensive.
+	}
+	keywords { desk" }
+	desc { "   The desk looks well crafted, and very heavy.  It is stained a rich
+brown.
+	}
+	keywords { bed" }
+	desc { "   The bed looks extremely comfortable.  It looks like it would put
+you to sleep in an instant
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 37 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden e" }
+  }
+}
+
+39
+{
+  name { The Monk's Chamber }
+  desc {
+"   The Monk lives in a well-appointed chamber, with a large bed, and a
+well-made wooden desk.  There is a painting on the wall, and a chair
+lies on the ground, overturned
+  }
+  extra {
+	keywords { painting" }
+	desc { "   The painting is a cubist representation of a golden dragon,
+with green wings.
+	}
+	keywords { underside" }
+	desc { "   There is a brownish-red X marked haphazardly on the bottom of this
+chair.   Having seen plenty of blood in your lifetime, you realize that the
+brown stain must be exactly that.
+	}
+	keywords { chair" }
+	desc { "   The chair looks undamaged.  There is something on the underside of
+the chair.
+	}
+	keywords { blanket" }
+	desc { "   The blanket is featureless
+	}
+	keywords { bed desk" }
+	desc { "   The bed and desk appear to be made out of oak, and the bed has a soft
+down blanket covering it.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { w, 37 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden w" }
+  }
+}
+
+40
+{
+  name { Western Hallway }
+  desc {
+"   The hallway runs north and east here.  There are doors to the west and
+south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 37 }
+	to { e, 43 }
+	to { s, 42 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+	to { w, 41 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden w" }
+  }
+}
+
+41
+{
+  name { The Chaplain's Chamber }
+  desc {
+"   The chaplain lives well.  There is a large, comfortable bed in one
+corner of the room, and a large oaken desk next to the door.  There is
+a comfortable leather chair in front of the desk
+  }
+  extra {
+	keywords { bed desk chair" }
+	desc { "   The bed, desk and chair all look well made, and expensive.  The bed
+is very soft looking.
+	}
+	keywords { underside" }
+	desc { "   There is a brownish-red X marked on the underside of this chair.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 40 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden e" }
+  }
+}
+
+42
+{
+  name { The Expositor's Chamber }
+  desc {
+"   The Expositor lives rather well.  He has a large desk, which dominates
+the southern wall of this room.  The bed is fairly small, it looks like
+it has been shortened to make room for the huge desk.  There is a rather
+large chair sitting in front of the desk.
+  }
+  extra {
+	keywords { chair" }
+	desc { "   The chair is comfortable,but looks tiny next to the desk.
+	}
+	keywords { quilt" }
+	desc { "   The quilt has an embroidered dragon on it.
+	}
+	keywords { paper" }
+	desc { "   Looks like tax forms, ICK!
+	}
+	keywords { desk" }
+	desc { "   The desk is positively enormous.  They must have used magic to get
+it inside here.  Although it is perhaps the largest desk you have ever
+seen, it is completely covered with stacks of paper.
+	}
+	keywords { bed" }
+	desc { "   While the bed is short, it still looks very comfortable.  There is a
+quilt thrown across the bed.
+	}
+	keywords { underside" }
+	desc { "   There is a brownish-red X on the underside of the chair.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 40 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+  }
+}
+
+43
+{
+  name { Western Hallway }
+  desc {
+"   The hallway runs east to west.   There is a door to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 45 }
+	to { s, 44 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+	to { w, 40 }
+  }
+}
+
+44
+{
+  name { The Bishop's Chamber }
+  desc {
+"   The bishop lives in amazing comfort.  A large feather bed is in
+one corner, and a large oaken desk stands against the opposite wall.
+There is a large chair in front of the desk.
+  }
+  extra {
+	keywords { underside" }
+	desc { "   There is a brownish-red X on the underside of the chair.
+	}
+  }
+  exits {
+	to { n, 43 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+  }
+}
+
+45
+{
+  name { Western Hallway }
+  desc {
+"   The hallway hits a dead end here.  There are doors to the north,
+east and south.  The hallway runs west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 47 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+	to { e, 48 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden e" }
+	to { s, 46 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+	to { w, 43 }
+  }
+}
+
+46
+{
+  name { The Patriarch's Chamber }
+  desc {
+"   The Patriarch lives well.   There is a huge bed dominating the room,
+taking up almost all of the floor space.  A small desk is shoved into the
+space that is left.  There is a faint scent of perfume lingering in the 
+air.
+  }
+  extra {
+	keywords { underside" }
+	desc { "   There is a brownish-red X marked on the underside of the chair.
+	}
+	keywords { bed" }
+	desc { "   The bed is enormous.  It has a wooden frame that encases it, and the
+edges of the mattress are very round and smooth, unusually so.  Even more
+unusually, the bed seems have something inside it, because it makes small,
+rhythmic up and down motions continuously.
+	}
+	keywords { desk" }
+	desc { "   While the desk is small, it does not look cheap.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 45 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+  }
+}
+
+47
+{
+  name { The Arch Bishop's Chamber }
+  desc {
+"   The arch bishop lives in extreme comfort.  A large feather bed is in
+one corner, and a large mahogany desk stands against the opposite wall.
+There is a large chair in front of the desk.
+  }
+  extra {
+	keywords { underside" }
+	desc { "   There is a brownish-red X on the underside of the chair.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 45 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+  }
+}
+
+48
+{
+  name { The High Priest's Anteroom }
+  desc {
+"   This is the foyer of the High Priest Ryadel's apartment.  Tapestries
+cover the walls, and soft candles give a gentle, delicate light to 
+the room.  You can see the entrance to the bedroom to the south.  To
+the east, you can see what appears to be a study
+  }
+  flags { indoors }
+  exits {
+	to { e, 50 }
+	to { s, 49 }
+	to { w, 45 }
+  }
+}
+
+49
+{
+  name { The High Priest's Bedroom }
+  desc {
+"   As you enter this room, you feel impressed.  The High Priest really
+knows how to live.  Light silken tapestries cover the walls, softening
+the effect of the already soft candlelight.  A large bed dominates the
+center of the room, and it looks extremely comfortable.  A intricately
+woven carpet covers the floor, and deadens any noise that might other
+wise disturb the sleep of the priest.  To the south, you can see a 
+closet.
+  }
+  flags { indoors }
+  exits {
+	to { n, 48 }
+	to { s, 51 }
+  }
+}
+
+50
+{
+  name { The Study of the High Priest }
+  desc {
+"   This is the study of the High Priest.  A well-crafted leather chair
+sits in front of a huge oaken desk.  The smell of fine Elven tobacco 
+lingers about the room.  Several chairs have been placed against the walls,
+for the use of the High Priest's guests.  There is a large painting above
+the desk.
+  }
+  extra {
+	keywords { underside" }
+	desc { "   There is a brownish-red X marked on the underside of the chairs
+in this room.
+	}
+	keywords { desk" }
+	desc { "   The desk is enormous.  They must have used magic to get it through
+the substantially smaller entrance to this room.
+	}
+	keywords { serpent" }
+	desc { "   The serpent is golden, with jade feathered wings.  It looks like
+it is grinning.
+	}
+	keywords { tree" }
+	desc { "   On closer examination, the tree appears sickly, and old, and ready
+to topple over and fall.
+	}
+	keywords { painting" }
+	desc { "   The painting is of the Life Tree of Midgaard, nurturing all of life 
+within its boughs.  The Midgaard serpent gnaws at the roots, and it 
+doesn't look like he has very far to go before he reaches the main
+part of the tree.
+	}
+	keywords { smell tobacco" }
+	desc { "   The tobacco is definetly Elven.  You can tell by the strong, "leafy"
+odor.
+	}
+	keywords { chair chairs" }
+	desc { "   The chairs are well made, and look very expensive.  They go well with
+the rest of the expensive stuff in this room.
+	}
+	keywords { desk" }
+	desc { "  The desk is enormous.  They must have gotten it in here with magic,
+since there is no way that it could fit through the tiny door.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { w, 48 }
+  }
+}
+
+51
+{
+  name { The Closet of the High Priest }
+  desc {
+"  This huge closet contains some of the finest made clothing that you have
+ever seen.  Silk and lambskin dominate the selection, and everything
+looks like it would be very comfortable to wear.
+  }
+  extra {
+	keywords { small object" }
+	desc { "   It looks like some sort of door latch.
+	}
+	keywords { lambskin lamb" }
+	desc { "  The lambskin clothing is incredibly soft, and very comfortable looking.
+As you poke through the High Priest's belongings, you notice a small
+object attached to the eastern wall of the closet.
+	}
+	keywords { lamb lambskin" }
+	desc { "  The lambskin clothing is very soft and comfortable looking.  As you
+poke through the rows, you notice a strange latch in the back of 
+the closet.  Hmmmmmm.
+	}
+	keywords { silk" }
+	desc { "   The silken clothing is so light and thin as to be ethereal.  You 
+could probably wear five or six layers of the stuff before you reached
+the thickness of even a simple shirt.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 49 }
+	to { e, 52 }
+	  key { 101 }
+	  info { door, closed }
+	  keywords { latch" }
+  }
+}
+
+52
+{
+  name { The Secret Chamber of the High Priest }
+  desc {
+"   Wow!  You have found a secret passage!  And you thought things like 
+this only happened in computer games!  There is a door to the west,
+and a stairway leading downwards.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 51 }
+	  key { 101 }
+	  info { door, closed }
+	  keywords { door secret latch w" }
+	to { d, 65 }
+  }
+}
+
+53
+{
+  name { Western Hallway }
+  desc {
+"   The hallway dead-ends here.  There is a large oaken door to the east,
+and the hallway continues west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 54 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden large oaken" }
+	to { w, 7 }
+  }
+}
+
+54
+{
+  name { Cellar Access }
+  desc {
+"   This small room has bits of algae growing on the walls.  They glow softly,
+giving this room what little light it has.  There are two exits, a door
+to the west, and a ladder going down.
+  }
+  extra {
+	keywords { algae" }
+	desc { "   As you examine the algae, you find a small latch.
+	}
+	keywords { latch" }
+	desc { "   You trace a thin wire from the latch up to the ceiling.  Perhaps you
+should try opening the latch, to see what happens.
+...Then again, maybe you shouldn't.
+	}
+	keywords { ladder" }
+	desc { "   The ladder looks firm and strong.  It has supported the weight of 
+many a chubby monk, it will support yours.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { w, 53 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden large oaken w" }
+	to { u, 55 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { secret latch" }
+	to { d, 64 }
+  }
+}
+
+55
+{
+  name { Attic Access }
+  desc {
+"   Ooh, this is a nifty little treat.  You appear to be in an extra
+room, that may have been completely forgotten by the priests.  There
+is passageway leading down, and a door to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 56 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+	to { d, 54 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { passageway passage pass door d latch" }
+  }
+}
+
+56
+{
+  name { Attic }
+  desc {
+"   It is rather hot and stuffy up here.  There is a window to the east,
+that lets in some cool air, and a door to the south.  A few boxes and 
+bits of trash are scattered about the room, but nothing particularly
+important.
+  }
+  extra {
+	keywords { debris" }
+	desc { "     There is nothing remarkable about the debris.
+	}
+	keywords { boxes" }
+	desc { "   The boxes are empty.  They're probably just a haven for rats.
+	}
+	keywords { window e" }
+	desc { "   You see the streets of Midgaard.  Looks like the world is surviving
+without you in it.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 57 }
+	to { s, 55 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+  }
+}
+
+57
+{
+  name { Attic }
+  desc {
+"   The attic continues here, to the north and south.  
+  }
+  exits {
+	to { n, 58 }
+	to { s, 56 }
+  }
+}
+
+58
+{
+  name { Attic }
+  desc {
+"   The attic continues to the north and south.
+  }
+  exits {
+	to { n, 59 }
+	to { s, 57 }
+  }
+}
+
+59
+{
+  name { Attic above the Library }
+  desc {
+"   You can see light streaming up from below, and the outline of a
+large door set into the floor is apparent.  It looks like the back
+side of a secret door, much more obvious than the front side.   You can
+exit to the south, or through this door.
+  }
+  flags { indoors }
+  exits {
+	to { s, 58 }
+	to { d, 4 }
+  }
+}
+
+60
+{
+  name { Western Hallway }
+  desc {
+"   The hallway runs west.  There is a wooden door to the east.
+  }
+  flags { indoors }
+  exits {
+	to { e, 4 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden e" }
+	to { w, 32 }
+  }
+}
+
+61
+{
+  name { Northern Library }
+  desc {
+"  The library is large and quiet.  There are books all over the place.
+There is a ladder that goes up to the second floor, and the library
+continues to the south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 4 }
+	to { u, 62 }
+  }
+}
+
+62
+{
+  name { Library Second Floor }
+  desc {
+"   The second floor of the library is even more quiet than the first
+floor, and even more crowded.  There are books everywhere, even in the
+middle of the narrow hallway that rings the lower library.  The only
+exit is the ladder going down.
+  }
+  exits {
+	to { d, 61 }
+  }
+}
+
+63
+{
+  name { Cellar }
+  desc {
+"   This room looks like the entry/exit from the cellar.  There is a ladder
+going up, and doors to the east, and west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 75 }
+	to { u, 12 }
+  }
+}
+
+64
+{
+  name { Cellar }
+  desc {
+"   This room looks like the entry/exit for the cellar.  There is a ladder
+going up, and passages to the east and west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, temple_maze:1 }
+	  desc { You see a labyrnth of some kind.
+}
+	to { w, 69 }
+	to { u, 54 }
+  }
+}
+
+65
+{
+  name { The Secret Passageway of the High Priest }
+  desc {
+"   You are in the secret passageway of the high priest.  There is a 
+stairway going up, and the passage continues to the north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 68 }
+	  desc { You see a long, dark passageway
+}
+	to { u, 52 }
+  }
+}
+
+66
+{
+  name { A secret passage! }
+  desc {
+You have found a secret passage in the back of the temple! This room is dark,
+and musty.  There is nothing of interest in the room.  To the north, 
+you can see a door that leads outside.  To the south is another door,
+heavily reinforced with iron bands.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, Midgard_trail:4 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door secret n" }
+	  desc { You see a door leading outside.
+}
+	to { s, 67 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door iron s" }
+	  desc { You see a reinforced iron door to the south
+}
+  }
+}
+
+67
+{
+  name { A small stone room }
+  desc {
+"  This room is about 10 x 10.  There is a large door to the north, another to
+the south, and a heap of bones in the corner
+  }
+  sector { Field }
+  extra {
+	keywords { bones heap" }
+	desc { "   the heap of bones is fairly large.  You see all kinds of bones, fighter's
+bones, cleric's bones, mage's bones, thievs' bones...
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 66 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door iron n" }
+	  desc { You see a small, musty room
+}
+	to { s, 68 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door iron s" }
+	  desc { You see a long passage leading south
+}
+  }
+}
+
+68
+{
+  name { Dark passage }
+  desc {
+This long passageway leads north and south.. To the north is a small room, and
+to the south is a large, reinforced iron door..  You can hear something
+moving behind the door...  But then again, it could just be your imagination.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { n, 67 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door iron n" }
+	  desc { You see a large iron-reinforced door, and a stone room beyond.
+}
+	to { s, 65 }
+	  desc { You see a small room
+}
+  }
+}
+
+69
+{
+  name { Cellar }
+  desc {
+"   You are standing in a 10 x 10 passageway, stretching off into the 
+darkeness.  You have a feeling that you don't belong.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 64 }
+	to { w, 70 }
+  }
+}
+
+70
+{
+  name { Cellar }
+  desc {
+"   You are standing in a damp dungeon hallway, your light glints off of the
+wet stones embedded in the walls.  While it is damp, it is not dirty, there
+are no traces of dirt, or fungi.  The hallway continues to the east and west,
+and there is a door in the south wall.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 69 }
+	to { s, 72 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+	to { w, 71 }
+  }
+}
+
+71
+{
+  name { Cellar }
+  desc {
+"   You are standing in a damp dungeon hallway, your light glints off of the
+wet stones embedded in the walls.  While it is damp, it is not dirty, there
+are no traces of dirt, or fungi.  There are exits to the east, and north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 73 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+	to { e, 70 }
+  }
+}
+
+72
+{
+  name { Storage room }
+  desc {
+"   You are standing in a large storage room.  Several barrels and boxes
+line the walls, and the center of the room, making movement difficult. The
+room appears to be fairly well stocked, and none appear to have been
+recently opened.  There is only one exit, to the north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 70 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden n" }
+  }
+}
+
+73
+{
+  name { Cellar }
+  desc {
+"   You are standing in a damp cellar hallway.  The floor and walls are very
+clean, and there is no trace of moss or fungi.  There is a large grate in
+the western wall, a wooden door in the north wall, and the hallway continues
+east.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 74 }
+	  keywords { door wooden n" }
+	to { e, 71 }
+  }
+}
+
+74
+{
+  name { Cellar }
+  desc {
+"   You are standing in a damp cellar.  The room, while damp, is very clean, 
+and there is no trace of moss or fungi.  There are exits to the east, and
+a door to the south
+  }
+  exits {
+	to { e, 75 }
+	to { s, 73 }
+	  key { 100 }
+	  info { door, closed }
+	  keywords { door wooden s" }
+  }
+}
+
+75
+{
+  name { Cellar }
+  desc {
+"   You are standing in a large cellar hallway, which is damp, but very clean.
+Your light glints off of the wet stones that make up the walls of the 
+passageway.  The hallway continues to the east and west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 63 }
+	to { w, 74 }
+  }
+}
+
+142
+{
+  name { Chad's Music-O-Rama }
+  desc {
+You see a room filled with musical instruments.  The proprieter, Chad Jackson
+the International Recording Artist, does his best to stock only the finest
+musical instruments in the land.
+  }
+  flags { indoors }
+  exits {
+	to { w, 141 }
+  }
+}

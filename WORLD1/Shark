@@ -1,0 +1,258 @@
+
+0
+{
+  name { Shark's Office }
+  desc {
+This is a beautiful marble paneled office. It is somehow devoid of
+excess moisture (and water!) and the air is cool. There huge 
+mahogany desk at the north end with a mate black lamp and bright
+red tape holder as it's only accessories (That and the solid gold
+and sterling silver plated Sparc II running X11R5). You can see a
+large mahogany door bound in metal at the north end. To the south 
+you can see the door to the waiting room.  
+  }
+  extra {
+	keywords { desk" }
+	desc { You feel week from envy
+	}
+	keywords { portal" }
+	desc { The portal is GLOWING strangely.
+	}
+	keywords { X11R5 terminal Sparc" }
+	desc { The terminal is currently XLOCKED. But it IS a very nice terminal!
+	}
+  }
+  flags { no_mob, peaceful, nosteal, private, no_goto, evil_only, mapable }
+  exits {
+	to { n, Asgard:91 }
+	  key { 3951 }
+	  info { door, closed }
+	  keywords { hallway door north metal" }
+	  desc { You see a metal bound mahogany door.
+}
+	to { s, 50 }
+	  key { 3951 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see a large door.
+}
+  }
+}
+
+1
+{
+  name { Inside the Sleuce Gate }
+  desc {
+"  You are inside the sleuce gate and fighting the horrendous current of
+the Inverness River as it flows to the west.  There is a small ledge to
+the south that you might be able to reach with rigorous paddling in that
+direction.
+  }
+  sector { Water NoSwim }
+  river { w, 2 }
+  exits {
+	to { s, 2 }
+	to { w, Midgard:264 }
+  }
+}
+
+2
+{
+  name { The Ledge }
+  desc {
+"  You made it to the ledge.  The ledge is quite slippery and you have to
+watch your step or fear falling into the rushing waters to the north. 
+A doorway is noticable to the south.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 1 }
+	to { s, 51 }
+  }
+}
+
+48
+{
+  name { Metal Chamber }
+  desc {
+This is a round metal chamber. There are strange carvings on the wall.
+  }
+  extra {
+	keywords { carvings wall" }
+	desc { You can't read them, but they send a shiver down your spine!
+	}
+  }
+  flags { indoors }
+  tele { 100, 1, 49 }
+  exits {
+	to { n, Midgard:140 }
+  }
+}
+
+49
+{
+  name { The floor has dropped out from under you! }
+  desc {
+The metal floor has dropped out.. you are sliding down a tunnel!!
+Where will it all end!!??
+  }
+  flags { indoors }
+  tele { 20, 1, 51 }
+}
+
+50
+{
+  name { The Waiting room }
+  desc {
+This is a large room with plenty of chairs and reading material.
+There are various pictures of sharks and other sea creatures on 
+the wall, as well as an assortment of blow driers. Over in the 
+north corner you can see a monitor playing SNL (One of the Land
+Shark episodes you belive). The air is cool and moist. 
+  }
+  extra {
+	keywords { wall" }
+	desc { You see some blow driers and pictures of sharks and see life.
+	}
+	keywords { portal" }
+	desc { The portal is GLOWING strangely.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 0 }
+	  key { 3951 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see a large door.
+}
+	to { d, Midgard:1 }
+	  key { 3951 }
+	  info { door, closed }
+	  keywords { portal" }
+	  desc { You see a strange portal.
+}
+  }
+}
+
+51
+{
+  name { Entrance to the Shark Tank }
+  desc {
+You have ended up in a large steel room. The room feels very 
+damp and there are pools of salt water on the floor. There is
+a large steel door at the north end with red lights over it.
+It looks like an airlock. There is a open glass door marked 
+EMERGENCY EXIT to the south.
+  }
+  extra {
+	keywords { lights" }
+	desc { They are dark, but look very official. You notice a speaker between them.
+	}
+	keywords { steel north" }
+	desc { The steel door is massive and looks like it can't be opened. Not by 
+YOU anyway! It is marked "TANK".
+	}
+  }
+  flags { indoors }
+  tele { 160, 1, 52 }
+  exits {
+	to { s, 55 }
+	  key { 3951 }
+	  info { door, closed }
+	  keywords { glass door" }
+	  desc { You see a open glass door.
+}
+  }
+}
+
+52
+{
+  name { There is an alarm going off!! }
+  desc {
+"
+A very loud alarm has started and the red lights are going off!!
+  }
+  extra {
+	keywords { lights" }
+	desc { The lights are light BRIGHT RED. You notice a speaker between them
+where the deafening noise is coming from.
+	}
+	keywords { steel north" }
+	desc { The steel door is massive and looks like it can't be opened. Not by 
+YOU anyway! It is marked "TANK".
+	}
+  }
+  flags { indoors }
+  tele { 70, 1, 53 }
+  exits {
+	to { s, 55 }
+	  keywords { glass door" }
+	  desc { You see a open glass door. 
+}
+  }
+}
+
+53
+{
+  name { The metal door is opening and water is rushing in! }
+  desc {
+"
+The metal door at the north end has started to open and water
+is rushing in! At the same time the EMERGENCY EXIT has slowly
+started closing. A voice comes out of nowhere and says that the 
+room will be flushed in 40 seconds. 
+  }
+  extra {
+	keywords { lights" }
+	desc { The lights are flashing with maddening quickness. You notice the speaker
+between them is screaming at you. You feel like you should leave.
+	}
+	keywords { steel north" }
+	desc { The steel door is massive and looks like it can't be opened. Not by 
+YOU anyway! It is marked "TANK".
+	}
+  }
+  flags { indoors }
+  tele { 70, 1, 54 }
+  exits {
+	to { s, 55 }
+	  keywords { glass door" }
+	  desc { You see a open glass door.
+}
+  }
+}
+
+54
+{
+  name { The Shark Tank }
+  desc {
+This is a HUGE metal tank filled with clear salty water. The floor
+has been done in post modern sea bottom. There are various sea animals
+about enjoying the water and decor. You can almost make out a small door
+on the bottom.  
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { d, 50 }
+	  info { door, closed }
+	  keywords { small door" }
+	  desc { You see a small door.
+}
+  }
+}
+
+55
+{
+  name { The Emergency Chamber }
+  desc {
+The glass door slams shut and you notice you are in a small metal 
+chamber. 
+
+A calm female voice tells you that you will be evacuated shortly.
+  }
+  flags { indoors }
+  tele { 60, 1, Midgard:1 }
+}

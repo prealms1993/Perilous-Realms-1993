@@ -1,0 +1,448 @@
+
+0
+{
+  name { Staircase }
+  desc {
+"	The staircase continues down into a well lit room or back up through
+the trapdoor into the grubby inn. There are torches on the walls.
+
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { u, Midgard:48 }
+	  key { 701 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+	  desc { You see a trapdoor.
+}
+	to { d, 1 }
+	  desc { The staircaise continues downwards.
+}
+  }
+}
+
+1
+{
+  name { The round room }
+  desc {
+" 	You have entered a large round room with walls made of black onyx.
+To the south is a heavy iron door while in the corner of the room there is
+a staircase up. Covering the whole floor is a giant symbol.. A black fist
+with a blood red aura shining behind it.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { s, 2 }
+	  key { 700 }
+	  info { door, closed }
+	  keywords { door iron large" }
+	  desc { It has large nicks and is stained with blood.
+}
+	to { u, 0 }
+	  desc { The staircase winds upward.
+}
+  }
+}
+
+2
+{
+  name { The hallway }
+  desc {
+"	This hallway is decorated with shields of Chaos lining the
+walls, and over each shield burns a torch. To the west is a doorway leading
+into storage and south is the conference room, while north is a large iron
+door. The hallway continues east.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 1 }
+	  key { 700 }
+	  info { door, closed }
+	  keywords { door iron large" }
+	  desc { It has the symbol of Chaos engraved upon it.
+}
+	to { e, 5 }
+	  desc { The hallway continues.
+}
+	to { s, 3 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { To the south lies the conference room.
+}
+	to { w, 4 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see the door leading to the storage room.
+}
+  }
+}
+
+3
+{
+  name { The conference room }
+  desc {
+"	You have entered a huge room with walls made of black onyx like
+the others..
+There is a large table almost taking up the whole room in the center with 
+chairs lined about it. To the north you see a door leading back into the
+hallway.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 2 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { To the north is the hallway.
+}
+  }
+}
+
+4
+{
+  name { The storage room }
+  desc {
+"	You have entered a room with various weapons and armor of all makes
+lining the walls..
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 2 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { To the east lies the hallway.
+}
+  }
+}
+
+5
+{
+  name { The hallway }
+  desc {
+"	This hallway is decorated with shields of Chaos lining the
+walls, and over each shield burns a torch. To the east and west the hallway
+continues.. while to the north is the room of invokation, and south is the
+bar.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 8 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see dried blood on the door..
+}
+	to { e, 6 }
+	  desc { The hallway continues..
+}
+	to { s, 9 }
+	  desc { To the north lies the bar..
+}
+	to { w, 2 }
+	  desc { The hallway continues..
+}
+  }
+}
+
+6
+{
+  name { The hallway }
+  desc {
+"	 south is an unmarked door.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 7 }
+	  desc { The hallway continues...
+}
+	to { s, 10 }
+	  key { 701 }
+	  info { door, closed }
+	  keywords { door black" }
+	  desc { You see a large black door with a strange lock upon it.
+}
+	to { w, 5 }
+	  desc { The hallway continues...
+}
+  }
+}
+
+7
+{
+  name { The hallway }
+  desc {
+"	This hallway is decorated with shields of Chaos lining the
+walls, and over each shield burns a torch. the hallway continues west, or you
+can leave via the trapdoor in the ceiling.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { w, 6 }
+	  desc { The hallway continues...
+}
+	to { u, Midgard:26 }
+	  key { 700 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+	  desc { You see a trapdoor leading up into the Dark Alley.
+}
+  }
+}
+
+8
+{
+  name { The circle of invokation }
+  desc {
+"	Every which direction you look, blood.. Floor, walls, ceiling..
+everywhere.. Yet on the ground glowing brightly through the crimson stains
+is a pentagram, flaunting the powers of the dark abyss, and Set.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { s, 5 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { The door is stained with blood..
+}
+  }
+}
+
+9
+{
+  name { The bar of Chaos }
+  desc {
+"	You're in the not-so-famous bar of the Chaos guildsmen and
+followers.. Tables are scattered around the room in a disorderly fashion,
+and there are various carvings in the tabletops.
+  }
+  extra {
+	keywords { table carving" }
+	desc { You see various carvings in the table...
+ 
+"Shades of Death are all i see..
+ fragments.. of what used to be..
+ Skeletons of Society.."
+ 
+		"You cannot hide the face of death
+		 oppresion rules by bloodshed
+		 No disguise can hide the evil..
+		 that stains the primitive sickle.."
+ 
+				"Am i evil??
+					Yes i fucking AM!!!"
+ 
+"Hell, why not.. we're in deep shit already.."
+ 
+	"Death? What do you mean by death?"
+	}
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 5 }
+	  desc { You see the main hallway..
+}
+  }
+}
+
+10
+{
+  name { A lit passageway }
+  desc {
+"	You are in a well lit passageway that leads straight east for some
+ways. To the north is a black door.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 6 }
+	  key { 701 }
+	  info { door, closed }
+	  keywords { door black" }
+	  desc { It has a strange lock upon it..
+}
+	to { e, 11 }
+	  desc { The passageway continues eastwards..
+}
+  }
+}
+
+11
+{
+  name { A lit passageway }
+  desc {
+"	The passageway continues both east and west here.. torches line
+the walls and you notice a faint smell of wood burning filling the
+passageway.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 12 }
+	  desc { The passageway continues eastwards..
+}
+	to { w, 10 }
+	  desc { The passageway continues westwards..
+}
+  }
+}
+
+12
+{
+  name { A lit passageway }
+  desc {
+"	The passageway continues to the west, and there is a large metal
+door west. There is some writing on the door.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 13 }
+	  key { 701 }
+	  info { door, closed }
+	  keywords { door large metal" }
+	  desc { ""Warning: Unauthorized entries will be terminated on sight."
+}
+	to { w, 11 }
+	  desc { The passageway continues west..
+}
+  }
+}
+
+13
+{
+  name { The guildmaster's hall }
+  desc {
+"	You are in the guildmaster's hall, where the rulers of Chaos come
+to relax, develop new plans, and better the organization of the guild.
+On the north wall is a burning fireplace, and to the east is a closet.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { w, 12 }
+	  key { 701 }
+	  info { door, closed }
+	  keywords { door large metal" }
+	  desc { You see a large metal door..
+}
+	to { d, Midgard:50 }
+	  key { 701 }
+	  info { door, closed }
+	  keywords { secret" }
+	  desc { There is a secret door leading into the Warehouse..
+}
+  }
+}
+
+14
+{
+  name { The tower of Set }
+  desc {
+You have entered a large room that is very well furnished with couches
+and tables about it in a semi-orderly manner. In the western corner of
+the room is a staircase, and there is a small library on the south wall.
+There is a small stream of contained water running through the corner of
+the southwesters wall.
+  }
+  flags { no_mob, indoors, private }
+  exits {
+	to { e, Haondor_dark:25 }
+	  key { 714 }
+	  info { door, closed }
+	  keywords { door stone large" }
+	  desc { You see a large stone door.
+}
+	to { u, 15 }
+	  desc { The staircase leads up into a bedroom.
+}
+  }
+}
+
+15
+{
+  name { Pestilence's Bedroom }
+  desc {
+This is a small room that has tons of old locks covering the floor, yet
+you see no keys.. There are no windows in this room. There are several
+old chests opened up lining the east wall.
+There is a staircase leading up and down in the western corner of the room.
+  }
+  flags { indoors }
+  exits {
+	to { u, 16 }
+	  desc { The staircase leads up into another bedroom.
+}
+	to { d, 14 }
+	  desc { The staircase leads down into the entrance to the tower.
+}
+  }
+}
+
+16
+{
+  name { Overkill's Bedroom }
+  desc {
+You are on the 3rd floor of the Tower of Set.. home to many a thief and
+bandit. This is where the Minotaur Overkill.. Lord of Mistamere makes
+home. On the north wall is a weapons rack with a variety of death devices
+hung upon it in an orderly manner. There is a sharpening stone in the
+eastern corner of the room.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { u, 17 }
+	  desc { The staircase leads up into a laboratory
+}
+	to { d, 15 }
+	  desc { The staircase leads down into another room.
+}
+  }
+}
+
+17
+{
+  name { The lab }
+  desc {
+You have entered a large room that appears to be a workroom of some sort.
+There are tables with vials and bottles containing unknown substances all
+over the room, along with spellbooks and diagrams. There is a staircase in
+the corner of the room which leads upwards to a trapdoor.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 18 }
+	to { u, 19 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+	  desc { The trapdoor leads upwards to the watchpost.
+}
+	to { d, 16 }
+  }
+}
+
+18
+{
+  name { Copperhead's Bedroom }
+  desc {
+You have entered a large room with a huge altar at the north end. Above it
+is the symbol of Set. On the west wall is a weapons rack and closet for 
+armours, next to the door. There is a bed lined next to the east wall.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { w, 17 }
+	  desc { You see the lab
+}
+  }
+}
+
+19
+{
+  name { The watch tower }
+  desc {
+You are at the top of the tower of Set, the wind screams about your
+shoulders, trying to pull you down over the side. There is a trapdoor on
+the black stone floor, leading back into the safety of the tower.
+  }
+  exits {
+	to { d, 17 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+	  desc { The trapdoor leads down to the warmth and sanction of the tower.
+}
+  }
+}

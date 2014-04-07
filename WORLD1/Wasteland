@@ -1,0 +1,1225 @@
+
+0
+{
+  name { The Landing }
+  desc {
+"  You are on a weather-beaten dock.  It appears ready to collapse.
+Evidently nobody has been around to take care of things.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 1 }
+	to { w, river1:3 }
+  }
+}
+
+1
+{
+  name { An Old Path }
+  desc {
+"  You are on a north-south path.
+  }
+  sector { Hills }
+  exits {
+	to { n, 2 }
+	to { s, 0 }
+  }
+}
+
+2
+{
+  name { An Old Path }
+  desc {
+"  You are on a north-south path.
+  }
+  sector { Hills }
+  exits {
+	to { n, 3 }
+	to { s, 1 }
+  }
+}
+
+3
+{
+  name { An Old Path }
+  desc {
+"  You are on a north-south path in a very desolate area.
+  }
+  sector { Hills }
+  exits {
+	to { n, 4 }
+	to { s, 2 }
+  }
+}
+
+4
+{
+  name { An Old Path }
+  desc {
+"  You are on a north-south path in an extremely barren part of the world.
+  }
+  sector { Hills }
+  flags { no_mob }
+  exits {
+	to { n, 5 }
+	to { s, 3 }
+  }
+}
+
+5
+{
+  name { The Wasteland }
+  desc {
+"  You are on a dry, barren wasteland.  There is little evidence of life
+here.  The ground is littered with bones, sticks, rocks, and other debris.
+Further north of here it looks even worse.  There is a SIGN here.
+  }
+  sector { Hills }
+  extra {
+	keywords { sign" }
+	desc { The sign says:
+
+  BEWARE.  The Wasteland is a Dangerous Area.  It is controlled
+  by gangs of marauders and packs of hyenas.  Enter at your own
+  risk.  Nearly everything here is aggressive.  There is more
+  here than meets the eye.
+
+	}
+  }
+  exits {
+	to { n, 10 }
+	to { s, 4 }
+  }
+}
+
+10
+{
+  name { The Wasteland }
+  desc {
+"  You are in a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { e, 11 }
+	to { s, 5 }
+	to { w, 14 }
+  }
+}
+
+11
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 18 }
+	to { e, 12 }
+	to { w, 10 }
+  }
+}
+
+12
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 19 }
+	to { e, 17 }
+	to { w, 11 }
+  }
+}
+
+13
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.  Barely covered by the dirt are
+the outlines of an old well.
+  }
+  sector { Hills }
+  exits {
+	to { n, 22 }
+	to { e, 18 }
+	to { w, 16 }
+	to { d, 41 }
+	  info { door, closed }
+	  keywords { cover" }
+	  desc { The cover is heavy, but can be moved.
+}
+  }
+}
+
+14
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 16 }
+	to { e, 10 }
+	to { w, 15 }
+  }
+}
+
+15
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 17 }
+	to { e, 14 }
+	to { w, 19 }
+  }
+}
+
+16
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 21 }
+	to { e, 13 }
+	to { s, 14 }
+	to { w, 17 }
+  }
+}
+
+17
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 20 }
+	to { e, 16 }
+	to { s, 15 }
+	to { w, 12 }
+  }
+}
+
+18
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 23 }
+	to { e, 19 }
+	to { s, 11 }
+	to { w, 13 }
+  }
+}
+
+19
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 24 }
+	to { e, 15 }
+	to { s, 12 }
+	to { w, 18 }
+  }
+}
+
+20
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.  To the west, a stone structure
+appears to be intact.
+  }
+  sector { Hills }
+  exits {
+	to { n, 31 }
+	to { e, 21 }
+	to { s, 17 }
+	to { w, 40 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+21
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 25 }
+	to { e, 22 }
+	to { s, 16 }
+	to { w, 20 }
+  }
+}
+
+22
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 26 }
+	to { e, 23 }
+	to { s, 13 }
+	to { w, 21 }
+  }
+}
+
+23
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 27 }
+	to { e, 24 }
+	to { s, 18 }
+	to { w, 22 }
+  }
+}
+
+24
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 32 }
+	to { s, 19 }
+	to { w, 23 }
+  }
+}
+
+25
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 28 }
+	to { e, 26 }
+	to { s, 21 }
+	to { w, 31 }
+  }
+}
+
+26
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { e, 27 }
+	to { s, 22 }
+	to { w, 25 }
+  }
+}
+
+27
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 29 }
+	to { e, 32 }
+	to { s, 23 }
+	to { w, 26 }
+  }
+}
+
+28
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.  There is a building to the
+north.  To each side of the door is a plain Doric column.  You might
+want to think twice about entering.
+  }
+  sector { Hills }
+  exits {
+	to { n, 45 }
+	  info { door, closed }
+	  keywords { door" }
+	to { e, 29 }
+	to { w, 30 }
+  }
+}
+
+29
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 33 }
+	to { e, 34 }
+	to { s, 27 }
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 34 }
+	to { e, 28 }
+	to { s, 25 }
+	to { w, 33 }
+	to { d, 65 }
+	  info { door, closed }
+	  keywords { plate" }
+  }
+}
+
+31
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 33 }
+	to { e, 25 }
+	to { s, 20 }
+	to { w, 34 }
+  }
+}
+
+32
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 34 }
+	to { e, 33 }
+	to { s, 24 }
+	to { w, 27 }
+  }
+}
+
+33
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 29 }
+	to { e, 30 }
+	to { s, 31 }
+	to { w, 32 }
+  }
+}
+
+34
+{
+  name { The Wasteland }
+  desc {
+"  You are on a bleak, desolate wasteland.
+  }
+  sector { Hills }
+  exits {
+	to { n, 30 }
+	to { e, 31 }
+	to { s, 32 }
+	to { w, 29 }
+  }
+}
+
+35
+{
+  name { A Cavern }
+  desc {
+"  You are in an underground cavern that extends west from here.  There
+is barely enough room to stand up straight.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { w, 36 }
+	to { u, 40 }
+	  info { door, closed }
+	  keywords { grate" }
+  }
+}
+
+36
+{
+  name { A Cavern }
+  desc {
+"  You are in an underground cavern.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 35 }
+	to { w, 37 }
+  }
+}
+
+37
+{
+  name { A Cavern }
+  desc {
+"  You are in an underground cavern.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 38 }
+	to { e, 36 }
+	to { s, 39 }
+  }
+}
+
+38
+{
+  name { A Cavern }
+  desc {
+"  You are in an underground cavern.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 39 }
+	to { s, 37 }
+  }
+}
+
+39
+{
+  name { A Cavern }
+  desc {
+"  You are in an underground cavern.
+  }
+  sector { City }
+  exits {
+	to { n, 37 }
+	to { s, 38 }
+  }
+}
+
+40
+{
+  name { A Stone Shelter }
+  desc {
+"  You are inside a stone shelter.  It may not protect you against the
+elements, but it should keep your enemies out.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 20 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 35 }
+	  info { door, closed }
+	  keywords { grate" }
+  }
+}
+
+41
+{
+  name { On A Ledge In A Dry Well }
+  desc {
+"  You are halfway down (or is it halfway up?) an old dry well.  The
+ledge here is big enough to hold several people.  There are a few
+greek letters carved in the stone.
+  }
+  extra {
+	keywords { letters" }
+	desc { You see: chi alpha delta epsilon sigma ..
+	}
+  }
+  flags { dark }
+  exits {
+	to { u, 13 }
+	  info { door, closed }
+	  keywords { cover" }
+	to { d, 42 }
+  }
+}
+
+42
+{
+  name { At The Bottom }
+  desc {
+"  You are at the bottom of an old dry well.
+  }
+  flags { dark }
+  exits {
+	to { u, 41 }
+  }
+}
+
+45
+{
+  name { In the Main Hall }
+  desc {
+"   You are in the main hall of a large building.  There is a stairway
+leading down.  To the north you hear a dissonant screeching.   You feel a
+chill.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 49 }
+	to { s, 28 }
+	  info { door, closed }
+	  keywords { door" }
+	to { u, 80 }
+	to { d, 46 }
+  }
+}
+
+46
+{
+  name { The Tunnel }
+  desc {
+"   You are at the northern extremity of a large north-south tunnel.
+  }
+  flags { indoors }
+  exits {
+	to { e, 70 }
+	to { s, 47 }
+	to { w, 61 }
+	to { u, 45 }
+  }
+}
+
+47
+{
+  name { The Tunnel }
+  desc {
+"   You are in an extremely large north-south tunnel.
+There is a small opening to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 46 }
+	to { e, 55 }
+	to { s, 48 }
+  }
+}
+
+48
+{
+  name { The Tunnel }
+  desc {
+"   You are at the southern end of a huge north-south tunnel.
+  }
+  flags { indoors }
+  exits {
+	to { n, 47 }
+	to { s, 50 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 95 }
+  }
+}
+
+49
+{
+  name { The Amphitheater }
+  desc {
+"   You are in a large amphitheatre.  It might have been used for
+performances of some kind, a long time ago.
+  }
+  flags { indoors }
+  exits {
+	to { s, 45 }
+  }
+}
+
+50
+{
+  name { Where the Gorgons Dwell }
+  desc {
+"   You are in a large, cold, damp room.  This is the room where the
+three Gorgons are usually found.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 48 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+51
+{
+  name { The Bath }
+  desc {
+"   You are in the bath of Proserpina.  The floor and walls are made of
+marble.
+  }
+  sector { City }
+  exits {
+	to { s, 60 }
+	  info { door, closed }
+	  keywords { curtain" }
+  }
+}
+
+55
+{
+  name { A Peculiar Chamber }
+  desc {
+"   You are in a chamber that is lit by an amber light.  There is a cage
+at the north end of the room.
+  }
+  flags { indoors }
+  exits {
+	to { n, 56 }
+	  info { door, closed }
+	  keywords { cage" }
+	to { e, 57 }
+	to { w, 47 }
+  }
+}
+
+56
+{
+  name { The Cage }
+  desc {
+"   You are in a very sturdy cage.  The cage was obviously built to
+contain a powerful beast.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { s, 55 }
+	  info { door, closed }
+	  keywords { cage" }
+  }
+}
+
+57
+{
+  name { Yet Another Hallway }
+  desc {
+"   You're in yet another hallway.
+  }
+  flags { indoors }
+  exits {
+	to { s, 58 }
+	to { w, 55 }
+  }
+}
+
+58
+{
+  name { The Large Laboratory }
+  desc {
+"   You're in a large laboratory.  The lab appears to have been the
+workplace of a primitive practioner of the chemical arts.  You sense
+that this place is a portal to other realms.  A strange looking
+curtain is to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 57 }
+	to { s, Void:-1 }
+	  keywords { curtain" }
+	  desc { You see a shimmering wall of energized particles.
+}
+  }
+}
+
+59
+{
+  name { Ante-chamber }
+  desc {
+"   This is the waiting room that might have once been used by
+Proserpina, queen of the underworld, wife of Hades.
+  }
+  flags { indoors }
+  exits {
+	to { s, 63 }
+	to { w, 60 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+60
+{
+  name { The Parlor of Proserpina }
+  desc {
+"   This room was the waiting room of mighty Proserpina, the wife of
+Hades, and the Queen of the Underworld.
+  }
+  flags { indoors }
+  exits {
+	to { n, 51 }
+	  info { door, closed }
+	  keywords { curtain" }
+	to { e, 59 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+61
+{
+  name { Another Large Hallway }
+  desc {
+"   This is another large hallway.
+  }
+  flags { indoors }
+  exits {
+	to { e, 49 }
+	to { w, 62 }
+  }
+}
+
+62
+{
+  name { Another Large Hallway }
+  desc {
+"   This is another large hallway.
+  }
+  flags { indoors }
+  exits {
+	to { e, 61 }
+	to { w, 63 }
+  }
+}
+
+63
+{
+  name { Another Large Hallway }
+  desc {
+"   This is another large hallway.
+  }
+  flags { indoors }
+  exits {
+	to { n, 59 }
+	to { e, 62 }
+	to { w, 64 }
+  }
+}
+
+64
+{
+  name { The End of Hallway }
+  desc {
+"   You are at the western end of a large hallway.
+  }
+  flags { indoors }
+  exits {
+	to { e, 63 }
+	to { s, 65 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+65
+{
+  name { A Small Chamber }
+  desc {
+"   You are in a very small chamber.
+  }
+  sector { City }
+  exits {
+	to { n, 64 }
+	  info { door, closed }
+	  keywords { door" }
+	to { u, 30 }
+	  info { door, closed }
+	  keywords { plate" }
+	  desc { There appears to be a moveable plate covering a hole in the ceiling.
+}
+  }
+}
+
+70
+{
+  name { The East Wing }
+  desc {
+"   You are in the main corridor of the east wing.
+  }
+  flags { indoors }
+  exits {
+	to { e, 71 }
+	to { w, 46 }
+  }
+}
+
+71
+{
+  name { The East Wing }
+  desc {
+"   You are in the main corridor of the east wing.
+  }
+  flags { indoors }
+  exits {
+	to { e, 72 }
+	to { w, 70 }
+  }
+}
+
+72
+{
+  name { The East Wing }
+  desc {
+"   You are in the main corridor of the east wing.
+  }
+  flags { indoors }
+  exits {
+	to { e, 73 }
+	to { w, 71 }
+  }
+}
+
+73
+{
+  name { The East Wing }
+  desc {
+"   You are in the main corridor of the east wing.
+  }
+  flags { indoors }
+  exits {
+	to { e, 72 }
+	to { s, 75 }
+	  keywords { door" }
+  }
+}
+
+75
+{
+  name { Sanctuary of the Lesser Gods }
+  desc {
+"   You are in the room used by the lesser gods of the underworld,
+Aeacus, Radamanthus, and Minos.  You can almost hear them plotting
+against Hades...
+  }
+  flags { indoors }
+  exits {
+	to { n, 73 }
+	to { s, 76 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+76
+{
+  name { The Library }
+  desc {
+"   You are in the library.  There are no books here.  Perhaps the Lesser Gods
+who sit in judgement on poor souls are here?
+  }
+  flags { indoors }
+  exits {
+	to { n, 75 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+80
+{
+  name { On a Winding Stairway }
+  desc {
+"   You are near the bottom of a long, winding stairway.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { u, 81 }
+	to { d, 45 }
+  }
+}
+
+81
+{
+  name { On a Winding Stairway }
+  desc {
+"   You are very near the bottom of a long, winding stairway.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { u, 82 }
+	to { d, 80 }
+  }
+}
+
+82
+{
+  name { On a Winding Stairway }
+  desc {
+"   You are near the bottom of a long, winding stairway.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { u, 83 }
+	to { d, 81 }
+  }
+}
+
+83
+{
+  name { On a Winding Stairway }
+  desc {
+"   You are on a long, winding stairway.  The stairway gets narrower
+as you approach the top.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { u, 84 }
+	to { d, 82 }
+  }
+}
+
+84
+{
+  name { On a Winding Stairway }
+  desc {
+"   You are near the top of a long, narrowing, winding stairway.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { u, 85 }
+	to { d, 83 }
+  }
+}
+
+85
+{
+  name { On a Winding Stairway }
+  desc {
+"   You are very near the top of a long, winding stairway.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { u, 86 }
+	to { d, 84 }
+  }
+}
+
+86
+{
+  name { On a Winding Stairway }
+  desc {
+"   You are very very near the top of a long, winding stairway.  The
+stairway is very narrow here.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { u, 87 }
+	to { d, 85 }
+  }
+}
+
+87
+{
+  name { On a Winding Stairway }
+  desc {
+"   You are at the top of a long, winding stairway.  You see a door.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { n, 88 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 86 }
+  }
+}
+
+88
+{
+  name { On the Ramparts }
+  desc {
+"   You are out in the open, high above the surrounding wasteland, which
+stretches for as for as the eye can see.  The wind is very strong up here.
+Perhaps not all of the howling you hear is due to the wind?
+  }
+  sector { Hills }
+  exits {
+	to { s, 87 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+89
+{
+  name { The Throne }
+  desc {
+"   You are at the massive throne of Hades.  You might not have much
+time to read this.
+  }
+  sector { Hills }
+  exits {
+	to { s, 90 }
+  }
+}
+
+90
+{
+  name { An Underground Field }
+  desc {
+"   You are in an expansive underground field.  There is a depression
+running through the field that might once have been a river.
+  }
+  sector { Field }
+  exits {
+	to { n, 89 }
+	to { e, 91 }
+	to { s, 93 }
+  }
+}
+
+91
+{
+  name { An Underground Field }
+  desc {
+"   You are in an expansive underground field.  There is a depression
+running through the field that might once have been a river.
+  }
+  sector { Field }
+  exits {
+	to { n, 94 }
+	to { s, 92 }
+	to { w, 90 }
+  }
+}
+
+92
+{
+  name { An Underground Field }
+  desc {
+"   You are in an expansive underground field.  There is a depression
+running through the field that might once have been a river.
+  }
+  sector { Field }
+  exits {
+	to { n, 91 }
+	to { w, 93 }
+  }
+}
+
+93
+{
+  name { An Underground Field }
+  desc {
+"   You are in an expansive underground field.  There is a depression
+running through the field that might once have been a river.
+  }
+  sector { Field }
+  exits {
+	to { n, 90 }
+	to { e, 92 }
+	to { d, 96 }
+	  key { 2152 }
+	  info { door, closed }
+	  keywords { grate" }
+	  desc { You look into what seems to be a deep pit.
+}
+  }
+}
+
+94
+{
+  name { A Wider Passage }
+  desc {
+"   You are in another one of those passages.
+  }
+  sector { Forest }
+  exits {
+	to { n, 95 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 91 }
+  }
+}
+
+95
+{
+  name { An Alcove }
+  desc {
+"   You have stepped into a small alcove, west of the large north-south
+tunnel.
+  }
+  sector { Forest }
+  exits {
+	to { e, 48 }
+	to { s, 94 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+96
+{
+  name { The Pit }
+  desc {
+"   You are in a deep dark pit.  This place seems to be inhabited by a
+disgusting creature of some sort.
+  }
+  flags { dark }
+  exits {
+	to { u, 93 }
+	  key { 2152 }
+	  info { door, closed }
+	  keywords { grate" }
+	  desc { It is a long way up, but you can make it.
+}
+  }
+}

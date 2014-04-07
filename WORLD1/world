@@ -1,0 +1,221 @@
+#include <area.list>
+
+#offset Void
+#include <Void>
+
+#offset Midgard_trail
+#include <Midgard_trail>
+
+#offset Midgard_tunnels
+#include <Midgard_tunnels>
+
+#offset Shark
+#include <Shark>
+
+#offset Ambush
+#include <Ambush>
+
+#offset hall_rules
+#include <hall_rules>
+
+#offset chaos_hall
+#include <chaos_hall>
+
+#offset Marsh3
+#include <Marsh3>
+
+#offset Arena
+#include <Arena>
+
+#offset Asgard
+#include <Asgard>
+
+#offset Shire
+#include <Shire>
+
+#offset Chat_room
+#include <Chat_room>
+
+#offset Chessboard
+#include <Chessboard>
+
+#offset Bank
+#include <Bank>
+
+#offset river1
+#include <river1>
+
+#offset Wasteland
+#include <Wasteland>
+
+#offset PR-entrance
+#include <PR-entrance>
+
+#offset Midgard
+#include <Midgard>
+
+#offset Graveyard1
+#include <Graveyard1>
+
+#offset Midenir
+#include <Midenir>
+
+#offset Quest_inn
+#include <Quest_inn>
+
+#offset Felix_Arena
+#include <Felix_Arena>
+
+#offset DanjerHaus
+#include <DanjerHaus>
+
+#offset Moria1
+#include <Moria1>
+
+#offset Moria2
+#include <Moria2>
+
+#offset Desert
+#include <Desert>
+
+#offset Drow1
+#include <Drow1>
+
+#offset Thalos
+#include <Thalos>
+
+#offset Pyramid
+#include <Pyramid>
+
+#offset Haondor_light
+#include <Haondor_light>
+
+#offset Haondor_dark
+#include <Haondor_dark>
+
+#offset Dwarven_kingdom
+#include <Dwarven_kingdom>
+
+#offset Arctica
+#include <Arctica>
+
+#offset Quifael_rooms
+#include <Quifael_rooms>
+
+#offset HELL
+#include <HELL>
+
+#offset Sewer1
+#include <Sewer1>
+
+#offset Sewer2
+#include <Sewer2>
+
+#offset Sewermaze
+#include <Sewermaze>
+
+#offset Tunnels
+#include <Tunnels>
+
+#offset Redferne
+#include <Redferne>
+
+#offset Main_matrix
+#include <Main_matrix>
+
+#offset Main_matrix_auxiliary
+#include <Main_matrix_auxiliary>
+
+#offset Harpy
+#include <Harpy>
+
+#offset Deadly_exhibit
+#include <Deadly_exhibit>
+
+#offset trash
+#include <trash>
+
+#offset temple_maze
+#include <temple_maze>
+
+#offset Castle_python
+#include <Castle_python>
+
+#offset southern_path
+#include <southern_path>
+
+#offset Mirkwood1
+#include <Mirkwood1>
+
+#offset Mirkwood2
+#include <Mirkwood2>
+
+#offset Mirkwood3
+#include <Mirkwood3>
+
+#offset Road_malvaria
+#include <Road_malvaria>
+
+#offset trash2
+#include <trash2>
+
+#offset dems_area
+#include <dems_area>
+
+#offset darkenelfs_area
+#include <darkenelfs_area>
+
+#offset Mordilnia
+#include <Mordilnia>
+
+#offset Mistamere
+#include <Mistamere>
+
+#offset Arachnos
+#include <Arachnos>
+
+#offset Ershteep
+#include <Ershteep>
+
+#offset Abyss
+#include <Abyss>
+
+#offset Abyss2
+#include <Abyss2>
+
+#offset Ent_forest
+#include <Ent_forest>
+
+#offset Quinmoor
+#include <Quinmoor>
+
+#offset trash3
+#include <trash3>
+
+#offset Tarin
+#include <Tarin>
+
+#offset Doom
+#include <Doom>
+
+#offset Tagol
+#include <Tagol>
+
+#offset trash4
+#include <trash4>
+
+#offset Kyoto
+#include <Kyoto>
+
+#offset trash5
+#include <trash5>
+
+#offset Dwarven_outpost
+#include <Dwarven_outpost>
+
+#offset Nodonn
+#include <Nodonn>
+
+#offset Mouse
+#include <Mouse>
+

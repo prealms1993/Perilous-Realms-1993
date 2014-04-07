@@ -1,0 +1,3499 @@
+
+0
+{
+  name { The long, winding road }
+  desc {
+You stand upon a long, dusty road that winds itself about the countryside.
+Flashes of lightning light up the sky as a storm brews itself above you.
+Shuddering, you pull yourself deeper into your cloak as you wonder what
+awaits you.
+  }
+  sector { Mountains }
+  flags { no_mob }
+  exits {
+	to { n, 1 }
+	to { s, Abyss:1 }
+  }
+}
+
+1
+{
+  name { The long, winding road }
+  desc {
+Rain starts to pelt you, as lightning crashes overhead.  In the distance, you
+see a dark castle built into the side of a mountain.  You think you can see
+dark forms moving about, but you dismiss them as your imagination.
+  }
+  sector { Forest }
+  exits {
+	to { n, 2 }
+	to { s, 0 }
+  }
+}
+
+2
+{
+  name { The path to the Castle }
+  desc {
+The countryside around you has turned dismal and grey.  Wilting plants
+struggling to survive abound underfoot, and you are surrounded by dead trees,
+as well as dying animals.  Glancing around, you can see the eyes of the forest
+peering at you...
+  }
+  sector { Forest }
+  exits {
+	to { n, 3 }
+	to { s, 1 }
+  }
+}
+
+3
+{
+  name { The path to the Castle }
+  desc {
+The vegitation is all but gone, with a few hardy plants underfoot.  Gazing
+around, you notice huge, blackened holes in the earth, and you hear the wind
+softly blowing, as if the earth was crying in pain.  You wonder what could
+have caused such destruction..
+  }
+  sector { Forest }
+  exits {
+	to { n, 4 }
+	to { s, 2 }
+  }
+}
+
+4
+{
+  name { The drawbridge over the moat }
+  desc {
+You walk on a sturdy wood drawbride with a dark hole in the center.  Peering
+over the side of the drawbridge, you see a putrid, green, foul smelling
+liquid.  Not something you would want to swim in.  Yech.  To the north you
+see a castle half built out of a mountain, dark and foreboding.  You can
+still get to safety to the south.
+  }
+  sector { Field }
+  exits {
+	to { n, 6 }
+	to { s, 3 }
+	to { d, 5 }
+  }
+}
+
+5
+{
+  name { In the moat }
+  desc {
+"   'Ew,' you say to yourself as you climb into the moat.  'I dont think I
+should have done this....' you manage to mutter as the water explodes
+around you, engulfing you in darkness.
+  }
+  flags { death }
+}
+
+6
+{
+  name { The Gateway }
+  desc {
+You stand in front of a huge iron door, twice as tall as you, and four times as
+wide.  In front of the door stands a twelve foot tall stone golem, wielding
+a huge flaming bastard sword.  It's immense head turns towards you as you
+approach.  A flicker of hate and intelligence appears in its eyes as you
+reconsider goning onward...
+  }
+  sector { Field }
+  exits {
+	to { n, 7 }
+	  key { 60006 }
+	  info { door, closed }
+	  keywords { door iron gate" }
+	to { s, 4 }
+  }
+}
+
+7
+{
+  name { The south end of the long hallway }
+  desc {
+The hallway is long, bleak, lifeless.  Stone radiates cold, causing you to
+pull yourself deeper into your cloaks.  The hallway continues to the North,
+and the gateway is to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 8 }
+	to { s, 6 }
+	  key { 60006 }
+	  info { door, closed }
+	  keywords { door iron gate" }
+  }
+}
+
+8
+{
+  name { The north end of the long hallway }
+  desc {
+The north end of the hallway is a mirror reflection of the south.  Hard,
+cold stone laughs chillingly at you.  The way north is shrouded in darkness,
+while the hallway continues to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 9 }
+	to { s, 7 }
+  }
+}
+
+9
+{
+  name { Far end of the Hallway }
+  desc {
+The hallway narrows here, ending with doors to the north, east and west.
+The doors to the north and to the east are cold, forged iron, while the
+door to the west is covered in blood.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 25 }
+	  info { door, closed }
+	  keywords { door iron" }
+	to { e, 11 }
+	  info { door, closed }
+	  keywords { door iron" }
+	to { s, 8 }
+	to { w, 10 }
+	  info { door, closed }
+	  keywords { bloody door" }
+  }
+}
+
+10
+{
+  name { A room with alot of blood in it }
+  desc {
+"  You gasp and nearly upchuck as you open the door to this room.  Blood,
+entrails, and pieces of humans and demi-humans lay around the room.  The
+smell is nearly over-bearing as you stagger in, covering your mouths.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 9 }
+	  info { door, closed }
+	  keywords { bloody door" }
+  }
+}
+
+11
+{
+  name { Small hallway }
+  desc {
+Tapestries line the walls of this hallway, depicting a great reptile
+devouring large amounts of land, leaving nothing in its wake.
+  }
+  extra {
+	keywords { passage" }
+	desc { It reads : '...and the gods sent a great reptile to punish....'	}
+	keywords { tapestries tapestry" }
+	desc { The tapestries are old....but still in good condition.  THey show a immense
+reptile, ripping through the countryside, eating everyhthing in its wake.
+Entire cities lay devestated in its wake, entire civilizations gone.  A small
+passage lies at the end of the tapestry.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 12 }
+	to { w, 9 }
+	  info { door, closed }
+	  keywords { door iron" }
+  }
+}
+
+12
+{
+  name { A small room }
+  desc {
+The occupant of this room must lead a simple life.  The only objects in this
+room are a chair, a bed.....and the occupant.  A single, black skinned man
+is sitting upon his bed, polishing a gleaming sword.  He shakes his head
+sadly as you enter, rising to meet you.  Before he attacks, you notice a
+door to the east, and a doorway to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 13 }
+	  info { door }
+	  keywords { iron door" }
+	to { s, 14 }
+	to { w, 11 }
+  }
+}
+
+13
+{
+  name { The armoury }
+  desc {
+Several suit of rusting armor adorn the walls of this dusty room.
+Rusted weapons that people forgot, but not time, lay along side the armor.
+You see the gleam of new metal under several layers of dust on the floor...
+  }
+  extra {
+	keywords { armor metal" }
+	desc { The suits of armor are old...nearly falling apart.  But what condition would
+you be in if you were 2000 years old, Hm?  As you poke and prod at them, they
+fall into useless junk on the floor.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 15 }
+	to { w, 12 }
+	  info { door }
+	  keywords { iron door" }
+  }
+}
+
+14
+{
+  name { Pets, pets everywhere! }
+  desc {
+It appears that the owner of the room to the north likes to keep LARGE animals
+as pets.  How unfortunate for you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 12 }
+  }
+}
+
+15
+{
+  name { A dark hallway }
+  desc {
+You enter a dark hall...the only visible light comes from a torch on east
+wall.  Strange, it looks likes it has been replaced recently, there is no
+dust on it at all.
+  }
+  extra {
+	keywords { torch" }
+	desc { The torch is strange.....it looks moveable!	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 16 }
+	  info { door }
+	  keywords { torch" }
+	to { w, 13 }
+  }
+}
+
+16
+{
+  name { A secret room!
+ }
+  desc {
+You clasp yourself on the back for a job well done.  Just as you are 
+celebrating success, you nearly drop your drawers at the sight before you.
+A LARGE black dragon is visible through doorway to the east, sleeping
+ontop of a huge pile of treasure.  A door to the north promises a quick 
+escape, if need be.
+  }
+  flags { indoors }
+  exits {
+	to { n, 18 }
+	  info { door }
+	  keywords { door" }
+	to { e, 17 }
+	to { w, 15 }
+	  info { door }
+	  keywords { torch" }
+  }
+}
+
+17
+{
+  name { A large cavern
+ }
+  desc {
+A huge cavern graces your view, but it is quickly paled by the sight of the
+dragon lying amid the treasure.  As you enter, though, the dragon wakes, 
+hisses once loudly, then attacks!
+  }
+  flags { indoors }
+  exits {
+	to { w, 16 }
+  }
+}
+
+18
+{
+  name { Room of Bones }
+  desc {
+Bones of almost every animal you can imagine line the walls of this room.
+Goblin, dragon, human....you shudder to think what could have killed all
+these creatures.  Each bone is neatly lined up on the wall, tagged and labeled.
+  }
+  flags { indoors }
+  exits {
+	to { n, 19 }
+	to { s, 16 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+19
+{
+  name { Body parts... }
+  desc {
+This room is disgusting!  Peices of flesh lay strewn about the room, as well
+as puddles of blood that look quite fresh.  As you are 'admireing' the 
+handywork of someone with a extreme problem, some of the bodies begin
+to move by themselves...
+  }
+  flags { indoors }
+  exits {
+	to { n, 20 }
+	to { s, 18 }
+  }
+}
+
+20
+{
+  name { Room of coffins }
+  desc {
+Several coffins line the walls, two exceptionally large one to the east and
+to the west.  A door to the north marked 'Mortician--Keep out!' is closed.
+A small figure runs about, nothing more than a shimmering blur.
+  }
+  flags { indoors }
+  exits {
+	to { n, 21 }
+	  key { 60000 }
+	  info { door, closed }
+	  keywords { door" }
+	to { e, 22 }
+	  key { 60001 }
+	  info { door, closed }
+	  keywords { coffin door" }
+	to { s, 19 }
+	to { w, 23 }
+	  key { 60001 }
+	  info { door, closed }
+	  keywords { coffin door" }
+  }
+}
+
+21
+{
+  name { Mortician's Room }
+  desc {
+The Morticians office is dreary and drab.  Several giant zombies shamble towards
+you as you enter.  The Head Mortician just sits at his desk, admiring your
+bodies, seeing if you would make suitable zombies.
+  }
+  flags { indoors }
+  exits {
+	to { s, 20 }
+	  key { 60000 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+22
+{
+  name { Inside a coffin }
+  desc {
+You step into a huge coffin...oops...mistake...seems the coffin is occupied.
+  }
+  flags { indoors }
+  exits {
+	to { w, 20 }
+	  key { 60001 }
+	  info { door, closed }
+	  keywords { coffin door" }
+  }
+}
+
+23
+{
+  name { Inside a coffin }
+  desc {
+This coffin is empty...save for a skeleton resting against the far wall.
+It seems to be pointing at the floor...
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 20 }
+	  key { 60001 }
+	  info { door, closed }
+	  keywords { coffin door" }
+	to { d, 24 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+  }
+}
+
+24
+{
+  name { A small room }
+  desc {
+This is a small room, very plain, save for a small silver key on the floor.
+  }
+  flags { dark, indoors }
+  exits {
+	to { u, 23 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+  }
+}
+
+25
+{
+  name { A Rough Hallway }
+  desc {
+The walls of this hallway are rough, gouged out of solid stone, or so it 
+would seem.  You can see the hallway continue to the north, and a door to the
+east.  Stairs going downward extend to the west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 41 }
+	to { e, 26 }
+	  info { door }
+	  keywords { door" }
+	to { s, 9 }
+	  info { door, closed }
+	  keywords { door iron" }
+	to { w, 27 }
+  }
+}
+
+26
+{
+  name { The Glowing room }
+  desc {
+A glowing ooze pulses steadily out of the walls in this room.  It gathers on
+the floor, then moves and takes a vague man shape.  He utter one word :
+'Coringor' then oozes back into the stone walls.
+  }
+  extra {
+	keywords { ooze" }
+	desc { The ooze is glowing green.  Maybe if you look hard enough, you can find some
+turtles :).
+	}
+  }
+  exits {
+	to { w, 25 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+27
+{
+  name { Stairs going downward }
+  desc {
+Small eddies of mist race around your feet and legs as you decend downward.
+The air is getting noticeabley cooler, as you think you can hear something
+coughing down to the west.  The stairs continue downward to the west, and
+head back up to the east.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 25 }
+	to { w, 28 }
+  }
+}
+
+28
+{
+  name { More stairs }
+  desc {
+The chill in the air is even more noticeable at the end of the stairs.  A large
+worn, wooden door blocks your way westward, and the stairs are to the east.
+You can hear faints screams coming from behind the door.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 27 }
+	to { w, 29 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+29
+{
+  name { The Dungeon }
+  desc {
+The sceams of the tortured fill the air, peirceing your ears.  You hear
+moaning, faint giggles, and loud screams lingering in the air.  Pools of 
+blood lay randomly about, attracting large amounts of flies.  There is a
+door to the west, and you can see cells to the north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 31 }
+	to { e, 28 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	to { s, 32 }
+	to { w, 30 }
+	  info { door, closed }
+	  keywords { wooden door" }
+  }
+}
+
+30
+{
+  name { The jailer's room }
+  desc {
+As the door creaks open, an rather large ogre with a equally large flail
+stands to greet you.  He scratches his head, as if confused.
+'Me Crunch,' he says loudly. 'Me no like visitors!'  Behind him, you notice
+a large boulder, and you can see light coming from behind it.
+  }
+  flags { indoors }
+  exits {
+	to { e, 29 }
+	  info { door, closed }
+	  keywords { wooden door" }
+	to { w, 33 }
+	  info { door, closed }
+	  keywords { boulder" }
+  }
+}
+
+31
+{
+  name { Three cells... }
+  desc {
+You can hear faint whimpering coming from each of the cells in here.  A 
+scraggly human arm shoots out of one of them, clawing for your leg. 
+'Take us with you!' you here a voice cry.
+  }
+  flags { indoors }
+  exits {
+	to { n, 35 }
+	  key { 60002 }
+	  info { door, closed }
+	  keywords { cell door" }
+	to { s, 29 }
+	to { w, 37 }
+	  key { 60002 }
+	  info { door, closed }
+	  keywords { cell door" }
+  }
+}
+
+32
+{
+  name { Three more cells... }
+  desc {
+Several human looking arms drape limply out the the three cells around you.
+Moans of pain and approaching death linger faintly in the air, causeing
+you to shiver.  There are cells to the south, east and west, and you can
+exit to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 29 }
+	to { e, 40 }
+	  key { 60002 }
+	  info { door, closed }
+	  keywords { cell door" }
+	to { s, 38 }
+	  key { 60002 }
+	  info { door, closed }
+	  keywords { cell door" }
+	to { w, 39 }
+	  key { 60002 }
+	  info { door, closed }
+	  keywords { cell door" }
+  }
+}
+
+33
+{
+  name { Passageway behind Crunch's room }
+  desc {
+This passageway is hewn out of the granite of the mountain.  It extends 
+to the north, and exits back to the east to Crunch's office.
+  }
+  flags { indoors }
+  exits {
+	to { n, 34 }
+	to { e, 30 }
+	  info { door, closed }
+	  keywords { boulder" }
+  }
+}
+
+34
+{
+  name { Smelly room }
+  desc {
+Pe-ew!  This room stinks very badly.  Maybe its from the pile of maggot
+covered intestines sitting in the corner.  A large, dirty bear pelt lies
+on the floor.  A bed, carved from stone, lies in the corner.  Looks like
+somone lives here.
+  }
+  extra {
+	keywords { intestines" }
+	desc { They really stink.
+	}
+	keywords { bed" }
+	desc { The bed is disgusting.  It has flies and maggots and all sorts of bugs on it.
+Yech.
+	}
+	keywords { pelt bear skin" }
+	desc { The bear skin is the cleanest thing in here, and it is disgusting!
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 33 }
+  }
+}
+
+35
+{
+  name { A cell }
+  desc {
+A small, dirty, occupied cell.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 31 }
+	  info { door, closed }
+	  keywords { cell door" }
+  }
+}
+
+36
+{
+  name { A cell }
+  desc {
+A small, dirty, occupied cell.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 31 }
+	  info { door }
+	  keywords { cell door" }
+  }
+}
+
+37
+{
+  name { A cell }
+  desc {
+A small, dirty, occupied cell.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 31 }
+	  info { door, closed }
+	  keywords { cell door" }
+  }
+}
+
+38
+{
+  name { A cell }
+  desc {
+A dirty, small, occupied cell.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 32 }
+	  info { door, closed }
+	  keywords { cell door" }
+  }
+}
+
+39
+{
+  name { A cell }
+  desc {
+A small, dirty, occupied cell.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 32 }
+	  info { door, closed }
+	  keywords { cell door" }
+  }
+}
+
+40
+{
+  name { A cell }
+  desc {
+A small, dirty, occupied cell.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 32 }
+	  info { door, closed }
+	  keywords { cell door" }
+  }
+}
+
+41
+{
+  name { North end of the Rough hallway }
+  desc {
+The area here is bathed in darkness...it seems the walls are sucking the light
+from your light sources.  A pitch black door, with several markings on it, lies
+to the north, while the hallway continues to the south.
+  }
+  extra {
+	keywords { wall" }
+	desc { The wall is pitch black, it seems to feed off of the light.  When you poke
+at it, it gives sightly, like a sponge.
+	}
+	keywords { door" }
+	desc { The door has an inscription...maybe you should read it?
+	}
+	keywords { inscription" }
+	desc { The inscription reads :
+  'Here within lie hearts untold
+     Heroes loved, and heroes bold
+   Trust in one who wanders free
+   Beware the thing that should not be
+   Armed with a vorpal sword of light
+   He lives on with his might
+   Neither here, neither there
+   He cares not, nor chooses to care
+   So come all ye to the orgy within
+   And let the fun begin!
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 42 }
+	  info { door, closed }
+	  keywords { black door" }
+	to { s, 25 }
+  }
+}
+
+42
+{
+  name { Stair to the second floor of the castle }
+  desc {
+A set of stairs leads upward here, ending at a balcony to the north.  The stone
+is glistening black, shot with streaks of grey.  Swirling mist clings to your
+bodies, making them slick with moisture under your armor.  As the mist thickens,
+you can make out several red eyes, and hands reaching for you.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 41 }
+	  info { door, closed }
+	  keywords { black door" }
+	to { u, 43 }
+  }
+}
+
+43
+{
+  name { Second Floor balcony }
+  desc {
+You step out onto a huge balcony, open to the east.  Peering over the edge,
+you can make out the arena floor.  A single figure stands smartly at attention,
+standing rigid.  Doorways lead to the north and to the west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 44 }
+	  info { door }
+	  keywords { door" }
+	to { e, 48 }
+	to { w, 52 }
+	  info { door }
+	  keywords { door" }
+	to { d, 42 }
+  }
+}
+
+44
+{
+  name { Stairs to the Pit }
+  desc {
+This room is very cold.  Black stone stares back at you when you enter.  
+Stairs lead downward, heading into darkness.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 43 }
+	  info { door }
+	  keywords { door" }
+	to { d, 45 }
+  }
+}
+
+45
+{
+  name { Next to the pit }
+  desc {
+Looking to the east, you can see the gladiator pit.  A single figure stands
+rigid in the center.  He doesnt look happy at all.  Blood speckles the walls,
+and bones are scattered aimlessly. 
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 46 }
+	to { u, 44 }
+  }
+}
+
+46
+{
+  name { The Pit }
+  desc {
+The center of the Pit looms in front of you.  The hard, packed dirt below you
+seems to snicker softly, urgeing you to go on.  A tall man, naked save for a
+girth and a glowing short sword, stand here.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 49 }
+	to { e, 47 }
+	to { s, 50 }
+	to { w, 45 }
+  }
+}
+
+47
+{
+  name { Blood streaked walls }
+  desc {
+Blood streaks, from dying slaves, paint the walls.  Several fresh corpses
+lie stacked in to corner.  Several other slaves stand here, greedily devouring
+the corpses.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 51 }
+	to { w, 46 }
+  }
+}
+
+48
+{
+  name { In mid-air }
+  desc {
+As you step off of the balcony, you feel the rush of air as you rapidly 
+accelerate towards the ground.  The last thing you hear as you fall is a
+sickly wet 'splunk'.  Then you die.  So sad.
+  }
+  flags { death }
+}
+
+49
+{
+  name { North end of the Pit }
+  desc {
+Empty  }
+  flags { dark, indoors }
+  exits {
+	to { s, 46 }
+  }
+}
+
+50
+{
+  name { South end of the Pit }
+  desc {
+Empty  }
+  flags { dark, indoors }
+  exits {
+	to { n, 46 }
+  }
+}
+
+51
+{
+  name { The slave chambers }
+  desc {
+Slaves of all races are chained to the walls here.  Seeing you, they strain
+against their bonds, a wicked gleam in their eyes.  Suddenly, the chain break,
+and they jump for you!
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 47 }
+  }
+}
+
+52
+{
+  name { Turn in the passage }
+  desc {
+This rather plain passage turns to the north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 53 }
+	to { e, 43 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+53
+{
+  name { A large room }
+  desc {
+This unmarked room has four exits, one to each direction.  The exit to the 
+north slopes downward, while a level passage drifts off to the west.  A small
+room lies to the east, and you can continue south.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 70 }
+	to { e, 54 }
+	to { s, 52 }
+	to { w, 57 }
+  }
+}
+
+54
+{
+  name { Strange paintings }
+  desc {
+This small room houses three very strange paintings.  The first one, on the 
+north wall, depicts a scene of a dark forest, with a dark mansion in the far
+distance.  The second, on the south wall, shows a large fire consuming 
+everything.  The third, on the east wall, is a portrait of a handsome man,
+with claw marks cutting across the painting, leaving bloody streaks.  The
+scenes in the paintings writhe and move, with a life of their own.
+  }
+  extra {
+	keywords { 3.painting portrait" }
+	desc { The portrait is of a handsome man, in his mid thirties.  The claw marks
+that gashed the painting have ruined the painting completely.  The gashes
+seep blood, as if the painting was alive.
+	}
+	keywords { dark mansion painting" }
+	desc { The painting of the dark mansion is covered in shadows.  The shadows creep
+and crawl, writhe about the mansion like a child with a new toy.
+	}
+	keywords { 2.painting flaming flames" }
+	desc { The painting of the flames looks so realistic you are almost afraid to touch
+it, lest go near it.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 55 }
+	to { e, 195 }
+	to { s, 56 }
+	to { w, 53 }
+  }
+}
+
+55
+{
+  name { Inside the Dark painting }
+  desc {
+You are shocked as the countryside around comes to life, as you enter the
+painting.  The countryside is bleak, cold, harsh.  Eyes pop open from the 
+forest, eyeing you hungrily.  A trail leads off to the west.
+  }
+  sector { Forest }
+  exits {
+	to { w, 82 }
+  }
+}
+
+56
+{
+  name { Inside the firey painting }
+  desc {
+Stepping inside the painting, you are amazed at the lack of heat.  You can 
+breathe normally, and you need no light as flames rage about you!
+  }
+  sector { Hills }
+  exits {
+	to { s, 181 }
+  }
+}
+
+57
+{
+  name { Short Hallway }
+  desc {
+This hallway is rather plain, undistiguished.  It continues to the east and
+the west. 
+There is a small sign on the wall.
+  }
+  extra {
+	keywords { sign" }
+	desc { The sign says : 'Beware, the great punisher lies within.'
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 53 }
+	to { w, 58 }
+  }
+}
+
+58
+{
+  name { Into the labrinyth }
+  desc {
+You enter a large labrynith, the walls all looking the same.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 59 }
+	to { e, 59 }
+	to { w, 60 }
+  }
+}
+
+59
+{
+  name { The labrinyth }
+  desc {
+A twisting passage.
+  }
+  exits {
+	to { n, 60 }
+	to { e, 58 }
+	to { s, 58 }
+	to { w, 64 }
+  }
+}
+
+60
+{
+  name { The labrinyth }
+  desc {
+A twisting passage.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 59 }
+	to { e, 58 }
+	to { s, 61 }
+  }
+}
+
+61
+{
+  name { The labrinyth }
+  desc {
+A twisting passage.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 60 }
+	to { e, 62 }
+	to { s, 62 }
+  }
+}
+
+62
+{
+  name { The labrinyth }
+  desc {
+A twisting passage.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 61 }
+	to { e, 61 }
+	to { w, 63 }
+  }
+}
+
+63
+{
+  name { The labrinyth }
+  desc {
+A twisting passage.
+A skeleton is lying here.  It seems to be pointing at something.
+  }
+  extra {
+	keywords { skeleton" }
+	desc { It seems to be pointing to the south.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 61 }
+	to { e, 62 }
+	to { s, 65 }
+	  info { door }
+	  keywords { secret door" }
+	to { w, 66 }
+  }
+}
+
+64
+{
+  name { Dead end.  Lots of them. }
+  desc {
+As you round the corner, you see many skeletons and bodies.  Unfortunatly for
+you, some of them begin to move as you enter.  Behind you, the door magically
+seals itself, then disappears with a evil cackle.
+  }
+  extra {
+	keywords { skeleton" }
+	desc { The skeleton seems to be pointing to the north.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 65 }
+	  info { door }
+	  keywords { secret door" }
+  }
+}
+
+65
+{
+  name { Secret Passage }
+  desc {
+Oh!  Good thing you found this secret passage, eh?  Could have been wandering
+around in that labryinth forever.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 63 }
+	  info { door }
+	  keywords { secret door" }
+	to { s, 64 }
+	  info { door }
+	  keywords { secret door" }
+  }
+}
+
+66
+{
+  name { Nearing the end }
+  desc {
+The air in this room crackles with energy.  A blueish glow comes from the 
+north room, where you can see inscriptions all around the room.  An aura
+of fear permeates you...but you feel a drawing to continue on...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 67 }
+	to { e, 63 }
+  }
+}
+
+67
+{
+  name { Glyphs and Wards }
+  desc {
+The aura of magic illuminates this entire room.  Inscriptions etched into the
+stone glow brightly, the dim, only to glow again.  A huge door lies to th
+north.  Upon further searching, you see that the door is covered with the runes
+also, and that it is made out of adamantite.  All about the room are warnings:
+DONT OPEN THIS DOOR!  THE GREAT PUNISHER HAS BEEN BANISHED, AND SHALL STAY!
+As you read, several figures fade into existance around you, and immediatly
+attack.
+  }
+  extra {
+	keywords { inscriptions" }
+	desc { The inscrpitions glow brightly...you can deduce that they are keeping
+something here...but what?
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 68 }
+	  key { 60003 }
+	  info { door, closed }
+	  keywords { door huge runed" }
+	to { s, 66 }
+  }
+}
+
+68
+{
+  name { The end... }
+  desc {
+The only thing you see when entering this room is the spectre of your own
+death.  A impossibly huge creature is lying here, salivating.  It has teeth
+longer than you, huge claws and a wicked tail.  It turns towards you,
+attempts to smile, then proceeds to kill you.  Very messily.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 67 }
+	  info { door, closed }
+	  keywords { door iron huge" }
+	to { w, 69 }
+  }
+}
+
+69
+{
+  name { Treasure room }
+  desc {
+The treasure in this room nearly blinds you!  Mounds and mounds of gold are
+lying in huge piles about the room.  You rub your hands together greedily,
+then reach for it, but it is a illusion!  The door behind you slams shut,
+and you hear a evil cackle in the room.
+  'I have been waiting for you...' the voice says.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 68 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+70
+{
+  name { Gently Sloping Passage }
+  desc {
+This passage slopes downward to the north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 71 }
+	to { s, 53 }
+  }
+}
+
+71
+{
+  name { Circular Room }
+  desc {
+Passages extend off all directions save up and down here.  The passage to the 
+north is cold, dark, and smells very 'earthy'.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 74 }
+	to { e, 73 }
+	to { s, 70 }
+	to { w, 72 }
+  }
+}
+
+72
+{
+  name { Ancient Elves }
+  desc {
+The walls in this room are covered with murals.  Each depictes a section of
+the elven empire, one for each generation.  The murals are brightly colored,
+but other than that, quite boring.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 71 }
+  }
+}
+
+73
+{
+  name { Bloody War }
+  desc {
+A mural graces the wall in here, depicting a vast war.  It shows a army of
+elves, dwarves and humans, fighting a army of undead with a incredible 
+lizard with them.  The undead were vanquished, but not without incredible
+losses on the opposing side. 
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 71 }
+  }
+}
+
+74
+{
+  name { Strange Patterns }
+  desc {
+More runes are carved into the stone here.  Each of the runes glow softly,
+fade, then glow brightly again.  They are different than the ones before,
+they seems to keep something out, not in.
+  }
+  flags { no_mob }
+  exits {
+	to { e, 75 }
+	to { s, 71 }
+  }
+}
+
+75
+{
+  name { Blood and Bones }
+  desc {
+Bones lay scattered about, amid pools of blood.  A air of timelessness is here
+, shrouding the area in mystery.  The beginnings of a hall made of bones
+is to the east, while the runes glow faintly to the west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 76 }
+	to { w, 74 }
+  }
+}
+
+76
+{
+  name { Hall of bones }
+  desc {
+Human bones, as well as elven and every other imagineable race adore the 
+walls here.  Jutting from the walls, they form a huge hallway which extends
+off to the east.  The bones lear at you, pointing, accusing.  Skulls glitter
+in the darkness, a faint spark of intelligence in their empty eye-sockets.
+Shivering, you continue onward.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 77 }
+	to { w, 75 }
+  }
+}
+
+77
+{
+  name { Blood, Blood everywhere, but not a drop to drink }
+  desc {
+The bones that cover the walls heres are covered with blood....no...oozing
+the blood.  It spills forth, only to be absorbded by the ground, which seems
+to be eagerly drinking it.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 78 }
+	to { w, 76 }
+  }
+}
+
+78
+{
+  name { Guardians among the bones }
+  desc {
+The bone hallway continues here.  As you are passing through, several bones
+fall off of the wall, lying on the ground.  They shudder, slightly, move and
+form an immense skeleton.  It's huge head turns towards you, pausing to 
+reflect on what it was once.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 77 }
+	to { s, 79 }
+  }
+}
+
+79
+{
+  name { Throne of Bones }
+  desc {
+The bones continue along the walls and ceiling, even the floor in this room.
+At the far end a throne made entirely of skulls sits, with a sole occupant.
+The frail looking person lifts his head in sadness.  At his side is a 
+gleaming sword, illuminating the room with a soft red light.  With a loud
+sigh, he wields the sword.
+'What do you want now?  The key?' he says.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 78 }
+	to { d, 80 }
+	  info { door, closed }
+	  keywords { throne bones" }
+  }
+}
+
+80
+{
+  name { Behind the throne }
+  desc {
+A small passageway behind the throne turn to the north, where a gleam of 
+treasure awaits rescue.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 81 }
+	to { u, 79 }
+	  info { door, closed }
+	  keywords { throne bones" }
+  }
+}
+
+81
+{
+  name { Treasure! }
+  desc {
+A gleaming treasure fills the room...and the 'thing' guarding it.  Ugh, it
+doesnt look nice, you have time to comment before it attacks.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 80 }
+  }
+}
+
+82
+{
+  name { Path through the forest }
+  desc {
+The forest seems to swallow you competely, nearly smothering you as it presses
+in.  You can barely make out a trail to the west.
+  }
+  sector { Forest }
+  exits {
+	to { e, 55 }
+	to { w, 83 }
+  }
+}
+
+83
+{
+  name { Dark forest }
+  desc {
+The trail swings around to the north here, the forest clearing somewhat.  F
+Flashes of lightning light the sky, showing a mansion in the distance.
+  }
+  sector { Forest }
+  exits {
+	to { n, 84 }
+	to { e, 82 }
+  }
+}
+
+84
+{
+  name { Bleak path }
+  desc {
+The forest has all but melted away behind you.  You can see clearly in all
+directions around you.  You can hear the faint wails of the dying drifting
+along the wind, and the shadows flicker all around you.  In fact, it seems
+that they are moving towards you!
+  }
+  sector { Forest }
+  exits {
+	to { s, 83 }
+	to { w, 85 }
+  }
+}
+
+85
+{
+  name { Path to Twilight Mansion }
+  desc {
+You hurry along this path.  Wilted plants lay around, as if exposed to some
+great heat.  Fresh corpses lie about, still bleeding.  As you watch, they 
+darken and shiver, turning as insubstantial as a shadow.
+  }
+  sector { Forest }
+  exits {
+	to { e, 84 }
+	to { w, 86 }
+  }
+}
+
+86
+{
+  name { Path to Twilight mansion }
+  desc {
+Leaving the shadow-things behind you, you hurry along the path.  The mansion
+in the distance looms just outside of the mountain range.  A feeling of dread
+pierces you as the sun slowly starts to dip down.  You can feel the eyes of 
+the land veiwing you, waiting, waiting...
+  }
+  sector { Forest }
+  exits {
+	to { n, 87 }
+	to { e, 85 }
+  }
+}
+
+87
+{
+  name { Path to Twilight Mansion }
+  desc {
+The Twilight mansion looms just to the north.  The vegetation around you is
+gone, leaving the soil to blow away.  The bitter wind rips through your 
+flimsy clothing, chilling you to your bones.  You can continue to the north,
+or head back south.
+  }
+  sector { Forest }
+  exits {
+	to { n, 88 }
+	to { s, 86 }
+  }
+}
+
+88
+{
+  name { Path to Twilight Masion }
+  desc {
+A welcome sight, the Mansion is straight to the north.  A outhouse is to the
+east, and the stable to the west.
+  }
+  sector { Forest }
+  exits {
+	to { n, 91 }
+	to { e, 89 }
+	to { s, 87 }
+	to { w, 90 }
+  }
+}
+
+89
+{
+  name { The outhouse }
+  desc {
+A small, plain, outhouse.  It stinks in here.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { w, 88 }
+  }
+}
+
+90
+{
+  name { The Stable }
+  desc {
+Several horses lay quivering on the ground, bleeding.  As you watch, th
+they expire with a loud cough.  The bodies twist and shiver, melting into
+the shadows.  The shadows suddenly move, forming faint horse shapes.  They hiss
+and spit, but do not attack.
+  }
+  sector { Forest }
+  exits {
+	to { e, 88 }
+  }
+}
+
+91
+{
+  name { Enterance to Twilight Mansion }
+  desc {
+The floor of this area is made of gleaming black marble, and covered with a
+large rug.  A sign is by the doorway.  A small desk is here, with a sheet of paper on it.
+  }
+  extra {
+	keywords { sheet paper" }
+	desc { It says : 'Sorry, twilight mansion is closed until further notice.'
+	}
+	keywords { sign" }
+	desc { It says : 'Please wipe your feet.  Thanks :)'
+	}
+	keywords { desk" }
+	desc { The desk is large, and filled with papers.
+	}
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 92 }
+	to { s, 88 }
+  }
+}
+
+92
+{
+  name { The Garden }
+  desc {
+This room looks absolutely stunning!  The ceiling and the north wall are made
+of glass, as is the north door.  The room serves as a garden, with lush
+greenery growing about the corners and reaching almost to the ceiling.
+GRavel paths cross the chamber to a central wishing well surrounded by three
+benches.  A gentle breeze wafts through the chamber, warming you.
+  }
+  extra {
+	keywords { well wishing" }
+	desc { The well is deep, made out of white marble.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 93 }
+	to { e, 96 }
+	to { s, 91 }
+	to { w, 95 }
+  }
+}
+
+93
+{
+  name { Great Hall }
+  desc {
+The central hall has exits leading off in all directions.  The ballroom lies
+to the east, while the dining room is to the west.  A back enterance is to
+the north, and the garden is south.  A set of stairs leads upwards to the
+second floor.
+  }
+  flags { indoors }
+  exits {
+	to { n, 94 }
+	to { e, 96 }
+	to { s, 92 }
+	to { w, 95 }
+	to { u, 110 }
+  }
+}
+
+94
+{
+  name { Back Enterance }
+  desc {
+This large room extends into the main hall to the south, and there is a room
+on the east and west ends.  Several rugs adorne the floor, and a fireplace
+burns brightly.  You feel tempted to rest for a couple minutes.
+  }
+  flags { indoors, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 125 }
+	  info { door }
+	  keywords { door" }
+	to { e, 106 }
+	to { s, 93 }
+	to { w, 105 }
+  }
+}
+
+95
+{
+  name { Dining room }
+  desc {
+This chamber looks like it hasnt been used recently.  Two chandeliers hang above
+the two large tables that fill this room.  Each chandelier holds two dozen 
+lit candles.
+  }
+  flags { indoors }
+  exits {
+	to { n, 97 }
+	  info { door }
+	  keywords { door" }
+	to { e, 93 }
+  }
+}
+
+96
+{
+  name { Ballroom }
+  desc {
+The floor and ceiling of this room are made of polished oak.  A large platform
+dominates the west end of this room.  It doesnt look like anyone has used
+this room for a long time.
+  }
+  flags { indoors }
+  exits {
+	to { n, 108 }
+	to { w, 93 }
+  }
+}
+
+97
+{
+  name { The Kitchen }
+  desc {
+This looks like a standard kitchen, filled with pots and pans, and human
+body parts strewn about the room.  
+  }
+  flags { indoors }
+  exits {
+	to { n, 98 }
+	to { e, 93 }
+	to { s, 95 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+98
+{
+  name { The pantry }
+  desc {
+This area is lined wall to wall with foodstuffs.  Some of the food is beginning
+to spoil, due to the lack of business lately.  There is a door to the east,
+and a doorway to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 104 }
+	to { e, 99 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 97 }
+  }
+}
+
+99
+{
+  name { Stairs to the cellar }
+  desc {
+These stairs lead downward into the darkness of the cellar.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 98 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 100 }
+  }
+}
+
+100
+{
+  name { The cellar }
+  desc {
+Empty  }
+  flags { dark, indoors }
+  exits {
+	to { n, 101 }
+	to { s, 102 }
+	to { u, 99 }
+  }
+}
+
+101
+{
+  name { Wine Cellar }
+  desc {
+This long room is jammed end to end with bottles of wine.  There seems to be
+something going through the bottles, as if looking for something.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 100 }
+  }
+}
+
+102
+{
+  name { Laboratory }
+  desc {
+This room looks like it is a laboratory used for magic spell research.  There
+are scores of books pertinent to such pursuits on the shelves that line the 
+walls.  There are several small circles enscribed on the floor.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 100 }
+	to { e, 103 }
+	  info { door }
+	  keywords { door vault" }
+  }
+}
+
+103
+{
+  name { Vault }
+  desc {
+The vault appears to be empty.  Cobwebs and dust have settled here,
+cevering everything.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 102 }
+	  info { door }
+	  keywords { door vault" }
+  }
+}
+
+104
+{
+  name { The Foyer }
+  desc {
+It appears this area is used to store extra supplies.
+  }
+  flags { indoors }
+  exits {
+	to { n, 105 }
+	to { s, 98 }
+  }
+}
+
+105
+{
+  name { Supply Room }
+  desc {
+This mundane room contains firewood, cleaning instruments, bed linen, and
+clothing.  There isnt much of interest.
+  }
+  flags { indoors }
+  exits {
+	to { e, 94 }
+	to { s, 104 }
+  }
+}
+
+106
+{
+  name { Supply room }
+  desc {
+This mundane room is like the other supply rooms, with cleaning supplies,
+linens and the such.
+  }
+  flags { indoors }
+  exits {
+	to { s, 107 }
+	to { w, 94 }
+  }
+}
+
+107
+{
+  name { The library }
+  desc {
+The mansions library has many great books, ranging from faerie tales to books
+of scientific treaties.
+  }
+  flags { indoors }
+  exits {
+	to { n, 106 }
+	to { s, 108 }
+	to { w, 93 }
+  }
+}
+
+108
+{
+  name { The Conservatory }
+  desc {
+This large room contains all sorts of musical instruments; a large harp,
+an organ, and several smaller instruments.  They are in disrepair, falling
+apart at your touch.
+  }
+  flags { indoors }
+  exits {
+	to { n, 107 }
+	to { s, 96 }
+	to { w, 93 }
+  }
+}
+
+110
+{
+  name { Balcony }
+  desc {
+This hallway overlooks the great hall, the garden and the front ground
+of the mansion.  Hanging at various places are suits of armor, daggers,
+short and long swords. The hallway continues to the north, east and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 111 }
+	to { e, 114 }
+	to { w, 113 }
+	to { d, 93 }
+  }
+}
+
+111
+{
+  name { Hallway }
+  desc {
+The hallway continues to the north and south, and the servants chambers are
+to the east and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 112 }
+	to { e, 121 }
+	  info { door }
+	  keywords { door" }
+	to { s, 110 }
+	to { w, 122 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+112
+{
+  name { Hallway }
+  desc {
+The hallway ends here, with exits to the east and west.  The exit east has
+mist coming from under the door, while the exit west is wide open.
+  }
+  flags { indoors }
+  exits {
+	to { e, 123 }
+	to { s, 111 }
+	to { w, 124 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+113
+{
+  name { Hallway }
+  desc {
+The wood of the floor here makes a slight creak as you come down the hall.
+A large door lies to the south, and the hallway continues to the west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 110 }
+	to { s, 118 }
+	  info { door }
+	  keywords { door" }
+	to { w, 116 }
+  }
+}
+
+114
+{
+  name { Hallway }
+  desc {
+The hallway here groans softly as you walk down it.  The hallway continues to
+the east, and there is a door to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 115 }
+	to { s, 119 }
+	  info { door }
+	  keywords { door" }
+	to { w, 110 }
+  }
+}
+
+115
+{
+  name { Hallway }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { s, 120 }
+	  info { door }
+	  keywords { door" }
+	to { w, 114 }
+  }
+}
+
+116
+{
+  name { Hallway }
+  desc {
+The end of the hallway approaches.  The only other exit is to the south, a
+closed door.
+  }
+  flags { indoors }
+  exits {
+	to { e, 113 }
+	to { s, 117 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+117
+{
+  name { Mathew's Chambers }
+  desc {
+This room is much neater that the one next to it.  It appears to house a
+wizard.  You can tell becuase theres one sitting on the bed.  There are
+illusions, twisting and turning upon themselves, giving the room a very 
+errie effect.
+  }
+  flags { indoors }
+  exits {
+	to { n, 116 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+118
+{
+  name { Sir Xavier's Chambers }
+  desc {
+This room obviously houses a warrior.  Weapons as well as armours hang from
+the walls, and army uniforms and shield clutter the floor and the corners 
+of the room.  The chamber is filthy, haveing no orginization whatsoever.
+#
+  }
+  flags { indoors }
+  exits {
+	to { n, 113 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+119
+{
+  name { Guest Chambers }
+  desc {
+The guest chambers are large and spacious.  You wouldnt mind sleeping here
+if you had the time.  But you dont.  Too bad.
+  }
+  flags { indoors }
+  exits {
+	to { n, 114 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+120
+{
+  name { Guest Chambers }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { n, 115 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+121
+{
+  name { Servant Chambers }
+  desc {
+A nice, clean room.  Not much else to say.  Several cots line the walls,
+as with the standard toiletries.
+  }
+  flags { indoors }
+  exits {
+	to { w, 111 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+122
+{
+  name { Servant Chambers }
+  desc {
+A nice clean room.  Not much else to say.  Serval cots line the walls, 
+along with the standard toiletries.
+  }
+  flags { indoors }
+  exits {
+	to { e, 111 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+123
+{
+  name { Sir Gutheral's Chamber }
+  desc {
+The room in here is gayily lit.  The blinds are thrown back, shedding the 
+room with light.  A large man, with a large black mustache sits on a brightly
+colored bed, covered with large quilts.  He turns to you, smiles, and motions
+you closer.  
+  'The dead and the shadow control the night.  Beware,' he says.
+  }
+  flags { indoors }
+  exits {
+	to { w, 112 }
+  }
+}
+
+124
+{
+  name { Possessed! }
+  desc {
+A swirling mist fills the room, obscuring your vision.  Several pairs of 
+dark red, glowing eyes stare at you balefully, filled with hatred.  You
+begin to panic as the mist surrounds you, and the door disappears.
+  }
+  flags { indoors }
+}
+
+125
+{
+  name { Path to the Twilight Gap }
+  desc {
+The harsh wind brutally clubs you as you leave the Mansion.  You begin to 
+crave for the warm left behind, and consider turning back.  Being the brave
+adventurers you are, however, you decide to press on.
+  }
+  sector { Hills }
+  flags { no_mob }
+  exits {
+	to { n, 126 }
+	to { s, 94 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+126
+{
+  name { Path to the Twilight Gap }
+  desc {
+The wind has died down, somewhat, with the mountains looming near.  The path
+splits here, a small, irregular trail leading off to the east, deeper into the
+mountains, and it continues to the north, to the twilight gap.
+  }
+  sector { Hills }
+  exits {
+	to { n, 127 }
+	to { e, 128 }
+	to { s, 125 }
+  }
+}
+
+127
+{
+  name { Path to Twilight Gap }
+  desc {
+A large mountain looms to the north.  It looks like it has had a landslide
+recently, and has unearthed something high up on the mountain.  The mountain
+looks dangerous, slippery, almost alive.
+  }
+  sector { Hills }
+  exits {
+	to { n, 135 }
+	to { s, 126 }
+  }
+}
+
+128
+{
+  name { Path to the Mountains }
+  desc {
+You find yourself on a rocky path heading off to the east.  Half eaten corpses
+of mountain lions and mountain goats lie strew about, filling the air with a
+nauseating smell.  The trail continues to the east, and the junction lies to the
+west.
+  }
+  sector { Hills }
+  exits {
+	to { e, 129 }
+	to { w, 126 }
+  }
+}
+
+129
+{
+  name { Bleak path to the Mountains }
+  desc {
+Devoid of life, both flaura and fauna, this path greets you hungrily.  Stone
+formations, looking like hungry animals, leer and snarl at you, bent and 
+formed by the relentless wind.  You can venture further into the mountains
+to the east, or go back to the west.
+  }
+  sector { Hills }
+  exits {
+	to { e, 130 }
+	to { w, 128 }
+  }
+}
+
+130
+{
+  name { Path to the Mountains }
+  desc {
+Your progress eastward is stopped by a immense chasm, spanning several hundred
+feet.  Looking downward, you can see the faint outline of a raging river
+hundreds of feet below.  Getting dizzy, you step away from the ledge.  Th
+path continues to the south, and to the west.
+  }
+  sector { Hills }
+  exits {
+	to { e, 133 }
+	to { s, 131 }
+	to { w, 129 }
+  }
+}
+
+131
+{
+  name { Path to a cave }
+  desc {
+Now you can see why nothing is around here.  This path is littered with
+hundreds of bones, animal as well as human.  A dark cave, looming in the side
+of a mountain, lies a short distance to the south.
+  }
+  sector { Hills }
+  exits {
+	to { n, 130 }
+	to { s, 132 }
+  }
+}
+
+132
+{
+  name { Outside a Large cave }
+  desc {
+You stand outside of a large cave in the side of a mountain.  Pitch black 
+inside, you cant see a thing.  Scores of bones lay at your feet, crunching 
+as you approach.  The plants lay wilted, dying, and you catch a waft of a
+strange smelling gas.
+  }
+  sector { Hills }
+  exits {
+	to { n, 131 }
+	to { s, 134 }
+  }
+}
+
+133
+{
+  name { In Mid air over a gorge }
+  desc {
+Stepping off the ledge, you decide to end it all, and you fall....
+
+
+
+       fall.....
+
+
+
+          fall.....
+
+
+
+                   fall.....
+ 
+
+                      fall......
+
+
+
+Until SPLAT! you end up in the river, quite cold, and quite dead.
+  }
+  flags { death }
+}
+
+134
+{
+  name { Inside a large, dark cave }
+  desc {
+This large empty caves houses a single inhabitant.  The huge shadow of a 
+dragon looms over you, but you cant see the dragon!  Piles of gold and weapons
+lay strewn about, among bones of various animals.  Without a sound, the 
+shadow swoops downwards, attacking!
+  }
+  sector { Hills }
+  flags { dark, indoors }
+  exits {
+	to { n, 132 }
+  }
+}
+
+135
+{
+  name { Path to the Twilight Gap }
+  desc {
+The base of the mountain lies directly to the north.  A steep trail goes up
+the mountain there.  The wind has died around you, leaving a erie silence in
+its wake.
+  }
+  sector { Hills }
+  exits {
+	to { n, 136 }
+	to { s, 127 }
+  }
+}
+
+136
+{
+  name { Base of the mountains }
+  desc {
+The mountain looms overhead.  Far above you, you can see a large metal object
+jutting out from the side of the mountain.  The path leads upwards now, 
+heading straight for that object.
+  }
+  sector { Hills }
+  exits {
+	to { s, 135 }
+	to { u, 137 }
+  }
+}
+
+137
+{
+  name { Climbing up to the gate }
+  desc {
+The path here is very slippery, and very steep.  You can still get to saftey
+below you.
+  }
+  sector { Mountains }
+  exits {
+	to { u, 138 }
+	to { d, 136 }
+  }
+}
+
+138
+{
+  name { Climbing to the gate }
+  desc {
+Having climbed several hundred feet, you are afraid to look down.  You think
+if you try to descend downwards, you will surely fall.  So you decide not to
+try.  The path continues upward.
+  }
+  sector { Mountains }
+  exits {
+	to { u, 140 }
+	to { d, 139 }
+  }
+}
+
+139
+{
+  name { Falling down the mountainside }
+  desc {
+As you try to get back down, you slip, and lose your grip.  Oh, too bad.  You
+have a few seconds to look around, then you feel a wet liquid splash on you
+as the ground kisses you.  That is the last thing you feel.
+  }
+  flags { death }
+}
+
+140
+{
+  name { Nearing the gate }
+  desc {
+The metal object looms just upward.  The climb has been hell, and you cant 
+think of anything worse than doing this.  You almost slip....but then you
+manage to catch yourself before you slid to your death.  Looking downward, 
+you decide not to try going back downward.  Might be fatal.
+  }
+  sector { Mountains }
+  exits {
+	to { u, 141 }
+	to { d, 139 }
+  }
+}
+
+141
+{
+  name { The gate }
+  desc {
+You have finally reached the metal object.  It juts out of the mountainside, and
+radiates a aura of evil so intense that it makes you shiver just to look at it.
+It is a circular object, about 6 feet in diameter, on the end of a crystal 
+rod.  It glows brightly, and you notice that all the plants in the area are
+wilted, dead.  You can move forward to the north to touch it, or you can 
+attempt to go back down the mountain.  Not recommended that you try the 
+latter.  It looks quite dangerous.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 142 }
+	to { d, 139 }
+  }
+}
+
+142
+{
+  name { Touching the gate }
+  desc {
+As you touch the gate, a cackle of energy fills the air.  You see yourself
+fading out of existance, then stretching immpossibly long as you are sucked
+into a vortex far above you.
+  }
+  tele { 60, 60, 143 }
+}
+
+143
+{
+  name { Flashing through the Planes of Existance }
+  desc {
+Streaks of colors flow by you as you are pulled through the very planes of
+existance.  The prime material plane, the abyss, the nine hells streak by
+incredibly fast.  You feel dread building up inside as you await your
+unknown destination.
+  }
+  tele { 60, 60, 144 }
+}
+
+144
+{
+  name { The Demi-Plane of Shadows }
+  desc {
+The passage through the gate is quick but rather disorienting.  It takes you
+a few seconds to shake off the dizziness brought on by the trip, but this
+feeling quickly fades away as you examine the alien landscape about you.
+Shadowland certainly lives up to its name.  It is not much brighter here than
+in the twilight hours on the Prime material plane.  A thick haze floats in the
+air, dulling all colors to a drab mixture of brown and gray.  The earth feels
+strange, as if it was made of something more than flesh and dirt.
+  }
+  sector { Hills }
+  exits {
+	to { n, 145 }
+  }
+}
+
+145
+{
+  name { A faint trail to a Tower }
+  desc {
+Looking up and about, you can make out one or two twisted trees through the 
+haze, and what look like the edge of a forest to your left.  Beyond this
+forest are darker shapes that maybe a mountain range, or just more shadows.
+The ground up ahead slopes upward to another large, dark shape, apparently a
+stout tower of some sort.
+  }
+  sector { Hills }
+  exits {
+	to { n, 146 }
+	to { e, 180 }
+	to { s, 144 }
+	to { w, 180 }
+  }
+}
+
+146
+{
+  name { Path to a Tower }
+  desc {
+The shadows seem to swirl closer around you, as if hounding you to the tower
+which looms in the distance.  You clutch the hilt of your weapon, eager to
+drive it into something substantial, eager to feel blood flow.  Eyes from
+the shadows around you glare, wink, then fade out of site.
+  }
+  sector { Hills }
+  exits {
+	to { n, 147 }
+	to { e, 180 }
+	to { s, 145 }
+	to { w, 180 }
+  }
+}
+
+147
+{
+  name { Path to a Tower }
+  desc {
+As you weigh your options at this point, a distant sound reaches your ears,
+similar to the houl of a wolf, but alien enough to send a chill down your spine.
+As the houl fades away, you become aware of the silence.  Above the loud
+sound of your breathing, there is no noise, not even the lonely call of a 
+bird in the distance.
+  }
+  sector { Hills }
+  exits {
+	to { n, 148 }
+	to { e, 180 }
+	to { s, 146 }
+	to { w, 180 }
+  }
+}
+
+148
+{
+  name { Outside a Tower }
+  desc {
+The tower before you is in ruins, the upper levels gone, although the lower
+levels seem quite intact.  The tower is made of grey stone that is strangely
+smooth.  The abscence of mortar filled cracks gives you the impression that
+the tower was carved from one giant boulder.  The front doors are closed, and
+bound with a large, glowing lock.  The shadows around the lock move, 
+comeing alive as you stare, forming a small dragon-looking fellow.  With a
+slight hiss, it speaks.
+'Ssssoo you want to Ssspeak to the masssterssss, eh?' he inquires.
+  }
+  sector { Hills }
+  exits {
+	to { n, 149 }
+	  key { 60007 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 147 }
+	  keywords { door" }
+  }
+}
+
+149
+{
+  name { Main hall }
+  desc {
+The hallway is barren and unremarkable, though several sets of footprints
+have disturbed the dust.  THe hallway continues to the north.  Strangely, there
+are no light sources here, but you can see fine.
+  }
+  flags { indoors }
+  exits {
+	to { n, 150 }
+	to { s, 148 }
+	  key { 60007 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+150
+{
+  name { Main Hall }
+  desc {
+The hallway ends here, with rooms to the east and west, and a stairwell to the
+north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 151 }
+	  info { door }
+	  keywords { door" }
+	to { e, 153 }
+	to { s, 149 }
+	to { w, 152 }
+  }
+}
+
+151
+{
+  name { Stairwell }
+  desc {
+This room is empty, save for a spiral staircase that heads both up and down.
+All of the footprints in this room lead downward.  As you head to the stairs,
+you hear a eerie whisper, drifting upward, beckoning you to come.
+  }
+  flags { indoors }
+  exits {
+	to { s, 150 }
+	  info { door }
+	  keywords { door" }
+	to { u, 154 }
+	to { d, 156 }
+  }
+}
+
+152
+{
+  name { Side room }
+  desc {
+This empty room, it seems, served as barracks ages ago when the tower was
+occupied.  They havent been disturbed since, and are empty of furnishings.
+  }
+  flags { indoors }
+  exits {
+	to { e, 150 }
+  }
+}
+
+153
+{
+  name { Side room }
+  desc {
+These empty rooms, it seems, served as barracks ages ago when the tower was
+occupied.  They havent been disturbed since, and are empty of furnishings.
+  }
+  flags { indoors }
+  exits {
+	to { w, 150 }
+  }
+}
+
+154
+{
+  name { Stairwell, upper level }
+  desc {
+The only direction you can go here is south, save downward where you came
+from.  You hear a errie whisper from the south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 155 }
+	  info { door }
+	  keywords { door" }
+	to { d, 151 }
+  }
+}
+
+155
+{
+  name { Second Floor }
+  desc {
+The floor of this large room is strewn with rubble.  The ceiling and upper 
+levels were destroyed long ago, and the whole floor is open to the air.
+There used to be seperate rooms on this level, but the dividing walls have
+long sice crumbled, leaving just the exterior walls.
+  }
+  sector { Hills }
+  exits {
+	to { n, 154 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+156
+{
+  name { Stairwell, lower level }
+  desc {
+This level has escaped the brunt effects of the passage of time.  There is
+very little dust here, and the footprints that you say above are non-existant.
+The only exit lies to the south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 157 }
+	to { u, 151 }
+  }
+}
+
+157
+{
+  name { Guardroom }
+  desc {
+Large suits of armor adorn the walls here, each jeweled and magnificent.  
+They animate as you enter, leaving their places on the walls, to confront you.
+Silently, wordlessly, they move to block the way south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 156 }
+	to { s, 158 }
+  }
+}
+
+158
+{
+  name { North end of long hallway }
+  desc {
+This long hallway extends farther to the south, where you can see several 
+doors.
+  }
+  flags { indoors }
+  exits {
+	to { n, 157 }
+	to { s, 159 }
+  }
+}
+
+159
+{
+  name { Center of a long hallway }
+  desc {
+The hallway splits here, extending off to the west, while a room is to the east.
+The hallway still extends to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 158 }
+	to { e, 161 }
+	  info { door }
+	  keywords { door" }
+	to { s, 160 }
+	to { w, 162 }
+  }
+}
+
+160
+{
+  name { South end of a long hallway }
+  desc {
+The hallway ends here, with a large stone block blocking your progress to
+the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 159 }
+  }
+}
+
+161
+{
+  name { A kennel }
+  desc {
+This room looks like it housed large amount of dogs.  And it looks likes the
+dogs are still here.
+  }
+  flags { indoors }
+  exits {
+	to { w, 159 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+162
+{
+  name { A passage off the long hallway }
+  desc {
+This plain gray hallway has doors to the north and south, and continues off
+to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 165 }
+	  info { door, closed }
+	  keywords { door" }
+	to { e, 159 }
+	to { s, 166 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 163 }
+  }
+}
+
+163
+{
+  name { Doorways..which one? }
+  desc {
+Heat, almost unbearable, comes from a doorway to the south.  The iron door
+to the south glows a dull red, threatning to burn anone who touches it.
+A door is to the north, and the hallway continues to the west to a north and
+south junction.
+  }
+  flags { indoors }
+  exits {
+	to { n, 168 }
+	  info { door, closed }
+	  keywords { door" }
+	to { e, 162 }
+	to { s, 169 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 164 }
+  }
+}
+
+164
+{
+  name { North and South Junction }
+  desc {
+The hallway splits to the north and south, leading to a dark room to the north,
+and a storeroom to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 172 }
+	to { e, 163 }
+	to { s, 173 }
+  }
+}
+
+165
+{
+  name { Storeroom }
+  desc {
+This small room is filled with leftover food and other necessities from
+ages ago, all of which have long since rotted to uselessness.
+  }
+  flags { indoors }
+  exits {
+	to { s, 162 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+166
+{
+  name { The library }
+  desc {
+This room has remained unchanged for countless centuries.  Hundreds of books fill 
+the shelves from wall to wall, both against the walls and in free standing
+cases.  The books' subject matter varies widely, but they mostly discuss
+magic, the inner planes, and other similar topics.  Sadly, however, most of
+them crumble to dust the instant you touch them.
+  }
+  flags { indoors }
+  exits {
+	to { n, 162 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 167 }
+	  info { door, closed }
+	  keywords { books book door" }
+  }
+}
+
+167
+{
+  name { Secret Library }
+  desc {
+Each of the books in this room is kept in a cabinet to prevent it from 
+damage.  Books eminating magic are securely locked in blue glass cabinets.
+The room is bare, save for the cabinets, and a large stone golem in the
+far south corner.
+  }
+  exits {
+	to { n, 166 }
+	  keywords { books book door" }
+  }
+}
+
+168
+{
+  name { Laboratory }
+  desc {
+It seems that this laboratory hasnt been used in a long time.  THe lab is 
+filled with equipment useful in magical research, but almost all of it has
+broken or rotted away.  There are several dozen vials of potions on the 
+table and shelves, but they have all rotted away to bitter tasting but 
+harmless liquids.
+  }
+  flags { indoors }
+  exits {
+	to { s, 163 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 170 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+169
+{
+  name { Inside Hell's Fires }
+  desc {
+As you enter this room, you see a flaming figure at the far end.  He cackles
+evilly, then snaps his fingers.  The last thing you see is the flames rising
+upward at his command, comsuming you.
+  }
+  flags { death }
+}
+
+170
+{
+  name { Small pasage }
+  desc {
+This passage way turns to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 171 }
+	  info { door }
+	  keywords { door" }
+	to { e, 168 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+171
+{
+  name { Summoning Chamber }
+  desc {
+Small circle lay engraved in the stone floor of this room.  They glow soflty,
+as if containing something from leaving this room.  A cloak of darkness
+envolopes you, as you see a shadow moving towards you.  Without giving you
+time to react, it attacks.
+  }
+  flags { indoors }
+  exits {
+	to { s, 170 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+172
+{
+  name { Guardsroom }
+  desc {
+This long room seems to stretch on forever, then shrinks before your eyes.  An 
+illusion, you think.  As you stride across the room to the other side, a huge
+shadow dragon fades into existance, blocking your way.  Unfortunetly, its 
+not a illusion.
+  }
+  flags { indoors }
+  exits {
+	to { s, 164 }
+	to { w, 174 }
+  }
+}
+
+173
+{
+  name { Storeroom }
+  desc {
+This room was used to store large amounts of foodstuffs.  All of it has long since
+rotted away.
+  }
+  flags { indoors }
+  exits {
+	to { n, 164 }
+  }
+}
+
+174
+{
+  name { Meeting Room }
+  desc {
+This room is very plain, with a few chairs in it.  It is currently empty.
+  }
+  flags { indoors }
+  exits {
+	to { n, 175 }
+	  info { door }
+	  keywords { door" }
+	to { e, 172 }
+  }
+}
+
+175
+{
+  name { A bedroom }
+  desc {
+A large canopy bed dominates the center of this room.
+Rubble lays strewn about, as well as various bits and peices and animals and
+humans.  On the corner of the bed sits a solitary lich, sobbing quietly to
+itself.  Suddnely, he screams, noticing you in his bedroom, turns and attacks!
+  }
+  extra {
+	keywords { bed" }
+	desc { The bed is very old.  It looks moveable.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 178 }
+	  info { door, closed }
+	  keywords { bed" }
+	to { s, 174 }
+	  info { door }
+	  keywords { door" }
+	to { w, 176 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+176
+{
+  name { Passage to the Vault }
+  desc {
+The dust here has been cleared away recently, or so it would seem.  The 
+passageway continues to the west to the vault, or to the east back to 
+to the bedroom.
+  }
+  flags { indoors }
+  exits {
+	to { e, 175 }
+	  info { door }
+	  keywords { door" }
+	to { w, 177 }
+  }
+}
+
+177
+{
+  name { The Vault }
+  desc {
+The vault is empty, bare, save for a single staff floating in the air.
+It glows with a soft, blue light, and a beam is shooting from it, 
+surrounding a large figure.  The figure has five heads; human, mantis, tiger,
+crocodile, and a gorilla head.  The huge arms on the figure end in curved
+talons, sharp, wicked, gleaming.  The figure turns slowly, looks over you,
+as if sizeing you up.  With a growl of all five heads, he turns and attacks!
+  }
+  extra {
+	keywords { staff" }
+	desc { The staff glows softly...the glow seems to encompess the figure at the gar
+end of the room.  As you enter, the blue dissapates, and the figure attacks.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 176 }
+  }
+}
+
+178
+{
+  name { A secret passage }
+  desc {
+You enter a passage that hasnt been opened in a long time.  Dust flys up 
+into your nose, causing you to sneeze.  The passageway turns to the north,
+and exits to the west back into the bedroom.
+  }
+  flags { indoors }
+  exits {
+	to { n, 179 }
+	to { w, 175 }
+	  info { door, closed }
+	  keywords { silk mural" }
+  }
+}
+
+179
+{
+  name { A secret room }
+  desc {
+This room hasnt been entered into for a long time!
+Piles of dust lay on the floor, only to be disturbed when you walk past.
+At the far end of the room is a chair, with a single, skeleton sitting in it.
+Around his neck he wears a cross, and he clutches a rusty dagger.  
+He rises, strides purposelly across the room, and welcomes you to his home.
+  }
+  flags { indoors }
+  exits {
+	to { s, 178 }
+  }
+}
+
+180
+{
+  name { Into the Plane of shadows... }
+  desc {
+As you step off of the path, the shadow swirl and darken, engulfing you.
+Vague shapes take form, regard you with curiosity, then fade away.  You begin
+to think you might have made a mistake, now that you cannot see the path 
+anymore.
+  }
+  sector { Hills }
+  exits {
+	to { n, 180 }
+	to { e, 180 }
+	to { s, 194 }
+	to { w, 180 }
+  }
+}
+
+181
+{
+  name { Along a firey trail }
+  desc {
+You can make out a faint trail, heading to the south.  The flames have died
+down somewhat, makeing it easier to see.  All around you are flames, but ther
+is no visible fuel source.  Must be the elemental plane of fire, you mutter
+as you continue along.
+  }
+  sector { Hills }
+  exits {
+	to { n, 56 }
+	to { s, 182 }
+  }
+}
+
+182
+{
+  name { Inside a roaring inferno }
+  desc {
+The flames leap higher, teasing you as they wordlessly, soundlessly twist
+about you.  You cant see a thing about where you are going, but exits 
+exits in all directions, save up and down.
+  }
+  sector { Hills }
+  exits {
+	to { n, 181 }
+	to { e, 183 }
+	to { s, 184 }
+	to { w, 188 }
+  }
+}
+
+183
+{
+  name { Path of fire }
+  desc {
+You stand above the rest of the burning ground, atop of a flaming path.  The
+path continues to the east, and ends to the west.
+  }
+  sector { Hills }
+  exits {
+	to { e, 186 }
+	to { w, 182 }
+  }
+}
+
+184
+{
+  name { Burnt remains }
+  desc {
+The burnt remains of several adventurers lays here.  Their weapons and armor
+lay as twisted hunks of melted slag, and a flaming sign is here.
+It looks like they suffered a very painful death.
+  }
+  sector { Hills }
+  extra {
+	keywords { sign" }
+	desc { The sign says : 'We were fools.'
+	}
+  }
+  exits {
+	to { n, 182 }
+	to { s, 185 }
+  }
+}
+
+185
+{
+  name { A flaming chariot }
+  desc {
+A large chariot, harrnessed to two flaming griffins, lies here unused.
+The griffins are perfectly still, but you dont think it would be a good idea
+to try to pet them.  The path continues to the south, where you can barely
+make out the shape of a house.
+  }
+  sector { Hills }
+  exits {
+	to { n, 184 }
+	to { s, 187 }
+  }
+}
+
+186
+{
+  name { Flaming Shadows }
+  desc {
+A group of shadows stands here, burning.  They appear to be in no pain at
+all.  They turn their balefull gaze upon you, looking deep into your soul.
+Their crimson burning eyes seeth with hatred, contempt for living creatures.
+  }
+  sector { Hills }
+  exits {
+	to { e, 189 }
+	to { w, 183 }
+  }
+}
+
+187
+{
+  name { Outside a house of flame }
+  desc {
+You stand outside a large house comprised entirely of flame.  There is a door
+to the south, leading into the house.
+  }
+  sector { Hills }
+  exits {
+	to { n, 185 }
+	to { s, 192 }
+	  key { 60004 }
+	  info { door, closed }
+	  keywords { s
+door flaming" }
+  }
+}
+
+188
+{
+  name { Firey path }
+  desc {
+You stand atop a huge flaming path, suspended above the burning ground.
+No heat assults you, no burns appear on your mortal skin.  The path continues
+to the west, and ends to the east.
+  }
+  sector { Hills }
+  exits {
+	to { e, 182 }
+	to { w, 190 }
+  }
+}
+
+189
+{
+  name { A firey death }
+  desc {
+A large flame flickers here, bobbing back and forth across the burning ground.
+It's body seems to draw you nearer, beconing you closer to it.  As you walk
+closer, he begins to twist and dance about you, mezmorizing you.
+  }
+  sector { Hills }
+  exits {
+	to { w, 186 }
+  }
+}
+
+190
+{
+  name { A firey path }
+  desc {
+The flaming path continues to the west, and to the east.
+  }
+  sector { Hills }
+  exits {
+	to { e, 188 }
+	to { w, 191 }
+  }
+}
+
+191
+{
+  name { Liquid Flame }
+  desc {
+A small lake is here, burning brightly.  Orange crimson flames flicker with
+small blue tints across the surface.  A small group of flames skate across
+the surface, curious to why you are here.
+  }
+  sector { Hills }
+  exits {
+	to { e, 190 }
+  }
+}
+
+192
+{
+  name { Inside a Flaming Door }
+  desc {
+Haveing cleared the first door, you find yourself in front of another door
+to the south, leading into the house.
+  }
+  flags { indoors }
+  exits {
+	to { n, 187 }
+	  key { 60004 }
+	  info { door, closed }
+	  keywords { n
+door flaming" }
+	to { s, 193 }
+	  key { 60005 }
+	  info { door, closed }
+	  keywords { door flaming" }
+  }
+}
+
+193
+{
+  name { Inside a flaming house }
+  desc {
+You find yourself inside of a flaming house.  Everything inside, all the
+furniture, the desk, even the paper, are composed of flames.  A tall figure
+sits in a flaming rocking chair, smokeing a burning pipe.  He motions you
+closer, inviting you to sit down.
+  }
+  flags { indoors }
+  exits {
+	to { n, 192 }
+	  key { 60005 }
+	  info { door, closed }
+	  keywords { door flaming" }
+  }
+}
+
+194
+{
+  name { Into the Plane of shadows... }
+  desc {
+As you step off of the path, the shadows swirl and darken, engulfing you.
+Vague shapes take for, regard you with curiosity, then fade away.  You begin
+to think that you might have made a mistake, now that you cannot see the path
+anymore.
+  }
+  sector { Hills }
+  exits {
+	to { n, 180 }
+	to { e, 180 }
+	to { s, 180 }
+	to { w, 146 }
+  }
+}
+
+195
+{
+  name { Inside the portrait }
+  desc {
+You find yourself inside of the painting, standing in front of the man whos
+portrait you passed throw.  His face is marred my several deep gashes, 
+pouring blood forth freely.  His eyes glint evilly, flashing blue, then red,
+then back to blue.
+'You passed through by your own free will,' he says. 'You must continue.'
+The world slowly fades around you...
+  }
+  tele { 60, 60, 196 }
+}
+
+196
+{
+  name { Large Cavern }
+  desc {
+You shake your head, feeling woozy from the trip.  Looking around, you can see
+a soft white light coming from the walls around you.  Set in the floor, you
+can see a large trapdoor, gleaming brightly.  A single plain sign graces the 
+natural beauty of this cavern.
+  }
+  extra {
+	keywords { sign" }
+	desc { The sign is old, but still readable.  It says :
+     'Given the grace of God
+      Power and beauty beyond
+      Mortals, fleeting, time forgot
+      Behold the challenge, of the Gods.
+      A test of strength, a test of might
+      Do not forget, the power of insight
+        Thieving begats power galore
+      Healing, however, beholds much more.
+      Given four tests, of wisdom and mind
+      If one can pass, then one shall find
+      Mortals forgotten, power to be
+      And the grace of immortality.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 197 }
+	to { e, 199 }
+	to { s, 198 }
+	to { w, 200 }
+	to { d, 201 }
+	  key { 60024 }
+	  info { door, closed }
+	  keywords { door silver trap trapdoor" }
+  }
+}
+
+197
+{
+  name { Champion of the Gods }
+  desc {
+The light in this room shimmers and wavers as you enter.  There is a large man
+who changes into a woman and back again.  It waves dramatically, and a glowing
+sign appears above you.  The sign says 'The Test of Strength has begun.'
+  }
+  flags { indoors }
+  exits {
+	to { s, 196 }
+  }
+}
+
+198
+{
+  name { Champion of the Gods }
+  desc {
+The aura of power is un-mistakeable in here.  It crackles in and about you,
+filling the air and you completely.  A human girl sits here, playing with the
+energy as if it was a toy.
+  }
+  flags { indoors }
+  exits {
+	to { n, 196 }
+  }
+}
+
+199
+{
+  name { Champion of the Gods }
+  desc {
+This room is dark, cold, forboding.  You see a shadow move and shiver, and
+hear a whisper pierce the darkness and silence.  'Shadows rule the night,'
+the voice says, 'and I rule the shadows.  Let the test begin!'
+  }
+  flags { indoors }
+  exits {
+	to { w, 196 }
+  }
+}
+
+200
+{
+  name { Champion of the Gods }
+  desc {
+A large, jovial man sits here, drinking from a small jug.  He chuckles as you
+enter, waves, and motions you closer.  With a wink in his eye, he says, 'Good
+say for a test, aye?'
+  }
+  flags { indoors }
+  exits {
+	to { e, 196 }
+  }
+}
+
+201
+{
+  name { Past the first door }
+  desc {
+You have just passed the first door.  There is another trapdoor set into
+the floor of this plain room.
+  }
+  flags { indoors }
+  exits {
+	to { u, 196 }
+	  key { 60024 }
+	  info { door, closed }
+	  keywords { door silver trap trapdoor" }
+	to { d, 202 }
+	  key { 60025 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+202
+{
+  name { 60202 }
+  desc {
+The second door above you, you enter another plain room, with yet another
+trapdoor in the floor.
+  }
+  flags { indoors }
+  exits {
+	to { u, 201 }
+	  key { 60025 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 203 }
+	  key { 60026 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+203
+{
+  name { 60203 }
+  desc {
+A familiar sight greets you, having just passed the third trapdoor above you.
+A trapdoor is set into the floor here.
+  }
+  flags { indoors }
+  exits {
+	to { u, 202 }
+	  key { 60026 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 204 }
+	  key { 60027 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+204
+{
+  name { 60204 }
+  desc {
+You just passed through the fourth trapdoor above you.  Looking around, you
+sense an aura of power beyond anything you have ever imagined.  You can feel
+the energy in the air crackle and surround you, gathering strength.
+  }
+  flags { indoors }
+  tele { 60, 60, 205 }
+  exits {
+	to { u, 203 }
+	  key { 60027 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+205
+{
+  name { A shimmering light }
+  desc {
+You stand inside a huge room.  Angels and devils walk and fly, talking, 
+walking in silence.  The air is alive with love and hate, death and life.
+The area radiates neutrality.  Here sits the judgement maker, awaiting to 
+judge your souls.
+  }
+  flags { indoors }
+}
+
+206
+{
+  name { Mouse's Lair }
+  desc {
+You havent entered Mouse's Lair.  A large, fluffy bed is in the corner, 
+covered with stuffed animals.  Looks very comfortable.  MetallicA posters
+line the walls, and her desk is covered with MetallicA tapes. Go figger.
+A classical guitar is next to her bed, and an electric guitar is next to 
+that.  Maybe mouse plays ther guitar?
+  }
+  flags { indoors, peaceful, nosteal, no_sum, rent_room, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { u, Asgard:0 }
+	to { d, Midgard:0 }
+  }
+}

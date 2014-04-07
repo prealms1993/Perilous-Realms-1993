@@ -1,0 +1,1904 @@
+
+0
+{
+  name { Ancient Road }
+  desc {
+Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still in very good shape here, as the
+elements have not been able to abuse it here as they have where it is exposed
+to the open sky. The tunnel has collapsed to the north, and the tons of stones
+and rocks that have fallen have completely blocked further passage in that
+direction.  The passage to the west is too steep to leave by.  The
+only true exit is to the south.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { s, 1 }
+  }
+}
+
+1
+{
+  name { Ancient Road }
+  desc {
+"    Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still in very good shape here, as the
+elements have not been able to abuse it here as they have where it is exposed
+to the open sky. The tunnel stretches on beyond the range of your light to the
+north and south, traveling straight and flat through the mountain's core. The
+road is eerie here; it seems to have been untraveled for aeons.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 0 }
+	to { s, 2 }
+  }
+}
+
+2
+{
+  name { Ancient Road }
+  desc {
+"    Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still in very good shape here, as the
+elements have not been able to abuse it here as they have where it is exposed
+to the open sky. It's hard to say how far you have come since entering the
+southern tunnel, but looking to the north still gives you no sign of an opening
+to the other side. The only source of light here is the one you carry. You can
+exit to the north and south.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 1 }
+	to { s, 3 }
+  }
+}
+
+3
+{
+  name { Ancient Road }
+  desc {
+"    Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still in very good shape here, as the
+elements have not been able to abuse it here as they have where it is exposed
+to the open sky. There is a massive gate set in the western wall here, it looks
+to be made of a strange, black metal that resists all your efforts to identify
+it. There is a heavy metal bolt-lock built into the center of the gate. It
+appears to have been here for quite a while. However, despite the passage of
+time it shows few signs of aging; apparently it was built to last. The tunnel
+of the ancient road continues north and south, as well.
+  }
+  sector { City }
+  extra {
+	keywords { lock gate" }
+	desc { The gate is large and impressive. The lock is large and extremely complex. It
+looks like it would be impossible to pick, without a lot of specialized tools,
+anyway. The key would have to be an odd-looking piece of equipment.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 2 }
+	to { s, 4 }
+	to { w, 10 }
+	  key { 21150 }
+	  info { door, closed }
+	  keywords { gate" }
+  }
+}
+
+4
+{
+  name { Ancient Road }
+  desc {
+"    Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still in very good shape here, as the
+elements have not been able to abuse it here as they have where it is exposed
+to the open sky. The ancient road continues to the north and south, straight
+as ever in its course. The rock walls and smooth, and the stones along the
+floor are flat and even, though worn from the passage of countless travelers,
+long ago.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 3 }
+	to { s, 5 }
+  }
+}
+
+5
+{
+  name { Ancient Road }
+  desc {
+"    Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still in very good shape here, as the
+elements have not been able to abuse it here as they have where it is exposed
+to the open sky. The southern entrance of the road into the tunnel is now just
+visible from here, framed against a background that looks like a wire mesh,
+through which you get a glimpse of the open sky - at last! You can go south
+towards the opening, or north, deeper into the mountain.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 4 }
+	to { s, 6 }
+  }
+}
+
+6
+{
+  name { The Northern Gate to the Kingdom of Rhyodin }
+  desc {
+"    Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still visible through the grass that
+seems to have grown up through the cracks here and there, nourished by the
+light that comes through the tunnel entrance to the south. The mouth where the
+road enters the mountain here is blocked by a series of crosshatched bars of
+a strange black metal. Each bar is a little less than two inches in width, and
+they are spaced two feet apart, creating a square grid through which you can
+see the countryside beyond. In the center of this is a gate, easily twenty feet
+across and high, of the same crosshatched material, set into a rectangular
+metal frame. There is no apparent lock on the gate.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 5 }
+	to { s, Midgard:1 }
+	  info { door, closed }
+	  keywords { gate" }
+	  desc { You see a serene valley, with a clear blue sky and large green fields. Far
+to the south you see a town, and further south you think you see the outlines
+of a large castle. Apparently the mountain range you have just come through
+completely surrounds this valley, because you can make out mountains forty
+miles to the south, and more mountains on the east and west. They seem to
+form a complete circle about the unspoilt valley you see before you.
+}
+  }
+}
+
+7
+{
+  name { Barracks }
+  desc {
+"    This room once clearly served as a military barracks, where men (certainly
+some kind of humanoid, from the shape of the bunks) would sleep and spend some
+of their free time. There are several rows of bunks here, stacked two high for
+efficiency. At the foot of each is a locker, most of which hang open, some of
+which are twisted and battered - apparently from attempts of would-be looters.
+The barracks continue to the west and south.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { s, 8 }
+	to { w, 14 }
+  }
+}
+
+8
+{
+  name { Barracks }
+  desc {
+"    This room once clearly served as a military barracks, where men (certainly
+some kind of humanoid, from the shape of the bunks) would sleep and spend some
+of their free time. There are several rows of bunks here, stacked two high for
+efficiency. At the foot of each is a locker, most of which hang open, some of
+which are twisted and battered - apparently from attempts of would-be looters.
+This room has a lived-in look, and from the unidentifyable tracks along the
+floor, the occupant was here rather recently. The barracks continue to the
+north and south. There is also an opening in the west wall leading out into
+the corridor.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 7 }
+	to { s, 9 }
+	to { w, 15 }
+  }
+}
+
+9
+{
+  name { Barracks }
+  desc {
+"    This room once clearly served as a military barracks, where men (certainly
+some kind of humanoid, from the shape of the bunks) would sleep and spend some
+of their free time. There are several rows of bunks here, stacked two high for
+efficiency. All of the lockers here hang open, silent testimony to the
+persistance of some thieves. The barracks continue to the north, there is also
+an opening in the west leading to a hall.
+  }
+  sector { City }
+  extra {
+	keywords { lockers" }
+	desc { They look as if they were battered open rather than pryed. They are all empty.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 8 }
+	to { w, 16 }
+  }
+}
+
+10
+{
+  name { The Gatehouse }
+  desc {
+"    This area served as a checkpoint for those entering the outpost from the
+outside. There is an extremely large and imposing-looking gate to the east.
+In times of old it must have served to guard the outpost from any opposition
+forces. It shows no signs of damage, on this side, at least, so perhaps it was
+never needed to fulfill that purpose. It has a large, complicated  locking
+mechanism, which even the most competent thief would turn green trying to pick.
+There is a passage to the west, and the gate stands to the east, leading to
+unknown destinations.
+  }
+  sector { City }
+  extra {
+	keywords { lock gate" }
+	desc { The gate is large and impressive. The lock is large and extremely complex. It
+looks like it would be impossible to pick, without a lot of specialized tools,
+anyway. The key would have to be an odd-looking piece of equipment.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 3 }
+	  key { 21150 }
+	  info { door, closed }
+	  keywords { gate" }
+	to { w, 17 }
+  }
+}
+
+11
+{
+  name { Infirmary }
+  desc {
+"    The purpose of the long flat beds you noticed from the corridor is clearer
+now that you can get a better look at them, as is the purpose of the cabinets.
+The beds are on rollers, and from what you can see in the cabinets that are
+open, they are filled with linens and bandages. This room was once a medical
+facility, but a thick layer of dust has settled over everything as the ages
+passed, removing any sterility this room might have once had. Among the
+furniture here are several open storage cabinets, and a couple closed ones.
+There is nothing else of interest. There is an exit to the west.
+  }
+  sector { City }
+  extra {
+	keywords { beds" }
+	desc { The beds are on rollers, but they have rusted into their current position. At
+one time the wounded were transported on them, you figure.
+	}
+	keywords { linens" }
+	desc { They are very old and moth-eaten, and what remains of them is covered with
+a layer of dust.
+	}
+	keywords { cabinets" }
+	desc { The open cabinets have some old linens inside.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { w, 18 }
+  }
+}
+
+12
+{
+  name { Armory }
+  desc {
+"    This room once served as a repository for weapons and armor for the troops
+that occupied this outpost. Though there is a great deal of dust covering
+everything here, you can still make out a fair number of weapons of various
+kinds hanging on the three weapons racks that occupy the north, south, and east
+walls. There are a couple of stands in the center of the room that look like
+they were designed to hold armor, but there is little armor still left here.
+There is an exit to the west.
+  }
+  sector { City }
+  extra {
+	keywords { stands" }
+	desc { They are metallic frames upon which armor could be hung. They are firmly bolted
+into the stone floor. No armor hangs on them now.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { w, 19 }
+  }
+}
+
+13
+{
+  name { Barracks }
+  desc {
+"    This room once clearly served as a military barracks, where men (certainly
+some kind of humanoid, from the shape of the bunks) would sleep and spend some
+of their free time. There are several rows of bunks here, stacked two high for
+efficiency. At the foot of each is a locker, most of which hang open, some of
+which are twisted and battered - apparently from attempts of would-be looters
+many years ago. You can exit west, back to the rest of the barracks.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+}
+
+14
+{
+  name { Barracks }
+  desc {
+"    This room once clearly served as a military barracks, where men (certainly
+some kind of humanoid, from the shape of the bunks) would sleep and spend some
+of their free time. There are several rows of bunks here, stacked two high for
+efficiency.  Some of the metal frames of the bunks in this room have been
+corroded, leaving only twisted scraps in their place. At the foot of each bunk
+set is a locker, similarly corroded. The barracks continue to the east and
+west, and there is an opening in the south wall leading into a corridor.
+  }
+  sector { City }
+  extra {
+	keywords { bunks lockers" }
+	desc { The bunks and lockers look they were chewed up, swallowed, partially digested,
+and vomited back up. There's very little left of them.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 7 }
+	to { s, 15 }
+	to { w, 21 }
+  }
+}
+
+15
+{
+  name { Hallway }
+  desc {
+"    You are in a dark hallway in the mountain defense station. The walls are
+smooth, cut from the solid rock here deep inside the mountain. The ceiling is
+high, almost fifteen feet. The floor is flat and covered with a thick layer of
+dust. The hallway bends here at a right angle; it now heads to the south and
+west. There are openings in the north and east walls, through which you can
+see the bunks and lockers of soldiers. You can also go to the south and west,
+where the corridor continues as far as your light can show you.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 14 }
+	to { e, 8 }
+	to { s, 16 }
+	to { w, 22 }
+  }
+}
+
+16
+{
+  name { Hallway }
+  desc {
+"    You are in a dark north-south hallway in the mountain defense station. The
+walls are smooth, cut from the solid rock here deep inside the mountain. The
+ceiling is high, almost fifteen feet. The floor is flat and covered with a
+thick layer of dust. The hallway opens up to the south into a large area, to
+the north it looks like it bends to the west. There is an opening in the east
+wall, through which you can see the bunks and lockers of a military barracks.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 15 }
+	to { e, 9 }
+	to { s, 17 }
+  }
+}
+
+17
+{
+  name { Mustering Square }
+  desc {
+"    This is the largest artificially created area you've seen down here
+underneath the mountain.  Once upon a time, it was a assembling grounds for
+the troops getting ready to go out to battle. As you hold your light aloft,
+you can barely see the roof where a large, broken sphere once provided light
+to the grounds. There are wide openings to the east and west, and narrower
+tunnels lead to the north and south. From here it is impossible to tell where
+any of these exits lead.  The dust on the floor here is uneven - possibly this
+area has been disturbed by someone or something since it was vacated ages ago.
+  }
+  sector { City }
+  extra {
+	keywords { sphere" }
+	desc { It looks like a big empty glass sphere. It is far above you, anchored to the
+ceiling by a large chain. There is a big crack in it, and a couple of places
+where the glass is broken to reveal a hole in the sphere.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 16 }
+	to { e, 10 }
+	to { s, 18 }
+	to { w, 24 }
+  }
+}
+
+18
+{
+  name { Hallway }
+  desc {
+"    You are in a dark north-south hallway in the mountain defense station. The
+walls are smooth, cut from the solid rock here deep inside the mountain. The
+ceiling is high, almost fifteen feet. The floor is flat and covered with a
+thick layer of dust. The hallway opens up to the north into a large area, to
+the south it looks like it bends to the west. There is an opening in the east
+wall to a room full of long, flat beds with tables and cabinets next to them.
+>From the faint light cast off them from here by your source of illumination,
+you can't tell for sure what purpose they served.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 17 }
+	to { e, 11 }
+	to { s, 19 }
+  }
+}
+
+19
+{
+  name { Hallway }
+  desc {
+"    You are in a dark hallway in the mountain defense station. The walls are
+smooth, cut from the solid rock here deep inside the mountain. The ceiling is
+high, almost fifteen feet. The floor is flat and covered with a thick layer of
+dust. The hallway bends here at a right angle; it now heads to the north and
+west. There are also doorways to the south and west. To the west, you can see
+racks and hooks for armaments, some of which still hold old, dusty-looking
+equipment. To the south you see the bunks and cabinets that indicate a
+barracks.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 18 }
+	to { e, 12 }
+	to { s, 20 }
+	to { w, 26 }
+  }
+}
+
+20
+{
+  name { Barracks }
+  desc {
+"    This room once clearly served as a military barracks, where men (certainly
+some kind of humanoid, from the shape of the bunks) would sleep and spend some
+of their free time. There are several rows of bunks here, stacked two high for
+efficiency. At the foot of each is a locker, all of which hang open, most of
+which are twisted and battered - apparently from attempts of would-be looters
+many years ago. Whoever cleaned out whatever was in these lockers looks to have
+spent a considerable amount of time in this area, as not a single locker
+remains unopened. You can leave east and west to other parts of the barracks,
+or north to a hallway.
+  }
+  sector { City }
+  extra {
+	keywords { lockers" }
+	desc { The lockers here are in pretty bad shape. Whoever got into them worked them
+over pretty good in order to do so.
+	}
+	keywords { bunks" }
+	desc { The bunks are undamaged, but don't look like they've been used in the past
+few centuries.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 19 }
+	to { e, 13 }
+	to { w, 27 }
+  }
+}
+
+21
+{
+  name { Barracks }
+  desc {
+"    This room once clearly served as a military barracks, where men (certainly
+some kind of humanoid, from the shape of the bunks) would sleep and spend some
+of their free time. There are several rows of bunks here, stacked two high for
+efficiency.  Some of the metal frames of the bunks in this room have been
+corroded, leaving only twisted scraps in their place. At the foot of each bunk
+set is a locker, similarly corroded. The barracks continue to the east, and you
+can also leave through an opening in the south wall, which leads to a corridor.
+  }
+  sector { City }
+  extra {
+	keywords { bunks lockers" }
+	desc { The bunks and lockers look they were chewed up, swallowed, partially digested,
+and vomited back up. There's very little left of them.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 14 }
+	to { s, 22 }
+  }
+}
+
+22
+{
+  name { Hallway }
+  desc {
+"    You are in a dark east-west hallway in the mountain defense station. The
+walls are smooth, cut from the solid rock here deep inside the mountain. The
+ceiling is high, almost fifteen feet. The floor is flat and covered with a
+thick layer of dust. The corridor bends to the south both to the east and west.
+There is also an opening in the north wall, through which your light source
+illuminates bunks and small cabinets - sure signs of a military barracks. You
+can exit via the barracks to the north, or along the corridor to the east or
+west.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 21 }
+	to { e, 15 }
+	to { w, 29 }
+  }
+}
+
+23
+{
+  name { Stables }
+  desc {
+"    This is the north wing of the outpost's stable area. The ceiling in this
+area is quite high, as in the other parts of the stables, stretching away
+almost out of the range of your light source to detect. There is a pile of
+dry brown dust on the ground in the southeast corner of the area. The stalls
+the horses were kept in here are made of wood, but they seem to have survived
+the trial of time, and are still in reasonably good shape. Fifty or so horses
+could probably be stored here at maximum capacity. The only way out is to the
+central stable area to the south.
+  }
+  sector { City }
+  extra {
+	keywords { dry brown dust" }
+	desc { Decomposed hay, now centuries old.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { s, 24 }
+  }
+}
+
+24
+{
+  name { Stables }
+  desc {
+"    You have entered an area that at one time was used to house the mounts of
+the cavalry of this outpost. Apparently, whoever they were, they rode horses
+or beasts of comperable size, because the stalls here would fit animals only
+that size or smaller. The ceiling in this area is considerably higher than in
+the rest of the outpost, so high in fact that you can barely see the roof given
+the light emitted from your source. The stables continue to the north and
+south.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 23 }
+	to { e, 17 }
+	to { s, 25 }
+  }
+}
+
+25
+{
+  name { Stables }
+  desc {
+"    This is the south wing of the outpost's stable area. The ceiling here is
+quite high, as it is in the other parts of the stables, stretching away almost
+out of the range of your light source to detect. The stalls the horses were
+kept in here are made of wood, but they seem to have survived the trial of
+time, and are still in reasonably good shape. Thirty or so horses could
+probably be stored here at maximum capacity. The only exit is to the central
+stable area northwards.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 24 }
+  }
+}
+
+26
+{
+  name { Hallway }
+  desc {
+"    You are in a dark east-west hallway in the mountain defense station. The
+walls are smooth, cut from the solid rock here deep inside the mountain. The
+ceiling is high, almost fifteen feet. The floor is flat and covered with a
+thick layer of dust. The corridor bends to the north both to the east and west.
+There is also an opening in the south wall, through which your light source
+illuminates bunks and small cabinets - sure signs of a military barracks. You
+can exit via the barracks to the south, or along the corridor to the east or
+west.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 19 }
+	to { s, 27 }
+	to { w, 33 }
+  }
+}
+
+27
+{
+  name { Barracks }
+  desc {
+"    This room once clearly served as a military barracks, where men (certainly
+some kind of humanoid, from the shape of the bunks) would sleep and spend some
+of their free time. There are several rows of bunks here, stacked two high for
+efficiency. At the foot of each is a locker, most of which hang open, some of
+which are twisted and battered - apparently from attempts of would-be looters
+many years ago. There are two exits; to the east the barracks continue, and
+there is also to a corridor to the north.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 26 }
+	to { e, 20 }
+  }
+}
+
+28
+{
+  name { Officer's Quarters }
+  desc {
+"    This room is filled with bunks, like the barracks, but there are no double
+bunks here, only singles. You also notice they are further spread apart than
+in the regular barracks, thus fueling your conclusion that it is officers who
+slept here. For each bunk there is a desk and mirror, though the mirrors are
+detectable only by the frames they were once housed in and the fragments still
+on the floor - they have all been broken. The desks hang open, some with their
+drawers extracted, which explains the wood splinters all over the floor. The
+officer's quarters continues to the west, and there is also an opening to a
+corridor in the south wall.
+  }
+  sector { City }
+  extra {
+	keywords { bunks" }
+	desc { Like the other furniture here, they look like they have taken a beating.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { s, 29 }
+	to { w, 35 }
+  }
+}
+
+29
+{
+  name { Hallway }
+  desc {
+"    You are in a dark hallway in the mountain defense station. The walls are
+smooth, cut from the solid rock here deep inside the mountain. The ceiling is
+high, almost fifteen feet. The floor is flat and covered with a thick layer of
+dust. The hallway bends here at a right angle; it now heads to the south and
+east. There are also openings in the north and west wall. You can't really tell
+for sure what the room to the north was used for, but it looks like it may have
+been some kind of barracks. The chamber to the west is clearly a bath house,
+though like everything else here, it looks like it has been unused for ages.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 28 }
+	to { e, 22 }
+	to { s, 30 }
+	to { w, 36 }
+  }
+}
+
+30
+{
+  name { Hallway }
+  desc {
+"    You are in a dark north-south hallway in the mountain defense station. The
+walls are smooth, cut from the solid rock here deep inside the mountain. The
+ceiling is high, almost fifteen feet. The floor is flat and covered with a
+thick layer of dust. The hallway continues to the south as far as your light
+will show you, to the north it looks like it bends to the east. There is an
+opening in the west wall here, through which you just make out what might have
+one been a rec room. There are more openings further north along the corridor,
+but your light can't penetrate their inky darkness from here. You can go west
+to the rec room, or along the hallway to the north or south.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 29 }
+	to { s, 31 }
+	to { w, 37 }
+  }
+}
+
+31
+{
+  name { Hallway }
+  desc {
+"    You are in a dark north-south hallway in the mountain defense station. The
+walls are smooth, cut from the solid rock here deep inside the mountain. The
+ceiling is high, almost fifteen feet. The floor is flat and covered with a
+thick layer of dust. The hall continues north and south as far as your light
+can show you. There is also an opening to the west, through which you can see
+a set of stairs.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 30 }
+	to { s, 32 }
+	to { w, 38 }
+  }
+}
+
+32
+{
+  name { Hallway }
+  desc {
+"    You are in a dark north-south hallway in the mountain defense station. The
+walls are smooth, cut from the solid rock here deep inside the mountain. The
+ceiling is high, almost fifteen feet. The floor is flat and covered with a
+thick layer of dust. The hall continues north and south as far as your light
+can show you. There is also an opening to the west, through which you can see
+the tables and benches of a long-unused mess hall.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 31 }
+	to { s, 33 }
+	to { w, 39 }
+  }
+}
+
+33
+{
+  name { Hallway }
+  desc {
+"    You are in a dark hallway in the mountain defense station. The walls are
+smooth, cut from the solid rock here deep inside the mountain. The ceiling is
+high, almost fifteen feet. The floor is flat and covered with a thick layer of
+dust. The hallway bends here at a right angle; it now heads to the north and
+east. Through the opening in the west wall the ovens and stoves of a kitchen
+are visible. Through the opening to the south you see what certainly must have
+been a practice yard.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 32 }
+	to { e, 26 }
+	to { s, 34 }
+	to { w, 41 }
+  }
+}
+
+34
+{
+  name { Practice Yard }
+  desc {
+"    This room served as the training grounds the troops used to fine tune
+their skills in battle. All of the usual equipment is here, including the
+wooden counterswinger, complete with a worthless battered-looking metal
+shield in one hand and a wooden club in the other. There are also several
+pieces of cloth that were probably practice dummies before the hay they
+contained rotten away. Plus an indented pit in the center of the room where
+trainees could improve their skill at fighting on uneven ground. The yard
+continues to the west, to the north there is an exit to the hallway.
+  }
+  sector { City }
+  extra {
+	keywords { counterswinger" }
+	desc { It looks like when the shield is hit, it pivots to simulate a blow from the
+opponent. It was used to practice dodging and parrying counter-blows.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 33 }
+	to { w, 42 }
+  }
+}
+
+35
+{
+  name { Officer's Quarters }
+  desc {
+"    The desks in this room are in even worse shape that in the quarters the
+east. Not only have the drawers been taken out and splintered, but the desks
+themselves are mostly overturned and broken. Needless to say, all the mirrors
+that rested on the desks are shattered, and in most cases the frames that held
+them are in pieces as well. Someone has wreaked a lot of destruction here, for
+reasons that pose a mystery. The only exit is to the east.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 28 }
+  }
+}
+
+36
+{
+  name { Bath }
+  desc {
+"    This room served as a bath house for the soldiers of this outpost.  There
+are six open pits in the stone floor, each around four feet deep and six or so
+feet diameter, that served as tubs for those trying to rid themselves of dirt.
+There are small channels cut into the floor, an offshoot from the main
+channel, which extends from a small hole in the south wall, leads up each of
+the six pits. Because all the tubs are currently dry, and look to have been so
+for some time, you can see that at the bottom of each pit there is a small
+opening as well. Ostensibly, water flowed through the channels, into the tubs,
+and drained out through the holes. The engineering of this room impresses you
+immensely. There is only one exit, to the east.
+  }
+  sector { City }
+  extra {
+	keywords { pit tub pits tubs" }
+	desc { It's about four feet deep and six feet in diameter. It is now empty, but once
+water entered through the channels and left through a small hole in the bottom.
+These pits were carved from the stone, they were not naturally formed.
+	}
+	keywords { outlet drain" }
+	desc { It's pretty small, but by shining your light down it you can tell that it
+curves after dropping a foot or so. It was made, it is not natural, just
+like the pits themselves.
+	}
+	keywords { channel" }
+	desc { They are narrow gutters in the floor of the room through which water flowed
+from the inlet hole in the south wall to the tubs. The main one is about three
+inches deep, the others are only an inch or two in depth.
+	}
+	keywords { hole inlet" }
+	desc { It's right where the floor meets the south wall, near the center. It's only
+four inches wide, so you can't really tell where it comes from, though you
+can tell it bends up after a few feet.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 29 }
+  }
+}
+
+37
+{
+  name { Recreation Room }
+  desc {
+"    The troops of this place apparently knew how to have a good time, as well
+as to drill and fight. This rec room has a pool table, two dartboards, and a
+couple of chess and checker boards sitting on the tables. Unfortunately, there
+aren't any queues, darts, or complete sets to actually play the games anymore.
+Best of all, there is a bar in the back, which looks like it still has some
+bottles.
+  }
+  sector { City }
+  extra {
+	keywords { pool" }
+	desc { There are six pockets on a long, flat table covered with a strange fuzzy
+material. It is covered by a thin layer of dust. There are no signs of any
+balls or cues.
+	}
+	keywords { dart darts" }
+	desc { You could use it as a shield if it had some kind of handle. But unfortunately,
+neither does it have a handle, nor does it look like it would survive much
+damage, as it is constructed out of a pliable material. You can't find any
+darts for it.
+	}
+	keywords { chess checker boards board table" }
+	desc { The chess and checker boards are glued right down on the tables. You notice
+there are stains on them - looks like very old beer stains.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 30 }
+  }
+}
+
+38
+{
+  name { Stairs }
+  desc {
+"    The stairs lead both up and down from here - this place is bigger than you
+thought! Given what you have seen so far, you have come to the conclusion that
+at one time it served as some kind of military post. From the cut of the stone
+and the size of the place, you'd guess whoever made it was humanoid. And from
+the musty smell in the air and the dust on the ground, it seems likely this
+place is at least a couple centuries old. Who made it, and who they were
+defending themselves against, remains a mystery. You can go up or down the
+stairs, or exit on this level to the east.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 31 }
+	to { u, 58 }
+	to { d, 51 }
+  }
+}
+
+39
+{
+  name { Mess Hall }
+  desc {
+"    There are a lot of long, flat tables here, lending credence to your initial
+guess that this room served as a cafateria for the troops. This room is quite
+large, and the roof is higher than most of the other parts of the outpost. It's
+hard to say for sure, but it looks like the cafeteria continues on to the west.
+There is also an opening in the south wall, and one in the east wall that looks
+like it leads back to the hallway.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 32 }
+	to { s, 41 }
+	to { w, 40 }
+  }
+}
+
+40
+{
+  name { Mess Hall }
+  desc {
+"    This is the western end of a large cafeteria the troops of this outpost
+once used to feed their faces in. The heavy layer of dust over all the metal
+tables and benches makes it very unlikely it has been used for this function,
+or any function, for that matter, in the last few centuries, at least. The
+roof here is fairly high, as it is in the cafeteria section to the east, which
+is the only exit from here.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 39 }
+  }
+}
+
+41
+{
+  name { Kitchen }
+  desc {
+"    Two large ovens dominate this room, along with the stove that occupies the
+room's center. There are large iron pots all over the stove, and there are
+several shelves and drawers in the cabinets along the walls that have other
+kitchen utensils. The ovens are what draw your attention, though. They are
+both along the south wall, but are so large as to stick out several feet into
+the kitchen's center. They are about ten feet tall, and tower above you
+impressively. They look like they would be capable of feeding an army, which
+is good, because apparently that's what they did. There are two exits; east
+through a small door to a hallway, and north to the mess hall.
+  }
+  sector { City }
+  extra {
+	keywords { shelves drawers" }
+	desc { They have kitchen stuff in them. It all looks very dusty.
+	}
+	keywords { utensils" }
+	desc { You know, knives and spoons and forks and stuff like that. Cheese graters,
+pots and pans of various sizes. Kitchen stuff. Nothing of much interest to
+anyone other than a cook.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 39 }
+	to { e, 33 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+42
+{
+  name { Practice Yard }
+  desc {
+"    This half of the practice yard must have been used for more advanced
+training than in the yard to the east.  That would be your guess, anyway,
+because you can't really tell how the stuff in here operates well enough to
+assess what it was used for. There is one contraption with several pieces of
+wire tied at varying heights between two tall, flexible wooden poles. There is
+also an area where the floor is covered by a strange flexible material, which
+deforms and sinks when you put weight on it. Plus, there's a large, flat piece
+of wood with several holes drilled in various places all over it. Other, even
+stranger devices make you scratch your head in wonder. The practice yard
+continues to the east, which is the only exit.
+  }
+  sector { City }
+  extra {
+	keywords { contraption" }
+	desc { It's a curious looking thing, but you have no idea how it worked.
+	}
+	keywords { flexible material" }
+	desc { It makes you feel very strange to stand on it, since it deforms underneath
+you. It might be good for practicing fighting on very unsure ground.
+	}
+	keywords { board holes" }
+	desc { A person standing on one side of the board would have to react quite quicky
+to projectiles coming through the holes from the other side. Perhaps that
+is what it was used for.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 34 }
+  }
+}
+
+43
+{
+  name { Supply Room }
+  desc {
+"    This room was evidently used for the storage of foodstuffs, travelling
+equipment, clothing, boots, soap, and other necessities of military life. It
+looks as if the room has been ransacked thoroughly by someone or something, as
+all of the crates, once stacked in rows for easy access, are now scattered
+about the room, ripped open and revealing what little contents that still
+remain. Of the food, only a couple empty tins indicate that iron rations were
+once stored here - there are none here now. All the crates have been opened,
+but apparently not everything the looters discovered was of value to them. You
+can leave west.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { w, 47 }
+  }
+}
+
+44
+{
+  name { Armory }
+  desc {
+"    This room was once clearly an armory, though you can only infer this from
+the racks and hooks the weapons used hang on, for there isn't a single weapon
+remaining here now. Whoever looted this room did a very thorough job. From the
+dust on the floor you can tell that no one has entered this room for some
+time. Possibly, when the last of the weapons were taken, all reason to do so
+was eliminated. You can leave to the west.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { w, 48 }
+  }
+}
+
+45
+{
+  name { Stockade }
+  desc {
+"    This room seems to have escaped the rampages of whoever ransacked the
+other rooms on this level. This is probably a result of the large, locked,
+door that lies between here and the hallway. There is a desk here, and what
+looks like a filing cabinet. There is also a sturdy wooden chair behind the
+  }
+  sector { City }
+  extra {
+	keywords { chair" }
+	desc { A sturdy looking wooden chair. It doesn't look like it'd be worth taking.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { s, 46 }
+	  key { 21155 }
+	  info { door, closed }
+	  keywords { bars" }
+	to { w, 49 }
+	  key { 21154 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+46
+{
+  name { Cell }
+  desc {
+"    This is a small cell, surrounded by granite walls that look quite solid.
+It is quite chilly here, as the stone walls seem to radiate a coldness that
+makes you wrap your arms around yourself for warmth. The cell has a bed made
+of stone hanging off the south wall, and a very small hole in the southwest
+corner for waste disposal. There is a set of iron bars to the north; through
+them is the only exit.
+  }
+  sector { City }
+  extra {
+	keywords { hole" }
+	desc { It is too dark to see very far into it, but you think you hear the faintest
+trace of rushing water far below. There is no odor belying its function,
+though its presence and position in the cell make that clear.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 45 }
+	  key { 21155 }
+	  info { door, closed }
+	  keywords { bars" }
+  }
+}
+
+47
+{
+  name { Hallway }
+  desc {
+"    This is the north end of a hallway. The hall leads south as far as your
+light source will show you. The stone here is obviously cut - this is no
+natural passage but the work of some intellegent species. Given the size and
+orthagonality of the doorways and dimensions of the passages, you estimate
+that they were probably humanoid. There are openings a little wider than that
+of a door in the east and west walls, in addition to the route south along the
+hallway. Peeking through the openings reveals both rooms to be storage areas,
+though from here in the hall it is hard to tell what they hold. You think you
+see crates. There are sconces on the walls for torches, but there are none in
+them now.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 43 }
+	to { s, 48 }
+	to { w, 50 }
+  }
+}
+
+48
+{
+  name { Hallway }
+  desc {
+"    This is the middle of a short hall leading north and south. There is an
+opening in the east wall leading into what looks like it might have once been
+an armory, as your light casts shadows off the racks and hooks where weapons
+once could have hung. To the west are some stairs carved out of the solid
+rock. They lead up. The engineering required to manipulate the solid stone in
+this area so precisely impresses you. There are sconces on the walls for
+torches, but there are no torches in them now, leaving the hall dark except
+for your light.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 47 }
+	to { e, 44 }
+	to { s, 49 }
+	to { w, 51 }
+  }
+}
+
+49
+{
+  name { Hallway }
+  desc {
+"    You are in the south end of a hallway. There is an opening in the west
+wall, and it seems to lead into some kind of supply room, though it's hard to
+tell exactly what is stored there from here. There is a strong looking door
+set in the eastern wall, with a large metal locking mechanism and handle. The
+hall also extends to the north, beyond the range of your light source. There
+are sconces on the wall here, but they have no torches in them now. The
+corridor here, as everywhere in this area, is cut from solid stone.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 48 }
+	to { e, 45 }
+	  key { 21154 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 52 }
+  }
+}
+
+50
+{
+  name { Storage Room }
+  desc {
+"    This room is entirely unlike the rough, natural stone of the passages to
+the north. It is apparently a storeroom, though it looks as if it has been
+unused for some time. There are crates lining the walls, some of which are
+broken and have spilled their contents onto the floor. Unfortunately, it
+looks like whatever they once held was perishable, because all that is left
+now is shards of broken glass and stains on the stone floor. There are also
+some wooden planks from broken barrels, along with a couple of barrels that
+are still intact, lined up against the south wall. There is a square opening
+in the east wall, unlike the small jagged hole in the north that leads back to
+the tunnels.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  tele { 50, 1, 65 }
+  exits {
+	to { n, Trog_caves:39 }
+	  keywords { barrel" }
+	to { e, 47 }
+  }
+}
+
+51
+{
+  name { Stairs }
+  desc {
+"    A stairwell is carved out of the solid rock here. It leads up to the west,
+and doubles back to the east above you. There are torch sconces on the walls
+of the stairwell, but they are empty, leaving the place unilluminated except
+for your light source. It is impossible to tell where the stairs lead to above,
+but there is a hallway visible to the east that leads north and south, and
+further to the east you can just see and opening in the hallway wall.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 48 }
+	to { u, 38 }
+  }
+}
+
+52
+{
+  name { Medical Supply Room }
+  desc {
+"    This room has an unpleasant odor, as if something crawled into it an died
+long ago. There are dusty, dry webs all over the walls, ceiling, floor, and
+the crates that are stacked in rows about the room. You also note there is a
+skeleton still loosely attached to one of the dry webs, complete with all the
+gear its owner wore ages ago. It looks like a troglodyte skeleton.  There
+crates in this room are all sealed and unbroken - whoever got at the stored
+goods elsewhere apparently didn't have as much luck here. From the etchings on
+the side of the wooden crates, you surmise it is medical equipment that is
+stored inside. You can exit to the east  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 49 }
+  }
+}
+
+53
+{
+  name { Conference Room }
+  desc {
+"    The walls in this mid sized room are covered with faded drawings that are
+practically incomprehensible due to the lightness of the lines with which they
+were drawn. There is a huge oval table in the center of the chamber, leaving
+a relatively scant amount of space between the table and the walls in which to
+move about the room. The table is made of a wood-like substance, but unlike the
+wall maps it shows no signs of the passage of time. There are fifteen or so
+large chairs set around the table, at which the commanders at one time perched
+to mull over their battle plans. The only exit is to the west.
+  }
+  sector { City }
+  extra {
+	keywords { table" }
+	desc { It has weathered time's passage extremely well. It is so large, though, that
+you have to wonder how it possibly could have been put in this chamber, in
+which it barely fits. Clearly the engineers of this place were privy to
+knowledge you're not familiar with.
+	}
+	keywords { chair chairs" }
+	desc { They look like your regular sturdy chairs.
+	}
+	keywords { drawings" }
+	desc { There is only one left that is at all legible. It looks like this:
+
+                     Rhyodin
+
+        _______     _____##___________
+       /       \    \                 \____
+      /         \____|                     \
+      |  X                          X       \
+      |                                      |
+      |                                      |
+     /          X           X                |
+     |                               X       |
+     |                                       |
+     |       X                               |
+     #                 O  O O O              |
+     #               O                       |
+     |                   O O                 |
+     |                O                      |
+     |                                 X     |
+     \     X                                 |
+      \                      X               /
+       \        _______                     /
+      _/       |       |     _____         /
+     |         |       |    /     \       /
+     |         |       |  _/       \_____/
+     |   _____ |_______| /
+     \__/     \_________/
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { w, 57 }
+  }
+}
+
+54
+{
+  name { Guest's Quarters }
+  desc {
+"    This room was probably pretty nice at one time, though it looks like it
+has been looted several times since the original residents left. At one time
+it had a door, but it has since been wrenched off it's hinges and now lies on
+the ground. There is a bed, with the stuffing ripped out and spread all over
+the room, then covered with a fine layer of dust, like everything else in
+here. There is also a desk, tipped over on one side with one of the legs torn
+off completely. There's no sign of it now. Whatever other furtinure was here
+at one time has either been stolen or smashed to bits. The only way out is
+through the doorframe to the west.
+  }
+  sector { City }
+  extra {
+	keywords { bed stuffing" }
+	desc { Only the frame and board of the original bed remain intact, and they are
+dinged and scratched. The stuffing looks like some kind of unspun cloth, and
+has dryed out completely over time.
+	}
+	keywords { desk" }
+	desc { It is empty, and not worth taking (it looks rather heavy, anyway).
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { w, 58 }
+  }
+}
+
+55
+{
+  name { Extravagant Chambers }
+  desc {
+"    Wow! This room is a stark contrast to everything else you've seen in this
+place. There are unmarred furnishings here, complete with expensive tapestries
+on the walls, a large, comfortable-looking bed, a desk, and a cabinet filled
+with all kinds of interesting stuff. There is a pentagram pattern in the
+middle of the incredibly beautiful rug that covers the floor, upon which there
+is a small pedestal, which is sometimes occupied. The place shows signs of
+recent use. The mahogany door to the west is the sole exit.
+  }
+  sector { City }
+  extra {
+	keywords { bed" }
+	desc { The bed is a heavy wooden frame upon which rests an unnaturally comfortable
+mattress. The comforter seems to be made of some kind of funny material which
+is both soft and yet durable. The sheets are  done in a tasteful off-white
+color.
+	}
+	keywords { rug" }
+	desc { It is an expensive piece of work. The material is smooth to the touch, yet
+very strong. The weave is intricate, almost hypnotizing. It is done
+predominantly in black and gold, though the pentagram in the center, upon
+which the pedestal rests, is done in a silvery-red.
+	}
+	keywords { pedestal" }
+	desc { A small piece of furniture constructed of a strange organic material you do
+not recognize. It is rigid, yet flexible when force is exerted on it. Upon
+closer examination you realize it isn't resting on the rug, but hovers a half-
+inch above it. Even so, it resists all efforts to budge it. Quite unsettling.
+	}
+	keywords { tapestries" }
+	desc { Very tastefully done motifs showing the rise and fall of various civilizations.
+You think at least one of them may be depicting future events, as you can see
+a scene in which a town that has an uncanny resemblance to Midgaard is being
+assaulted by a force of undead. It is quite disconcerting, but the living seem
+to at least be holding their own in the scenes revealed there.
+	}
+	keywords { pentagram" }
+	desc { You know, the kind used for summoning and controlling demons. It's impossible
+to tell if it's actually been used for that purpose, but the neatness of the
+room ensures whatever demons might have been summoned certainly must have been
+well behaved (and thus doubtless controlled).
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { w, 59 }
+	  key { 21156 }
+	  info { door, closed }
+	  keywords { mahogany" }
+	to { u, 67 }
+	  key { 21156 }
+	  info { door, closed }
+	  keywords { secret" }
+  }
+}
+
+56
+{
+  name { Archives }
+  desc {
+"    This room appears to be where all the records and books of this place were
+kept. There are four large bookshelves here, one against each wall. You entered
+through an opening in the bookshelf along the south wall. There is also a small
+table in the center of the room surrounded by a few chairs.
+  }
+  sector { City }
+  extra {
+	keywords { table" }
+	desc { Apparently it was used as a reading table.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { s, 57 }
+  }
+}
+
+57
+{
+  name { Hallway }
+  desc {
+"    This is the northern end of a short hallway. There are sconces on the wall
+for torches, but evidently no torches have blazed here for a long time. There
+are openings in the walls to the north, east, and west, and the corridor
+continues to the south. The bare stone of the walls is here covered up with a
+thin layer of some kind of wood, which has the effect of making the place look
+less austere than elsewhere. It's too dark to tell what's north or east, but
+you think the room to the west is a dining hall of some sort.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 56 }
+	to { e, 53 }
+	to { s, 58 }
+	to { w, 62 }
+  }
+}
+
+58
+{
+  name { Central Hallway }
+  desc {
+"    There is a set of stairs emerging from the center of the hallway here, and
+the hall itself forms a square around this stair exit, thus making the corridor
+here resemble a room more than a simple hall. As elsewhere, there are empty
+sconces in the walls for torches. There are doors to the east and west here,
+though it looks like the doorframe to the east no longer has a door on it, and
+the western door is ajar. The hallway continues to the north and south, though
+it looks like it terminates shortly on both ends. The stairway leads down into
+darkness.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 57 }
+	to { e, 54 }
+	to { s, 59 }
+	to { w, 63 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 38 }
+  }
+}
+
+59
+{
+  name { Hallway }
+  desc {
+"    This end of the hallway seems particularly dark. There are doors to the
+east and south, and both look like they have resisted several attempts to
+break into them. The mahogany door to the east shows far less damage than the
+door to the south, however. To the west, there is a room that looks like it
+was once a bath, though you can't make out the room's details from here in the
+hall outside. The hallway also continues to the north.
+  }
+  sector { City }
+  extra {
+	keywords { mahogany" }
+	desc { There is a warning glyph on it. Apparently this is a private residence.
+	}
+	keywords { door" }
+	desc { The door to the south has a strip of a strange yellow substance across it,
+upon which is printed some incomprehensible text that has almost entirely
+faded away with time. It has multiple dents and scratches, probably from
+multiplte attempts to break in over the ages.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 58 }
+	to { e, 55 }
+	  key { 21156 }
+	  info { door, closed }
+	  keywords { mahogany" }
+	to { s, 60 }
+	  key { 21151 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 64 }
+  }
+}
+
+60
+{
+  name { Captain's Quarters }
+  desc {
+"    This room has a rank smell, like something died in here. This in itself
+would not be so amazing if it weren't true that whatever did die in here did
+it a very long time ago. Despite the passage of time, there are still very
+visible bloodstains on the walls, floor, and furniture here. The rusty red
+color goes quite nicely with the black color of everything else in the room,
+including the walls and all the furniture. This place really gives you the
+creeps for some reason. The black bed and dresser seem to have been untouched
+by the passage of time, and there is a mirror atop the dresser that is, quite
+amazingly, unbroken. Doubtless an artifact of this room's having been sealed.
+There is an exit through the door to the north.
+  }
+  sector { City }
+  extra {
+	keywords { bed" }
+	desc { It is a normal bed, except like everything else here it is covered with both
+what looks like a layer of baked-on soot and a fair amount of dried blood.
+Somebody here sure bled a lot.
+	}
+	keywords { mirror" }
+	desc { Not your ordinary reflection. You are reflected, but the image in the mirror
+is skeletal. Like you, only with no flesh. Rather disconcerting.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 59 }
+	  key { 21151 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+61
+{
+  name { Kitchen }
+  desc {
+"    This room is a bit warmer than any of the other places you've visited
+around here. The few degrees rise in temperature is a welcome change from the
+coolness of most of the rooms here in a place that sunlight never reaches.
+There is a stove, and what looks like a pantry, with an old, rusted-looking
+lock that is still, curiously enough, intact. You can exit to the mess hall
+southwards.
+  }
+  sector { City }
+  extra {
+	keywords { stove" }
+	desc { The stove isn't actually working, but it looks like the source of heat is
+a large metal plate fastened to the wall behind the stove, which is noticeably
+warmer against your hand than the ambient temperature of the room.
+	}
+	keywords { metal plate" }
+	desc { It looks like it was attached to the wall very securely, though what exactly
+was used to do so is unclear. With leverage, though, you might be able to pry
+it off to reveal whatever's behind it.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { e, Arachnos:1150 }
+	  key { 21114 }
+	  info { door, closed }
+	  keywords { plate" }
+	to { s, 62 }
+  }
+}
+
+62
+{
+  name { Officer's Mess }
+  desc {
+"    This room served as the dining chamber of the commanders of this place,
+and whatever guests they happened to be entertaining. There are four tables
+in this mid-sized room, each successively a bit nicer than the one before,
+going clockwise from the northeastern most table. There are no settings on
+any of them now. There is a doorway to the north, with only swinging doors
+separating this room from the kitchen that you can just make out in that
+direction. You can also exit to the hallway eastwards.
+  }
+  sector { City }
+  extra {
+	keywords { 1.table northeast" }
+	desc { The northeast table made of sturdy pine. Surrounded by like chairs.
+	}
+	keywords { 2.table southeast" }
+	desc { The table in the southeast corner is made of birch, as are the chairs.
+	}
+	keywords { 3.table southwest" }
+	desc { An oaken table and chair set sit in the southwest end of the chamber. Very
+nice but too heavy to take anywhere.
+	}
+	keywords { 4.table northwest" }
+	desc { In the northwest corner there is a table made of mahogany.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 61 }
+	  keywords { swinging" }
+	to { e, 57 }
+  }
+}
+
+63
+{
+  name { Guest's Quarters }
+  desc {
+"    The door to this room looks a bit battered, but at least it's still on its
+hinges and capable of closing. The room is sparsely furnished, though it looks
+like at one time it might have been rather nicely decorated. What is left of
+the furniture in here is pretty much destroyed. What once might have been a
+bed is now just a lot of broken wood and torn cloth scattered around the floor.
+The dresser is in slightly better shape, at least you can still recognize how
+the pieces once fit together. Everything is here is looking pretty broken. The
+exit is east.
+  }
+  sector { City }
+  extra {
+	keywords { wood broken" }
+	desc { Bits of broken wood are scattered about the room.
+	}
+	keywords { dresser" }
+	desc { It is destroyed, but not quite beyond recognition.
+	}
+	keywords { cloth" }
+	desc { The material is light, but seems to have resisted the trials of time. Once it
+was the bed stuffing, is your best guess.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 58 }
+	  keywords { door" }
+  }
+}
+
+64
+{
+  name { Bath }
+  desc {
+"    There are two pits in this room that once served as tubs for the officers
+to bathe in. They are both dryed out now, though the channels in the floor
+through which the water used to run are still intact. A small hole in the
+north wall is the source of the channels in the floor that lead to the two
+now-empty pits. A small hole at the bottom of each provides drainage. There
+is a single exit, it is to the east.
+  }
+  sector { City }
+  extra {
+	keywords { pit tub pits tubs" }
+	desc { It's about four feet deep and six feet in diameter. It is now empty, but once
+water entered through the channels and left through a small hole in the bottom.
+These pits were carved from the stone, they were not naturally formed.
+	}
+	keywords { outlet drain" }
+	desc { It's pretty small, but by shining your light down it you can tell that it
+curves after dropping a foot or so. It was made, it is not natural, just
+like the pits themselves.
+	}
+	keywords { channel" }
+	desc { They are narrow gutters in the floor of the room through which water flowed
+from the inlet hole in the south wall to the tubs. The main one is about three
+inches deep, the others are only an inch or two in depth.
+	}
+	keywords { hole inlet" }
+	desc { It's right where the floor meets the south wall, near the center. It's only
+four inches wide, so you can't really tell where it comes from, though you
+can tell it bends up after a few feet.
+	}
+  }
+  flags { dark, indoors, private }
+  exits {
+	to { e, 59 }
+  }
+}
+
+65
+{
+  name { Earthquake! }
+  desc {
+"    Something is wrong, the ground under your feet is moving, and you pitch
+and shake, stumbling. You can barely keep your balance on the moving floor!
+  }
+  flags { dark, indoors, private }
+  tele { 10, 0, 66 }
+  exits {
+	to { n, Trog_caves:39 }
+	to { e, 47 }
+  }
+}
+
+66
+{
+  name { Storage Room }
+  desc {
+"    This room is entirely unlike the rough, natural stone of the passages to
+the north. It is apparently a storeroom, though it looks as if it has been
+unused for some time. There are crates lining the walls, some of which are
+broken and have spilled their contents onto the floor. Unfortunately, it
+looks like whatever they once held was perishable, because all that is left
+now is shards of broken glass and stains on the stone floor. There are also
+some wooden planks from broken barrels, along with a couple of barrels that
+are still intact, lined up against the south wall. There is a square opening
+in the east wall, unlike the small jagged hole in the south that leads back to
+the tunnels.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, Trog_caves:39 }
+	to { e, 47 }
+  }
+}
+
+67
+{
+  name { Blah's Hideaway }
+  desc {
+"    Like the chambers below it, this room also looks like it has been used of
+late. There are racks on the walls for weapons, bookshelves for magical tomes,
+and a laboratory for the manufacture of healing potions and salves. Just above
+the lab is a small altar to the gods. There is a single bed, a big wooden desk
+with chair on rollers behind it, and also a big warchest, now open, in which
+you can see an impressive array of hard won treasures. Clearly the resident of
+this room is a man of many talents.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, private }
+  exits {
+	to { e, Midgard:54 }
+	  keywords { altar" }
+	  desc { This portal shows a scene of a quiet altar of Odin.
+}
+	to { w, Skexie:308 }
+	  keywords { trail" }
+	  desc { In this portal you see a small trail, with gypsy's walking about on it.
+}
+	to { u, 68 }
+	  keywords { loft" }
+	  desc { The is a small loft above that you hadn't noticed before.
+}
+	to { d, 55 }
+	  key { 21156 }
+	  info { door, closed }
+	  keywords { secret" }
+  }
+}
+
+68
+{
+  name { Insane Asylum }
+  desc {
+The walls are padded, and there is an empty straight-jacket resting on the
+floor. You wonder what kind of lunatic has escaped...
+  }
+  flags { no_mob, indoors, peaceful, no_sum, private }
+  exits {
+	to { d, 67 }
+  }
+}
+
+69
+{
+  name { Sloping Passage }
+  desc {
+"  You are standing in the middle of a sloping passage.  The passage has
+been carved right into the side of the mountain.  It slopes down at a
+steep gradient to the east and you are not sure you will be able to get
+back.  The way to the west looks like a natural tunnel. 
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 0 }
+	to { w, 70 }
+  }
+}
+
+70
+{
+  name { A Natural Tunnel }
+  desc {
+"  The tunnel floor floor is very unlevel making your footing precarious.
+The tunnel is in an east and west direction.  The continuation east looks
+more like it was made by someone rather than a natural occurance.  The 
+way to the west is similar to this part of the tunnel except for an
+occasional stalagmite that can be seen.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 69 }
+	to { w, 71 }
+  }
+}
+
+71
+{
+  name { A Tunnel }
+  desc {
+"  This tunnel is very uneven in spots and also has stalagmites on its
+floor which cause you to move slowly to avoid falling.  The stalagmites
+are beautiful objects.  They look like wax candles that have been melted
+somewhat.  The dampness that caused these features has ceased to exist.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 70 }
+	to { w, 72 }
+  }
+}
+
+72
+{
+  name { Tunnels }
+  desc {
+"  The tunnel that you stand in is quite smooth.  It almost looks like it
+was made by someone but there is a certain feel to it that makes it seem
+natural.  This tunnel is not very large and you have to duck in certain
+areas to get through.  It heads off to the west where you can see some
+faint light and to the west which is shrouded in darkness.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 71 }
+	to { w, 73 }
+  }
+}
+
+73
+{
+  name { Tunnel Entrance }
+  desc {
+"  You stand inside a tunnel which dead ends in all directions except to the
+east.  It is quite warm in here and the dust causes you to sneeze.  There
+is some illumination from what appears to be a crack between the tunnel
+and rock in the north wall.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, Crossroads:7 }
+	  info { door, closed }
+	  keywords { rock boulder" }
+	to { e, 72 }
+  }
+}
+
+74
+{
+  name { 21343 }
+  desc {
+Empty
+  }
+}
+
+78
+{
+  name { 21347 }
+  desc {
+Empty
+  }
+}

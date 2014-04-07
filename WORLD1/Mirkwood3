@@ -1,0 +1,14 @@
+
+0
+{
+  name { In Mirkwood }
+  desc {
+"  You thankfully leave Arachnos.  You can return North into Arachnos, or
+you can head East back into Mirkwood.
+  }
+  sector { Field }
+  exits {
+	to { n, Arachnos:1 }
+	to { e, Mirkwood1:0 }
+  }
+}

@@ -1,0 +1,171 @@
+
+0
+{
+  name { The Crossroad }
+  desc {
+"   Four roads meet here, and a large signpost labels each of them.  To the
+west, you can see the smoke and haze of a city.  To the north is a hilly area,
+to the east, another hilly area that looks like it heads into the mountains,
+and to the south is a spooky forest.
+  }
+  sector { Field }
+  exits {
+	to { n, Moria1:75 }
+	to { e, 2 }
+	to { s, 1 }
+	to { w, Midgard:503 }
+  }
+}
+
+1
+{
+  name { Entrance to Mirkwood }
+  desc {
+"   You are in a dark forest.  Why is it called Mirkwood?  You'll see in a
+little while.
+  }
+  sector { Field }
+  exits {
+	to { n, 0 }
+	to { s, Ambush:0 }
+  }
+}
+
+2
+{
+  name { Southern Path }
+  desc {
+"   The southern path continues.. er... East.   And, er... west.
+  }
+  sector { Field }
+  exits {
+	to { e, 3 }
+	to { w, 0 }
+  }
+}
+
+3
+{
+  name { Southern Path }
+  desc {
+"   The path has finally partially straightened itself out, and now goes
+south and west.
+  }
+  sector { Field }
+  exits {
+	to { s, 4 }
+	to { w, 2 }
+  }
+}
+
+4
+{
+  name { Southern Path }
+  desc {
+"  The path leads north and south, as a southern path should.  To the south,
+you can see some rocks strewn about.
+  }
+  sector { Field }
+  exits {
+	to { n, 3 }
+	to { s, 5 }
+  }
+}
+
+5
+{
+  name { Rocks }
+  desc {
+"  This looks like some crags with different sized rocks and boulders lying
+everywhere.  It seems almost as if there was an avalanche recently from
+the mountains to the far south.  Some of the boulders have grass and 
+vegetation growing on them as a result of erosion.
+  }
+  sector { Field }
+  exits {
+	to { n, 4 }
+	to { s, 6 }
+  }
+}
+
+6
+{
+  name { Rocks }
+  desc {
+"  You begin to weave your way through the many gigantic boulders that lay
+in your path.  You can see a cliff face on the southern horizon which is
+probably where they came from.  There is some grass growing here but the
+ground is covered with mostly dirt.  The climate is beginning change and
+become slightly warmer than Midgard's temperate climate.
+  }
+  sector { Field }
+  exits {
+	to { n, 5 }
+	to { s, 7 }
+  }
+}
+
+7
+{
+  name { Cliff Face }
+  desc {
+"  You stand before a gigantic cliff face.  The stone is quite warm to your
+touch and very jagged.  You might be able to climb the face if you had the
+right equipment.  There is a lone boulder lying up against the cliff face.
+It looks circular in shape and quite smooth for a boulder.
+  }
+  sector { Field }
+  exits {
+	to { n, 6 }
+	to { s, Rhyodin:73 }
+	  info { door, closed }
+	  keywords { boulder rock" }
+  }
+}
+
+100
+{
+  name { In Mirkwood }
+  desc {
+You are deep in the heart of the forest of Mirkwood.  You are unable to
+walk south because of brownish, stagnant river.  You can continue to walk
+either west or north.
+  }
+  sector { Forest }
+  exits {
+	to { n, Ambush:0 }
+	to { s, river1:0 }
+	to { w, 200 }
+  }
+}
+
+101
+{
+  name { 15101 }
+  desc {
+Empty
+  }
+}
+
+200
+{
+  name { In Mirkwood }
+  desc {
+"   You come to a huge expanse of spider webs.  Icky.  Now you know why it is
+called Mirkwood, although you start to think that Arachnos would be a better
+name...  You can go north into Arachnos or East back into Mirkwood.
+  }
+  sector { Forest }
+  exits {
+	to { n, Arachnos:1 }
+	to { e, 100 }
+  }
+}
+
+300
+{
+  name { 15300 }
+  desc {
+Empty
+  }
+}

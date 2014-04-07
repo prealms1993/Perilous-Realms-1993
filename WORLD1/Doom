@@ -1,0 +1,1516 @@
+
+0
+{
+  name { Entrance to Dungeon Of Doom. }
+  desc {
+"     You have come across a strange formation of rock.  You see what
+appears to be a door and around the door are three statues.  Those of a
+griffith, a small dragon, and a minotaur.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { s, 108 }
+ to { d, 15 }
+  }
+}
+
+1
+{
+  name { The Underground General Store. }
+  desc {
+"     You have entered the Underground Store.  The store has a limited
+supply because of it's location underground.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { n, 33 }
+ to { e, 19 }
+  }
+}
+
+2
+{
+  name { The Underground Inn. }
+  desc {
+"     You have entered the Underground Inn.  In front of you stands the
+innkeeper.  A sign is on the back wall.
+  }
+  sector { Forest }
+  extra {
+ keywords { sign" }
+ desc {
+ "                   ***********************************
+                    * Welcome to the Underground Inn. *
+                    *                                 *
+                    *   Payment required in advance   *
+                    ***********************************
+                    *      Use the command 'rent'     *
+                    *          to get a room          *
+                    ***********************************
+ }
+  }
+  flags { indoors }
+  exits {
+ to { e, 21 }
+  }
+}
+
+3
+{
+  name { An underground passageway. }
+  desc {
+"     You are wandering around an underground tunnel.  You hear strange
+sounds all around you and wonder what they are coming from.  You feel
+a slight breeze to the west.
+  }
+  sector { Forest }
+  flags { no_mob, indoors }
+  exits {
+ to { s, 4 }
+ to { w, 16 }
+  }
+}
+
+4
+{
+  name { An underground passageway. }
+  desc {
+"     You are walking around in an underground passageway and all around
+you are heard the sounds of mysterious and hideous monsters.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { n, 3 }
+ to { e, 8 }
+  }
+}
+
+5
+{
+  name { The Underground Bakery. }
+  desc {
+"     As you walk into the door you are assaulted by the delicious aromas
+of freshly baked bread and pastries.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { w, 19 }
+  }
+}
+
+6
+{
+  name { The Doomed Man's Pub. }
+  desc {
+"     Welcome to the Doomed Man's Pub, The Underdark's premier tavern.
+Over against the wall you see a bar made of solid oak with a hangman's
+noose dangling above the barkeep's head.
+  }
+  sector { Forest }
+  extra {
+ keywords { bar" }
+ desc { A large bar that is made of sturdy oak and takes up the entire
+ eastern wall }
+  }
+  flags { indoors }
+  exits {
+ to { w, 21 }
+  }
+}
+
+7
+{
+  name { An underground chamber. }
+  desc {
+"   You are in a large underground chamber from which you can see the
+entrance to the Beginner's Arena to the east.  This chamber extends to the
+south, and east.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { e, 24 }
+ to { s, 8 }
+  }
+}
+
+8
+{
+  name { An underground chamber }
+  desc {
+"     You are at the southwest corner of an underground chamber.  You can
+barely see the entrance to the Beginner's arena to the northeast.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { n, 7 }
+ to { e, 25 }
+ to { w, 4 }
+  }
+}
+
+9
+{
+  name { A dark, underground chamber. }
+  desc {
+"     You are in an extremely dark chamber that seems to absorb part of the
+light from your torch.  You can barely see your hands in front of your
+face.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+ to { e, 26 }
+ to { s, 10 }
+  }
+}
+
+10
+{
+  name { A dark, underground chamber. }
+  desc {
+"     You are in an extremely dark chamber that your torch can barely
+light.  You can barely see what's ahead.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+ to { n, 9 }
+ to { e, 27 }
+ to { s, 11 }
+  }
+}
+
+11
+{
+  name { An underground passageway. }
+  desc {
+"     You are wandering around in an underground passageway wondering if
+you will make it out of this dungeon alive.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+ to { n, 10 }
+ to { e, 28 }
+  }
+}
+
+12
+{
+  name { An underground passageway. }
+  desc {
+"     You are wondering around in a darkened underground tunnel in which
+your light source seems to be no more than a match.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+ to { e, 30 }
+ to { s, 23 }
+  }
+}
+
+13
+{
+  name { An underground passageway. }
+  desc {
+"     You have come across a large staircase heading down into darkness.
+You hear strange sounds emanating from the opening.
+  }
+  sector { Forest }
+  flags { no_mob, indoors }
+  exits {
+ to { e, 14 }
+  }
+}
+
+14
+{
+  name { An underground passageway. }
+  desc {
+"    You are wandering around in an underground tunnel and you see to the
+north the south gate to the Underground City.  You also hear strange sounds
+emanating from the west.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { n, 22 }
+ to { e, 32 }
+ to { w, 13 }
+  }
+}
+
+15
+{
+  name { An underground passageway. }
+  desc {
+"     You are in a tunnel that is, strangely enough, lighted by some
+substance on the rocks that make up the sides.  You hear the sounds of the
+forest above and deadly quiet to the east.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { e, 16 }
+ to { u, 0 }
+  }
+}
+
+16
+{
+  name { An underground passageway. }
+  desc {
+"     You are walking along in an underground chamber.  The air down
+here is remarkably cooler than outside, which makes you glad you are
+wearing armor.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { e, 3 }
+ to { s, 17 }
+ to { w, 15 }
+  }
+}
+
+17
+{
+  name { A well maintained passageway. }
+  desc {
+"     You are amazed by how well maintained this passageway is and
+wonder why.  Listening harder you hear the sounds of what might be a
+city to the south and wonder if you are hearing things.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { n, 16 }
+ to { s, 18 }
+  }
+}
+
+18
+{
+  name { The north gate to the Underground City. }
+  desc {
+"     You are at the northern gate of the Underground City.  The city
+appears to have been built in an extremely large underground cavern.  Light
+streams in to light the cavern from several openings in the ceiling of the
+cavern.
+  }
+  sector { Forest }
+  flags { no_mob, indoors }
+  exits {
+ to { n, 17 }
+ to { s, 19 }
+  }
+}
+
+19
+{
+  name { Underground Road. }
+  desc {
+"     You are walking along Underground Road.  To the east and west you see
+two different shops.  To the north you see the northern entrance to the
+city.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { n, 18 }
+ to { e, 5 }
+ to { s, 20 }
+ to { w, 1 }
+  }
+}
+
+20
+{
+  name { Underground Road. }
+  desc {
+"     You are looking along Underground Road.  You see two empty lots on
+either side of the road that have For Sale signs up.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { n, 19 }
+ to { e, 34 }
+ to { s, 21 }
+ to { w, 35 }
+  }
+}
+
+21
+{
+  name { Underground Road. }
+  desc {
+"     You are walking along the Underground Road.  You see shops on both
+sides of the road.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { n, 20 }
+ to { e, 6 }
+ to { s, 22 }
+ to { w, 2 }
+  }
+}
+
+22
+{
+  name { The south gate to the Underground City. }
+  desc {
+"     You are at the southern gate of the Underground City.  A dwarven
+guard is usually assigned to stand watch here and keep out any wandering
+monsters that may happen to come by.
+  }
+  sector { Forest }
+  flags { no_mob, indoors }
+  exits {
+ to { n, 21 }
+ to { s, 14 }
+  }
+}
+
+23
+{
+  name { An underground passageway. }
+  desc {
+"     You are wondering around in a dark, underground tunnel in which your
+source of light can barely penetrate the darkness around you.  The tunnel
+seems to get lighter to the west.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+ to { n, 12 }
+ to { w, 32 }
+  }
+}
+
+24
+{
+  name { An underground chamber }
+  desc {
+"     You are at the northeast corner of an underground chamber.  You can
+see the temporarily sealed entrance to the Beginner's Arena to the east.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { e, 50 }
+   key { 35002 }
+   info { door, locked }
+   keywords { door" }
+ to { s, 25 }
+ to { w, 7 }
+  }
+}
+
+25
+{
+  name { An underground chamber. }
+  desc {
+"     You are at the southeast corner of an underground chamber.  You can
+see the entrance to the Beginner's arena to the north.  You also see
+another tunnel heading off to the south into the darkness.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { n, 24 }
+ to { s, 26 }
+ to { w, 8 }
+  }
+}
+
+26
+{
+  name { A dark, underground chamber. }
+  desc {
+"     You are in an extremely dark, chamber that seems to absorb part of
+the light from your torch.  You can barely see your hands in front of your
+face.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { n, 25 }
+ to { s, 27 }
+ to { w, 9 }
+  }
+}
+
+27
+{
+  name { A dark, underground chamber. }
+  desc {
+"     You are in an extremely dark chamber where your torch is of little
+use.  You hear strange sounds nearby and wonder where they're coming from.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { n, 26 }
+ to { w, 10 }
+  }
+}
+
+28
+{
+  name { An underground passageway. }
+  desc {
+"     You are wondering around in an extremely dark passageway.  The
+light of your torch seems unable to light more than a mere match in
+the darkness.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+ to { s, 29 }
+ to { w, 11 }
+  }
+}
+
+29
+{
+  name { An underground passageway. }
+  desc {
+"     You are wondering around in an extremely dark passageway.  The
+light of your torch seems unable to light more than a mere match in
+this darkness.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+ to { n, 28 }
+ to { s, 30 }
+  }
+}
+
+30
+{
+  name { An underground passageway. }
+  desc {
+"     You are wondering around in a darkened passageway.  To the south you
+hear what sounds to be some kind of chained animal.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+ to { n, 29 }
+ to { w, 12 }
+  }
+}
+
+31
+{
+  name { An underground passageway. }
+  desc {
+"     You have stumbled across the home of some demented creature by what
+you see around you.  There are bones from various different creatures
+unlucky enough to come here when it's meal time which is anytime of the
+day.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { n, 30 }
+  }
+}
+
+32
+{
+  name { An underground passageway. }
+  desc {
+"     You are wondering around in an underground passageway.  To the east
+you see the tunnel disappear into darkness and to the west you see the
+southern gate to the Underground City.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { e, 23 }
+ to { w, 14 }
+  }
+}
+
+33
+{
+  name { A storeroom }
+  desc {
+"     It looks like this storeroom isn't used anymore.  There are a few
+rusted items laying around.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+ to { s, 1 }
+  }
+}
+
+34
+{
+  name { A vacant lot. }
+  desc {
+"     You are in a large empty lot that has a large For Sale sign sticking
+up on top of a mound of dirt.
+  }
+  sector { Mountains }
+  extra {
+ keywords { sign" }
+ desc { "                       ------------------------------
+                      |        ** FOR SALE **        |
+                      |                              |
+                      |  UNDERGROUND REALTY COMPANY  |
+                      |       1313 Main Street       |
+                      |        Doom, PR 02150        |
+                       ------------------------------
+ }
+  }
+  flags { indoors }
+  exits {
+ to { w, 20 }
+  }
+}
+
+35
+{
+  name { A vacant lot. }
+  desc {
+"    You are in a large empty lot that has a large For Sale sign sticking
+up on top of a small mound of dirt.
+  }
+  sector { Forest }
+  extra {
+ keywords { sign" }
+ desc { "                       ------------------------------
+                      |        ** FOR SALE **        |
+                      |                              |
+                      |  UNDERGROUND REALTY COMPANY  |
+                      |       1313 Main Street       |
+                      |        Doom, PR 02150        |
+                       ------------------------------
+ }
+  }
+  flags { indoors }
+  exits {
+ to { e, 20 }
+  }
+}
+
+50
+{
+  name { Entrance to Beginner's Arena. }
+  desc {
+"     You have entered a large cavern that has been converted into a large
+arena.  You hear the weird sounds of wild beasts all around you and decide
+you had better be on your toes.
+You see a large sign on the wall.
+  }
+  sector { Forest }
+  extra {
+ keywords { sign" }
+ desc { This arena is set aside for the aspiring young adventurer.  Please
+ do not
+make me restrict access to higher levels.  Also this arena is not to be
+used for player-killing tournaments.
+ }
+  }
+  flags { no_mob, indoors }
+  exits {
+ to { e, 54 }
+ to { s, 51 }
+ to { w, 24 }
+  }
+}
+
+101
+{
+  name { The Entrance to a Pass through the Mountains of Doom }
+  desc {
+"     You are walking along a winding path through the mountains of Doom.
+All around you can be heard the sounds of mountain goats and other wild
+mountain critters... you hope that not many of them are aggressive.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 172 }
+ to { e, 102 }
+ to { s, 109 }
+  }
+}
+
+102
+{
+  name { The Mountains of Doom. }
+  desc {
+"     You are walking through the mountains of Doom. The path you are
+walking on seems to be relatively well traveled so you feel that maybe
+the meaner monsters will leave you alone.
+  }
+  sector { Mountains }
+  exits {
+ to { s, 110 }
+ to { w, 101 }
+  }
+}
+
+103
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.  Looking west you see something different about the wall of
+rocks and wonder could it be a way back to somewhere you recognize?
+  }
+  sector { Mountains }
+  exits {
+ to { s, 111 }
+ to { w, 102 }
+   info { door, closed, secret }
+   keywords { door" }
+  }
+}
+
+104
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 105 }
+ to { s, 112 }
+  }
+}
+
+105
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  tele { 60, 1, 130 }
+  exits {
+ to { w, 104 }
+  }
+}
+
+106
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 107 }
+ to { s, 114 }
+  }
+}
+
+107
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  flags { no_mob }
+  tele { 60, 1, 111 }
+  exits {
+ to { w, 106 }
+  }
+}
+
+108
+{
+  name { The Mountains of Doom. }
+  desc {
+"     You are walking along a path through the mountains of Doom.  To the
+north you see a strange looking formation of rocks that seems to draw you
+closer.  To the south you see the path that leads back down into the
+valley.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 0 }
+ to { s, 116 }
+  }
+}
+
+109
+{
+  name { A Ledge }
+  desc {
+"     You are on a ledge overlooking a large valley that a herd of mountain
+goats have taken over but it doesn't look like there's a way to get down
+into the valley from here.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 101 }
+  }
+}
+
+110
+{
+  name { The Mountains of Doom. }
+  desc {
+"     You are walking along a trail through the mountains of Doom.  To
+the south you head down into a large valley that seems to be teeming
+with life that is hopefully not aggressive.  To the north you head
+back to where you came from.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 102 }
+ to { s, 118 }
+  }
+}
+
+111
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 103 }
+  }
+}
+
+112
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 104 }
+ to { s, 120 }
+  }
+}
+
+113
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 114 }
+  }
+}
+
+114
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 106 }
+ to { e, 115 }
+ to { s, 122 }
+ to { w, 113 }
+  }
+}
+
+115
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { w, 114 }
+  }
+}
+
+116
+{
+  name { The Mountains of Doom. }
+  desc {
+"     You are wondering along a path through the mountains when
+suddenly you come across a large mountain lion (luckily who has
+already eaten) laying in the middle of the path.  It seems to just
+look at you and yawn.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 108 }
+ to { e, 117 }
+  }
+}
+
+117
+{
+  name { A Valley in the Mountains of Doom. }
+  desc {
+"     You are in a valley where several mountain goats are running
+about having fun... I would stay out of their way if possible. The
+path heads off to the east and west and the valley continues to the
+south.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 118 }
+ to { s, 125 }
+ to { w, 116 }
+  }
+}
+
+118
+{
+  name { A Valley in the Mountains of Doom. }
+  desc {
+"     As you descend into the valley you notice that the path splits into
+two branches that head east and west with the one to the west seeming to
+appear better travelled.  This valley seems to have been taken over by a
+herd of mountain goats that don't seem to be too worried about you being
+here.  But you decide to stay away from their hind-quarters in case they
+decide to kick you in the shin.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 110 }
+ to { e, 119 }
+ to { w, 117 }
+  }
+}
+
+119
+{
+  name { A Valley in the Mountains of Doom. }
+  desc {
+"     You are in a valley full of mountain goats.  These goats seem to
+be unafraid of you but you decide to stay a respectable distance from
+them just in case they decide to take offense to your presence.
+  }
+  sector { Mountains }
+  exits {
+ to { s, 127 }
+ to { w, 118 }
+  }
+}
+
+120
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 112 }
+ to { s, 128 }
+  }
+}
+
+121
+{
+  name { The Mountains of Doom. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 122 }
+ to { s, 129 }
+  }
+}
+
+122
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 114 }
+ to { e, 123 }
+ to { w, 121 }
+  }
+}
+
+123
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { s, 131 }
+ to { w, 122 }
+  }
+}
+
+124
+{
+  name { The West Rim. }
+  desc {
+"     You are on the west rim of a valley that is abundant with
+mountain goats.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 125 }
+  }
+}
+
+125
+{
+  name { A Valley in the Mountains of Doom. }
+  desc {
+"     You are in a valley full of mountain goats.  These goats seem to
+be unafraid of you but you decide to stay a respectable distance from
+them just in case they decide to take offense to your presence.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 117 }
+ to { e, 126 }
+ to { s, 133 }
+ to { w, 124 }
+  }
+}
+
+126
+{
+  name { A Valley in the Mountains of Doom. }
+  desc {
+"     You are in a valley full of mountain goats.  These goats seem to
+be unafraid of you but you decide to stay a respectable distance from
+them just in case they decide to take offense to your presence.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 128 }
+ to { s, 134 }
+ to { w, 125 }
+  }
+}
+
+127
+{
+  name { A Valley in the Mountains of Doom. }
+  desc {
+"     You are in a valley full of mountain goats.  These goats seem to
+be unafraid of you but you decide to stay a respectable distance from
+them just in case they decide to take offense to your presence.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 119 }
+ to { s, 135 }
+ to { w, 126 }
+  }
+}
+
+128
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 120 }
+ to { e, 129 }
+ to { s, 136 }
+  }
+}
+
+129
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 121 }
+ to { s, 137 }
+ to { w, 128 }
+  }
+}
+
+130
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 131 }
+  }
+}
+
+131
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 123 }
+ to { s, 139 }
+ to { w, 130 }
+  }
+}
+
+132
+{
+  name { The West Rim. }
+  desc {
+"     You are on the west rim of a valley that is abundant with
+mountain goats.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 133 }
+ to { s, 140 }
+  }
+}
+
+133
+{
+  name { A Valley in the Mountains of Doom. }
+  desc {
+"     You are in a valley full of mountain goats.  These goats seem to
+be unafraid of you but you decide to stay a respectable distance from
+them just in case they decide to take offense to your presence.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 125 }
+ to { s, 141 }
+ to { w, 132 }
+  }
+}
+
+134
+{
+  name { A Valley in the Mountains of Doom. }
+  desc {
+"     You are in a valley full of mountain goats.  These goats seem to
+be unafraid of you but you decide to stay a respectable distance from
+them just in case they decide to take offense to your presence.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 126 }
+ to { e, 135 }
+ to { s, 142 }
+  }
+}
+
+135
+{
+  name { A Valley in the Mountains of Doom. }
+  desc {
+"     You are in a valley full of mountain goats.  These goats seem to
+be unafraid of you but you decide to stay a respectable distance from
+them just in case they decide to take offense to your presence.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 127 }
+ to { e, 136 }
+ to { s, 143 }
+ to { w, 134 }
+  }
+}
+
+136
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are walking along a path and suddenly the rocks slide out
+from under you.  Looks like you are unable to go back the way you came
+so you better find a different way out.
+  }
+  flags { no_mob }
+  exits {
+ to { n, 128 }
+  }
+}
+
+137
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 129 }
+ to { e, 138 }
+ to { s, 145 }
+  }
+}
+
+138
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 139 }
+ to { s, 146 }
+ to { w, 137 }
+  }
+}
+
+139
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 131 }
+ to { s, 147 }
+ to { w, 138 }
+  }
+}
+
+140
+{
+  name { The West Rim. }
+  desc {
+"     You are on the west rim of a valley that is abundant with
+mountain goats.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 132 }
+ to { e, 141 }
+  }
+}
+
+141
+{
+  name { A Valley in the Mountains of Doom. }
+  desc {
+"     You are in a valley full of mountain goats.  These goats seem to
+be unafraid of you but you decide to stay a respectable distance from
+them just in case they decide to take offense to your presence.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 133 }
+ to { e, 142 }
+ to { s, 149 }
+ to { w, 140 }
+  }
+}
+
+142
+{
+  name { A Valley in the Mountains of Doom. }
+  desc {
+"     You are in a valley full of mountain goats.  These goats seem to
+be unafraid of you but you decide to stay a respectable distance from
+them just in case they decide to take offense to your presence.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 134 }
+ to { e, 143 }
+ to { s, 150 }
+ to { w, 141 }
+  }
+}
+
+143
+{
+  name { A Valley in the Mountains of Doom. }
+  desc {
+"     You are in a valley full of mountain goats.  These goats seem to
+be unafraid of you but you decide to stay a respectable distance from
+them just in case they decide to take offense to your presence.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 135 }
+ to { s, 151 }
+ to { w, 142 }
+  }
+}
+
+144
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 145 }
+ to { s, 152 }
+  }
+}
+
+145
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 137 }
+ to { e, 146 }
+ to { s, 153 }
+ to { w, 144 }
+  }
+}
+
+146
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 138 }
+ to { e, 147 }
+ to { s, 154 }
+ to { w, 145 }
+  }
+}
+
+147
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 139 }
+ to { w, 146 }
+  }
+}
+
+149
+{
+  name { The South Rim of a Valley. }
+  desc {
+"     You are on the south rim of a valley that is abundant with
+mountain goats.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 141 }
+  }
+}
+
+150
+{
+  name { The South Rim of a Valley. }
+  desc {
+"     You are on the south rim of a valley that is abundant with
+mountain goats.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 142 }
+ to { e, 151 }
+  }
+}
+
+151
+{
+  name { The South Rim of a Valley. }
+  desc {
+"     You are on the south rim of a valley that is abundant with
+mountain goats.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 143 }
+ to { w, 150 }
+  }
+}
+
+152
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 144 }
+  }
+}
+
+153
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 145 }
+ to { e, 154 }
+  }
+}
+
+154
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { n, 146 }
+ to { e, 155 }
+ to { w, 153 }
+  }
+}
+
+155
+{
+  name { Lost in the Mountains. }
+  desc {
+"     You are wondering around lost in the mountains of Doom.  You
+wonder if you'll ever find your way out or if you'll have to die to
+leave.
+  }
+  sector { Mountains }
+  exits {
+ to { w, 154 }
+  }
+}
+
+170
+{
+  name { A path through the mountains. }
+  desc {
+"   You are on a small path heading east through some dark, threatening
+mountains.  To the west you see a large sign off in the distance and to the
+east you see the path stretch off into the distance and turn south.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 171 }
+ to { w, Moria1:2 }
+  }
+}
+
+171
+{
+  name { A path through the mountains. }
+  desc {
+"   You are on a small path heading through a desolate mountain chain.  To
+the west you see a large sign off into the distance and to the east you see
+the path continue off into the distance and turn southwards.
+  }
+  sector { Mountains }
+  exits {
+ to { e, 172 }
+ to { w, 170 }
+  }
+}
+
+172
+{
+  name { A path through the mountains. }
+  desc {
+"   You are walking along a small path through a desolate mountain chain.
+Here the path turns to the south and runs through a pass between two
+mountains
+  }
+  sector { Mountains }
+  flags { no_mob }
+  exits {
+ to { s, 101 }
+ to { w, 171 }
+  }
+}
+

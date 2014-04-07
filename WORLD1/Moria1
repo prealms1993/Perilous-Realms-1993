@@ -1,0 +1,796 @@
+
+0
+{
+  name { The hills }
+  desc {
+"   You are on a path leading north, small hills surrounds you. You feel
+the forces of evil approach you from the north. 
+  }
+  sector { Hills }
+  flags { no_mob }
+  exits {
+	to { n, 1 }
+	to { s, Midenir:0 }
+  }
+}
+
+1
+{
+  name { The hills }
+  desc {
+"   You are on a small path leading north, dark threatening hills
+surrounds you to almost all sides.  There is a path to the west, leading
+towards a mysterious castle.
+  }
+  sector { Hills }
+  flags { no_mob }
+  exits {
+	to { n, 2 }
+	to { s, 0 }
+	to { w, Mistamere:0 }
+  }
+}
+
+2
+{
+  name { End of the path }
+  desc {
+"   The path stops here, to the north is a single mountain and around you
+are some threatening hills. There is a dark cave to the north. You see a
+large sign on the mountain.
+  }
+  sector { Hills }
+  extra {
+	keywords { sign" }
+	desc { The sign says:
+***********************************************************************
+*                                                                     *
+* ******************************************************************* *
+* *                                                                 * *
+* *                    The Mines of Moria                           * *
+* *                                                                 * *
+* *                  Enter at your own risk.                        * *
+* *                                                                 * *
+* *     Welcome to the mines of Moria.. At present there are only   * *
+* *           3 levels. Later the plan is to build 20...            * *
+* *                                                                 * *
+* *     Are you below level 3 Don't enter..                         * *
+* *     Are you below level 8 Don't enter alone..                   * *
+* *                                                                 * *
+* ******************************************************************* *
+*                                                                     *
+***********************************************************************
+	}
+  }
+  flags { no_mob }
+  exits {
+	to { n, 10 }
+	to { e, Doom:170 }
+	to { s, 1 }
+  }
+}
+
+10
+{
+  name { The cave }
+  desc {
+"   You are in a cave, to the south you sense fresh air. To the north a
+small tunnel continues into the mountain.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { n, 11 }
+	to { s, 2 }
+  }
+}
+
+11
+{
+  name { The tunnel }
+  desc {
+"   You force your way through a small tunnel, to you south you sense 
+a little fresh air, and to the north the tunnel continues.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 14 }
+	to { s, 10 }
+  }
+}
+
+12
+{
+  name { The tunnel }
+  desc {
+"   You are in a small tunnel, to the north there is a cave. The tunnel
+continues to the east.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 16 }
+	to { e, 13 }
+  }
+}
+
+13
+{
+  name { The tunnel }
+  desc {
+"   You are in a small tunnel leading east-west. The floor is covered by
+dust.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 14 }
+	to { w, 12 }
+  }
+}
+
+14
+{
+  name { The tunnel }
+  desc {
+"   You are in a tunnel, the tunnel continues to the south and to the 
+west, to the north there is a cave.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 18 }
+	to { s, 11 }
+	to { w, 13 }
+  }
+}
+
+15
+{
+  name { The tunnel }
+  desc {
+"   You are in a small tunnel, the tunnel continues west.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 19 }
+	to { w, 14 }
+  }
+}
+
+16
+{
+  name { The large cave }
+  desc {
+"   You are in a large cave, the cave continues east and west, to the south
+you notice a small tunnel.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { e, 17 }
+	to { s, 12 }
+	to { w, 23 }
+  }
+}
+
+17
+{
+  name { The large cave }
+  desc {
+"   You are in the east end of the large cave.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { w, 16 }
+  }
+}
+
+18
+{
+  name { The cave }
+  desc {
+"   You are in the south end of a cave, to the south you see a tunnel. You
+notice a large pile of bones in the corner.
+  }
+  sector { Field }
+  extra {
+	keywords { pile bones" }
+	desc { Well you better watch out - some of the bones are human !
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 25 }
+	to { s, 14 }
+  }
+}
+
+19
+{
+  name { The tunnel }
+  desc {
+"   You are in a north-south leading tunnel.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 26 }
+	to { s, 15 }
+  }
+}
+
+20
+{
+  name { The hole }
+  desc {
+"   You are by a hole in the floor, you can leave down, or north.
+  }
+  sector { Forest }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 27 }
+	to { d, 64 }
+  }
+}
+
+21
+{
+  name { The hole }
+  desc {
+"   You are by a hole in the floor, exits are down or east.
+  }
+  sector { Forest }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { e, 22 }
+	to { d, Moria2:15 }
+  }
+}
+
+22
+{
+  name { The damp tunnel }
+  desc {
+"   You are in a damp tunnel, your clothes feel wet. The tunnel continues
+to the north, to the west you see a hole in the floor and to the east
+there is a large cave.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 24 }
+	to { e, 23 }
+	to { w, 21 }
+  }
+}
+
+23
+{
+  name { The large cave }
+  desc {
+"   You are in the western part of the large cave, to the west you see
+a damp tunnel.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { e, 16 }
+	to { w, 22 }
+  }
+}
+
+24
+{
+  name { The damp tunnel }
+  desc {
+"   You are in a damp tunnel, that leads west.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { s, 22 }
+	to { w, 59 }
+  }
+}
+
+25
+{
+  name { The cave }
+  desc {
+"   You are in the north end of a cave. To the east you see some tunnels
+which leads in many directions.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { e, 26 }
+	to { s, 18 }
+  }
+}
+
+26
+{
+  name { The many tunnels }
+  desc {
+"   You are in a tunnel, that leads of in all directions.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 28 }
+	to { e, 27 }
+	to { s, 19 }
+	to { w, 25 }
+  }
+}
+
+27
+{
+  name { The tunnel }
+  desc {
+"   You are in a north-south leading tunnel, you also notice a tunnel to
+the west. From the north you sense the fresh air!
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 29 }
+	to { s, 20 }
+	to { w, 26 }
+  }
+}
+
+28
+{
+  name { The smelly tunnel }
+  desc {
+"   You are in a north-south leading tunnel, you see a small light
+to the north. You notice a strange smell from the north..
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 30 }
+	to { s, 26 }
+  }
+}
+
+29
+{
+  name { The cave }
+  desc {
+"   You are in a cave that is filled with fresh air, you sense the
+wind blowing from the north. To the south you see a small tunnel
+continue into the mountain.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { n, 31 }
+	to { s, 27 }
+  }
+}
+
+30
+{
+  name { The light cave }
+  desc {
+"   You are in a light cave, through a hole large above you, you see 
+the sky. A small tunnel to the south is the only way out.
+You notice the source of the strange smell, all around you there is
+corpses from several monsters.
+  }
+  sector { Field }
+  extra {
+	keywords { corpse corpses" }
+	desc { IT STINKS!
+	}
+  }
+  exits {
+	to { s, 28 }
+  }
+}
+
+31
+{
+  name { The valley }
+  desc {
+"   You are in a small valley, surrounded by hills and a mountain to 
+the south. In the mountain there is a cave.  To the north, a path
+stretches into the hills.
+  }
+  sector { Field }
+  extra {
+	keywords { cave" }
+	desc { Well it doesn't look nice, but it's the only way out..
+	}
+  }
+  exits {
+	to { n, Main_matrix_auxiliary:900 }
+	  desc { You can see the path through the hills. To the far north, you can make out
+some smoke.
+}
+	to { s, 29 }
+  }
+}
+
+50
+{
+  name { The tunnel }
+  desc {
+"   You are in a tunnel, which turns here. The tunnel continues to the
+east and the south.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 51 }
+	to { s, 53 }
+  }
+}
+
+51
+{
+  name { The tunnel }
+  desc {
+"   You are in an east-west leading tunnel. The tunnel is very narrow
+here.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 52 }
+	to { w, 50 }
+  }
+}
+
+52
+{
+  name { The tunnel }
+  desc {
+"   You are in an east-west leading tunnel.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, Moria2:0 }
+	to { w, 51 }
+  }
+}
+
+53
+{
+  name { The tunnel }
+  desc {
+"   You are at a turn, the tunnel continues north and east.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 50 }
+	to { e, 54 }
+  }
+}
+
+54
+{
+  name { The light cave }
+  desc {
+"   You are in a cave, to south from you there is a large fire that lights
+the entire cave, to the east and west tunnels leads off.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { e, 55 }
+	to { s, 56 }
+	to { w, 53 }
+  }
+}
+
+55
+{
+  name { The maze }
+  desc {
+"   You are in a maze of small damp tunnels. Only exit is west to a 
+light cave.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { w, 54 }
+  }
+}
+
+56
+{
+  name { The light cave }
+  desc {
+"   You are in a light cave, a large fire in front of you lights the room.
+The cave continues to the north and south.
+  }
+  sector { Field }
+  extra {
+	keywords { fire" }
+	desc { Well, errh - It looks somehow quite warm..!
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 54 }
+	to { s, 61 }
+  }
+}
+
+57
+{
+  name { The maze }
+  desc {
+"   You are in a maze of small damp tunnels. Exits leads both north
+and south.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 55 }
+	to { s, 62 }
+  }
+}
+
+58
+{
+  name { The maze }
+  desc {
+"   You are in a maze of small damp tunnels. Exits leads west and south.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { s, 63 }
+	to { w, 57 }
+  }
+}
+
+59
+{
+  name { The tunnel }
+  desc {
+"   You are in a tunnel, only exit is to the east. You sense that the
+tunnel leads slightly down.
+  }
+  sector { Forest }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { e, 60 }
+  }
+}
+
+60
+{
+  name { The tunnel }
+  desc {
+"   You are in a small tunnel, to the west the tunnel continues and 
+to the east you see some light.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 61 }
+	to { w, 59 }
+  }
+}
+
+61
+{
+  name { The light cave }
+  desc {
+"   You are in the south end of a light cave, tunnels leads of to the
+south and west.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 56 }
+	to { s, 65 }
+	to { w, 60 }
+  }
+}
+
+62
+{
+  name { The maze }
+  desc {
+"   You are in a maze of small damp tunnels. Exits leads east and west.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 63 }
+	to { w, 61 }
+  }
+}
+
+63
+{
+  name { The maze }
+  desc {
+"   You are in a maze of small damp tunnels. Exits leads north and east.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 54 }
+	to { e, 64 }
+  }
+}
+
+64
+{
+  name { The tunnel }
+  desc {
+"   You are in a tunnel, only exit is west - Only exit, well there is 
+also a hole in the ceiling.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { w, 63 }
+	to { u, 20 }
+  }
+}
+
+65
+{
+  name { The maze }
+  desc {
+"   You are in a maze of small damp tunnels. The tunnel continues east.
+To the north there is a light cave.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 61 }
+	to { e, 66 }
+  }
+}
+
+66
+{
+  name { The maze }
+  desc {
+"   You are in a maze of small damp tunnels. Exits leads east and
+north. To the south is a large cave.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 62 }
+	to { e, 67 }
+	to { s, 69 }
+  }
+}
+
+67
+{
+  name { The maze }
+  desc {
+"   You are in a maze of small damp tunnels. Exits leads west and
+north.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 63 }
+	to { w, 66 }
+  }
+}
+
+68
+{
+  name { The large cave }
+  desc {
+"   You are in the northwest end of a large cave.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { e, 69 }
+	to { s, 70 }
+  }
+}
+
+69
+{
+  name { The large cave }
+  desc {
+"   You are in the northeast end of a large cave. To the north the
+is a small damp tunnel.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { n, 66 }
+	to { s, 71 }
+	to { w, 68 }
+  }
+}
+
+70
+{
+  name { The large cave }
+  desc {
+"   You are in the southwest end of a large cave.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { n, 68 }
+	to { e, 71 }
+  }
+}
+
+71
+{
+  name { The large cave }
+  desc {
+"   You are in the southeast end of a large cave. To the east you
+notice a small tunnel.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { n, 69 }
+	to { e, 72 }
+	to { w, 70 }
+  }
+}
+
+72
+{
+  name { The tunnel }
+  desc {
+"   You are in a narrow tunnel, which leads both to the east and the
+south. There is also an exit towards the west, where you see a large
+cave.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 73 }
+	to { s, 74 }
+	to { w, 71 }
+  }
+}
+
+73
+{
+  name { End of tunnel }
+  desc {
+"   The tunnel stops here. There is no other exits than the one you
+came from.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { w, 72 }
+  }
+}
+
+74
+{
+  name { The hole }
+  desc {
+"   You are at a small hole in the floor, you can either leave north
+or try your luck and leave down into the unknown!
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 72 }
+	to { d, Void:-1 }
+  }
+}

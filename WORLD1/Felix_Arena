@@ -1,0 +1,2080 @@
+
+0
+{
+  name { Felix's Workshop  }
+  desc {
+This is where Felix works on ideas for the Arena. The room
+has a desk and some chairs. There is very little light!
+There is a complete suit of black armor in the corner.
+  }
+  extra {
+	keywords { armor" }
+	desc { You see a well worn suit of armor. The name Felix is imprinted
+on the right side of the chest. This is not a normal suit of armor!
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 1 }
+	  keywords { Theres a black door on the northern wall." }
+  }
+}
+
+1
+{
+  name { Felix's Living Area  }
+  desc {
+"   This is where Felix lives, when he isnt working on the Arena
+or adventuring. There is a bed, desk, and a bathroom here.
+There is a computer on the desk with a note on it.
+  }
+  extra {
+	keywords { computer" }
+	desc { You notice that this computer is old. It's a XT!
+Felix jacks into the CIS and Circa computers through this computer!
+	}
+	keywords { note" }
+	desc { Mr. Bunny,
+Be back later!
+I love you!
+Mrs. Bunny
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 2 }
+	  key { 17002 }
+	  info { door }
+	  keywords { Slab" }
+	to { s, 0 }
+	  keywords { There is a black door set in the southern wall." }
+  }
+}
+
+2
+{
+  name { Entrance to the Arena }
+  desc {
+You see an old and deserted Arena to the north. There are ornate
+iron gates in front of the entrance. As to prevent something
+from escaping into country side. You notice that the gates
+have been destroyed! Torn off their hinges and smashed!
+  You see a large new sign in front of the gates.
+
+  }
+  extra {
+	keywords { sign" }
+	desc { The Arena is designed by levels.
+Level 1 part 1 is for adventurers 1 to 5 approx.
+Level 1 part 2 is for adventurers 6 to 12 approx.
+Level 2 is for adventurers 12 to 20 approx.
+Level 3 is for adventurers 20 to 30 approx.
+Note: Numbers are in levels. I would suggest grouping especially
+in lower levels.
+Signed,
+The Master of the Arena,
+Felix
+	}
+	keywords { gates" }
+	desc { You see what remains of the gates. There is a note here.
+Note says:
+Kojiro and Ripper destroyed the gates!
+Your Welcome..
+	}
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 3 }
+	  info { door }
+	  keywords { door" }
+	to { s, 150 }
+  }
+}
+
+3
+{
+  name { Southern End of Arena }
+  desc {
+"  You notice that the arena is mostly made up of marble and such.
+You see stands, where once the public viewed the battles between
+man and monster. The floor is made up of hard packed dirt.
+ There are signs of blood and bones ages old all around you.
+  }
+  exits {
+	to { n, 7 }
+	to { e, 5 }
+	to { s, 2 }
+	  info { door }
+	  keywords { door" }
+	to { w, 4 }
+  }
+}
+
+4
+{
+  name { South Western end of Arena }
+  desc {
+" You are standing ankle deep in bones. Someone must be
+piling bones here. There are broken weapons and
+equipment scattered around in the piles of bones.
+ You can go North or East.
+  }
+  exits {
+	to { n, 8 }
+	to { e, 3 }
+  }
+}
+
+5
+{
+  name { South Eastern end of Arena }
+  desc {
+" You can better see the stands from here. The ancient skeletons
+of an and monsters who once fought here can be seen.
+ You can go North or West.
+  }
+  exits {
+	to { n, 6 }
+	to { w, 3 }
+  }
+}
+
+6
+{
+  name { East end of Arena }
+  desc {
+" You are standing at the eastern end of the Arena. You
+can tell that this place was built to last. The ever present
+signs of ancient battles are still present on the walls and
+the ground.
+ You can go North, South, or West.
+  }
+  exits {
+	to { n, 11 }
+	to { s, 5 }
+	to { w, 7 }
+  }
+}
+
+7
+{
+  name { Center of the Arena }
+  desc {
+You are in the very center of the Arena. You see stands all around
+you. There are more signs of violent death here. Blood and bones
+can be find here and there.
+ You can go in all directions from here.
+  }
+  exits {
+	to { n, 10 }
+	to { e, 6 }
+	to { s, 3 }
+	to { w, 8 }
+  }
+}
+
+8
+{
+  name { Western end of Arena }
+  desc {
+You are standing at the western side of Arena. You can see
+alot of bones and equipment in the stands and around you 
+on the floor.
+  You can go North, South, or East.
+  }
+  exits {
+	to { n, 9 }
+	to { e, 7 }
+	to { s, 4 }
+  }
+}
+
+9
+{
+  name { North Western end of Arena }
+  desc {
+"  You are in the north western corner of the Arena.
+This corner looks like there was a blood bath here years
+ago. Someone has tried to clean the walls with little
+success.
+  You can go South or East.
+  }
+  exits {
+	to { e, 10 }
+	to { s, 8 }
+  }
+}
+
+10
+{
+  name { Northern end of Arena }
+  desc {
+You are at the northern end of Arena. You now notice that another
+section of the Arena is north through a tunnel. This area looks
+like someone has been trying to clean up. You see a sign on
+the wall.
+  You can go in all directions.
+  }
+  extra {
+	keywords { sign" }
+	desc { WARNING!!!!
+Dont go North if you are under 6th level or not in a group!!
+WARNING!!!!
+	}
+  }
+  exits {
+	to { n, 12 }
+	  info { door }
+	  keywords { door" }
+	to { e, 11 }
+	to { s, 7 }
+	to { w, 9 }
+  }
+}
+
+11
+{
+  name { North Eastern end of Arena }
+  desc {
+You notice that this end of the Arena is not as badly
+damaged or worn. There are fewer bones and other items 
+on the floor and stands.
+  You can go South or West.
+  }
+  exits {
+	to { s, 6 }
+	to { w, 10 }
+  }
+}
+
+12
+{
+  name { Tunnel between Arenas }
+  desc {
+You have entered a stone tunnel. It's damp and cool here. There is
+moss growing on the walls. You can see a sign on the wall.
+ You can go in all directions.
+  }
+  extra {
+	keywords { sign" }
+	desc { East - Fighters quarters
+West - Supply Room/Clerical Aid
+	}
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 15 }
+	  keywords { A sturdy wooden door is set in northern wall." }
+	to { e, 13 }
+	to { s, 10 }
+	to { w, 14 }
+  }
+}
+
+13
+{
+  name { Fighters Quarters }
+  desc {
+This was a room where fighters/Gladiators could rest between
+matches. There are beds, chairs, tables, and a big mat for training.
+This room is Big! Most of the stuff is in bad condition due to age.
+  You can go West.
+  }
+  extra {
+	keywords { mat" }
+	desc { You notice the mat is loose on the floor! Hmmm, theres a trap
+door here.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 12 }
+	to { d, 20 }
+	  info { door }
+	  keywords { secret" }
+  }
+}
+
+14
+{
+  name { Supply/Clerical Healing Room  }
+  desc {
+This was once a supply room. There were racks that held weapons
+and armor. Most of the racks are now broken on the floor.
+You can see beds that were for the injured. The place is
+a mess!
+  You can go East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 12 }
+  }
+}
+
+15
+{
+  name { South end Advanced Arena }
+  desc {
+"  You enter a smaller arena. There are stands all around you.
+The place is slowly being over grown with plants. There are
+cracks in the walls. 
+  You can go in all directions.
+  }
+  exits {
+	to { n, 16 }
+	to { e, 18 }
+	to { s, 12 }
+	to { w, 17 }
+  }
+}
+
+16
+{
+  name { Center of Advanced Arena }
+  desc {
+"  You are standing in a mini-jungle. It's hard to see the stands.
+You can hear noises coming from animals or is that monsters? You might need a 
+machette to get out of here!
+  You can go in all directions.
+  }
+  exits {
+	to { n, 21 }
+	to { e, 19 }
+	to { s, 15 }
+	to { w, 22 }
+  }
+}
+
+17
+{
+  name { South Western end of Advanced Arena }
+  desc {
+The grass is not as bad here. Someone has tried to mow
+the grass with some luck. You can see faint traces of blood
+of the walls.
+  You can go East.
+  }
+  exits {
+	to { e, 15 }
+  }
+}
+
+18
+{
+  name { South Eastern end of Advanced Arena }
+  desc {
+The lack of care is obvious. You see where a fountain above
+you is spilling water on to the floor. The grass is very
+thick here!
+ You can go West.
+  }
+  exits {
+	to { w, 15 }
+  }
+}
+
+19
+{
+  name { Eastern end of Advanced Arena }
+  desc {
+"  You are now sure you' re in a jungle! Anything can or could
+be hiding in here! You can just see the wall of the Arena.
+Plants now cover just about everything.
+  You can go West.
+  }
+  exits {
+	to { w, 16 }
+  }
+}
+
+20
+{
+  name { Passage }
+  desc {
+You are standing in a worked tunnel. It's cool and you
+can feel the dampness in your bones. The walls are made
+of a black material and are very smooth. It's quiet.
+You can tell this place hasn't been used in years.
+ You can go North.
+  }
+  flags { indoors }
+  exits {
+	to { n, 25 }
+  }
+}
+
+21
+{
+  name { North End of Advanced Arena }
+  desc {
+You see alot of plants and thick grass here. You can just
+make out a door in the northern wall. There are two men (?)
+standing in front of the door as if on guard duty. The men
+look very skilled and are in plate armor. They carry large
+battleaxes!
+ You can go South, East, or West.
+  }
+  exits {
+	to { e, 24 }
+	to { s, 16 }
+	to { w, 23 }
+  }
+}
+
+22
+{
+  name { Western end of Advanced Arena }
+  desc {
+" You are swimming through the grass and other plant life.
+You are sure, you heard a noise around here somewhere.
+  You can go East.
+  }
+  exits {
+	to { e, 16 }
+  }
+}
+
+23
+{
+  name { North Western end Advanced Arena }
+  desc {
+"  You note that the plant problem is much better here. You
+can actually see the marble wall! You feel better knowing monsters
+cant hide here so easily. Again you wonder is this a sign of
+a cleanup attempt?
+  You can go East.
+  }
+  exits {
+	to { e, 21 }
+  }
+}
+
+24
+{
+  name { North Eastern end of Advanced Arena }
+  desc {
+" You swore you just saw something move! You feel the hair
+on the back of your neck raise. The wall is covered that
+much, you'll swear its made of plants and vines.
+ You can go West.
+  }
+  exits {
+	to { w, 21 }
+  }
+}
+
+25
+{
+  name { Passage }
+  desc {
+You are standing in a long abandoned tunnel. There are cobwebs 
+on the walls. There's some writing on the wall.
+ You can go South or East.
+  }
+  extra {
+	keywords { writing" }
+	desc { "
+ Thieves' Den the only place for Thieves to be!
+
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 26 }
+	to { s, 20 }
+  }
+}
+
+26
+{
+  name { Passage }
+  desc {
+You are in a quiet tunnel. You can hear a pin drop here.
+ You can go North or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 27 }
+	to { w, 25 }
+  }
+}
+
+27
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. The walls are polished
+made of a black material(s)? You can see traces of animal
+life down here.
+ You can go North or South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 28 }
+	to { s, 26 }
+  }
+}
+
+28
+{
+  name { Water Spring }
+  desc {
+You have entered a room with a natural water spring in the center
+of the floor. You can see water bubbling up. The water looks good enough
+to drink.
+ You can go North or South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 29 }
+	to { s, 27 }
+  }
+}
+
+29
+{
+  name { Passage }
+  desc {
+You have come to the end of the tunnel. the end of the tunnel is rough
+and unworked. Maybe someone planned to continue it someday.
+ You can go South.
+  }
+  extra {
+	keywords { wall" }
+	desc { You see a rough and unworked wall.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 28 }
+	to { w, 30 }
+	  info { door }
+	  keywords { secret" }
+	  desc { You see a rough and unworked wall.
+}
+  }
+}
+
+30
+{
+  name { Passage }
+  desc {
+You have standing in a tunnel. You can see ancient traces of
+blood and bones. There has been a fight here. You can see
+the skeleton of an adventurer to one side.
+You can go South, East, or West.
+  }
+  extra {
+	keywords { remains" }
+	desc { " The skeleton is wearing chain armor. There are a few rotting bags by the
+skeleton. You see a rusted longsword in the skeleton's hand.
+	}
+	keywords { skeleton" }
+	desc { You see the old bones of a mage on the floor. The
+left hand is pointing to the wall. You can see
+a faint message. 
+ "..ware the King Cat's Cla...."
+
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 29 }
+	  info { door }
+	  keywords { secret" }
+	to { s, 31 }
+	to { w, 32 }
+  }
+}
+
+31
+{
+  name { Passage }
+  desc {
+You have come to a deadend.
+ You can go North.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 30 }
+  }
+}
+
+32
+{
+  name { Passage }
+  desc {
+You have entered a deserted tunnel.
+ You can go North, East, or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 35 }
+	to { e, 30 }
+	to { w, 33 }
+	  keywords { Wall" }
+  }
+}
+
+33
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You can see tracks in the dust.
+You can't be sure if the tracks are of creatures or bodies
+being carried away.
+You can go North or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 34 }
+	to { e, 32 }
+	to { w, 38 }
+	  info { door }
+	  keywords { secret" }
+  }
+}
+
+34
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You hear dripping water.
+You can go South or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 35 }
+	to { s, 33 }
+  }
+}
+
+35
+{
+  name { Passage }
+  desc {
+You are in a 4 way tunnel. 
+ You can go in all directions.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 47 }
+	to { e, 36 }
+	to { s, 32 }
+	to { w, 34 }
+  }
+}
+
+36
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. It's damp.
+You can go East or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 37 }
+	to { w, 35 }
+  }
+}
+
+37
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You see water leaking out of the wall.
+It's cool and damp here.
+ You can go North or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 49 }
+	  keywords { 1 -1 3749
+D3" }
+	to { w, 36 }
+  }
+}
+
+38
+{
+  name { Passage }
+  desc {
+You have opened the the Wall to discover a passage beyond! You can see
+tracks in the dust.
+ You can go North or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 39 }
+	to { e, 33 }
+	  info { door }
+	  keywords { secret" }
+  }
+}
+
+39
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You hear few noises in the distance.
+You see evidence of tracks/trails in the floor. 
+ You can go North or South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 40 }
+	to { s, 38 }
+  }
+}
+
+40
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. There are faint tracks going south
+and east.
+ You can go South or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 41 }
+	to { s, 39 }
+  }
+}
+
+41
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You can hear faint noises off and on.
+The tracks continue north.
+ You can go North or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 42 }
+	to { w, 40 }
+  }
+}
+
+42
+{
+  name { Passage }
+  desc {
+You are standing in a damp tunnel. You can hear the noises
+clearly now. You can see tracks going in all directions.
+ You can go North, South, or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 43 }
+	to { s, 41 }
+	to { w, 45 }
+  }
+}
+
+43
+{
+  name { Passage }
+  desc {
+You are standing in a damp tunnel. There is blood on the walls.
+The noises are getting more frequent and getting louder.
+ You can go South or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 42 }
+	to { w, 44 }
+  }
+}
+
+44
+{
+  name { Passage }
+  desc {
+You are in a tunnel. You see some bones on the floor. The
+noises are pretty close now. Tracks and blood traces are seen
+going south.
+ You can go South or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 43 }
+	to { s, 45 }
+  }
+}
+
+45
+{
+  name { Entrance to Lair of Cat People }
+  desc {
+You are standing in the mouth of the lair. Someone has written
+CAT PEOPLE BEWARE! on the wall. You can see bones and blood
+on the floor.
+ You can go North, East, and West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 44 }
+	to { e, 42 }
+	to { w, 46 }
+  }
+}
+
+46
+{
+  name { Eastern End of Main Hall }
+  desc {
+You have entered a Great Hall. The hall is used for feasts and meetings.
+You can see shields and odd weapons on the walls around you. There is
+a huge table in the center of the hall with many chairs around it.
+ You can go in all directions.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 68 }
+	to { e, 45 }
+	to { s, 62 }
+	to { w, 65 }
+  }
+}
+
+47
+{
+  name { Passage }
+  desc {
+You are standing at a T junction. 
+ You can go North, South, or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 52 }
+	to { e, 48 }
+	to { s, 35 }
+  }
+}
+
+48
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. 
+ You can go East or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 49 }
+	to { w, 47 }
+  }
+}
+
+49
+{
+  name { Passage }
+  desc {
+You hear noises coming from the north. Could a monster be there?
+You can go North, South, or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 51 }
+	to { s, 37 }
+	to { w, 48 }
+  }
+}
+
+50
+{
+  name { Stair Well }
+  desc {
+You are standing in a small square room. Its damp and cool here.
+You can see plants growing on the walls. There
+is a ladder on the northern wall. The ladder
+looks old but solid.
+ You can go South or Down.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 21 }
+	  key { 17002 }
+	  info { door }
+	  keywords { Door" }
+	to { d, 57 }
+  }
+}
+
+51
+{
+  name { WereWolves' Lair }
+  desc {
+You have entered a room thats a MESS! It looks like
+a creature has made its room here.
+ You can go North or South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 53 }
+	to { s, 49 }
+  }
+}
+
+52
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. 
+ You can go North or South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 60 }
+	to { s, 47 }
+  }
+}
+
+53
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You can hear noises to the south.
+Maybe there's a creature in there!
+ You can go North or South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 54 }
+	to { s, 51 }
+  }
+}
+
+54
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. It's damp and cool here.
+ You can go South or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 53 }
+	to { w, 55 }
+  }
+}
+
+55
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You can't hear any noise.
+ You can go East or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 54 }
+	to { w, 56 }
+  }
+}
+
+56
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. Its cold and damp here.
+ You can go East or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 55 }
+	to { w, 57 }
+  }
+}
+
+57
+{
+  name { Bottom of Ladder }
+  desc {
+You are standing at the bottom of a iron ladder. You are in
+a small room. Doesn't look like anyone has been here in awhile!
+There is a sign on the wall!
+You can go South, East, or Up.
+  }
+  extra {
+	keywords { sign" }
+	desc { "
+ Welcome!
+
+ The lower levels are holding areas for monsters and prisoners
+to be used in the arena. 
+
+Enter at Your Own Risk!
+
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 56 }
+	to { s, 58 }
+	to { u, 50 }
+  }
+}
+
+58
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You hear noises to the east.
+ You can go North or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 57 }
+	to { e, 59 }
+  }
+}
+
+59
+{
+  name { Passage }
+  desc {
+You are in a tunnel. There are pools of water on the floor. You
+see moss growing on the walls.
+ You can go East or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 60 }
+	to { w, 58 }
+  }
+}
+
+60
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. 
+You can go South or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 52 }
+	to { w, 59 }
+  }
+}
+
+61
+{
+  name { West Guard Room }
+  desc {
+You have walked in a guard room. You see racks of weapons and armor
+on the walls. You see beds and tables w/ chairs to either side of the
+room.
+ You can go North or South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 65 }
+	to { s, 63 }
+  }
+}
+
+62
+{
+  name { East Guard Room }
+  desc {
+" You have walked into a guard room. There are weapons on racks.
+You see suits of armor on the walls waiting to be used. There are beds
+and tables with chairs as well. 
+ You can go North or South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 46 }
+	to { s, 64 }
+  }
+}
+
+63
+{
+  name { Throne Room }
+  desc {
+You enter a reception/meeting hall. There is a large marble throne on
+a dais at the southern end. You can see seats to either side of the room.
+This is where The Cat King holds his court. There are weapons and suits
+of armor on the walls. A standard of a closed paw is above the throne.
+ You can go North.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 61 }
+	to { s, 69 }
+	  key { 17002 }
+	  info { door }
+	  keywords { secret" }
+  }
+}
+
+64
+{
+  name { Common Room }
+  desc {
+You have entered the living area of most of the Cat People. 
+There are beds, tables, chairs, and crude cabinets. There are
+heads of monsters and humans on the walls.
+ You can go North or South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 62 }
+	to { s, 66 }
+  }
+}
+
+65
+{
+  name { Western End of Main Hall }
+  desc {
+You are standing in the west end of the main hall. The huge table ends
+here. There are many chairs all around. You see a statue of a cat man (?)
+against the western wall. You see suits of armor on stands around you.
+ You can North, South, or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 67 }
+	to { e, 46 }
+	to { s, 61 }
+  }
+}
+
+66
+{
+  name { Supply Room/Armory }
+  desc {
+You can entered a supply room. There are many bags and barrels everywhere.
+You see shelves of weapons and parts of armor. There is even a small
+forge here. 
+ You can go North
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 64 }
+  }
+}
+
+67
+{
+  name { Kitchen }
+  desc {
+You have entered the kitchen. There are great stoves and fireplaces all
+around. Great pots are bubbling on stoves. Who knows what these creatures
+are cooking. Pans and other cooking utensils are on racks all around
+you.
+ You can go South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 65 }
+  }
+}
+
+68
+{
+  name { Slave Pen }
+  desc {
+You have entered the living quarters of the slaves. You see crude
+beds on the floors. There are cells in the back of the pen. The slaves
+are chained to the wall. The slaves look like they are in very poor
+shape.
+ You can go South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 46 }
+  }
+}
+
+69
+{
+  name { Cat King's Living Quarters }
+  desc {
+You have entered a royal apartment. There is a great bed in the center.
+You see closets, dressers, and a mirror on the west wall. Everything 
+here looks new and very crafted.
+You can go North.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 63 }
+	  info { door }
+	  keywords { door" }
+	to { s, 72 }
+	  info { door }
+	  keywords { secret" }
+  }
+}
+
+70
+{
+  name { Passage }
+  desc {
+You have standing in a tunnel. It's a deadend. You see a sign on the wall.
+ You can go South.
+  }
+  extra {
+	keywords { sign" }
+	desc { "
+ There are "secret" passages abound in the Arena!
+
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 71 }
+  }
+}
+
+71
+{
+  name { Passage }
+  desc {
+You are standing in a L-shaped passage. This tunnel looks like it
+hasn't been used in years. There's alot of dust on the floor.
+ You can go North or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 70 }
+	to { e, 72 }
+	to { s, 82 }
+	  info { door }
+	  keywords { secret" }
+  }
+}
+
+72
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel.
+ You can go East or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 69 }
+	  key { 17002 }
+	  info { door }
+	  keywords { secret" }
+	to { e, 73 }
+	to { s, 75 }
+	to { w, 71 }
+  }
+}
+
+73
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel.
+ You can go East or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 74 }
+	to { s, 80 }
+	to { w, 72 }
+  }
+}
+
+74
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel.
+You can go South or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 77 }
+	to { w, 73 }
+  }
+}
+
+75
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You can hear faint sounds to the south.
+ You can go North, South, or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 72 }
+	to { e, 77 }
+	to { s, 79 }
+  }
+}
+
+77
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You hear few sounds to the south.
+You can go North or South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 74 }
+	to { s, 81 }
+	to { w, 75 }
+  }
+}
+
+79
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You are at a T. You can hear noises
+to the south. 
+ You can go North, South, or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 75 }
+	to { e, 80 }
+	to { s, 98 }
+  }
+}
+
+80
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You can hear faint noises to the west.
+ You can go North, East, or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 73 }
+	to { e, 80 }
+	to { w, 79 }
+  }
+}
+
+81
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You can hear faint sounds coming from
+the west.
+ You can go North or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 77 }
+	to { w, 80 }
+  }
+}
+
+82
+{
+  name { Passage }
+  desc {
+You are standing in a barren tunnel. No ones been here in a while!
+ You can go the way you came.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 71 }
+	  info { door }
+	  keywords { secret" }
+	to { s, 83 }
+	  info { door }
+	  keywords { secret" }
+  }
+}
+
+83
+{
+  name { Orange Knight's Room }
+  desc {
+You are standing in a hexagonal room. You see there is a tall knight
+standing protectly in front of a ladder going down into the darkness.
+ You can go North, South, or Down.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 82 }
+	  info { door }
+	  keywords { secret" }
+	to { s, 84 }
+	  info { door }
+	  keywords { secret" }
+  }
+}
+
+84
+{
+  name { Passage }
+  desc {
+You have come to a deadend. The passage looks like it has collapsed.
+ You can go South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 83 }
+	  info { door }
+	  keywords { secret" }
+	to { s, 85 }
+  }
+}
+
+85
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You see faint tracks. You can not
+tell where the tracks are leading.
+ You can go North or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 84 }
+	to { w, 86 }
+  }
+}
+
+86
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. It's pretty quiet here.
+ You can go South or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 85 }
+	to { s, 87 }
+  }
+}
+
+87
+{
+  name { Entrance to Thieves' Den }
+  desc {
+You are standing in room. There are some dark clothed people
+you see standing in the shadows. You can just make them out.
+ You can go North, South, or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 86 }
+	to { e, 88 }
+	to { s, 90 }
+  }
+}
+
+88
+{
+  name { Kitchen }
+  desc {
+You have entered the Kitchen. It's fairly clean and organized. There
+a few pots on a stove. You can smell coffee in the air.
+ You can go South, East, or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 89 }
+	to { s, 91 }
+	to { w, 87 }
+  }
+}
+
+89
+{
+  name { Sleeping Quarters }
+  desc {
+You are in the sleeping quarters of the thieves. There are beds,
+closets, and dressers against the walls.
+ You can go South or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 92 }
+	to { w, 88 }
+  }
+}
+
+90
+{
+  name { Master Thieves' Sleeping Quarters }
+  desc {
+You have entered another sleeping room. There are few beds here.
+Everything looks to be of higher quality than other sleeping room.
+Place looks cleaner as well.
+ You can go North, South, or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 87 }
+	to { e, 91 }
+	to { s, 93 }
+  }
+}
+
+91
+{
+  name { Meeting Hall }
+  desc {
+You are standing in the hall. You see a large table with alot of chairs 
+around it. There are daggers and short swords on the wall. 
+ You can go in all directions.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 88 }
+	to { e, 92 }
+	to { s, 94 }
+	to { w, 90 }
+  }
+}
+
+92
+{
+  name { Practice Room }
+  desc {
+You have entered a weird room. There are many doors without walls,
+dummies that are clothed, and pits around the room. You see
+thieves working on improving themselves.
+ You can go North, South, or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 89 }
+	to { s, 95 }
+	to { w, 91 }
+  }
+}
+
+93
+{
+  name { Loot Room }
+  desc {
+You are standing in the treasure room of the thieves.
+You see chests, bags, coffers, and loose coins everywhere.
+ You can go North or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 90 }
+	to { e, 94 }
+  }
+}
+
+94
+{
+  name { Weapons and Armor Room }
+  desc {
+You are standing in the room where weapons and armor is made and
+stored. You can see raw materials for various weapons and armor
+in bins against the walls. There is a small forge here as well.
+ You can go North, East, or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 91 }
+	to { e, 95 }
+	to { w, 93 }
+  }
+}
+
+95
+{
+  name { Entrance to the Thieves' Den }
+  desc {
+You are standing in the entrance. You can see a table with chairs
+around it. Four thieves are here relaxing and drink beer.
+ You can go North, South, or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 92 }
+	to { s, 96 }
+	to { w, 94 }
+  }
+}
+
+96
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You hear laughter ahead.
+ You can go North or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 95 }
+	to { e, 97 }
+  }
+}
+
+97
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel.
+ You can go East or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 121 }
+	to { w, 96 }
+  }
+}
+
+98
+{
+  name { Guard Room }
+  desc {
+You have entered a guard room. You can see a few crude beds and a table
+with some chairs. This place isn't the cleanest. 
+You can go North or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 79 }
+	to { e, 102 }
+  }
+}
+
+99
+{
+  name { Vistor's Quarters }
+  desc {
+You have entered a room with some beds and dressers. There is a closet
+or two against the walls. It's cleaner here. 
+ You can go South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 102 }
+  }
+}
+
+100
+{
+  name { Kitchens of the Ogres }
+  desc {
+You have entered a huge kitchen. There are pots and pans everywhere!
+Big pots are cooking on the stoves. God knows whats in them!
+If you aren't careful, it might be you!
+ You can South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 103 }
+  }
+}
+
+101
+{
+  name { Slave Quarters }
+  desc {
+You have entered the slaves quarters. There is hay on the floor. There
+are chains attached to the walls. This place is full of poor slaves
+of many races. 
+ You can go South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 104 }
+  }
+}
+
+102
+{
+  name { Western End of Ogre's Main Hall }
+  desc {
+You have entered a feast hall. There is a large table with many chairs
+around it. There is food and bones still on the table. The chairs
+are in a mess. The place needs a janitor! There's not much on the walls
+except food!
+ You can go in all directions.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 99 }
+	to { e, 103 }
+	to { s, 107 }
+	to { w, 98 }
+  }
+}
+
+103
+{
+  name { Eastern End of Ogre's Main Hall }
+  desc {
+You are in main hall. The great table ends here. The place is really
+a MESS! But ogre's aren't known for cleanliness. The smell is bad here.
+Food is everywhere but on the plates.
+ You can go in all directions.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 100 }
+	to { e, 104 }
+	to { s, 108 }
+	to { w, 102 }
+  }
+}
+
+104
+{
+  name { Guard Room }
+  desc {
+You have entered a guard room. You see cots next to the wall. There
+is a table in the center of the room. There's guards playing a game at
+the table. 
+ You can go in all directions.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 101 }
+	to { e, 105 }
+	to { s, 109 }
+	to { w, 103 }
+  }
+}
+
+105
+{
+  name { King Ogre's Room }
+  desc {
+You have entered a ROYAL mess! The place is cleaner, but is totally
+unorganized. There is a place for a sword and shield on the wall.
+There is a chest in one corner. 
+ You can go West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 106 }
+	  info { door }
+	  keywords { secret" }
+	to { s, 110 }
+	to { w, 104 }
+  }
+}
+
+106
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You have come to a deadend.
+ You can go South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 111 }
+	to { w, 105 }
+	  info { door }
+	  keywords { secret" }
+  }
+}
+
+107
+{
+  name { Common Area }
+  desc {
+You have entered the living quarters of most of the Ogres. There
+are mounds of clothes, hay, dirt, and who knows what all around.
+The room is in bad shape. 
+ You can go North.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 102 }
+  }
+}
+
+108
+{
+  name { Armory/Storage Room }
+  desc {
+You have entered a room full of items. There are foodstuffs, armor, weapons
+, barrels, and boxes all over the room. Only the Gods could inventory
+this room! If you look long enough you might find it here!
+ You can go North.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 103 }
+  }
+}
+
+109
+{
+  name { Trash Room }
+  desc {
+You have entered a room full of trash! There are many piles
+of trash all around the room. It stinks!
+ You can go North.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 104 }
+  }
+}
+
+110
+{
+  name { Ogres' Treasure Room }
+  desc {
+You have entered a treasure room. There are bags and some chests
+thrown around the room. Yeah, It's a mess!
+ You can go North.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 105 }
+  }
+}
+
+111
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel.
+ You can go North or South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 106 }
+	to { s, 115 }
+  }
+}
+
+115
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel.
+You can go North or South.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 111 }
+	to { s, 120 }
+  }
+}
+
+116
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You can hear faint noise(s)? 
+ You can go South or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 117 }
+	to { s, 121 }
+  }
+}
+
+117
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. Faint echoes can be heard. You
+cant be sure in which direction.
+ You can go South, East, or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 118 }
+	to { s, 122 }
+	to { w, 116 }
+  }
+}
+
+118
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. Is that a sound you heard? You can't
+be sure.
+ You can go South, East, or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 119 }
+	to { s, 123 }
+	to { w, 117 }
+  }
+}
+
+119
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel.
+ You can go East or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 120 }
+	to { w, 118 }
+  }
+}
+
+120
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You are in a L-shaped tunnel.
+ You can go North or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 115 }
+	to { w, 119 }
+  }
+}
+
+121
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. Faint sounds can just be heard.
+ You can go in all directions.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 116 }
+	to { e, 122 }
+	to { s, 124 }
+	to { w, 97 }
+  }
+}
+
+122
+{
+  name { Minotaur's Lair }
+  desc {
+You have entered the lair of the Minotaur. You see bones of past 
+adventurers in one corner of the room. You see a crude bed in another
+corner. This room smells awful! 
+ You can go in all directions.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 117 }
+	to { e, 123 }
+	to { s, 125 }
+	to { w, 121 }
+  }
+}
+
+123
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. Sounds continue to be faintly heard.
+ You can go North, South, or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 118 }
+	to { s, 126 }
+	to { w, 122 }
+  }
+}
+
+124
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You swear noises can be heard coming
+from all around you.
+ You can go North or East.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 121 }
+	to { e, 125 }
+  }
+}
+
+125
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. Noises echo off the walls! Where's it
+coming from?
+ You can North, East, or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 122 }
+	to { e, 126 }
+	to { w, 124 }
+  }
+}
+
+126
+{
+  name { Passage }
+  desc {
+You are standing in a tunnel. You can hear sound(s)? off in
+the distance.
+ You can go North or West.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 123 }
+	to { w, 125 }
+  }
+}
+
+150
+{
+  name { End of the Winding Path }
+  desc {
+You have come to the end of the winding path.  The structure to the north
+looks like some type of stadium or arena.  It is enormous in size.  The path
+leads back to a dense forest to the south while the entrance of the structure
+is to the north.  This place is pretty desolate and travel is easy.
+  }
+  exits {
+	to { n, 2 }
+	to { s, 151 }
+  }
+}
+
+151
+{
+  name { Winding Path }
+  desc {
+The path seems to never end and travel is quite slow.  The structure
+to the north is slowly coming into focus.  It is quite large.  The 
+forest is almost non-existent here and the wind howls with great fury.
+  }
+  exits {
+	to { n, 150 }
+	to { s, 152 }
+  }
+}
+
+152
+{
+  name { Winding Path }
+  desc {
+You are on a winding dirt path which leads to the north and connects
+with a trail to the south of here.  The forest is sparse around this
+well traveled path.  Some type of structure looms in the north horizon.
+  }
+  exits {
+	to { n, 151 }
+	to { s, Haondor_light:1 }
+  }
+}

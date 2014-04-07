@@ -1,0 +1,813 @@
+
+0
+{
+  name { Path to Dwarven Village }
+  desc {
+You are walking down a path that leads to the dwarven village.  To the south
+you see the Temple of Midgaard, and to the north the path continues toward
+the mountains.
+  }
+  sector { Field }
+  exits {
+	to { n, 1 }
+	  desc { The path continues.
+}
+	to { s, Midgard_trail:4 }
+	  desc { You see the back of the Temple of Midgaard.
+}
+  }
+}
+
+1
+{
+  name { Path, base of mountain }
+  desc {
+Now you are at the bottom of a rugged mountain.  The forest around you is
+very dense, and it seems very dark to the north.
+  }
+  sector { Hills }
+  exits {
+	to { n, 2 }
+	  desc { The path coninues up the mountain.
+}
+	to { s, 0 }
+	  desc { The path heads toward the main city.
+}
+  }
+}
+
+2
+{
+  name { Path, middle of mountain }
+  desc {
+Standing on the middle of the mountain, you can easily see the city to
+the south, and the top of the mountain is very near to the north.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 3 }
+	  desc { The top of the mountain is easilly seen from here.
+}
+	to { s, 1 }
+	  desc { The base of the mountain is near.
+}
+  }
+}
+
+3
+{
+  name { Top of mountain }
+  desc {
+You are now on the top of the mountain.  To the south you see a path
+leading down the mountain.  To the east and west you see entrances to
+what seems like mines.
+  }
+  sector { Hills }
+  exits {
+	to { e, 40 }
+	  desc { An entrance to the mountain which seems to lead underground.
+}
+	to { s, 2 }
+	  desc { The path leads down the mountain to the main city.
+}
+	to { w, 5 }
+	  desc { There is an entrance to the mountain.
+}
+  }
+}
+
+4
+{
+  name { Narrow Path }
+  desc {
+This is a narrow path leading to the Dwarven Kingdom.  It looks less
+travelled than the others, and it is very creepy.  The path opens up
+to the south, and continues to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 6 }
+	to { s, 40 }
+  }
+}
+
+5
+{
+  name { Entrance to Mountain }
+  desc {
+Here is an entrance to the mountain.  The door looks very well built,
+and you can hear noise coming from within.
+  }
+  sector { Field }
+  exits {
+	to { e, 3 }
+	to { w, 13 }
+	  key { 6550 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+6
+{
+  name { Bend in Narrow Path }
+  desc {
+This is a narrow path that bends to the east here.  The trees hang over
+the path, and it is very overgrovn.  The narrow path continues to the
+south and to the east.
+  }
+  extra {
+	keywords { tree trees" }
+	desc { They hang over the road in the most ominous of ways.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 7 }
+	to { s, 4 }
+  }
+}
+
+7
+{
+  name { Narrow path }
+  desc {
+This path is very narrow, and it continues to the north and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 8 }
+	to { w, 6 }
+  }
+}
+
+8
+{
+  name { Narrow north-south path }
+  desc {
+This path leads to the north and south.  To the north you can see a
+door, and to the south the path continues.
+  }
+  flags { indoors }
+  exits {
+	to { n, 9 }
+	to { s, 7 }
+  }
+}
+
+9
+{
+  name { Door to Kingdom }
+  desc {
+Here the path turns to the west.  You can see a door in front of you,
+and the path continues to the west and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 10 }
+	  key { 6503 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 8 }
+	to { w, 22 }
+  }
+}
+
+10
+{
+  name { Path to the Castle }
+  desc {
+You are on a path that will eventually lead to the castle.  It
+continues north to the castle, and there is a door on the southern
+wall.
+  }
+  flags { indoors }
+  exits {
+	to { n, 11 }
+	to { s, 9 }
+	  key { 6503 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+11
+{
+  name { Still on the path to the Castle }
+  desc {
+You are still on the path to the castle, or back to the
+Dwarven village, whichever way you wish to go.  The path
+continues to the north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 12 }
+	to { s, 10 }
+  }
+}
+
+12
+{
+  name { Door to Castle }
+  desc {
+Here there is a door to the castle to the east.  The castle
+is elegantly designed, and looks much like a roll of toilet paper
+standing on it's end.  There is a sign which says:
+
+              ******************************************
+              *  WELCOME TO THE CASTLE OF STRANGELOVE  *
+              *      Here, celibacy is uninvited       *
+              ******************************************
+  }
+  flags { indoors }
+  exits {
+	to { e, 25 }
+	  key { 6514 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 11 }
+  }
+}
+
+13
+{
+  name { Inside the entrance }
+  desc {
+Everything here is covered in soot and very grimy.  The path continues
+to the east and north, and there is a door to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 14 }
+	  desc { The little underground path continues to the north.
+}
+	to { e, 5 }
+	  key { 6550 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { The path leads outside the entrance.
+}
+	to { w, 26 }
+	  desc { This looks like an entrance to some type of store room.
+}
+  }
+}
+
+14
+{
+  name { Path }
+  desc {
+You are on a path in the dwarven village which leads north to the shops
+and south to the corner of the area.
+  }
+  flags { indoors }
+  exits {
+	to { n, 15 }
+	to { s, 13 }
+  }
+}
+
+15
+{
+  name { Turn in road }
+  desc {
+You are on a path that leads to a Hide & Tooth shop to the west, and the
+path continues to the south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 14 }
+	to { w, 16 }
+	  desc { The Hide & Tooth shop is seen to the west.
+}
+  }
+}
+
+16
+{
+  name { Hide & Tooth Shop }
+  desc {
+You are in the Hide & Tooth shop.  Here you may buy the finest in Dwarven
+weapons and armors. The path continues to the north and east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 17 }
+	to { e, 15 }
+  }
+}
+
+17
+{
+  name { Path to the north of shop }
+  desc {
+You are on a path to the north of the Hide & Tooth shop.  The path continues
+to the north, and there is Granite Head's bakery to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 18 }
+	to { s, 16 }
+	to { w, 35 }
+  }
+}
+
+18
+{
+  name { North of Shops }
+  desc {
+Here the path bends to the east towards the barracks. To the
+south you can see the shops.
+  }
+  flags { indoors }
+  exits {
+	to { e, 19 }
+	to { s, 17 }
+  }
+}
+
+19
+{
+  name { Path by Hospital }
+  desc {
+Here the path passes by the Hospital to the north.  It continues
+to the east to the barracks, and to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 34 }
+	to { e, 20 }
+	to { w, 18 }
+  }
+}
+
+20
+{
+  name { Path next to barracks }
+  desc {
+Here the path continues west, and east to the barracks.
+  }
+  flags { indoors }
+  exits {
+	to { e, 21 }
+	to { w, 19 }
+  }
+}
+
+21
+{
+  name { Entrance to barracks }
+  desc {
+Here there is an entrance to the barracks to the south, and
+the path continues to the west.
+  }
+  flags { indoors }
+  exits {
+	to { s, 23 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 20 }
+  }
+}
+
+22
+{
+  name { Guard House }
+  desc {
+You are in the guard house to the west of the entrance
+to the castle.  There are nudie posters covering the walls.
+  }
+  extra {
+	keywords { poster" }
+	desc { There is a wall poster of a nude Minne Pearl.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 9 }
+  }
+}
+
+23
+{
+  name { First Barrack room }
+  desc {
+Here is the first of two main rooms of barracks.  The
+barracks continue to the south, and you can leave the room
+to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 21 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 24 }
+  }
+}
+
+24
+{
+  name { Back of Barracks }
+  desc {
+Here is the back of the dwarven barracks.  There are rows
+of beds here, and there is a stench that is unbearable.
+  }
+  flags { indoors }
+  exits {
+	to { n, 23 }
+  }
+}
+
+25
+{
+  name { Inside of Castle Strangelove }
+  desc {
+You are just inside the castle.  It is very tubular in shape,
+and it is very featureless.  There is a set of stairs that lead
+up, and the door leads out of the castle to the west.
+  }
+  flags { indoors }
+  exits {
+	to { w, 12 }
+	  key { 6514 }
+	  info { door, closed }
+	  keywords { door" }
+	to { u, 28 }
+  }
+}
+
+26
+{
+  name { A store room }
+  desc {
+There is a layer of dust on the floor at least 3 inches thick!  It is
+probable that not many people have been in here for many months.
+  }
+  extra {
+	keywords { floor dust" }
+	desc { After blowing all the dust off the floor, you notice a trapdoor!
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 13 }
+	  desc { A lighted area that looks like a well worn path.
+}
+	to { d, 27 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+  }
+}
+
+27
+{
+  name { Wine cellar }
+  desc {
+This room smells like wine, and you can only assume it used to be
+a wine cellar at one time.
+  }
+  flags { dark, indoors }
+  exits {
+	to { u, 26 }
+  }
+}
+
+28
+{
+  name { Stairs in castle }
+  desc {
+The stairs continue to circle up and down here.
+  }
+  flags { indoors }
+  exits {
+	to { u, 29 }
+	to { d, 25 }
+  }
+}
+
+29
+{
+  name { Stairs }
+  desc {
+You are still circling around on the stairs.  You are starting to
+get dizzy from going around and around and around and around and
+around.  The stairs continue up and down.
+  }
+  flags { indoors }
+  exits {
+	to { u, 30 }
+	to { d, 28 }
+  }
+}
+
+30
+{
+  name { Top of stairs }
+  desc {
+You are at the top of the stairs in the castle.  There is an exit
+to the east, and the stairs lead down.
+  }
+  flags { indoors }
+  exits {
+	to { e, 31 }
+	to { d, 29 }
+  }
+}
+
+31
+{
+  name { Queen's waiting room }
+  desc {
+This is the Queen's waiting room.  Here the men literally
+"wait" for the queen.  You've heard that the queen really likes
+to get to 'know' her people, in the biblical sense.  The queen's
+bedroom is to the north, and you can see stairs to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 32 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 30 }
+  }
+}
+
+32
+{
+  name { Bedroom }
+  desc {
+This is the Queen's bedroom.  The bed is all ruffled, and there
+is a stack of dirty sheets piled in the corner.  There is a ladder
+that leads down, out of the castle, and you can leave the room
+to the south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 31 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 33 }
+  }
+}
+
+33
+{
+  name { North side of Castle Strangelove }
+  desc {
+You are standing on the north side of Castle Strangelove.  You
+notice that you are no longer inside the mountain anymore either.
+Along the southern horizon you see towering mountains.
+  }
+  exits {
+	to { u, 32 }
+  }
+}
+
+34
+{
+  name { Hospital }
+  desc {
+You are inside the Dwarven Hospital.  It smells like rubbing
+alcohol, and there is blood all over the walls.
+  }
+  flags { indoors }
+  exits {
+	to { s, 19 }
+  }
+}
+
+35
+{
+  name { Granite Head's Bakery }
+  desc {
+The aroma coming from this room is astonishing.  You can almost taste
+the pastry's dissolving in your mouth.
+  }
+  flags { indoors }
+  exits {
+	to { e, 17 }
+  }
+}
+
+40
+{
+  name { Dark path }
+  desc {
+This path is very well worn, and there is an entrance to the mines to the
+east, while the path continues to the north and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 4 }
+	to { e, 41 }
+	  key { 6502 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 3 }
+  }
+}
+
+41
+{
+  name { Mine entrance }
+  desc {
+The little path here leads down toward the mines, while the worn path
+continues to the west.
+  }
+  flags { indoors }
+  exits {
+	to { w, 40 }
+	  key { 6502 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 42 }
+  }
+}
+
+42
+{
+  name { Bottom of mineshaft }
+  desc {
+You are at the bottom of the mineshaft.  The air here is very sooty, and
+it is very hard to breath.  The mineshaft leads up and east.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 43 }
+	to { u, 41 }
+  }
+}
+
+43
+{
+  name { Path in the mine }
+  desc {
+You are deep inside the mine, and you feel very uncomfortable.  The
+path continues to the east, and leads to the mineshaft to the west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 44 }
+	to { w, 42 }
+  }
+}
+
+44
+{
+  name { Mine crossroad }
+  desc {
+You are at a crossroad in the mine.  There is a door to the north,
+and the path continues to the south, east, and west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 46 }
+	  key { 6516 }
+	  info { door, closed }
+	  keywords { door" }
+	to { e, 45 }
+	to { s, 51 }
+	to { w, 43 }
+  }
+}
+
+45
+{
+  name { Coal Room }
+  desc {
+You are inside the storage area for the raw materials
+that are found down here.  The room is very unsturdy as the
+supports are very rickety.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 44 }
+  }
+}
+
+46
+{
+  name { Mine Maze }
+  desc {
+You have entered the maze of the mines.  To the east you
+can see some inscriptions, and you can exit to the south.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 47 }
+	to { s, 44 }
+	  key { 6516 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+47
+{
+  name { Maze inscription }
+  desc {
+You are inside the maze, but not far enough in that you could
+get lost.  There is an enscription on the wall which says:
+
+          1    3    2    4
+          N    W    N    S
+
+This isn't too tough, so don't take it so rough.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 48 }
+	to { e, 44 }
+	to { w, 46 }
+  }
+}
+
+48
+{
+  name { Maze }
+  desc {
+You are in a maze.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 49 }
+	to { s, 47 }
+	to { w, 48 }
+  }
+}
+
+49
+{
+  name { Maze }
+  desc {
+You are in a maze.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 48 }
+	to { s, 48 }
+	to { w, 50 }
+  }
+}
+
+50
+{
+  name { Maze }
+  desc {
+You are in a maze.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 49 }
+	to { e, 49 }
+	to { s, 52 }
+	to { w, 48 }
+  }
+}
+
+51
+{
+  name { Mining equipment room }
+  desc {
+This is the storage room for equipment used by the
+Dwarven miners.  It is very small, and you can tell that
+not many miners actually use any equipment.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 44 }
+  }
+}
+
+52
+{
+  name { Solved the Maze. }
+  desc {
+You have solved the maze.  You can tell by the last few moves
+that there is no way that a dumb worker could have figured that
+out.  It seems pretty desolate here.  To the south is a bleak room.
+To the north, you see the maze.  There is a sign above the south exit:
+
+THOSE WHO ENTER, PLAN ON A TIMELY DEATH.
+(ESPECIALLY IF YOU'RE LOYAL TO THE QUEEN)
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 50 }
+	to { s, 53 }
+  }
+}
+
+53
+{
+  name { The Mazekeeper's Room }
+  desc {
+You have entered the Mazekeeper's room.  There are pictures of
+the Queen with darts thrown in it.  Spraypainted on the wall are
+things like 'the queen shall suffer' and 'Catholics Rule'.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 52 }
+  }
+}

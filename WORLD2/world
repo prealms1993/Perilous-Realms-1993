@@ -1,0 +1,107 @@
+#include <area.list>
+
+#offset Void
+#include <Void>
+
+#offset Midgard_trail
+#include <Midgard_trail>
+
+#offset Moor1
+#include <Moor1>
+
+#offset Donation
+#include <Donation>
+
+#offset Ambush
+#include <Ambush>
+
+#offset Arena
+#include <Arena>
+
+#offset Asgard
+#include <Asgard>
+
+#offset Canticle
+#include <Canticle>
+
+#offset Tower_sorc
+#include <Tower_sorc>
+
+#offset Bank
+#include <Bank>
+
+#offset river1
+#include <river1>
+
+#offset Wasteland
+#include <Wasteland>
+
+#offset PR_entrance
+#include <PR_entrance>
+
+#offset Midgard
+#include <Midgard>
+
+#offset swamp
+#include <swamp>
+
+#offset Warg_ally
+#include <Warg_ally>
+
+#offset Moria1
+#include <Moria1>
+
+#offset Moria2
+#include <Moria2>
+
+#offset Desert
+#include <Desert>
+
+#offset Drow1
+#include <Drow1>
+
+#offset Thalos
+#include <Thalos>
+
+#offset Pyramid
+#include <Pyramid>
+
+#offset HELL
+#include <HELL>
+
+#offset Redferne
+#include <Redferne>
+
+#offset Harpy
+#include <Harpy>
+
+#offset SW_wilderness
+#include <SW_wilderness>
+
+#offset Crossroads
+#include <Crossroads>
+
+#offset Skexie
+#include <Skexie>
+
+#offset Mistamere
+#include <Mistamere>
+
+#offset Arachnos
+#include <Arachnos>
+
+#offset Trog_caves
+#include <Trog_caves>
+
+#offset Rhyodin
+#include <Rhyodin>
+
+#offset Abyss
+#include <Abyss>
+
+#offset Tagol
+#include <Tagol>
+
+#offset Dwarf_outpost
+#include <Dwarf_outpost>
+

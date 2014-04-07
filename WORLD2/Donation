@@ -1,0 +1,23 @@
+
+0
+{
+  name { The Donation Room }
+  desc {
+"   This is the donation room where people can donate items for new players.     
+There are candles lining the wall, and a large pile of stuff lying on the       
+floor. 
+  }
+  sector { City }
+  flags { no_mob, indoors, nosteal }
+  exits {
+	to { u, Midgard:0 }
+  }
+}
+
+207
+{
+  name { 306 }
+  desc {
+Empty
+  }
+}

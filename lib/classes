@@ -1,0 +1,3408 @@
+36 <-- TOTAL RECORDS (must stay like this)
+
+Stat order STR INT WIS DEX CON CHR LCK
+==============================================================================
+INDEX: 0
+CLASSNAME: Assassin
+ABBRV: As
+ALIGN: E
+HP: 2 5 2
+MIN: 12 11  0 14  0  9  7
+MAX: 18 18 18 18 18 18 18
+RACES: Hu El Dw He Ho Li
+ITEMS: 2 3 9
+THAC0: 8 4
+SPEED: 15 20
+MULT: 1.0
+FLAGS: T
+PROF: dagger
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 65 70 60 80 75                      *
+DECREASE: 5 4 5 5 4                        *
+MINSAVE:  40 20 35 55 25                   *
+-------------------------------------------
+
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+backstab               |  1|  1 |    |   | 95|
+assasinate one         |  2|  1 |    |   | 95|
+hide                   |  5|  1 |    |   | 95|
+assasinate two         |  6|  1 |    |   | 95|
+backstab one           |  7|  1 |    |   | 95|
+assasinate three       | 11|  1 |    |   | 95|
+assasinate four        | 17|  1 |    |   | 95|
+backstab two           | 17|  1 |    |   | 95|
+assasinate five        | 24|  2 |  35|   | 95|
+backstab three         | 27|  1 |    |   | 95|
+assasinate six         | 32|  2 |  50|   | 95|
+backstab four          | 37|  2 |  35|   | 95|
+assasinate seven       | 41|  2 |  65|   | 95|
+backstab five          | 47|  3 |  80|   | 95|
+assasinate eight       | 51|  3 | 155|   | 95|
+dual wield             | 50|  4 |  30|   | 90|
+backstab six           | 57|  3 | 155|   | 95|
+assasinate nine        | 62|  4 | 155|   | 95|
+assasinate ten         | 74|  4 | 305|   | 95|
+backstab seven         | 80|  3 | 305|   | 90|
+assasinate eleven      | 87|  5 | 455|   | 95|
+assasinate twelve      |101|  6 | 505|   | 95|
+backstab eight         |120|  4 | 605|   | 80|
+assasinate thirteen    |121|  6 |1205|   | 95|
+assasinate fourteen    |142|  6 |2005|   | 95|
+assasinate fifteen     |164|  7 |2505|   | 95|
+sneak                  |190|  9 |4505|   | 40|
+backstab nine          |220|  4 | 805|   | 70|
+backstab ten           |320|  4 |1405|   | 60|
+
+SPELLS                  Lvl Diff Cost Gld Max Mana     Prereq Components
+detect poison          | 10|  1 |    |   | 95| 10 | P |      |
+poison                 | 13|  1 |    |   | 90| 16 | P |detect poison|
+blindness              | 30|  1 |  10|   | 90| 16 | P |      |
+energy drain           | 50|  3 |  66|   | 95| 20 | P |      |
+infravision            | 70|  1 |  75|   | 95| 12 | P |      |
+sense life             |115|  2 | 100|   | 95| 22 | P |infravision|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  5|  1 |    |   |100|
+dart                   | 12|  2 |    |   |100|
+longsword              | 15|  2 |  50|   |100| shortsword
+club                   | 17|  2 |    |   | 80|
+handaxe                | 18|  1 |    |   | 80|
+pickaxe                | 20|  1 |    |   | 80|
+rapier                 | 23|  3 |  50|   | 80| shortsword
+sabre                  | 25|  2 |  50|   | 70| longsword
+crossbow               | 30|  4 |    |   |100| dart
+mace                   | 33|  2 |    |   | 70| club
+flail                  | 35|  4 |  40|   | 90|
+broadsword             | 40|  4 | 200|   | 70| longsword
+whip                   | 45|  2 |    |   | 80| flail
+bastard                | 50|  4 | 400|   | 60| broadsword
+shuriken               | 70|  4 | 200|   | 90|
+
+==============================================================================
+INDEX: 1
+CLASSNAME: Avenger
+ABBRV: Av
+ALIGN: E
+HP: 2 8 2
+MIN: 12  9 13 13  9 14  5
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He
+ITEMS: 1 5 8 11
+THAC0: 7 2
+SPEED: 10 30
+MULT: 1.0
+FLAGS: F
+PROF: longsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 3 3 3 3 3                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+
+SKILLS                   Lvl Diff Cost Gld Max Prereq
+kick                   |  1|  3 |    |   | 95|
+bash                   |  2|  3 |    |   | 95|
+rescue                 |  2|  3 |  30|   | 95|kick
+dual wield             | 26|  3 |  10|   |100|
+scan                   | 67|  3 |  10|   | 95|
+
+PROF
+dagger                 |  1|  1 |    |   | 90|
+knife                  |  1|  1 |    |   | 90|
+shortsword             |  1|  1 |    |   |100|
+longsword              |  1|  1 |    |   |100| 
+broadsword             | 10|  1 |    |   |100| longsword
+rapier                 | 10|  1 |  25|   | 90| shortsword
+handaxe                | 10|  1 |    |   | 90|
+pickaxe                | 13|  1 |    |   | 90|
+flail                  | 14|  1 |    |   | 90|
+club                   | 17|  1 |    |   | 90|
+sabre                  | 18|  1 |  15|   | 90| longsword
+bastard                | 20|  1 |    |   |100| broadsword
+hammer                 | 21|  1 |    |   | 90|
+whip                   | 23|  1 |  30|   | 90| flail
+staff                  | 26|  1 |  30|   | 90|
+axe                    | 27|  1 |    |   | 90| pickaxe
+mace                   | 28|  1 |    |   | 90| club
+shortbow               | 31|  1 |  50|   | 90|
+spear                  | 33|  1 |    |   | 90|
+claymore               | 40|  1 |    |   |100| bastard
+longbow                | 41|  1 |  35|   | 90| shortbow
+javelin                | 44|  1 |    |   | 90| spear
+crossbow               | 51|  1 |  45|   | 90| shortbow
+pike                   | 55|  1 |    |   | 90|
+scimitar               | 60|  1 |    |   |100| claymore
+warhammer              | 63|  1 |    |   | 90|
+halberd                | 66|  1 |  30|   | 90|
+trident                | 71|  1 |    |   | 90|
+battleaxe              | 75|  1 |    |   | 90| axe
+glaive                 | 77|  1 |  25|   | 90|
+scythe                 | 80|  1 |    |   | 90| scimitar
+
+SPELLS                  Lvl Diff Cost Gld Max Mana  S  Prereq Components
+cause light            | 50|  1 |    |   | 95|   5| M |      |
+detect magic           | 55|  1 |  10|   | 95|   8| M |      |
+blindness              | 65|  2 |  25|   | 95|  20| M |      |
+curse                  | 80|  1 |    |   | 95|  25| M |      |
+cause serious          | 95|  1 |    |   | 95|  11| M |cause light|
+drain vigor critic     |115|  2 |  25|   | 95|  18| M |      |
+weakness               |135|  2 |  40|   | 95|  25| M |drain vigor critic|
+poison                 |165|  1 |  45|   | 95|  15| M |      |
+cause critical         |195|  1 |    |   | 95|  18| M |cause serious|
+wither                 |235|  3 |  60|   | 95|  30| M |curse,weakness|
+energy drain           |280|  3 |  75|   | 95|  33| M |weakness,wither|   
+unholy word            |335|  4 |    |   | 95|  40| M |cause critical,curse|
+harm                   |400|  4 | 150|   | 95|  49| M |cause critical|
+
+==============================================================================
+INDEX: 2
+CLASSNAME: Barbarian
+ABBRV: Bb
+ALIGN: GNE
+HP: 3 8 4
+MIN: 15  0  0  0 15  0 15
+MAX: 18 18 18 18 18 18 18
+RACES: Hu Li Tr Gi
+ITEMS: 6 1 10
+THAC0: 6 3
+SPEED: 8 50
+MULT: 1.0
+FLAGS: F
+PROF: club
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 3 3 3 3 3                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+SKILLS                   Lvl Diff Cost Gld Max Prereq
+bash                   |  1|  1 |    |   | 95|
+kick                   |  5|  1 |    |   | 95|
+dual wield             | 15|  2 | 10 |   | 90|
+aid                    | 18|  1 |150 |   | 90|
+hitall                 | 35|  2 | 50 |   | 95|
+disarm                 | 75|  4 |100 |   | 80|
+
+PROF
+club                   |  1|  1 |    |   |100|
+hammer                 |  2|  1 |    |   |100|
+shortsword             |  2|  2 | 25 |   | 70|
+longsword              |  3|  1 | 15 |   |100|
+broadsword             |  4|  1 |    |   |100| longsword
+axe                    |  5|  1 |    |   |100|
+warhammer              |  5|  2 |    |   |100| hammer
+bastard                |  7|  1 |  5 |   |100| broadsword
+claymore               | 15|  2 |  5 |   |100| bastard
+mace                   | 25|  3 |    |   |100| club
+staff                  | 31|  5 | 45 |   | 60|
+flail                  | 40|  5 | 25 |   | 70|
+battleaxe              | 44|  2 | 12 |   |100| axe
+whip                   | 46|  2 | 25 |   |100| flail
+spear                  | 49|  2 | 25 |   | 80|
+halberd                | 52|  2 | 25 |   | 80| pike
+pike                   | 51|  2 | 25 |   | 80| spear
+glaive                 | 53|  2 | 25 |   | 80| halberd
+scythe                 | 60|  4 | 50 |   | 70| glaive
+
+==============================================================================
+INDEX: 3
+CLASSNAME: Bard
+ABBRV: Ba
+ALIGN: NG
+HP: 3 3 1
+MIN:  0  0 13  0  0 15  7
+MAX: 18 18 18 18 18 18 18
+RACES: Hu
+ITEMS: 2 4 9
+THAC0: 8 2
+SPEED: 17 20
+MULT: 1.0
+FLAGS: T
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 65 70 60 80 75                      *
+DECREASE: 5 4 5 5 4                        *
+MINSAVE:  40 20 35 55 25                   *
+-------------------------------------------
+
+SKILLS                   Lvl Diff Cost Gld Max Prereq
+appraise               | 10|  1 |  1 |   | 95|
+read magic             | 15|  1 |    |   | 95|
+aid                    | 18|  1 |125 |   | 95|
+dual wield             | 20|  2 | 10 |   | 80|
+
+PROF
+shortsword             |  1|  1 |    |   |100|
+dagger                 |  3|  1 |    |   | 80|
+knife                  |  3|  1 |    |   | 80|
+longsword              |  6|  1 |    |   | 90| shortsword
+pickaxe                |  9|  1 |    |   | 80|
+club                   | 10|  1 |    |   | 90|
+dart                   | 11|  1 | 12 |   | 80|
+staff                  | 15|  1 |    |   | 90|
+handaxe                | 17|  1 |    |   | 80|
+broadsword             | 20|  2 |    |   | 80| longsword
+hammer                 | 21|  1 |    |   | 80|
+bastard                | 30|  3 |    |   | 80| broadsword
+flail                  | 31|  1 |    |   | 80|
+whip                   | 33|  2 |    |   | 90| flail
+rapier                 | 35|  2 |    |   | 80| longsword
+axe                    | 37|  1 |    |   | 80| handaxe
+claymore               | 40|  3 |    |   | 80| bastard
+sabre                  | 45|  2 |    |   | 80| broadsword
+scimitar               | 50|  4 |    |   | 80| claymore
+mace                   | 55|  2 |    |   | 80| club
+shortbow               | 60|  1 |    |   | 90|
+warhammer              | 61|  2 |    |   | 80| hammer
+claw                   | 61|  2 |    |   | 80|
+javelin                | 70|  1 |    |   | 80|
+shuriken               | 71|  1 |    |   | 80|
+scythe                 | 71|  3 |    |   | 80| scimitar
+longbow                | 75|  2 |    |   | 90| shortbow
+spear                  | 75|  1 |    |   | 80| javelin
+trident                | 77|  2 |    |   | 80| spear
+battleaxe              | 80|  3 |    |   | 80| axe
+pike                   | 80|  2 |    |   | 80| spear
+halberd                | 90|  2 |    |   | 80| pike
+crossbow               | 90|  3 |    |   | 90| shortbow
+glaive                 |100|  2 |    |   | 80| halberd
+
+SPELLS                  Lvl Diff Cost Gld Max Mana  S  Prereq Components
+ventriloquate          |  8|  1 |  10|   | 95|  4 | P |      |
+charm monster          | 12|  1 | 100|   | 95| 20 | P |      |
+teleimage              | 15|  1 | 120|   | 95| 10 | P |      |
+nosleep                | 18|  1 |  30|   | 95|  8 | P |      |
+dexterity              | 20|  1 |  35|   | 95| 15 | P |      |
+nocharm                | 23|  1 |  30|   | 95| 15 | P |      |
+calm                   | 30|  1 |  25|   | 95|    | P |      |
+sleep                  | 33|  2 |  50|   | 95|    | P |calm|
+fear                   | 37|  1 |  50|   | 95|    | P |      |
+scry                   | 55|  1 |  30|   | 95| 20 | P |      |
+shriek                 |115|  3 | 125|   | 95| 33 | P |      |
+
+==============================================================================
+INDEX: 4
+CLASSNAME: Cavalier
+ABBRV: Ca
+ALIGN: NG
+HP: 2 8 2
+MIN: 12  9 10 13  9 15  0
+MAX: 18 18 18 18 18 18 18
+RACES: Hu
+ITEMS: 1 5 9 8
+THAC0: 6 3
+SPEED: 10 40
+MULT: 1.0
+FLAGS: F
+PROF: longsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 3 3 3 3 3                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+SKILLS                   Lvl Diff Cost Gld Max Prereq
+kick                   |  1|  1 |    |   | 95|
+rescue                 |  2|  1 |    |   | 95|kick
+dual wield             | 15|  2 | 10 |   |100|
+aid                    | 19|  1 |125 |   | 90|
+scan                   | 68|  2 | 10 |   | 95|
+
+PROF
+shortsword             |  1|  1 |    |   |100| 
+longsword              |  1|  1 |    |   |100|
+broadsword             |  6|  1 |    |   |100| longsword
+bastard                | 18|  1 |    |   |100| broadsword
+claymore               | 27|  1 |    |   |100| bastard
+scimitar               | 39|  1 |    |   |100| claymore
+sabre                  | 17|  1 |    |   |100|
+handaxe                |  6|  1 |    |   |100|
+battleaxe              | 50|  3 | 25 |   | 70|
+halberd                | 46|  2 |    |   |100|
+pike                   | 31|  2 |    |   |100|
+glaive                 | 57|  2 |    |   |100|
+longbow                | 33|  2 |    |   |100|
+shortbow               | 27|  2 |    |   |100|
+crossbow               | 41|  2 |    |   |100|
+spear                  | 19|  2 |    |   |100|
+javelin                | 12|  1 |    |   |100|
+trident                | 60|  2 | 15 |   | 70|
+flail                  | 10|  1 | 10 |   | 70|
+scythe                 | 55|  3 | 25 |   | 80|
+axe                    | 25|  1 |  5 |   | 70|
+warhammer              | 45|  2 | 10 |   | 70|
+hammer                 | 20|  1 |  8 |   | 70|
+
+==============================================================================
+INDEX: 5
+CLASSNAME: Cleric
+ABBRV: Cl
+ALIGN: NGE
+HP: 3 3 1
+MIN:  0  0  9  0  0  0  0
+MAX: 18 18 18 18 18 18 18
+RACES: Hu El Dw He Ho Pi Hl Gn
+ITEMS: 2 7 8 9 14 963
+THAC0: 8 8
+SPEED: 25 10
+MULT: 1.0
+FLAGS: C
+PROF: warhammer
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 50 70 65 80 75                      *
+DECREASE: 4 4 4 4 4                        *
+MINSAVE:  10 30 25 40 35                   *
+-------------------------------------------
+
+
+SKILLS                   Lvl Diff Cost Gld Max Prereq
+dual wield             | 50|  2 | 900|   | 75|
+
+PROF
+hammer                 |  1|  1 |    |   |100|
+warhammer              |  1|  1 |    |   |100| hammer
+club                   |  4|  1 |    |   |100|
+mace                   |  6|  1 |    |   |100| club
+staff                  | 14|  1 | 15 |   | 90|
+flail                  | 16|  1 |    |   |100|
+whip                   | 21|  1 |    |   |100| flail
+
+SPELLS                  Lvl Diff Cost Gld Max Mana  S  Prereq Components
+cure light             |  1|  1 |    |   | 95|  5 | M |      |963
+armor                  |  2|  1 |    |   | 95| 15 | M |      |963
+cause light            |  2|  1 |    |   | 95|  8 | M |      |963
+turn                   |  2|  1 |    |   | 95| 15 | M |      |963
+bless                  |  3|  1 |    |   | 95| 15 | M |      |963
+create light           |  3|  1 |    |   | 95| 10 | M |      |963
+create water           |  3|  1 |    |   | 95| 10 | M |      |963
+detect evil            |  3|  1 |    |   | 95| 15 | M |      |963
+create food            |  4|  1 |    |   | 95| 15 | M |      |963
+detect poison          |  4|  1 |    |   | 95| 15 | M |      |963
+slow poison            |  5|  1 |    |   | 95| 10 | M |detect poison|963
+detect magic           |  6|  1 |    |   | 95| 25 | M |      |963
+drain vigor light      |  7|  1 |    |   | 60| 10 | M |      |963, 969
+cure blind             |  8|  1 |    |   | 95| 15 | M |      |963, 968
+water breath           |  8|  1 |    |   | 95| 10 | M |create water|963, 972
+continual light        |  8|  1 |    |   | 95| 10 | M |create light|963, 973
+calm                   |  9|  1 |    |   | 95| 15 | M |      |963, 966
+detect invisibility    |  9|  1 |    |   | 95| 15 | M |      |963, 966
+refresh                |  9|  1 |    |   | 95| 10 | M |      |963, 968
+drain vigor serious    | 10|  1 |    |   | 60| 12 | M |drain vigor light|963, 969
+remove poison          | 11|  1 |    |   | 95| 15 | M |slow poison|963, 968
+blindness              | 12|  1 |    |   | 95| 10 | M |cure blind|963, 969
+nosleep                | 13|  1 |    |   | 95| 15 | M |      |963, 966
+remove curse           | 14|  1 |    |   | 95| 25 | M |      |963, 968
+sense life             | 15|  1 |    |   | 95| 20 | M |      |963, 973
+earthquake             | 15|  1 |    |   | 95| 15 | M |      |963, 967
+drain vigor critic     | 15|  1 |    |   | 65| 17 | M |drain vigor serious|963, 969
+word of recall         | 15|  1 |    |   | 95| 20 | M |      |963, 966, 973
+cure serious           | 15|  1 |    |   | 95| 11 | M |cure light|964, 968
+cause serious          | 16|  1 |    |   | 95| 10 | M |cause light|964, 967, 969
+dexterity              | 16|  1 |    |   | 95| 25 | M |      |964, 973
+poison                 | 17|  1 |    |   | 95| 20 | M |remove poison|964, 967, 969
+second wind            | 18|  1 |    |   | 95| 10 | M |refresh|964, 968, 973
+true sight             | 19|  1 |    |   | 95| 30 | M |sense life,detect invisibility|964, 973
+animate dead           | 20|  1 |    |   | 95| 25 | M |turn|964, 968, 969
+fly                    | 20|  1 |    |   | 95| 35 | M |      |964, 973
+vigorize light         | 21|  1 |    |   | 95| 20 | M |      |964, 968
+dispel evil            | 22|  1 |    |   | 95| 20 | M |turn,detect evil|964, 973
+flamestrike            | 22|  1 |    |   | 95| 15 | M |      |964, 967, 970
+dispel good            | 24|  1 |    |   | 95| 20 | M |      |964, 973
+call lightning         | 25|  1 |    |   | 95| 15 | M |      |964, 967, 971
+nocharm                | 28|  1 |    |   | 95| 25 | M |      |964, 966, 973
+curse                  | 29|  1 |    |   | 95| 30 | M |remove curse|964, 969
+cause critical         | 30|  1 |    |   | 95| 15 | M |cause serious|965, 969, 971
+remove paralysis       | 30|  1 |    |   | 95| 30 | M |      |965, 968
+cure critic            | 31|  1 |    |   | 95| 18 | M |cure serious|965, 966, 968
+summon                 | 32|  2 |100 |   | 95| 60 | M |word of recall|965, 973
+dispel invisibility    | 34|  1 |    |   | 95| 35 | M |detect invisibility|965, 973
+wither                 | 40|  1 |    |   | 95| 35 | M |      |965, 967, 969
+sanctuary              | 45|  2 | 250|   | 95| 75 | M |armor|965, 966, 973
+harm                   | 50|  1 |    |   | 95| 40 | M |cause critical|965, 967, 969
+vigorize serious       | 52|  1 |    |   | 95| 30 | M |vigorize light|965, 968, 973
+succor                 | 55|  1 |    |   | 95|100 | M |word of recall|965, 966, 973
+shriek                 | 60|  2 | 500|   | 80| 25 | M |      |965, 967, 973
+firestorm              | 67|  1 |    |   | 95| 40 | M |flamestrike|965, 967, 970
+holy word              | 69|  1 |    |   | 95| 45 | M |      |965, 967, 969
+nosummon               | 71|  1 |    |   | 95| 45 | M |      |965, 966
+unholy word            | 73|  1 |    |   | 95| 50 | M |      |965, 967, 969
+conjure elemental      | 75|  1 |    |   | 95| 30 | M |      |965, 973
+heal                   | 76|  1 |    |   | 95| 60 | M |cure critic|965, 968
+vigorize critic        | 81|  1 |    |   | 95| 40 | M |vigorize serious|965, 968, 973
+dispel magic           | 99|  4 | 500|   | 95| 50 | M |detect magic|965, 966
+invulnerability        |100|  4 |1000|   | 95|150 | M |dispel magic,sanctuary      |965, 966, 973
+full harm              |125|  1 |    |   | 95| 90 | M |harm|965, 967, 973
+full heal              |170|  3 | 500|   | 95|130 | M |heal|965, 968, 973
+cacaodemon             |175|  1 |    |   | 95| 50 | M |conjure elemental|965, 973
+recharger              |210|  4 | 500|   | 85| 50 | M |      |965, 968, 973
+chain lightning        |260|  4 | 500|   | 95| 65 | M |call lightning|965, 967, 971
+
+==============================================================================
+INDEX: 6
+CLASSNAME: Druid
+ABBRV: Du
+ALIGN: NGE
+HP: 3 3 3
+MIN:  0 12 12  0  0 10  0
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He Pi Hl
+ITEMS: 2 4 9
+THAC0: 10 7
+SPEED: 30 10
+MULT: 1.0
+FLAGS: C
+PROF: warhammer
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 50 55 65 75 70                      *
+DECREASE: 4 4 4 4 4                        *
+MINSAVE:  2 2 2 2 2                        *
+-------------------------------------------
+
+
+SKILLS                   Lvl Diff Cost Gld Max Prereq
+read magic             | 15|  1 |    |   | 95|
+track                  | 25|  1 |    |   | 80|
+dual wield             | 25|  2 |100 |   | 75|
+scan                   | 73|  1 |    |   | 95|
+
+PROF
+dagger                 |  1|  1 |    |   | 80|
+hammer                 |  1|  1 |    |   |100|
+warhammer              |  1|  1 |    |   |100| hammer
+knife                  |  5|  1 |    |   | 80|
+shortsword             |  7|  1 |    |   | 90|
+club                   |  8|  1 |    |   |100|
+staff                  |  8|  1 |    |   |100|
+dart                   |  9|  1 |    |   | 70|
+flail                  | 11|  1 |    |   |100|
+longsword              | 13|  1 |    |   | 90| shortsword
+claw                   | 14|  1 |    |   | 60|
+mace                   | 15|  1 |    |   |100| club
+whip                   | 21|  1 |    |   |100| flail
+shortbow               | 22|  1 |    |   |100|
+broadsword             | 27|  1 |    |   | 90| longsword
+longbow                | 33|  1 |    |   |100| shortbow
+bastard                | 43|  2 | 75 |   | 80| broadsword
+crossbow               | 44|  1 |    |   |100| shortbow
+
+SPELLS                  Lvl Diff Cost Gld Max Mana  S  Prereq Components
+burning hands          |  2|  1 |    |   | 95|  7 | M |      |
+control weather        |  3|  1 |    |   | 95| 10 | M |      |
+chill touch            |  4|  1 |    |   | 95|  8 | M |      |
+slow poison            |  5|  1 |    |   | 95| 10 | M |      |
+create water           |  6|  1 |    |   | 95|  5 | M |      |
+create food            |  7|  1 |    |   | 95|  5 | M |      |
+nosleep                |  7|  1 |    |   | 95| 15 | M |      |
+water breath           |  8|  1 |    |   | 95|  8 | M |create water|
+faerie fire            | 12|  1 |    |   | 95| 17 | M |      |
+flamestrike            | 13|  1 |    |   | 95| 10 | M |burning hands|
+call lightning         | 13|  1 |    |   | 95| 12 | M |control weather|
+monsum one             | 14|  2 | 20 |   | 95|  8 | M |      |
+fury                   | 15|  1 |    |   | 95| 10 | M |      |
+sense life             | 16|  1 |    |   | 95| 17 | M |      |
+remove poison          | 17|  1 |    |   | 95| 15 | M |slow poison|
+monsum two             | 19|  2 | 22 |   | 95| 10 | M |monsum one|
+infravision            | 20|  1 |    |   | 95| 12 | M |sense life|
+earthquake             | 22|  1 |    |   | 95| 23 | M |      |
+monsum three           | 23|  2 | 24 |   | 95| 12 | M |monsum two|
+acid blast             | 24|  1 |    |   | 95| 15 | M |      |
+wither                 | 25|  1 |    |   | 95| 18 | M |      |
+faerie fog             | 26|  1 |    |   | 95| 20 | M |faerie fire|
+gust of wind           | 27|  1 |    |   | 95| 14 | M |control weather|
+monsum four            | 28|  2 | 26 |   | 95| 14 | M |monsum three|
+cure blind             | 29|  1 |    |   | 95| 11 | M |      |
+ice storm              | 30|  1 |    |   | 95| 30 | M |chill touch|
+call lightning         | 32|  1 |    |   | 95| 20 | M |      |
+poison                 | 35|  1 |    |   | 95| 16 | M |remove poison|
+monsum five            | 37|  2 | 28 |   | 95| 16 | M |monsum four|
+fireball               | 40|  2 | 45 |   | 95| 23 | M |flamestrike|
+cone of cold           | 41|  2 | 50 |   | 95| 25 | M |ice storm|
+monsum six             | 44|  2 | 30 |   | 95| 18 | M |monsum five| 
+lightning bolt         | 52|  2 | 35 |   | 95| 26 | M |call lightning|
+monsum seven           | 58|  2 | 32 |   | 95| 20 | M |monsum six|
+scry                   | 60|  1 |    |   | 90| 16 | M |      |
+charm monster          | 63|  1 |    |   | 95| 20 | M |monsum seven|
+shriek                 | 70|  2 | 65 |   | 80| 20 | M |      |
+conjure elemental      | 75|  2 | 80 |   | 95| 45 | M |      |
+firestorm              | 92|  3 |100 |   | 95| 26 | M |fireball|
+meteor swarm           |104|  3 |125 |   | 95| 30 | M |      |
+chain lightning        |112|  3 |135 |   | 95| 32 | M |lightning bolt|
+stone skin             |135|  2 | 75 |   | 95| 35 | M |      |
+
+==============================================================================
+INDEX: 7
+CLASSNAME: Illusionist
+ABBRV: IL
+ALIGN: NGE
+HP: 2 4 1
+MIN:  0 14 19  0  0 10  0
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He Pi Gn
+ITEMS: 2 3 9
+THAC0: 15 8
+SPEED: 50 10
+MULT: 1.0
+FLAGS: M
+PROF: dagger
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 60 65 70 75 80                      *
+DECREASE: 3 3 3 3 3                        *
+MINSAVE:  25 30 30 35 40                   *
+-------------------------------------------
+
+SPELLS                  Lvl Diff Cost Gld Max Mana  S  Prereq Components
+true sight             |  3|  1 |    |   | 95| 10 | P |
+faerie fire            |  7|  1 |    |   | 95| 10 | P |
+faerie fog             | 12|  1 |    |   | 95| 10 | P |
+charm person           |  1|  1 |    |   | 95| 50 | P |      |
+detect invisibility    |  1|  1 |    |   | 95| 15 | P |      |
+invisibility           |  1|  1 |    |   | 95| 10 | P |      |
+teleport               |  8|  1 |    |   | 95| 30 | P |      |
+shield                 | 10|  1 |    |   | 95| 25 | P |      |
+fury                   | 15|  1 |    |   | 95| 15 | P |      |
+telelook               | 15|  1 |    |   | 95| 15 | P |      |
+colour spray           | 20|  1 |    |   | 95| 20 | P |      |
+wither                 | 20|  1 |    |   | 95| 17 | P |      |
+dispel invisibility    | 23|  1 |    |   | 95| 35 | P |      |
+teleimage              | 25|  1 |    |   | 95| 10 | P |      |
+scare                  | 27|  1 |    |   | 95| 15 | P |      |
+blindness              | 30|  1 |    |   | 95| 20 | P |      |
+scry                   | 35|  1 |    |   | 95| 20 | P |      |
+shriek                 | 40|  1 |    |   | 80| 20 | P |      |
+flamestrike            | 55|  1 |    |   | 95| 40 | P |      |
+gust of wind           | 57|  1 |    |   | 95| 15 | P |      |
+mage fire              | 60|  1 |    |   | 95| 30 | P |      |
+firestorm              | 70|  1 |    |   | 90| 45 | P |      |
+fireshield             | 74|  1 |    |   | 95| 50 | P |      |
+dispel magic           | 77|  1 |    |   | 95| 50 | P |      |
+astral walk            | 80|  1 |    |   | 95| 50 | P |      |
+meteor swarm           |100|  1 |    |   | 95| 35 | P |      |
+invulnerability        |200|  1 |    |   | 95| 90 | P |      |
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+longsword              |  1|  1 |    |   |100|
+rapier                 |  1|  1 |    |   |100|
+sabre                  |  1|  1 |    |   |100|
+club                   |  1|  1 |    |   |100|
+staff                  |  1|  1 |    |   |100|
+mace                   |  1|  1 |    |   |100|
+flail                  |  1|  1 |    |   |100|
+whip                   |  1|  1 |    |   |100|
+dart                   |  1|  1 |    |   |100|
+warhammer              |  1|  1 |    |   |100|
+hammer                 |  1|  1 |    |   |100|
+
+==============================================================================
+INDEX: 8
+CLASSNAME: Mage
+ABBRV: Ma
+ALIGN: NGE
+HP: 2 3 1
+MIN:  0  9  0  6  0  0  0
+MAX: 18 18 18 18 18 18 18
+RACES: Hu El He Pi
+ITEMS: 2 3 8 9 14 960
+THAC0: 15 8
+SPEED: 50 10
+MULT: 1.0
+FLAGS: M
+PROF: dagger
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 70 55 65 75 60                      *
+DECREASE: 6 6 6 6 6                        *
+MINSAVE:  40 15 25 30 20                   *
+-------------------------------------------
+
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+examine wards          | 20|  1 |    |   | 95|
+
+SPELLS                  Lvl Diff Cost Gld Max Mana  S  Prereq Components
+burning hands          |  1|  1 |    |   | 95|  7 | P |      |960
+shield                 |  2|  1 |    |   | 95| 25 | P |      |960
+create light           |  3|  1 |    |   | 95| 10 | P |      |960
+magic missile          |  3|  1 |    |   | 95| 14 | P |      |960
+detect magic           |  4|  1 |    |   | 95| 15 | P |      |960
+detect invisibility    |  5|  1 |    |   | 95| 17 | P |      |960
+shocking grasp         |  5|  1 |    |   | 95| 15 | P |      |960
+continual light        |  7|  1 |    |   | 95| 15 | P |create light|960
+chill touch            |  7|  1 |    |   | 95| 12 | P |      |960
+fly                    |  8|  1 |    |   | 95| 25 | P |      |960
+drain vigor light      |  9|  1 |    |   | 75| 10 | P |      |960, 969
+refresh                | 10|  1 |    |   | 95| 10 | P |      |960, 973
+charm person           | 11|  1 |    |   | 95| 10 | P |      |960
+lightning bolt         | 12|  1 |    |   | 95| 15 | P |shocking grasp,magic missile|960, 967
+water breath           | 13|  1 |    |   | 95| 25 | P |      |960, 972
+strength               | 14|  1 |    |   | 95| 20 | P |      |960, 973
+drain vigor serious    | 15|  1 |    |   | 70| 12 | P |drain vigor light|960, 969
+invisibility           | 16|  1 |    |   | 95| 15 | P |detect invisibility|960, 966
+infravision            | 16|  1 |    |   | 95| 27 | P |      |960
+weakness               | 17|  1 |    |   | 95| 20 | P |strength|960, 969
+sleep                  | 18|  1 |    |   | 95| 15 | P |      |960, 966
+calm                   | 19|  1 |    |   | 95| 15 | P |      |960, 966
+minor creation         | 20|  1 |    |   | 95| 15 | P |      |960, 973
+acid blast             | 22|  1 |    |   | 95| 15 | P |      |960, 967, 973
+knock                  | 22|  1 |    |   | 95|115 | P |      |960, 973
+second wind            | 23|  1 |    |   | 95| 10 | P |refresh|960, 968
+drain vigor critic     | 24|  1 |    |   | 65| 17 | P |drain vigor serious|960, 969
+know alignment         | 25|  1 |    |   | 95| 30 | P |      |960
+fear                   | 26|  1 |    |   | 95| 15 | P |      |960, 967
+monsum one             | 27|  1 |    |   | 95| 20 | P |      |960, 973
+teleport               | 28|  1 |    |   | 95| 30 | P |minor creation|960, 973
+charm monster          | 29|  1 |    |   | 95| 20 | P |calm|960, 967
+ice storm              | 31|  1 |    |   | 95| 15 | P |chill touch|961, 967, 972
+monsum two             | 32|  1 |    |   | 95| 23 | P |monsum one|961, 973
+blindness              | 33|  1 |    |   | 95| 15 | P |      |961, 967
+translook              | 36|  1 |    |   | 95| 25 | P |      |961, 973
+nosleep                | 39|  1 |    |   | 95| 25 | P |      |961, 966
+cone of cold           | 40|  2 | 25 |   | 95| 25 | P |ice storm|961, 967, 972
+vigorize light         | 40|  1 |    |   | 95| 30 | P |      |961, 968
+monsum three           | 42|  1 |    |   | 95| 36 | P |monsum two|961, 967, 973
+nocharm                | 48|  1 |    |   | 95| 25 | P |      |961, 973
+monsum four            | 51|  1 |    |   | 95| 39 | P |monsum three|961, 967, 973
+colour spray           | 55|  2 | 25 |   | 95| 25 | P |      |961, 967, 973
+vigorize serious       | 57|  1 |    |   | 95| 30 | P |vigorize light|961, 968
+energy drain           | 59|  4 | 50 |   | 95| 35 | P |weakness|961, 967, 973
+monsum five            | 61|  1 |    |   | 95| 42 | P |monsum four|961, 973
+fireball               | 69|  3 | 40 |   | 95| 25 | P |burning hands|961, 967, 970
+dispel invisibility    | 73|  1 |    |   | 95| 35 | P |detect invisibility|961, 973
+enchant weapon         | 75|  5 | 50 |   | 95|500 | P |      |962, 973
+vigorize critic        | 77|  1 |    |   | 95| 40 | P |vigorize serious|962, 968
+monsum six             | 77|  1 |    |   | 95| 45 | P |monsum five|962, 973, 967
+scry                   | 89|  2 | 15 |   | 95| 30 | P |      |962, 973
+monsum seven           | 90|  1 |    |   | 95| 48 | P |monsum six|962, 967, 973
+dispel magic           | 98|  2 | 65 |   | 95| 55 | P |detect magic|961, 973
+paralyze               |100|  3 |100 | 70| 90| 55 | P |      |962, 967, 969
+meteor swarm           |105|  3 |125 |   | 95| 25 | P |      |962, 967, 973
+mage fire              |119|  3 |150 |   | 95| 35 | P |fireball|962, 967, 970, 973
+pword blind            |125|  2 | 50 |   | 95| 15 | P |blindness|962, 967
+portal                 |145|  3 |200 |   | 95|125 | P |      |962, 973
+conjure elemental      |150|  4 | 40 |   | 95| 30 | P |      |962, 967, 973
+pword kill             |150|  2 | 60 |   | 95| 25 | P |      |962, 967
+nosummon               |155|  1 |    |   | 95| 20 | P |      |962, 966, 973
+stone skin             |176|  3 |105 |   | 95| 45 | P |      |962, 966, 973
+cacaodemon             |195|  3 | 80 |   | 95| 60 | P |conjure elemental|962, 973
+fireshield             |225|  5 |500 |   | 95|150 | P |mage fire,shield|962, 966, 967, 970
+invulnerability        |250|  5 |300 |   | 95|200 | P |dispel magic,shield|962, 969, 973
+vitilize mana          |275|  3 |250 |   | 80| 40 | P |      |962, 968
+warp weapon            |280|  3 |310 |   | 95| 50 | P |      |962, 973
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+dart                   |  5|  1 | 25 |   | 70|
+flail                  |  7|  1 |    |   | 90|
+shortsword             |  7|  2 | 15 |   | 80|
+whip                   |  9|  1 | 10 |   | 80| flail
+club                   | 11|  2 |    |   | 90|
+staff                  | 12|  1 |    |   |100|
+longsword              | 13|  2 |    |   | 60| shortsword
+mace                   | 14|  2 |    |   | 80| club
+rapier                 | 21|  2 | 75 |   | 70|
+hammer                 | 30|  2 | 30 |   | 80|
+warhammer              | 50|  4 | 40 |   | 60| hammer
+
+==============================================================================
+INDEX: 9
+CLASSNAME: Ninja
+ABBRV: Ni
+ALIGN: NGE
+HP: 2 6 2
+MIN:  0  0  0 15 10  0  7
+MAX: 18 18 18 18 18 18 18
+RACES: Hu
+ITEMS: 2 4 9
+THAC0: 7 4
+SPEED: 8 20
+MULT: 1.0
+FLAGS: T
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 4 4 4 5 4                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+sneak                  |  1|  1 |    |   | 95|
+hide                   |  5|  1 |    |   | 95|
+backstab               |  5|  1 |    |   | 80|
+kick                   |  6|  1 |    |   | 95|
+backstab one           | 13|  1 |    |   | 95|
+dual wield             | 20|  2 |50  |   | 95|
+backstab two           | 27|  2 |60  |   | 95|
+backstab three         | 39|  2 |70  |   | 95|
+backstab four          | 51|  2 |80  |   | 90|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+dart                   |  5|  1 |    |   |100|
+claw                   |  6|  1 |    |   |100|
+shuriken               |  8|  1 |    |   |100| dart
+handaxe                |  8|  1 |    |   |100|
+hammer                 |  9|  1 |    |   | 80|
+longsword              |  9|  2 |    |   | 80| shortsword
+club                   | 11|  1 |    |   | 80|
+flail                  | 11|  1 |    |   |100|
+rapier                 | 16|  1 |    |   | 90|
+staff                  | 17|  2 |    |   |100|
+axe                    | 18|  1 |    |   | 90| handaxe
+whip                   | 22|  1 |    |   | 80| flail
+broadsword             | 26|  3 |    |   | 80| longsword
+sabre                  | 31|  1 |    |   | 80|
+javelin                | 31|  2 |    |   |100|
+spear                  | 37|  2 |    |   |100| javelin
+crossbow               | 41|  2 |    |   |100| dart
+pike                   | 43|  1 |    |   | 80| spear
+
+SPELLS                  Lvl Diff Cost Gld Max Mana  S Prereq Components
+drain vigor light      |  7|  1 |    |   | 90| 10 | P |      |
+paralyze               | 40|  5 |500 |   | 95| 45 | P |      |
+
+==============================================================================
+INDEX: 10
+CLASSNAME: Paladin
+ABBRV: Pa
+ALIGN: G
+HP: 2 8 4
+MIN: 12  9 13 13  9 17  5
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He
+ITEMS: 1 5 8 11
+THAC0: 6 2
+SPEED: 10 30
+MULT: 1.0
+FLAGS: F
+PROF: longsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 3 3 3 3 3                        *
+MINSAVE: 15 25 20 15 25                    *
+-------------------------------------------
+
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+kick                   |  1|  1 |    |   | 95|
+rescue                 |  1|  1 |    |   | 95|kick
+dual wield             | 16|  2 | 50 |   |100|
+aid                    | 50|  1 |125 |   | 95|
+scan                   | 66|  1 |    |   | 95|
+
+PROF
+dagger                 |  1|  1 |    |   | 90|
+knife                  |  1|  1 |    |   | 90|
+shortsword             |  1|  1 |    |   |100|
+longsword              |  1|  1 |    |   |100| shortsword
+broadsword             | 10|  1 |    |   |100| longsword
+rapier                 | 10|  1 |    |   | 90| shortsword
+handaxe                | 10|  1 |    |   | 90|
+pickaxe                | 13|  1 |    |   | 90|
+flail                  | 14|  1 |    |   | 90|
+club                   | 17|  1 |    |   | 90|
+sabre                  | 18|  1 |    |   | 90| longsword
+bastard                | 20|  1 |    |   |100| broadsword
+hammer                 | 21|  1 |    |   | 90|
+whip                   | 23|  1 |    |   | 90| flail
+staff                  | 26|  1 |    |   | 90|
+axe                    | 27|  1 |    |   | 90| pickaxe
+mace                   | 28|  1 |    |   | 90| club
+shortbow               | 31|  1 |    |   | 90|
+javelin                | 33|  1 |    |   | 90|
+claymore               | 40|  1 |    |   |100| bastard
+longbow                | 41|  1 |    |   | 90| shortbow
+spear                  | 44|  1 |    |   | 90| javelin
+crossbow               | 51|  1 |    |   | 90| shortbow
+pike                   | 55|  1 |    |   | 90| spear
+warhammer              | 63|  1 |    |   | 90| hammer
+halberd                | 66|  1 |    |   | 90|
+trident                | 71|  1 |    |   | 90|
+battleaxe              | 75|  1 |    |   | 90| axe
+glaive                 | 77|  1 |    |   | 90|
+
+SPELLS                  Lvl Diff Cost Gld Max Mana  S  Prereq Components
+cure light             | 50|  1 |    |   | 95|   5| M |      |
+detect magic           | 55|  1 |  30|   | 95|   8| M |      |
+remove poison          | 65|  1 |  30|   | 95|  11| M |      |
+bless                  | 80|  1 |    |   | 95|  25| M |      |
+cure serious           | 95|  1 |    |   | 95|  11| M |cure light|
+second wind            |115|  2 |  65|   | 95|  18| M |      |
+strength               |135|  2 |  65|   | 95|  25| M |second wind|
+true sight             |165|  1 |  50|   | 95|  15| M |detect magic|
+cure critic            |195|  1 |    |   | 95|  18| M |cure serious|
+calm                   |235|  3 |  50|   | 95|  25| M |bless|
+succor                 |280|  3 | 100|   | 95|  33| M |      |   
+holy word              |335|  4 | 125|   | 95|  40| M |      |
+heal                   |400|  4 | 150|   | 95|  49| M |cure critic|
+
+==============================================================================
+INDEX: 11
+CLASSNAME: Ranger
+ABBRV: Ra
+ALIGN: NGE
+HP: 4 4 1
+MIN: 13  8  0  0 10 13  5
+MAX: 18 18 18 18 18 18 18
+RACES: Hu El He
+ITEMS: 2 4 9
+THAC0: 6 2
+SPEED: 10 30
+MULT: 1.0
+FLAGS: F
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 3 3 3 3 3                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+kick                   |  1|  1 |    |   | 95|
+bash                   |  1|  1 |    |   | 95|
+rescue                 |  3|  1 |    |   | 95|kick
+track                  | 10|  1 |    |   | 95|
+dual wield             | 25|  2 |1000|   | 95|
+scan                   | 65|  1 |    |   | 95|
+
+PROF
+shortsword             |  1|  1 |    |   |100|
+longsword              |  5|  1 |    |   |100| shortsword
+club                   |  7|  1 |    |   |100|
+dagger                 |  9|  3 | 10 |   | 70|
+knife                  |  9|  3 | 10 |   | 80|
+shortbow               | 10|  1 |    |   |100|
+broadsword             | 11|  1 |    |   |100| longsword
+javelin                | 11|  1 |    |   |100|
+pickaxe                | 11|  2 | 22 |   | 70|
+mace                   | 15|  1 |    |   |100| club
+handaxe                | 16|  1 |    |   | 90|
+longbow                | 20|  1 |    |   |100| shortbow
+spear                  | 21|  1 |    |   |100| javelin
+hammer                 | 21|  1 |    |   |100|
+bastard                | 21|  2 | 30 |   | 90| broadsword
+crossbow               | 25|  1 |    |   |100| shortbow
+staff                  | 28|  3 | 16 |   | 80|
+axe                    | 31|  2 | 30 |   | 90|
+pike                   | 31|  1 |    |   | 80| spear
+claymore               | 31|  2 | 45 |   | 80| bastard
+warhammer              | 41|  2 | 30 |   | 80| hammer
+halberd                | 41|  1 |    |   |100|
+glaive                 | 51|  1 |    |   |100|
+battleaxe              | 55|  3 | 40 |   | 80| axe
+trident                | 67|  2 | 40 |   | 70|
+
+==============================================================================
+INDEX: 12
+CLASSNAME: Thief
+ABBRV: Th
+ALIGN: NGE
+HP: 2 5 1
+MIN:  0  0  0  9  0  0  0
+MAX: 18 18 18 18 18 18 18
+RACES: Hu El Dw He Ho Li Tr Hl Gn
+ITEMS: 3 9 2
+THAC0: 7 3
+SPEED: 10 20
+MULT: 1.0
+FLAGS: T
+PROF: dagger
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 65 70 60 80 75                      *
+DECREASE: 5 4 5 5 4                        *
+MINSAVE:  40 20 35 55 25                   *
+-------------------------------------------
+
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+pick                   |  1|  1 |    |   | 95|
+sneak                  |  1|  1 |    |   | 95|
+steal                  |  2|  1 |    |   | 95|
+backstab               |  2|  1 |    |   | 95|
+backstab one           |  6|  1 |    |   | 95|
+hide                   | 10|  1 |    |   | 95|
+backstab two           | 15|  1 | 10 |   | 95|
+backstab three         | 24|  2 | 50 |   | 95|
+backstab four          | 34|  2 | 60 |   | 90|
+dual wield             | 35|  2 |100 |   | 75|
+backstab five          | 44|  2 | 70 |   | 90|
+backstab six           | 67|  3 | 80 |   | 85| 
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+longsword              |  5|  1 |    |   |100| shortsword
+dart                   |  8|  1 |    |   |100|
+pickaxe                |  9|  1 |    |   |100|
+staff                  | 11|  2 | 15 |   | 90|
+club                   | 13|  2 |  6 |   | 80|
+rapier                 | 14|  2 | 22 |   |100|
+claw                   | 14|  2 | 18 |   | 80|
+broadsword             | 15|  3 | 34 |   | 70| longsword
+shortbow               | 15|  2 | 18 |   |100|
+handaxe                | 16|  1 |    |   | 90|
+mace                   | 17|  2 |  9 |   | 80| club
+flail                  | 17|  1 |    |   |100|
+hammer                 | 18|  2 | 12 |   | 80|
+sabre                  | 18|  2 | 14 |   | 80|
+whip                   | 22|  1 |    |   |100| flail
+crossbow               | 24|  2 | 16 |   |100| shortbow
+longbow                | 29|  2 | 15 |   | 80| shortbow
+axe                    | 29|  1 |    |   | 90|
+
+==============================================================================
+INDEX: 13
+CLASSNAME: Warrior
+ABBRV: Wa
+ALIGN: NGE
+HP: 3 4 1
+MIN:  9  0  0  0  7  0  0
+MAX: 18 18 18 18 18 18 18
+RACES: Hu El Dw He Ho Li Tr Og Gi Hl Gn
+ITEMS: 1 5 8 10
+THAC0: 5 2
+SPEED: 10 40
+MULT: 1.0
+FLAGS: F
+PROF: longsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 3 3 3 3 3                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+kick                   |  1|  1 |    |   | 95|
+bash                   |  1|  3 |    |   | 95|
+rescue                 |  5|  3 |    |   | 95|kick
+aid                    | 15|  1 |    |   | 90|
+disarm                 | 15|  3 |    |   | 90|
+dual wield             | 17|  3 |10  |   | 95|
+hitall                 | 30|  3 |    |   | 90|
+scan                   | 67|  3 |    |   | 95|
+
+PROF
+shortsword             |  1|  1 |    |   |100|
+longsword              |  1|  1 |    |   |100|
+rapier                 |  5|  1 |    |   |100|
+broadsword             |  6|  1 |    |   |100|
+dagger                 |  7|  1 |    |   |100|
+knife                  |  7|  1 |    |   |100|
+bastard                |  9|  1 |    |   |100|
+hammer                 | 10|  1 |    |   |100|
+club                   | 11|  1 |    |   |100|
+pickaxe                | 12|  1 |    |   | 80|
+handaxe                | 13|  1 |    |   |100|
+javelin                | 14|  1 | 10 |   | 90|
+dart                   | 14|  4 | 10 |   | 60|
+flail                  | 16|  2 | 12 |   | 90|
+claymore               | 17|  1 |    |   |100|
+staff                  | 21|  1 |    |   | 80|
+spear                  | 21|  1 | 14 |   | 90|
+warhammer              | 22|  2 |    |   |100|
+shortbow               | 23|  3 | 18 |   | 80|
+sabre                  | 23|  1 |    |   |100|
+whip                   | 23|  1 |  8 |   | 90|
+mace                   | 24|  1 |    |   |100|
+shuriken               | 25|  4 | 25 |   | 60|
+axe                    | 27|  1 |    |   |100|
+scimitar               | 29|  1 |    |   |100|
+claw                   | 30|  3 | 15 |   | 70|
+pike                   | 34|  2 |    |   | 90|
+longbow                | 40|  3 | 20 |   | 80|
+battleaxe              | 40|  2 |    |   | 90|
+scythe                 | 41|  2 | 14 |   |100|
+halberd                | 51|  2 |    |   | 90|
+crossbow               | 55|  3 | 22 |   |100|
+trident                | 59|  2 | 12 |   | 80|
+glaive                 | 65|  2 |    |   | 90|
+
+==============================================================================
+
+INDEX: 14
+CLASSNAME: Highwayman
+ABBRV: Hi
+ALIGN: NGE
+HP: 2 5 1
+MIN:  15  0  0  14  12  0  9
+MAX: 18 18 18 18 18 18 18
+RACES: El Dw He Ho Li Tr Hl Gn Hu
+ITEMS: 4 9 2
+THAC0: 7 3
+SPEED: 12 20
+MULT: 1.1
+FLAGS: F
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 4 4 4 4 4                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* Warrior/Thief */
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+kick                   |  1|  1 |    |   | 90|
+bash                   |  3|  1 |    |   | 90|
+rescue                 |  7|  1 |    |   | 90|kick
+aid                    | 15|  1 |    |   | 90|
+disarm                 | 18|  2 |    |   | 85|
+pick                   | 25|  2 | 50 |   | 80|
+dual wield             | 31|  2 |150 |   | 95|
+sneak                  | 33|  3 |150 |   | 80|
+hitall                 | 35|  2 | 50 |   | 85|
+steal                  | 42|  3 | 50 |   | 80|
+backstab               | 53|  4 |100 |   | 80|
+scan                   | 69|  2 |    |   | 90|
+hide                   | 75|  5 |200 |   | 80|
+backstab one           | 87|  6 |150 |   | 70|
+
+PROF
+shortsword             |  1|  1 |    |   |100|
+longsword              |  4|  1 |    |   |100|
+dagger                 |  4|  1 |    |   |100|
+knife                  |  4|  1 |    |   |100|
+rapier                 |  8|  1 | 15 |   |100|
+bastard                |  9|  1 |    |   |100|
+pickaxe                | 11|  1 |    |   | 80|
+club                   | 12|  1 |  5 |   | 90|
+dart                   | 12|  3 | 10 |   | 60|
+broadsword             | 13|  2 | 24 |   | 90|
+hammer                 | 13|  1 |  6 |   | 90|
+handaxe                | 14|  1 |    |   |100|
+javelin                | 14|  1 | 10 |   | 90|
+flail                  | 16|  2 |  7 |   | 90|
+claymore               | 17|  1 |    |   |100|
+staff                  | 18|  1 |  8 |   | 80|
+mace                   | 20|  1 |  5 |   | 90|
+spear                  | 21|  1 | 14 |   | 90|
+shortbow               | 21|  2 | 18 |   | 90|
+warhammer              | 22|  2 |    |   |100|
+sabre                  | 22|  1 |  6 |   | 90|
+whip                   | 23|  1 |  8 |   |100|
+claw                   | 24|  3 | 15 |   | 70|
+shuriken               | 25|  4 | 25 |   | 60|
+axe                    | 27|  1 |    |   |100|
+scimitar               | 29|  1 |    |   |100|
+pike                   | 34|  2 |    |   | 90|
+longbow                | 37|  2 | 18 |   | 80|
+battleaxe              | 40|  2 |    |   | 90|
+scythe                 | 41|  2 | 14 |   |100|
+crossbow               | 45|  3 | 20 |   |100|
+halberd                | 51|  2 |    |   | 90|
+trident                | 59|  2 | 12 |   | 80|
+glaive                 | 65|  2 |    |   | 90|
+
+=============================================================================
+
+INDEX: 15
+CLASSNAME: Rogue
+ABBRV: Ro
+ALIGN: NGE
+HP: 2 5 1
+MIN: 15  0  0  14  12  0  9
+MAX: 18 18 18 18 18 18 18
+RACES: El Dw He Ho Hl Gn Hu
+ITEMS: 4 9 2
+THAC0: 8 4
+SPEED: 12 20
+MULT: 1.1
+FLAGS: F
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 65 70 60 80 75                      *
+DECREASE: 5 4 5 5 4                        *
+MINSAVE:  40 20 35 55 25                   *
+-------------------------------------------
+
+/* Thief/Warrior */
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+sneak                  |  1|  1 |    |   | 90|
+backstab               |  2|  1 |   5|   | 90|
+pick                   |  5|  1 |    |   | 90|
+steal                  |  7|  1 |    |   | 90|
+hide                   | 15|  1 |  10|   | 90|
+aid                    | 15|  2 |    |   | 90|
+kick                   | 20|  5 |  20|   | 80|
+dual wield             | 30|  3 | 100|   | 95|
+bash                   | 35|  5 |  30|   | 80|
+backstab one           | 40|  2 |  50|   | 90|
+rescue                 | 45|  5 |  50|   | 80|kick
+disarm                 | 55|  5 | 100|   | 75|
+backstab two           | 70|  3 |  50|   | 90|
+hitall                 | 80|  5 | 100|   | 85|
+backstab three         |110|  6 | 200|   | 80|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+longsword              |  4|  1 |    |   |100| shortsword
+dart                   |  9|  2 |    |   | 80|
+pickaxe                | 10|  1 |    |   | 80|
+rapier                 | 11|  2 | 14 |   |100|
+broadsword             | 12|  2 | 17 |   | 80| longsword
+club                   | 13|  1 |  4 |   | 90|
+staff                  | 14|  2 | 10 |   | 90|
+handaxe                | 15|  1 |    |   | 90|
+hammer                 | 15|  2 |  8 |   | 90|
+shortbow               | 16|  2 | 18 |   |100|
+flail                  | 17|  1 |    |   |100|
+sabre                  | 18|  2 | 14 |   | 80|
+claw                   | 19|  2 | 17 |   | 80|
+mace                   | 19|  2 |    |   | 90| club
+whip                   | 22|  1 |    |   |100| flail
+warhammer              | 25|  2 | 10 |   | 80| hammer
+axe                    | 28|  1 |    |   |100|
+longbow                | 32|  2 | 15 |   | 80| shortbow
+crossbow               | 41|  2 | 16 |   |100| shortbow
+
+===============================================================================
+INDEX: 16
+CLASSNAME: Powermonger
+ABBRV: Pm
+ALIGN: NGE
+HP: 2 3 1
+MIN:  0 16 10 17 0 0 15
+MAX: 18 18 18 18 18 18 18
+RACES: Hu El He Pi
+ITEMS: 2 3 8 9 14
+THAC0: 16 8
+SPEED: 25 10
+MULT: 1.1
+FLAGS: MT
+PROF: dagger
+/* thac0 drops 1 every 16 lvls to a min of 8 */
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 90 95                     *
+DECREASE: 5 5 5 5 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* mage/thief */
+SPELLS                  Lvl Diff Cost Gld Max Mana  S Prereq Components
+burning hands          |  1|  1 |    |   | 95|  7 | P |      |
+shield                 |  2|  1 |    |   | 95| 25 | P |      |
+create light           |  3|  1 |    |   | 95| 10 | P |      |
+magic missile          |  3|  1 |    |   | 95| 14 | P |      |
+detect magic           |  4|  1 |    |   | 95| 15 | P |      |
+detect invisibility    |  5|  1 |    |   | 95| 17 | P |      |
+shocking grasp         |  5|  1 |    |   | 95| 15 | P |      |
+continual light        |  7|  1 |    |   | 95| 15 | P |create light|
+chill touch            |  7|  1 |    |   | 95| 12 | P |      |
+fly                    |  8|  1 |    |   | 95| 25 | P |      |
+drain vigor light      |  9|  1 |    |   | 75| 10 | P |      |
+refresh                | 10|  1 |    |   | 95| 10 | P |      |
+charm person           | 11|  1 |    |   | 95| 10 | P |      |
+lightning bolt         | 12|  1 |    |   | 95| 15 | P |shocking grasp,magic missile|
+water breath           | 13|  1 |    |   | 95| 25 | P |      |
+strength               | 14|  1 |    |   | 95| 20 | P |      |
+drain vigor serious    | 15|  1 |    |   | 70| 12 | P |drain vigor light|
+invisibility           | 16|  1 |    |   | 95| 15 | P |detect invisibility|
+infravision            | 16|  1 |    |   | 95| 27 | P |      |
+weakness               | 17|  1 |    |   | 95| 20 | P |strength|
+sleep                  | 18|  1 |    |   | 95| 15 | P |      |
+calm                   | 19|  1 |    |   | 95| 15 | P |      |
+minor creation         | 20|  1 |    |   | 95| 15 | P |      |
+acid blast             | 22|  1 |    |   | 95| 15 | P |      |
+knock                  | 22|  1 |    |   | 95|115 | P |      |
+second wind            | 23|  1 |    |   | 95| 10 | P |refresh|
+drain vigor critic     | 24|  1 |    |   | 65| 17 | P |drain vigor serious|
+know alignment         | 25|  1 |    |   | 95| 30 | P |      |
+fear                   | 26|  1 |    |   | 95| 15 | P |      |
+monsum one             | 27|  1 |    |   | 95| 20 | P |      |
+teleport               | 28|  1 |    |   | 95| 30 | P |minor creation|
+charm monster          | 29|  1 |    |   | 95| 20 | P |calm|
+ice storm              | 31|  1 |    |   | 95| 15 | P |chill touch|
+monsum two             | 32|  1 |    |   | 95| 23 | P |monsum one|
+blindness              | 33|  1 |    |   | 95| 15 | P |      |
+translook              | 36|  1 |    |   | 95| 25 | P |      |
+nosleep                | 39|  1 |    |   | 95| 25 | P |      |
+cone of cold           | 40|  1 |    |   | 95| 25 | P |ice storm|
+vigorize light         | 40|  1 |    |   | 95| 30 | P |      |
+monsum three           | 42|  1 |    |   | 95| 36 | P |monsum two|
+monsum four            | 51|  1 |    |   | 95| 39 | P |monsum three|
+colour spray           | 55|  1 |    |   | 95| 25 | P |      |
+vigorize serious       | 57|  1 |    |   | 95| 30 | P |vigorize light|
+energy drain           | 59|  1 |    |   | 95| 35 | P |weakness|
+monsum five            | 61|  1 |    |   | 95| 42 | P |monsum four|
+fireball               | 69|  1 |    |   | 95| 25 | P |burning hands|
+dispel invisibility    | 73|  1 |    |   | 95| 35 | P |detect invisibility|
+enchant weapon         | 75|  1 |    |   | 95|500 | P |      |
+monsum six             | 77|  1 |    |   | 95| 45 | P |monsum five|
+dispel magic           | 87|  2 |    |   | 95| 55 | P |detect magic|
+scry                   | 89|  1 |    |   | 95| 30 | P |      |
+meteor swarm           |105|  1 |    |   | 95| 25 | P |      |
+mage fire              |119|  1 |    |   | 95| 35 | P |fireball|
+portal                 |145|  1 |    |   | 95|125 | P |      |
+conjure elemental      |150|  1 |    |   | 95| 30 | P |      |
+pword kill             |150|  1 |    |   | 95| 25 | P |      |
+stone skin             |176|  1 |    |   | 95| 45 | P |      |
+cacaodemon             |195|  1 |    |   | 95| 60 | P |conjure elemental|
+fireshield             |225|  1 |    |   | 95|150 | P |mage fire,shield|
+vitilize mana          |275|  1 |    |   | 80| 40 | P |      |
+warp weapon            |280|  1 |    |   | 95| 50 | P |      |
+
+SKILLS
+read magic             |  1|  1 |    |   | 90|
+examine wards          | 20|  1 |    |   | 90|
+pick                   | 50|  3 |  50| 50| 80|
+sneak                  | 60|  3 |    |   | 80|
+backstab               | 63|  4 | 100| 50| 80|
+steal                  | 70|  3 |    |   | 80|
+hide                   | 95|  3 | 100|   | 80|
+backstab one           |125|  6 | 150|   | 70|
+dual wield             |205|  4 |1500|   | 50|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  4|  2 |    |   | 90|
+dart                   |  5|  1 | 16 |   | 90|
+flail                  |  7|  1 |    |   |100|
+club                   | 11|  2 |    |   | 90|
+staff                  | 12|  1 |    |   |100|
+longsword              | 13|  2 |    |   | 80| shortsword
+mace                   | 14|  2 |    |   | 80| club
+whip                   | 16|  1 | 10 |   | 90| flail
+handaxe                | 18|  2 |    |   | 80|
+rapier                 | 21|  2 | 44 |   | 80|
+hammer                 | 26|  2 | 24 |   | 80|
+axe                    | 33|  2 | 20 |   | 80| handaxe
+warhammer              | 50|  4 | 40 |   | 60| hammer
+
+==============================================================================
+
+INDEX: 17
+CLASSNAME: Scout
+ABBRV: Sc
+ALIGN: NGE
+HP: 2 3 1
+MIN:  0 16 10 17 0 0 15
+MAX: 18 18 18 18 18 18 18
+RACES: Hu El He Pi
+ITEMS: 2 3 8 9 14
+THAC0: 16 8
+SPEED: 25 10
+MULT: 1.1
+FLAGS: MT
+PROF: dagger
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 70 70 60 80 75                      *
+DECREASE: 5 4 5 5 4                        *
+MINSAVE:  40 20 35 55 25                   *
+-------------------------------------------
+
+/* thief/mage */
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          | 11|  2 |    |   | 95|  7 | P |      |
+shield                 | 12|  2 |    |   | 95| 25 | P |      |
+create light           | 13|  2 |    |   | 95| 10 | P |      |
+magic missile          | 13|  2 |    |   | 95| 14 | P |      |
+detect magic           | 14|  2 |    |   | 95| 15 | P |      |
+detect invisibility    | 15|  2 |    |   | 95| 17 | P |      |
+shocking grasp         | 15|  2 |    |   | 95| 15 | P |      |
+continual light        | 17|  2 |    |   | 95| 15 | P |create light|
+chill touch            | 17|  2 |    |   | 95| 12 | P |      |
+fly                    | 18|  2 |    |   | 95| 25 | P |      |
+drain vigor light      | 19|  2 |    |   | 75| 10 | P |      |
+refresh                | 20|  2 |    |   | 95| 10 | P |      |
+charm person           | 21|  2 |    |   | 95| 10 | P |      |
+lightning bolt         | 22|  2 |    |   | 95| 15 | P |shocking grasp,magic missile|
+water breath           | 23|  2 |    |   | 95| 25 | P |      |
+strength               | 24|  2 |    |   | 95| 20 | P |      |
+drain vigor serious    | 25|  2 |    |   | 70| 12 | P |drain vigor light|
+invisibility           | 26|  2 |    |   | 95| 15 | P |detect invisibility|
+infravision            | 26|  2 |    |   | 95| 27 | P |      |
+weakness               | 27|  2 |    |   | 95| 20 | P |strength|
+sleep                  | 28|  2 |    |   | 95| 15 | P |      |
+calm                   | 29|  2 |    |   | 95| 15 | P |      |
+minor creation         | 30|  2 |    |   | 95| 15 | P |      |
+acid blast             | 32|  2 |    |   | 95| 15 | P |      |
+knock                  | 32|  2 |    |   | 95|115 | P |      |
+second wind            | 33|  2 |    |   | 95| 10 | P |refresh|
+know alignment         | 35|  2 |    |   | 95| 30 | P |      |
+fear                   | 36|  2 |    |   | 95| 15 | P |      |
+monsum one             | 37|  2 |    |   | 95| 20 | P |      |
+teleport               | 38|  2 |    |   | 95| 30 | P |minor creation|
+charm monster          | 39|  2 |    |   | 95| 20 | P |calm|
+ice storm              | 41|  2 |    |   | 95| 15 | P |chill touch|
+monsum two             | 42|  2 |    |   | 95| 23 | P |monsum one|
+blindness              | 43|  2 |    |   | 95| 15 | P |      |
+cone of cold           | 48|  3 |    |   | 95| 25 | P |ice storm|
+vigorize light         | 50|  2 |    |   | 95| 30 | P |      |
+monsum three           | 52|  3 |    |   | 95| 36 | P |monsum two|
+monsum four            | 61|  3 |    |   | 95| 39 | P |monsum three|
+colour spray           | 65|  3 |    |   | 95| 25 | P |      |
+energy drain           | 69|  4 |    |   | 95| 35 | P |weakness|
+fireball               | 79|  4 |    |   | 95| 25 | P |burning hands|
+dispel invisibility    | 83|  3 |    |   | 95| 35 | P |detect invisibility|
+dispel magic           | 97|  4 |    |   | 95| 55 | P |detect magic|
+meteor swarm           |105|  5 |    |   | 95| 25 | P |      |
+conjure elemental      |150|  5 |    |   | 95| 30 | P |      |
+pword kill             |150|  3 |    |   | 95| 25 | P |      |
+stone skin             |176|  4 |    |   | 95| 45 | P |      |
+vitilize mana          |275|  4 |    |   | 80| 40 | P |      |
+warp weapon            |280|  5 |    |   | 95| 50 | P |      |
+
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+pick                   |  1|  1 |    |   | 90|
+sneak                  |  2|  1 |    |   | 90|
+steal                  |  3|  1 |    |   | 90|
+backstab               |  4|  1 |    |   | 90|
+hide                   | 12|  1 |    |   | 90|
+read magic             | 15|  3 |    |   | 80|
+examine wards          | 30|  3 |    |   | 80|
+backstab one           | 50|  2 |  50|   | 90|
+backstab two           |100|  3 | 100|   | 80|
+dual wield             |205|  3 |1500|   | 65|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+longsword              |  7|  1 |    |   |100| shortsword
+dart                   |  8|  1 |    |   |100|
+pickaxe                |  9|  1 |    |   |100|
+staff                  | 11|  2 | 10 |   |100|
+club                   | 13|  2 |    |   | 90|
+flail                  | 13|  1 |    |   |100|
+rapier                 | 14|  2 | 22 |   |100|
+claw                   | 14|  2 | 18 |   | 80|
+broadsword             | 15|  3 | 34 |   | 70| longsword
+shortbow               | 15|  2 | 18 |   |100|
+handaxe                | 16|  1 |    |   | 90|
+mace                   | 17|  2 |  9 |   | 80| club
+hammer                 | 18|  2 | 12 |   | 80|
+sabre                  | 18|  2 | 14 |   | 80|
+whip                   | 19|  1 |    |   |100| flail
+crossbow               | 24|  2 | 16 |   |100| shortbow
+longbow                | 27|  2 | 15 |   | 80| shortbow
+axe                    | 29|  1 |    |   | 90|
+warhammer              | 59|  5 | 40 |   | 70| hammer
+
+==============================================================================
+INDEX: 18
+CLASSNAME: Templar
+ABBRV: Tm
+ALIGN: NGE
+HP: 3 3 1
+MIN: 15  0 15  0 14  0 10
+MAX: 18 18 18 18 18 18 18
+RACES: Dw Tr Hu
+ITEMS: 2 7 8 9 14
+THAC0: 9 5
+SPEED: 15 20
+MULT: 1.1
+FLAGS: CF
+PROF: warhammer
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 75 85 85 90 95                      *
+DECREASE: 4 4 4 4 4                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* Cleric/Warrior */
+
+SKILLS                   Lvl Diff Cost Gld Max Prereq
+read magic             |  1|  1 |    |   | 90|
+aid                    | 15|  2 |    |   | 90|
+kick                   | 15|  5 |  10|   | 80|
+bash                   | 35|  5 |  20|   | 80|
+rescue                 | 55|  5 |  50|   | 80|kick
+disarm                 | 85|  5 | 100|   | 75|
+hitall                 | 90|  5 |  50|   | 75|
+dual wield             |105|  5 | 100|   | 75|
+
+PROF
+hammer                 |  1|  1 |    |   |100|
+warhammer              |  1|  1 |    |   |100|
+club                   |  7|  1 |    |   |100|
+shortsword             | 10|  3 |    |   | 80|
+flail                  | 13|  1 |    |   |100|
+dagger                 | 14|  3 |    |   | 70|
+knife                  | 14|  3 |    |   | 70|
+handaxe                | 14|  2 | 12 |   | 70|
+staff                  | 17|  2 | 10 |   | 90|
+shortbow               | 20|  2 | 25 |   | 70|
+whip                   | 21|  1 |    |   |100| flail
+longsword              | 25|  4 | 25 |   | 70| shortsword
+axe                    | 27|  2 | 15 |   | 70| handaxe
+rapier                 | 30|  4 | 55 |   | 60| shortsword
+longbow                | 31|  2 | 35 |   | 70| shortbow
+broadsword             | 40|  4 | 50 |   | 60| longsword
+crossbow               | 41|  2 | 35 |   | 70| shortbow
+javelin                | 41|  2 | 20 |   | 80|
+trident                | 51|  2 | 30 |   | 70| javelin
+spear                  | 61|  2 | 30 |   | 70| javelin
+battleaxe              | 76|  6 | 80 |   | 40| axe
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+cure light             |  1|  1 |    |   | 95|  5 | M |      |
+armor                  |  2|  1 |    |   | 95| 15 | M |      |
+cause light            |  2|  1 |    |   | 95|  8 | M |      |
+bless                  |  3|  1 |    |   | 95| 15 | M |      |
+create light           |  3|  1 |    |   | 95| 10 | M |      |
+create water           |  3|  1 |    |   | 95| 10 | M |      |
+detect evil            |  3|  1 |    |   | 95| 15 | M |      |
+create food            |  4|  1 |    |   | 95| 15 | M |      |
+detect poison          |  4|  1 |    |   | 95| 15 | M |      |
+slow poison            |  5|  1 |    |   | 95| 10 | M |detect poison|
+cure blind             |  8|  1 |    |   | 95| 15 | M |      |
+water breath           |  8|  1 |    |   | 95| 10 | M |create water|
+continual light        |  8|  1 |    |   | 95| 10 | M |create light|
+calm                   |  9|  1 |    |   | 95| 15 | M |      |
+detect invisibility    |  9|  1 |    |   | 95| 15 | M |      |
+refresh                |  9|  1 |    |   | 95| 10 | M |      |
+remove poison          | 11|  1 |    |   | 95| 15 | M |slow poison|
+blindness              | 12|  1 |    |   | 95| 10 | M |cure blind|
+nosleep                | 13|  1 |    |   | 95| 15 | M |      |
+remove curse           | 14|  1 |    |   | 95| 25 | M |      |
+sense life             | 15|  1 |    |   | 95| 20 | M |      |
+earthquake             | 15|  1 |    |   | 95| 15 | M |      |
+word of recall         | 15|  1 |    |   | 95| 20 | M |      |
+cure serious           | 15|  1 |    |   | 95| 11 | M |cure light|
+cause serious          | 16|  1 |    |   | 95| 10 | M |cause light|
+second wind            | 18|  1 |    |   | 95| 10 | M |refresh|
+true sight             | 19|  1 |    |   | 95| 30 | M |sense life,detect invisibility|
+animate dead           | 20|  1 |    |   | 95| 25 | M |      |
+fly                    | 20|  1 |    |   | 95| 35 | M |      |
+flamestrike            | 22|  1 |    |   | 95| 15 | M |      |
+call lightning         | 25|  1 |    |   | 95| 15 | M |      |
+nocharm                | 28|  1 |    |   | 95| 25 | M |      |
+curse                  | 29|  1 |    |   | 95| 30 | M |remove curse|
+cause critical         | 30|  1 |    |   | 95| 15 | M |cause serious|
+remove paralysis       | 30|  1 |    |   | 95| 30 | M |      |
+cure critic            | 31|  1 |    |   | 95| 18 | M |cure serious|
+summon                 | 32|  2 |    |   | 95| 60 | M |word of recall|
+dispel invisibility    | 34|  1 |    |   | 95| 35 | M |detect invisibility|
+wither                 | 40|  1 |    |   | 95| 35 | M |      |
+succor                 | 55|  1 |    |   | 95|100 | M |word of recall|
+shriek                 | 60|  2 | 500|   | 80| 25 | M |      |
+firestorm              | 67|  1 |    |   | 95| 40 | M |flamestrike|
+holy word              | 69|  1 |    |   | 95| 45 | M |      |
+nosummon               | 71|  1 |    |   | 95| 45 | M |      |
+conjure elemental      | 75|  1 |    |   | 95| 30 | M |      |
+heal                   | 76|  1 |    |   | 95| 60 | M |cure critic|
+dispel magic           |130|  2 | 500|   | 95| 50 | M |      |
+chain lightning        |260|  4 | 500|   | 95| 65 | M |call lightning|
+
+==============================================================================
+
+INDEX: 19
+CLASSNAME: Expositor
+ABBRV: Ex
+ALIGN: NGE
+HP: 3 3 1
+MIN: 15  0 15  0 14  0 10
+MAX: 18 18 18 18 18 18 18
+RACES: Dw Tr Hu
+ITEMS: 2 7 8 9 14
+THAC0: 9 7
+SPEED: 15 20
+MULT: 1.1
+FLAGS: CF
+PROF: warhammer
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 3 3 3 3 3                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* Warrior/cleric */
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+cure light             | 11|  2 |    |   | 95|  5 | M |      |
+armor                  | 12|  2 |    |   | 95| 15 | M |      |
+cause light            | 12|  2 |    |   | 95|  8 | M |      |
+bless                  | 13|  2 |    |   | 95| 15 | M |      |
+create light           | 13|  2 |    |   | 95| 10 | M |      |
+create water           | 13|  2 |    |   | 95| 10 | M |      |
+detect evil            | 13|  2 |    |   | 95| 15 | M |      |
+create food            | 14|  2 |    |   | 95| 15 | M |      |
+detect poison          | 14|  2 |    |   | 95| 15 | M |      |
+slow poison            | 15|  2 |    |   | 95| 10 | M |detect poison|
+cure blind             | 18|  2 |    |   | 95| 15 | M |      |
+water breath           | 18|  2 |    |   | 95| 10 | M |create water|
+continual light        | 18|  2 |    |   | 95| 10 | M |create light|
+calm                   | 19|  2 |    |   | 95| 15 | M |      |
+detect invisibility    | 19|  2 |    |   | 95| 15 | M |      |
+refresh                | 19|  2 |    |   | 95| 10 | M |      |
+remove poison          | 21|  2 |    |   | 95| 15 | M |slow poison|
+blindness              | 22|  2 |    |   | 95| 10 | M |cure blind|
+remove curse           | 24|  2 |    |   | 95| 25 | M |      |
+sense life             | 25|  2 |    |   | 95| 20 | M |      |
+earthquake             | 25|  2 |    |   | 95| 15 | M |      |
+word of recall         | 25|  2 |    |   | 95| 20 | M |      |
+cure serious           | 25|  2 |    |   | 95| 11 | M |cure light|
+cause serious          | 26|  2 |    |   | 95| 10 | M |cause light|
+second wind            | 28|  2 |    |   | 95| 10 | M |refresh|
+fly                    | 30|  2 |    |   | 95| 35 | M |      |
+flamestrike            | 32|  2 |    |   | 95| 15 | M |      |
+call lightning         | 35|  3 |    |   | 95| 15 | M |      |
+curse                  | 39|  2 |    |   | 95| 30 | M |remove curse|
+cause critical         | 40|  2 |    |   | 95| 15 | M |cause serious|
+remove paralysis       | 40|  3 |    |   | 95| 30 | M |      |
+cure critic            | 41|  2 |    |   | 95| 18 | M |cure serious|
+wither                 | 50|  3 |    |   | 95| 35 | M |      |
+succor                 | 65|  3 |    |   | 95|100 | M |word of recall|
+shriek                 | 70|  4 | 500|   | 80| 25 | M |      |
+firestorm              | 77|  4 |    |   | 95| 40 | M |flamestrike|
+holy word              | 79|  4 |    |   | 95| 45 | M |      |
+
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+kick                   |  1|  1 |    |   | 90|
+bash                   |  3|  1 |    |   | 90|
+rescue                 |  7|  2 | 10 |   | 90|kick
+aid                    | 15|  1 |    |   | 90|
+read magic             | 15|  3 |    |   | 80|
+disarm                 | 18|  3 |100 |   | 90|
+dual wield             | 41|  4 | 90 |   | 90|
+hitall                 | 35|  3 | 50 |   | 85|
+scan                   | 69|  2 |    |   | 95|
+
+PROF
+hammer                 |  1|  1 |    |   |100|
+warhammer              |  1|  1 |    |   |100|
+club                   |  7|  1 |    |   |100|
+shortsword             | 10|  4 |    |   | 80|
+flail                  | 13|  1 |    |   |100|
+dagger                 | 14|  4 |    |   | 80|
+knife                  | 14|  4 |    |   | 80|
+handaxe                | 14|  2 |    |   | 80|
+staff                  | 17|  2 | 10 |   | 80|
+shortbow               | 20|  2 | 15 |   | 80|
+whip                   | 21|  1 |    |   | 90|
+mace                   | 23|  1 |    |   |100|
+longsword              | 25|  3 | 16 |   | 70| shortsword
+axe                    | 27|  2 |    |   | 80| handaxe
+rapier                 | 30|  4 | 35 |   | 70|
+longbow                | 31|  2 | 35 |   | 80|
+broadsword             | 40|  4 | 28 |   | 70| longsword
+crossbow               | 41|  2 | 35 |   | 80|
+javelin                | 41|  2 |    |   | 90|
+sabre                  | 50|  4 | 32 |   | 60|
+spear                  | 51|  2 | 18 |   | 80| javelin
+bastard                | 60|  5 | 36 |   | 70| broadsword
+trident                | 61|  2 | 21 |   | 70| javelin
+scythe                 | 76|  6 | 57 |   | 50|
+battleaxe              | 88|  6 | 65 |   | 50| axe
+
+==============================================================================
+
+INDEX: 20
+CLASSNAME: Scholar
+ABBRV: Sh
+ALIGN: NGE
+HP: 3 3 1
+MIN: 10 16 16 0 13 0 0
+MAX: 18 18 18 18 18 18 18
+RACES: He Hu
+ITEMS: 2 6 8 9 14
+THAC0: 17 10
+SPEED: 25 15
+MULT: 1.2
+FLAGS: CM
+PROF: club
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 4 5 5 4 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* Cleric/Mage */
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+read magic             |  3|  1 |    |   | 95|
+examine wards          | 20|  1 |    |   | 90|
+dual wield             | 75|  5 | 500|   | 60|
+
+PROF
+club                   |  1|  1 |    |   |100|
+hammer                 |  1|  1 |    |   |100|
+dart                   |  7|  1 |    |   | 70|
+warhammer              |  7|  1 |    |   | 90| hammer
+dagger                 |  8|  1 |    |   | 80|
+knife                  |  8|  1 |    |   | 80|
+shortsword             |  9|  2 | 14 |   | 70|
+flail                  | 12|  2 |    |   | 90|
+staff                  | 15|  2 |    |   |100|
+longsword              | 17|  3 | 28 |   | 60| shortsword
+mace                   | 21|  2 |    |   |100| club
+whip                   | 25|  2 | 15 |   | 80| flail
+rapier                 | 31|  3 | 45 |   | 50|
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+cure light             |  1|  1 |    |   | 95|  5 | M |      |
+armor                  |  2|  1 |    |   | 95| 15 | M |      |
+cause light            |  2|  1 |    |   | 95|  8 | M |      |
+bless                  |  3|  1 |    |   | 95| 15 | M |      |
+create light           |  3|  1 |    |   | 95| 10 | M |      |
+create water           |  3|  1 |    |   | 95| 10 | M |      |
+detect evil            |  3|  1 |    |   | 95| 15 | M |      |
+create food            |  4|  1 |    |   | 95| 15 | M |      |
+detect poison          |  4|  1 |    |   | 95| 15 | M |      |
+slow poison            |  5|  1 |    |   | 95| 10 | M |detect poison|
+cure blind             |  8|  1 |    |   | 95| 15 | M |      |
+water breath           |  8|  1 |    |   | 95| 10 | M |create water|
+continual light        |  8|  1 |    |   | 95| 10 | M |create light|
+calm                   |  9|  1 |    |   | 95| 15 | M |      |
+detect invisibility    |  9|  1 |    |   | 95| 15 | M |      |
+refresh                |  9|  1 |    |   | 95| 10 | M |      |
+remove poison          | 11|  1 |    |   | 95| 15 | M |slow poison|
+blindness              | 12|  1 |    |   | 95| 10 | M |cure blind|
+nosleep                | 13|  1 |    |   | 95| 15 | M |      |
+remove curse           | 14|  1 |    |   | 95| 25 | M |      |
+sense life             | 15|  1 |    |   | 95| 20 | M |      |
+earthquake             | 15|  1 |    |   | 95| 15 | M |      |
+word of recall         | 15|  1 |    |   | 95| 20 | M |      |
+cure serious           | 15|  1 |    |   | 95| 11 | M |cure light|
+cause serious          | 16|  1 |    |   | 95| 10 | M |cause light|
+second wind            | 18|  1 |    |   | 95| 10 | M |refresh|
+true sight             | 19|  1 |    |   | 95| 30 | M |sense life,detect invisibility|
+animate dead           | 20|  1 |    |   | 95| 25 | M |      |
+fly                    | 20|  1 |    |   | 95| 35 | M |      |
+flamestrike            | 22|  1 |    |   | 95| 15 | M |      |
+call lightning         | 25|  1 |    |   | 95| 15 | M |      |
+nocharm                | 28|  1 |    |   | 95| 25 | M |      |
+curse                  | 29|  1 |    |   | 95| 30 | M |remove curse|
+cause critical         | 30|  1 |    |   | 95| 15 | M |cause serious|
+remove paralysis       | 30|  1 |    |   | 95| 30 | M |      |
+cure critic            | 31|  1 |    |   | 95| 18 | M |cure serious|
+summon                 | 32|  2 |    |   | 95| 60 | M |word of recall|
+dispel invisibility    | 34|  1 |    |   | 95| 35 | M |detect invisibility|
+scry                   | 38|  1 | 100|   | 95| 30 | M |      |
+wither                 | 40|  1 |    |   | 95| 35 | M |      |
+succor                 | 55|  1 |    |   | 95| 80 | M |word of recall|
+shriek                 | 60|  2 | 500|   | 80| 25 | M |      |
+firestorm              | 67|  1 |    |   | 95| 40 | M |flamestrike|
+holy word              | 69|  1 |    |   | 95| 45 | M |      |
+nosummon               | 71|  1 |    |   | 95| 45 | M |      |
+conjure elemental      | 75|  1 |    |   | 95| 30 | M |      |
+heal                   | 76|  3 |    |   | 95| 60 | M |cure critic|
+harm                   | 96|  3 | 300|   | 95| 40 | M |cause critical|
+sanctuary              |105|  4 | 500|   | 95| 65 | M |armor|
+dispel magic           |130|  2 | 500|   | 95| 50 | M |      |
+chain lightning        |260|  4 | 500|   | 95| 65 | M |call lightning|
+recharger              |210|  5 | 500|   | 95| 50 | M |      |
+
+MAGE
+burning hands          | 10|  2 |    |   | 95|  7 | P |      |
+shield                 | 12|  2 |    |   | 95| 25 | P |      |
+magic missile          | 13|  2 |    |   | 95| 14 | P |      |
+detect magic           | 14|  2 |    |   | 95| 15 | P |      |
+shocking grasp         | 15|  2 |    |   | 95| 15 | P |      |
+chill touch            | 17|  2 |    |   | 95| 12 | P |      |
+drain vigor light      | 19|  2 |    |   | 75| 10 | P |      |
+charm person           | 21|  2 |    |   | 95| 10 | P |      |
+lightning bolt         | 22|  3 |    |   | 95| 15 | P |shocking grasp,magic missile|
+strength               | 24|  2 |    |   | 95| 20 | P |      |
+drain vigor serious    | 25|  2 |    |   | 70| 12 | P |drain vigor light|
+invisibility           | 26|  3 |    |   | 95| 15 | P |detect invisibility|
+infravision            | 26|  2 |    |   | 95| 27 | P |      |
+weakness               | 27|  3 |    |   | 95| 20 | P |strength|
+sleep                  | 28|  2 |    |   | 95| 15 | P |      |
+minor creation         | 31|  3 |    |   | 95| 15 | P |      |
+acid blast             | 34|  4 |    |   | 95| 15 | P |      |
+knock                  | 34|  5 |    |   | 95|115 | P |      |
+know alignment         | 38|  2 |    |   | 95| 30 | P |      |
+fear                   | 40|  2 |    |   | 95| 15 | P |      |
+monsum one             | 42|  2 |    |   | 95| 20 | P |      |
+teleport               | 43|  5 |    |   | 95| 30 | P |minor creation|
+charm monster          | 45|  3 |    |   | 95| 20 | P |calm|
+ice storm              | 48|  4 |    |   | 95| 15 | P |chill touch|
+monsum two             | 49|  2 |    |   | 95| 23 | P |monsum one|
+cone of cold           | 61|  4 |    |   | 95| 25 | P |ice storm|
+vigorize light         | 61|  2 |    |   | 95| 30 | P |      |
+monsum three           | 64|  3 |    |   | 95| 36 | P |monsum two|
+monsum four            | 78|  3 |    |   | 95| 39 | P |monsum three|
+colour spray           | 83|  4 |    |   | 95| 25 | P |      |
+energy drain           | 90|  5 |    |   | 95| 35 | P |weakness|
+fireball               |105|  5 |    |   | 95| 25 | P |burning hands|
+meteor swarm           |158|  6 |    |   | 95| 25 | P |      |
+
+==============================================================================
+
+INDEX: 21
+CLASSNAME: Necromancer
+ABBRV: Ne
+ALIGN: NGE
+HP: 3 3 1
+MIN: 10 16 16 0 13 0 0
+MAX: 18 18 18 18 18 18 18
+RACES: He Hu
+ITEMS: 2 6 8 9 14
+THAC0: 19 10
+SPEED: 25 15
+MULT: 1.3
+FLAGS: CM
+PROF: club
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 90 95                     *
+DECREASE: 5 5 5 5 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* mage/cleric */
+
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+read magic             |  3|  1 |    |   | 95|
+examine wards          | 20|  1 |    |   | 95|
+dual wield             | 95|  5 | 500|   | 55|
+
+PROF
+club                   |  1|  1 |    |   |100|
+hammer                 |  1|  1 |    |   |100|
+dart                   |  7|  1 |    |   | 70|
+warhammer              |  7|  1 |    |   | 90| hammer
+dagger                 |  8|  1 |  8 |   | 80|
+knife                  |  8|  1 |  8 |   | 80|
+shortsword             |  9|  2 | 16 |   | 70|
+flail                  | 12|  2 |    |   | 90|
+staff                  | 15|  2 | 16 |   |100|
+longsword              | 17|  3 | 32 |   | 60| shortsword
+mace                   | 21|  2 |    |   |100| club
+whip                   | 25|  2 | 28 |   | 80| flail
+rapier                 | 31|  3 | 52 |   | 50|
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          |  1|  1 |    |   | 95|  7 | P |      |
+shield                 |  2|  1 |    |   | 95| 25 | P |      |
+create light           |  3|  1 |    |   | 95| 10 | P |      |
+magic missile          |  3|  1 |    |   | 95| 14 | P |      |
+detect magic           |  4|  1 |    |   | 95| 15 | P |      |
+detect invisibility    |  5|  1 |    |   | 95| 17 | P |      |
+shocking grasp         |  5|  1 |    |   | 95| 15 | P |      |
+continual light        |  7|  1 |    |   | 95| 15 | P |create light|
+chill touch            |  7|  1 |    |   | 95| 12 | P |      |
+fly                    |  8|  1 |    |   | 95| 25 | P |      |
+drain vigor light      |  9|  1 |    |   | 75| 10 | P |      |
+refresh                | 10|  1 |    |   | 95| 10 | P |      |
+charm person           | 11|  1 |    |   | 95| 10 | P |      |
+lightning bolt         | 12|  1 |    |   | 95| 15 | P |shocking grasp,magic missile|
+water breath           | 13|  1 |    |   | 95| 25 | P |      |
+strength               | 14|  1 |    |   | 95| 20 | P |      |
+drain vigor serious    | 15|  1 |    |   | 70| 12 | P |drain vigor light|
+invisibility           | 16|  1 |    |   | 95| 15 | P |detect invisibility|
+infravision            | 16|  1 |    |   | 95| 27 | P |      |
+weakness               | 17|  1 |    |   | 95| 20 | P |strength|
+sleep                  | 18|  1 |    |   | 95| 15 | P |      |
+calm                   | 19|  1 |    |   | 95| 15 | P |      |
+minor creation         | 20|  1 |    |   | 95| 15 | P |      |
+animate dead           | 21|  1 |    |   | 95| 20 | P |      | 
+acid blast             | 22|  1 |    |   | 95| 15 | P |      |
+knock                  | 22|  1 |    |   | 95|115 | P |      |
+second wind            | 23|  1 |    |   | 95| 10 | P |refresh|
+drain vigor critic     | 24|  1 |    |   | 65| 17 | P |drain vigor serious|
+know alignment         | 25|  1 |    |   | 95| 30 | P |      |
+fear                   | 26|  1 |    |   | 95| 15 | P |      |
+monsum one             | 27|  1 |    |   | 95| 20 | P |      |
+teleport               | 28|  1 |    |   | 95| 30 | P |minor creation|
+charm monster          | 29|  1 |    |   | 95| 20 | P |calm|
+ice storm              | 31|  1 |    |   | 95| 15 | P |chill touch|
+monsum two             | 32|  1 |    |   | 95| 23 | P |monsum one|
+blindness              | 33|  1 |    |   | 95| 15 | P |      |
+translook              | 36|  1 |    |   | 95| 25 | P |      |
+nosleep                | 39|  1 |    |   | 95| 25 | P |      |
+cone of cold           | 40|  1 |    |   | 95| 25 | P |ice storm|
+vigorize light         | 40|  1 |    |   | 95| 30 | P |      |
+monsum three           | 42|  1 |    |   | 95| 36 | P |monsum two|
+monsum four            | 51|  1 |    |   | 95| 39 | P |monsum three|
+colour spray           | 55|  1 |    |   | 95| 25 | P |      |
+vigorize serious       | 57|  1 |    |   | 95| 30 | P |vigorize light|
+energy drain           | 59|  1 |    |   | 95| 35 | P |weakness|
+monsum five            | 61|  1 |    |   | 95| 42 | P |monsum four|
+fireball               | 69|  1 |    |   | 95| 25 | P |burning hands|
+dispel invisibility    | 73|  1 |    |   | 95| 35 | P |detect invisibility|
+enchant weapon         | 75|  1 |    |   | 95|500 | P |      |
+monsum six             | 77|  1 |    |   | 95| 45 | P |monsum five|
+dispel magic           | 83|  2 |    |   | 95| 55 | P |detect magic|
+scry                   | 89|  1 |    |   | 95| 30 | P |      |
+meteor swarm           |105|  1 |    |   | 95| 25 | P |      |
+mage fire              |119|  1 |    |   | 95| 35 | P |fireball|
+portal                 |145|  1 |    |   | 95|125 | P |      |
+conjure elemental      |150|  1 |    |   | 95| 30 | P |      |
+pword kill             |150|  1 |    |   | 95| 25 | P |      |
+stone skin             |176|  1 |    |   | 95| 45 | P |      |
+cacaodemon             |195|  1 |    |   | 95| 60 | P |conjure elemental|
+fireshield             |225|  1 |    |   | 95|150 | P |mage fire,shield|
+vitilize mana          |275|  1 |    |   | 80| 40 | P |      |
+
+CLERIC
+cure light             | 20|  2 |    |   | 95|  5 | M |      |
+armor                  | 22|  2 |    |   | 95| 15 | M |      |
+cause light            | 22|  2 |    |   | 95|  8 | M |      |
+bless                  | 24|  2 |    |   | 95| 15 | M |      |
+create water           | 24|  2 |    |   | 95| 10 | M |      |
+detect evil            | 25|  2 |    |   | 95| 15 | M |      |
+create food            | 26|  2 |    |   | 95| 15 | M |      |
+detect poison          | 26|  2 |    |   | 95| 15 | M |      |
+slow poison            | 28|  2 |    |   | 95| 10 | M |detect poison|
+cure blind             | 34|  2 |    |   | 95| 15 | M |      |
+remove poison          | 40|  2 |    |   | 95| 15 | M |slow poison|
+remove curse           | 46|  2 |    |   | 95| 25 | M |      |
+sense life             | 48|  2 |    |   | 95| 20 | M |      |
+earthquake             | 50|  3 |    |   | 95| 15 | M |      |
+word of recall         | 52|  3 |    |   | 95| 20 | M |      |
+cure serious           | 54|  2 |    |   | 95| 11 | M |cure light|
+cause serious          | 56|  2 |    |   | 95| 10 | M |cause light|
+flamestrike            | 66|  2 |    |   | 95| 15 | M |      |
+call lightning         | 76|  3 |    |   | 95| 15 | M |      |
+curse                  | 88|  2 |    |   | 95| 30 | M |remove curse|
+cause critical         | 90|  2 |    |   | 95| 15 | M |cause serious|
+remove paralysis       | 92|  3 |    |   | 95| 30 | M |      |
+cure critic            | 94|  3 |    |   | 95| 18 | M |cure serious|
+wither                 |120|  3 |    |   | 95| 35 | M |      |
+succor                 |166|  4 |    |   | 95|100 | M |word of recall|
+firestorm              |202|  5 |    |   | 95| 40 | M |flamestrike|
+holy word              |208|  6 |    |   | 95| 45 | M |      |
+
+==============================================================================
+
+INDEX: 22
+CLASSNAME: Warlock
+ABBRV: Wl
+ALIGN: NGE
+HP: 3 3 1
+MIN: 14 17 10 0 13 0 10
+MAX: 18 18 18 18 18 18 18
+RACES: El He Og Hu
+ITEMS: 2 4 8 9 14
+THAC0: 10 10
+SPEED: 20 20
+MULT: 1.2
+FLAGS: MF
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 5 5 5 5 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* mage/warrior */
+
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+read magic             |  1|  1 |    |   | 90|
+examine wards          | 20|  1 |    |   | 90|
+kick                   | 25|  2 |    |   | 80|
+bash                   | 40|  2 |    |   | 80|
+rescue                 | 55|  3 |    |   | 80|kick
+scan                   | 69|  3 |    |   | 95|
+disarm                 | 80|  4 |    |   | 75|
+hitall                 | 95|  4 |    |   | 75|
+dual wield             |150|  5 | 500|   | 65|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+flail                  |  4|  1 |    |   |100|
+whip                   |  7|  1 |    |   |100|
+longsword              |  9|  2 |    |   | 60|
+club                   | 11|  2 |    |   | 70|
+staff                  | 13|  2 | 15 |   |100|
+handaxe                | 13|  1 |    |   | 90|
+rapier                 | 13|  2 |    |   |100|
+pickaxe                | 13|  2 |    |   | 70|
+broadsword             | 15|  2 | 35 |   | 50|
+mace                   | 16|  2 |    |   | 90|
+axe                    | 30|  1 |    |   | 90|
+hammer                 | 35|  2 |    |   | 60|
+javelin                | 40|  3 | 11 |   | 60|
+shortbow               | 45|  3 | 32 |   | 70|
+spear                  | 80|  3 | 18 |   | 60| 
+crossbow               | 95|  3 | 38 |   | 70| 
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          |  1|  1 |    |   | 95|  7 | P |      |
+shield                 |  2|  1 |    |   | 95| 25 | P |      |
+create light           |  3|  1 |    |   | 95| 10 | P |      |
+magic missile          |  3|  1 |    |   | 95| 14 | P |      |
+detect magic           |  4|  1 |    |   | 95| 15 | P |      |
+detect invisibility    |  5|  1 |    |   | 95| 17 | P |      |
+shocking grasp         |  5|  1 |    |   | 95| 15 | P |      |
+continual light        |  7|  1 |    |   | 95| 15 | P |create light|
+chill touch            |  7|  1 |    |   | 95| 12 | P |      |
+fly                    |  8|  1 |    |   | 95| 25 | P |      |
+drain vigor light      |  9|  1 |    |   | 75| 10 | P |      |
+refresh                | 10|  1 |    |   | 95| 10 | P |      |
+charm person           | 11|  1 |    |   | 95| 10 | P |      |
+lightning bolt         | 12|  1 |    |   | 95| 15 | P |shocking grasp,magic missile|
+water breath           | 13|  1 |    |   | 95| 25 | P |      |
+strength               | 14|  1 |    |   | 95| 20 | P |      |
+drain vigor serious    | 15|  1 |    |   | 70| 12 | P |drain vigor light|
+invisibility           | 16|  1 |    |   | 95| 15 | P |detect invisibility|
+infravision            | 16|  1 |    |   | 95| 27 | P |      |
+weakness               | 17|  1 |    |   | 95| 20 | P |strength|
+sleep                  | 18|  1 |    |   | 95| 15 | P |      |
+calm                   | 19|  1 |    |   | 95| 15 | P |      |
+minor creation         | 20|  1 |    |   | 95| 15 | P |      |
+acid blast             | 22|  1 |    |   | 95| 15 | P |      |
+knock                  | 22|  1 |    |   | 95|115 | P |      |
+second wind            | 23|  1 |    |   | 95| 10 | P |refresh|
+drain vigor critic     | 24|  1 |    |   | 65| 17 | P |drain vigor serious|
+know alignment         | 25|  1 |    |   | 95| 30 | P |      |
+fear                   | 26|  1 |    |   | 95| 15 | P |      |
+monsum one             | 27|  1 |    |   | 95| 20 | P |      |
+teleport               | 28|  1 |    |   | 95| 30 | P |minor creation|
+charm monster          | 29|  1 |    |   | 95| 20 | P |calm|
+ice storm              | 31|  1 |    |   | 95| 15 | P |chill touch|
+monsum two             | 32|  1 |    |   | 95| 23 | P |monsum one|
+blindness              | 33|  1 |    |   | 95| 15 | P |      |
+translook              | 36|  1 |    |   | 95| 25 | P |      |
+nosleep                | 39|  1 |    |   | 95| 25 | P |      |
+cone of cold           | 40|  1 |    |   | 95| 25 | P |ice storm|
+vigorize light         | 40|  1 |    |   | 95| 30 | P |      |
+monsum three           | 42|  1 |    |   | 95| 36 | P |monsum two|
+monsum four            | 51|  1 |    |   | 95| 39 | P |monsum three|
+colour spray           | 55|  1 |    |   | 95| 25 | P |      |
+vigorize serious       | 57|  1 |    |   | 95| 30 | P |vigorize light|
+energy drain           | 59|  1 |    |   | 95| 35 | P |weakness|
+monsum five            | 61|  1 |    |   | 95| 42 | P |monsum four|
+fireball               | 69|  1 |    |   | 95| 25 | P |burning hands|
+dispel invisibility    | 73|  1 |    |   | 95| 35 | P |detect invisibility|
+enchant weapon         | 75|  1 |    |   | 95|500 | P |      |
+monsum six             | 77|  1 |    |   | 95| 45 | P |monsum five|
+dispel magic           | 83|  2 |    |   | 95| 55 | P |detect magic|
+scry                   | 89|  1 |    |   | 95| 30 | P |      |
+meteor swarm           |105|  1 |    |   | 95| 25 | P |      |
+mage fire              |119|  1 |    |   | 95| 35 | P |fireball|
+portal                 |145|  1 |    |   | 95|125 | P |      |
+conjure elemental      |150|  1 |    |   | 95| 30 | P |      |
+pword kill             |150|  1 |    |   | 95| 25 | P |      |
+stone skin             |176|  1 |    |   | 95| 45 | P |      |
+cacaodemon             |195|  1 |    |   | 95| 60 | P |conjure elemental|
+fireshield             |225|  1 |    |   | 95|150 | P |mage fire,shield|
+vitilize mana          |275|  1 |    |   | 80| 40 | P |      |
+warp weapon            |280|  1 |    |   | 95| 50 | P |      |
+
+==============================================================================
+
+INDEX: 23
+CLASSNAME: Warlord
+ABBRV: Wr
+ALIGN: NGE
+HP: 3 3 1
+MIN: 14 17 10 0 13 0 10
+MAX: 18 18 18 18 18 18 18
+RACES: El He Og Hu
+ITEMS: 2 4 8 9 14
+THAC0: 10 9
+SPEED: 20 20
+MULT: 1.4
+FLAGS: MF
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 5 5 5 5 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* warrior/mage */
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+kick                   |  1|  1 |    |   | 90|
+bash                   |  3|  1 |    |   | 90|
+rescue                 |  7|  2 |    |   | 90|kick
+read magic             | 15|  3 |    |   | 80|
+examine wards          | 30|  3 |    |   | 80|
+disarm                 | 18|  3 |    |   | 85|
+dual wield             | 91|  4 | 50 |   | 90|
+hitall                 | 35|  2 |    |   | 85|
+scan                   | 69|  2 |    |   | 95|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+flail                  |  4|  1 |    |   |100|
+whip                   |  7|  1 |    |   |100|
+longsword              |  9|  2 |    |   | 90|
+club                   | 11|  2 |    |   | 80|
+staff                  | 13|  2 |    |   |100|
+handaxe                | 13|  1 |    |   | 90|
+rapier                 | 13|  2 | 14 |   |100|
+pickaxe                | 13|  2 |    |   | 80|
+broadsword             | 15|  2 | 16 |   | 80|
+mace                   | 16|  2 |    |   | 90|
+axe                    | 30|  1 |    |   | 90|
+bastard                | 34|  3 | 22 |   | 70|
+hammer                 | 35|  2 |    |   | 80|
+javelin                | 40|  3 | 16 |   | 60|
+shortbow               | 45|  3 | 23 |   | 90|
+trident                | 63|  3 | 24 |   | 50|
+claymore               | 67|  4 | 36 |   | 60|
+spear                  | 80|  3 | 28 |   | 60|
+longbow                | 85|  3 | 35 |   | 80|
+pike                   | 90|  3 | 46 |   | 60|
+crossbow               | 95|  3 | 35 |   | 70|
+halberd                |120|  3 | 60 |   | 60|
+glaive                 |150|  3 | 65 |   | 60|
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          | 11|  2 |    |   | 95|  7 | P |      |
+shield                 | 12|  2 |    |   | 95| 25 | P |      |
+create light           | 13|  2 |    |   | 95| 10 | P |      |
+magic missile          | 13|  2 |    |   | 95| 14 | P |      |
+detect magic           | 14|  2 |    |   | 95| 15 | P |      |
+detect invisibility    | 15|  2 |    |   | 95| 17 | P |      |
+shocking grasp         | 15|  2 |    |   | 95| 15 | P |      |
+continual light        | 17|  2 |    |   | 95| 15 | P |create light|
+chill touch            | 17|  2 |    |   | 95| 12 | P |      |
+fly                    | 18|  2 |    |   | 95| 25 | P |      |
+drain vigor light      | 19|  2 |    |   | 75| 10 | P |      |
+refresh                | 20|  2 |    |   | 95| 10 | P |      |
+charm person           | 21|  2 |    |   | 95| 10 | P |      |
+lightning bolt         | 22|  2 |    |   | 95| 15 | P |shocking grasp,magic missile|
+water breath           | 23|  2 |    |   | 95| 25 | P |      |
+strength               | 24|  3 |    |   | 95| 20 | P |      |
+drain vigor serious    | 25|  2 |    |   | 70| 12 | P |drain vigor light|
+invisibility           | 26|  3 |    |   | 95| 15 | P |detect invisibility|
+infravision            | 26|  2 |    |   | 95| 27 | P |      |
+weakness               | 27|  2 |    |   | 95| 20 | P |strength|
+sleep                  | 28|  2 |    |   | 95| 15 | P |      |
+calm                   | 29|  2 |    |   | 95| 15 | P |      |
+minor creation         | 30|  3 |    |   | 95| 15 | P |      |
+acid blast             | 32|  4 |    |   | 95| 15 | P |      |
+knock                  | 32|  4 |    |   | 95|115 | P |      |
+second wind            | 33|  3 |    |   | 95| 10 | P |refresh|
+know alignment         | 35|  2 |    |   | 95| 30 | P |      |
+fear                   | 36|  2 |    |   | 95| 15 | P |      |
+monsum one             | 37|  2 |    |   | 95| 20 | P |      |
+teleport               | 38|  5 |    |   | 95| 30 | P |minor creation|
+charm monster          | 39|  3 |    |   | 95| 20 | P |calm|
+ice storm              | 41|  4 |    |   | 95| 15 | P |chill touch|
+monsum two             | 42|  2 |    |   | 95| 23 | P |monsum one|
+blindness              | 43|  3 |    |   | 95| 15 | P |      |
+cone of cold           | 50|  4 |    |   | 95| 25 | P |ice storm|
+vigorize light         | 50|  2 |    |   | 95| 30 | P |      |
+monsum three           | 52|  2 |    |   | 95| 36 | P |monsum two|
+monsum four            | 61|  3 |    |   | 95| 39 | P |monsum three|
+colour spray           | 65|  4 |    |   | 95| 25 | P |      |
+energy drain           | 69|  4 |    |   | 95| 35 | P |weakness|
+fireball               | 79|  5 |    |   | 95| 25 | P |burning hands|
+dispel invisibility    | 83|  3 |    |   | 95| 35 | P |detect invisibility|
+dispel magic           | 97|  3 |    |   | 95| 55 | P |detect magic|
+meteor swarm           |105|  5 |    |   | 95| 25 | P |      |
+conjure elemental      |150|  5 |    |   | 95| 30 | P |      |
+pword kill             |150|  3 |    |   | 95| 25 | P |      |
+stone skin             |176|  4 |    |   | 95| 45 | P |      |
+vitilize mana          |275|  3 |    |   | 80| 40 | P |      |
+warp weapon            |280|  5 |    |   | 95| 50 | P |      |
+
+==============================================================================
+INDEX: 24
+CLASSNAME: Forester
+ABBRV: Fo
+ALIGN: NGE
+HP: 4 4 1
+MIN: 13 14 14 0 10 13 5
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He
+ITEMS: 2 7 9
+THAC0: 9 8
+SPEED: 20 15
+MULT: 1.1
+FLAGS: FC
+PROF: warhammer
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 80 85                     *
+DECREASE: 5 5 5 5 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* ranger/druid */
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+kick                   |  1|  4 |    |   | 90|
+bash                   |  3|  4 |    |   | 90|
+rescue                 |  5|  4 |    |   | 90|kick
+track                  | 15|  4 |    |   | 95|
+read magic             | 20|  2 |    |   | 80|
+dual wield             | 35|  4 | 50 |   | 90|
+scan                   | 75|  4 |    |   | 95|
+
+PROF
+hammer                 |  1|  1 |    |   |100|
+warhammer              |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+longsword              |  5|  1 |    |   |100| shortsword
+club                   |  7|  1 |    |   |100|
+dagger                 |  9|  3 |    |   | 60|
+knife                  |  9|  3 |    |   | 60|
+broadsword             | 13|  2 | 30 |   | 90| longsword
+flail                  | 14|  1 |    |   |100|
+mace                   | 17|  1 |    |   | 90| club
+handaxe                | 19|  2 |    |   | 80|
+staff                  | 23|  2 | 14 |   | 90|
+shortbow               | 25|  2 | 10 |   |100|
+bastard                | 26|  3 | 38 |   | 70| broadsword
+whip                   | 30|  2 |    |   | 80| flail
+spear                  | 31|  2 | 26 |   | 90| javelin
+longbow                | 35|  2 | 35 |   | 90| shortsword
+axe                    | 44|  2 | 26 |   | 70| handaxe
+crossbow               | 45|  2 | 35 |   | 80| shortbow
+battleaxe              | 70|  4 | 54 |   | 60| axe
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          | 12|  2 |    |   | 95|  7 | M |      |
+control weather        | 13|  2 |    |   | 95| 10 | M |      |
+chill touch            | 14|  2 |    |   | 95|  8 | M |      |
+slow poison            | 15|  2 |    |   | 95| 10 | M |      |
+create water           | 16|  2 |    |   | 95|  5 | M |      |
+create food            | 17|  2 |    |   | 95|  5 | M |      |
+water breath           | 18|  2 |    |   | 95|  8 | M |create water|
+faerie fire            | 22|  2 |    |   | 95| 17 | M |      |
+flamestrike            | 23|  2 |    |   | 95| 10 | M |burning hands|
+call lightning         | 23|  2 |    |   | 95| 12 | M |control weather|
+monsum one             | 24|  4 |    |   | 95|  8 | M |      |
+sense life             | 26|  2 |    |   | 95| 17 | M |      |
+remove poison          | 27|  2 |    |   | 95| 15 | M |slow poison|
+monsum two             | 29|  4 |    |   | 95| 10 | M |monsum one|
+infravision            | 30|  2 |    |   | 95| 12 | M |sense life|
+earthquake             | 32|  2 |    |   | 95| 23 | M |      |
+monsum three           | 33|  4 |    |   | 95| 12 | M |monsum two|
+wither                 | 35|  2 |    |   | 95| 18 | M |      |
+faerie fog             | 36|  2 |    |   | 95| 20 | M |faerie fire|
+ice storm              | 40|  3 |    |   | 95| 30 | M |chill touch|
+call lightning         | 42|  3 |    |   | 95| 20 | M |      |
+poison                 | 45|  2 |    |   | 95| 16 | M |remove poison|
+lightning bolt         | 62|  3 |    |   | 95| 26 | M |call lightning|
+scry                   | 70|  2 |    |   | 90| 16 | M |      |
+charm monster          | 73|  2 |    |   | 95| 20 | M |monsum seven|
+conjure elemental      | 85|  4 |    |   | 95| 45 | M |      |
+firestorm              |102|  4 |    |   | 95| 26 | M |fireball|
+stone skin             |135|  3 |    |   | 95| 35 | M |      |
+
+==============================================================================
+
+INDEX: 25
+CLASSNAME: Herbalist
+ABBRV: He
+ALIGN: NGE
+HP: 4 4 1
+MIN: 13 14 14 0 10 13 5
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He
+ITEMS: 2 7 9
+THAC0: 9 8
+SPEED: 20 15
+MULT: 1.1
+FLAGS: FC
+PROF: warhammer
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 95 95                     *
+DECREASE: 5 5 5 5 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* druid/ranger */
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+read magic             | 10|  1 |    |   | 90|
+kick                   | 21|  5 |    |   | 80|
+bash                   | 31|  5 |    |   | 80|
+rescue                 | 33|  5 |    |   | 80|kick
+track                  | 40|  5 |    |   | 95|
+dual wield             | 35|  5 |100 |   | 80|
+scan                   | 75|  5 |    |   | 95|
+
+PROF
+hammer                 |  1|  1 |    |   |100|
+warhammer              |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+longsword              |  5|  1 |    |   | 90| shortsword
+club                   |  7|  1 |    |   |100|
+dagger                 |  9|  3 |    |   | 60|
+knife                  |  9|  3 |    |   | 60|
+broadsword             | 13|  2 | 34 |   | 80| longsword
+flail                  | 14|  1 |    |   |100|
+mace                   | 17|  1 |    |   |100| club
+handaxe                | 19|  2 |    |   | 80| 
+staff                  | 23|  2 |    |   |100|
+shortbow               | 25|  2 | 14 |   |100|
+whip                   | 30|  2 |    |   | 80| flail
+longbow                | 35|  2 | 25 |   | 90| shortbow
+axe                    | 44|  2 | 18 |   | 70| handaxe
+crossbow               | 45|  2 | 30 |   | 80| shortbow
+battleaxe              | 70|  4 | 45 |   | 60| axe
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          |  2|  1 |    |   | 95|  7 | M |      |
+control weather        |  3|  1 |    |   | 95| 10 | M |      |
+chill touch            |  4|  1 |    |   | 95|  8 | M |      |
+slow poison            |  5|  1 |    |   | 95| 10 | M |      |
+create water           |  6|  1 |    |   | 95|  5 | M |      |
+create food            |  7|  1 |    |   | 95|  5 | M |      |
+nosleep                |  7|  1 |    |   | 95| 15 | M |      |
+water breath           |  8|  1 |    |   | 95|  8 | M |create water|
+faerie fire            | 12|  1 |    |   | 95| 17 | M |      |
+flamestrike            | 13|  1 |    |   | 95| 10 | M |burning hands|
+call lightning         | 13|  1 |    |   | 95| 12 | M |control weather|
+monsum one             | 14|  2 |    |   | 95|  8 | M |      |
+sense life             | 16|  1 |    |   | 95| 17 | M |      |
+remove poison          | 17|  1 |    |   | 95| 15 | M |slow poison|
+monsum two             | 19|  2 |    |   | 95| 10 | M |monsum one|
+infravision            | 20|  1 |    |   | 95| 12 | M |sense life|
+earthquake             | 22|  1 |    |   | 95| 23 | M |      |
+monsum three           | 23|  2 |    |   | 95| 12 | M |monsum two|
+acid blast             | 24|  1 |    |   | 95| 15 | M |      |
+wither                 | 25|  1 |    |   | 95| 18 | M |      |
+faerie fog             | 26|  1 |    |   | 95| 20 | M |faerie fire|
+monsum four            | 28|  2 |    |   | 95| 14 | M |monsum three|
+ice storm              | 30|  1 |    |   | 95| 30 | M |chill touch|
+call lightning         | 32|  1 |    |   | 95| 20 | M |      |
+poison                 | 35|  1 |    |   | 95| 16 | M |remove poison|
+monsum five            | 37|  2 |    |   | 95| 16 | M |monsum four|
+cone of cold           | 41|  1 |    |   | 95| 25 | M |ice storm|
+lightning bolt         | 52|  1 |    |   | 95| 26 | M |call lightning|
+scry                   | 60|  1 |    |   | 90| 16 | M |      |
+charm monster          | 63|  1 |    |   | 95| 20 | M |monsum five|
+conjure elemental      | 75|  1 |    |   | 95| 45 | M |      |
+firestorm              | 92|  1 |    |   | 95| 26 | M |fireball|
+meteor swarm           |104|  1 |    |   | 95| 30 | M |      |
+stone skin             |135|  1 |    |   | 95| 35 | M |      |
+
+==============================================================================
+
+INDEX: 26
+CLASSNAME: Celtic
+ABBRV: Ce
+ALIGN: NGE
+HP: 4 4 1
+MIN: 14 14 14 9 7 10 0
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He
+ITEMS: 2 7 9
+THAC0: 8 8
+SPEED: 20 20
+MULT: 1.1
+FLAGS: FC
+PROF: warhammer
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 5 5 5 5 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* Warrior/Druid */
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+kick                   |  1|  1 |    |   | 90|
+bash                   |  3|  1 |    |   | 90|
+rescue                 |  7|  2 |    |   | 90|kick
+read magic             | 15|  1 |    |   | 80|
+disarm                 | 18|  3 |    |   | 85|
+dual wield             | 31|  4 |50  |   | 90|
+hitall                 | 35|  1 |    |   | 85|
+scan                   | 69|  1 |    |   | 95|
+
+PROF
+hammer                 |  1|  1 |    |   |100|
+warhammer              |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+longsword              |  5|  1 |    |   |100|
+club                   |  7|  1 |    |   | 80|
+pickaxe                |  9|  2 |    |   | 70|
+dagger                 |  9|  3 |    |   | 70|
+knife                  |  9|  3 |    |   | 70|
+rapier                 | 11|  1 | 22 |   | 60|
+broadsword             | 13|  2 |    |   |100|
+flail                  | 14|  1 |    |   |100|
+mace                   | 17|  1 |    |   |100|
+handaxe                | 19|  2 |    |   | 90|
+javelin                | 21|  1 |    |   | 80|
+staff                  | 23|  2 |  6 |   | 90|
+shortbow               | 25|  2 |    |   |100|
+bastard                | 26|  3 | 27 |   | 90|
+whip                   | 30|  2 |    |   | 80|
+sabre                  | 31|  3 |    |   | 80|
+spear                  | 31|  2 |    |   | 80|
+longbow                | 35|  2 | 24 |   |100|
+claymore               | 36|  3 | 33 |   | 80|
+axe                    | 44|  2 |    |   | 70|
+crossbow               | 45|  2 | 30 |   | 90|
+pike                   | 51|  2 | 36 |   | 70|
+halberd                | 61|  2 | 40 |   | 80|
+battleaxe              | 70|  4 | 24 |   | 80|
+glaive                 | 71|  2 | 46 |   | 70|
+trident                | 90|  3 | 35 |   | 60|
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          | 12|  2 |    |   | 95|  7 | M |      |
+control weather        | 13|  2 |    |   | 95| 10 | M |      |
+chill touch            | 14|  2 |    |   | 95|  8 | M |      |
+slow poison            | 15|  2 |    |   | 95| 10 | M |      |
+create water           | 16|  2 |    |   | 95|  5 | M |      |
+create food            | 17|  2 |    |   | 95|  5 | M |      |
+water breath           | 18|  2 |    |   | 95|  8 | M |create water|
+faerie fire            | 22|  2 |    |   | 95| 17 | M |      |
+flamestrike            | 23|  2 |    |   | 95| 10 | M |burning hands|
+call lightning         | 23|  3 |    |   | 95| 12 | M |control weather|
+monsum one             | 24|  4 |    |   | 95|  8 | M |      |
+sense life             | 26|  2 |    |   | 95| 17 | M |      |
+remove poison          | 27|  2 |    |   | 95| 15 | M |slow poison|
+monsum two             | 29|  4 |    |   | 95| 10 | M |monsum one|
+infravision            | 30|  2 |    |   | 95| 12 | M |sense life|
+earthquake             | 32|  3 |    |   | 95| 23 | M |      |
+monsum three           | 33|  4 |    |   | 95| 12 | M |monsum two|
+wither                 | 35|  2 |    |   | 95| 18 | M |      |
+faerie fog             | 36|  2 |    |   | 95| 20 | M |faerie fire|
+ice storm              | 40|  3 |    |   | 95| 30 | M |chill touch|
+call lightning         | 42|  3 |    |   | 95| 20 | M |      |
+poison                 | 45|  2 |    |   | 95| 16 | M |remove poison|
+lightning bolt         | 62|  3 |    |   | 95| 26 | M |call lightning|
+scry                   | 70|  2 |    |   | 90| 16 | M |      |
+charm monster          | 73|  3 |    |   | 95| 20 | M |monsum seven|
+conjure elemental      | 85|  4 |    |   | 95| 45 | M |      |
+firestorm              |102|  4 |    |   | 95| 26 | M |fireball|
+stone skin             |135|  3 |    |   | 95| 35 | M |      |
+
+==============================================================================
+
+INDEX: 27
+CLASSNAME: Woodsman
+ABBRV: Wo
+ALIGN: NGE
+HP: 4 4 1
+MIN: 14 14 14 9 7 10 0
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He
+ITEMS: 2 7 9
+THAC0: 9 8
+SPEED: 20 20
+MULT: 1.1
+FLAGS: FC
+PROF: warhammer
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 5 5 5 5 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* druid/warrior */
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+read magic             | 15|  1 |    |   | 90|
+kick                   | 25|  2 |    |   | 80|
+bash                   | 45|  2 |    |   | 80|
+rescue                 | 60|  3 |    |   | 80|kick
+disarm                 | 85|  4 |    |   | 75|
+hitall                 | 90|  4 |    |   | 75|
+dual wield             | 95|  5 |100 |   | 85|
+scan                   | 69|  2 |    |   | 95|
+
+PROF
+hammer                 |  1|  1 |    |   |100|
+warhammer              |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+longsword              |  5|  1 |    |   | 90|
+club                   |  7|  1 |    |   |100|
+dagger                 |  9|  3 |    |   | 60|
+knife                  |  9|  3 |    |   | 60|
+pickaxe                |  9|  2 |    |   | 70|
+rapier                 | 11|  1 | 22 |   | 60|
+broadsword             | 13|  2 | 15 |   | 80|
+flail                  | 14|  1 |    |   |100|
+mace                   | 17|  1 |    |   |100|
+handaxe                | 19|  2 |    |   | 80|
+javelin                | 21|  1 |    |   | 90|
+staff                  | 23|  2 | 13 |   |100|
+shortbow               | 25|  2 | 11 |   |100|
+bastard                | 26|  3 | 18 |   | 70|
+whip                   | 30|  2 |    |   | 80|
+sabre                  | 31|  3 |    |   | 80|
+spear                  | 31|  2 | 16 |   | 90|
+longbow                | 35|  2 | 24 |   | 90|
+axe                    | 44|  2 |    |   | 70|
+crossbow               | 45|  2 | 30 |   | 80|
+pike                   | 51|  2 | 41 |   | 80|
+battleaxe              | 70|  4 | 32 |   | 60|
+trident                | 90|  3 | 24 |   | 60|
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          |  2|  1 |    |   | 95|  7 | M |      |
+control weather        |  3|  1 |    |   | 95| 10 | M |      |
+chill touch            |  4|  1 |    |   | 95|  8 | M |      |
+slow poison            |  5|  1 |    |   | 95| 10 | M |      |
+create water           |  6|  1 |    |   | 95|  5 | M |      |
+create food            |  7|  1 |    |   | 95|  5 | M |      |
+nosleep                |  7|  1 |    |   | 95| 15 | M |      |
+water breath           |  8|  1 |    |   | 95|  8 | M |create water|
+faerie fire            | 12|  1 |    |   | 95| 17 | M |      |
+flamestrike            | 13|  1 |    |   | 95| 10 | M |burning hands|
+call lightning         | 13|  1 |    |   | 95| 12 | M |control weather|
+monsum one             | 14|  2 |    |   | 95|  8 | M |      |
+sense life             | 16|  1 |    |   | 95| 17 | M |      |
+remove poison          | 17|  1 |    |   | 95| 15 | M |slow poison|
+monsum two             | 19|  2 |    |   | 95| 10 | M |monsum one|
+infravision            | 20|  1 |    |   | 95| 12 | M |sense life|
+earthquake             | 22|  1 |    |   | 95| 23 | M |      |
+monsum three           | 23|  2 |    |   | 95| 12 | M |monsum two|
+acid blast             | 24|  1 |    |   | 95| 15 | M |      |
+wither                 | 25|  1 |    |   | 95| 18 | M |      |
+faerie fog             | 26|  1 |    |   | 95| 20 | M |faerie fire|
+monsum four            | 28|  2 |    |   | 95| 14 | M |monsum three|
+ice storm              | 30|  1 |    |   | 95| 30 | M |chill touch|
+call lightning         | 32|  1 |    |   | 95| 20 | M |      |
+poison                 | 35|  1 |    |   | 95| 16 | M |remove poison|
+monsum five            | 37|  2 |    |   | 95| 16 | M |monsum four|
+cone of cold           | 41|  1 |    |   | 95| 25 | M |ice storm|
+lightning bolt         | 52|  1 |    |   | 95| 26 | M |call lightning|
+scry                   | 60|  1 |    |   | 90| 16 | M |      |
+charm monster          | 63|  1 |    |   | 95| 20 | M |monsum seven|
+conjure elemental      | 75|  1 |    |   | 95| 45 | M |      |
+firestorm              | 92|  1 |    |   | 95| 26 | M |fireball|
+meteor swarm           |104|  1 |    |   | 95| 30 | M |      |
+stone skin             |135|  1 |    |   | 95| 35 | M |      |
+
+==============================================================================
+
+INDEX: 28
+CLASSNAME: Overlord
+ABBRV: Ov
+ALIGN: NGE
+HP: 3 4 1
+MIN: 16 16 10 16 13 10 12
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He
+ITEMS: 2 4 9
+MULT: 1.5
+THAC0: 20 10
+SPEED: 20 25
+FLAGS: MTF
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 5 5 5 5 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* mage/thief/warrior */
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          |  1|  1 |    |   | 95|  7 | P |      |
+shield                 |  2|  1 |    |   | 95| 25 | P |      |
+create light           |  3|  1 |    |   | 95| 10 | P |      |
+magic missile          |  3|  1 |    |   | 95| 14 | P |      |
+detect magic           |  4|  1 |    |   | 95| 15 | P |      |
+detect invisibility    |  5|  1 |    |   | 95| 17 | P |      |
+shocking grasp         |  5|  1 |    |   | 95| 15 | P |      |
+continual light        |  7|  1 |    |   | 95| 15 | P |create light|
+chill touch            |  7|  1 |    |   | 95| 12 | P |      |
+fly                    |  8|  1 |    |   | 95| 25 | P |      |
+drain vigor light      |  9|  1 |    |   | 75| 10 | P |      |
+refresh                | 10|  1 |    |   | 95| 10 | P |      |
+charm person           | 11|  1 |    |   | 95| 10 | P |      |
+lightning bolt         | 12|  1 |    |   | 95| 15 | P |shocking grasp,magic missile|
+water breath           | 13|  1 |    |   | 95| 25 | P |      |
+strength               | 14|  1 |    |   | 95| 20 | P |      |
+drain vigor serious    | 15|  1 |    |   | 70| 12 | P |drain vigor light|
+invisibility           | 16|  1 |    |   | 95| 15 | P |detect invisibility|
+infravision            | 16|  1 |    |   | 95| 27 | P |      |
+weakness               | 17|  1 |    |   | 95| 20 | P |strength|
+sleep                  | 18|  1 |    |   | 95| 15 | P |      |
+calm                   | 19|  1 |    |   | 95| 15 | P |      |
+minor creation         | 20|  1 |    |   | 95| 15 | P |      |
+acid blast             | 22|  1 |    |   | 95| 15 | P |      |
+knock                  | 22|  1 |    |   | 95|115 | P |      |
+second wind            | 23|  1 |    |   | 95| 10 | P |refresh|
+know alignment         | 25|  1 |    |   | 95| 30 | P |      |
+fear                   | 26|  1 |    |   | 95| 15 | P |      |
+monsum one             | 27|  1 |    |   | 95| 20 | P |      |
+teleport               | 28|  1 |    |   | 95| 30 | P |minor creation|
+charm monster          | 29|  1 |    |   | 95| 20 | P |calm|
+ice storm              | 31|  1 |    |   | 95| 15 | P |chill touch|
+monsum two             | 32|  1 |    |   | 95| 23 | P |monsum one|
+blindness              | 33|  1 |    |   | 95| 15 | P |      |
+translook              | 36|  1 |    |   | 95| 25 | P |      |
+nosleep                | 39|  1 |    |   | 95| 25 | P |      |
+cone of cold           | 40|  1 |    |   | 95| 25 | P |ice storm|
+vigorize light         | 40|  1 |    |   | 95| 30 | P |      |
+monsum three           | 42|  1 |    |   | 95| 36 | P |monsum two|
+monsum four            | 51|  1 |    |   | 95| 39 | P |monsum three|
+colour spray           | 55|  1 |    |   | 95| 25 | P |      |
+energy drain           | 59|  1 |    |   | 95| 35 | P |weakness|
+monsum five            | 61|  1 |    |   | 95| 42 | P |monsum four|
+fireball               | 69|  1 |    |   | 95| 25 | P |burning hands|
+dispel invisibility    | 73|  1 |    |   | 95| 35 | P |detect invisibility|
+enchant weapon         | 75|  1 |    |   | 95|500 | P |      |
+scry                   | 89|  1 |    |   | 95| 30 | P |      |
+dispel magic           | 97|  2 |    |   | 95| 55 | P |detect magic|
+meteor swarm           |105|  1 |    |   | 95| 25 | P |      |
+mage fire              |119|  1 |    |   | 95| 35 | P |fireball|
+conjure elemental      |150|  1 |    |   | 95| 30 | P |      |
+pword kill             |150|  1 |    |   | 95| 25 | P |      |
+stone skin             |176|  1 |    |   | 95| 45 | P |      |
+fireshield             |225|  1 |    |   | 95|150 | P |mage fire,shield|
+vitilize mana          |275|  1 |    |   | 80| 40 | P |      |
+warp weapon            |280|  1 |    |   | 95| 50 | P |      |
+
+SKILLS
+read magic             |  5|  1 |    |   | 85|
+examine wards          | 25|  1 |    |   | 85|
+pick                   | 45|  3 |100 |   | 80|
+kick                   | 55|  6 |    |   | 75|
+sneak                  | 65|  3 |200 |   | 80|
+bash                   | 80|  6 |    |   | 75|
+steal                  | 90|  3 |100 |   | 80|
+backstab               | 95|  3 |300 |   | 80|
+scan                   | 99|  6 |    |   | 95|
+rescue                 |105|  6 |    |   | 75|kick
+hide                   |120|  3 |300 |   | 80|
+disarm                 |125|  6 |    |   | 70|
+hitall                 |140|  6 |    |   | 70|
+backstab one           |170|  5 |400 |   | 70|
+dual wield             |200|  7 |400 |   | 65|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+dart                   |  6|  2 | 12 |   | 70|
+flail                  |  8|  2 |    |   | 90|
+longsword              |  9|  2 |    |   | 70|
+staff                  |  9|  1 | 18 |   | 90|
+rapier                 | 13|  2 | 47 |   | 60|
+club                   | 13|  3 |    |   | 70|
+handaxe                | 15|  2 |    |   |100|
+mace                   | 16|  3 |    |   | 70| club
+whip                   | 17|  2 | 24 |   | 80| flail
+javelin                | 21|  4 | 22 |   | 70|
+broadsword             | 25|  3 | 34 |   | 60| longsword
+shortbow               | 31|  4 | 26 |   | 70|
+pickaxe                | 31|  2 | 10 |   |100|
+spear                  | 31|  4 | 34 |   | 70| javelin
+axe                    | 33|  2 |    |   |100| handaxe
+sabre                  | 35|  4 |    |   | 50|
+hammer                 | 35|  3 |    |   | 60|
+claw                   | 41|  4 | 25 |   | 70|
+bastard                | 45|  4 | 46 |   | 50| broadsword
+longbow                | 51|  4 | 35 |   | 60| shortbow
+warhammer              | 55|  5 | 24 |   | 40| hammer
+battleaxe              | 60|  6 | 56 |   | 60| axe
+crossbow               | 61|  4 | 35 |   | 60| shortbow
+trident                | 81|  6 | 63 |   | 60| javelin
+scythe                 |121|  6 | 75 |   | 20| 
+
+=============================================================================
+INDEX: 29
+CLASSNAME: Sohei
+ABBRV: So
+ALIGN: NGE
+HP: 3 4 1
+MIN: 16 16 10 16 13 10 12
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He
+ITEMS: 2 4 9
+MULT: 1.5
+THAC0: 20 10
+SPEED: 20 25
+FLAGS: MTF
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 5 5 5 5 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* mage/warrior/thief */
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          |  1|  1 |    |   | 95|  7 | P |      |
+shield                 |  2|  1 |    |   | 95| 25 | P |      |
+create light           |  3|  1 |    |   | 95| 10 | P |      |
+magic missile          |  3|  1 |    |   | 95| 14 | P |      |
+detect magic           |  4|  1 |    |   | 95| 15 | P |      |
+detect invisibility    |  5|  1 |    |   | 95| 17 | P |      |
+shocking grasp         |  5|  1 |    |   | 95| 15 | P |      |
+continual light        |  7|  1 |    |   | 95| 15 | P |create light|
+chill touch            |  7|  1 |    |   | 95| 12 | P |      |
+fly                    |  8|  1 |    |   | 95| 25 | P |      |
+drain vigor light      |  9|  1 |    |   | 75| 10 | P |      |
+refresh                | 10|  1 |    |   | 95| 10 | P |      |
+charm person           | 11|  1 |    |   | 95| 10 | P |      |
+lightning bolt         | 12|  1 |    |   | 95| 15 | P |shocking grasp,magic missile|
+water breath           | 13|  1 |    |   | 95| 25 | P |      |
+strength               | 14|  1 |    |   | 95| 20 | P |      |
+drain vigor serious    | 15|  1 |    |   | 70| 12 | P |drain vigor light|
+invisibility           | 16|  1 |    |   | 95| 15 | P |detect invisibility|
+infravision            | 16|  1 |    |   | 95| 27 | P |      |
+weakness               | 17|  1 |    |   | 95| 20 | P |strength|
+sleep                  | 18|  1 |    |   | 95| 15 | P |      |
+calm                   | 19|  1 |    |   | 95| 15 | P |      |
+minor creation         | 20|  1 |    |   | 95| 15 | P |      |
+acid blast             | 22|  1 |    |   | 95| 15 | P |      |
+knock                  | 22|  1 |    |   | 95|115 | P |      |
+second wind            | 23|  1 |    |   | 95| 10 | P |refresh|
+know alignment         | 25|  1 |    |   | 95| 30 | P |      |
+fear                   | 26|  1 |    |   | 95| 15 | P |      |
+monsum one             | 27|  1 |    |   | 95| 20 | P |      |
+teleport               | 28|  1 |    |   | 95| 30 | P |minor creation|
+charm monster          | 29|  1 |    |   | 95| 20 | P |calm|
+ice storm              | 31|  1 |    |   | 95| 15 | P |chill touch|
+monsum two             | 32|  1 |    |   | 95| 23 | P |monsum one|
+blindness              | 33|  1 |    |   | 95| 15 | P |      |
+translook              | 36|  1 |    |   | 95| 25 | P |      |
+nosleep                | 39|  1 |    |   | 95| 25 | P |      |
+cone of cold           | 40|  1 |    |   | 95| 25 | P |ice storm|
+vigorize light         | 40|  1 |    |   | 95| 30 | P |      |
+monsum three           | 42|  1 |    |   | 95| 36 | P |monsum two|
+monsum four            | 51|  1 |    |   | 95| 39 | P |monsum three|
+colour spray           | 55|  1 |    |   | 95| 25 | P |      |
+energy drain           | 59|  1 |    |   | 95| 35 | P |weakness|
+monsum five            | 61|  1 |    |   | 95| 42 | P |monsum four|
+fireball               | 69|  1 |    |   | 95| 25 | P |burning hands|
+dispel invisibility    | 73|  1 |    |   | 95| 35 | P |detect invisibility|
+enchant weapon         | 75|  1 |    |   | 95|500 | P |      |
+scry                   | 89|  1 |    |   | 95| 30 | P |      |
+dispel magic           | 97|  2 |    |   | 95| 55 | P |detect magic|
+meteor swarm           |105|  1 |    |   | 95| 25 | P |      |
+mage fire              |119|  1 |    |   | 95| 35 | P |fireball|
+conjure elemental      |150|  1 |    |   | 95| 30 | P |      |
+pword kill             |150|  1 |    |   | 95| 25 | P |      |
+stone skin             |176|  1 |    |   | 95| 45 | P |      |
+fireshield             |225|  1 |    |   | 95|150 | P |mage fire,shield|
+vitilize mana          |275|  1 |    |   | 80| 40 | P |      |
+warp weapon            |280|  1 |    |   | 95| 50 | P |      |
+
+SKILLS
+read magic             |  5|  1 |    |   | 85|
+examine wards          | 25|  1 |    |   | 85|
+kick                   | 30|  3 |100 |   | 80|
+bash                   | 45|  3 |100 |   | 80|
+pick                   | 60|  6 |100 |   | 75|
+rescue                 | 70|  4 | 50 |   | 80|kick
+scan                   | 79|  3 | 50 |   | 95|
+steal                  | 83|  6 |200 |   | 75|
+sneak                  | 85|  6 |200 |   | 75|
+disarm                 | 90|  5 |200 |   | 75|
+hitall                 | 95|  5 |100 |   | 75|
+backstab               |110|  6 |300 |   | 75|
+hide                   |130|  7 |300 |   | 75|
+dual wield             |150|  6 |400 |   | 70|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+dart                   |  5|  3 | 12 |   | 80|
+flail                  |  7|  1 |    |   | 90|
+longsword              |  8|  2 |    |   | 90|
+staff                  |  9|  1 | 18 |   |100|
+rapier                 | 11|  3 | 47 |   | 70|
+club                   | 13|  1 |    |   | 90|
+handaxe                | 14|  1 |    |   |100|
+mace                   | 15|  1 |    |   | 80|
+whip                   | 16|  2 | 24 |   | 90|
+javelin                | 17|  2 | 22 |   | 80|
+broadsword             | 21|  3 | 34 |   | 80|
+shortbow               | 25|  2 | 26 |   | 80|
+pickaxe                | 31|  1 | 10 |   |100|
+axe                    | 31|  1 |    |   |100|
+sabre                  | 33|  3 |    |   | 60|
+hammer                 | 35|  2 |    |   | 80|
+claw                   | 35|  3 | 25 |   | 70|
+longbow                | 45|  3 | 35 |   | 70|
+warhammer              | 51|  3 | 24 |   | 70|
+battleaxe              | 55|  4 | 56 |   | 80|
+
+==============================================================================
+
+INDEX: 30
+CLASSNAME: Brigand
+ABBRV: Br
+ALIGN: NGE
+HP: 3 4 1
+MIN: 16 16 10 16 13 10 12
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He
+ITEMS: 2 4 9
+MULT: 1.5
+THAC0: 20 10
+SPEED: 20 25
+FLAGS: MTF
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 65 70 60 80 75                      *
+DECREASE: 5 4 5 5 4                        *
+MINSAVE:  40 20 35 55 25                   *
+-------------------------------------------
+
+/* thief/warrior/mage */
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          | 16|  4 |    |   | 95|  7 | P |      |
+shield                 | 17|  4 |    |   | 95| 25 | P |      |
+create light           | 18|  4 |    |   | 95| 10 | P |      |
+magic missile          | 18|  4 |    |   | 95| 14 | P |      |
+detect magic           | 19|  4 |    |   | 95| 15 | P |      |
+detect invisibility    | 20|  4 |    |   | 95| 17 | P |      |
+shocking grasp         | 20|  4 |    |   | 95| 15 | P |      |
+continual light        | 22|  4 |    |   | 95| 15 | P |create light|
+chill touch            | 22|  4 |    |   | 95| 12 | P |      |
+fly                    | 23|  4 |    |   | 95| 25 | P |      |
+drain vigor light      | 25|  4 |    |   | 75| 10 | P |      |
+refresh                | 27|  4 |    |   | 95| 10 | P |      |
+lightning bolt         | 28|  5 |    |   | 95| 15 | P |shocking grasp,magic missile|
+water breath           | 28|  4 |    |   | 95| 25 | P |      |
+strength               | 14|  4 |    |   | 95| 20 | P |      |
+invisibility           | 29|  5 |    |   | 95| 15 | P |detect invisibility|
+infravision            | 31|  4 |    |   | 95| 27 | P |      |
+weakness               | 31|  4 |    |   | 95| 20 | P |strength|
+acid blast             | 37|  6 |    |   | 95| 15 | P |      |
+second wind            | 38|  4 |    |   | 95| 10 | P |refresh|
+monsum one             | 42|  4 |    |   | 95| 20 | P |      |
+ice storm              | 46|  5 |    |   | 95| 15 | P |chill touch|
+monsum two             | 47|  4 |    |   | 95| 23 | P |monsum one|
+blindness              | 48|  4 |    |   | 95| 15 | P |      |
+cone of cold           | 55|  6 |    |   | 95| 25 | P |ice storm|
+colour spray           | 75|  6 |    |   | 95| 25 | P |      |
+fireball               | 84|  7 |    |   | 95| 25 | P |burning hands|
+dispel invisibility    | 88|  5 |    |   | 95| 35 | P |detect invisibility|
+dispel magic           |112|  6 |    |   | 95| 55 | P |detect magic|
+meteor swarm           |125|  7 |    |   | 95| 25 | P |      |
+stone skin             |191|  6 |    |   | 95| 45 | P |      |
+
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+sneak                  |  5|  2 |    |   | 85|
+backstab               | 10|  2 |    |   | 85|
+pick                   | 15|  2 |    |   | 85|
+hide                   | 15|  2 |    |   | 85|
+steal                  | 17|  2 |    |   | 85|
+read magic             | 20|  1 |    |   | 75|
+kick                   | 27|  5 |    |   | 80|
+examine wards          | 40|  1 |    |   | 75|
+bash                   | 55|  5 |    |   | 80|
+backstab one           | 60|  3 |    |   | 75|
+rescue                 | 75|  5 |    |   | 80|kick
+scan                   | 89|  5 |    |   | 95|
+disarm                 | 95|  5 |    |   | 75|
+hitall                 | 95|  5 |    |   | 75|
+dual wield             |150|  5 |400 |   | 75|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+dart                   |  5|  3 | 10 |   | 80|
+flail                  |  7|  1 |    |   | 90|
+longsword              |  8|  2 |    |   | 90|
+staff                  |  9|  1 | 12 |   |100|
+rapier                 | 11|  2 | 35 |   | 80|
+club                   | 13|  1 |    |   | 90|
+handaxe                | 14|  1 |    |   |100|
+mace                   | 15|  1 |    |   | 80|
+whip                   | 16|  2 | 20 |   | 90|
+javelin                | 17|  2 | 18 |   | 80|
+broadsword             | 21|  3 | 26 |   | 80|
+shortbow               | 25|  2 | 23 |   | 80|
+pickaxe                | 31|  1 | 10 |   |100|
+spear                  | 31|  2 | 27 |   | 70|
+axe                    | 31|  1 |    |   |100|
+sabre                  | 33|  2 |    |   | 60|
+hammer                 | 35|  1 |    |   | 80|
+claw                   | 35|  3 | 25 |   | 70|
+bastard                | 41|  2 | 32 |   | 70|
+longbow                | 45|  2 | 33 |   | 70|
+warhammer              | 51|  2 | 21 |   | 70|
+battleaxe              | 55|  3 | 43 |   | 80|
+crossbow               | 60|  2 | 33 |   | 70|
+trident                | 61|  4 | 57 |   | 60|
+scythe                 | 81|  4 | 62 |   | 50| 
+
+==============================================================================
+
+INDEX: 31
+CLASSNAME: Dragoon
+ABBRV: Dr
+ALIGN: NGE
+HP: 3 4 1
+MIN: 16 16 10 16 13 10 12
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He
+ITEMS: 2 4 9
+MULT: 1.5
+THAC0: 20 10
+SPEED: 20 25
+FLAGS: MTF
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 65 70 60 80 75                      *
+DECREASE: 6 5 6 6 5                        *
+MINSAVE:  40 20 35 55 25                   *
+-------------------------------------------
+
+/* thief/mage/warrior */
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+sneak                  |  1|  1 |    |   | 85|
+backstab               |  2|  2 |100 |   | 85|
+pick                   |  5|  1 |    |   | 85|
+steal                  |  7|  1 |    |   | 85|
+hide                   | 15|  2 |    |   | 85|
+read magic             | 20|  3 |    |   | 80|
+examine wards          | 40|  3 |    |   | 80|
+kick                   | 60|  6 |    |   | 75|
+bash                   | 75|  6 |    |   | 75|
+rescue                 | 95|  6 |    |   | 75|kick
+scan                   | 99|  6 |    |   | 95|
+disarm                 |105|  6 |    |   | 70|
+backstab one           |125|  3 |300 |   | 75|
+hitall                 |140|  6 |    |   | 70|
+dual wield             |200|  7 |400 |   | 70|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+dart                   |  6|  2 | 12 |   | 70|
+flail                  |  8|  2 | 13 |   | 90|
+staff                  |  9|  1 | 18 |   | 90|
+longsword              |  9|  2 |  8 |   | 70| shortsword
+club                   | 13|  3 |    |   | 70|
+rapier                 | 13|  2 | 38 |   | 60|
+handaxe                | 15|  2 |    |   |100|
+mace                   | 16|  3 |    |   | 70| club
+whip                   | 17|  2 | 24 |   | 80| flail
+javelin                | 21|  4 | 28 |   | 70|
+broadsword             | 25|  3 | 28 |   | 60| longsword
+shortbow               | 31|  4 | 25 |   | 70|
+spear                  | 31|  4 | 32 |   | 70| javelin
+pickaxe                | 31|  2 |    |   |100|
+axe                    | 33|  2 |    |   |100| handaxe
+sabre                  | 35|  4 |    |   | 50|
+hammer                 | 35|  3 |    |   | 60|
+claw                   | 41|  4 | 27 |   | 70|
+bastard                | 45|  4 | 36 |   | 50| broadsword
+longbow                | 51|  4 | 35 |   | 60| shortbow
+warhammer              | 55|  5 | 24 |   | 40| hammer
+battleaxe              | 60|  6 | 54 |   | 60| axe
+crossbow               | 61|  4 | 35 |   | 60| shortbow
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          | 11|  3 |    |   | 95|  7 | P |      |
+shield                 | 12|  3 |    |   | 95| 25 | P |      |
+create light           | 13|  3 |    |   | 95| 10 | P |      |
+magic missile          | 13|  3 |    |   | 95| 14 | P |      |
+detect magic           | 14|  3 |    |   | 95| 15 | P |      |
+detect invisibility    | 15|  3 |    |   | 95| 17 | P |      |
+shocking grasp         | 15|  3 |    |   | 95| 15 | P |      |
+continual light        | 17|  3 |    |   | 95| 15 | P |create light|
+chill touch            | 17|  3 |    |   | 95| 12 | P |      |
+fly                    | 18|  3 |    |   | 95| 25 | P |      |
+drain vigor light      | 19|  3 |    |   | 75| 10 | P |      |
+refresh                | 20|  3 |    |   | 95| 10 | P |      |
+lightning bolt         | 22|  4 |    |   | 95| 15 | P |shocking grasp,magic missile|
+water breath           | 23|  3 |    |   | 95| 25 | P |      |
+strength               | 24|  4 |    |   | 95| 20 | P |      |
+drain vigor serious    | 25|  3 |    |   | 70| 12 | P |drain vigor light|
+invisibility           | 26|  4 |    |   | 95| 15 | P |detect invisibility|
+infravision            | 26|  3 |    |   | 95| 27 | P |      |
+weakness               | 27|  3 |    |   | 95| 20 | P |strength|
+sleep                  | 28|  3 |    |   | 95| 15 | P |      |
+minor creation         | 30|  4 |    |   | 95| 15 | P |      |
+acid blast             | 32|  5 |    |   | 95| 15 | P |      |
+second wind            | 33|  3 |    |   | 95| 10 | P |refresh|
+know alignment         | 35|  3 |    |   | 95| 30 | P |      |
+monsum one             | 37|  3 |    |   | 95| 20 | P |      |
+teleport               | 38|  5 |    |   | 95| 30 | P |minor creation|
+charm monster          | 39|  4 |    |   | 95| 20 | P |calm|
+ice storm              | 41|  5 |    |   | 95| 15 | P |chill touch|
+monsum two             | 42|  3 |    |   | 95| 23 | P |monsum one|
+blindness              | 43|  3 |    |   | 95| 15 | P |      |
+cone of cold           | 50|  4 |    |   | 95| 25 | P |ice storm|
+monsum three           | 52|  3 |    |   | 95| 36 | P |monsum two|
+colour spray           | 65|  5 |    |   | 95| 25 | P |      |
+fireball               | 79|  6 |    |   | 95| 25 | P |burning hands|
+dispel invisibility    | 83|  4 |    |   | 95| 35 | P |detect invisibility|
+dispel magic           | 97|  5 |    |   | 95| 55 | P |detect magic|
+meteor swarm           |105|  6 |    |   | 95| 25 | P |      |
+pword kill             |150|  4 |    |   | 95| 25 | P |      |
+stone skin             |176|  5 |    |   | 95| 45 | P |      |
+vitilize mana          |275|  4 |    |   | 80| 40 | P |      |
+
+==============================================================================
+
+INDEX: 32
+CLASSNAME: Mercenary
+ABBRV: Me
+ALIGN: NGE
+HP: 3 4 1
+MIN: 16 16 10 16 13 10 12
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He
+ITEMS: 2 4 9
+MULT: 1.5
+THAC0: 20 10
+SPEED: 20 25
+FLAGS: MTF
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 5 5 5 5 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* warrior/thief/mage */
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+kick                   |  1|  2 |    |   | 85|
+bash                   |  3|  2 |    |   | 85|
+rescue                 |  7|  3 |    |   | 85|kick
+read magic             | 15|  6 |    |   | 75|
+disarm                 | 18|  4 |    |   | 80|
+pick                   | 28|  3 |    |   | 80|
+sneak                  | 35|  3 |    |   | 80|
+hitall                 | 38|  4 |    |   | 80|
+dual wield             | 41|  5 |400 |   | 75|
+steal                  | 47|  3 |    |   | 80|
+backstab               | 60|  4 |    |   | 80|
+examine wards          | 70|  6 |    |   | 75|
+scan                   | 89|  4 |    |   | 95|
+hide                   |120|  4 |    |   | 80|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+dart                   |  6|  2 | 14 |   | 70|
+flail                  |  8|  2 |    |   | 90|
+longsword              |  9|  2 |    |   | 70|
+staff                  |  9|  2 | 12 |   | 90|
+rapier                 | 13|  3 | 26 |   | 60|
+club                   | 13|  1 |    |   | 70|
+handaxe                | 15|  1 |    |   |100|
+mace                   | 16|  2 |    |   | 70|
+whip                   | 17|  3 | 24 |   | 80|
+javelin                | 21|  3 | 22 |   | 70|
+broadsword             | 25|  2 | 18 |   | 60|
+spear                  | 31|  3 | 26 |   | 70|
+pickaxe                | 31|  2 |    |   |100|
+shortbow               | 31|  4 | 22 |   | 70|
+axe                    | 33|  2 |    |   |100|
+hammer                 | 35|  2 |    |   | 60|
+sabre                  | 35|  3 |    |   | 50|
+claw                   | 41|  4 | 19 |   | 70|
+pike                   | 41|  5 | 92 |   | 60|
+bastard                | 45|  3 | 26 |   | 50|
+longbow                | 51|  4 | 32 |   | 60|
+warhammer              | 55|  4 | 34 |   | 40|
+battleaxe              | 60|  5 | 46 |   | 60|
+crossbow               | 61|  4 | 32 |   | 60|
+halberd                | 71|  5 | 98 |   | 60|
+trident                | 81|  6 | 46 |   | 60|
+glaive                 | 91|  6 |105 |   | 60|
+scimitar               | 95|  6 | 74 |   | 30|
+scythe                 |121|  6 | 86 |   | 20|
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          | 16|  4 |    |   | 95|  7 | P |      |
+shield                 | 17|  4 |    |   | 95| 25 | P |      |
+create light           | 18|  4 |    |   | 95| 10 | P |      |
+magic missile          | 18|  4 |    |   | 95| 14 | P |      |
+detect magic           | 19|  4 |    |   | 95| 15 | P |      |
+detect invisibility    | 20|  4 |    |   | 95| 17 | P |      |
+shocking grasp         | 20|  4 |    |   | 95| 15 | P |      |
+continual light        | 22|  4 |    |   | 95| 15 | P |create light|
+chill touch            | 22|  4 |    |   | 95| 12 | P |      |
+fly                    | 23|  4 |    |   | 95| 25 | P |      |
+drain vigor light      | 24|  4 |    |   | 75| 10 | P |      |
+refresh                | 25|  4 |    |   | 95| 10 | P |      |
+lightning bolt         | 27|  5 |    |   | 95| 15 | P |shocking grasp,magic missile|
+water breath           | 28|  4 |    |   | 95| 25 | P |      |
+strength               | 29|  5 |    |   | 95| 20 | P |      |
+invisibility           | 31|  5 |    |   | 95| 15 | P |detect invisibility|
+infravision            | 31|  4 |    |   | 95| 27 | P |      |
+weakness               | 32|  4 |    |   | 95| 20 | P |strength|
+acid blast             | 37|  5 |    |   | 95| 15 | P |      |
+second wind            | 38|  4 |    |   | 95| 10 | P |refresh|
+monsum one             | 38|  4 |    |   | 95| 20 | P |      |
+ice storm              | 46|  5 |    |   | 95| 15 | P |chill touch|
+monsum two             | 47|  4 |    |   | 95| 23 | P |monsum one|
+blindness              | 48|  4 |    |   | 95| 15 | P |      |
+cone of cold           | 55|  6 |    |   | 95| 25 | P |ice storm|
+colour spray           | 70|  6 |    |   | 95| 25 | P |      |
+fireball               | 84|  7 |    |   | 95| 25 | P |burning hands|
+dispel invisibility    | 88|  5 |    |   | 95| 35 | P |detect invisibility|
+dispel magic           |112|  6 |    |   | 95| 55 | P |detect magic|
+meteor swarm           |120|  7 |    |   | 95| 25 | P |      |
+stone skin             |191|  5 |    |   | 95| 45 | P |      |
+
+==============================================================================
+
+INDEX: 33
+CLASSNAME: Warder
+ABBRV: Wd
+ALIGN: NGE
+HP: 3 4 1
+MIN: 16 16 10 16 13 10 12
+MAX: 18 18 18 18 18 18 18
+RACES: Hu He
+ITEMS: 2 4 9
+MULT: 1.5
+THAC0: 20 10
+SPEED: 20 25
+FLAGS: MTF
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 80 90 85 100 95                     *
+DECREASE: 5 5 5 5 5                        *
+MINSAVE: 15 25 20 20 30                    *
+-------------------------------------------
+
+/* warrior/mage/thief */
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+kick                   |  1|  2 |    |   | 85|
+bash                   |  3|  2 |    |   | 85|
+rescue                 |  7|  3 |    |   | 85|kick
+read magic             | 15|  3 |    |   | 80|
+disarm                 | 18|  4 |    |   | 80|
+examine wards          | 30|  3 |    |   | 80|
+dual wield             | 41|  6 |400 |   | 70|
+hitall                 | 55|  4 |    |   | 80|
+pick                   | 62|  6 |    |   | 75|
+scan                   | 69|  3 |    |   | 95|
+sneak                  | 85|  6 |    |   | 75|
+steal                  | 95|  6 |    |   | 75|
+backstab               |110|  7 |    |   | 75|
+hide                   |130|  8 |    |   | 75|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+dart                   |  5|  2 | 14 |   | 70|
+flail                  |  8|  2 |    |   | 90|
+longsword              |  9|  2 |    |   | 70|
+staff                  | 10|  2 | 12 |   | 90|
+club                   | 14|  1 |    |   | 70|
+rapier                 | 15|  3 | 26 |   | 60|
+handaxe                | 15|  1 |    |   |100|
+mace                   | 18|  2 |    |   | 70|
+whip                   | 20|  3 | 24 |   | 80|
+javelin                | 23|  3 | 22 |   | 70|
+broadsword             | 30|  2 | 18 |   | 60|
+spear                  | 34|  3 | 26 |   | 70|
+pickaxe                | 35|  2 |    |   |100|
+shortbow               | 37|  4 | 22 |   | 70|
+axe                    | 40|  2 |    |   |100|
+hammer                 | 42|  2 |    |   | 60|
+claw                   | 45|  4 | 19 |   | 70|
+bastard                | 49|  3 | 26 |   | 50|
+longbow                | 54|  4 | 32 |   | 60|
+warhammer              | 61|  4 | 34 |   | 40|
+battleaxe              | 72|  5 | 46 |   | 60|
+crossbow               | 75|  4 | 32 |   | 60|
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+burning hands          | 11|  3 |    |   | 95|  7 | P |      |
+shield                 | 12|  3 |    |   | 95| 25 | P |      |
+create light           | 13|  3 |    |   | 95| 10 | P |      |
+magic missile          | 13|  3 |    |   | 95| 14 | P |      |
+detect magic           | 14|  3 |    |   | 95| 15 | P |      |
+detect invisibility    | 15|  3 |    |   | 95| 17 | P |      |
+shocking grasp         | 15|  3 |    |   | 95| 15 | P |      |
+continual light        | 17|  3 |    |   | 95| 15 | P |create light|
+chill touch            | 17|  3 |    |   | 95| 12 | P |      |
+fly                    | 18|  3 |    |   | 95| 25 | P |      |
+drain vigor light      | 19|  3 |    |   | 75| 10 | P |      |
+refresh                | 20|  3 |    |   | 95| 10 | P |      |
+lightning bolt         | 22|  4 |    |   | 95| 15 | P |shocking grasp,magic missile|
+water breath           | 23|  3 |    |   | 95| 25 | P |      |
+strength               | 24|  4 |    |   | 95| 20 | P |      |
+drain vigor serious    | 25|  3 |    |   | 70| 12 | P |drain vigor light|
+invisibility           | 26|  4 |    |   | 95| 15 | P |detect invisibility|
+infravision            | 26|  3 |    |   | 95| 27 | P |      |
+weakness               | 27|  3 |    |   | 95| 20 | P |strength|
+sleep                  | 28|  3 |    |   | 95| 15 | P |      |
+minor creation         | 30|  4 |    |   | 95| 15 | P |      |
+acid blast             | 32|  5 |    |   | 95| 15 | P |      |
+second wind            | 33|  3 |    |   | 95| 10 | P |refresh|
+know alignment         | 35|  3 |    |   | 95| 30 | P |      |
+monsum one             | 37|  3 |    |   | 95| 20 | P |      |
+teleport               | 38|  5 |    |   | 95| 30 | P |minor creation|
+charm monster          | 39|  4 |    |   | 95| 20 | P |calm|
+ice storm              | 41|  4 |    |   | 95| 15 | P |chill touch|
+monsum two             | 42|  3 |    |   | 95| 23 | P |monsum one|
+blindness              | 43|  3 |    |   | 95| 15 | P |      |
+cone of cold           | 50|  4 |    |   | 95| 25 | P |ice storm|
+monsum three           | 52|  3 |    |   | 95| 36 | P |monsum two|
+colour spray           | 65|  5 |    |   | 95| 25 | P |      |
+fireball               | 79|  5 |    |   | 95| 25 | P |burning hands|
+dispel invisibility    | 83|  4 |    |   | 95| 35 | P |detect invisibility|
+dispel magic           | 97|  5 |    |   | 95| 55 | P |detect magic|
+meteor swarm           |105|  6 |    |   | 95| 25 | P |      |
+pword kill             |150|  3 |    |   | 95| 25 | P |      |
+stone skin             |176|  5 |    |   | 95| 45 | P |      |
+vitilize mana          |275|  4 |    |   | 80| 40 | P |      |
+
+==============================================================================
+
+INDEX: 34
+CLASSNAME: Builder
+ABBRV: Bu
+ALIGN: NGE
+HP: 3 3 1
+MIN: 24 24 24 24 24 24 24
+MAX: 25 25 25 25 25 25 25
+RACES: Hu El
+ITEMS: 2 7 8 9 14
+THAC0: 19 1
+SPEED: 10 50
+MULT: 2.3
+FLAGS: M
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 10 10 10 10 10                      *
+DECREASE: 1 1 1 1 1                        *
+MINSAVE: 1 1 1 1 1                         *
+-------------------------------------------
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+continual light        |  8|  1 |    |   |100| 15 |      |
+fly                    | 10|  1 |    |   |100| 15 |      |
+water breath           | 17|  1 |    |   |100| 15 |      |
+dispel magic           | 20|  1 |    |   |100| 15 |      |
+
+==============================================================================
+INDEX: 35
+CLASSNAME: Immortal
+ABBRV: Im
+ALIGN: NGE
+HP: 3 3 1
+MIN: 24 24 24 24 24 24 24
+MAX: 25 25 25 25 25 25 25
+RACES: Hu El
+ITEMS: 2 7 8 9 14
+THAC0: 19 1
+SPEED: 10 70
+MULT: 2.3
+FLAGS: M
+PROF: shortsword
+-------------------------------------------
+Saving throws, Para,Rod,Petra,Breath,Spell *
+SAVES: 10 10 10 10 10                      *
+DECREASE: 1 1 1 1 1                        *
+MINSAVE: 1 1 1 1 1                         *
+-------------------------------------------
+
+/* immortal */
+SKILLS                  Lvl Diff Cost Gld Max Prereq
+appraise               |  1|  1 |    |   |100|
+read magic             |  1|  1 |    |   |100|
+examine wards          |  1|  1 |    |   |100|
+kick                   |  1|  4 |    |   |100|
+bash                   |  3|  4 |    |   |100|
+rescue                 |  7|  4 |    |   |100|
+disarm                 | 18|  4 |    |   |100|
+hitall                 | 55|  4 |    |   |100|
+scan                   | 69|  4 |    |   |100|
+pick                   | 80|  4 |    |   |100|
+sneak                  | 85|  4 |    |   |100|
+steal                  |100|  4 |    |   |100|
+backstab               |110|  4 |    |   |100|
+hide                   |130|  4 |    |   |100|
+
+PROF
+dagger                 |  1|  1 |    |   |100|
+knife                  |  1|  1 |    |   |100|
+shortsword             |  1|  1 |    |   |100|
+longsword              |  1|  1 |    |   |100|
+broadsword             |  1|  1 |    |   |100|
+bastard                |  1|  1 |    |   |100|
+claymore               |  1|  1 |    |   |100|
+scimitar               |  1|  1 |    |   |100|
+rapier                 |  1|  1 |    |   |100|
+sabre                  |  1|  1 |    |   |100|
+club                   |  1|  1 |    |   |100|
+staff                  |  1|  1 |    |   |100|
+mace                   |  1|  1 |    |   |100|
+whip                   |  1|  1 |    |   |100|
+handaxe                |  1|  1 |    |   |100|
+battleaxe              |  1|  1 |    |   |100|
+halberd                |  1|  1 |    |   |100|
+pike                   |  1|  1 |    |   |100|
+glaive                 |  1|  1 |    |   |100|
+longbow                |  1|  1 |    |   |100|
+shortbow               |  1|  1 |    |   |100|
+crossbow               |  1|  1 |    |   |100|
+spear                  |  1|  1 |    |   |100|
+javelin                |  1|  1 |    |   |100|
+trident                |  1|  1 |    |   |100|
+flail                  |  1|  1 |    |   |100|
+dart                   |  1|  1 |    |   |100|
+shuriken               |  1|  1 |    |   |100|
+claw                   |  1|  1 |    |   |100|
+scythe                 |  1|  1 |    |   |100|
+pickaxe                |  1|  1 |    |   |100|
+axe                    |  1|  1 |    |   |100|
+warhammer              |  1|  1 |    |   |100|
+hammer                 |  1|  1 |    |   |100|
+
+SPELLS                  Lvl Diff Cost Gld Max Mana Prereq Components
+age                 |  1|  1 |    |   |100|  7 |      |
+burning hands          |  1|  1 |    |   |100|  7 |      |
+shield                 |  3|  1 |    |   |100| 15 |      |
+create light           |  4|  1 |    |   |100| 10 |      |
+magic missile          |  4|  1 |    |   |100| 14 |      |
+detect magic           |  5|  1 |    |   |100|  5 |      |
+detect invisibility    |  6|  1 |    |   |100|  7 |      |
+shocking grasp         |  7|  1 |    |   |100| 15 |      |
+ventriloquate          |  8|  1 |    |   |100|  5 |      |
+continual light        |  9|  1 |    |   |100| 15 |      |
+chill touch            | 10|  1 |    |   |100| 12 |      |
+fly                    | 10|  1 |    |   |100| 15 |      |
+drain vigor light      | 12|  1 |    |   |100| 10 |      |
+refresh                | 13|  1 |    |   |100| 10 |      |
+charm person           | 15|  1 |    |   |100| 10 |      |
+lightning bolt         | 16|  1 |    |   |100| 15 |      |
+water breath           | 17|  1 |    |   |100| 15 |      |
+strength               | 18|  1 |    |   |100| 10 |      |
+armor                  | 19|  1 |    |   |100|  5 |      |
+drain vigor serious    | 19|  1 |    |   |100| 12 |      |
+invisibility           | 20|  1 |    |   |100|  5 |      |
+infravision            | 20|  1 |    |   |100|  7 |      |
+weakness               | 21|  1 |    |   |100| 10 |      |
+sleep                  | 22|  1 |    |   |100| 15 |      |
+calm                   | 23|  1 |    |   |100| 15 |      |
+minor creation         | 24|  1 |    |   |100|  5 |      |
+acid blast             | 25|  1 |    |   |100| 15 |      |
+knock                  | 26|  1 |    |   |100| 10 |      |
+second wind            | 26|  1 |    |   |100| 10 |      |
+drain vigor critic     | 27|  1 |    |   |100| 17 |      |
+know alignment         | 27|  1 |    |   |100| 10 |      |
+fear                   | 28|  1 |    |   |100| 15 |      |
+monsum one             | 30|  1 |    |   |100| 10 |      |
+teleport               | 32|  1 |    |   |100| 30 |      |
+charm monster          | 33|  1 |    |   |100| 10 |      |
+ice storm              | 35|  1 |    |   |100| 15 |      |
+monsum two             | 36|  1 |    |   |100| 13 |      |
+blindness              | 33|  1 |    |   |100|  5 |      |
+translook              | 36|  1 |    |   |100| 15 |      |
+dispel magic           | 37|  1 |    |   |100| 15 |      |
+nosleep                | 40|  1 |    |   |100| 15 |      |
+cone of cold           | 45|  1 |    |   |100| 15 |      |
+vigorize light         | 45|  1 |    |   |100| 20 |      |
+monsum three           | 46|  1 |    |   |100| 16 |      |
+curse                  | 47|  1 |    |   |100| 20 |      |
+nocharm                | 50|  1 |    |   |100| 15 |      |
+monsum four            | 53|  1 |    |   |100| 19 |      |
+faerie fire            | 56|  1 |    |   |100| 10 |      |
+colour spray           | 57|  1 |    |   |100| 25 |      |
+vigorize serious       | 57|  1 |    |   |100| 30 |      |
+summon                 | 60|  1 |    |   |100| 20 |      |
+energy drain           | 63|  1 |    |   |100| 35 |      |
+monsum five            | 66|  1 |    |   |100| 22 |      |
+fireball               | 69|  1 |    |   |100| 25 |      |
+dispel invisibility    | 75|  1 |    |   |100| 50 |      |
+vigorize critic        | 77|  1 |    |   |100| 40 |      |
+enchant weapon         | 80|  1 |    |   |100|100 |      |
+monsum six             | 81|  1 |    |   |100| 25 |      |
+faerie fog             | 83|  1 |    |   |100| 15 |      |
+animate dead           | 85|  1 |    |   |100| 30 |      |
+shriek                 | 87|  1 |    |   |100| 25 |      |
+scry                   | 90|  1 |    |   |100| 20 |      |
+monsum seven           |100|  1 |    |   |100| 28 |      |
+paralyze               |110|  1 |    |   |100| 35 |      |
+meteor swarm           |105|  1 |    |   |100| 15 |      |
+mage fire              |119|  1 |    |   |100| 35 |      |
+pword blind            |125|  1 |    |   |100| 15 |      |
+fireshield             |155|  1 |    |   |100| 50 |      |
+succor                 |165|  1 |    |   |100|100 |      |
+portal                 |175|  1 |    |   |100| 75 |      |
+conjure elemental      |180|  1 |    |   |100| 30 |      |
+pword kill             |150|  1 |    |   |100| 25 |      |
+nosummon               |155|  1 |    |   |100| 20 |      |
+stone skin             |176|  1 |    |   |100| 25 |      |
+cacaodemon             |205|  1 |    |   |100| 60 |      |
+invulnerability        |300|  1 |    |   |100|100 |      |
+vitilize mana          |345|  1 |    |   |100| 40 |      |
+warp weapon            |380|  1 |    |   |100| 50 |      |
+
+CLERIC
+cure light             | 20|  1 |    |   |100|  5 |      |
+cause light            | 25|  1 |    |   |100|  8 |      |
+turn                   | 25|  1 |    |   |100|  5 |      |
+bless                  | 27|  1 |    |   |100|  5 |      |
+create water           | 28|  1 |    |   |100|  5 |      |
+detect evil            | 29|  1 |    |   |100|  5 |      |
+create food            | 29|  1 |    |   |100|  5 |      |
+detect poison          | 30|  1 |    |   |100|  5 |      |
+slow poison            | 32|  1 |    |   |100| 10 |      |
+cure blind             | 35|  1 |    |   |100|  5 |      |
+remove poison          | 45|  1 |    |   |100|  5 |      |
+remove curse           | 64|  1 |    |   |100|  5 |      |
+sense life             | 65|  1 |    |   |100| 10 |      |
+earthquake             | 66|  1 |    |   |100| 15 |      |
+word of recall         | 68|  1 |    |   |100| 10 |      |
+cure serious           | 69|  1 |    |   |100|  9 |      |
+cause serious          | 76|  1 |    |   |100| 10 |      |
+cure critic            | 86|  1 |    |   |100| 10 |      |
+dexterity              | 87|  1 |    |   |100| 15 |      |
+poison                 | 88|  1 |    |   |100| 10 |      |
+true sight             | 99|  1 |    |   |100| 20 |      |
+control weather        |101|  1 |    |   |100| 25 |      |
+dispel evil            |105|  1 |    |   |100| 20 |      |
+flamestrike            |116|  1 |    |   |100| 15 |      |
+dispel good            |117|  1 |    |   |100| 20 |      |
+call lightning         |128|  1 |    |   |100| 15 |      |
+cause critical         |107|  1 |    |   |100| 15 |      |
+remove paralysis       |133|  1 |    |   |100| 10 |      |
+heal                   |160|  1 |    |   |100| 50 |      |
+wither                 |170|  1 |    |   |100| 15 |      |
+harm                   |175|  1 |    |   |100| 40 |      |
+sanctuary              |195|  1 |    |   |100| 50 |      |
+firestorm              |137|  1 |    |   |100| 40 |      |
+holy word              |279|  1 |    |   |100| 45 |      |
+unholy word            |273|  1 |    |   |100| 50 |      |
+gust of wind           |297|  1 |    |   |100| 15 |      |
+full harm              |225|  1 |    |   |100|100 |      |
+chain lightning        |430|  1 |    |   |100| 35 |      |
+beacon                 |440|  1 |    |   |100|100 |      |
+delayed teleport       |440|  1 |    |   |100|100 |      |
+nova                   |440|  1 |    |   |100|100 |      |
+ice lance              |440|  1 |    |   |100|100 |      |
+sunray                 |440|  1 |    |   |100|100 |      |
+fire bolt              |440|  1 |    |   |100|100 |      |
+chilly                 |440|  1 |    |   |100|100 |      |
+freeze                 |440|  1 |    |   |100|100 |      |
+vampiric touch         |440|  1 |    |   |100|100 |      |
+metalskin              |440|  1 |    |   |100|100 |      |
+mystic heal            |440|  1 |    |   |100|100 |      |
+repulser               |440|  1 |    |   |100|100 |      |
+mind thrust            |440|  1 |    |   |100|100 |      |
+disrupter              |440|  1 |    |   |100|100 |      |
+geyser                 |440|  1 |    |   |100|100 |      |
+ageing                 |440|  1 |    |   |100|100 |      |
+
+==============================================================================
+
+

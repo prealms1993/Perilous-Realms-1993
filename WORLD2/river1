@@ -1,0 +1,71 @@
+
+0
+{
+  name { Stagnant River }
+  desc {
+You are surrounded by stagnant brown sludge which could be called
+a river.  It runs to the west from here and you are unable to see
+an exit from the river in the way west.  You can leave and enter
+Mirkwood to the north.  You sense a need to move quickly before you
+die from the stench of this sludge.
+  }
+  sector { Water NoSwim }
+  exits {
+	to { n, Crossroads:100 }
+	to { e, 1 }
+  }
+}
+
+1
+{
+  name { Stagnant River }
+  desc {
+You are surrounded by foul smelling sludge.  This place is extremely
+gross. The sludge river stagnates to the west and the east.  The smell
+is enough to kill you.  The river doesn't move like a normal river.
+  }
+  sector { Water NoSwim }
+  exits {
+	to { e, 2 }
+	to { w, 0 }
+  }
+}
+
+2
+{
+  name { Stagnant River }
+  desc {
+You are surrounded by foul smelling sludge.  This place is extremely
+gross. The sludge river stagnates to the west and the east.  The smell
+is enough to kill you.  The river doesn't move like a normal river.
+  }
+  sector { Water NoSwim }
+  exits {
+	to { e, 3 }
+	to { w, 1 }
+  }
+}
+
+3
+{
+  name { Stagnant River }
+  desc {
+You are surrounded by foul smelling sludge.  This place is extremely
+gross. The sludge river stagnates to the west and the east.  The smell
+is enough to kill you.  You can spy a landing to the east that allows
+you to leave this horrod river.
+  }
+  sector { Water NoSwim }
+  exits {
+	to { e, Wasteland:0 }
+	to { w, 2 }
+  }
+}
+
+4
+{
+  name { 2099 }
+  desc {
+Empty
+  }
+}

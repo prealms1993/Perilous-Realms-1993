@@ -1,0 +1,52 @@
++ means it is moderately necessary
+* means it is highly necessary.
+Blank does NOT mean it is NOT needed but is not of utmost importance.
+These are meant to be a rough guideline and do NOT represent the
+complete requirements.
+
+Class(Old Type)       St In Wi De Co Ch Lu     Races 
+As - Assassin                  +               Hu El Dw He Ho Li 
+Av - Avenger                +  +     +         Hu He 
+Ba - Bard                   +        +         Hu 
+Bb - Barbarian        +           +     +      Hu Li Tr Gi 
+Br - Brigand(T/W/M)   *  *     *  +            Hu He 
+Ca - Cavalier                  +     +         Hu 
+Ce - Celtic(W/D)      +  +  +                  Hu He 
+Cl - Cleric                                    Hu El Dw He Ho Pi Ha Gn 
+Dr - Dragoon(T/M/W)   *  *     *  +            Hu He 
+Du - Druid                                     Hu He Pi Ha 
+Ex - Expositor(W/C)   +     +     +            Dw Tr Hu 
+Fo - Forester(R/D)    +  +  +        +         Hu He 
+
+
+Class(Old Type)       St In Wi De Co Ch Lu     Races 
+He - Herbalist(D/R)   +  +  +        +         Hu He 
+Hi - Highwayman(W/T)  +        +               El Dw He Ho Li Tr Ha Gn Hu 
+Il - Illusionist         +                     Hu He Pi Gn 
+Ma - Mage                                      Hu El He Pi 
+Me - Mercenary(W/T/M) *  *     *  +            Hu He 
+Ne - Necromancer(M/C)    *  *     +            Hu He 
+Ni - Ninja                     +               Hu 
+Ov - Overlord(M/T/W)  *  *     *  +            Hu He 
+Pa - Paladin                +  +     *         Hu He 
+Pm - Powermonger(M/T)    *     *        +      Hu El He Pi 
+Ra - Ranger           +              +         Hu El He
+Ro - Rogue(T/W)       +        +               El Dw He Ho Ha Gn Hu 
+
+
+Class(Old Type)      St In Wi De Co Ch Lu      Races 
+Sc - Scout(T/M)          *     *        +      Hu El He Pi 
+Sh - Scholar(C/M)        *  *     +            Hu He 
+So - Sohei(M/W/T)     *  *     *  +            Hu He 
+Th - Thief                                     Hu El Dw He Ho Li Tr Ha Gn 
+Tm - Templar(C/W)     +     +     +            Dw Tr Hu 
+Wa - Warrior                                   Hu El Dw He Ho Li Tr Og Gi Ha Gn 
+Wd - Warder(W/M/T)    *  *     *  +            Hu He 
+Wl - Warlock(M/W)     +  *        +            El He Og Hu 
+Wr - Warlord(W/M)     +  *        +            El He Og Hu 
+Wo - Woodsman(D/W)    +  +  +                  Hu He 
+
+Races are:
+Dw = Dwarf        El = Elf         Gi = Giant        Gn = Gnome
+Ha = Halfling     He = Half-Elf    Ho = Half-Orc     Hu = Human
+Li = Lizardman    Og = Ogre        Pi = Pixie        Tr = Troll

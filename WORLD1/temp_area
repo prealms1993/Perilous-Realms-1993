@@ -1,0 +1,5926 @@
+#include <area.list>
+#offset Midgard
+
+0
+{
+  name { The Fountain at Market Plaza }
+  desc {
+"   You are standing on the Market Plaza, the famous Plaza of Midgard.
+People scurry across the granite stone as they move from shop to shop.
+To the north, you can see the top of the Midgard Cathedral of Virtue.
+The plaza continues in all directions.
+   A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  extra {
+	keywords { map marble block" }
+	desc { :..[]===================[].....+------+....... ..     Cath - The Cathedral    :
+:..||  N o r t h e r n  ||..+--        --+..... .            of Virtue        :
+:..||   M i d g a r d   ||..|    Cath    |.... .  Cle-Guil - The Cleric's     :
+:..[]===================[]...---+    +---.......             Guild            :
+:............N.............-----|    |-----.... . Pal-Guil - The Paladin's    :
+:..........W-+-E..........|Cle  +----+Pal  |......           Guild            :
+:............S............| Guil||  || Guid|... ..       a - Osfol's Shop of  :
+:..........................----- |  | ----- ... . .          Wonderous Things :
+:............................--- |  | ---....... ...     b - The Provisions   :
+:........ Midgard...........| a ||  || b |.......   .        Shoppe.          :
+:.......... Zoo ............`- --+  +-- -'...... ..      c - The Small Arms   :
+:..........:  :....----..---|            |---....  ..        Shoppe           :
+:..........|  |...| c  || d     Market     e |....       d - Quick-Go - Alpha :
+:........--+  +---`- --'`---+            +----- - -  e   e - The Bakery       :
+:.......|     Main Street         * <-- You're here  a   f - The Museum of    :
+:.......|   ------.- --..---+            +- --- -    s       Midgard          :
+:.......|  |......| f  || g     Plaza      h |.... . t   g - Midgard Bank     :
+:.......:  :......`----'`---|            |---'.. ..      h - The Cow's Bounty :
+:.... North West ............- --+  +-- -..... ... .     i - Rings and Things :
+:..... Midgard .............| i ||  || j |... .. . ..    j - Midgard Info.    :
+:............... ...........`--- :  : ---'.. ... .  .        Centre           :
+:..........................Shrine of Neutrality..... . . 	}
+  }
+  flags { peaceful, nosteal, no_magic, rent_room, fast_moves, mapable }
+  exits {
+	to { n, 1 }
+	to { e, 3 }
+	to { s, 5 }
+	to { w, 7 }
+	to { d, Midgard_trail:49 }
+  }
+}
+
+1
+{
+  name { North Market Plaza }
+  desc {
+"   The din of the passing crowd fills your ears.  Who would have thought
+that so few people could make so much noise?  The rest of the Market Plaza
+stretches its way to the south, east, and west.  To the north, a cheerful
+road leas to the Midgard Cathedral of Virtue
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 17 }
+	to { e, 2 }
+	to { s, 0 }
+	to { w, 8 }
+  }
+}
+
+2
+{
+  name { Northeast Market Plaza }
+  desc {
+"   Through the bussle of the crowd you make out a row of shops lining the
+plaza corner.  To the north, you spy a key-shaped sign labeled, 'Candles
+and Hooks.'  Judging by the smell, you would guess that there is some sort
+of bakery to the east.  The plaza continues to the south and west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 9 }
+	to { e, 10 }
+	to { s, 3 }
+	to { w, 1 }
+  }
+}
+
+3
+{
+  name { East Market Plaza }
+  desc {
+"   The crowds have thinned enough for you to catch your breath and get a
+look at your surroundings.  Back to the west you see the ornate fountain that
+is the heart of Market Plaza.  The plaza, and the crowds, continue to the
+north and south.  Midgard's Main Street winds off to the east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 2 }
+	to { e, 48 }
+	to { s, 4 }
+	to { w, 0 }
+  }
+}
+
+4
+{
+  name { Southeast Market Plaza }
+  desc {
+"   This corner of the Market Plaza is host to 'The Cow's Bounty', the finest
+leatherworks shop in the city, and the Midgard Information Centre, where
+you'll find a well-spring of advice on navigating Midgard's web of roads 
+and shops.  The plaza continues to the north and west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 3 }
+	to { e, 11 }
+	to { s, 12 }
+	to { w, 5 }
+  }
+}
+
+5
+{
+  name { South Market Plaza }
+  desc {
+"   Your travels have taken you to the southern most part of Midgard's Market
+Plaza.  The crowds thicken further north, near the plaza's center.  The
+plaza continues in all directions, except the south.  There, a quaint 
+road stretches into the distance, ending at Midgard's Shrine of Neutrality.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 0 }
+	to { e, 4 }
+	to { s, 21 }
+	to { w, 6 }
+  }
+}
+
+6
+{
+  name { Southwest Market Plaza }
+  desc {
+"   This is the most affluent corner of the plaza, and with good reason.
+To the west lies the Midgard Bank, while some sort of jewlery store sits
+along the southern curb.  The plaza continues to the north and east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 7 }
+	to { e, 5 }
+	to { s, 13 }
+	to { w, 14 }
+  }
+}
+
+7
+{
+  name { West Market Plaza }
+  desc {
+"   You have reached the western-most edge of Midgard's famous Market
+Plaza.  Main Street is to the west, while the plaza stretches out in all
+other directions.  To the east you spy a large, ornate fountain.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 8 }
+	to { e, 0 }
+	to { s, 6 }
+	to { w, 68 }
+  }
+}
+
+8
+{
+  name { Northwest Market Plaza }
+  desc {
+"   Like all corners of the plaza, the north-east region is lined with
+shops.  Somehow though, this corner seems more...peculiar.  Maybe it
+has something to do with the odd little blue booth perched on the
+curb to the west.  Above the booth hangs a metal plaque with some
+writing on it.  On the northern curb lies one of the most curious shops
+in the land, 'Osfol's Shoppe of Wonderous Things'.  The rest of the
+plaza lies to the south and west.
+  }
+  sector { City }
+  extra {
+	keywords { sign booth" }
+	desc { "
+         Quick-Go Rapid Transit System
+
+When you positively have to be there this very second...
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 16 }
+	to { e, 1 }
+	to { s, 7 }
+	to { w, 15 }
+  }
+}
+
+9
+{
+  name { The Provisions Shoppe }
+  desc {
+"   An assortment of lanterns, ropes, and other adventuring equipment
+adorns the walls of 'Candles and Hooks'.  A small note describing the
+shop's inventory lies on the counter.  Exits lead south onto the Market
+Plaza and west to Woodmar Lane.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { s, 2 }
+	to { w, 17 }
+  }
+}
+
+10
+{
+  name { The Bakery }
+  desc {
+"   You are standing inside the small bakery.  A sweet scent of Danish and
+fine bread fills the room.  The bread and Danish are arranged in fine order
+on the shelves, and seem to be of the finest quality. The only exit
+leads west to the plaza.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { w, 2 }
+  }
+}
+
+11
+{
+  name { The Leather Shop }
+  desc {
+"   Welcome to 'The Cow's Bounty'!  If it's a leather good, it's bound
+to be here.  Clothes racks around the store show off the finest in
+leather equipment.  Almost everything you glance at is well oiled and
+in wonderful condition.  Exits to the north and west lead to Main Street
+and the plaza, respectively.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { n, 48 }
+	to { w, 4 }
+  }
+}
+
+12
+{
+  name { Midgard Information Centre }
+  desc {
+"   This is rather large for an information center.  Although you were
+expecting a tiny booth, this seems to be just as large as any of the
+other shops.  A beautifully crafted map of Midgard covers most of the
+west wall.  The only way out is to the north.
+   Glancing around one last time, you notice a huge POSTER hanging
+from the south wall.  Perhaps you should LOOK AT it?
+  }
+  extra {
+	keywords { shop" }
+	desc { "
+W o r d s   t o   t h e   W i s e
+  Try using the Quick-Go boothes...they're the fastest way around town.
+  There's even a Quick-Go booth inside Market Plaza!
+  Need a place to stay for the night?  Try the Owl's Nest Inn.  Just go
+  south from Market Plaza to Woodmar Lane.  It's there on the west side
+  of the street.
+L o c a t i o n   I n d e x
+Places of worship
+  The Cathedral of Virtue        The north end of town, Just above Market Plaza
+  The Cathedral of Corruption    The south end of town, Just below the wharf.
+  The Shrine of Neutrality       Right in the middle of town...can't miss it.
+
+Shops
+  The Bakery                     The northeast corner of Market Plaza
+  The Provisions Shoppe.         The northeast corner of Market Plaza
+  The Cow's Bounty               The southeast corner of Market Plaza
+  Rings and Things               The southwest corner of Market Plaza
+  Cafe De Midgard                Just south or MarketPlaza on Woodmar Lane
+  The Pet Shoppe                 A bit east of MarketPlaza on MainStreet
+  The Fisherman's Wharf          A good ways down MainStreet to the east.
+  Mystil's Mystics               All the way over on western Iron Road
+
+Arms
+  The Small Arms Shoppe          Just west of Market Plaza on Main Street
+  The Blacksmith                 All the way over on eastern Iron Road
+  The Armoury                    All the way over on eastern Iron Road
+  The Weapon Shoppe              All the way over on eastern Iron Road
+  Chay's Bows and Slings         Way down on Woodmar, south of the Shrine
+  The Happy Fletcher             Way down on Woodmar, south of the Shrine
+
+Misc
+  Midgard Bank                   The southwest corner of Market Plaza
+  Midgard Information Centre     Your standing in it :)
+  The Silver Feather Tavern      A bit down MainStreet, west of Market Plaza
+  The Museum of Midgard          Just west on MainStreet.
+  Osfol's Shop of Wonderous Things  Northwest corner of Market Plaza
+  Quick-Go Booths                4 in the 4 corners of town.
+  The Midgard Shopping Centre    A good ways down western Main Street
+  The Infirmary                  A bit to the south on Woodmar Lane
+  The Owl's Nest Inn             A bit to the south on Woodmar Lane
+
+	}
+	keywords { zone" }
+	desc { :  M i d g a r d                    File #20932SF    Dragon; Day 19; Year 38
+:  T r a n s p o r t a t i o n      Unclassified     (c) Copyright 38,39...
+:  D e p a r t m e n t
+:
+:     []==============================[]
+:     ||...........OOOOOOO............||
+:     ||...###......OOOO%%%%%%........||       O  -  Religious Zone
+:     ||..######...%%%%%%%%%%%%%%.....||       %  -  Commercial Zone
+:     ||..####### %%%%%%%%%%%%%%%%%%%%||       +  -  Industrial Zone
+:     ||.#######....%%%%%%%%%%%%%%%%%%||       *  -  Mystical Zone
+:     ||.######............%%%%%%%%%%.||       #  -  Residential Zone
+:     ||.#####......OOOOO.....%%%%%%..||
+:     ||..####.....OOOOOOO....%%%%%...||       .  -  Unzoned
+:     ||....##.....OOOOOOO..%%%%%.....||
+:     ||............OOOOO....%%%......||
+:     ||...****.......++++............||
+:     ||..*******.....+++++++++.......||  Any use of this product without
+:     ||.************...+++++++++++++.||  the expressed, written permission
+:     ||.************....+++++++++++++||  of the Council of Midgard is
+:     ||..***********....++++++++++++.||  strictly prohibited and is punishable
+:     ||....******* OOOOO...+++++++++.||  by law (or bounty hunter....)
+:     []==============================[]	}
+	keywords { street" }
+	desc { :
+:  M i d g a r d                    File #20932SF    Dragon; Day 19; Year 38
+:  T r a n s p o r t a t i o n      Unclassified     (c) Copyright 38,39...
+:  D e p a r t m e n t
+:
+:     []==============================[]
+:     ||....#.........&...............||
+:     ||....#........PPP..#...........||        P  -  Market Plaza
+:     ||....#########PPP#########=====||        C  -  Circle Way
+:     ||....#........PPP........#.....||        D  -  Midgard Wharf
+:     ||....#.........&.........#.....||        &  -  Woodmar Lane
+:     ||....#.........&.........#.....||        #  -  Main Street
+:     ||....#........CCC........#.....||        %  -  Iron Road
+:     ||====########C...C########.....||
+:     ||....%........CCC..............||        =  -  Gate
+:     ||....%.........W...............||
+:     ||....%.........W...............||  Any use of this product without
+:     ||....%........DDD..............||  the expressed, written permission
+:     ||....%%%%%%%%%DDD%%%%%%%%%.....||  of the Council of Midgard is
+:     ||.............DDD........%.....||  strictly prohibited and is punishable
+:     ||..............&.........%.....||  by law (or bounty hunter....)
+:     []==============================[]	}
+	keywords { guild" }
+	desc { :
+:  M i d g a r d                    File #20932SF    Dragon; Day 19; Year 38
+:  C o n s t r u c t i o n          Unclassified     (c) Copyright 38,39...
+:  D e p a r t m e n t
+:
+:     []==============================[]        A  -  The Clerics' Guild
+:     ||....#.......A-#-B.............||        B  -  The Paladins' Guild
+:     ||....#........###..#...........||        C  -  The Assassins' Guild
+:     ||....##########################||        D  -  The Avengers' Guild
+:     ||..E-#........###........#.....||        E  -  The Barbarians' Guild
+:     ||..F-#-G.......#.........#-K...||        F  -  The Cavilers' Guild
+:     ||....#.........#-N.....L-#.....||        G  -  The Ninja' Guild
+:     ||....#........###........#.....||        H  -  The Illusionists' Guild
+:     ||#############...#########.....||        I  -  The Magic Users' Guild
+:     ||....#........###..............||        J  -  The Warriors' Guild
+:     ||....#.........#-J.............||        K  -  The Rangers' Guild
+:     ||....#...I.....#...............||        L  -  The Bards' Guild
+:     ||....#...|....###..............||        M  -  The Thieves' Guild
+:     ||....#####################.....||        N  -  The Druids' Guild (x)
+:     ||......|......###........#-M...||
+:     ||......H.....C-#-D.......#.....||
+:     []==============================[]	}
+	keywords { poster" }
+	desc { "
+Welcome to New Midgard.
+
+We hope that you won't get lost, but if you ever do, just keep walking
+till you see a large block of marble embedded into the ground.  They're
+usually found at most major intersections and always have a map eteched
+on their surface.  To help you get started, there are several posters
+here you can look at.
+The STREET map will show you how the layout works around here.
+The GUILD poster has a map of where all the guilds in town are located.
+and the ZONE poster will give you a feel as to what parts of town might
+   carry what shops.
+Oh yeah...I almost forgot.  There's also a SHOP poster which will tell
+you where to find just about anything!
+
+Happy Traveling! (And don't forget to look for those MAPS at all major
+intersections...they'll keep you on the right track!)
+
+	}
+  }
+  flags { indoors, mapable }
+  exits {
+	to { n, 4 }
+  }
+}
+
+13
+{
+  name { Rings and Things }
+  desc {
+"   The floor here is covered in a soft, lush carpet.  Hollow glass 
+counters line both the east and the west walls.  Although felt ropes
+keep you at a respectable distance, you can see all colors of gems
+scintilating beneath the glass.  The only exit, to the north, leads
+back toward Market Plaza.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { n, 6 }
+  }
+}
+
+14
+{
+  name { Midgard Bank }
+  desc {
+"   A small fountain in the center of the room playfully throws jets of
+water into the air.  The floor is a rose-colored marble with streaks of
+grey, white and black.  Definitely high class.  A small teller window
+is set into the west wall.  A small sign rests on the counter. 
+  }
+  flags { indoors, mapable }
+  exits {
+	to { e, 6 }
+  }
+}
+
+15
+{
+  name { A Quick-Go Booth }
+  desc {
+"
+                      QUICK-GO BOOTH
+         Midgard's Public Access Teleportation System
+                  This port connects to the:         
+
+                 M A R K E T   P L A Z A            
+
+     Please step east if this is your stop.  Special thanks
+       to our sponsor, Osfol's Shoppe of Wonderous Things. 
+
+                                     Have a nice day. =)   
+  }
+  sector { City }
+  flags { mapable }
+  tele { 25, 1, 238 }
+  exits {
+	to { e, 8 }
+	to { s, 68 }
+  }
+}
+
+16
+{
+  name { Osfol's Shoppe of Wonderous Things }
+  desc {
+"   All sorts of oddities hang from every available spot.  Strange
+types of headgear hang from the ceiling and bizarre animals scurry
+around in glass cages.  Near the back of the store, you catch a
+glance at what appears to be the shopkeeper.  An exit leads south
+to the Market Plaza
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { s, 8 }
+  }
+}
+
+17
+{
+  name { Woodmar Lane }
+  desc {
+"   The road here is well-paved with cobblestones and two gutters to
+either side drain away most of the rain water.  A bit further to the
+north, you make out the silhouette of the fameous Cathedral of Virtue.
+A large key hangs above the door of a shop to the east; probably some
+sort of provision shop.  The Market Plaza lies to the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 20 }
+	to { e, 9 }
+	to { s, 1 }
+  }
+}
+
+18
+{
+  name { The Clerics' Guild }
+  desc {
+"  The entrance to the Clerics Guild is modest in appearance, reflecting
+the true nature of the Cleric.  Bare stone walls stand unadorned save
+for an occasional passage from the scripture carved with a careful hand.
+Nondescript stone portals lead both east and west.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { e, 20 }
+	to { w, 226 }
+  }
+}
+
+19
+{
+  name { The Paladins' Guild }
+  desc {
+"   The walls here are decorated in the silver and blue of the paladin.
+Conservative tapestries depict the paladins of legend meeting out justice
+in the name of virtue.  The granite walls are also decorated with scrolls
+describing weapons of power donated by the gods to help the paladin in
+his task.  Portals lead west back to the street and east to the Circle
+of Meditation
+  }
+  flags { indoors, mapable }
+  exits {
+	to { e, 227 }
+	to { w, 20 }
+  }
+}
+
+20
+{
+  name { Outside the Cathedral of Virtue }
+  desc {
+The Cathedral of Virtue rises to dizzying heights before you.  Carved
+from immortal stone, the Cathedral is a bastion for what is True and Pure
+throughout the lands of Midgard.  Simply standing in its shadow fills you
+with peace and tranquility.
+On either side of the Cathedral stand the guilds dedicated to upholding
+virtue. To the west the Cleric's Guild, and to the east the Paladin's 
+Guild. Woodmar Lane leads the way back to the Market Plaza to the south.
+A small stairway leads to the annex hallways of the Cathedral.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 254 }
+	to { e, 19 }
+	to { s, 17 }
+	to { w, 18 }
+	to { d, Midgard_tunnels:0 }
+  }
+}
+
+21
+{
+  name { Woodmar Lane }
+  desc {
+"   The cobblestones of Woodmar Lane provide a firm surface to walk on.
+Although you pass an occasional traveler, the traffic here is not very
+busy.  Immediately to you north lies Market Square, the center of everyday
+business.  To the south, you can just barely make you what might be some 
+kind of shrine.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 5 }
+	to { s, 22 }
+  }
+}
+
+22
+{
+  name { Woodmar Lane }
+  desc {
+"   As you continue your walk down Woodmar Lane, you notice several
+shops to your left and right.   On the east side of the street, a plain
+white building reaches its way to the south.  Above the door is a sign
+reading, 'The Infirmary'.  A quaint little coffee shop sits on the other
+side of the street.  Woodmar Lane continues to the north and south
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 21 }
+	to { e, 28 }
+	to { s, 25 }
+	to { w, 24 }
+  }
+}
+
+23
+{
+  name { The Druids' Guild }
+  desc {
+"   The Druids' Guild is remarkably...green.  Most of the stone floor has
+been removed, and all sorts of plants have taken root in the exposed
+soil.  A small waterfall trickles in from the northwest corner of the
+room to provide nourishment and skylights let in more than enought sun.
+A staircase carved in the center of a hollow tree leads down.  The only
+other exit leads west back to Woodmar Lane.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { w, 27 }
+	to { d, 228 }
+  }
+}
+
+24
+{
+  name { Cafe De Midgard }
+  desc {
+"   A row of bar stools lines the counter at the north wall.  There, all
+sorts of patrons dip tea while discussing politics, weather, and several
+other tea time topics.  You can leave the cafe to the east.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { e, 22 }
+  }
+}
+
+25
+{
+  name { Woodmar Lane }
+  desc {
+"   Tall buildings on either side of the street shelter you from the
+harsh sun.  This is certainly more plesent than pushing through the
+crowds in Market Plaza!  You see an extension of what might be a hospital
+to the east, but there's no door.  To the west is the fameous Owl's Nest
+Inn.  Of course, Woodmar Lane continues to the north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 22 }
+	to { s, 27 }
+	to { w, 26 }
+  }
+}
+
+26
+{
+  name { The Lobby of the Owl's Nest }
+  desc {
+"  Since the forclosure on the Grunting Boar Inn, the Owl's Nest has
+become a haven for the tired traveler.  Several chandileres bearing
+real wax candles bring a cheerful light to the room.  Most people here
+are sitting around tables, telling greatly exaggerated tales of their
+latest adventures.
+   The doorway to the south looks like it leads to the bar, and the one
+to the east will take you back to Woodmar Lane.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { e, 25 }
+	to { s, 29 }
+  }
+}
+
+27
+{
+  name { Woodmar Lane }
+  desc {
+"   Glancing around, you notice a building to the east.   A green oak leaf
+painted above the door indicates that it's probably the Druids' Guild.  To
+the south, the Midgard Shrine of Neutrality peeks over the horizon. 
+Although Woodmar Lane makes its way to the north, it's cut off by a cross
+street to the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 25 }
+	to { e, 23 }
+	to { s, 32 }
+  }
+}
+
+28
+{
+  name { The Infirmary Waiting Room }
+  desc {
+"   The walls of the waiting room are very white and (probably) very
+steril.  Some plain, functional furniture provides a place for you to
+take a load off if you're waiting for someone.  A receptionist sits
+at a small counter on the east wall.  Exits lead west to Woodmar Lane
+and south to the Infirmary.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { s, 31 }
+	to { w, 22 }
+  }
+}
+
+29
+{
+  name { The Owl's Nest Inn }
+  desc {
+"   Although the bar at the south is getting a lot of attention, it's not
+the bustling madhouse that you're used to in taverns.  Most of the patrons
+seem to be either politely talking with their neighbors or brooding over
+their drinks.  The barmaids and waiters are well groomed and plesent and
+*gasp* the glasses are actually clean!  Exits lead north and up to the
+reception
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { n, 26 }
+	to { u, 30 }
+  }
+}
+
+30
+{
+  name { The Reception }
+  desc {
+"   The receptionist sits behind a long, oak counter.  Behind her, the
+wall is covered with room keys.  Evidently, you'll need to talk to her
+if you want a room for the night.  A small note sits on the counter.
+  }
+  sector { City }
+  flags { indoors, rent_room, mapable }
+  exits {
+	to { d, 29 }
+  }
+}
+
+31
+{
+  name { The Infirmary }
+  desc {
+"  The walls here are stark white and unadorned.  You guess that the 
+interior designer figured that sick and dying people had better things
+to worry about than the decor.  The only exit leads north.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 28 }
+  }
+}
+
+32
+{
+  name { Circle Way }
+  desc {
+"   You're standing just outside the northern entrance to the Shrine of
+Neutrality.  Placed right in the center of Midgard, the Shrine is a
+symbol of Midgard's acceptance of all things, good and evil.  A sign
+above the doorway to the south indicates that this is the 'portal of
+spirituality'.  To the east and west, Circle Way continues its path
+around the Shrine, while Woodmar lane streches off in the distance to 
+the north.
+   A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block" }
+	desc { :..[]=====================[]............... . . .. .. . .  .
+:..||    C e n t r a l    ||.   The Shrine of   .. . . ..  .. . 
+:..||    M i d g a r d    ||.     Neutrality    .. . ..  . . . .
+:..[]=====================[]....................... . ... . .. 
+:......................Market Plaza.............. . . . . . 
+:.........................|   |--------................. .. .. 
+:......You are here ____..|   |D Guild |............... .
+:.......................\.|   |________|......N.......... . ..  .
+:........................\|   |....____.....W-+-E.......  ..
+:.....................+---\   +---+ a  |......S..........  ..  .
+:.....................|     *     |    |............... .. . 
+:.................+---+   :   :   +---+...............  .. . 
+:.................|       |   |       |..................  .. . 
+:.-.-.--.---------    - -       - -    ------------..... .  .. 
+:...  Main Street                        Main Street  
+:..--.------------    - -       - -    ------------.......  .
+:.................|       |   |       |................ .  .. 
+:.................+---+   :   :   +---+.................. .. . 
+:.....................|           |.................... . .. 
+:.....................+---+   +---+................. . . .. . 
+:.........................|   |....................... ..  .
+:...................... To the Wharf .................. .  .	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 27 }
+	to { e, 33 }
+	to { s, 249 }
+	to { w, 47 }
+  }
+}
+
+33
+{
+  name { Circle Way }
+  desc {
+"   Circle Way continues its path around the Shrine of Neutrality to the
+south and west.  Glancing around, you notice a small shop huddled on
+the corner to the east.  Although the paint is badly faded, you can
+barely make out a sign reading, 'Th  H rbal st' hanging above the door.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 67 }
+	to { s, 34 }
+	to { w, 32 }
+  }
+}
+
+34
+{
+  name { Circle Way }
+  desc {
+"   The brick road curves here heading to the north and east.  To the south
+west, the sandstone pillars of the Shrine of Neutrality reach their way
+towards the sky.  A small building, possibly a shop, perches on a corner
+northeast of here.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 33 }
+	to { e, 35 }
+  }
+}
+
+35
+{
+  name { Circle Way }
+  desc {
+"   You see a tiny little shop to the north.  Evidently, the owner was
+too poor to afford a better location in town...or even to afford repairs.
+If there were shutters on the windows, they have long since fallen off.
+Someone has scratched the word 'herbalist' above the door with white
+chalk.  Circle Way continues to the south and west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 67 }
+	to { s, 36 }
+	to { w, 34 }
+  }
+}
+
+36
+{
+  name { Circle Way }
+  desc {
+"   You're standing at the east entrance of the Midgard Shrine of Neutrality.
+A sign carved in common above the huge doorway labels this as the 'portal
+of the rising sun'.   To the east, Main Street leads the way to the 
+residential portion of Midgard.  Circle Way resumes its path around the
+Shrine to the north and south.
+   A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block" }
+	desc { :..[]=====================[]............... . . .. .. . .  .
+:..||    C e n t r a l    ||.   The Shrine of   .. . . ..  .. . 
+:..||    M i d g a r d    ||.     Neutrality    .. . ..  . . . .
+:..[]=====================[]....................... . ... . .. 
+:......................Market Plaza.............. . . . . . 
+:.........................|   |--------................. .. .. 
+:.........................|   |D Guild |............... .
+:.........................|   |________|......N.......... . ..  .
+:.........................|   |....____.....W-+-E.......  ..
+:.....................+---+   +---+ a  |......S..........  ..  .
+:.....................|  Circle   |    |............... .. . 
+:.................+---+   :   :   +---+...............  .. . 
+:.................|       |   |       |..................  .. . 
+:.-.-.--.---------    - -       - -    ------------..... .  .. 
+:...  Main Street                    *   Main Street  
+:..--.------------    - -       - -   \------------.......  .
+:.................|       |   |       |\............... .  .. 
+:.................+---+   :   :   +---+.\____ You are here. . 
+:.....................|           |.................... . .. 
+:.....................+---+   +---+................. . . .. . 
+:.........................|   |....................... ..  .
+:...................... To the Wharf .................. .  .	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 35 }
+	to { e, 64 }
+	to { s, 37 }
+	to { w, 253 }
+  }
+}
+
+37
+{
+  name { Circle Way }
+  desc {
+"   A beautiful river to the southeast steadily makes its way parallel to
+Circle Way.  At the edge of the river, you see several small childern
+trying to see how many times they can skip a stone across its surface
+before it disappears into the river.  Across the water, you can make out
+a thin column of smoke rising from one of the buildings in Midgard's
+Industrial Zone.   Exits to the north and west lead to Circle Way.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 36 }
+	to { w, 38 }
+  }
+}
+
+38
+{
+  name { Circle Way }
+  desc {
+"   The crystal waters of the Inverness River make their way from the
+northeast to the south.  Small paths lead off of Circle Way to the
+side of the river.  Unfortunately, the water moves much too swiftly
+for a safe crossing.  Circle Way circles to the south and east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 37 }
+	to { s, 39 }
+  }
+}
+
+39
+{
+  name { Circle Way }
+  desc {
+"  The sandstone pillars of the Shrine of Neutrality adorn the northwest
+portion of Circle Way.  Peeking between two pillars you can barely make
+you what might be some sort of altar in the center.  Of course, Circle
+Way bends west to north
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 38 }
+	to { w, 40 }
+  }
+}
+
+40
+{
+  name { Circle Way }
+  desc {
+"   You're standing at the southern entrance to the Midgard Shrine of
+Neutrality.  A sign hanging above the sandstone entrance marks this as
+the 'portal of rebellion'.  Far to the south, a huge platform has been
+built above the Inverness River to accomodate the junction two roads.
+You can enter the Shrine to the north, take Circle Road to the east or
+west, or hop onto Woodmar Lane to the south.
+     A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block" }
+	desc { :..[]=====================[]............... . . .. .. . .  .
+:..||    C e n t r a l    ||.   The Shrine of   .. . . ..  .. . 
+:..||    M i d g a r d    ||.     Neutrality    .. . ..  . . . .
+:..[]=====================[]....................... . ... . .. 
+:......................Market Plaza.............. . . . . . 
+:.........................|   |--------................. .. .. 
+:.........................|   |D Guild |............... .
+:.........................|   |________|......N.......... . ..  .
+:.........................|   |....____.....W-+-E.......  ..
+:.....................+---+   +---+ a  |......S..........  ..  .
+:.....................|  Circle   |    |............... .. . 
+:.................+---+   :   :   +---+...............  .. . 
+:.................|       |   |       |..................  .. . 
+:.-.-.--.---------    - -       - -    ------------..... .  .. 
+:...  Main Street         Shrine         Main Street  
+:..--.------------    - -       - -    ------------.......  .
+:.................|       |   |       |................ .  .. 
+:.................+---+   :   :   +---+.................. .. . 
+:.....................|     *--------------You are here. .. 
+:.....................+---+   +---+................. . . .. . 
+:.........................|   |....................... ..  .
+:...................... To the Wharf .................. .  .	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 252 }
+	to { e, 39 }
+	to { s, 90 }
+	to { w, 41 }
+  }
+}
+
+41
+{
+  name { Circle Way }
+  desc {
+"   A small grove of trees provides a plesent shade as you make your
+way along Circle Way.  Just east of here, you see the southern entrance
+to the Shrine of Neutrality.  The road continues to the north and east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 42 }
+	to { e, 40 }
+  }
+}
+
+42
+{
+  name { Circle Way }
+  desc {
+"   A few trees and some bushes line the edges of Circle Way.  The chirping
+of birds and a cool breeze make your walk along the road all that much
+more enjoyable.  Although you can make out some shops to the southwest,
+the trees make it difficult to determine what they might be.  The road
+curves from the south to the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { s, 41 }
+	to { w, 43 }
+  }
+}
+
+43
+{
+  name { Circle Way }
+  desc {
+"  Glancing around, you see at least three shops and a small tower to the
+southwest.  Judging from the burst of flame and explosions which appear
+periodically, you think that they're probably in the mystical zone.  
+Perhaps you should continue before something streaks from one of the
+shops and hits you.  Exits lead north and east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 44 }
+	to { e, 42 }
+  }
+}
+
+44
+{
+  name { Circle Way }
+  desc {
+"   You are standing at the western entrance to the Midgard Shrine of
+Neutrality.  A sign hanging above the huge doorway indicates that this
+is the 'portal of the setting sun'.  The Circle Way continues its orbit
+to the north and south.  Main Street lies to the west, or you can enter
+the Shrine to the east.
+   A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block" }
+	desc { :..[]=====================[]............... . . .. .. . .  .
+:..||    C e n t r a l    ||.   The Shrine of   .. . . ..  .. . 
+:..||    M i d g a r d    ||.     Neutrality    .. . ..  . . . .
+:..[]=====================[]....................... . ... . .. 
+:......................Market Plaza.............. . . . . . 
+:.........................|   |--------................. .. .. 
+:.........................|   |D Guild |............... .
+:.........................|   |________|......N.......... . ..  .
+:.........................|   |....____.....W-+-E.......  ..
+:.....................+---+   +---+ a  |......S..........  ..  .
+:.....................|  Circle   |    |............... .. . 
+:.................+---+   :   :   +---+...............  .. . 
+:.................|       |   |       |..................  .. . 
+:.-.-.--.---------    - -       - -    ------------..... .  .. 
+:...  Main Street  *                     Main Street  
+:..--.------------/   - -       - -    ------------.......  .
+:................/|       |   |       |................ .  .. 
+:You are here___/.+---+   :   :   +---+.................. .. . 
+:.....................|           |.................... . .. 
+:.....................+---+   +---+................. . . .. . 
+:.........................|   |....................... ..  .
+:...................... To the Wharf .................. .  .	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 45 }
+	to { e, 251 }
+	to { s, 43 }
+	to { w, 88 }
+  }
+}
+
+45
+{
+  name { Circle Way }
+  desc {
+"   Continuing its way around the Shrine of Neutrality, the Circle Way
+bends from the south to the east.  Far to the northwest, you see a
+large building sitting on the horizon.  Perhaps it's the Midgard 
+Shopping Centre...it's hard to tell from this distance.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 46 }
+	to { s, 44 }
+  }
+}
+
+46
+{
+  name { Circle Way }
+  desc {
+"  There's not much exciting going at at this point.  The road has become
+slightly worn, but that's about it.  The road leads both west and north.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 47 }
+	to { w, 45 }
+  }
+}
+
+47
+{
+  name { Circle Way }
+  desc {
+"   To the east you can barely make out the northern entrance to the Shrine
+of Neutrality.  True to its course, Circle Way turns from the est to
+the south.  The pillars of the Shrine look to the southeast.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 32 }
+	to { s, 46 }
+  }
+}
+
+48
+{
+  name { Main Street }
+  desc {
+"  You're standing on the main street of Midgard.  Main Street stretches
+its way west and eventually turns south.  To the south, a sign reading
+'The Cow's Bounty' hanges above an open door.  The crowds of Market
+Plaza can be heard to the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 49 }
+	to { s, 11 }
+	to { w, 3 }
+  }
+}
+
+49
+{
+  name { Main Street }
+  desc {
+"   The red brick of Main Street provides a firm footing as you make
+your way around town.  Here, the street is wide enough to allow two
+whole ox carts to travel abreast.  A cute iron wrought gate in to the
+north leads to the park.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 201 }
+	to { e, 50 }
+	to { w, 48 }
+  }
+}
+
+50
+{
+  name { Main Street }
+  desc {
+"   A huge building to the south catches your attention.  The granite
+walls rise four stories into the air.  A bright yellow dome at the
+top is supposed to be gold plated, but it's not fooling anyone.  This
+could only be the Non-Denominational Church of Midgard!  Main Street
+continues east and west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 51 }
+	to { w, 49 }
+  }
+}
+
+51
+{
+  name { Main Street }
+  desc {
+"      At this point, Main Street makes a gentle curve from west to south.
+The yelping of dogs from the east catches your attention.  A sign
+above the door of the shop reads, 'The Pet Shoppe'.
+   A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block" }
+	desc { :..[]=====================[]................... . . .    QG - Quick-Go Booth  :
+:..||  N o r t h E a s t  ||............ . ... . .       a - The Bank         :
+:..||    M i d g a r d    ||. To The ....... ... . .         of Midgard       :
+:..[]=====================[]... Park ...----....         b - The Cows' Bounty :
+:.............             .....|   |..| g  |. . .       c - Rings and Things :
+:..-..--..----+   Market   +----+   +---------%%%%%%. .  d - Midgard Info     :
+:....                     You are here-->*    %%%%%%..       Centre           :
+:.-- ---------+   Plaza    +-----------     --%%%%%%.    e - Cafe De Midgard  :
+:.........| a |            | b |..| h  |   |-----.. .    f - The Infirmary    :
+:..........---|            |---...|    |   |R Gui|. .. . g - The Pet Shoppe   :
+:..............----+  +----.....-------|   |-----....    h - The NonDem Church:
+:.............| c ||  || d |...|Ba Gui |   |    |... .   i - The Amber Rose   :
+:..............--- |  |.---.....-------|   |  i |.... .  j - Midgard Towne    :
+:...............---|  |---......|   j  |   |    |. . ..      Hall             :
+:..............| e |  | f |......------|   |----... . .  k - Fisherman's Wharf:
+:...............---|  |   |.........&&&\   /&&&&... . .  R Gui  - Rangers'    :
+:..............----|  |---.........&&&&/   \&&.......             Guild       :
+:.............|    |  |...........&&& .|   |---.. .      Ba Gui - Bards' Guild:
+:............                ..--,&&&,-    | k | ..  .   %%%% - East Gate     :
+:........      The Shrine         ___      |---|   .     &&&& - Inverness     :
+:........     of Neutrality    --'&&&`----/ QG |. . .           River         :
+:...........                     &&&... . \----..... ...                      :	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 53 }
+	to { e, 247 }
+	to { s, 52 }
+	to { w, 50 }
+  }
+}
+
+52
+{
+  name { Main Street }
+  desc {
+"   To the west sits the Non-Denominational Church of Midgard.  Home of
+anyone who wishes to worship in their own fashion, the church is strangly
+deserted.  Perhaps everyone is praying at home...Anyway, the Rangers'
+Guild lies just across the street from the church, while Main Street
+continues to the north and the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 51 }
+	to { e, 54 }
+	to { s, 56 }
+	to { w, 55 }
+  }
+}
+
+53
+{
+  name { The Pet Shoppe }
+  desc {
+"   The entire floor here is covered with newspaper to prevent the 
+assortment of birds, dogs, and other beasts from lowering the property
+value any further.  Cages line all of the walls here...most of them
+close...some of them not.  A little old lady sits behind the counter
+on the east wall.
+  }
+  flags { indoors, peaceful, mapable }
+  exits {
+	to { s, 51 }
+  }
+}
+
+54
+{
+  name { The Rangers' Guild }
+  desc {
+"   In the center of the room is an ornate statue of a wolf.  The walls
+are covered with green and brown tapestries depicting animals frolicing
+in the woods.  Exits here lead west back out to Main Street and up to
+the Rangers Lair.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { w, 52 }
+	to { u, 229 }
+  }
+}
+
+55
+{
+  name { The Non-Denominational Church of Midgard }
+  desc {
+"  It certainly looked much bigger on the outside...A few ragged pews line
+the walls and a granite altar sits at the front of the room.  Of course,
+there's no kind of religious icon or decoration in the whole place.  The
+only exit is to the east.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { e, 52 }
+  }
+}
+
+56
+{
+  name { Main Street }
+  desc {
+"   My, my...this certainly is a happy part of town.  Music and laughter
+seem to be coming from both sides of the street.   To the west, a lute
+hanging above the doorway identifies the building at the Bards' Guild. 
+Looking the other way, you spy several very well dressed people entering
+the building to the east.  Ahhh..that must be the legendary Amber Rose
+Restraunt.  Main Street stretches away to the north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 52 }
+	to { e, 58 }
+	to { s, 59 }
+	to { w, 57 }
+  }
+}
+
+57
+{
+  name { The Bards' Guild }
+  desc {
+"   Well, this is either the Bards' Guild or a music shop.  All sorts of
+beautifully crafted instruments sit inside glass counters.  In the corner
+a minstrel sings of a battle between an evil dragon and a beautiful 
+maiden.  Exits lead west and east.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { e, 56 }
+	to { w, 230 }
+  }
+}
+
+58
+{
+  name { Lobby of the Amber Rose Restraunt }
+  desc {
+"   The ceder walls give off a plesent odor as you enter the building.  Deep
+red roses climb the sides of the oak columns supporting the roof at all
+corners.  A skylight in the ceiling lets in just enough light to see
+by.  It's a rather beautiful effect.  A doorway to the south leads to
+the dining room proper.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { s, 231 }
+	to { w, 56 }
+  }
+}
+
+59
+{
+  name { Main Street }
+  desc {
+" To the east, the Inverness River makes its way down from the mountains
+and into Midgard.  It seems to go under Main Street to the south and 
+continues to the southwest.  A large marble building to the west catches
+your eye next.  The words, 'Midgard Towne Hall' are carved above the door in
+bold letters.  Main Street goes north and south from here.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 56 }
+	to { s, 61 }
+	to { w, 60 }
+  }
+}
+
+60
+{
+  name { Midgard Towne Hall }
+  desc {
+"   A tremendous oak desk sits in one corner of the room.  Evidently,
+that's where the Mayor makes all the big decisions when he's in.  A
+stack of papers sits in both the IN and OUT boxes.  Of course, the IN
+box is _much_ bigger than the out.  The only exit leads east to Main
+Street.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { e, 59 }
+	to { u, 360 }
+	  key { 3360 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+61
+{
+  name { A Bridge on Main Street }
+  desc {
+"   The people of Midgard have built a bridge here to cross the Inverness
+as it makes its way through Midgard.  To the south, Main Street makes
+a turn to the west.  Since the Inverness runs southwest, another bridge
+crosses back to the west bank further down.  Exits lead north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 59 }
+	to { s, 62 }
+  }
+}
+
+62
+{
+  name { Main Street }
+  desc {
+"  You're stading on the east bank of the Inverness on Main Street.  The
+deep blue river runs soutwest and cuts across Main Street both to the
+north and to the southwest.  To the south, Main Street turns to the
+west.  A sign above a shop to the west reads, 'The Fisherman's Wharf'.
+Main Street continues to the north and the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 61 }
+	to { e, 66 }
+	to { s, 85 }
+  }
+}
+
+63
+{
+  name { A Bridge on Main Street }
+  desc {
+"   The blue ribbon of the Inverness makes its way steadily through the
+town.  From here, you can see a large circle of stone to the west.  Ah,
+that must be the Shrine of Neutrality.  Main Street leads both to the
+east and the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 85 }
+	to { w, 64 }
+  }
+}
+
+64
+{
+  name { Main Street }
+  desc {
+"   The sandstone columns of the Shrine of Neutrality loom on the western
+horizon.  A non-descript stone building sits on the north curb.  A sign
+above the door identifies it as the, 'Midgard Defense Headquarters'.
+Main Street continues to the east, but is cut off by Circle Way to the
+west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 65 }
+	to { e, 63 }
+	to { w, 36 }
+  }
+}
+
+65
+{
+  name { The Midgard Defense Headquarters }
+  desc {
+"   From the look of it, this is where the administration of city guards
+takes place.  A large desk at the north wall contains all sorts of papers
+above guard placement, shifts, wages, etc.  The only exit is to the south.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { s, 64 }
+  }
+}
+
+66
+{
+  name { The Fisherman's Wharf }
+  desc {
+"   Fishing tackle, line, rods, and all other kinds of equipment hangs
+from the walls.  Evidently, this merchant sells anything needed to enjoy
+a fishing trip on the Inverness, perhaps even a boat or two.  The exit
+to the west leads back to Main Street.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { n, 85 }
+	to { w, 62 }
+  }
+}
+
+67
+{
+  name { The Herbalist }
+  desc {
+"  Small plants, bottles, and chopped leaves litter the floor.  Various
+recipies and shopping lists all but cover an antique wooden desk.  It
+looks like this place could use a good cleaning.  Exits lead west and
+south to Circle Way
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { s, 35 }
+	to { w, 33 }
+  }
+}
+
+68
+{
+  name { Main Street }
+  desc {
+"   You're standing on Midgard's most popular road: The Main Street.  To
+the west, Main Street continues for a ways before turning south.  You can
+hear the din of the crowd from Market Square to the east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 7 }
+	to { w, 69 }
+  }
+}
+
+69
+{
+  name { Main Street }
+  desc {
+"   The road here has thickened until it's at least 20 meters across.  The
+red brick is evenly spaced and shows little wear.  To the north, you see
+a tiny well kept shop.  A small sign in the shape of a dagger proclaims,
+'Ye Small Arms Shoppe'.  Another building to the south sports a much
+bigger sign reading, 'The Museum of Midgard'.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 70 }
+	to { e, 68 }
+	to { s, 141 }
+	to { w, 71 }
+  }
+}
+
+70
+{
+  name { Ye Small Arms Shoppe }
+  desc {
+"   All kinds of small arms from daggers to hand maces adorn the walls
+of this shop.  Some of the more ornate weapons are kept inside glass
+cases to prevent theft.  The only exit is to the south.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { s, 69 }
+  }
+}
+
+71
+{
+  name { Main Street }
+  desc {
+"   Just up ahead to the west, Main Street takes a turn to the south.  An
+awful lot of music and laughter is coming from a building on the southern
+side of the street.  A sign above the door reads, 'The Silver Feather
+Tavern'.  To the northwest, you see the entrance to the Midgard Zoo.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 69 }
+	to { s, 76 }
+	to { w, 72 }
+  }
+}
+
+72
+{
+  name { Main Street }
+  desc {
+"   The street here curves and resumes its trek to the south and east.
+To the north, a huge archway marks the entrance to the Midgard Zoo.
+Also, The Silver Feather makes its home on the southeastern corner.
+   A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block" }
+	desc { :..[]=====================[]................... . . .
+:..||  N o r t h W e s t  ||............ . ... . .       a - The Silver       :
+:..||    M i d g a r d    ||............ . . ... . .         Feather Tavern   :
+:..[]=====================[].             . .  ....      b - The Midgard      :
+:....You are here............             . . . ..E. ..      Shopping Centre  :
+:........-|-----------------+   Market   +----- - a      
+:.......| *   Main Street                         s      c - The Museum of    :
+:.......|   ------.----..---+   Plaza    +----- - t          Midgard          :
+:.......|  |    |.| c  || d |            | e |.... .     d - Midgard Bank     :
+:.......|  | a  |..----..---|            |---... ..      e - The Cow's Bounty :
+:..-----|  |    |............----+  +----..... ... .     f - Rings and Things :
+:.|B Gui|  |----............| f ||  || g |.. . .N.. .    g - Midgard Info.    :
+:..-----|  |.................--- |  |.---... .W-+-E .    h - Cafe De Midgard  :
+:..-----|  |-------...........---|  |---... . . S.. . .  i - The Infirmary    :
+:.|C Gui|  |N Guild|.........| h |  | i |.... . . ..                          :
+:..-----|  |-------...........---|  |   |........ .. .   B Gui - Barbarians'  :
+:.......|  |---..............----|  |---........... .            Guild        :
+:.......|  | b |............|    |  |....... . ...       C Gui - Cavilers'    :
+:.......|  |   |...........                ..... .  ..           Guild        :
+:.%%%%%-+  +------------     The Shrine                  N Gui - Ninjas'      :
+: %%%%%      Main Street    of Neutrality                        Guild        :
+:;%%%%%-+  +------------                                 %%%%% - West Gate    :	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 142 }
+	to { e, 71 }
+	to { s, 73 }
+  }
+}
+
+73
+{
+  name { Main Street }
+  desc {
+"   To the west is the famous Silver Feather Tavern.  Many a traveler has
+lost his lunch to the powerful liquor served there in.  Unfortunately,
+there doesn't appear to be a door here.  Just to the north, the street
+makes a turn and continues to the east.  The street also leads south
+from here.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 72 }
+	to { s, 74 }
+  }
+}
+
+74
+{
+  name { Main Street }
+  desc {
+"   A huge sign perched on the east side of the street identifies the
+Silver Feather Inn.  This is, evidently, the main entrance.  Although
+the building is in good repair, you see more than one shingle getting
+ready to fall lose.  Appropriately, the Barbarians' Guild sits just
+across the street.  Main Street continues north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 73 }
+	to { e, 75 }
+	to { s, 77 }
+	to { w, 80 }
+  }
+}
+
+75
+{
+  name { The Silver Feather Tavern }
+  desc {
+"   Wow...what a party!  People are all crowded around the bar in an
+effort to get a drink.  Several people have passed out on the floor,
+and give a slight groan when stepped on.  All kinds of activities
+from arm wrestling to drinking contest to knife throwing are going on
+all around you.  To the north, you see an exit leading to a public room.
+An exit to the west leads to Main Street.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 76 }
+	to { w, 74 }
+  }
+}
+
+76
+{
+  name { The Silver Feather Tavern }
+  desc {
+"   Most people here are sitting around tables telling stories.  A
+drunken minstrel in the corner sings a baudy song of the good ole days
+when men were free and the women were too.  An exit to the south leads
+to the bar, while the one to the north leads back to Main Street.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 71 }
+	to { s, 75 }
+  }
+}
+
+77
+{
+  name { Main Street }
+  desc {
+"   As Main Street continues north and south, guilds line either side
+of the street.  On the west, there's the Cavalier's Guild.  Similarily,
+the east side has the Ninja's Guild.  Waaaayyy far to the north, you
+see the huge arch that marks the entrance to the Midgard Zoo.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 74 }
+	to { e, 78 }
+	to { s, 81 }
+	to { w, 79 }
+  }
+}
+
+78
+{
+  name { The Ninjas' Guild }
+  desc {
+"   The walls here are decorated with the implements of the Ninja.
+Under the protection of a glass case lie ancient scrolls detailing
+both the laws of your guild and the methods by which it practices.
+A curtain to the south leads to the Ninjas' Lair and a door to
+the west leads outside.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { s, 234 }
+	to { w, 77 }
+  }
+}
+
+79
+{
+  name { The Cavilers' Guild }
+  desc {
+"   A bastion of honor, the Cavilers' Guild is where those who put Honor
+above all else come to train.  The walls and floor are all exquisitly
+decorated is the red and white of the Caviler.  Exits lead west to the
+Sanctorum and east back to Main Street.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { e, 77 }
+	to { w, 233 }
+  }
+}
+
+80
+{
+  name { The Barbarian's Guild }
+  desc {
+"   All kinds of animal tropheys adorn the walls of the guild.  Ornate
+statues have been carved from animal bones and bits of rock.  The floor
+is carpeted in a thick layer of animal skins and furs.  Exits leads
+west to the Practice Field and east to Main Street.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 74 }
+	to { w, 232 }
+  }
+}
+
+81
+{
+  name { Main Street }
+  desc {
+"  You find yourself standing outside the Midgard Shopping Center.  If
+you can't find it anywhere else, you can probably find it in here.  
+Although Main Street continues to the north and south, it seems to
+curve back to the east as you look a bit further.  
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 77 }
+	to { e, 82 }
+	to { s, 83 }
+  }
+}
+
+82
+{
+  name { The Midgaard Shopping Centre }
+  desc {
+"   All kinds of clothing, dryed goods, camping equipment, childrens
+toys and thousands of other things too numerous to mention hang from
+racks and sit on shelves.  Although there doesn't appear to be a shop
+keeper here, you can see one over to the south.  An exit to the west 
+leads back to main street.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { s, 84 }
+	to { w, 81 }
+  }
+}
+
+83
+{
+  name { Main Street }
+  desc {
+"  Looking down Main Street, you see that it makes a bit of a turn to
+the east.  Right now, you're standing outside the Midgard Shopping Centre.
+Exits lead both north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 81 }
+	to { e, 84 }
+	to { s, 87 }
+  }
+}
+
+84
+{
+  name { The Midgard Shopping Centre }
+  desc {
+"   Although there are a lot of things here, most of them seem to be
+clothing related.  Racks and racks of the stuff are scattered 
+throughout the store.  A merchant is here, selling his wares.  Exits
+lead west back to the road and north to another portion of the Shopping
+Centre.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 82 }
+	to { w, 83 }
+  }
+}
+
+85
+{
+  name { Main Street }
+  desc {
+"   Main Street curves here from the north to the west, where it crosses
+the Inverness back to the west bank.  To the northeast, you see what
+looks like a fishermans cabin.  Far to the south, a plume of smoke
+rises from the roof of one of the building in the industrial section of
+Midgard.
+   A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block" }
+	desc { :..[]=======================[]............... . . .     QG - Quick-Go Booth   :
+:..|| E a s t C e n t r a l ||........ . ... . .         a - Rings and Things :
+:..||      M i d g a r d    ||.........|   ... . .       b - Midgard Info.    :
+:..[]=======================[].....----|   |-----..      c - Cafe De Midgard  :
+:.............|   Market   |......| f  | M |     |. .    d - The Infirmiry    :
+:.............|   Plaza    |......|    | a |R Gui|. .. . e - The Owl's        :
+:..............----+  +----.....-------| i |-----....        Nest Inn         :
+:.............| a ||  || b |...|Ba Gui | n |    |... .   f - NonDemon. Church :
+:..............---.|W |.---.....-------|   |  h |.... .  j - Midgard Towne    :
+:...............---|o |---......|   g  | S |    |. . ..      Hall             :
+:..............| c |o | d |......------| t |----... . .  h - The Amber Rose   :
+:...............---|d |   |.You ....&&&\ r /&&&&... . .  i - The Fishermans'  :
+:..............----|m |---..are---\&&&&/ e \&&.......        Wharf            :
+:.............| e  |a |.....Here...\&&.| e |..... .      Ba Gui - Bards' Guild:
+:.............|    |r |-----......&&\&.| t |. . ..... .  D  Gui - Druids'     :
+:..............----|  |D Gui|.....&&&\.|   |---..... . .          Guild       :
+:..................|  |-----......&&&.\|   | i |..... .  R  Gui - Rangers'    :
+:............                .....&&&..\   |   |. . ...           Guild       :
+:..--.---      The Shrine     .--,&&&,- \  |---. ..  .   %%%% - East Gate     :
+:..           of Neutrality       ___    * |QG |.. .     &&&& - Inverness     : 
+:.-. ----...                   --'&&&`----/----.. . .           River         :	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 62 }
+	to { e, 86 }
+	to { w, 63 }
+  }
+}
+
+86
+{
+  name { A Quick-Go Booth }
+  desc {
+"
+                      QUICK-GO BOOTH
+         Midgard's Public Access Teleportation System
+                  This port connects to the:
+
+               I N V E R N E S S   R I V E R 
+
+     Please step west if this is your stop.  Make sure to
+   visit the Amber Rose Restraunt sometime during your stay
+
+                                     Have a nice day. =)
+  }
+  sector { City }
+  flags { mapable }
+  tele { 25, 1, 239 }
+  exits {
+	to { w, 85 }
+  }
+}
+
+87
+{
+  name { Main Street }
+  desc {
+"  At this point, Main Street takes a bit of a turn and decides to run
+north and east for a change.  To the north, a few guilds and shops line
+either side of the street.  A large gate lies to the west and a few blocks
+to the east, you can make out the Midgard Shrine of Neutrality.
+   A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block" }
+	desc { :..[]=========================[]............... . . .
+:..|| W e s t  C e n t r a l  ||.. North to ... .         %%%%- West Gate
+:..||      M i d g a r d      ||. Market Plaza .. . .       a - Midgard
+:..[]=========================[].....|W |...... .  ....         Shopping Centre
+:......-----|  |-------..........----|o |........ . ....    b - The Owl's Nest
+:.....|C Gui|M |N Guild|........|    |o |........ . . ..        Inn/Tavern
+:......-----|a |-------.........| b  |d |----........ .. .  c - Midgard
+:...........|i |................|    |m |D Gu|......... .       Defense HQ
+:...........|n |---..............----|a |----.....---.. .   d - Quick-Go Booth
+:...........| S| a |.................|r |....... | c |...   e - Construction
+:...........| t|   |............             ....|   | ..   f - SAUTS^
+:.....%%%%%-+  +------------     The Shrine     -`---'  
+:.....%%%%%   *  Main Street    of Neutrality         Eastward!
+:.....%%%%%-+  \------------                    -----   
+:...........|I |\____............           ......... .. .  ^ Strange and
+:...........|r |.....\...............| L|.............. . . . Unusual Things
+:........---|o |----..You are here...| a|........N...... .    Shop (warning:
+:.......| d |n | e  |................| n|......W-+-E..... .   things in here
+:........---| R|----.................| e|........S....  .     are not of this
+:...........| o|---..................|  |.............. ..    realm!!!)
+:...........| a| f |..............South to .......  . .  .
+:...........| d|---............... the Wharf  .... . . .	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 83 }
+	to { e, 88 }
+	to { s, 133 }
+	to { w, 245 }
+  }
+}
+
+88
+{
+  name { Main Street }
+  desc {
+"   The red brick path continues to thread its way through the shops of
+Midgard.  Just east of here, the Circle Way wraps its way around the Shrine
+of Neutrality.  Main Street continues to the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 44 }
+	to { w, 87 }
+  }
+}
+
+89
+{
+  name { A Quick-Go Booth }
+  desc {
+"
+                      QUICK-GO BOOTH  
+         Midgard's Public Access Teleportation System  
+                  This port connects to the:
+
+       T H E   W E S T   G A T E   O F   M I D G A R D 
+
+      Please step east if this is your stop.  Walk east,
+       north, and west twice to reach the edge of town. 
+
+                                     Have a nice day. =)   
+  }
+  sector { City }
+  flags { mapable }
+  tele { 25, 1, 241 }
+  exits {
+	to { n, 88 }
+	to { e, 131 }
+  }
+}
+
+90
+{
+  name { Woodmar Lane }
+  desc {
+"  A pair of crossed swords on the doors indicate that the building east
+of here is the Warriors' Guild.  Behind the guild, the blue waters of
+the Inverness make their way to the south.  To the north, Circle Way
+makes a complete loop around the Midgard Shrine of Neutrality.  Woodmar
+Lane continues to the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 40 }
+	to { e, 91 }
+	to { s, 92 }
+  }
+}
+
+91
+{
+  name { The Warrior's Guild }
+  desc {
+"   All kinds of ceremonial armor and weapons adorn the walls.  Although
+they're beauitful to look at, none of them would be very servicable in
+combat.  Out the back window, you see the Inverness river running from
+the north to the south.  Exits lead west back to Woodmar and south to
+the Practice Yard.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { s, 235 }
+	to { w, 90 }
+  }
+}
+
+92
+{
+  name { Woodmar Lane }
+  desc {
+"   Just south of here, the Inverness turns southeast to cut right across
+Woodmar Lane.  Unfortunately, Iron Road intersects Woodmar at the same
+place.  In light of this, the Midgard Transportation Division has created
+a huge raised wharf to serve as a four way intersection on top of the
+river.  You can board the wharf to the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 90 }
+	to { s, 93 }
+	to { u, 93 }
+  }
+}
+
+93
+{
+  name { North Wharf }
+  desc {
+"   You're at the northern part of a wharf that serves as an intersection
+for Woodmar Lane and the Iron Road.  Far to the north, you ca make out
+the shadow of the Shrine of Neutrality.  The wharf stretches out in the
+other three directions.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 92 }
+	to { e, 94 }
+	to { s, 101 }
+	to { w, 100 }
+	to { d, 92 }
+  }
+}
+
+94
+{
+  name { Northeast Wharf }
+  desc {
+"   This corner of the wharf offers the best view of the Inverness River.
+The deep blue waters churn through the wharf's support posts and disappear
+below.  Exits lead south and west back to the wharf.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { s, 95 }
+	to { w, 93 }
+  }
+}
+
+95
+{
+  name { East Wharf }
+  desc {
+"   From this point on the wharf you can see almost all of Midgard's
+industrial zone to the east.  A small plume of smoke rises from the
+blacksmith's shop and a large pile of rotting compost sits in front
+of the recycling centre.  Iron Road leads into the industrial zone to 
+the east, while the wharf stretches to the north, south, and west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 94 }
+	to { e, 102 }
+	to { s, 96 }
+	to { w, 101 }
+	to { d, 102 }
+  }
+}
+
+96
+{
+  name { Southeast Wharf }
+  desc {
+"   There's not much of a view from this portion of the wharf.  To the
+east, you notice that a small branch of the Inverness passes under
+Iron Road, and eventually disappears among the rocks.  To the south
+are two buildings, but you have know way of knowing what they are.
+The wharf continues to the north and the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 95 }
+	to { w, 97 }
+  }
+}
+
+97
+{
+  name { South Wharf }
+  desc {
+"   This part of the wharf is close enough to the shore that the planks
+only sway a little underfoot.  Far to the south, you see the spires
+of the Cathedral of Corruption, the place where most who follow the
+doctrines of evil go to worship.  You can get there by taking Woodmar
+Lane south, or you could continue your walk on the wharf to the east
+west and north.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 101 }
+	to { e, 96 }
+	to { s, 134 }
+	to { w, 98 }
+  }
+}
+
+98
+{
+  name { Southwest Wharf }
+  desc {
+"   From this point on the wharf, you can see the crystal blue waters
+of the Inverness slipping from under the wharf.  They continue south
+west for awhile and eventually slip under the city walls.  To the south,
+you can make out two buildings lining the road  The wharf continues to
+the north and east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 99 }
+	to { e, 97 }
+  }
+}
+
+99
+{
+  name { West Wharf }
+  desc {
+"    Just west of here, you spy a clump of four or five shops huddled
+together.  Judging from the explosions and the periodic flashes of light,
+you'd say that they all had something to do with magic.  On the north
+and south horizons, you can make out the Shrine of Neutrality and the
+Cathedral of Corruption, respectively.  The Iron Road leads off to the
+west toward the magic shops.  All other exits lead back to the wharf.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 100 }
+	to { e, 101 }
+	to { s, 98 }
+	to { w, 122 }
+  }
+}
+
+100
+{
+  name { Northwest Wharf }
+  desc {
+"   You lean over the railing and just barely catch a glimpse of the
+Inverness River below.  There's not much to see from here except for
+a small grove of trees near the Circle Road.  Exits to the south and
+east lead back to the wharf.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 93 }
+	to { s, 99 }
+  }
+}
+
+101
+{
+  name { Centre of the Wharf }
+  desc {
+"   At the center of the wharf the planks shake enough to make your footing
+just a little bit precarious.  The east/west Iron Road and the north/south
+Woodmar Lane cross here...which happens to be on top of the Inverness
+River.  Thus, the wharf.  A small maintence hatch leads down, but all
+other exits lead to the edges of the wharf.
+   A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block" }
+	desc { :..[]=========================[]............... . . .. .. . .  .
+:..|| S o u t h C e n t r a l ||.................   .. . . ..  .. . 
+:..||      M i d g a r d      ||.................. &&& . ..  . . . .
+:..[]=========================[]...................&&&. . ... . .. 
+:........................ Circle Way ............... .&&&& . . 
+:.............................|   |--------........&&&&&.... .. .. 
+:.............................|   |W Guild |.....&&&The Inverness
+:.............................|   |________|..&&&&&&&.. River . ..  .
+:.............................|   |.........&&&&&&&......  ..
+:...................... ------+   +------&&&&&...&&&........  ..  .
+:......................|  The Wharf...   |&&.......&&&.... .. . 
+:......................|                 |&.........&&&.....  .. . 
+:Mystical..--.---------      You are     ----------,&&&,----  .. 
+:.Section  Iron Road                      Iron Road ___     Industrial Section
+:..........-..---------       here       ----------'&&&`---.  .
+:......................|                 |.........&&&&... .  .. 
+:.....................&|                 |.........&&&........ . .. 
+:..................&&&&&------+   +-----+..........&&..... . . .. . 
+:................&&&&&........|   |...............&.&..... ..  .
+:.............&&&&&..... To the Cathedral ......&&...&.... .  .
+:...........&&&&&&........ of Corruption ......&........ . . . 
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 93 }
+	to { e, 95 }
+	to { s, 97 }
+	to { w, 99 }
+	to { d, 285 }
+  }
+}
+
+102
+{
+  name { The Iron Road }
+  desc {
+"  This part of Iron Road is situated between two branches of the river.
+Just north of here, the Inverness branches to the southeast before
+continuing its journey southwestward.  The southeast branch curls its
+way south and passes under a bridge to the east.  To the west, you see
+the beginning of the wharf which serves as a crossroads.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 104 }
+	to { w, 95 }
+	to { u, 95 }
+  }
+}
+
+103
+{
+  name { Delete me }
+  desc {
+Delete me  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 104 }
+	to { w, 102 }
+  }
+}
+
+104
+{
+  name { A Bridge on The Iron Road }
+  desc {
+"   This hardwood bridge makes a graceful arc over one of the tributaries
+of the Inverness river.  Just east of here, the road becomes a bit
+rougher as it enters the industrial center of Midgard.  You can see a
+blacksmith and armourer on the north side of the street, as well as
+a weaponsmith on the south.  Iron Road runs to the east and west from
+here.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 105 }
+	to { w, 102 }
+  }
+}
+
+105
+{
+  name { The Iron Road }
+  desc {
+"  The cobble stones of the road are covered in a black soot.  Although
+it's not as pleasant to walk on as Main Street, a paved road is better
+than nothing.  A sign in the shape of an anvil hangs from a shop to the
+north.  The Iron Road continues to the east and the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 106 }
+	to { e, 107 }
+	to { w, 104 }
+  }
+}
+
+106
+{
+  name { The Blacksmith }
+  desc {
+"   The basalt walls of the blacksmith's shop act as a terrific insulator.
+As a result, the fire from the forge makes things _hot_ in here.  Still,
+this is the best place to be if you need something fixed.
+
+There is a sign here please READ it.
+  }
+  extra {
+	keywords { sign" }
+	desc { Please give the blacksmiths items to be repaired, he will fix and return
+them to you. If you dont have enough money he wont fix it but will give
+it back to you.
+	}
+  }
+  flags { indoors, mapable }
+  exits {
+	to { s, 105 }
+  }
+}
+
+107
+{
+  name { The Iron Road }
+  desc {
+"  The street here is littered with small scraps of leather and twisted
+metal.  Shops on either side of the street indicate that you've reached
+the very heart of the industrial zone.  A sign in the shape of a shield
+hanging from the north building reads, 'The Armoury of Midgard'.  A
+similar sign on the south building labels it as the weaponsmith.
+Meanwhile, Iron Road continues its journey east and west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 108 }
+	to { e, 110 }
+	to { s, 109 }
+	to { w, 105 }
+  }
+}
+
+108
+{
+  name { The Armoury }
+  desc {
+"   The armourer has displayed some of his finer wares on sturdy wooden
+statues.  You've little doubt that most of this equipment is newly made.
+The only exit leads back to Iron Road to the south.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { s, 107 }
+  }
+}
+
+109
+{
+  name { The Weapon Shoppe }
+  desc {
+"   All kinds and shapes of weapons, from the ornate to the deadly, hang
+from the back wall of the shop.  The weaponsmith has carefully kept 
+everything out of reach of the casual observer.  Although you don't
+see any small weapons, you're sure that you could find them someplace
+else in Midgard  An exit to the north leads back to the Iron Road.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { n, 107 }
+	to { e, 111 }
+  }
+}
+
+110
+{
+  name { The Iron Road }
+  desc {
+"  The Iron Road decides to make a bit of a turn here as it heads from
+the south to the west.  On the southwest corner, you spy a building that
+is most likely the weaponshop.  Just southeast of here, an abandoned
+building sits on the side of the road.
+   A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block" }
+	desc { :..[]=========================[]............... . .. .. . .  .                 :
+:..|| S o u t h C e n t r a l ||...............   .. . . ..  .. .              :
+:..||      M i d g a r d      ||.............You are. . .                      :
+:..[]=========================[]..............Here. ... . .a - The Blacksmith  :
+:.........&&&&&&&<-- The Inverness River .......|. . .     b - The Armoury     :
+:------&&&&&...&&&........ ____ ..----....... ..|. .       c - The Weapon      :
+:      |&&.......&&&.... .| a  |.| b  |..._____/. . .          Shoppe          :
+:      |&.........&&&.....|    |.|    |../...... . .       d - Just a          :
+:      ----------,&&&,------------------/. ...... ..           Warehouse       :
+:       Iron Road ___     Iron Road    * |----..... . .    e - Quick-Go Booth  :
+:      ----------'&&&`---------------    | T  |.... .      f - The Midgard     :
+:      |.........&&&&..........|  c  | I |Guil|...... . .      Sewage Treatment:
+:      |.........&&&........ .  -----| r |----. . .. .         Centre          :
+:-----+..........&&..... . . ..|  d  | o |....... . .. .                       :
+:...............&.&..... ..  . |     | n |........ . .  .  T Guil - Thieves    :
+:hedral ......&&...&.... .  .   -----|   |............              Guild      :
+:ption ......&........ . . .     | e | R |#####. . .... .                      :
+:.................................---| d |#######..... . . #### The Dump and   :
+:...............................#####_~ ~_######..... . .       Compost        :
+:..............................#####|  f  |#####..... . .                      :
+:...............................#####_____#####..... ..                        :
+:.................................##########....... .. . .. 	}
+  }
+  flags { mapable }
+  exits {
+	to { s, 111 }
+	to { w, 107 }
+  }
+}
+
+111
+{
+  name { The Iron Road }
+  desc {
+"   Weaving your away around an occasional pothole in the cobblestone street,
+you continues you march through the industrial section of Midgard.  The
+side of the weaponshop is directly to the west.  On the other side of the
+street, the remains of an abandoned building looks like it's getting ready
+to topple over.  The Iron Road leads both north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 110 }
+	to { e, 113 }
+	to { s, 112 }
+  }
+}
+
+112
+{
+  name { The Iron Road }
+  desc {
+"  The road has become worse since you entered the industrial zone.  Huge
+potholes several feet across litter the cobblestone street.  A horrible
+smell is coming from somewhere to the south.  Glancing in that direction,
+you see a large heap of garbage and a building at the end of the road.
+What appears to be a warehouse sits on the west curb.  The road leads
+both north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 111 }
+	to { s, 115 }
+	to { w, 114 }
+  }
+}
+
+113
+{
+  name { The Thieves' Guild }
+  desc {
+"   The boards of the floor creak painfully as you step around the
+abandoned building.  A small sign scratched in the floor identifies
+this as the Thieves' Guild..but it looks like it's been deserted.
+Exits lead west back to the road and down through a gaping hole in the
+floor.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { w, 111 }
+	to { d, 236 }
+  }
+}
+
+114
+{
+  name { An Abandoned Warehouse }
+  desc {
+"  This place has been stripped bare.  If it was ever used to hold anything,
+you have no idea what it might have been. There is a grate in one corner of
+the floor, it looks as if it has been opened before...
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { e, 112 }
+	to { d, Sewer1:30 }
+	  info { door, closed }
+	  keywords { grate" }
+	  desc { It looks damp and chilly down there}
+  }
+}
+
+115
+{
+  name { The Iron Road }
+  desc {
+"   The further south you go, the worst the smell gets.  It seems to be
+coming from the huge piles of trash on the east side of the street.  
+Conversely, a pristine little blue booth perches happily on the west
+curb.  The Iron Road continues to the north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 112 }
+	to { e, 118 }
+	to { s, 117 }
+	to { w, 116 }
+  }
+}
+
+116
+{
+  name { A Quick-Go Booth }
+  desc {
+"
+                      QUICK-GO BOOTH
+         Midgard's Public Access Teleportation System
+                  This port connects to the:
+
+               I N D U S T R I A L   Z O N E
+
+     Please step east if this is your stop.  Don't forget
+      to stop by the blacksmith to repair damaged goods!
+
+                                     Have a nice day. =)  
+  }
+  sector { City }
+  flags { mapable }
+  tele { 25, 1, 240 }
+  exits {
+	to { e, 115 }
+  }
+}
+
+117
+{
+  name { The Iron Road }
+  desc {
+"   You're standing outside the soon-to-be-famous Midgard Sewage Treatment
+Centre.  You know, sewage just doesn't get all the glamor and glory that
+it deserves.  In the sewage center, they're learning how to transform
+the garbage heaps to the east to usuable compost to the west.  Very
+important stuff.  The Iron Road leads north.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 115 }
+	to { e, 119 }
+	to { s, 121 }
+	to { w, 120 }
+  }
+}
+
+118
+{
+  name { North End of The Dump }
+  desc {
+"  *This* is where that horrible smell is coming from.  This is the
+trash heap where all of Midgard dumps its garbage.  Come to think of it,
+you might as well dump whatever trash you might have with you.  The
+dump continues to the south, and Iron Road lies to the west.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { s, 119 }
+	to { w, 115 }
+  }
+}
+
+119
+{
+  name { South End of The Dump }
+  desc {
+"  The trash here is piled really high.  Luckily, the Sewage Treatment
+Centre has started trying to figure out what to do with all the garbage
+before it engulfs the entire town.  The trash heap continues to the
+north and Iron Road lies to the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 118 }
+	to { w, 117 }
+  }
+}
+
+120
+{
+  name { A Compost Pile }
+  desc {
+"   Althougth the compost pile is just as large as the dump, it's covered
+with a thick burlap tarp and doesn't smell quite as much.  Eventually,
+the fully decayed compost in this pile will be spread around Midgard to
+provide a rich soil for the plant life.  Ah...the wonders of modern
+technology.  The only exit leads east to the Iron Road.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 117 }
+  }
+}
+
+121
+{
+  name { The Midgard Sewage Treatment Centre }
+  desc {
+"  All sorts experiments on trash and other disposables are lying on
+a huge lab table in the center of the room.  Various pieces of trash
+in different states of decomposition are kept in glass beakers around
+the room.  The only exit leads north.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { n, 117 }
+  }
+}
+
+122
+{
+  name { The Iron Road }
+  desc {
+"   The cobblestone road here is in very good condition.  Archaic runes
+crawl across a sign on the building to the north.  When you try to make
+out what they say, they simply swim before your eyes.  Probably magical.
+A bit to the east, the Iron Road ends in a large wharf covering the
+Inverness River.  The Iron Road also continues to the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 123 }
+	to { e, 99 }
+	to { w, 124 }
+  }
+}
+
+123
+{
+  name { The Magic-Users' Guild }
+  desc {
+"  Tombs of magic cover the floor of the Guild.  Viles of reagents and
+scrolls cover any and all available desk space.  The smell of burnt sulfur
+indicates that powerful magic was performed here not too long ago...could
+have been someone in training.  A mystical portal on the north wall and
+the doorway back to Iron Road are the only ways out.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { n, 237 }
+	to { s, 122 }
+  }
+}
+
+124
+{
+  name { The Iron Road }
+  desc {
+"  Although the road is in good condition, you notice several black marks
+where the stone has been charred by fire.  It's a good thing they make
+most of the buildings in this districts out of stone...A sign on the
+building to the south reads, 'The Illusionsts' Guild' while the one
+on the building to the north reads, 'Magic Shop: Mystle's Mystics'.  The
+Iron Road makes its way east and west from here.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 126 }
+	to { e, 122 }
+	to { s, 125 }
+	to { w, 127 }
+  }
+}
+
+125
+{
+  name { The Illusionists' Guild }
+  desc {
+"   It's hard to say exactly what this room looks like with all the
+illusions running around.  Tiny dragons slay mystical beasts as the
+floor opens to reveal the fiery pits of hell.  A portal on the east
+wall looks like it might lead somewhere...if it would stay still long
+enough.  An exit on the north wall leads back to the Iron Road...or
+Valhalla, it's hard to say.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { n, 124 }
+	to { e, 242 }
+  }
+}
+
+126
+{
+  name { Mystle's Mystics }
+  desc {
+"   Welcome to Mystle's Mystics.  Here, Mystle tries to bring magic into
+the everyday life of the individual.  If you need a magicial scroll,
+wand, or staff, this is the place to look first.  Bookshelves here are
+neatly arranged in orderly columns.  Exits lead both south and west to
+The Iron Road.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { s, 124 }
+	to { w, 128 }
+  }
+}
+
+127
+{
+  name { The Iron Road }
+  desc {
+"   At this point, the Iron Road reaches both to the east and the north.
+The buildings to the west and the south are both completely burnt to the
+ground.  The only explanation for this is if people where hurtling
+fireballs down Iron Road at the very spot you're standing...Nah...
+Mystil's Mystics, the magic shop, is just northeast of here.
+   A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block" }
+	desc { :..[]=======================[]................... . . .
+:..|| W e s t C e n t r a l ||.......... . ... . .                            :
+:..||     M i d g a r d     ||.......... . . ... . .                          :
+:..[]=======================[]............. .  ....                           :
+:..... To the ................  To the  ..... . .  .                          :
+:.... West Gate ............   Shrine of   .. ...                             :
+:.......|  |----............  Neutrality  ....... .      a - Quick-Go Booth   :
+:.....--|  | b  |..............         ...... ... .     b - Construction Site:
+:....| a|  |    |................|  |....... . .N.. .    c - The Strange and  :
+:.....--|  |_---.................|  |....... .W-+-E .        Unusual Things   :
+:.......|  |----.................|  |-----. . . S.. . .      Shop             :
+:.......|  | c  |................|  |W Gui|.. . . ..     d - Mystil's Mystics :
+:.To....|  |----.................|  |-----....... .. .                        :
+:.Ivory-   |---.....-----....----    ----.......... .    I Gui - Illusionists':
+:.Tower    | d |...|M Gui|. |            |...... .  ..           Guild        :
+:...----  * ----------------      The     ---.. . . ...  M Gui - Magic-Users' :
+:.......|/   Main Street         Wharf                           Guild        :
+:......./-------------------               --. . ..  . . W Gui - Warriors'    :
+:..You are.....|I Gui|......|            |...... . .  .          Guild
+.....here.......--+  |.......----    ----.. . . . . ....
+:..................--........To Corruption......... . .	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 128 }
+	to { e, 124 }
+  }
+}
+
+128
+{
+  name { The Iron Road }
+  desc {
+"   There's a very large scorch mark in the road here, as if it was
+repeatedly blasted with some sort of mystical fire.   You warily avoid
+the blackened earth as you take in your surroundings.  The Iron road
+makes a turn to the east just south of here and a strange spherical
+building lies to the north east.  The Magic Shop sits on the curb to
+the east.  
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 129 }
+	to { e, 126 }
+	to { s, 127 }
+	to { w, Chessboard:99 }
+  }
+}
+
+129
+{
+  name { The Iron Road }
+  desc {
+"   To the east is one of the most bizarre shops that you've ever seen.
+With the exception of a small door, there's no other way in or out.
+The entire building is shaped like a giant, 20 faced prisim.  A small
+sign above the door identifies it as 'The Strange and Unusual Things
+Shop'.  The Iron Road leads both north and south from here.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 131 }
+	to { e, 130 }
+	to { s, 128 }
+  }
+}
+
+130
+{
+  name { The Strange and Unusual Things Shop }
+  desc {
+"  Strange, angular shelves hold the inventory for whatever this shop
+happens to sell.  Unfortunatly, it's all boxed up in black, triangular
+crates.  If you're going to find out what this shop sells, you're going
+to have to talk to the owner.  The exit leads west back out to the 
+Iron Road.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { w, 129 }
+  }
+}
+
+131
+{
+  name { The Iron Road }
+  desc {
+"   A few loose cobble stones in the road makes walking here a bit of
+an adventure.  Being sure not to lose your step, you take a quick look
+around.  Construction on a new building is going on to the east and
+a tiny blue booth sits alone on the west curb.  A sign above the booth
+reads, 'Quick-Go Booth'.  The Iron Road stretches to the north and
+the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 133 }
+	to { e, 132 }
+	to { s, 129 }
+	to { w, 89 }
+  }
+}
+
+132
+{
+  name { A Construction Site }
+  desc {
+"   Just the frame of the building is completed, so you're not sure
+what it's going to be yet.  Stacks of wood and bags of nails can
+be seen lying about the room.  The frame of a door leads back to the
+Iron Road to the west.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { w, 131 }
+  }
+}
+
+133
+{
+  name { The Iron Road }
+  desc {
+"  Far to the east, you can see the southern portion of the Shrine of
+Neutrality.  Immediately to the north, the Iron Road intersects 
+Main Street.  A small grove of trees provides a cool shade from the
+heat of the sun.  Exits lead north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 87 }
+	to { s, 131 }
+  }
+}
+
+134
+{
+  name { Woodmar Lane }
+  desc {
+"   Not much vegatation grows in this part of town.  The proximity to the
+industrial zone probably makes survival too difficult.  Still, one or
+two plants have managed to secure a foot hold here.  A large shop sits
+on the east side of Woodmar Lane.  A small sign near the curb reads,
+'Chay's Bows and Slings'.  To the north, you see the wharf that serves as
+a crossroads for Woodmar Lane and Iron Road.  The street continues to
+the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 97 }
+	to { e, 135 }
+	to { s, 136 }
+  }
+}
+
+135
+{
+  name { Chay's Bows and Slings }
+  desc {
+"   All kinds of bows lie neatly stacked in one corner of the room.  Long
+strips of leather hanging from racks must be either slings or bow cases,
+it's hard to tell.  The only exit leads west from here.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { w, 134 }
+  }
+}
+
+136
+{
+  name { Woodmar Lane }
+  desc {
+"   A sign above a small shop to the east reads, 'The Happy Fletcher'.
+Ah, that must be where they make and sell arrows.  Fittingly, the bow and
+sling shop sits just northeast of here.  To the south, the Cathedral
+of Corruption rises defiantly into the air.  Woodmar Lane continues to
+the north and south.
+   A large block of marble embedded into the ground looks like it
+has a map of the area etched into it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block" }
+	desc { :.......    .................... . . ........&&&&>......
+:.......|   |----................|  |.....&&&&&....... . 
+........|   | a  |....-----.,- --+  +-- -&&&&....... .   a - Mystil's Mystics :
+:.......|   |    |...|M Gui||            |........ .     b - Chay's Bows and  :
+:.......|    ---------- ----+    The     +- --- - Indus-     Slings           :
+:.......|      Iron Road        Wharf             trial 
+:........--------- - -------+            +----- - Zone   c - The Happy        :
+:...............|I Gui|.....|            |........           Fletcher         :
+:...............|   +-+....&&- --+  +-- -'...... ..                           :
+:................---+...&&&&.....|W |+-----......   .                         :
+:......................&&&.......|o |  b   |..... . .                         :
+:.....................&&&........|o |+---.-... ..   .                         :
+:........ ..........&&&&.........|d || c |....... .. .                        :
+:..................&&&...........|m | ---....... ...                          :
+:...................&&&....----- |a | ----- ... . .                           :
+:..................&&&....|Assn ||r ||Aven |... ..                            :
+:.................&&&.....| Guil+----+ Guil|......                            :
+:..[]===================[].-----|    |-----.... . AssnGuil - The Assassins'   :
+:..||  S o u t h e r n  ||...---+    +---.......             Guild            :
+:..||   M i d g a r d   ||..|    Cath    |.... .  AvenGuil - The Avengers'    :
+:..[]===================[]..+--        --+..... .     Cath - The Cathedral    :
+:..............................+------+....... ..            of Corruption    :	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 134 }
+	to { e, 137 }
+	to { s, 138 }
+  }
+}
+
+137
+{
+  name { The Happy Fletcher }
+  desc {
+"   Arrows and bolts in various states of assembly lie across the a
+construction table on the south wall.  Workers busily take supplies
+of arrowheads, shafts, thread and feathers and assemble them to the
+completed product.  A small note lies on the counter, detailing the
+inventory.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { w, 136 }
+  }
+}
+
+138
+{
+  name { Outside the Cathedral of Corruption }
+  desc {
+"   The spires of the Cathedral of Corruption leap skyward in rebellion.  The
+black obsidian and basalt of the Cathedral seem to absorb all the light in
+the area.  Simply standing in the shadow of the temple, you feel the raw,
+untapped energy of evil...so much stronger than the good...
+  To either side of the temple lie the Guilds of the minions of evil.  The
+Avengers' Guild rests on the east side, while the Assassins' Guild huddles
+on the right.  Woodmar lane begins to the north.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 136 }
+	to { e, 140 }
+	to { s, 259 }
+	to { w, 139 }
+	to { d, 396 }
+  }
+}
+
+139
+{
+  name { The Assassins' Guild }
+  desc {
+"   The ebony walls of the Assassins' Guild stand undecorated.  The darkness
+of the room makes it difficult for you to pick out the few pieces of
+furnature and a trap door in the center of the room.  An exit leads east
+back to Woodmar Lane.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { e, 138 }
+	to { d, 244 }
+	  info { door, closed }
+	  keywords { trap door" }
+  }
+}
+
+140
+{
+  name { The Avengers' Guild }
+  desc {
+"   The Avengers Guild is derth of any form of decoration or adornment.  Those
+who are truly dedicated to the cause of evil have no need for the earthly
+pleasures of life.  The walls, ceiling, and floor are made of a deep grey
+granite.  An spiral staircase down leads to the Prayer Circle, and a door
+to the west leads back outside.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { w, 138 }
+	to { d, 243 }
+  }
+}
+
+141
+{
+  name { The Museum of Midgard }
+  desc {
+A sign hanging from the lobby reads:
+
+         M I D G A R D   M U S E U M
+
+    Closed for repairs ... come back in the spring.
+
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { n, 69 }
+  }
+}
+
+142
+{
+  name { Entrance to the Zoo of Midgard }
+  desc {
+"   You find youself under a tremendous arch.  At the very top of the arch,
+the words, 'Welcome to the Zoo of Midgard' have been painted in bright,
+bold letters.  The sounds of all sorts of strange animals reaches your
+ears from the north.  A crushed gravel path leads off in that direction,
+and you can get on Main Street to the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 143 }
+	to { s, 72 }
+  }
+}
+
+143
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   The path makes a nice crunching sounds underfoot.  All around you,
+parents lead children by the hand to show them the wonderful beasts
+from outside Midgard.  Just up ahead, you see the small animal section.
+Further to the north, the gravel path splits off in two directions in
+front of a large building.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 144 }
+	to { s, 142 }
+  }
+}
+
+144
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   You've entered the beginning of the small animal setion.  Evidently,
+The Zoo Planning Committee decided to put the harmless animals closer
+to the entrance.  To the west, a few beavers are happily chewing on
+their logs.  On the east side, one or two wargs play in the bushes.
+The path continues north and south.
+  }
+  sector { City }
+  flags { no_mob, mapable }
+  exits {
+	to { n, 147 }
+	to { e, 146 }
+	to { s, 143 }
+	to { w, 145 }
+	  key { 10 }
+	  info { door, closed }
+	  keywords { beaver west" }
+  }
+}
+
+145
+{
+  name { The Beaver Exhibit }
+  desc {
+"   The beavers have managed to make a small dam out of scrap wood across
+the artifical river.  Right now, they seem to be cutting down more wood
+to work on a second dam in front of the first (to create a quaint two
+tiered affect).  The cage exit is to the east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 144 }
+  }
+}
+
+146
+{
+  name { The Warg Exhibit }
+  desc {
+"   The zookeepers planted a small forest here for the wargs to live in.
+Of course, they've tried to keep the tree cover as small as possile to
+people can actually see the beasts.  The cage exit is to the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 144 }
+  }
+}
+
+147
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   You've approached the end of the small animals exhibit.  The colorful
+fox exhibit is off to the east, and a cute raccoon cage sits over to the
+west.  A bit north of here, you see the Aquatic Centre.  The gravel path
+leads back toward the entrance to the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 150 }
+	to { e, 149 }
+	to { s, 144 }
+	to { w, 148 }
+  }
+}
+
+148
+{
+  name { The Raccoon Exhibit }
+  desc {
+"  The half eaten remains of the raccoons' last meal lie scattered around
+the exhibit.  Either they're very picky eaters, or the raccoons just
+weren't very hungry.  Unfortunatly, there's nothing fit here for human
+consumption.  You can exit the exhibit to the east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 147 }
+  }
+}
+
+149
+{
+  name { The Fox Exhibit }
+  desc {
+"   Foxes, in their bright red coats, playfully chase each other through
+the artificial underbrush.  There's also a small pond in the center of
+the exhibit should they ever get thirsty.  The exit is on the west wall.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 147 }
+  }
+}
+
+150
+{
+  name { Outside the Aquatic Centre }
+  desc {
+"   A building with a rather large fish on top looms to the north.  The
+words 'Midgard Zoo's Aquatic Centre' are plastered across the flank of
+the fish.  You can enter the Centre to the north, visit the Aviary Exhibits
+to the west or Reptile Exhibits to the east.  Of course, if you're sick
+of the zoo, the entrance lies a bit to the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 165 }
+	to { e, 151 }
+	to { s, 147 }
+	to { w, 157 }
+  }
+}
+
+151
+{
+  name { A Crushed Gravel Path }
+  desc {
+"  The deeper you get into the zoo, the more interesting...and dangerous...
+the creatures become.  The exhibit to the north contains some of the
+biggest snakes that you've ever seen...it's a good thing they're locked
+up.  South of here is the exhibit for small snakes.  The reptile section
+continues to the east, while the Aquatic Centre and the aviary are to
+the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 153 }
+	to { e, 154 }
+	to { s, 152 }
+	to { w, 150 }
+  }
+}
+
+152
+{
+  name { The Small Snake Exhibit }
+  desc {
+"   Many of the snakes have chosen the heart of an old, rotting tree as
+their home.  Still more have burrowed into the soft ground to find
+shelter from the sun.  The exit of the exhibit lies to the north.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 151 }
+  }
+}
+
+153
+{
+  name { The Big Snake Exhibit }
+  desc {
+"   The zookeepers have provided a pseudo-jungle environment for the
+snakes to live in.  Of course, it's all fake, but the snakes would never
+know the difference.  You can exit the exhibit to the south. 
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { s, 151 }
+  }
+}
+
+154
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   A blast of heat catches your attention from north exhibit.  There,
+tiny dragons blast each other with jets of searing flame...all in good
+fun.  Just south of here, some of the largest lizards you've seen sit
+on the rocks, basking in the sun.  The gravel path continues to the
+east and the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 155 }
+	to { e, 194 }
+	to { s, 156 }
+	to { w, 151 }
+  }
+}
+
+155
+{
+  name { The Drake Exhibit }
+  desc {
+"   The bottom of the floor is covered with a thick layer of ash.  Just
+about everything the zookeeper put in the exhibit, the drakes instantly
+incinerate.  Thus, there's not much decoration here.  You can exit the
+exhibit to the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { s, 154 }
+  }
+}
+
+156
+{
+  name { The Komono Dragon Exhibit }
+  desc {
+"   Huge rocks at least fourty meters across have been shipped in for
+the komono dragons to lie on.  Ocasionally, one flips over to sun his
+other side, but that's about it.  The exit leads north back to the
+gravel path.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 154 }
+  }
+}
+
+157
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   You find youself at the entrance to the Aviary.  The gravel path
+will take you to the Aquatic Centre to the east or deeper into
+the Aviary to the west.  The north and south exhibits contain a
+few falcons and several wherries, respectively.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 158 }
+	to { e, 150 }
+	to { s, 159 }
+	to { w, 160 }
+  }
+}
+
+158
+{
+  name { The Falcon Exhibit }
+  desc {
+"   The falcon's here have made a big communal nest in the boughs of an
+artifical tree.  Every now and then, the zookeepers release a few rabbits
+in the exhibit for sport, and their remains are clearly visible.  The
+only exit is to the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { s, 157 }
+  }
+}
+
+159
+{
+  name { The Wherrie Exhibit }
+  desc {
+"   In the center of this exhibit, you see pool where the wherries are
+often seen playing in the water or catching fish with the talons on their
+fore legs.  There are also a few trees with large nests in them.  The only
+way out is to the north.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 157 }
+  }
+}
+
+160
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   You've reached the west end of the Aviary.  A bit west of here, the
+gravel path turns to the north toward another section of the zoo.  This
+part of the Aviary has two of the most unusual flying beast: the roc
+and the griffin.  To the east, the gravel path heads toward the 
+entrance to the Aviary.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 161 }
+	to { e, 157 }
+	to { s, 162 }
+	to { w, 163 }
+  }
+}
+
+161
+{
+  name { The Roc Exhibit }
+  desc {
+"  This is kind of a small room for a roc.  So small, in fact, that there's
+not enough room for any kind of fake landscaping.  You feel sorry for the
+poor bird that's forced to live here.  Exits to the south and west lead
+back to the gravel path.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { s, 160 }
+	to { w, 164 }
+  }
+}
+
+162
+{
+  name { The Griffin Exhibit }
+  desc {
+"  The griffins in this exhibit have rebelliously torn the artificial
+landscape to shreds.  Judging from the amount of rubble, the original
+scene must have been impressive.  An exit to the north will take you
+back to the gravel path.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 160 }
+  }
+}
+
+163
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   From here, the gravel path leads east into the Aviary and north
+to the big cat exhibits.  A gentle breeze from the west relieves you
+from the heat of the day.  
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 164 }
+	to { e, 160 }
+  }
+}
+
+164
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   Warning signs line the side of the path at about five foot intervals.
+Glancing quickly, you notice that they warn you to step back from the
+exhibits.  Looking west, you understand why.  A few very ferocious
+white tigers stalk their artifical home.  To the east, you see the
+Roc Exhibit...that's a mightly small roomm for a Roc.  The gravel
+path continues north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 179 }
+	to { e, 161 }
+	to { s, 163 }
+	to { w, 178 }
+  }
+}
+
+165
+{
+  name { The Aquatic Centre }
+  desc {
+"   Although the inside of the Aquatic Centre isn't particularily well
+lit, it doesn't take your eyes too long to adjust.  To the north, you
+see several huge tanks...the exhibits.  A small sign on the wall
+indicates that the Midgard Zoo Administrative Offices are just east
+of here.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 167 }
+	to { e, 166 }
+	to { s, 150 }
+  }
+}
+
+166
+{
+  name { Administrative Offices of the Midgard Zoo }
+  desc {
+"   A neatly organized desk sits on the west all of these offices.  This
+is where all of the decisions on how the zoo should be run are made; who
+should be fed and when, etc.  There doesn't seem to be much of interest
+in here.  A door to the west leads back to the Aquatic Exhibit.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 165 }
+  }
+}
+
+167
+{
+  name { The Aquatic Centre }
+  desc {
+"   Looking to the west, you see the first part of the Aquatic Exhibit.
+The kraken tank is so huge that it stretches far off to the north.  On
+the east side, dolphins swim happily in their tank.  You can leave the
+exhibit to the south, you look at some more just north of here.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 170 }
+	to { e, 169 }
+	to { s, 165 }
+	to { w, 168 }
+  }
+}
+
+168
+{
+  name { The Kraken Exhibit }
+  desc {
+Empty
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 171 }
+	to { e, 167 }
+  }
+}
+
+169
+{
+  name { The Dolphin Exhibit }
+  desc {
+Empty
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 167 }
+	to { u, 176 }
+  }
+}
+
+170
+{
+  name { The Aquatic Centre }
+  desc {
+"   On the west wall is the most fantastic site in the whole zoo: the
+kraken exhibit.  At great expense, the Council of Midgard had the
+resident mage transport the kraken all the way from the far east sea.
+The giant lobster exhibit in a tank to the east is equally impressive.
+The back door to the Aquatic Center is just north of here.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 177 }
+	to { e, 172 }
+	to { s, 167 }
+	to { w, 171 }
+	to { u, 173 }
+  }
+}
+
+171
+{
+  name { The Kraken Exhibit }
+  desc {
+Empty
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 170 }
+	to { s, 168 }
+  }
+}
+
+172
+{
+  name { The Giant Lobster Exhibit }
+  desc {
+Empty
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 170 }
+	to { u, 175 }
+  }
+}
+
+173
+{
+  name { Above the Aquatic Centre }
+  desc {
+"  Things are much brighter in the top of the Aquatic Center.  To the west,
+east, and southeast, you see the tops of the exhibit tanks.  You probably
+shouldn't be up here.  How would you explain it if you fell in?  You can
+either go back down the hatch or visit one of the tanks to the east and
+west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 175 }
+	to { w, 174 }
+	to { d, 170 }
+  }
+}
+
+174
+{
+  name { Above the Kraken Tank }
+  desc {
+"  A small hole in the kraken tank provides a way to feed the beast withou
+it escaping.  An air lock type system allows the zookeeper to get fish
+into the tank without letting any tentacles leak out.  Exits lead down
+into the tank or east to the hatch.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 173 }
+	to { d, 171 }
+  }
+}
+
+175
+{
+  name { Above the Lobster Tank }
+  desc {
+"   Most of the lobster tank is uncovered, so make sure you don't fall in.
+A big bucket of small tuna rests near the southwest corner.  To the south,
+you see the dolphin tank.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { s, 176 }
+	to { w, 173 }
+	to { d, 172 }
+  }
+}
+
+176
+{
+  name { Above the Dolphin Tank }
+  desc {
+"   Like the lobster tank, most of the dolphin tank is uncovered.  Curious,
+a few dolphins peek up to get a good look at you before disappearing
+below the surface of the water.  The only exits lead north back to the
+lobster tank and down into the dolphin tank.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 175 }
+	to { d, 169 }
+  }
+}
+
+177
+{
+  name { North of the Aquatic Centre }
+  desc {
+"   You find youself standing at the back entrance of the Aquatic Centre.
+If you wish to discover the miracles of fish life, south is the way to
+go.  To the east and west, you see what looks like heavy construction.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 188 }
+	to { s, 170 }
+	to { w, 187 }
+  }
+}
+
+178
+{
+  name { The White Tiger Exhibit }
+  desc {
+"   The zookeepers have done an impressive job in making this place
+look like the natural habitat of the white tiger.  Were it not for
+the manufacturer's stamp, the landscape would be very convincing.
+Luckily, white tigers don't read.  An exit leads east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 164 }
+  }
+}
+
+179
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   Warning signs lining the edges of the path indicate that you're in
+the heart of the big cat exhibit.  In the cages to the east and west,
+you spy the bengal and the panther exhibits, respectively.  While looking
+about, you hear a tremendous amount of roaring coming from the north.
+The gravel path runs from the north to the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 182 }
+	to { e, 180 }
+	to { s, 164 }
+	to { w, 181 }
+	  key { 3142 }
+	  info { door, closed }
+	  keywords { west panther" }
+  }
+}
+
+180
+{
+  name { The Bengal Exhibit }
+  desc {
+"   The blue waters of an artificial river flow through the center of
+this exhibit to give the bengals something to drink every now and then.
+The bone littering the cage indicate that feeding time passed not too
+long ago.  An exit leads to the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 179 }
+  }
+}
+
+181
+{
+  name { The Panther Exhibit }
+  desc {
+"   A small jungle has been provided by the zookeepers to make the 
+panthers feel at home.  Small pieces of debris litter the floor...probably
+because the panthers like to chew up the landscape.  The cage door inthe
+east wall leads back to the gravel road.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 179 }
+  }
+}
+
+182
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   Now that you've approached the _really_ dangerous cats, both
+warning signs and felt ropes have been put up to keep you away from
+the cages.  In the exhibit to the east, a sabre tooth tiger is making
+an awful lot of noise.  Evidently, it doesn't like being caged up.
+On the west side of the road is the home of the shy arctic lynx.
+The gravel path continues north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 185 }
+	to { e, 184 }
+	to { s, 179 }
+	to { w, 183 }
+  }
+}
+
+183
+{
+  name { The Arctic Lynx Exhibit }
+  desc {
+"   The zookeepers somehow manage to keep the termperture here low
+enough for the arctic lynx to survive.  A few scraps of meat have been
+thrown on the ground, but remain untouched.  A gate to the east leds
+back to the gravel path.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 182 }
+  }
+}
+
+184
+{
+  name { The Sabre Tooth Tiger Exhibit }
+  desc {
+"   The landscape here has been completely decimated by the sabre tooth
+tiger.  Looking around, it's hard to find pieces that are bigger than
+your fist.  Deep claw marks score the ground and walls.  An exit is
+to the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 182 }
+  }
+}
+
+185
+{
+  name { A Crushed Gravel Path }
+  desc {
+You find yourself in the northwest corner of the Zoo of Midgard.  There's
+not much to see in this part, but a gravel path leads south to the exciting,
+albeit dangerous, big cat exhibit.  There is an iron door to the west with a 
+sign hanging over it.  The path also leads east into what seems to be a 
+construction zone.
+  }
+  sector { City }
+  extra {
+	keywords { sign" }
+	desc { The sign reads, Deadly Creature Exhibit, BEWARE!
+	}
+  }
+  flags { mapable }
+  exits {
+	to { e, 186 }
+	to { s, 182 }
+	to { w, Deadly_exhibit:0 }
+	  info { door, closed }
+	  keywords { door iron" }
+  }
+}
+
+186
+{
+  name { A Construction Zone }
+  desc {
+"  This part of the zoo seems to still be under construction.  Huge winches
+lower vats of concrete into what will one day be another exhibit.  Although
+people are working, the administration has allowed this road to remain open.
+It continues to the east and west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 187 }
+	to { w, 185 }
+  }
+}
+
+187
+{
+  name { A Construction Zone }
+  desc {
+"   To the north of here, workers seem to be digging a large hole.  Perhaps
+there will one day be an outdoor aquatic exhibit here...or maybe a tropical
+fish pool.  The path leads to more construction to the west and the
+Aquatic Centre to the east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 177 }
+	to { w, 186 }
+  }
+}
+
+188
+{
+  name { A Construction Zone }
+  desc {
+"   A large supply of metal piping and wooden slats sits on the bed
+of an ox cart to the north.  It looks like they're getting ready to
+build some sort of children's theme park.  What fun!  Just west of
+here, you can make out the back entrance to the Aquatic Centre.
+Construction continues to the east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 189 }
+	to { w, 177 }
+  }
+}
+
+189
+{
+  name { A Construction Zone }
+  desc {
+"   Taking in your surroundings, you notice a very large hole has been
+dug just south of the road.  Although half of the hole has been sprayed
+with concrete, some sort of machinery seems to be being installed on
+the other side.  A small sign is staked into the ground.  The gravel
+path leads both east and west of here.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 190 }
+	to { w, 188 }
+  }
+}
+
+190
+{
+  name { A Construction Zone }
+  desc {
+"   The heavy constrution here makes you footing a bit precarious.  It
+looks like they're building another exhibit to the east and some sort
+of a shop to the north.  The path here becomes a bit more rocky as it
+leads to more construction to the west.  Of course, you can always enter
+the bear exhibit so the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { s, 191 }
+	to { w, 189 }
+  }
+}
+
+191
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   This part of the bear exhibit seems to be under remodeling...perhaps
+a new kind of bear is being brought in.  Anyway, the cages to the east
+and the west are both empty.  The gravel path continues north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 190 }
+	to { e, 200 }
+	to { s, 192 }
+	to { w, 199 }
+  }
+}
+
+192
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   The gravel path here runs right through the center of the bear exhibit.
+The cages to the west contain unusually large kodiac bears, while the
+ones to the east contain what looks like walking teddy bears with claws...
+how odd.   Exits lead north and south to other portions of the bear exhibit.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 191 }
+	to { e, 198 }
+	to { s, 193 }
+	to { w, 197 }
+  }
+}
+
+193
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   This is an interesting part of the zoo.  The exhibits on either side
+of the gravel path couldn't be more dissimilar.  On the east side, huge
+bears scrape the bark off trees in the Werebear exhibit.  On the other side
+of the path, polar bears are fishing in an artificial stream.  The gravel
+path continue to the north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 192 }
+	to { e, 196 }
+	to { s, 194 }
+	to { w, 195 }
+  }
+}
+
+194
+{
+  name { A Crushed Gravel Path }
+  desc {
+"   You're standing at the corner of two exhibits.  To the west, the
+path leads to the Reptile Section.  Just north of here is the Bear
+Section.  Decisions, decisions.  The gravel shifts under your feet as
+you try to make up your mind.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 193 }
+	to { w, 154 }
+  }
+}
+
+195
+{
+  name { The Polar Bear Exhibits }
+  desc {
+"   A magical enchantment keeps this cage at arctic temperatures.  As a
+result, the polar bears are happily fishing from an ice laden stream.  The
+only exit leads east back to the gravel path.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 193 }
+  }
+}
+
+196
+{
+  name { The Werebear Exhibit }
+  desc {
+Empty
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 193 }
+  }
+}
+
+197
+{
+  name { The Kodiac Bear Exhibit }
+  desc {
+"   Most of the bark has been scraped off the artificial trees by the
+bears' powerful claws.  Large bones litter the back of the exhibit; must
+have been feeding time recently.  The only exit leads back to the path.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 192 }
+  }
+}
+
+198
+{
+  name { The Cuddly Bear Exhibit }
+  desc {
+"   This is one of the most bizarre exhibits in the zoo.  The cuddly bear
+looks exactly like a cute little teddy bear...except fo the claw.  Although
+they seem to be every child's dream, be careful...they're ferocious.
+An exit to the west leads back to the gravel pth.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 192 }
+  }
+}
+
+199
+{
+  name { An Empty Cage }
+  desc {
+"  All of the artifical foliage has been removed from here to reveal 
+nothing but a sprayed concrete floor.  The exit in the east wall leads
+back to the gravel path.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 191 }
+  }
+}
+
+200
+{
+  name { An Empty Cage }
+  desc {
+"   A metal framework in the shape of a cliff edge is halfway finished
+being sprayed with morter.  It looks like they're going to put some sort
+of a mountain dwelling creature in here.  The exit to the west is the
+only way out
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 191 }
+  }
+}
+
+201
+{
+  name { Entrance to the Park }
+  desc {
+"   A gate designed more for asetics more than protection marks the
+entrance to the Midgard Park.  A small sign has been pressed into the
+the ground next to the gate.  The path through the park starts to the
+north, and Main Street begins just south of here.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 202 }
+	to { s, 49 }
+  }
+}
+
+202
+{
+  name { A Path Through the Park }
+  desc {
+"  The wind whispers through your hair as you begin your journey
+through the park.  The little cobblestone path provides a firm foot
+as you make your way along.  Just east of here lies the Recreational
+Service Centre, the administrative office of the park.  The path
+exits both north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 204 }
+	to { e, 203 }
+	to { s, 201 }
+  }
+}
+
+203
+{
+  name { The Recreational Service Centre }
+  desc {
+"   All kinds of paperwork and gardening equipment are scattered about
+the room.  On the wall, a list of watering, cutting, and fertilizing
+dates has been faithfully kept.  The only exit is to the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 202 }
+  }
+}
+
+204
+{
+  name { A Path Through the Park }
+  desc {
+"   The little stone path makes a bit of a turn here, and decides to go
+to the east and the south.  The twittering of birds can be heard from the
+north.  
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 205 }
+	to { e, 210 }
+	to { s, 202 }
+  }
+}
+
+205
+{
+  name { A Clearing in the Park }
+  desc {
+"   A thick blanket of grass covers the ground in this part of the park.
+The ground rises a bit to the east creating a small hill.  It looks
+like the people of Midgard have done a little landscaping to the north,
+and a row of bushes guides you in that direction.  Just west of here, you
+can see a small iron fence.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 207 }
+	to { e, 209 }
+	to { s, 204 }
+	to { w, 206 }
+  }
+}
+
+206
+{
+  name { The Edge of the Park }
+  desc {
+"   A small fence similar to the gate at the entrance of the park marks
+the west boundary.  Far to the west, you can barely make out the shadow
+of the Cathedral of Virtue on the horizion.  The only exits leads east
+back to the park clearing.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 205 }
+  }
+}
+
+207
+{
+  name { Next to  a Pleasant Shrubery }
+  desc {
+"   The people of Midgard have done a wonderful job landscaping this
+portion of the park.  Two small shruberies surrounded by a white
+picket fence decorate the grounds.  The plot to the left has been
+raised a bit to create a nice two tiered affect, and there's a quait
+little path running right through the middle.  
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 216 }
+	to { e, 208 }
+	to { s, 205 }
+  }
+}
+
+208
+{
+  name { The Shade of a Tree }
+  desc {
+"   A huge oak tree spreads its boughs toward the sunlight.  A few
+wildflowers grow around the base of the tree, creating a picture perfect
+scene.  The ground rises a bit to the south, ending in a small hill.
+A broken bath lies just north of here, and there seems to be some
+hedges to the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 215 }
+	to { s, 209 }
+	to { w, 207 }
+  }
+}
+
+209
+{
+  name { The Top of a Small Hill }
+  desc {
+"   On top of the hill, the wind picks up a bit and plays games with
+your hair.  From this height, you can see almost the entire park.
+Just northwest of here, someone's done quite a job on landscaping
+with some bushes.  Looking further, you see a broken stone path leading
+to a duck pond.  The hill descends to the north and west.  Also, 
+fastened right to the top of the hill is a huge chain which leads up.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 208 }
+	to { s, 210 }
+	to { w, 205 }
+	to { u, Redferne:14 }
+  }
+}
+
+210
+{
+  name { A Path Through the Park }
+  desc {
+"  Although a few tufts of grass have managed to push through the stone
+path, it's in very good condition.  There's a small hill off the
+path to the north.  From here, the path leads both east and west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 209 }
+	to { e, 211 }
+	to { w, 204 }
+  }
+}
+
+211
+{
+  name { A Path Through the Park }
+  desc {
+"  Once again, the little stone path decides to make a ninty degree
+turn.  This time, it heads off towards the north and the west.  There
+seems to be a much more ornate road to the northeast, and a small grassy
+hill to the northwest.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 212 }
+	to { w, 210 }
+  }
+}
+
+212
+{
+  name { A Path Through the Park }
+  desc {
+"  You feel better than you have in a long time as you make your stoll
+along the park way.  A little hill rises to a moderate height just
+west of here, and a white bench is off the road to the east.  You can
+continues on the path to the north and the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 213 }
+	to { e, 222 }
+	to { s, 211 }
+	to { w, 209 }
+  }
+}
+
+213
+{
+  name { A Fork in the Path }
+  desc {
+"   You've come to the intersection of three paths in the park.  To the
+east, an ornate path crafted of fine stones leads off to the distance.
+The southern path will eventually take you out of the park, and the
+northern path leads deeper into the park.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 214 }
+	to { e, 221 }
+	to { s, 212 }
+  }
+}
+
+214
+{
+  name { A Broken Path }
+  desc {
+"   The path here is paved in fragments of broken stone.  Too large to
+be called gravel, the stones have a natural tendancy to turn underfoot.
+Thus, your footing is often insecure, at best.  The path continues
+to the east and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { s, 213 }
+	to { w, 215 }
+  }
+}
+
+215
+{
+  name { A Broken Path }
+  desc {
+"   You carefully make your way along the broken path, being careful
+not to slip and fall.  Just west of here, you see a small duck pond.
+To the north and south, you can leave the path and frolic in the green
+grass.  The path also continues to the east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 218 }
+	to { e, 214 }
+	to { s, 208 }
+	to { w, 216 }
+  }
+}
+
+216
+{
+  name { A Pond in the Park }
+  desc {
+"   An artifical duck pond been dug for your viewing enjoyment.  Although
+it looks tempting, the pond is way too shallow for swimming.  Cattails
+and wildflowers decorate the edges of the pond.  A small broken path
+stretches off to the east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 217 }
+	to { e, 215 }
+	to { s, 207 }
+  }
+}
+
+217
+{
+  name { A Grass Clearing }
+  desc {
+"   A wind coming off the pond from the south makes this clearing quite
+a cool place to rest.  The cushion of the grass would make this the
+ideal spot to lie down and take a nap.  Exits lead off to the south and
+east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 218 }
+	to { s, 216 }
+  }
+}
+
+218
+{
+  name { A Grass Clearing }
+  desc {
+"  The grass here is green and springy, the sign of a well tended grounds.
+A few rabbits poke their heads up from their holes, look around a bit,
+then disappear beneath the ground.  A broken path lies to the south,
+and grassy fields streatch off in the other three directinos.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 219 }
+	to { e, 220 }
+	to { s, 215 }
+	to { w, 217 }
+  }
+}
+
+219
+{
+  name { A Grass Clearing }
+  desc {
+"   This clearing lies at the northern most portion of the park.  A little
+black fence cuts and east west path and prevents anyone from traspassing
+to the north.  The only exit leads back to the south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { s, 218 }
+  }
+}
+
+220
+{
+  name { A Grass Clearing }
+  desc {
+"   The small of broken grass beneath your feet reminds you of your 
+childhood days.  The soft whisper of the breeze and the chirping of
+the birds is about all you can hear.  South of here, a path makes its
+way through the beauty of the park.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 218 }
+  }
+}
+
+221
+{
+  name { An Ornate Road }
+  desc {
+"   The road here has been carefully crafted of only the finest stone.  it
+must have been expensive to install such a beautiful work of art here to
+serve as a walking path.  The path continues to the east, while a fork
+in the road is to the west.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 223 }
+	to { s, 222 }
+	to { w, 213 }
+  }
+}
+
+222
+{
+  name { A Small Park Bench }
+  desc {
+"   Someone's had the foresight to put a small park bench here for
+weary travelers to rest.  Unfortunately, it seems to have been designed
+for children, and your weight would probably break it.  You acn get
+back on the park path to the west or travel on an ornate road to
+the north.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 221 }
+	to { w, 212 }
+  }
+}
+
+223
+{
+  name { An Ornate Road }
+  desc {
+"   You can't get over how beautiful the road is.  You tread lightly so
+that your books won't scuff or mar the surface.  It seems as if the
+road is leading you away from the park and towards a residential section
+of town.  The road goes to the east and the north.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 224 }
+	to { w, 221 }
+  }
+}
+
+224
+{
+  name { An Ornate Road }
+  desc {
+"  Small lanterns line the side of the road here.  Evidently, they're
+lit when it's dark to provide a soft light to walk by.  How considerate.
+The path leads both north and south.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { n, 225 }
+	to { s, 223 }
+  }
+}
+
+225
+{
+  name { Outside Midgard Estates }
+  desc {
+"  The ornate path comes to an end at a huge pair of steel gates.  The
+metal has been polished to a beautiful sheen.  The gates stand closed
+and locked.  There's a small sign on the front.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { s, 224 }
+  }
+}
+
+226
+{
+  name { The Clerics Inner Sanctum }
+  desc {
+"   Welcome, Cleric, to the Inner Sanctum.  Only followers of the One true
+faith have been allowed to progress this far.  The Cross of Virtue, symbol
+of your faith, has been carved into the stone in the center of the room.
+Small oil lamps provide just enough light to see by...no more.  The only
+exit is to the east.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { e, 18 }
+  }
+}
+
+227
+{
+  name { The Circle of Meditation }
+  desc {
+"   Unlike the entrance to the guild, the Meditation Circle lacks any
+kind of decoration.  In the center of the room, the Warriors Cross rises
+a full eight feet into the air.  At the base of the cross the image of
+crossed swords has been carved into the stone.  The only exit leads
+back to the guild.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { w, 19 }
+  }
+}
+
+228
+{
+  name { The Druids Inner Sanctum }
+  desc {
+"   The network of roots from the plants overhead prevent the surrounding
+soil from crashing in around you.  Hovering in the center of the room
+is the Seed of Life.  Legend has it that when man and nature finally
+live in harmony, the Seed of Life will sprout and grow.  It's this cause
+that the Druids work toward.  The only exit leads up back to the guild.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { u, 23 }
+  }
+}
+
+229
+{
+  name { The Rangers Lair }
+  desc {
+Odd that you'd find a Lair in the attic of the guild...
+Glancing around, you notice that the room is void of any kind of decoration.
+In one corner, the bones of various sorts of creatures lie neatly stacked. 
+  }
+  flags { indoors, mapable }
+  exits {
+	to { d, 54 }
+  }
+}
+
+230
+{
+  name { The Bards' Conservatorium }
+  desc {
+"   A man sits here playing the most beautiful music you've ever heard.
+You can do nothing but stand enraptured as he finishes his song.  The
+tears roll down your face unchecked...he can only be your Guildmaster.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { e, 57 }
+  }
+}
+
+231
+{
+  name { The Amber Rose Dining Hall }
+  desc {
+"  The dining hall of the Amber Rose takes your breath away.  The entire
+east and south walls are made of a crystal clear glass.  Through the
+huge windows, you see the Inverness river snaking its way through the
+country side.  An enormace smokey quartz chandelier casts mysterious
+shadows across the room.  
+  }
+  flags { indoors, mapable }
+  exits {
+	to { n, 58 }
+  }
+}
+
+232
+{
+  name { The Barbarians' Practice Field }
+  desc {
+"   A field of waving grass stretches out in all directions as far as the
+eye can see.  It's an illusion, of course, but it still brings back
+memories of the barbarian way of life before this...city.  The only
+thing in the field besides youself is your guildmaster. 
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 80 }
+  }
+}
+
+233
+{
+  name { The Sanctorum of the Caviler }
+  desc {
+"  The Sanctorum is made completely of the finest granite.  All four of
+the walls are completely blank save for a simply cross.  Here, the true
+Caviler prays that his honor remain as unshakeable as the granite walls.
+The only exit leads back to the Guild Hall.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { e, 79 }
+  }
+}
+
+234
+{
+  name { The Ninjas' Lair }
+  desc {
+"   Fine willow paneling covers the four walls of this room.  Except
+for a simple floormat, this room is devoid of any decoration or furnature.
+This is where you'll learn the habits of a true Ninja.  The only
+exit is to the north.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { n, 78 }
+  }
+}
+
+235
+{
+  name { The Warriors' Practice Yard }
+  desc {
+"   The earth here has been stripped of vegetation and is tightly packed
+as a result of all the training Warriors like yourself have needed.  An
+exit to the north leads back to the Guild proper.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { n, 91 }
+  }
+}
+
+236
+{
+  name { The Secret Yard }
+  desc {
+"  There doesn't seem to be anything down here except the foundation...
+and your Guildmaster.  Although you see no-one else around, instinct
+tells you that they eyes of the Guild are watching.  The only exit leads
+up back to the abandoned building.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { u, 113 }
+  }
+}
+
+237
+{
+  name { The Magic-Users' Laboratory }
+  desc {
+"   A huge kettle of boiling...whatever...rests in the center of the room.
+Runes of warding and protection cover every inch of the walls, ceiling,
+and floor in preparation for the powerful magic often performed in this
+room.  The only exit leads south to the guild entrance.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { s, 123 }
+  }
+}
+
+238
+{
+  name { Floating Through the Ether }
+  desc {
+"   In a flash of light, the Quick-Go Booth once again transfers you
+through space.  The loss of sensation when in the Ether has always 
+seemed eerie to you. Luckily, it'll be over soon.
+  }
+  sector { City }
+  flags { mapable }
+  tele { 20, 1, 86 }
+}
+
+239
+{
+  name { Floating Through the Ether }
+  desc {
+"   In a flash of light, the Quick-Go Booth once again transfers you
+through space.  The loss of sensation when in the Ether has always
+seemed eerie to you. Luckily, it'll be over soon.
+  }
+  sector { City }
+  flags { mapable }
+  tele { 25, 1, 116 }
+}
+
+240
+{
+  name { Floating Through the Ether }
+  desc {
+"   In a flash of light, the Quick-Go Booth once again transfers you
+through space.  The loss of sensation when in the Ether has always
+seemed eerie to you. Luckily, it'll be over soon.
+  }
+  sector { City }
+  flags { mapable }
+  tele { 25, 1, 89 }
+}
+
+241
+{
+  name { Floating Through the Ether }
+  desc {
+"   In a flash of light, the Quick-Go Booth once again transfers you
+through space.  The loss of sensation when in the Ether has always
+seemed eerie to you. Luckily, it'll be over soon.  
+  }
+  sector { City }
+  flags { mapable }
+  tele { 25, 1, 15 }
+}
+
+242
+{
+  name { The Illusionists' Parlor }
+  desc {
+"  The walls here swim in and out of existance.  You're not sure what's
+supporting you, but the fact that you're not falling is somehow reassuring.
+Although you can't see it, you're positive that an exit on the west wall
+will take you back the way you came.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { w, 125 }
+  }
+}
+
+243
+{
+  name { The Avengers' Prayer Circle }
+  desc {
+"   Here, the Avenger prays to the forces of evil to grant him to power to
+carry out their bidding.  The room is completely empty save for a few 
+sharp instruments used to draw blood in sacrifice.  The only exit leads
+up.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { u, 140 }
+  }
+}
+
+244
+{
+  name { The Secret Library }
+  desc {
+"   An enormace library has somehow been smuggled into the basement of
+the Guild.  You have no doubt that the black bound books contain the
+Guild secrets on killing quickly and efficiently.  A trap door in the
+ceiling leads back to the Guild.
+  }
+  sector { City }
+  flags { indoors, mapable }
+  exits {
+	to { u, 139 }
+	  info { door, closed }
+	  keywords { trap door" }
+  }
+}
+
+245
+{
+  name { Inside the West Gate of Midgard }
+  desc {
+"   The city walls stretch away to the north and south, protecting the
+people of Midgard from invading hoards.  Just a few steps west, and 
+you'll be outside the city proper and at the mercy of the world beyond.
+To the east, you see the intersection of Main Street and The Iron Road.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 87 }
+	to { w, 246 }
+  }
+}
+
+246
+{
+  name { Outside the West Gate of Midgard }
+  desc {
+"   Two huge towers have been built into the West Gate.  A heavy wooden
+drawbridge stretches from these towers across a great fiery moat.  The
+safety of Midgard lies to the east.
+  }
+  sector { City }
+  flags { no_mob, mapable }
+  exits {
+	to { n, Midgard_trail:0 }
+	to { e, 245 }
+	to { w, Haondor_light:0 }
+  }
+}
+
+247
+{
+  name { Inside the East Gate of Midgard }
+  desc {
+"   Two huge towers here support a massive wooden gate.  In case of an
+attack on the city, the gate would be the only thing standing between
+the people of Midgard and total destruction.  Main Street stretches
+out to the west while the outside world is to the east.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { e, 248 }
+	to { w, 51 }
+  }
+}
+
+248
+{
+  name { Outside the East Gate of Midgard }
+  desc {
+"   One more step east and you'll leave the privacy and comfort of Midgard
+behind.  Of course, you could always change your mind and go back to
+the west...back to Main Street.  It's your decision though.
+  }
+  sector { City }
+  flags { no_mob, mapable }
+  exits {
+	to { n, Midgard_trail:8 }
+	to { e, Midenir:3 }
+	to { w, 247 }
+  }
+}
+
+249
+{
+  name { North End of the Shrine of Neutrality }
+  desc {
+"   As you walk under the Portal of Spirituality, you get a good look at
+the rest of the Shrine.  Fifty-six sandstone colums are equally spaced
+to form a circle almost a quarter of a mile in diameter.  The columns
+at the north, south, east and west are slightly larger to support a
+cross block, which forms the portal you just passed through.  A dirt
+path to the south leads to a stone altar in the center of the circle.
+  }
+  sector { City }
+  flags { neutral_only, neutral_altar }
+  exits {
+	to { n, 32 }
+	to { s, 250 }
+  }
+}
+
+250
+{
+  name { The Altar of Symmetry }
+  desc {
+"   In the heart of the Shrine of Neutrality lies the Altar of Symmetry.
+This is where those whose lives are guided by the precepts of Neutrality
+come to sacrifice.  The Altar is constructed of equal proportions of
+white marble, grey granite and black obsidian.  Exits lead off in all
+directions to the edges of the Shrine.
+  }
+  sector { City }
+  flags { neutral_only, neutral_altar }
+  exits {
+	to { n, 249 }
+	to { e, 253 }
+	to { s, 252 }
+	to { w, 251 }
+  }
+}
+
+251
+{
+  name { West End of the Shrine of Neutrality }
+  desc {
+"   As you walk under the Portal of the Setting Sun, you get a good look at
+the rest of the Shrine.  Fifty-six sandstone colums are equally spaced
+to form a circle almost a quarter of a mile in diameter.  The columns
+at the north, south, east and west are slightly larger to support a
+cross block, which forms the portal you just passed through.  A dirt
+path to the east leads to a stone altar in the center of the circle.
+  }
+  sector { City }
+  flags { neutral_only, neutral_altar }
+  exits {
+	to { e, 250 }
+	to { w, 44 }
+  }
+}
+
+252
+{
+  name { South End of the Shrine of Neutrality }
+  desc {
+"   As you walk under the Portal of Rebellion, you get a good look at
+the rest of the Shrine.  Fifty-six sandstone colums are equally spaced
+to form a circle almost a quarter of a mile in diameter.  The columns
+at the north, south, east and west are slightly larger to support a
+cross block, which forms the portal you just passed through.  A dirt
+path to the north leads to a stone altar in the center of the circle.
+  }
+  sector { City }
+  flags { neutral_only, neutral_altar }
+  exits {
+	to { n, 250 }
+	to { s, 40 }
+  }
+}
+
+253
+{
+  name { East End of the Shrine of Neutrality }
+  desc {
+"   As you walk under the Portal of the Rising Sun, you get a good look at
+the rest of the Shrine.  Fifty-six sandstone colums are equally spaced
+to form a circle almost a quarter of a mile in diameter.  The columns
+at the north, south, east and west are slightly larger to support a
+cross block, which forms the portal you just passed through.  A dirt
+path to the west leads to a stone altar in the center of the circle.
+  }
+  sector { City }
+  flags { neutral_only, neutral_altar }
+  exits {
+	to { e, 36 }
+	to { w, 250 }
+  }
+}
+
+254
+{
+  name { The Ante-Chamber to The Cathedral of Virtue }
+  desc {
+"   The power of goodness seems to exude out of the soft ivory paneling
+filling you with an inner strength.  No many how many times you enter
+this room, you never get over the feeling.  Just north of here, tow
+huge golden doors open to the main hall of the Cathedral.  Hesitantly,
+you notice that Woodmar Lane begins its journey south beyond the
+wooden doors of the Cathedral.
+  }
+  sector { City }
+  flags { good_only, good_altar }
+  exits {
+	to { n, 255 }
+	to { s, 20 }
+  }
+}
+
+255
+{
+  name { The Cathedral of Virtue }
+  desc {
+"   The air here is pure and almost sings with the glory of virtue!  Marble
+walls soar hundreds of feet in the air to support the barely visible
+ceiling.  Intricately carved statues depict the Gods and Goddesses of
+good in all their glory.  A bit to the north, the Alter of Spirituality
+pulses in a holy light.  The ante-chamber lies to the south, while two
+small acloves line the east and west walls. 
+  }
+  sector { City }
+  flags { good_only, good_altar }
+  exits {
+	to { n, 256 }
+	to { e, 258 }
+	to { s, 254 }
+	to { w, 257 }
+  }
+}
+
+256
+{
+  name { The Altar of Spirituality }
+  desc {
+"   The Altar of Spirituality stands before you, burning with the light of
+one-thousand suns.  The holy light fills you with excitement in your
+worship to the glory of goodness.  Here, pilgrims from across the land
+come to sacrifice in the name of Virtue.  The only exit from this glorius
+site leads back to the center of the Cathedral. 
+  }
+  sector { City }
+  flags { good_only, good_altar }
+  exits {
+	to { s, 255 }
+  }
+}
+
+257
+{
+  name { An Aclove West of the Cathedral }
+  desc {
+A smaller altar rests in this portion of the Cathedral for modest
+sacrifices and for the confession of sin.  Elaborate frescos telling
+the stories of the Gods of Virtue decorate the walls.  An exit to
+the east leads back to the main Cathedral.
+  }
+  sector { City }
+  flags { good_only, good_altar }
+  exits {
+	to { e, 255 }
+  }
+}
+
+258
+{
+  name { An Aclove East of the Cathedral }
+  desc {
+"   A small spring of holy water bubbles in a small pool set into the
+floor.  A few coins have been left at the bottom of the pool as a
+sacrifice to the Gods.  The walls are decorated with small frescos detailing
+the eventual victory over evil.  The only exit leads back to the main
+Cathedral.
+  }
+  sector { City }
+  flags { good_only, good_altar }
+  exits {
+	to { w, 255 }
+  }
+}
+
+259
+{
+  name { The Ante-Chamber to The Cathedral of Corruption }
+  desc {
+"   The obsidian walls exude the power of evil as they climb toward the
+ceiling.  Being this close to the main room of the Cathedral fills
+you with excitement.  The power of evil is much stronger than that
+of good, and you can feel it pulsing within your veins.
+Woodmar Lane lies just outside the doors to the north.
+  }
+  sector { City }
+  flags { evil_only, evil_altar }
+  exits {
+	to { n, 138 }
+	to { s, 260 }
+  }
+}
+
+260
+{
+  name { The Cathedral of Corruption }
+  desc {
+"   The blackened walls of the Cathedral twist and turn their way
+hundreds of feet into the air; rising in rebellion agains the feeble
+power of virtue.  A gaping hole in the ground reaks of the bowels of
+hell.  From the center of the pit, you feel the chilling power of evil
+begin to take hold...devouring...consuming...filling your soul to the
+very core.  Here, at the heart of Evil, you're stronger than one-
+thousand men.  The room to the south bears the Altar of Rebellion in
+inky darkness.  Pools of darkness to the left and right indicate
+extensions of the Cathedral.
+  }
+  sector { City }
+  flags { evil_only, evil_altar }
+  exits {
+	to { n, 259 }
+	to { e, 263 }
+	to { s, 261 }
+	to { w, 262 }
+  }
+}
+
+261
+{
+  name { The Altar of Rebellion }
+  desc {
+"   The Altar of Rebellion stands before you, engulfed in a shadow darker
+than the depths of Hell.  An irrational fear races through you...the
+power is too great...the cost too high...  Resolutely, you regain hold
+of your senses in time to prevent your sanity from slipping into the
+darkness.  Here, pilgrims from across the land come to sacrifice in the
+name of Evil.  A twisted passage to the north leads back to the Cathedral.
+  }
+  sector { City }
+  flags { evil_only, evil_altar }
+  exits {
+	to { n, 260 }
+  }
+}
+
+262
+{
+  name { An Aclove West of the Cathedral of Corruption }
+  desc {
+"   The wailing of ten thousand tortured souls echos through the chambers
+of the Cathedral.  The blood of the innocent trickles from the walls as
+the smell of burning flesh assails your nostrils.  A passage cloaked in
+darkness leads back to the Cathedral.
+  }
+  sector { City }
+  flags { evil_only, evil_altar }
+  exits {
+	to { e, 260 }
+  }
+}
+
+263
+{
+  name { An Aclove East of the Cathedral of Corruption }
+  desc {
+"  The heat of the forges of Hell rises from a hole in the floor.  Looking
+down the maw of the hole, you see an eerie red glow far below.  You
+quickly step back as the manical laughter of daemons fills your ears.
+A portal in the west wall leads back to the darkness of the Cathedral.
+  }
+  sector { City }
+  flags { evil_only, evil_altar }
+  exits {
+	to { w, 260 }
+  }
+}
+
+264
+{
+  name { On the Inverness River }
+  desc {
+"  The Inverness river flows from the sleuce gates in the east wall of
+the city of Midgard.  You might be able to make inside the sleuce gates
+if you paddle real hard and fight the horrendous current.  The river
+continues to the west at modest rate.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { e, Shark:1 }
+	to { w, 265 }
+  }
+}
+
+265
+{
+  name { On the Inverness River }
+  desc {
+"   The river here turns from the east to the south.  To the west, you
+have a great view of The Amber Rose Restraunt, finest dining spot in
+Midgard.  The mirrors crystal in the windows reflects the blue water
+of the Inverness.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { e, 264 }
+	to { s, 266 }
+  }
+}
+
+266
+{
+  name { On the Inverness River }
+  desc {
+"   The current flows briskly from the north and out toward the west.
+Just downstream, you see that Main Street crosses the Inverness in
+two places.  Between the two bridges is what appears to be a boat
+shop.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 265 }
+	to { w, 267 }
+  }
+}
+
+267
+{
+  name { Under a Bridge on Main Street }
+  desc {
+"   You're passing under the first bridge to cross the Inverness River.
+Looking up, you can see that a bright green moss has found a happy home
+under the wooden planks.  The current here flows briskly from east to
+west.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { e, 266 }
+	to { w, 268 }
+  }
+}
+
+268
+{
+  name { On the Inverness River }
+  desc {
+"  The pace of the Inverness quickens slightly as it curves from the east
+to the south.  On the north bank, you see a large building that could only
+be the town hall.  Bridges on Main Street cross the river both upstream
+and downstream of this location.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { e, 267 }
+	to { s, 269 }
+  }
+}
+
+269
+{
+  name { On the Inverness River }
+  desc {
+"   On the west shore, the Midgard Defense Headquarters keeps a clear
+eye out for danger.  A bridge arches over the blue waters of the 
+Inverness just downstream.  The current here flows from the north to the
+south.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 268 }
+	to { s, 270 }
+  }
+}
+
+270
+{
+  name { Under a Bridge on Main Street }
+  desc {
+"   The second bridge to cross the Inverness lies just overhead.  Even
+though they're continually pelted by water, the boards of the bridge
+show little sign of wear or decay...they must have been treated with
+a special material.  The current flows from the north to the south.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 269 }
+	to { s, 271 }
+  }
+}
+
+271
+{
+  name { On the Inverness River }
+  desc {
+"   A wooden bridge crosses the river just upstream.  A few rocks makes
+the way a bit more dangerous as the river curves from the north to
+the west.  There seems to be a fork in the river a bit downstream.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 270 }
+	to { w, 272 }
+  }
+}
+
+272
+{
+  name { On the Inverness River }
+  desc {
+"   The river here comes very close to the juncture of Circle Way and
+Main Street.  Looking carefully, you can see people stop to wave to
+you before continuing on their way.  The river curves from the east
+to the south.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { e, 271 }
+	to { s, 273 }
+  }
+}
+
+273
+{
+  name { On the Inverness River }
+  desc {
+"  The river picks up pace as it pounds its way southeast.  The current
+runs briskly from north to south, and, a bit downstream, the river
+forks off to the east and west.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 272 }
+	to { s, 274 }
+  }
+}
+
+274
+{
+  name { A Fork in the Inverness River }
+  desc {
+"  Just south of here, the Inverness river seems to have run into a very
+stubborn rock.  Rather than trying to move it, the river flows to both
+sides.  The main portion of the river continues to the west, and a
+small tributary branches off to the east.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 273 }
+	to { e, 275 }
+	to { w, 280 }
+  }
+}
+
+275
+{
+  name { On the Inverness River }
+  desc {
+"   The current slows down a bit now that you're off the main river.  The
+current here travels from the west and then makes a turn to the south.  Far
+downstream, you see the Catheral of Corruption looming on the horizon.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { s, 276 }
+	to { w, 274 }
+  }
+}
+
+276
+{
+  name { On the Inverness River }
+  desc {
+"   The river churns slowly from the north to the south.  There isn't much
+to see at this part of Midgard.  The industrial zone lies out of sight
+to the south.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 275 }
+	to { s, 277 }
+  }
+}
+
+277
+{
+  name { On the Inverness River }
+  desc {
+"   Iron Road crosses the river just down stream on its way to the 
+industrial section of Midgard.  To the southeast, a plume of smoke
+rises from one of a cluster of shops.  As you travel down this tributar,
+they river is becoming more and more shallow.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 276 }
+	to { s, 278 }
+  }
+}
+
+278
+{
+  name { Under the Bridge on Iron Road }
+  desc {
+"   The steel bridge above block out almost all light.  Luckily, it's
+narrow enough so that you don't lose all sense of vision.  A bit further
+south, you see that the river becomes little more than a trickle of
+water between the stones.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 277 }
+	to { s, 279 }
+  }
+}
+
+279
+{
+  name { The End of the Inverness River }
+  desc {
+"   It's become almost impossible to travel here by raft.  The current
+has slowed down and the bottom of the boat often scraps the riverbed.
+To the east, you see a huge wharf spanning the breadth of the Inverness.
+The current flows, as always, from north to south.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 278 }
+	to { s, 292 }
+	to { w, Wasteland:0 }
+  }
+}
+
+280
+{
+  name { On the Inverness River }
+  desc {
+"   To the east, the two tributaries of the Inverness River combine
+to form a larger river.  Glancing to the south, you see a few people
+on Iron Road waving hysterically.  Having gotten your attention, they
+smile broadly and go on about their business.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, Quinmoor:6 }
+	to { e, 274 }
+	to { s, 281 }
+  }
+}
+
+281
+{
+  name { On the Inverness River }
+  desc {
+"   The current here flows from the north down to the west.  The Shrine
+of Neutrality sits on the horizon to the northwest, while large wharf
+spans the Inverness River to the southwest.   A bit of water sloshes
+into the boat, getting your feet wet.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 280 }
+	to { w, 282 }
+  }
+}
+
+282
+{
+  name { On the Inverness River }
+  desc {
+"   Just upstream, a smaller tributary of the Inverness joins this branch
+to form a thicker, more powerful river.  The current flows from the
+east to the south, where it disappears under a huge wharf.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { e, 281 }
+	to { s, 283 }
+  }
+}
+
+283
+{
+  name { Under the Wharf }
+  desc {
+"   The northeast corner of the wharf blocks out almost all the sunlight
+from above.  The river churns among the huge posts which support the
+wharf.  You can go either upstream to the north or downstream to the
+south.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 282 }
+	to { s, 284 }
+  }
+}
+
+284
+{
+  name { Under the Wharf }
+  desc {
+"   This far under the wharf, it's become completely black.  The creaking
+of boards overhead indicate travelers crossing the wharf.  You briefly
+wonder if they know that you're under here.  You can travel either up-
+river to the north or downriver to the west.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 283 }
+	to { w, 285 }
+  }
+}
+
+285
+{
+  name { Under the Center of the Wharf }
+  desc {
+"   The river has taken you directly under the wharf which serves as
+a crossroads between Woodmar Lane and the Iron Road.  Directly overhead,
+a maintence hatch opens to the center of the wharf.  The river flows
+from east to west.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 101 }
+	to { e, 284 }
+	to { w, 286 }
+	to { u, 101 }
+  }
+}
+
+286
+{
+  name { Under the Wharf }
+  desc {
+"   The river has taken you to the far west side of the wharf.  The
+boards overhead completely blocks out all light.  The river takes
+another turn from the east down to the south.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { e, 285 }
+	to { s, 287 }
+  }
+}
+
+287
+{
+  name { Under the Wharf }
+  desc {
+"   Under the southwest corner of the wharf, a bit of daylight manages
+to peek through to light your way.  In this dim light the waters of
+the Inverness look almost black.  You can go either north or west.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 286 }
+	to { w, 288 }
+  }
+}
+
+288
+{
+  name { On the Inverness River }
+  desc {
+"  Glancing around, you notice the camp of the Shadow Guard off to the west.
+Watchful eyes keep a careful eye on you from atop barbed wire fences.  A
+bit farther to the south, you see a large iron grate blocking the way under
+the city wall.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { e, 287 }
+	to { s, 289 }
+  }
+}
+
+289
+{
+  name { On the Inverness River }
+  desc {
+"   Directly to the east, the Cathedral of Corruption raises its walls
+in defiance.  Even from this distance, you can sense the strong evil
+coming from the walls.  The current tends to carry your boat from the
+north to the south.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 288 }
+	to { s, 290 }
+  }
+}
+
+290
+{
+  name { Under the City Wall, On the Inverness River }
+  desc {
+"   The Inverness has carried you all the way to the southern city wall.
+To protect agains invaders, a sturdy iron grate has been put up to
+block both entry and exit.  The only other way out is back upstream
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 289 }
+	to { s, 291 }
+  }
+}
+
+291
+{
+  name { Drifting down the River }
+  desc {
+"   You aimlessly drift with the mild current downstream past the city
+wall of Midgard.  As you leave civilization behind, you feel peaceful.
+The river takes you slowly south which leads into a dense forest.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 290 }
+	to { s, Haondor_dark:45 }
+  }
+}
+
+292
+{
+  name { The End of the Inverness River }
+  desc {
+"   That's it...end of the line...The river has dried up so much that
+it's become impossible to travel further to the south.  If you
+struggled, you might be able to row your boat out of the muck further
+upstream.  Better try, cause it's the only way you'll get out of here.
+  }
+  sector { Water NoSwim }
+  flags { mapable }
+  exits {
+	to { n, 279 }
+  }
+}
+
+293
+{
+  name { 3293 }
+  desc {
+Empty
+  }
+  sector { City }
+}
+
+294
+{
+  name { 3294 }
+  desc {
+Empty
+  }
+  sector { City }
+}
+
+295
+{
+  name { Floating Through the Ether }
+  desc {
+"   This room gives you the exact same feeling as the null-space between
+Quick-Go Boothes...  The air here is charged with electricity as a
+powerful magic barrier keeps the chaos of the Ether from entering this
+abode.  In one corner of the room, a small three dimensional model of
+Midgard sits on a large, ebony table.  Mystical portals lead off in
+several different directions.
+  }
+  sector { City }
+  exits {
+	to { n, Void:15 }
+	to { e, Asgard:0 }
+	to { w, Asgard:1 }
+	to { d, 0 }
+  }
+}
+
+296
+{
+  name { 3296 }
+  desc {
+Empty
+  }
+  sector { City }
+}
+
+297
+{
+  name { 3297 }
+  desc {
+Empty
+  }
+  sector { City }
+}
+
+298
+{
+  name { 3298 }
+  desc {
+Empty
+  }
+  sector { City }
+}
+
+299
+{
+  name { 3299 }
+  desc {
+Empty
+  }
+  sector { City }
+}
+
+300
+{
+  name { 3300 }
+  desc {
+Empty
+  }
+  sector { City }
+}
+
+323
+{
+  name { 3323 }
+  desc {
+Empty
+  }
+  sector { City }
+}
+
+332
+{
+  name { The Barbarians' Practice Field }
+  desc {
+"   A field of waving grass stretches out in all directions as far as the
+eye can see.  It's an illusion, of course, but it still brings back
+memories of the barbarian way of life before this...city.  The only
+thing in the field besides yourself is your guildmaster. 
+  }
+  sector { City }
+}
+
+360
+{
+  name { Council Chambers }
+  desc {
+The council chambers are fairly plain.  A large, round table sits in the 
+center, surrounded by nine chairs.  Each of the chairs is marked with a name;
+Toidi, Bingo, Krisanth, and so on, for each of the council members.  A vending
+machine is to the south, filled with all sorts of yummies and goodies. At
+resonable prices.  The mayors office lies to the west, where the mayor goes
+to relax after the council meetings.  You see a large sign on the wall, and
+a smaller one below it.
+  }
+  extra {
+	keywords { sign" }
+	desc { The large sign says 'NO SMOKING!'
+	}
+	keywords { 2.sign small smaller" }
+	desc { The small sign says : 'no bloodshed, please'
+	}
+	keywords { vending machine" }
+	desc { It emits a faint humming sound!
+You can see all sorts of goodies...M&M's, snickers, butterfingers...
+	}
+  }
+  exits {
+	to { w, 361 }
+	  key { 3361 }
+	  info { door, closed }
+	  keywords { mayors door" }
+	to { d, 60 }
+	  key { 3360 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+361
+{
+  name { The Mayors Office }
+  desc {
+The mayors office is large and spacious.  A large desk sits in the north west 
+wall, with stacks of papers neatly arranged on top of it.  Along the west 
+wall lies a comfortable looking couch, and a coke machine is next to it. 
+Atop the desk is a large gavel, humming softly.  It looks dangerous, so you 
+decide not to touch it.  To the south, you can see a partially open closet,
+with something inside.  Putting two gold into the coke machine, you settle
+back onto the couch and wait.
+  }
+  extra {
+	keywords { closet" }
+	desc { The closet is open, and peeking inside, you see several skimpy undergarments
+that the mayor wears when shes alone with Deth.  Embarrased, she quickly 
+closes it.	}
+	keywords { gavel" }
+	desc { It looks like a oversized mallet.
+It emits a faint humming sound!
+	}
+	keywords { coke machine" }
+	desc { The coke machine glows softly....it emits a faint humming sound!
+	}
+	keywords { desk" }
+	desc { A well worn, well used desk.  It has a comfortable chair.
+	}
+	keywords { papers paper" }
+	desc { The stack of papers threaten to overflow and swamp the room.  Good thing they
+dont...you might die from paper cuts.
+	}
+	keywords { couch" }
+	desc { The couch looks like the right place to go to sleep.
+	}
+  }
+  exits {
+	to { e, 360 }
+	  key { 3361 }
+	  info { door, closed }
+	  keywords { mayors door" }
+  }
+}
+
+396
+{
+  name { Path behind Temple }
+  desc {
+"   You stand on an eerie path just to the side of the Temple of Corruption.
+The black obsidian walls stretch up far above you, and reach toward the sky
+with an air of rebellion.  You can follow the path up into town, or continue
+south, towards the object of its dark intentions...
+  }
+  flags { no_mob }
+  exits {
+	to { s, 397 }
+	to { u, 138 }
+  }
+}
+
+397
+{
+  name { Path behind Temple }
+  desc {
+"  The sounds of the city have faded into non-existence, leaving in their
+wake no replacement.  No bird cries are heard, and no foot treads without
+fear.  It seems to be growing darker and darker as you approach your desti-
+nation.
+  }
+  exits {
+	to { n, 396 }
+	to { s, 398 }
+  }
+}
+
+398
+{
+  name { Path to Graveyard }
+  desc {
+"   This place is pure evil.  You feel it under your skin; through your bones,
+to the tips of your fingers.  A dawning hatred and bitter menacing cold tears
+through you like a biting wind.  The path ends just to the south, and travels
+north towards the southern end of Midgard.
+  }
+  exits {
+	to { n, 397 }
+	to { s, 399 }
+  }
+}
+
+399
+{
+  name { Entrance to Graveyard }
+  desc {
+"  You stand just outside the old burial grounds of the city of Midgard.  The
+place is completely silent; no breeze, no bird-call, no life.  It is as if
+all life is repelled by the cold tombstones, which stretch on farther than
+you care to know.  You realize that you are depressed; even deeper, you are
+scared.  The gate between you and the graveyard mocks you silently, beckoning
+endlessly...
+  }
+  exits {
+	to { n, 398 }
+	to { s, Graveyard1:0 }
+	  info { door, closed }
+	  keywords { gate" }
+  }
+}

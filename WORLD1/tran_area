@@ -1,0 +1,6 @@
+#!/bin/sh
+rm -f temp_area
+echo '#include <area.list>' > temp_area
+echo "#offset $1" >> temp_area
+cat $1 >> temp_area
+tran room temp_area area.out

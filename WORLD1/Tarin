@@ -1,0 +1,1933 @@
+
+0
+{
+  name { Inside the mountain }
+  desc {
+"   You stand in front of a beautiful golden cave ingraved in the
+mountain. An area of ten feet around the cave has been cleared to pre-
+vent any hostile creatures from entering.  When you look down the
+stairs in the cave, you notice that these stairs in fact have not been
+used too much  because  of the thick layer of dust that lies upon them.
+  }
+  sector { Mountains }
+  flags { no_mob }
+  exits {
+	to { n, 52 }
+	  key { 33036 }
+	  info { door, closed }
+	  keywords { gate" }
+	  desc { You see the golden gate.
+}
+	to { d, 1 }
+	  desc { You see the marble stairs leading into the ancient tombs of Tarin.
+}
+  }
+}
+
+1
+{
+  name { Entrance to Tombs of Tarin }
+  desc {
+"   You walk down the  marble stairs to the tombs of Tarin. Large
+boulders from the roof have destroyed part of the stairs, but it seems
+safe enough to climb down the next few feet. A bronze plate has been
+nailed to the roof above the stairs.
+You can go up and down from here.
+  }
+  sector { Hills }
+  extra {
+	keywords { plate" }
+	desc { "
+   ************************************************************
+   *           Welcome to the Silvery Tombs of Tarin          *
+   *                  The King and The Queen                  *
+   ************************************************************
+
+	}
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { u, 0 }
+	  desc { You see the stairs leading up from the tombs of Tarin.
+}
+	to { d, 2 }
+	  desc { You see the marble stairs leading down.
+}
+  }
+}
+
+2
+{
+  name { Upper half of the broken stairs }
+  desc {
+"   You find yourself  standing at the edge of what  once was the marble
+stairs leading into the tomb. Enormous boulders have wrecked the
+stairs, and if you decide to take the jump down, it seems impossible to
+get up again.
+You can go down and up from here.
+  }
+  sector { Hills }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { u, 1 }
+	  desc { You see the marble stairs leading up.
+}
+	to { d, 3 }
+  }
+}
+
+3
+{
+  name { Lower half of the broken stairs }
+  desc {
+"   You decide to take the jump down the stairs, well aware that it
+seems impossible to climb back up this way. The only thing that troub-
+les you is the speed you fly with .
+                          Woooo
+                               oooo
+                                   oo
+                                     o
+                                      o
+                                      o
+                                      owwwww. Your heart skips a few
+beats, then relaxes as you find yourself safe on the lower stairs. The
+only way is down from here.
+  }
+  flags { dark, indoors }
+  exits {
+	to { u, Void:-1 }
+	  desc { You can see the stairs some feet above, and wonder how you could ever
+get back from here.
+}
+	to { d, 5 }
+  }
+}
+
+4
+{
+  name { Vault of heroes }
+  desc {
+"   You enter a huge hall occupied with stone statues of long forgotten
+heroes. The  statues seem  indestructable, and hanging from each one is
+a small gold plate with some writing on it. Besides the dust and the
+dry air, this room amazes you by it's beauty.
+  }
+  sector { City }
+  extra {
+	keywords { statue statues" }
+	desc { You see large stone statues, and each and every one of them has the
+look of some hero from the past.
+	}
+	keywords { plate plates" }
+	desc { You see plates with a strange cryptic writing, unknown to you.
+	}
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { w, 5 }
+	  desc { You see the entrance hall.
+}
+  }
+}
+
+5
+{
+  name { Entrance hall of Tarin }
+  desc {
+"   Below the stairs you find this  beautiful hall made out of stone.
+Large banners hang from the roof and on each banner there is an  eagle
+painted. In the middle of the hall you find a well springing with
+crystal clear water. Around the well there are small bottles hanging
+with ropes attached to them. To the east you see a pair of large bronze
+doors leading into the vault of heroes.
+  }
+  sector { City }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 6 }
+	to { e, 4 }
+	  desc { You see the vault of heroes
+}
+	to { s, 7 }
+	to { w, 86 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see a lift door.
+}
+	to { u, Void:-1 }
+	  desc { You see the broken stairs.
+}
+  }
+}
+
+6
+{
+  name { Marble hallway }
+  desc {
+"   You stand in a marble corridor leading east from here. The light
+gives the walls some fantastic colours and to the east you notice a
+faint light.
+You can go south and east from here.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 38 }
+	to { s, 5 }
+  }
+}
+
+7
+{
+  name { Guardmens corridors }
+  desc {
+"   Standing inside  this dim lit  corridor with doors on each side, you
+notice the silence and the cleanliness of these parts. Perhaps the gu-
+ards are on duty. To the south the corridor continues and to the west
+and east there's a couple of doors.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 5 }
+	to { e, 9 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see a door leading into the private barraks.
+}
+	to { s, 11 }
+	to { w, 8 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see the door leading into the officers barraks.
+}
+  }
+}
+
+8
+{
+  name { Officers barraks }
+  desc {
+"   You enter a room perfectly furnished for the high ranked members of
+this community. Sofas, chairs and tables are placed around a fireplace
+in the middle of the room.
+  }
+  sector { City }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 10 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see the door to the sleeping barraks.
+}
+	to { e, 7 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see the door leading out on the corridor.
+}
+  }
+}
+
+9
+{
+  name { Private barraks }
+  desc {
+"   You stand inside the privates section of the guardmens corridor. A
+few guards lie sleeping and it seems to you that the privates have
+neglected the cleaning in here for a long time.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 7 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see a door leading out on the corridor.
+}
+  }
+}
+
+10
+{
+  name { Officers sleeping quarters }
+  desc {
+"   You enter a dull room o*cupied with beds. The guards wouldn't like
+it if they found you here, so most people never stay around. The only
+f  zit is to the south.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { s, 8 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see the barracks.
+}
+  }
+}
+
+11
+{
+  name { Bend in corridors }
+  desc {
+"   You walk along the corridors until you arrive at this point where
+the corridor turns. To the west you see a door with a sign and to the
+north and east are the corridors.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 7 }
+	to { e, 13 }
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { Kitchen }
+  desc {
+"   You enter the guardmens kitchen and find a few bottles and other
+tools used by cooks to make food. The smell of good food reaches you,
+and you feel hungry.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 11 }
+	to { s, 15 }
+	  info { door, closed }
+	  keywords { fridge" }
+	  desc { You see the fridge.
+}
+  }
+}
+
+13
+{
+  name { Guardmens corridors }
+  desc {
+"   You walk along the doors in these  guardmens corridors. On each side
+of the corridor there is a door. A few torches give this corridor a
+comfortable light.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, Void:-1 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see a door.
+}
+	to { e, 16 }
+	to { s, 14 }
+	  desc { You see the bathroom.
+}
+	to { w, 11 }
+  }
+}
+
+14
+{
+  name { Bathroom }
+  desc {
+"   You enter a room that serves as a bathroom, from the roof runs
+crystal clear water down into a  little pool in the middle of the room.
+This looks like the best place to bathe. You can go north from here.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 13 }
+	  desc { You see the guardmens corridors.
+}
+  }
+}
+
+15
+{
+  name { Fridge }
+  desc {
+"   This is a very cold room, everything is Freeeeezzzing. Large chunks
+of meat are placed on hooks above a few barrels.
+  }
+  flags { dark, no_mob }
+  exits {
+	to { n, 12 }
+	  info { door, closed }
+	  keywords { fridge" }
+	  desc { You look out from the fridge.
+}
+  }
+}
+
+16
+{
+  name { Guardmens corridors }
+  desc {
+"   Walking along the corridors, you arrive at this noisy place. A few
+feet to the north you see a bar that looks rather tempting. To the
+south lies the blacksmith. You can also to follow the corridor east and
+west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 17 }
+	to { e, 25 }
+	to { s, 18 }
+	to { w, 13 }
+  }
+}
+
+17
+{
+  name { The Inn for heroes }
+  desc {
+"   You enter a large room with chairs and tables everywhere. A large
+bar up against the north wall attracts all attention. Behind the
+counter stand large barrels with beer and ale. Stairs leads up to the
+second floor.
+  }
+  extra {
+	keywords { lid" }
+	desc { A closed lid behind the barrels seems unpickable.
+The lid is closed.
+	}
+	keywords { barrels barrel" }
+	desc { You see quite a few empty barrels, a closed lid behind one of the
+barrels lead somewhere unknown.
+	}
+	keywords { stairs" }
+	desc { A red carpet runs up the stairs covering the old wooden stairs below
+it.
+The stairs have been used quite alot and you wonder where they lead.
+	}
+	keywords { bar" }
+	desc { The bar is old but very well kept. Quite a few bottles, empty and full,
+rest upon it.
+	}
+  }
+  exits {
+	to { s, 16 }
+	to { u, 19 }
+	  desc { Stairs lead up to the second floor.
+}
+  }
+}
+
+18
+{
+  name { Inside the weapon shop }
+  desc {
+"   You enter a room used by the blacksmith's in Tarin as a shop to sell
+their wares. A counter in the middle of the room reflects the size of
+the weapons behind it.
+  }
+  extra {
+	keywords { counter" }
+	desc { It's rather big and made of oak.
+	}
+	keywords { weapons" }
+	desc { You see battleaxes, swords, daggers and all kinds of weapons.
+	}
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 16 }
+  }
+}
+
+19
+{
+  name { Balcony above the bar }
+  desc {
+"   You stand on a balcony above the bar with dozens of doors in front
+of you. These doors lead into small rooms used by the bar guests. The
+walls are painted red and there are a few pot plants. This gives this
+balcony a certain look as a whore house.
+  }
+  extra {
+	keywords { plant plants" }
+	desc { They are pretty and well kept.
+	}
+  }
+  exits {
+	to { n, 21 }
+	to { s, Void:-1 }
+	  desc { You look down at the bar. People sit at tables talking, not taking any
+notice of you.
+}
+	to { w, 20 }
+	  desc { You see a door leading into a room.
+}
+	to { d, 17 }
+	  desc { Stairs leads down into the bar.
+}
+  }
+}
+
+20
+{
+  name { Dimly lit room }
+  desc {
+"   You enter a dimly lit room dominated by a large bed. A few pictures
+of people you don't know are on a small table nf  zt to the bed. A large
+wardrobe stands against the northern wall. The wardrobe is closed.
+  }
+  extra {
+	keywords { bed" }
+	desc { It looks very soft and most people would find it very comfortable.
+	}
+	keywords { table" }
+	desc { You see a large wooden table.
+	}
+	keywords { wardrobe" }
+	desc { You take a few step closer to the wardrobe and discover that it can be
+opened.
+	}
+	keywords { pictures picture" }
+	desc { The picture looks like the woman who sleeps in this bed. Beside her
+stands an enormous man with an evil look in his eyes.
+	}
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 23 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see the wardrobe door leading into a huge wardrobe.
+}
+	to { e, 19 }
+	  desc { You see the balcony
+}
+  }
+}
+
+21
+{
+  name { Abandoned room }
+  desc {
+"   You enter a room with all the standard equipment for a room, a bed
+and beside that a table. A large wardrobe and carpet on the floor.
+Besides all this, you find this room untouched and there is a thick
+layer of dust on the floor.
+  }
+  extra {
+	keywords { wardrobe" }
+	desc { The wardrobe is huge, and made of oak.
+The wardrobe is open.
+	}
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { s, 19 }
+  }
+}
+
+22
+{
+  name { A bend in the dark forest }
+  desc {
+"   You are standing at a ben in the very dark forest of Haon-door. To the
+north lies an un-investigated part of the forest, and by the looks of it
+you sure understands why.
+  }
+  exits {
+	to { s, 89 }
+	to { w, 88 }
+  }
+}
+
+23
+{
+  name { Inside the wardrobe }
+  desc {
+"   You enter the wardrobe and find it rather big compared to the usual
+size of wardrobes. Clothes and other personal stuff hang all around
+you.
+There seem to some sort of a lid on the wardrobe floor.
+  }
+  extra {
+	keywords { clothes clothe" }
+	desc { On the wardrobe floor lies a lot of dirty clothes.
+	}
+  }
+  exits {
+	to { s, 20 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see the dim lit room through a little hole in the door.
+}
+	to { d, 24 }
+	  key { 33006 }
+	  info { door, closed }
+	  keywords { lid" }
+	  desc { You quickly remove all the clothes and dust on the wardrobe floor and
+find a lid in the floor.
+}
+  }
+}
+
+24
+{
+  name { Wine cellar }
+  desc {
+"   You crawl down the ladder and end up in this huge wine cellar below
+the inn. All around you there are enormous barrels filled with wine and
+other unknown liquids. A few lanterns nailed to the roof light up the
+rooms with a pale yellow light that makes the barrels look like huge
+monsters. The air is damp and most people would start looking for the
+exit at once.
+  }
+  extra {
+	keywords { lantern lanterns" }
+	desc { The lanterns seem to be out of reach and you wonder how they ever could
+light up this entire room without any kind of magic.
+	}
+	keywords { barrels" }
+	desc { You take a good look at all the enormous barrels and find that some of
+them seems to be empty or at least untouched for ages. From others wine
+drips from the taps.
+	}
+  }
+  exits {
+	to { e, 26 }
+	  info { door, closed }
+	  keywords { secret" }
+	  desc { You see a secret door leading into the secret tunnel.
+}
+	to { u, 23 }
+	  key { 33006 }
+	  info { door, closed }
+	  keywords { lid" }
+	  desc { You see a ladder leading up to a lid in the roof.
+}
+  }
+}
+
+25
+{
+  name { Behind the curtain }
+  desc {
+"   You stand at the end of the guardmens corridors. A curtain to the
+north hides the marble halls. This room is meant for guards that should
+be able to enter the marble halls within a few seconds. To the north is
+the curtain and to the west lies the guardmens corridors.
+  }
+  extra {
+	keywords { wall" }
+	desc { The walls end abruptly, and turns north and west.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 27 }
+	  info { door, closed }
+	  keywords { curtain silk red" }
+	  desc { You see a silk red curtain leading north.
+}
+	to { w, 16 }
+  }
+}
+
+26
+{
+  name { Secret tunnel }
+  desc {
+"   You walk inside a very secret tunnel below the inn for heroes.
+  }
+  exits {
+	to { e, 17 }
+	  info { door, closed }
+	  keywords { lid" }
+	  desc { You see a lid.
+}
+	to { w, 24 }
+	  info { door, closed }
+	  keywords { secret" }
+	  desc { You see a secret door leading out of the secret tunnel.
+}
+  }
+}
+
+27
+{
+  name { Southern marble hall }
+  desc {
+"   You stand inside an enormous white marble hall perfectly shaped into
+the mountain. Four large pillars, all reflecting a different light,
+stand in each corner, bearing the roof of the white hall. In the middle
+of the hall stands a huge golden throne.
+  }
+  extra {
+	keywords { pillar pillars" }
+	desc { The pillars in each corner of the hall send you different beautiful
+colours
+	}
+  }
+  flags { no_mob, indoors, private }
+  exits {
+	to { n, 35 }
+	  desc { You see the throne.
+}
+	to { e, 34 }
+	  desc { You see the south east pillar.
+}
+	to { s, 25 }
+	  info { door, closed }
+	  keywords { curtain silk red" }
+	  desc { You see a silk red curtain leading south.
+}
+	to { w, 28 }
+  }
+}
+
+28
+{
+  name { Diamond pillar }
+  desc {
+"   You stand below an enormous pillar made out of the largest diamond
+you have ever seen in your entire life. You try to hide the tears in
+your eyes as you look at this hall. Nothing could possibly be half as
+beautiful as this *sniff*.
+  }
+  extra {
+	keywords { pillar" }
+	desc { You see the diamond pillar. It's huge and made of diamonds. A white and
+blue sparkling light comes from it.
+	}
+  }
+  flags { indoors, private }
+  exits {
+	to { n, 29 }
+	to { e, 27 }
+  }
+}
+
+29
+{
+  name { Western marble hall }
+  desc {
+"   You stand inside an enormous white marble hall perfectly shaped into
+the mountain. Four large pillars, all reflecting a different light,
+stand in each corner bearing the roof of the white hall. In the middle
+of the hall, east from here, stands a large golden throne.
+  }
+  extra {
+	keywords { pillar pillars" }
+	desc { The pillars in each corner of the hall send you different beautiful
+colours.
+	}
+  }
+  flags { no_mob, indoors, private }
+  exits {
+	to { n, 30 }
+	to { e, 35 }
+	  desc { You see the throne.
+}
+	to { s, 28 }
+	to { w, 39 }
+	  info { door, closed }
+	  keywords { curtain" }
+	  desc { You see a red silk curtain.
+}
+  }
+}
+
+30
+{
+  name { Ruby pillar }
+  desc {
+"   You stand below an amazing pillar made out of one crystal clear
+ruby. Like the rest of the hall, this room reflects nothing but beauty8and peace.
+  }
+  extra {
+	keywords { pillar" }
+	desc { A dazzling red and white light comes from this the ruby pillar.
+	}
+  }
+  exits {
+	to { e, 31 }
+	to { s, 29 }
+  }
+}
+
+31
+{
+  name { Northern marble hall }
+  desc {
+"   You stand just north of the golden throne in the marble hall. To the
+north hangs a curtain covering a corridor behind it. From time to time
+you hear a mumbling and a muffled laugh from the north.
+  }
+  extra {
+	keywords { pillar" }
+	desc { The pillars in each corner of the hall send you different beautiful
+colours.
+	}
+  }
+  flags { no_mob, indoors, private }
+  exits {
+	to { n, 41 }
+	  info { door, closed }
+	  keywords { curtain" }
+	  desc { You see a red, silk curtain with dirt stains on it.
+}
+	to { e, 32 }
+	to { s, 35 }
+	  desc { You see the throne.
+}
+	to { w, 30 }
+  }
+}
+
+32
+{
+  name { Sapphire pillar }
+  desc {
+"   You stand below an amazing pillar made out of one crystal clear
+sapphire. Like the rest of the hall, this room reflects nothing but
+beauty and peace.
+  }
+  extra {
+	keywords { pillar" }
+	desc { This pillar reflects a fantastic green colour that almost blinds you.
+	}
+  }
+  flags { indoors, private }
+  exits {
+	to { s, 33 }
+	to { w, 31 }
+  }
+}
+
+33
+{
+  name { Eastern marble hall }
+  desc {
+"   You stand inside the ancient marble hall of Tarin. To the west lies
+the golden throne. To the east there is a large bronze door blocking
+something hidden to everyone. Above the door, there are some runes
+carved into the hall wall.
+  }
+  extra {
+	keywords { pillar pillars" }
+	desc { The pillars in each corner of the hall send you different beautiful
+colours.
+	}
+	keywords { runes" }
+	desc { The runes read : Treasure room of Tarin
+	}
+  }
+  flags { indoors, private }
+  exits {
+	to { n, 32 }
+	to { e, 36 }
+	  key { 33024 }
+	  info { door, closed }
+	  keywords { secret" }
+	  desc { You see a secret door leading east.
+}
+	to { s, 34 }
+	to { w, 35 }
+  }
+}
+
+34
+{
+  name { Emerald pillar }
+  desc {
+"   You stand below an amazing pillar made out of large emeralds. Like
+the rest of the hall, this room reflects nothing but beauty and peace.
+  }
+  extra {
+	keywords { pillar" }
+	desc { The pillar seems to sizzle with a dazzling red light.
+	}
+  }
+  flags { indoors, private }
+  exits {
+	to { n, 33 }
+	to { w, 27 }
+	  desc { The hall.
+}
+  }
+}
+
+35
+{
+  name { Below the huge golden throne }
+  desc {
+"   You stand below the golden throne of Tarin. As you look up,
+you notice the beautiful craftmanship of this throne. A letter lies on
+the stairs that leads up to the throne. From somewhere above you, you
+hear someone sniffing.
+  }
+  extra {
+	keywords { pillar pillars" }
+	desc { From here all the colours of the four pillars meet and the colours
+transform into the most beautiful white silver colour you have ever
+seen. Above these colours a huge golden throne rises.
+	}
+	keywords { letter" }
+	desc { Wife,
+Nothing will ever part us in our quest for justice, nothing will come
+between us in our search for love. We will be together forever, if not
+here then where?
+Tarin.
+	}
+  }
+  flags { indoors, private }
+  exits {
+	to { n, 31 }
+	  desc { You see a curtain.
+}
+	to { e, 33 }
+	to { s, 27 }
+	  desc { You see a curtain to the south.
+}
+	to { w, 29 }
+	  desc { You see a curtain to the west.
+}
+	to { u, 37 }
+  }
+}
+
+36
+{
+  name { Treasure room of Tarin }
+  desc {
+"   You enter a dark room only lit by the light you carry. Large chests
+and desks rest on the floor together with various valueable carpets.
+  }
+  flags { dark, no_mob, indoors, private }
+  exits {
+	to { e, 44 }
+	  info { door, closed }
+	  keywords { secret" }
+	  desc { You see a secret door leading into the pr of m.ate chambers of the queen.
+}
+	to { w, 33 }
+	  key { 33024 }
+	  info { door, closed }
+	  keywords { secret" }
+	  desc { You see a secret door leading west.
+}
+  }
+}
+
+37
+{
+  name { Golden throne }
+  desc {
+"   You climb up the stairs and find yourself upon the throne about ten
+feet above the hall ground. The throne ends in an enormous chair which
+isn't meant for any human being.
+  }
+  flags { indoors, private }
+  exits {
+	to { d, 35 }
+  }
+}
+
+38
+{
+  name { Marble hallway }
+  desc {
+"   You stand in a marble hallway leading into the ancient marble hall.
+The light from the east becomes stronger and you sense magic when you
+look to the east.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 39 }
+	to { w, 6 }
+  }
+}
+
+39
+{
+  name { Eastern end of the marble hallway }
+  desc {
+"   You stand just west of a red silk curtain that leads into the marble
+hall. To the north lies the guard head-quarters and quite a few noises
+seem to come from there.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 40 }
+	to { e, 29 }
+	  info { door, closed }
+	  keywords { curtain" }
+	  desc { You see a red silk curtain leading into the marble hall.
+}
+	to { w, 38 }
+  }
+}
+
+40
+{
+  name { Guards head-quarters }
+  desc {
+"   You enter room filled with smoke. Also chairs and tables are spread
+out on the floor together with large piles of paper, lying in random
+order on the largest table.
+  }
+  exits {
+	to { s, 39 }
+	to { u, 87 }
+	  info { door, closed }
+	  keywords { secret" }
+	  desc { There is a secret ladder placed on the roof.
+}
+  }
+}
+
+41
+{
+  name { Dark corridor }
+  desc {
+"   Standing inside this dark corridor you notice that there's a
+fresh wind coming from somewhere up north. A thick layer of dust on the
+floor demonstrates the fact that this corridor is deserted and hasn't
+been used for ages.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 42 }
+	to { s, 31 }
+	  info { door, closed }
+	  keywords { curtain" }
+	  desc { You see a dirty curtain leading into the marble hall.
+}
+  }
+}
+
+42
+{
+  name { Dark corridor }
+  desc {
+"   You arrive at a point where the fresh wind comes from above, and
+when you look up you notice the faint light from the sun shining above
+you.
+You can go up and south from here.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { s, 41 }
+	to { u, 43 }
+  }
+}
+
+43
+{
+  name { Secret exit }
+  desc {
+"   You are climbing a ladder that leads into the entrance to the tombs.
+A thick layer of dust covers everything and you must hang on to the
+ladder with all of your strength to avoid falling down. There is a
+little secret exit when you look up from here.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { u, 0 }
+	  desc { You see the entrance from here.
+}
+	to { d, 42 }
+  }
+}
+
+44
+{
+  name { Silvery rooms of privacy }
+  desc {
+"   You enter a colourful room mostly painted in silver. An enormous bed
+rests on the floor. A mirror and a table stand up against the north
+wall. Pictures stand on the shelves and on the table.
+  }
+  extra {
+	keywords { picture pictures" }
+	desc { You see  many  pictures of the queen and the king, Tarin. Some of the
+pictures are even taken with the queen in the shape of a silver dragon.
+Others taken in her human body. She is without doubt the most beautiful
+woman there ever existed.
+The smallest picture is that of a girl. She has silvery hair and
+crystal blue eyes.
+As you look at the last picture, you notice small dried tears.
+	}
+  }
+  flags { dark, no_mob, indoors, private }
+  exits {
+	to { w, 36 }
+	  info { door, closed }
+	  keywords { secret" }
+	  desc { You see a secret door leading into the treasury.
+}
+  }
+}
+
+45
+{
+  name { Forgotten realm }
+  desc {
+"   You enter an ugly corridor in the mountain. Heat and smoke rises
+from the ground and you sense danger everywhere. Large boulders lie
+scattered all around, and every now and then you seem to notice
+screams.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { e, 46 }
+	to { w, 69 }
+	  desc { You see the entrance below the burned tree.
+}
+  }
+}
+
+46
+{
+  name { Deeper Realm }
+  desc {
+"   You stand inside the deeper realms of terror, and you DO feel
+terrified by the heat and the sudden movements everywhere.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 47 }
+	to { w, 45 }
+  }
+}
+
+47
+{
+  name { Elemental realm }
+  desc {
+"   You walk right into what normal people would condider a death trap,
+but you barely endure the heat and black magic that constantly makes
+you tremble with fear.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { e, 48 }
+	to { s, 46 }
+  }
+}
+
+48
+{
+  name { Undead realm }
+  desc {
+"   You enter a foul smelling part of the corridor and find human bones
+and flesh everywhere. Large boulders have destroyed some of the corri-
+dor but you can continue from here.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { s, 49 }
+	to { w, 47 }
+  }
+}
+
+49
+{
+  name { Spider realm }
+  desc {
+"   You stand in a webbed part of the tunnel. Large chunks of tainted
+meat lies on the floor, and the smell is awful.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 48 }
+	to { e, 50 }
+  }
+}
+
+50
+{
+  name { Realm of Illusions }
+  desc {
+"   You enter the last realm of the illusion. Silence is unknown and
+pain is the only soil ezistence. From the roof and walls runs a liquid
+equally coloured as blood. Screams and shouts from the east would scare
+most people from entering the lair.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { e, 51 }
+	  key { 33030 }
+	  info { door, closed }
+	  keywords { death gate" }
+	  desc { You see the gate of death leading into the lair.
+}
+	to { w, 49 }
+  }
+}
+
+51
+{
+  name { Lair of the Dead }
+  desc {
+"   You stand inside what seems to be a large cocoon. Half decayed
+corpses lie everywhere together with bones of humans, dwarves, elves
+and others.
+The entire room seems to be alive.
+  }
+  flags { dark, no_mob, indoors, private }
+  exits {
+	to { w, 50 }
+	  key { 30 }
+	  info { door, closed }
+	  keywords { death gate" }
+	  desc { You see one of the realms.
+}
+  }
+}
+
+52
+{
+  name { Trail up on a little mountain }
+  desc {
+"   You ascend up the mountain and find yourself standing before a huge
+gate that blocks the road into the mountain. The gate is made of gold
+and on each side of the gate stand enormous stones that make it impos-
+sible to walk around the gate.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 53 }
+	to { s, 0 }
+	  key { 33036 }
+	  info { door, closed }
+	  keywords { gate" }
+	  desc { You see the golden gate blocking the entrance to the mountain.
+}
+  }
+}
+
+53
+{
+  name { Bottom of a mountain }
+  desc {
+"   You stand in front of a mountain to the south, the forest ends as
+suddenly  as it started. The mountain to the south has a small path
+leading up it. Large stones on each side of the trail have writing on
+them.
+  }
+  sector { Hills }
+  extra {
+	keywords { stones writing stone" }
+	desc { These mountains are under the protection of the royal court of Tarin.
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 54 }
+	to { s, 52 }
+  }
+}
+
+54
+{
+  name { Old trail through the forest }
+  desc {
+"   As you enter this bend in the trail, you instantly notice the sudden
+difference in the forest. Here there trail seems wide and well used
+and the trail is very easy to follow.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 53 }
+	to { w, 55 }
+  }
+}
+
+55
+{
+  name { Old trail through the forest }
+  desc {
+"   Walking along the trees on each side of the trail, you arr of m.e at
+this section of the forest. The trees here seem to be several hundred
+feet high and the forest floor is green with mushrooms and grass. The
+forest can be entered to the south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 54 }
+	to { s, 66 }
+	  desc { You see the dense forest to the south.
+}
+	to { w, 56 }
+	  desc { You see an old trail.
+}
+  }
+}
+
+56
+{
+  name { Clearing in the forest }
+  desc {
+"   Standing in a little clearing in the forest, you notice a little
+pool with clear water just below a solitary rock a few feet to the
+south. The sun shines freely here and you wonder if this is paradise.
+The trail continues west and east, and to the south an old bridge
+crosses a dark river of mud.
+  }
+  sector { Forest }
+  exits {
+	to { n, Void:-1 }
+	  desc { You see an old bridge.
+}
+	to { e, 55 }
+	  desc { You see an old dark trail.
+}
+	to { w, 57 }
+	  desc { You see a trail in the dense forest.
+}
+	to { d, 68 }
+	  desc { You look at yourself in the pool, and suddenly you see something shine
+at the buttom of the pool.
+}
+  }
+}
+
+57
+{
+  name { Old trail through the forest }
+  desc {
+"   You arr ve at another bend in the trail and find that trail continu-
+es to the east and south. The trees hover above you and take no action
+against you. To the east you see a clearing in forest where the sun
+shines freely on the forest floor.
+  }
+  sector { Forest }
+  exits {
+	to { e, 56 }
+	  desc { You see an old trail.
+}
+	to { s, 58 }
+	  desc { You see a trail in the dense forest.
+}
+  }
+}
+
+58
+{
+  name { Old trail through the forest }
+  desc {
+"   You walk along the trail in the forest and sense the peace and the
+beauty of this forest and wonder why noone ever settled down out here.
+This place is really charming.
+  }
+  sector { Forest }
+  exits {
+	to { n, 57 }
+	  desc { You see a trail in the dense forest.
+}
+	to { s, 59 }
+	  desc { You see a trail in the forest.
+}
+  }
+}
+
+59
+{
+  name { Bend on the old trail through the forest }
+  desc {
+"   You arr ve at a crossing of two forest trails.  The trees stand
+quite close together, but you can continue in all directions.
+  }
+  sector { Forest }
+  exits {
+	to { n, 58 }
+	  desc { You see a trail in the forest.
+}
+	to { e, 63 }
+	  desc { You could enter the dense forest to the east.
+}
+	to { s, 67 }
+	to { w, 60 }
+	  desc { You see an old trail in the forest.
+}
+  }
+}
+
+60
+{
+  name { Trail through the deep forest }
+  desc {
+"   You walk through the forest and start wondering why the trees have
+made a perfect wall on each side of the road as if to keep you and
+other adventures out of the rest of forest. The sun gives the crowns of
+the trees far above you a sapphire green colour that is reflected
+everywhere in the forest.
+  }
+  sector { Forest }
+  exits {
+	to { e, 59 }
+	  desc { You see an old trail in the forest.
+}
+	to { w, 61 }
+	  desc { You see an old trail through the forest.
+}
+  }
+}
+
+61
+{
+  name { Walking on the narrow trail through the forest }
+  desc {
+"   Entering this part of the big scary forest, you notice that this
+trail seems to be struggling against the forest to keep its path. The
+trees still get bigger and bigger and you wonder if there could be an
+entire world somewhere up in the crowns of these trees.
+  }
+  sector { Forest }
+  exits {
+	to { n, 70 }
+	  info { door, closed }
+	  keywords { knot" }
+	  desc { You see a large knot in the tree.
+}
+	to { e, 60 }
+	  desc { You see an old trail through the forest.
+}
+	to { s, 62 }
+	  desc { You see a narrow trail through the forest.
+}
+  }
+}
+
+62
+{
+  name { Narrow trail though the forest }
+  desc {
+"   You stand at the edge of a trail leading into a deep dark forest.
+The sunbeams seem to be unable to hit the ground as gigantic trees
+hover above you as if trying to prove you unworthy of entering this
+forest.
+  }
+  sector { Forest }
+  exits {
+	to { n, 61 }
+	  desc { You see an old trail through the forest.
+}
+	to { s, 88 }
+	  desc { You see a dark path in the forest
+}
+  }
+}
+
+63
+{
+  name { Dark dense forest }
+  desc {
+"   You walk directly into the dense forest between huge old trees that
+seem able to crush you just by moving an inch. The sun is completely
+shut out here.  To the north you sense a faint light coming from
+something built into the trees.
+
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 64 }
+	  desc { You see a faint light coming from some place up north.
+}
+	to { e, 65 }
+	  desc { You could take a chance and go deeper into the forest this way.
+}
+	to { w, 59 }
+	  desc { You see a trail in the forest.
+}
+  }
+}
+
+64
+{
+  name { Inside a burned down tree }
+  desc {
+"   You carefully enter this burnt tree. Around the tree there is an
+area of ten feet where everything is dead or dying. A hole beneath you
+leads into the ground and when you examine the hole, you are met by the
+foul smell of death.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 63 }
+	  desc { You see the dark dense forest.
+}
+	to { d, 69 }
+  }
+}
+
+65
+{
+  name { Deeper dark dense forest }
+  desc {
+"   You are walking inside the deepest part of this forest and you are
+beginning to doubt that you will ever get out. The air is warm, wet
+and thick which gives the surroundings a dreamy look. There are move-
+ments and eyes looking at you from everywhere. You can go north and
+south from here.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 66 }
+	to { s, 65 }
+	  desc { You see a deeper dark dense forest.
+}
+	to { w, Void:-1 }
+	  desc { You see impassable trees.
+}
+  }
+}
+
+66
+{
+  name { Dark dense forest }
+  desc {
+"   You notice that the dense forest is becoming a little lighter here,
+and you start breathing normally again. The sunbeams from above you hit
+the ground randomly, lighting this entire area up in a beautiful
+light-green colour.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 55 }
+	  desc { You see an old trail.
+}
+	to { e, 66 }
+	  desc { You see a deep, dark and scary forest.
+}
+	to { s, 65 }
+  }
+}
+
+67
+{
+  name { Very dense forest }
+  desc {
+"   You enter the dark dense forest and find it f  ztremely uncomfortable
+because of the bushes and the trees united in a fence almost unpassable
+by human beings. Sounds are everywhere.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 59 }
+  }
+}
+
+68
+{
+  name { D of m.ing in the pool }
+  desc {
+"   You dive in the water and find it warm and refreshing to dive in.
+But after a while the warmth becomes cold, so you'd better think about
+hitting the surface before you drown here.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { u, 56 }
+	  desc { You see surface of the pool.
+}
+  }
+}
+
+69
+{
+  name { Dense forest }
+  desc {
+"   You slowy descend down through the burned tree and after a while
+you reach the ground. When you look around, you see nothing but
+the dark ground and the many burned leaves and lumber lying scattered
+all around. A smell of burned flesh and wood meets you as you look
+east.
+  }
+  sector { Forest }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { e, 45 }
+	  desc { You see a dark tunnel under the forest.
+}
+	to { u, 64 }
+  }
+}
+
+70
+{
+  name { Behind the tree }
+  desc {
+"   You stand behind the enormous tree, the sun lights up this place in
+a wonderful green colour. Deer, rabbits and other inhabitants of this
+wood live here peacefully. The green grass you stand on feels soft and8you notice the constant shifting in the colour of the grass, one minute
+it seems light and green and the nfxt minute it becomes darker under
+the shadow of something moving high up in the trees.
+  }
+  exits {
+	to { s, 61 }
+	  info { door, closed }
+	  keywords { knot" }
+	  desc { You see a large knot in the tree.
+}
+	to { u, 71 }
+	  desc { You see a rope leading up into the tree.
+}
+  }
+}
+
+71
+{
+  name { Crown of the trees }
+  desc {
+"   You stand on a platform build perfectly into the crown of these
+trees. All around you there are leaves all coloured in the most be-
+autiful green you have ever seen. The rope below you scatters and it
+seems rather impossible to get down this way.
+  }
+  sector { Field }
+  exits {
+	to { n, 80 }
+	  desc { You see the crown of the trees.
+}
+	to { e, 78 }
+	to { s, 77 }
+	  desc { You see the crown of the trees.
+}
+	to { d, 90 }
+	  desc { ARGH - The rope you climbed up is broken, SHIT what are we going to do now?.
+}
+  }
+}
+
+72
+{
+  name { Cabin build into the tree }
+  desc {
+"   Standing inside this little cabin, you notice the scary atmosphere
+and you feel a sudden urge to run out of here.
+  }
+  sector { Field }
+  exits {
+	to { e, 73 }
+  }
+}
+
+73
+{
+  name { Crown of the trees }
+  desc {
+"   You arrive at this other spot on the platform in the tree crowns.
+To the west you see a little hole dug into the tree. To the east
+you see more of the platform.
+  }
+  sector { Field }
+  exits {
+	to { n, 82 }
+	  desc { You see the crown of the trees.
+}
+	to { e, 77 }
+	  desc { You see the crown of the trees.
+}
+	to { s, 74 }
+	to { w, 72 }
+  }
+}
+
+74
+{
+  name { Crown of the trees }
+  desc {
+"   You arrive at another location above the forest floor on this
+platform. To the west you see large piles of half-rotten lumber. You
+also notice quite a few corpses of all kind of animals and people.
+  }
+  sector { Field }
+  exits {
+	to { n, 73 }
+	to { e, 76 }
+	to { w, 75 }
+  }
+}
+
+75
+{
+  name { Dead chambers up in the crowns of the trees }
+  desc {
+"   You walk into the dead chambers in the crowns. All evil and good
+gathered here in a desperate attempt to break the rhythm of the wars.
+Surely it didn't su*  ceed.
+  }
+  sector { Field }
+  exits {
+	to { e, 74 }
+  }
+}
+
+76
+{
+  name { Crown of the trees }
+  desc {
+"   You stand on another platform high up in the crowns. Below you, you
+see lots of animals running around on the forest floor.
+  }
+  sector { Field }
+  exits {
+	to { n, 77 }
+	to { w, 74 }
+  }
+}
+
+77
+{
+  name { Crown of the trees }
+  desc {
+"   You are on a platform built from the crowns of the trees. A
+large tree to the east has a large door in its west side.
+  }
+  sector { Field }
+  exits {
+	to { n, 71 }
+	  desc { You see the crown of the trees.
+}
+	to { e, 83 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	  desc { You see a wooden door leading into the tree.
+}
+	to { s, 76 }
+	to { w, 73 }
+	  desc { You see the crown of the trees.
+}
+  }
+}
+
+78
+{
+  name { Crown of the trees }
+  desc {
+"   You stand on the platform above the forest floor. Nothing special
+can be seen anywhere.
+  }
+  sector { Field }
+  exits {
+	to { n, 79 }
+	  desc { You see the crown of the trees.
+}
+	to { e, 84 }
+	to { w, 71 }
+  }
+}
+
+79
+{
+  name { Crown of the trees }
+  desc {
+"   You arrive at this rotten place on the platform. Nothing special can
+be seen anywhere and most people would move on.
+  }
+  sector { Field }
+  exits {
+	to { s, 78 }
+	  desc { You see the crown of the trees.
+}
+	to { w, 80 }
+  }
+}
+
+80
+{
+  name { Crown of the trees }
+  desc {
+"   You stand at a junction. The platform leads both west and east, but
+also to the south you can see a narrow path leading in between a couple
+of trees.
+  }
+  sector { Field }
+  exits {
+	to { e, 79 }
+	to { s, 71 }
+	  desc { You see the crown of the trees.
+}
+	to { w, 81 }
+  }
+}
+
+81
+{
+  name { Crown of the trees }
+  desc {
+"   You stand on a boring path through the platforms. Nothing special
+can be seen anywhere.
+  }
+  sector { Field }
+  exits {
+	to { e, 80 }
+	to { s, 82 }
+  }
+}
+
+82
+{
+  name { Crown of the trees }
+  desc {
+"   You stand on a boring path through the platforms. Nothing special
+can be seen anywhere.
+  }
+  sector { Field }
+  exits {
+	to { n, 81 }
+	to { s, 73 }
+	  desc { You see the crown of the trees.
+}
+  }
+}
+
+83
+{
+  name { Inside a large tree }
+  desc {
+"   You walk into a large room inside an even larger tree. Tables and
+chairs rest on the floor. The soft smell of pine is everywhere.
+  }
+  sector { Field }
+  exits {
+	to { w, 77 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	  desc { You see the door.
+}
+  }
+}
+
+84
+{
+  name { Crown of the trees }
+  desc {
+"   You arrive at this horrifying place on the platform. Blood and
+skeletons of both humans and animals are scattered all around you.
+A large leather sack has grown into the platform, and it seems
+impossible to take it.
+  }
+  sector { Field }
+  exits {
+	to { n, 85 }
+	to { w, 78 }
+  }
+}
+
+85
+{
+  name { High tree }
+  desc {
+"   You walk into a large burned out tree. Horrifying sounds echo all
+around you and most people would flee in terror just listening to the
+sounds from these dead trees.
+  }
+  sector { Field }
+  exits {
+	to { s, 84 }
+  }
+}
+
+86
+{
+  name { Lift room }
+  desc {
+"   You enter a large hall used by the citizens of Tarin as link between
+this place, the tombs of Tarin, and the rest of the country. There is
+a large hole in the western floor leading down and up. A white paper
+has been nailed to the southern wall.
+  }
+  extra {
+	keywords { paper white" }
+	desc { ***********************************************************************
+            The lift link to foreign parts is out of order!
+***********************************************************************
+
+	}
+  }
+  exits {
+	to { e, 5 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see a lift door.
+}
+  }
+}
+
+87
+{
+  name { The minotaur's hideout }
+  desc {
+"  You entered a cave build upon the office, a huge black throne is places
+in the eastern wall. Behind it you see a hole leading eastwards. Skulls
+and the other things resembling death lies scattered on the floor.
+  }
+  flags { dark, no_mob, indoors, private }
+  exits {
+	to { d, 40 }
+	  info { door, closed }
+	  keywords { secret" }
+	  desc { You see a secret ladder leading down into the office.
+}
+  }
+}
+
+88
+{
+  name { A path in a dark and dense forest }
+  desc {
+"   You are walking on a small and narrow track in a huge dark forest
+the trees seems to be less living here than the other parts of the forest.
+To the north you see burned trees and glowing red eyes.
+You can go north and east from here.
+  }
+  exits {
+	to { n, 62 }
+	  desc { You see a dark path in the forest.
+}
+	to { e, 22 }
+  }
+}
+
+89
+{
+  name { In the deeper forest }
+  desc {
+"   You are standing just north of a huge ancient tree, from here everything
+seems beautiful but you get a strange feeling about the north forest, not
+that you can see anything, but you have THE feeling. You can go north and
+south from here.
+  }
+  exits {
+	to { n, 22 }
+  }
+}
+
+90
+{
+  name { Climbing down the rope - the BROKEN rope }
+  desc {
+"   Despite the warning about the broken rope, you try to climb back down,
+most people would call that stupid, but you never quite understand why.
+
+You see nothing but stars.
+
+             o                          o                    o      o
+      o                                            o
+                      o                                       o
+      o         o                   o       o
+ o                       o                        o                   o
+           o                      o                       o   o
+  o                o  o                   o            o
+
+You are dead.
+  }
+  flags { death, no_mob, private, no_goto }
+  exits {
+	to { u, 71 }
+	  desc { Hmmm, not many but gods could reach the broken rope, then again...i think you
+can
+}
+  }
+}

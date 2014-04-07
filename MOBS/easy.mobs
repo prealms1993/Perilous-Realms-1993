@@ -1,0 +1,235 @@
+3200
+{
+name { the pet cat }
+namelist { pet cat }
+shortdesc { someones pet cat is here sniffing in the trash for something to eat. }
+longdesc {
+A sort of scrawny little cat but it has a worn and faded collar with a name
+tag on it.
+}
+race { none }
+height { 60 }
+weight { 30 }
+level { 1 }
+alignment { 1000 }
+gold { 0 }
+hit_bonus { 0 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 100, 1 }
+body { 100, 1 }
+arms { 100, 1 }
+legs { 100, 1 }
+feet { 100, 1 }
+hp { 2, 4, 1 }
+move { 300 }
+experience { 164 }
+damage { 1, 6, 1  }
+immune { charm }
+affected { detect-invisible }
+act { scavenger }
+}
+3201
+{
+name { the black cat }
+namelist { black cat }
+shortdesc { a black cat is here sniffing in the trash for something to eat. }
+longdesc {
+A sort of scrawny little cat but it has a worn and faded collar with a name
+tag on it.
+}
+race { none }
+height { 60 }
+weight { 30 }
+level { 1 }
+alignment { -1000 }
+gold { 0 }
+hit_bonus { 0 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 100, 1 }
+body { 100, 1 }
+arms { 100, 1 }
+legs { 100, 1 }
+feet { 100, 1 }
+hp { 2, 4, 1 }
+move { 300 }
+experience { 164 }
+damage { 1, 6, 1  }
+affected { detect-invisible }
+act { scavenger }
+}
+3202
+{
+name { a small puppy }
+namelist { puppy }
+shortdesc { a small puppy is chasing a leaf around here. }
+longdesc {
+A grey and white puppy he looks well fed.
+}
+race { none }
+height { 60 }
+weight { 30 }
+level { 1 }
+alignment { 1000 }
+gold { 0 }
+hit_bonus { 0 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 90, 1 }
+body { 90, 1 }
+arms { 90, 1 }
+legs { 90, 1 }
+feet { 90, 1 }
+hp { 3, 4, 3 }
+move { 300 }
+experience { 174 }
+damage { 1, 7, 1  }
+affected { detect-invisible }
+act { scavenger }
+}
+3203
+{
+name { a large dog }
+namelist { dog }
+shortdesc { a rather large dog is sniffing a pile of rags. }
+longdesc {
+A rather large dog with a white and grey coat.
+}
+race { none }
+height { 60 }
+weight { 30 }
+level { 1 }
+alignment { 1000 }
+gold { 0 }
+hit_bonus { 0 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 80, 1 }
+body { 80, 1 }
+arms { 80, 1 }
+legs { 80, 1 }
+feet { 80, 1 }
+hp { 3, 5, 3 }
+move { 300 }
+experience { 194 }
+damage { 1, 9, 3  }
+affected { detect-invisible }
+act { scavenger }
+}
+3204
+{
+name { a mad dog }
+namelist { mad dog }
+shortdesc { a dog growls at you. }
+longdesc {
+A scrawny dog with a temper it looks like.
+}
+race { none }
+height { 60 }
+weight { 30 }
+level { 1 }
+alignment { -1000 }
+gold { 0 }
+hit_bonus { 0 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 80, 1 }
+body { 80, 1 }
+arms { 80, 1 }
+legs { 80, 1 }
+feet { 80, 1 }
+hp { 2, 4, 1 }
+move { 300 }
+experience { 184 }
+damage { 1, 8, 2  }
+affected { detect-invisible }
+act { scavenger }
+}
+3205
+{
+name { a beggar }
+namelist { beggar }
+shortdesc { A beggar asks for some lose change. }
+longdesc {
+he has worn and dusty cloths.
+}
+race { human }
+height { 160 }
+weight { 130 }
+level { 3 }
+alignment { 0 }
+gold { 15 }
+hit_bonus { 0 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 70, 1 }
+body { 70, 1 }
+arms { 70, 1 }
+legs { 70, 1 }
+feet { 70, 1 }
+hp { 3, 6, 2 }
+move { 300 }
+experience { 164 }
+damage { 1, 7, 2  }
+affected { detect-invisible }
+act { scavenger }
+}
+3206
+{
+name { a peasent girl }
+namelist { peasent girl }
+shortdesc { A peasent girl with few cloths on smiles at you. }
+longdesc {
+wonder what she has in mind?
+}
+race { human }
+height { 60 }
+weight { 30 }
+level { 4 }
+alignment { 300 }
+gold { 15 }
+hit_bonus { 0 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 60, 1 }
+body { 60, 1 }
+arms { 60, 1 }
+legs { 60, 1 }
+feet { 60, 1 }
+hp { 2, 4, 1 }
+move { 300 }
+experience { 164 }
+damage { 1, 6, 1  }
+affected { detect-invisible }
+act { scavenger, citizen }
+}
+3207
+{
+name { a peasent boy }
+namelist { peasent boy }
+shortdesc { a peasent boy is here looking after his sister. }
+longdesc {
+ouch.
+}
+race { human }
+height { 170 }
+weight { 170 }
+level { 5 }
+alignment { 300 }
+gold { 15 }
+hit_bonus { 2 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 50, 1 }
+body { 50, 1 }
+arms { 50, 1 }
+legs { 50, 1 }
+feet { 50, 1 }
+hp { 3, 7, 2 }
+move { 300 }
+experience { 224 }
+damage { 1, 9, 2  }
+affected { detect-invisible }
+act { scavenger, citizen }
+}

@@ -1,0 +1,1458 @@
+
+0
+{
+  name { Ancient Road }
+  desc {
+"    Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still in very good shape here, as the
+elements have not been able to abuse it as they have where it is exposed to the
+open sky. You have entered the arching tunnel mouth, which towers above your
+head impressively. It is still possible to see here, from the light coming in
+through the tunnel entrance. The road continues straight and level into the
+heart of the mountains; no end is visible from here, as it is shrouded in
+darkness a few hundred feet beyond your current position.
+  }
+  flags { indoors }
+  exits {
+	to { n, 62 }
+	to { s, 1 }
+  }
+}
+
+1
+{
+  name { Ancient Road }
+  desc {
+"    Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still in very good shape here, as the
+elements have not been able to abuse it here as they have where it is exposed
+to the open sky. You are now in tunnel proper, this distinction being marked by
+the gradual reduction of light from the entrance to nearly nothing - it is now
+only a small semi-circle of light in the distance to the north. At this point,
+only your light source allows you to see. The road, however, continues as
+before; straight, flat, and servicable for travel.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 0 }
+	to { s, 2 }
+  }
+}
+
+2
+{
+  name { Ancient Road }
+  desc {
+"    Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still in very good shape here, as the
+elements have not been able to abuse it here as they have where it is exposed
+to the open sky. The road continues to the north and south here. There are some
+skeletons in the middle of the road here, along with a small cart and a few
+broken arrows and a few other miscellaneous broken items. They look like they
+were heading north, although it's hard to tell for sure. Clearly, whoever these
+people were, they have been dead for a very long time.
+  }
+  extra {
+	keywords { items broken" }
+	desc { There are fragments from a wooden shield, and several pieces of shattered
+pottery, plus scraps of armor and a broken dagger.
+	}
+	keywords { skeleton skeletons bones" }
+	desc { They have been completely stripped, and are now quite brittle with age. The
+smaller one looks like it probably belonged to a humanoid female, the larger
+to a humanoid male. Possibly a husband and wife. The bones of the male are
+broken in a few places.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 1 }
+	to { s, 3 }
+  }
+}
+
+3
+{
+  name { Ancient Road }
+  desc {
+"    Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still in very good shape here, as the
+elements have not been able to abuse it here as they have where it is exposed
+to the open sky. You are now well into a tunnel through a mountain range. It is
+impossible to see an exit to the north or south, and you are now too far into
+the passage for the elements to reach in any form. As a result, the air is
+stale and unpleasant. It only becomes more so to the south, though it is better
+to the north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 2 }
+	to { s, 4 }
+  }
+}
+
+4
+{
+  name { Ancient Road }
+  desc {
+"    Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still in very good shape here, as the
+elements have not been able to abuse it here as they have where it is exposed
+to the open sky. There's a break in the monotony of the tunnel walls here, as
+there is a large hole in the east wall that was apparently a waystation for
+weary travelers many an age ago. The road continues to the north and south;
+it is flat and smooth, shooting straight through the mountain's heart.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 3 }
+	to { e, 63 }
+	to { s, 5 }
+  }
+}
+
+5
+{
+  name { Ancient Road }
+  desc {
+"    Long ago, this road must have been a thoroughfare, as it is easily forty
+feet across. The stones that form it are still in very good shape here, as the
+elements have not been able to abuse it here as they have where it is exposed
+to the open sky. The air is musty here, like one would expect from an area that
+has not been traveled in ages untold. The road continues to the north and south
+as far as your light can tell you. You sense the oppressive weight of millions
+of tons of rocks hanging over your head, and marvel again at those who made
+this road so long ago.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 4 }
+	to { s, 6 }
+  }
+}
+
+6
+{
+  name { Ancient Road }
+  desc {
+"    Abruptly, the road ends here in a tremendous cave-in to the south. It isn't
+clear how long ago the earth shifted and the roof of the tunnel collapsed, but
+it is clear that no further travel to the south is possible this way. You spot
+a few bones and pieces of broken equipment here, and the shadows your light
+casts off the large stones among those that block your passage seem to dance
+and flicker evilly. You have a strong urge to flee.
+  }
+  flags { dark, indoors }
+  tele { 80, 1, 7 }
+  exits {
+	to { n, 5 }
+	to { w, 8 }
+	  info { door, closed }
+	  keywords { secret" }
+  }
+}
+
+7
+{
+  name { Ambush! }
+  desc {
+"    Well, you've found an explanation for the broken bones. A party of
+well armed troglodytes have marked your travel down the road and have been
+waiting patiently for you to arrive. They seem to have come from a small hole
+in the west wall you hadn't noticed before, as it was partially hidden by one
+of the large rocks that has fallen from the ceiling.
+  }
+  sector { City }
+  flags { dark, indoors, private }
+  exits {
+	to { n, 5 }
+	to { w, 8 }
+  }
+}
+
+8
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 9 }
+	to { e, 6 }
+	  info { door, closed }
+	  keywords { secret" }
+	to { s, 19 }
+	to { w, 19 }
+  }
+}
+
+9
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 10 }
+	to { e, 14 }
+	to { s, 12 }
+	to { w, 11 }
+  }
+}
+
+10
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 11 }
+	to { e, 14 }
+	to { s, 12 }
+	to { w, 13 }
+  }
+}
+
+11
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 11 }
+	to { e, 20 }
+	to { s, 13 }
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 11 }
+	to { s, 14 }
+	to { w, 18 }
+  }
+}
+
+13
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 12 }
+	to { e, 21 }
+	to { s, 15 }
+	to { w, 13 }
+  }
+}
+
+14
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 14 }
+	to { e, 19 }
+	to { s, 16 }
+	to { w, 11 }
+  }
+}
+
+15
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 12 }
+	to { e, 23 }
+	to { s, 13 }
+	to { w, 14 }
+  }
+}
+
+16
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 13 }
+	to { e, 14 }
+	to { s, 22 }
+	to { w, 8 }
+  }
+}
+
+17
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 16 }
+	to { e, 17 }
+	to { s, 19 }
+	to { w, 22 }
+  }
+}
+
+18
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 14 }
+	to { e, 22 }
+	to { s, 18 }
+	to { w, 11 }
+  }
+}
+
+19
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 8 }
+	to { e, 19 }
+	to { s, 17 }
+	to { w, 9 }
+  }
+}
+
+20
+{
+  name { Spider Cave }
+  desc {
+"    This might have been a troglodyte cave at one time, but it is currently
+inhabited by a couple of really hungry looking cave spiders. It's hard to read
+their expressions, but they seem to be looking at you in a manner that implies
+you are going to be lunch. You notice a lot of broken bones on the floor here,
+and there are some partially drained troglodyte corpses up in the webbing that
+is suspended from the ceiling.   }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { w, 11 }
+  }
+}
+
+21
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    You have entered a small, smelly cave. There are bits of junk scattered
+about the dirty floor, personal things of the cave's occupant - a large and
+particularly evil looking troglodyte. The conditions he is living in are
+pitiful, and you turn your nose in disgust at the remains of a rotted tunnel
+rat that he discards as you enter. Looks like he's found a more appetizing
+meal.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { s, 13 }
+  }
+}
+
+22
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    This cave is really nothing more than a slightly larger tunnel than most,
+but it serves as an outpost for several troglodyte watchmen, who don't seem to
+think much of your visit. They don't like your light very much. In fact, from
+their behavior you might even think they don't like you!
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 18 }
+	to { e, 16 }
+	to { s, 17 }
+	to { w, 23 }
+  }
+}
+
+23
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    You seem to have stumbled upon an outpost of the troglodyes that live in
+this region. In fact, from the sounds and glimpses to movement you see to the
+west, you might have stumbled upon a troglodtye settlement. There are several
+large troglodyes here will be glad to show you around. Well, they might be
+willing to at least carry bits of you around, after they're done taking you
+apart.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 18 }
+	to { w, 24 }
+  }
+}
+
+24
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    This cave is apparently home to a bunch of real slobs. Not surprisingly,
+it is adolescent troglodytes that live here. There are pieces of broken bone
+and little bits of metal and glass scattered about the floor, as well as the
+"valuables" of the cave's residents. You can hear the sounds of metal hitting
+metal coming from the north, and there are also exits to the west and east.
+  }
+  sector { City }
+  extra {
+	keywords { valuables" }
+	desc { There are bits of broken armor, the skull of a tunnel rat, pieces of string
+and other such items of little worth.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 25 }
+	to { e, 23 }
+	to { w, 27 }
+  }
+}
+
+25
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    This cave is clearly a practice area for young troglodytes to hone their
+skills of maiming and killing. The cave wall is an impressive dark brown -
+dried blood from the less successful of those tutored here. Apparently they
+play-fight awfully rough. The broken weapons and scraps of armor lying about
+testify to this fact as well. There are exits to the south and west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { s, 24 }
+	to { w, 26 }
+  }
+}
+
+26
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    Mmm, you can smell some delicious tunnel rat stewing here, a cave that is
+quite apparently the cooking area for the troglodytes living around here.
+There are a few pots and pans here, though they are barely recognizable as
+such. The small fire under the pot from which that yummy rat smell is being
+emitted is barely enough to see by, but you can detect some troglodyte matrons
+slaving over the cookery. They seem to think you'd make a nice addition to the
+meal they're preparing. There is an exit to the south, and you hear what might
+be the clatter of weapons coming from the east.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { e, 25 }
+	to { s, 27 }
+  }
+}
+
+27
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    It's yet another troglodyte strongpoint. From the density of these things,
+you'd have to think the troglodyte people were constantly under attack. Who
+could be invading their homeland? You realize it's probably adventurers like
+you they guard themselves against. The cave is large and has three exits, one
+each to the north, south, and east. There is a funny, slightly unpleasant smell
+coming from the north.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 26 }
+	to { e, 24 }
+	to { s, 28 }
+  }
+}
+
+28
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 24 }
+	to { e, 28 }
+	to { s, 29 }
+	to { w, 30 }
+  }
+}
+
+29
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 27 }
+	to { e, 30 }
+	to { s, 32 }
+	to { w, 40 }
+  }
+}
+
+30
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 29 }
+	to { e, 29 }
+	to { s, 31 }
+	to { w, 32 }
+  }
+}
+
+31
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in three of the four compass directions.  The tunnel 
+floor has been worn smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 31 }
+	to { s, 32 }
+	to { w, 30 }
+  }
+}
+
+32
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 18 }
+	to { e, 33 }
+	to { s, 36 }
+	to { w, 34 }
+  }
+}
+
+33
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 40 }
+	to { e, 30 }
+	to { s, 34 }
+	to { w, 33 }
+  }
+}
+
+34
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 36 }
+	to { e, 30 }
+	to { s, 35 }
+	to { w, 33 }
+  }
+}
+
+35
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 27 }
+	to { e, 31 }
+	to { s, 35 }
+	to { w, 38 }
+  }
+}
+
+36
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 30 }
+	to { e, 36 }
+	to { s, 35 }
+	to { w, 29 }
+  }
+}
+
+37
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 38 }
+	to { e, 39 }
+	to { s, 35 }
+	to { w, 36 }
+  }
+}
+
+38
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 37 }
+	to { e, 31 }
+	to { s, 38 }
+	to { w, 30 }
+  }
+}
+
+39
+{
+  name { Many Tunnels }
+  desc {
+"    This is a twisty underground tunnel with many exits and entrances. The
+ground is more or less even, but the passage walls are so similar in kind that
+it is impossible to differentiate one passage from another by them. There are
+exits leading in all four compass directions. The tunnel floor has been worn
+smooth by the passage of many feet.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 37 }
+	to { e, 39 }
+	to { s, Rhyodin:50 }
+	  desc { There is a sign carved in the south wall. It reads:
+
+       _____
+      /     \
+      | O O |
+       \uuu/
+       /nnn\
+       \___/
+    O____ ____O
+     ____X____
+    O         O
+
+}
+	to { w, 39 }
+  }
+}
+
+40
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    This is the entrance of a large cave, that extends to the west and then
+branches out further to the north. It is likely that you have found the
+beginning of the main troglodyte community, as they are quite numerous here.
+>From their reaction to you, you'd think they are of the opinion you are
+invading their privacy or something. There are two exits - east back into the
+tunnels, and west, deeper into the caves.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 32 }
+	to { w, 41 }
+  }
+}
+
+41
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    You are in the southeasternmost arc of a large cave shaped approximately
+like a donut, with an extremely large column in the center of the cavern. The
+diameter of the column, you estimate, is probably about two-thirds of that of
+the cave itself. It makes for a very strange tunnel-like effect, but it looks
+natural though you have no idea what force of nature might have caused it.
+This is where the troglodytes hone their weapons and repair their armor. From
+the looks of things, it appears as if it's a skill they've been working on for
+some time; though their tools are limited their armor and weapons are in
+excellent shape. Maybe the Repair Guy had some troglodyte blood, who knows?
+As you enter the cave, the many troglodytes working in here eye your armor and
+weapons appreciatively.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 42 }
+	to { e, 40 }
+	to { w, 47 }
+  }
+}
+
+42
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    This is the northeastern cave of a linked set of four caves, which could
+also be characterized as a single cave with an awfully big column in the
+center.  From what you can tell, the cave is shaped more or less like a big
+donut. In this section of the cave, female troglodytes are working on
+extracting those vital vitamins and minerals from recent kills, by crushing
+the bones into a powder which gets mixed into an occasional meal. There are
+a couple of young trogs running around here, annoying those working. All this
+activity ceases when you enter, and they turn to the task of defending their
+home. In addition to the exits along the cave to the west and south, there is
+also a passage leading north.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 43 }
+	to { e, 44 }
+	to { s, 41 }
+	to { w, 48 }
+  }
+}
+
+43
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    This cave appears to the the nursury. Normally, the troglodyte young and
+their guardians are here, playing games and learning new skills. The cave is
+entirely unlit normally, and the presence of your light source appears to be
+the brightest thing some of the little trogs have ever seen. Again, it strikes
+you that you might be trespassing. There is a larger cave off to the south,
+and there are also cavern to the north and west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 45 }
+	to { e, 44 }
+	to { s, 42 }
+  }
+}
+
+44
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    This is a smaller cave than any of the others in this area. It appears to
+be a hidden twin strongpoint to the one directly east of here, from which the
+cave you are currently in is not clearly visible. Ordinarily, this position
+would be occupied by troglodytes watching over the other strongpoint to the
+east, preparing to reinforce them in case of any trouble.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 27 }
+	to { w, 43 }
+  }
+}
+
+45
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    You are in the female troglodytes sleeping quarters - as nice a place as
+you think you've ever seen, for a cave. It looks like the place has been
+cleaned with a toothbrush... even the dirt on the cave floor looks clean. The
+rocks are shiny and sparkle at you, hinting at worth in their glittering
+cleanliness, even though you know they are without value. There are ordinarily
+several female troglodytes here, in serious discussion.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { s, 43 }
+  }
+}
+
+46
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    This large cave is the sleeping quarters of most of the male troglodytes,
+a fact that is evinced more than anything by the bad smell and the large mess.
+How so many creatures who don't believe in bathing could live together in one
+room is beyond comprehension. Perhaps troglodyes have no sense of smell. This
+place is such a mess, you imagine they must have bad vision, too, to tolerate
+it. The cave is normally occupied by a few troglodyte soldiers, catching a nap
+between guard duties.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 47 }
+  }
+}
+
+47
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    The cave you are in resembles a tunnel more than anything, and might be
+labeled as such if it weren't so wide. In fact, though, you are in a cavern
+with an extremely large column of natural stone in the middle, which blocks
+the view of the other side of the cavern from your current position. This part
+of the cave is a practice area for adult troglodytes, as there are scraps of
+metal and wood scattered about the floor in silent testimony to past rites of
+supremacy that determine the clan chief. There are exits to the north, south,
+and east.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 48 }
+	to { e, 41 }
+	to { s, 46 }
+  }
+}
+
+48
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    You are now in the northwest arc of a large, donut shaped cave. This is
+likely the place where the soldiers work out ther strategy and formations, as
+you can see a bunch of rocks set on a stone "table" (really just a large, flat
+rock), ostensibly the staging grounds for mock battles and strategic plots by
+troglodytes here for many a year, given how smooth the top has now been worn.
+There are also several crude drawings on the wall, though what they are of, it
+is hard to say for sure. The cave continues to the south and east, and there
+are also passageways leading to the west and north.
+  }
+  sector { City }
+  extra {
+	keywords { drawing drawings" }
+	desc { ___| |________________
+|       |   |        |
+|       |      Vkrm  |
+| Gzk!      |        |
+|       |   |________|
+|_______|   |        |
+|           |        |
+|<<<<<<<       Xcwn  |
+|_______    |        |
+|       |   |________|
+|  \|/  |   |        |
+|  -o-  |   |        |
+|  /|\  |            |
+|___________|___ ____|
+              |   |
+              | : |
+              |___|
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 49 }
+	to { e, 42 }
+	to { s, 47 }
+	to { w, 50 }
+  }
+}
+
+49
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    This is the chief's "private" cave. Apparently being the leader of these
+people has some priveledges, at least. The caves furnishings are only slightly
+more ornate here than anywhere else, though, so apparently the job isn't
+exactly loaded with perks. The chief is here, talking with his top fighters
+about prospects of battle. They turn to you, knowing now the battle they had
+been anticipating is already upon them. There is an exit to the east.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { s, 48 }
+  }
+}
+
+50
+{
+  name { Caves of the Troglodytes }
+  desc {
+"    This cave is apparently the place where the troglodyte chief receives his
+guests. There is a large case filled with trophies from past victories of the
+troglodyte clan. Among the trophies, you spot a battered Golden Shield, the
+skull of a cave fisher, with some dents and a big hole just over the right
+eye, a small crystal sphere, and dull grey helmet with a plume that was once
+probably white. The mementos here range from the unexpected to the astounding.
+You are impressed by the ability of such a seemingly limited people to have
+defeated such a large and varied set of opponents. You can exit east  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 48 }
+  }
+}
+
+51
+{
+  name { Mountain Trail }
+  desc {
+"    The end of the mountain trail is evident to your west from here; the trail
+drops steeply and the ground turns greener, as the elevation isn't sufficient
+to maintain the ice and snow of the higher ground. A freezing wind blows down
+the mountains through which this trail winds, and it makes you shiver in your
+boots. The mountain trail leads to the south from here up and up again the
+mountain heights. You can also go west to more moderate climes.
+  }
+  sector { Mountains }
+  flags { private }
+  exits {
+	to { w, 60 }
+  }
+}
+
+52
+{
+  name { Mountain Trail }
+  desc {
+"    The trail turns again here, as it makes its way up and around the peaks
+the have started to appear around you in all directions. Though the path
+doesn't assault any actual peaks, you notice that the elevation here is
+significantly higher than it is to the north, and it rises even further as it
+continues it's journey to the east, since it moves of the valley floor up
+along the side of a mountain. Up until now, the snow that has been adorning
+the mountains was higher up, but you have come to the point where the trail
+winds through the snow. Still, it is compact enough to permit travel, though
+the way is a bit slipperier.
+  }
+  sector { Mountains }
+  flags { private }
+  exits {
+	to { n, 51 }
+	to { e, 53 }
+  }
+}
+
+53
+{
+  name { Mountain Trail }
+  desc {
+"    It is bitterly cold here. The snow on the path is about ankle deep here,
+and it's fresh, which makes traveling on it a bit of a trial. The path is now
+making its way along a mountainside, rather than trying to slither between the
+peaks at their bases. As a result, to the south there is an impressive drop to
+the valley floor far below. Fortunately, the path is wide enough to afford
+easy travel without worrying about slipping to one's death below. The grade is
+quite steep going up to the east, though to the west the trail leaves the
+mountainside on it's way down to warmer places. An icy wind blows from the
+southeast, chilling you to the bone.
+  }
+  sector { Mountains }
+  flags { private }
+  exits {
+	to { e, 54 }
+	to { w, 52 }
+  }
+}
+
+54
+{
+  name { Mountain Trail }
+  desc {
+"    The trail curves along the side of a mountain here, leading to the west
+and south; ever rising to the south, dropping to the west. Across a valley far
+below you, you can see lesser peaks to the north. You are above them, and you
+can see they are just below the constant cloudline that glooms menacingly on
+the trail leading south into the mountains above you. The snow is still
+shallow enough here for reasonable travel, though it is fresh, and your feet
+sink into up to the top of your ankles. Unfortunately, it looks as if it only
+gets deeper to the south, where the trail rises further. The wind is strong
+here, and it claws at your clothing, penetrating it to make you long for warmer
+climes.
+  }
+  sector { Mountains }
+  flags { private }
+  exits {
+	to { s, 55 }
+	to { w, 53 }
+  }
+}
+
+55
+{
+  name { Mountain Trail }
+  desc {
+"    Your ears pop, and it is difficult to breathe normally here, as the
+elevation makes for a scarcity of oxygen in the atmosphere. You hope to leave
+this place soon, as the elements are starting to wear on you. It is snowing
+lightly here, and the fresh snow on the ground makes travel difficult, as each
+step is a labor in which you submerge your feet into the knee deep snow and
+extract them again to plod on. Adding to the unpleasantness is a wind that you
+are really starting to resent, blowing down from the the south. Visibility is
+restricted here by the cloud cover, so it is impossible to tell how much
+further the trail rises before it breaks through the worst part of mountains.
+You can go up to the south, or down to the north.
+  }
+  sector { Mountains }
+  flags { private }
+  exits {
+	to { n, 54 }
+	to { s, 56 }
+  }
+}
+
+56
+{
+  name { Mountain Trail }
+  desc {
+"    The trail drops into a small crevice here, as it makes it's way up the
+side of yet another immense peak. You can't tell how far up you are for sure,
+but given the practically waist deep snow and the difficulty you are having
+breathing, it is higher then humanoids were built to travel for very long. The
+nice thing about the crevice is that it prevents the wind from doing further
+damage to you, for a while at least. The snow here is on the heavy side; large
+flakes now fall around you silently. The crevice turns to the east, leading
+ever upward, and to the north it returns to the lands below.
+  }
+  sector { Mountains }
+  flags { private }
+  exits {
+	to { n, 55 }
+	to { e, 57 }
+  }
+}
+
+57
+{
+  name { Mountain Trail }
+  desc {
+"    To say it is snowing here would be an understatement. It is snowing
+*hard*, and combined with the strong cold wind the weather here could almost
+be characterized as a blizzard. You have to bend over to present as little
+surface as possible to the constant force of the wind. The mountain trail is
+now covered in hip deep snow and distinguishable only because the mountains to
+the north and east and southwest prevent passage in those directions. You can
+barely breath, and the instant crystalization of what little air you expel
+tells you that continued travel here may be a fatal mistake. To the extent the
+trail is visible, it leads to down the mountain to the west and up further
+still to the south.
+  }
+  sector { Mountains }
+  flags { private }
+  exits {
+	to { s, 58 }
+	to { w, 56 }
+  }
+}
+
+58
+{
+  name { Mountain Trail }
+  desc {
+"    You are in a full force blizzard, travelling along a narrow pass near the
+top of the peaks in a vast mountain range. You can just see the outlines of
+the pinnacles of the mountains to your east and west, and the ground seems to
+have entirely flattened out, though it is hard to be sure with the gale force
+wind buffeting you about and blowing snow in your eyes. It is nearly
+impossible to breathe here, the air is so thin. You are now practically
+swimming in snow, and the exertion is exhausting you. The mountain path leads
+further south, and to the north, where the trail descends.
+  }
+  sector { Mountains }
+  flags { private }
+  exits {
+	to { n, 57 }
+	to { s, 59 }
+  }
+}
+
+59
+{
+  name { Snowy Pass }
+  desc {
+"    The wind screams in your ears here, as you enter a narrow mountain pass
+at the very apex of the mountain range. From what little you can tell in the
+driving snow, the trail drops in elevation to the south, though it flattens
+out to the north. Unfortunately, the further south you go, the deeper the snow
+gets. Eventually, it reaches eye level, and you realize that further passage
+in this direction is impossible. The prospects of making your way to the north
+are not particularly attractive, but further travel to the south is right out,
+since wading through snow above your head would certainly result in a frozen,
+self-performed burial.
+  }
+  sector { Mountains }
+  flags { private }
+  exits {
+	to { n, 58 }
+  }
+}
+
+60
+{
+  name { Valley Trail }
+  desc {
+"    The valley here is much greener than that to the north, and looking that
+way you are a bit surprised by the vast difference in temperature as well.
+The gentle hills to the west become steeper to the east, which is the way the
+trail continues, in addition to it's sojourn through the dryer valley to the
+north. You can see the great eastern desert stretching off to the northwest
+from here, as you look in that direction a pyramidical shape is evident. To
+the west you can just make out the outlines of rectangular object of impressive
+size. Probably a city or something.
+  }
+  sector { Hills }
+  flags { private }
+  exits {
+	to { n, 61 }
+	to { e, 51 }
+  }
+}
+
+61
+{
+  name { Valley Trail }
+  desc {
+"    A narrow valley extends to the south here, and to the west you can see it
+ending in a riverbed, as there is a cliff apparently blocking further passage
+in that direction. The landscape here is dotted with brown brush and other dry
+weather foliage, though as you look to the south things get a bit greener,
+probably the result of runoff from an extensive mountain range that has become
+visible to the southeast. From here, you can see the whitecaps standing starkly
+against the clear sky. The trail to the south looks like it's headed that way,
+as the trail has a pronounced rise in that direction. You can also go west to
+the dry river bed.
+  }
+  sector { Hills }
+  flags { private }
+  exits {
+	to { s, 60 }
+  }
+}
+
+62
+{
+  name { The Dry Ford }
+  desc {
+"    The river bed rises here slightly, and you can see that once upon a time
+someone forded the river here.  A cliff blocks you passage to the west
+and east. Some sort of road or path begins to wind its way through the valley
+to the south of here.  The river bed also continues to the north and begins
+to appear to actually have water in it.  The climate is quite sultry and
+you begin to sweat.
+  }
+  sector { Field }
+  flags { private }
+  exits {
+	to { n, Midgard:323 }
+	to { s, 0 }
+  }
+}
+
+63
+{
+  name { Rest Stop Entryway }
+  desc {
+"    This area is little more than a wide tunnel bridging the rest stop commons
+and the road. Once upon a time this passage and the rest stop were well-
+traveled, but given the amount of the dust on the floor, it is clear that like
+the road itself, it has been unused for ages. There are sconces in the walls
+for torches, but none are there now - your light source provides the only
+illumination. You can exit east to the ancient road, or west, where the tunnel
+enters a larger area that once served as a common area.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 64 }
+	to { w, 4 }
+  }
+}
+
+64
+{
+  name { Rest Stop Commons }
+  desc {
+"    This is a sizeable room, approximately square in shape, and almost two
+hundred feet on a side. From the shape and texture of the walls you surmise
+that a natural cave was enlarged to create the space you currently occupy.
+The ground is flat, and unadorned. Once upon a time, weary travelers pitched
+their tents here to rest before continuing on to their destination. There are
+no signs of recent use, however. There are openings in the walls of this room
+in all four compass directions, though your light source isn't powerful enough
+to reveal where they lead.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 68 }
+	to { e, 65 }
+	to { s, 66 }
+	to { w, 63 }
+  }
+}
+
+65
+{
+  name { Rest Stop Stables }
+  desc {
+"    Apparently not only could travellers rest here at the waystation, but
+their steeds could as well. This medium sized room was clearly cut from the
+rock, as the sharpness of the corners and smoothness of the rock rules out the
+possibility of any natural cause for its formation. Little remains of the
+stables themselves, as the wood that was used to separate the animals has
+mostly rotted to dust. What remains is broken and useless for its original
+purpose. There is only one exit from this room, which is through a passage to
+the west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { w, 64 }
+  }
+}
+
+66
+{
+  name { Supply Center }
+  desc {
+"    This area looks to have been a supply station for weary travelers. There
+is a small crack in the south wall through which water must have flowed at one
+time, given the elaborate apparatus of metal gutters that lead to a small hole
+in the southwestern corner of the room. No water flows there now. There are
+also stone biers jutting out of the floor in four rows, upon which foodstuffs,
+mount feed, and other supplies could have rested. Nothing remains of whatever
+supplies were once kept here. There are two exits; back to the commons to the
+north, and also through a small passage to the east.
+  }
+  sector { City }
+  extra {
+	keywords { bier biers" }
+	desc { They come up out of the room's floor and are quite solid.
+	}
+	keywords { gutter" }
+	desc { It was clearly used to channel water from the crack to the hole in the floor.
+It is made of a strange black metal that seems to have entirely resisted the
+trials of time, and shows no signs of rust, either. It is securely fastened
+to the rock wall, however.
+	}
+	keywords { hole" }
+	desc { It is less than a foot in diameter, and appears to drop straight down for as
+far as you can tell by jutting your light source into it. The gutter leading
+up to it was doubtless used to channel the water to this outlet.
+	}
+	keywords { crack" }
+	desc { It is just above eye level for an average humanoid, and is only a few inches
+wide. You can't see very far into it, as it narrows and turns after a few feet.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 64 }
+	to { e, 67 }
+  }
+}
+
+67
+{
+  name { Storage Room }
+  desc {
+"    This is a very small room, less than ten feet on a side. The roof, which
+in other places in the rest stop has been a comfortable twelve feet, here drops
+to seven feet, further reinforcing the sense claustrophobia one gets upon
+entering. Once upon a time this place was probably used to store reserve goods
+for the supply area it is adjacent to. Like the supply center itself, however,
+it is now completely devoid of anything of value. In fact, it is bare of junk
+as well - this place is empty. There is an exit to the west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { w, 66 }
+  }
+}
+
+68
+{
+  name { The Mountain Path }
+  desc {
+" You find yourself standing in a heavily wooded area, overgrown with brush,
+and gnarled trees. To the north, you see a neglected, twisted path,
+disappearing far into the mountains.
+  }
+  sector { Mountains }
+  flags { no_mob }
+}

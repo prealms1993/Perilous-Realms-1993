@@ -1,0 +1,1300 @@
+
+1
+{
+  name { Ershteep Road }
+  desc {
+"   You are standing on a thin trail only wide enough for two. The
+trail was once, apparently, the middle of a large and busy
+thoroughfare. It now lies overgrown by thick, impassable forest to
+the east and west. The trail leads further north where a small
+cottage becomes apparent and south towards the City of Midgaard.
+  }
+  sector { Forest }
+  exits {
+	to { n, 2 }
+	  desc { More trail and a cottage
+}
+	to { e, trash:0 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, Haondor_dark:3 }
+	  desc { Nearer the city, less dense forest.
+}
+  }
+}
+
+2
+{
+  name { Ershteep Road }
+  desc {
+"   You are standing on a thin trail only wide enough for two. The
+trail was once, apparently, the middle of a large and busy
+thoroughfare. It now lies overgrown by thick, impassable forest to
+the east and west. The trail leads further north where a small
+cottage lies in a clearing and south towards the City of Midgaard.
+  }
+  sector { Forest }
+  exits {
+	to { n, 3 }
+	  desc { More trail and a cottage
+}
+	to { s, 1 }
+	  desc { Nearer the city, less dense forest.
+}
+  }
+}
+
+3
+{
+  name { Ershteep Road }
+  desc {
+You are standing on a bend of a thin trail only wide enough for
+two. The trail was once, apparently, the middle of a large and
+busy thoroughfare. It now lies overgrown by thick, impassable
+forest to the east. The trail leads further south and west. To the
+north a small cottage lies in a natural clearing. It looks
+deserted.
+  }
+  sector { Forest }
+  exits {
+	to { n, 4 }
+	  desc { A cottage, the front door is open
+}
+	to { s, 2 }
+	  desc { A trail through the forest.
+}
+	to { w, 5 }
+	  desc { A trail through the forest.
+}
+  }
+}
+
+4
+{
+  name { A deserted cottage }
+  desc {
+"   Once inside you see that the former inhabitants of this cottage
+left in a hurry. There seems to be much that was left lying about.
+Now after many years only the things that aren't of much use lie
+here under a thick layer of dust. There is a fireplace in the
+north wall over which a large painting hangs. The only apparent
+exit is south.
+  }
+  extra {
+	keywords { fireplace" }
+	desc { "   It looks like an ordinary fireplace but then a lock on the
+grate catches your eye. You have a distinct feeling they key is
+not here!
+	}
+	keywords { lock grate" }
+	desc { "   A lock made of a fine metal seems to be locking the grate in
+place.
+	}
+	keywords { painting picture" }
+	desc { "   A wonderfully crafted oil which depicts a scene outside a
+jewellers in a busy city street.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 52 }
+	  key { 21001 }
+	  info { door, closed }
+	  keywords { fireplace lock grate" }
+	  desc { A fireplace
+}
+	to { s, 3 }
+	  desc { A door back to the outside world!
+}
+  }
+}
+
+5
+{
+  name { Ershteep Road }
+  desc {
+You are standing on a thin trail only wide enough for
+two. The trail was once, apparently, the middle of a large and
+busy thoroughfare. It now lies overgrown by thick, impassable
+forest to the north and south. The trail leads further east and
+west. To the northeast a small cottage lies in a natural clearing.
+It looks deserted.
+  }
+  sector { Forest }
+  exits {
+	to { e, 3 }
+	  desc { More trail
+}
+	to { w, 6 }
+	  desc { More trail
+}
+  }
+}
+
+6
+{
+  name { Ershteep Road }
+  desc {
+You are standing on a thin trail only wide enough for
+two. The trail was once, apparently, the middle of a large and
+busy thoroughfare. It now lies overgrown by thick, impassable
+forest to the west and south. The trail leads further east and
+north.
+  }
+  sector { Forest }
+  exits {
+	to { n, 7 }
+	  desc { More trail
+}
+	to { e, 5 }
+	  desc { More trail
+}
+  }
+}
+
+7
+{
+  name { Ershteep Road }
+  desc {
+You are standing on a thin trail only wide enough for
+two. The trail was once, apparently, the middle of a large and
+busy thoroughfare. It now lies overgrown by thick, impassable
+forest to the north and east and leads straight up a very large
+mountain. The trail leads further south and west. You see a
+plateau where the trail disappears to the west.
+  }
+  sector { Mountains }
+  exits {
+	to { s, 6 }
+	  desc { More trail
+}
+	to { w, 8 }
+	  desc { More trail
+}
+  }
+}
+
+8
+{
+  name { Ershteep Road }
+  desc {
+You are standing at a triple junction. To the north you see a
+wide boulevard, to the east a narrow trail leads down the hill
+and to the west there is a large, open field. The way south is
+blocked by forest.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 10 }
+	  desc { More road
+}
+	to { e, 7 }
+	  desc { More trail
+}
+	to { w, 9 }
+	  desc { A field
+}
+  }
+}
+
+9
+{
+  name { An open field }
+  desc {
+"   You stand on one of the many concentric grassy rings of this
+field. In the centre of the field a large unfamiliar tree is
+growing surrounded by a ring of earth then a ring of grass and
+so on so that a pattern of concentric circles emerges. You
+feel a strange power coming from the tree but as you try to
+approach it you suddenly feel quite rejected. There is an exit
+to the east back to the trail. The forest is too thick to
+penetrate here.
+  }
+  sector { Field }
+  exits {
+	to { e, 8 }
+	  desc { The trail again
+}
+  }
+}
+
+10
+{
+  name { Ershteep Road }
+  desc {
+"   The road here is wider and seemingly more travelled. The
+road leads north and south and is surrounded by impassable
+forest its the east and west sides. On the horizon you see a
+large city wall.
+  }
+  sector { Forest }
+  exits {
+	to { n, 11 }
+	  desc { A road
+}
+	to { s, 8 }
+	  desc { A road
+}
+  }
+}
+
+11
+{
+  name { Outside the city wall }
+  desc {
+"   As you stand before the city a very strange feeling
+overwhelms you. You get a sensation of great disaster but also
+a sense of lasting peace. The gates stand before you wide open
+and unattended. The road leads south and underneath the bridge
+you stand on lies a moat running east-west.
+  }
+  sector { City }
+  extra {
+	keywords { moat" }
+	desc { You look into the murky water below you and surmise that
+jumping in there would not be a wise thing to do. A number of
+rather heavy objects seem to be floating on the surface!
+	}
+  }
+  exits {
+	to { n, 14 }
+	  desc { The city.
+}
+	to { s, 10 }
+	  desc { A road.
+}
+  }
+}
+
+12
+{
+  name { Dead end }
+  desc {
+The passage way ends here where a door in the west wall leads
+further into the wall. The smell that comes from there tends to
+indicate that it leads into the sewers.
+  }
+  extra {
+	keywords { door" }
+	desc { A narrow wooden door with a rusted keyhole.
+	}
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 13 }
+	  desc { A dimly lit passageway
+}
+	to { w, 56 }
+	  key { 21002 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { A door
+}
+  }
+}
+
+13
+{
+  name { East-West Passage }
+  desc {
+"   You stand in a dimly lit passage way inside the city wall.
+To the west is the main city gate and east leads further into
+the dankness. It seems to be a dead end.
+  }
+  flags { indoors }
+  exits {
+	to { e, 14 }
+	  desc { The city gates
+}
+	to { w, 12 }
+	  desc { An apparent dead end
+}
+  }
+}
+
+14
+{
+  name { City Gates }
+  desc {
+"  You stand inside the wall of the city where thousands of feet
+have trod.  To the south lies the relative safety of Ershteep
+Road, to the east and west lie dim passages into the wall and
+north you can see into the city.  Strangely, no normal city
+sounds seem to come from within!
+  }
+  flags { indoors }
+  exits {
+	to { n, 19 }
+	  desc { The city of Orshingal
+}
+	to { e, 15 }
+	  desc { A dim passage
+}
+	to { s, 11 }
+	  desc { Ershteep Road
+}
+	to { w, 13 }
+	  desc { A dim passage
+}
+  }
+}
+
+15
+{
+  name { East-West Passage }
+  desc {
+"    You stand in an dimly lit east-west passage inside the city
+wall. East lies the city gate and west seems to lead to a dead
+end.
+  }
+  flags { indoors }
+  exits {
+	to { e, 16 }
+	  desc { A seemingly dead end
+}
+	to { w, 14 }
+	  desc { City gates
+}
+  }
+}
+
+16
+{
+  name { Dead end }
+  desc {
+The passage way ends here where a door in the west wall leads
+further into the wall. The smell that comes from there tends to
+indicate that it leads into the sewers.
+  }
+  extra {
+	keywords { door" }
+	desc { A narrow wooden door with a rusted keyhole.
+	}
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 56 }
+	  key { 21002 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { A door
+}
+	to { w, 15 }
+	  desc { A dimly lit passageway
+}
+  }
+}
+
+17
+{
+  name { On a Road }
+  desc {
+You stand at a corner of a road which follows to city wall
+around. Through huge amounts of rubble to see that the road
+leads north and west from here.
+  }
+  sector { City }
+  exits {
+	to { n, 23 }
+	  desc { On a Road
+}
+	to { e, 18 }
+	  desc { On a Road
+}
+  }
+}
+
+18
+{
+  name { On a Road }
+  desc {
+"   You stand on a road which leads both east and west from here. To
+the north is a broken down, old building.
+  }
+  sector { City }
+  exits {
+	to { n, 24 }
+	  desc { An old building
+}
+	to { e, 19 }
+	  desc { A junction
+}
+	to { w, 17 }
+	  desc { Road
+}
+  }
+}
+
+19
+{
+  name { Inside the main gates }
+  desc {
+You stand inside the main gates of Orshingal, a city in ruins.
+The cities invaders seemed to take no care in their attack and
+bodies and rubble line the streets. From here roads lead
+north, east and west. South leads back to the city
+gates.
+  }
+  sector { City }
+  exits {
+	to { n, 25 }
+	  desc { Road
+}
+	to { e, 20 }
+	  desc { Road
+}
+	to { s, 14 }
+	  desc { City gates
+}
+	to { w, 18 }
+	  desc { Road
+}
+  }
+}
+
+20
+{
+  name { On a Road }
+  desc {
+You stand on a road which though covered in bodies and rubble
+seems to lead both east and west from here. To the north is a
+mystic temple, strangely intact.
+  }
+  sector { City }
+  exits {
+	to { n, 26 }
+	  desc { A temple
+}
+	to { e, 21 }
+	  desc { Road
+}
+	to { w, 19 }
+	  desc { A junction
+}
+  }
+}
+
+21
+{
+  name { On a Road }
+  desc {
+"   You stand at a bend in the road. The road continues north and west
+from here.
+  }
+  sector { City }
+  exits {
+	to { n, 27 }
+	  desc { Road
+}
+	to { w, 20 }
+	  desc { Road
+}
+  }
+}
+
+22
+{
+  name { On a Road }
+  desc {
+You stand at a bend in the ruined road. The road apparently
+leads north and east from here.
+  }
+  sector { City }
+  exits {
+	to { n, 29 }
+	  desc { Road
+}
+	to { e, 23 }
+	  desc { Road
+}
+  }
+}
+
+23
+{
+  name { On a Road }
+  desc {
+You stand at a bend in the old road. It continues south and east
+through much rubble and many decaying bodies.
+  }
+  sector { City }
+  exits {
+	to { s, 17 }
+	  desc { Road
+}
+	to { w, 22 }
+	  desc { Road
+}
+  }
+}
+
+24
+{
+  name { Armoury }
+  desc {
+"   This ransacked shop once was an armoury and there are many pieces of
+ancient armour all rusting on the floor. There is a locked cabinet on the
+floor which seems to have been overlooked. Doors lead to the north and
+south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 31 }
+	  desc { A foyer
+}
+	to { s, 18 }
+	  desc { Road
+}
+  }
+}
+
+25
+{
+  name { A wide street }
+  desc {
+"    A cobblestone street, meandering through the town. To the north is a
+large square dominated by a rather large mound in the centre with a tree on
+it. South is a junction of this street and another road.
+  }
+  sector { City }
+  exits {
+	to { n, 38 }
+	  desc { A square
+}
+	to { s, 19 }
+	  desc { A junction
+}
+  }
+}
+
+26
+{
+  name { South Chapel of the Temple }
+  desc {
+You are at the south end of the great temple. It is bedecked
+with many ancient symbols and artifacts. The strange thing about
+this temple is that unlike the rest of the city it seems to be
+quite well kept. An exit lies to the south and the main hall
+lies to the north.
+  }
+  extra {
+	keywords { symbols" }
+	desc { Strange symbols all in yellow and black are written on the walls. You have
+never seen anything like it before in your life. The strangest thing is
+that you seem to think the symbols say something important.
+	}
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 32 }
+	  desc { The main hall
+}
+	to { s, 20 }
+	  desc { An exit back to the street
+}
+  }
+}
+
+27
+{
+  name { On a Road }
+  desc {
+"   A bend in the road. This was obviously where a great battle
+was fought as the stench here is overpowering. The road
+continues south and east from here.
+  }
+  sector { City }
+  exits {
+	to { e, 28 }
+	  desc { Road
+}
+	to { s, 21 }
+	  desc { Road
+}
+  }
+}
+
+28
+{
+  name { On a Road }
+  desc {
+"   The road heads north and west at this point because at this
+point, what is left of the city wall dictates that it does.
+  }
+  sector { City }
+  exits {
+	to { n, 34 }
+	  desc { Road
+}
+	to { w, 27 }
+	  desc { Road
+}
+  }
+}
+
+29
+{
+  name { On a Road }
+  desc {
+"   You stand on a north-south section of the road. The city wall is
+west of here and an old building lies to the east.
+  }
+  sector { City }
+  exits {
+	to { n, 35 }
+	  desc { Road
+}
+	to { e, 30 }
+	  desc { An old building
+}
+	to { s, 22 }
+	  desc { Road
+}
+  }
+}
+
+30
+{
+  name { Weaponry }
+  desc {
+"   This shop has been looted and pillaged many times and now all that is
+left are broken swords and a few scabbards. There is an awful lot of blood
+on the walls and a pile of bones lies behind the counter. There is an exit
+to the west and a small foyer lies east of here.
+  }
+  extra {
+	keywords { bones" }
+	desc { The last remains of the weaponsmith.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 31 }
+	  desc { A foyer
+}
+	to { w, 29 }
+	  desc { An exit to the street
+}
+  }
+}
+
+31
+{
+  name { A small foyer }
+  desc {
+"   This is a small room which connects three shops: The Armoury,
+Weaponry and Jewellery. These lie to the south, west and north
+respectively.
+  }
+  flags { indoors }
+  exits {
+	to { n, 37 }
+	  desc { The Jewellery
+}
+	to { s, 24 }
+	  desc { The Armoury
+}
+	to { w, 30 }
+	  desc { The Weaponry
+}
+  }
+}
+
+32
+{
+  name { The Main Hall }
+  desc {
+"   Amazing patterns and dazzling images crowd your mind.
+Swirling visual illusions make you reel and almost fall over.
+There are exits north and south to small chapel like areas and
+in the east wall a small door leading who knows where?
+  }
+  flags { indoors }
+  exits {
+	to { n, 39 }
+	  desc { A chapel
+}
+	to { e, 33 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { A large jarrah door
+}
+	to { s, 26 }
+	  desc { A chapel
+}
+  }
+}
+
+33
+{
+  name { Cleric's Sanctum }
+  desc {
+"   You feel quite out of place in here. On the walls lie shelves
+which haven't seen the love of a cleaner in what is apparently
+centuries. Many books lie about them and there are some scrolls
+on the table before you. You suddenly feel uneasy and you look
+around.
+  }
+  flags { indoors }
+  exits {
+	to { w, 32 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { A door
+}
+  }
+}
+
+34
+{
+  name { A street }
+  desc {
+"   The road runs north-south here and there is a vile stench
+coming from a grate at the base of the wall. You expect there
+are sewers down there.
+  }
+  sector { City }
+  extra {
+	keywords { grate" }
+	desc { It looks unlocked.
+	}
+  }
+  exits {
+	to { n, 41 }
+	  desc { Road
+}
+	to { e, 55 }
+	  info { door, closed }
+	  keywords { grate" }
+	  desc { The city wall and a grate
+}
+	to { s, 28 }
+	  desc { Road
+}
+  }
+}
+
+35
+{
+  name { On a Road }
+  desc {
+"   At this point you can see through a hole in the wall of the
+city and see that there is a large plain to the east and moving
+around you see a large mountain to the north. The road turns to
+the south and east here.
+  }
+  sector { City }
+  exits {
+	to { e, 36 }
+	  desc { Road
+}
+	to { s, 29 }
+	  desc { Road
+}
+  }
+}
+
+36
+{
+  name { On a Road }
+  desc {
+"   The rubble lined road leads north and west from here.
+Through the debris you see that the road leads distantly to the
+north where the remnants of the wall impede its progress and it
+turns east.
+  }
+  sector { City }
+  exits {
+	to { n, 42 }
+	  desc { Road
+}
+	to { w, 35 }
+	  desc { Road
+}
+  }
+}
+
+37
+{
+  name { Jewellery }
+  desc {
+"   With little regard for years of timeless work, the cities
+destroyers have badly damaged this place. You can see little of
+any value here. The bones of the shopkeeper lie where he fell
+and they may still clutch something!
+  }
+  flags { indoors }
+  exits {
+	to { e, 38 }
+	  desc { The City Square can be seen through the broken door.
+}
+	to { s, 31 }
+	  desc { A door to a small foyer
+}
+  }
+}
+
+38
+{
+  name { The City Square }
+  desc {
+"   In the centre of this large square, perched on the top of a
+small hillock, is an all to unfamiliar tree. Radial lines of
+grass feed out from the tree and you feel a sense of power
+radiating from it. Exits lie north and south along a
+cobblestone street and east and west lead into buildings.
+  }
+  sector { City }
+  extra {
+	keywords { tree" }
+	desc { Why not go and take a closer look yourself?
+	}
+  }
+  exits {
+	to { n, 44 }
+	  desc { Road
+}
+	to { e, 39 }
+	  desc { The temple
+}
+	to { s, 25 }
+	  desc { Road
+}
+	to { w, 37 }
+	  desc { An old, broken down building
+}
+	to { u, 59 }
+	  desc { Up to the tree
+}
+  }
+}
+
+39
+{
+  name { North Chapel }
+  desc {
+"   The dim candle light and smell of inscence makes your head spin and
+you get the feeling that you could very well be in for a bit of
+peril in here! There is an exit to the west and the Main Hall lies
+to the south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 32 }
+	  desc { You see the main hall of the temple
+}
+	to { w, 38 }
+	  desc { A door back to the outside
+}
+  }
+}
+
+40
+{
+  name { On a Road }
+  desc {
+"   The rubble lined road leads north and east from here.
+Through the debris you see that the road leads distantly to the
+north where the remnants of the wall impede its progress and it
+turns east.
+  }
+  sector { City }
+  exits {
+	to { n, 46 }
+	  desc { Road
+}
+	to { e, 41 }
+	  desc { Road
+}
+  }
+}
+
+41
+{
+  name { On a Road }
+  desc {
+"   The rubble lined road leads south and west from here.
+  }
+  sector { City }
+  exits {
+	to { s, 34 }
+	  desc { Road
+}
+	to { w, 40 }
+	  desc { Road
+}
+  }
+}
+
+42
+{
+  name { On a Road }
+  desc {
+"   The rubble lined road leads north-south here. A small house lies
+to the east but no door is apparent in the wall.
+  }
+  sector { City }
+  exits {
+	to { n, 47 }
+	  desc { Road
+}
+	to { s, 36 }
+	  desc { Road
+}
+  }
+}
+
+43
+{
+  name { Small House }
+  desc {
+"   This small house, once occupied, now lies in ruins. There are
+lots of food scraps on the floor here and some clothes lie strewn on
+the floor. Looks tidy eh?
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 48 }
+	  desc { The door out!
+}
+  }
+}
+
+44
+{
+  name { A wide street }
+  desc {
+"    A cobblestone street, meandering through the town. To the south is a
+large square dominated by a rather large mound in the centre with a tree on
+it. North is a junction of this street and another road. Small homes
+can be seen east and west of here.
+  }
+  sector { City }
+  exits {
+	to { n, 49 }
+	  desc { A junction
+}
+	to { s, 38 }
+	  desc { A square
+}
+  }
+}
+
+45
+{
+  name { Small House }
+  desc {
+"   This small house, once occupied, now lies in ruins. There are
+lots of food scraps on the floor here and some clothes lie strewn on
+the floor. Looks tidy eh?
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 50 }
+	  desc { The door out!
+}
+  }
+}
+
+46
+{
+  name { On a Road }
+  desc {
+"   The rubble lined road leads north-south here. A small house lies
+to the west but no door is apparent in the wall.
+  }
+  sector { City }
+  exits {
+	to { n, 51 }
+	  desc { Road
+}
+	to { s, 40 }
+	  desc { Road
+}
+  }
+}
+
+47
+{
+  name { On a Road }
+  desc {
+"   The road turns here and leads south and east. To the north the
+city wall lies in complete ruin and all the city which was beyond it
+is now just wasteland. You get a strange sense of fear as you get
+closer to the wall. There is no way thru all the rubble, luckily.
+  }
+  sector { City }
+  exits {
+	to { e, 48 }
+	  desc { Road
+}
+	to { s, 42 }
+	  desc { Road
+}
+  }
+}
+
+48
+{
+  name { On a Road }
+  desc {
+"   The road leads east-west and a door into a small, dark house
+leads south.
+  }
+  sector { City }
+  exits {
+	to { e, 49 }
+	  desc { Road
+}
+	to { s, 43 }
+	  desc { A small house
+}
+	to { w, 47 }
+	  desc { Road
+}
+  }
+}
+
+49
+{
+  name { Road Junction }
+  desc {
+"   You stand at the junction of the two main roads in Orshingal.
+They lead south and east-west.
+  }
+  sector { City }
+  exits {
+	to { e, 50 }
+	  desc { Road
+}
+	to { s, 44 }
+	  desc { A wide street
+}
+	to { w, 48 }
+	  desc { Road
+}
+  }
+}
+
+50
+{
+  name { On a Road }
+  desc {
+"   The road leads east-west and a door into a small, dark house
+leads south.
+  }
+  sector { City }
+  exits {
+	to { e, 51 }
+	  desc { Road
+}
+	to { s, 45 }
+	  desc { A small house
+}
+	to { w, 49 }
+	  desc { Road
+}
+  }
+}
+
+51
+{
+  name { On a Road }
+  desc {
+"   The road turns here and leads south and west. To the north the
+city wall lies in complete ruin and all the city which was beyond it
+is now just wasteland. You get a strange sense of fear as you get
+closer to the wall. There is a path leading northwards through the 
+rubble.
+  }
+  sector { City }
+  exits {
+	to { n, 60 }
+	  desc { You see a pile of rubble}
+	to { s, 46 }
+	  desc { Road}
+	to { w, 50 }
+	  desc { Road}
+  }
+}
+
+52
+{
+  name { Fireplace }
+  desc {
+"   You stand in this small dim fireplace your light source dancing
+merrily and making shadowy pictures on the walls. The grate lies to
+the south.
+  }
+  flags { dark, indoors, no_sum, private }
+  exits {
+	to { s, 4 }
+	  key { 21001 }
+	  info { door, closed }
+	  keywords { grate door" }
+	  desc { A grate
+}
+  }
+}
+
+53
+{
+  name { Sewer }
+  desc {
+"   The stench is revolting! You see that the sewer here leads east
+and there is a door in the west wall.
+  }
+  extra {
+	keywords { door" }
+	desc { A plain wooden door
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 54 }
+	  desc { More sewer
+}
+	to { w, 16 }
+	  key { 21002 }
+	  info { door, closed }
+	  keywords { door sewer" }
+	  desc { A door
+}
+  }
+}
+
+54
+{
+  name { Sewer }
+  desc {
+"  The sewer leads both north and south from here.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 55 }
+	  desc { More sewer
+}
+	to { s, 53 }
+	  desc { More sewer
+}
+  }
+}
+
+55
+{
+  name { Sewer }
+  desc {
+"   The sewer leads south from here and there is a grate in the
+ceiling.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 54 }
+	  desc { More sewer
+}
+	to { u, 34 }
+	  info { door, closed }
+	  keywords { grate ceiling" }
+	  desc { A city street
+}
+  }
+}
+
+56
+{
+  name { Sewer }
+  desc {
+"   The stench is revolting! You see that the sewer here leads west
+and there is a door in the east wall.
+  }
+  extra {
+	keywords { door" }
+	desc { A plain wooden door
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 12 }
+	  key { 21002 }
+	  info { door, closed }
+	  keywords { door sewer" }
+	  desc { A door
+}
+	to { w, 57 }
+	  desc { More sewer
+}
+  }
+}
+
+57
+{
+  name { Sewer }
+  desc {
+"  The sewer leads both north and south from here.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 58 }
+	  desc { More sewer
+}
+	to { s, 56 }
+	  desc { More sewer
+}
+  }
+}
+
+58
+{
+  name { Sewer }
+  desc {
+"   Apparently this is a dead end with the only exit being south.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 57 }
+	  desc { More sewer
+}
+  }
+}
+
+59
+{
+  name { By the tree }
+  desc {
+"   Here, by the tree lie lots of bones and many bodies. There is an
+exit down. You might get to use it!
+  }
+  sector { City }
+  exits {
+	to { d, 38 }
+	  desc { The square
+}
+  }
+}
+
+60
+{
+  name { A pile of rubble }
+  desc {
+"   You are standing on top of a pile of rubble.  To the north, a trail 
+leads from the ruined city towards a dark forest.  It is very frightening
+to consider what is ahead
+  }
+  exits {
+	to { n, 61 }
+	to { s, 51 }
+  }
+}
+
+61
+{
+  name { A winding trail }
+  desc {
+"   you are on a winding trail, leading from the city of Orshingal northwards,
+into a dark, and tangled forest.
+  }
+  exits {
+	to { n, Abyss:0 }
+	to { s, 60 }
+  }
+}

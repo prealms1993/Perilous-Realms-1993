@@ -1,0 +1,432 @@
+1
+{
+  keeper { 3001 }
+  location { 3010 }
+  sell { 3010, 3011 }
+  sell_mult { 1.1 }
+  messages {
+    dont_buy { I don't buy! }
+    dont_have { Haven't got that on storage - try list! }
+    no_item { I don't buy! }
+    player_cant_afford { If you have no money, you'll have to go! }
+    sell { That'll be %d coins. }
+  }
+}
+
+@sell_only
+{
+  no_item { I don't buy! }
+  dont_buy { I don't buy! }
+}
+
+
+2
+{
+  keeper { 3040 }
+  location { 3076 }
+  sell { 3000, 3001 }
+  sell_mult { 1.1 }
+  messages {
+    @sell_only
+    dont_have { It's very noisy in here, what did you say you wanted to buy? }
+    player_cant_afford { Are you drunk or what ?? - NO CREDIT! }
+    sell { That'll be - say %d coins. } 
+  }
+}
+
+3
+{
+  keeper { 3003 }
+  location { 3109 }
+  buy_type { weapon, fire weapon, missile }
+  buy_mult { 0.4 }
+  sell { 3020, 3021, 3022, 3023, 3024 }
+  sell_mult { 1.3 }
+  messages {
+    dont_have { Haven't got that on storage - Try list! }
+    dont_buy { I don't buy those! }
+    no_item { You don't carry that weapon. }
+    shop_cant_afford { I can't afford such a great weapon. }
+    player_cant_afford { Sorry, but NO CREDIT! }
+    buy { Here's %d coins for that. }
+    sell { That will be %d coins. }
+  }
+}
+
+4
+{
+  keeper { 3002 }
+  location { 3009 }
+  sell { 1001, 1000, 3030, 3031, 3032 }
+  sell_mult { 1.5 }
+  buy_mult { 0.4 }
+  buy_type { light, container, food, trash, treasure }
+  messages {
+    dont_have { Haven't got that on storage - try list! }
+    no_item { You don't seem to have that. } 
+    dont_buy { I don't buy THAT,... Try another shop. } 
+    shop_cant_afford { I can't afford such a treasure. }
+    player_cant_afford { You can't afford it! }
+    sell { That'll be %d coins, please. } 
+    buy { You'll get %d coins for it! } 
+ }
+}
+
+5
+{
+  sell { 3040, 3042, 3044, 3076, 3081 }
+  sell_mult { 1.0 }
+  buy_mult { 0.5 }
+  buy_type { armor }
+  messages {
+    dont_have { Haven't got that on storage - try list! }
+    no_item { You don't seem to have that. } 
+    dont_buy { I only buy armours.. Go away! } 
+    shop_cant_afford { That is too expensive for me - Try a wizard! }
+    player_cant_afford { You can't afford it! }
+    sell { That'll be %d coins, please. } 
+    buy { You'll get %d coins for it! } 
+  }
+  keeper { 3004 }
+  location { 3108 }
+}
+
+6
+{
+  sell { 3002, 3003 }
+  sell_mult { 1.0 }
+  messages {
+    @sell_only
+    dont_have { Haven't got that on storage - try list! }
+    player_cant_afford { If you have no money, you'll have to go! }
+    sell { That'll be %d coins. } 
+  }
+  keeper { 3042 }
+  location {  3018 }
+}
+
+7
+{
+  sell { 3002, 3004 }
+  sell_mult { 1.1 }
+  messages {
+    @sell_only
+    dont_have { Haven't got that on storage - try list! }
+    player_cant_afford { If you have no money, you'll have to go! }
+    sell { That'll be %d coins. } 
+  }
+  keeper { 3043 }
+  location { 3003 }
+}
+
+8
+{
+  sell { 3004, 3003, 3002 }
+  sell_mult { 1.5 }
+  messages {
+    @sell_only
+    dont_have { Haven't got that on storage - try list! }
+    player_cant_afford { If you have no money, you'll have to go! }
+    sell { That'll be %d coins. } 
+  }
+  keeper { 3045 }
+  location { 3029 }
+}
+
+9
+{
+  sell { 3003, 3004}
+  sell_mult { 1.7 }
+  messages {
+    @sell_only
+    dont_have { Haven't got that on storage - try list! }
+    player_cant_afford { If you have no money, you'll have to go! }
+    sell { That'll be %d coins. } 
+  }
+  keeper { 3044 }
+  location { 3000 }
+}
+
+10
+{
+  sell { 3050, 3051, 3052, 3053, 3054 }
+  sell_mult { 1.05 }
+  buy_mult { 0.15 }
+  buy_type { wand, staff, potion }
+  messages {
+    dont_have { Sorry, I haven't got exactly that item. }
+    no_item { You don't seem to have that. } 
+    dont_buy { I don't buy such items. } 
+    shop_cant_afford { That is too expensive for me! }
+    player_cant_afford { You can't afford it! }
+    sell { That'll be %d coins, please. } 
+    buy { You'll get %d coins for it! } 
+  }
+  keeper { 3000 }
+  location { 3126 }
+}
+
+11
+{
+  sell { 3060, 3061 }
+  sell_mult { 1.2 }
+  buy_mult { 1.2 }
+  buy_type { boat }
+  messages {
+    dont_have { Sorry pal, I have not got that kind of ship. }
+    no_item { Ok, but let me see it first. } 
+    dont_buy { I only trade ships. } 
+    shop_cant_afford { I can't afford such a nice ship. }
+    player_cant_afford { This ship is too expensive for you. }
+    sell { Here is your ship, I'll take %d gold coins. } 
+    buy { What a fine deal, you get %d gold coins. } 
+  }
+  keeper { 3006 }
+  location { 3066 }
+  hours { 6, 22 }
+}
+
+12
+{
+  sell { 3100, 3101, 3102 }
+  sell_mult { 1.1 }
+  messages {
+    dont_have { I got no such drink. }
+    no_item { I see no such thing. } 
+    dont_buy { I do not buy, would you like a drink? } 
+    player_cant_afford {You can't afford such a fine drink, try the Grubby Inn.}
+    sell { Fine, that'll be %d gold pieces. } 
+  }
+  keeper { 3100 }
+  location { 3024 }
+  hours { 6, 25 }
+  hours { 0, 3 }
+}
+
+13
+{
+  sell { 3004, 3003 }
+  sell_mult { 1.0 }
+  messages {
+    @sell_only
+    dont_have { It's very noisy in here, what did you say you wanted to buy? }
+    player_cant_afford { Are you drunk or what ?? - NO CREDIT! }
+    sell { That'll be - say %d coins. } 
+  }
+  keeper { 3046 }
+  location { 3048 }
+}
+
+14
+{
+  keeper { 700 }
+  location { 708 }
+  sell { 3010, 6013 }
+  sell_mult { 1.0 }
+  buy_mult { 1.0 }
+  buy_type { liquid container, food }
+  messages {
+    dont_have { Dont got any of those right now, member! }
+    no_item { Sorry man, i dont buy.. i just sell beer and grub! } 
+    dont_buy { Sorry man, i dont buy.. i just sell beer and grub! } 
+    shop_cant_afford { Sorry man, i dont buy.. i just sell beer and grub! }
+    player_cant_afford{What do you think this is? Get some cash and we'll talk!}
+    sell { No problem.. %d coins. } 
+    buy { Alright.. Heh.. %d coins. } 
+  }
+}
+
+15
+{
+  sell { 3010, 6013 }
+  sell_mult { 1.0 }
+  messages {
+    dont_have { Dont got any of those right now, member! }
+    no_item { Sorry man, i dont buy.. i just sell beer and grub! } 
+    dont_buy { Sorry man, i dont buy.. i just sell beer and grub! } 
+    player_cant_afford { What do you think this is? Get some cash and we'll talk! }
+    sell { No problem.. %d coins. } 
+  }
+  keeper { 700 }
+  location { 708 }
+}
+
+16
+{
+  sell { 6004, 8121 }
+  sell_mult { 1.1 }
+  buy_mult { 0.95 }
+  buy_type { light, container, liquid container, food }
+  messages {
+    dont_have { I've never heard of that. }
+    no_item { I've never heard of that. } 
+    dont_buy { Please, this is a general store, not a flea market. } 
+    shop_cant_afford { I'll take it for free - I can't give you enough gold. }
+    player_cant_afford { Hmmm...you'd better check your wallet. }
+    sell { That costs %d. There you are! } 
+    buy { Here's %d coins. } 
+  }
+  keeper { 1018 }
+  location { 1105 }
+}
+
+17
+{
+  sell { 5002, 7191, 8502, 10003, 10005 }
+  sell_mult { 10.0 }
+  buy_mult { 0.5 }
+  buy_type { weapon, armor, other }
+  messages {
+    dont_have { Are you trying to pull the wool over my eyes? }
+    no_item { Scram kid! } 
+    dont_buy { I don't deal in that kind of merchandise. } 
+    shop_cant_afford { Do I look like a bank to you? }
+    player_cant_afford { Pay up or get out! }
+    sell { Give me %d coins.  Now beat it! } 
+    buy { Fine, here's %d coins.  Thanks for nothing. } 
+  }
+  keeper { 1020 }
+  location { 1107 }
+}
+
+18
+{
+  sell { 1103 }
+  sell_mult { 1.0 }
+  messages {
+    dont_have { You must be having a bad day. }
+    no_item { I've never heard of that.  Tell me more about it. } 
+    dont_buy { I'm sorry - I don't buy that sort of thing. } 
+    player_cant_afford { Come back when you get some more money. }
+    sell { That will be %d coins.  Enjoy. } 
+  }
+  keeper { 1019 }
+  location { 1121 }
+}
+
+19
+{
+  sell { 1110, 3002, 3100 }
+  sell_mult { 1.0 }
+  messages {
+    @sell_only
+    dont_have { Say what? }
+    player_cant_afford { You can't afford that. }
+    sell { Your total is %d coins. } 
+  }
+  keeper { 1013 }
+  location { 1116 }
+}
+
+20
+{
+  sell { 1110, 3002, 3100 }
+  sell_mult { 1.0 }
+  messages {
+    @sell_only
+    dont_have { Speak halfling, I can't understand you. }
+    player_cant_afford { You're out of luck today - you don't have enough gold. }
+    sell { Your total comes to %d coins. } 
+  }
+  keeper { 1030 }
+  location { 1144 }
+}
+
+21
+{
+  sell { 6504, 6505, 6508, 6510, 6518 }
+  sell_mult { 1.5 }
+  buy_mult { 0.5 }
+  buy_type { weapon, armor }
+  messages {
+    dont_have { Speak dwarven, I can't understand you. }
+    no_item { Speak dwarven, I can't understand you. } 
+    dont_buy { I buy weapons, and armor. } 
+    shop_cant_afford { I don't have enough money }
+    player_cant_afford { You can't scam me. }
+    sell { Your total comes to %d coins. } 
+    buy { Here's %d coins. }
+  }
+  keeper { 6503 }
+  location { 6516 }
+}
+
+22
+{
+  sell { 3010, 3011, 3012, 3013 }
+  sell_mult { 1.0 }
+  messages {
+    @sell_only
+    dont_have { Speak dwarven, I can't understand you. }
+    player_cant_afford { Watch it, lest I smite you. }
+    sell { Your total comes to %d coins. } 
+  }
+  keeper { 6504 }
+  location { 6535 }
+}
+
+23
+{
+  sell { 3010, 3013 }
+  sell_mult { 1.0 }
+  messages {
+    @sell_only
+    dont_have { I'm afrad we're right out of that }
+    player_cant_afford { I'm afraid I can't take credit }
+    sell { Your total comes to %d coins. } 
+  }
+  keeper { 11015 }
+  location { 11019 }
+}
+
+24
+{
+  sell { 28015, 5251, 5217, 5250, 24201 }
+  sell_mult { 1.5 }
+  buy_mult { 0.8 }
+  messages {
+    dont_have { I suppose you'll have to order that from our catalog. }
+    no_item { You expect me to pay good money for THAT!? } 
+    dont_buy { This is a music shop, buddy. } 
+    shop_cant_afford { Whoa!  Too rich for me! }
+    player_cant_afford { No money, no music! }
+    sell { That'll be %d coins. } 
+    buy { Here's %d coins. } 
+  }
+  keeper { 28001 }
+  location { 242 }
+}
+25
+{
+  keeper { 3017 }
+  location { 3016 }
+  buy_mult { 0.4 }
+  sell_mult { 1.9 }
+  sell { 953,960,961,962,963,964,965,966,967,968,969,970,971,972,973,26 }
+  messages {
+    dont_have { Haven't got that on storage - Try list! }
+    dont_buy { Try to sell that somewhere else, not here! }
+    no_item { Nice try, but you don't have that. }
+    shop_cant_afford { I can't afford it sorry. Try back later.}
+    player_cant_afford { Hey, you don't have enough money. }
+    buy { Here's %d coins for that. }
+    sell { That will be %d coins. }
+  }
+}
+26
+{
+  keeper { 3018 }  
+  location { 44703 }
+  buy_mult { 0.4 } 
+  sell_mult { 1.1 }
+  sell { 953,960,961,962,963,964,965,966,967,968,969,970,971,972,973,26 }
+  messages {
+    dont_have { Haven't got that on storage - Try list! }  
+    dont_buy { Try to sell that somewhere else, not here! }
+    no_item { Nice try, but you don't have that. }
+    shop_cant_afford { I can't afford it sorry. Try back later.}
+    player_cant_afford { Hey, you don't have enough money. }
+    buy { Here's %d coins for that. }
+    sell { That will be %d coins. }
+  }
+}

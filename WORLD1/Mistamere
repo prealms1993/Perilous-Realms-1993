@@ -1,0 +1,1102 @@
+
+0
+{
+  name { The rolling hills }
+  desc {
+You are amidst hills that seem to never stop.. to the northwest off in
+the distance you see a huge castle. A huge, aged, blackened castle.. no
+sound can be heard in its direction.. only the screaming wind around your
+shoulders.. there seems to be a path of some sort to the west.
+  }
+  sector { Hills }
+  exits {
+	to { e, Moria1:1 }
+	  desc { The hills continue in a confused pattern..}
+	to { w, 1 }
+	  desc { The hills continue in a confused pattern..}
+  }
+}
+
+1
+{
+  name { The rolling hills }
+  desc {
+You are amidst a darkened mass of hills that seem to shift and relocate
+before your very eyes.. To the northwest you see Castle Mistamere, its
+looming towers calling out to darkness.. dwelling on it. You get the
+urge to turn back to town and forget about this whole expedition.
+  }
+  sector { Hills }
+  exits {
+	to { e, 0 }
+	to { w, 2 }
+  }
+}
+
+2
+{
+  name { The rolling hills }
+  desc {
+You are amidst rolling hills that seem to stretch eastwards for ages..
+Eastward the hills wind and merge to create a gigantic maze.. To the
+north is the Castle Mistamere.. brought down by forces unknown some time
+ago.. There is a slope leading up to a set of huge reinforced iron double
+doors.
+  }
+  sector { Hills }
+  exits {
+	to { n, 3 }
+	  desc { To the north is a slowly inclining slope towards the castle..}
+	to { e, 1 }
+	  desc { The hills continue eastwards for some time..}
+  }
+}
+
+3
+{
+  name { On the entrance slope to Castle Mistamere }
+  desc {
+You are standing on a large slope that leads to the double doors in front
+of you that hold the wonders of the fallen Mistamere. There are many
+runes etched upon the door's surface, but they are in a language you can't
+comprehend. To the south you can see the shadow hills that lead you back
+to the crossroads.
+  }
+  sector { City }
+  exits {
+	to { n, 4 }
+	  keywords { doors double iron reinforced" }
+	  desc { The doors are made of iron and seem to have undergone a large amount of beating}
+	to { s, 2 }
+  }
+}
+
+4
+{
+  name { A large hallway }
+  desc {
+You are in a large hallway which leads north, and south to a pair of
+double doors. The walls and floor are made of stone, and has moss growing
+upon it. There is just enough light being let in by a skylight far above
+you to suit your needs. There are heavy oak doors on both the east and
+west walls.
+  }
+  flags { indoors }
+  exits {
+	to { n, 7 }
+	to { e, 6 }
+	  keywords { door heavy oak" }
+	to { s, 3 }
+	  keywords { doors double iron reinforced" }
+	  desc { The doors of the castle are stained with blood and have large nicks in them}
+	to { w, 5 }
+	  keywords { door oak heavy" }
+  }
+}
+
+5
+{
+  name { An abandoned dining room }
+  desc {
+This room appears to have once been used as a dining room. There are
+tables and benches scattered throughout the room, many turned on their
+sides or upside down. Everything is covered with cobwebs.
+  }
+  flags { indoors }
+  exits {
+	to { e, 4 }
+	  keywords { door oak heavy" }
+  }
+}
+
+6
+{
+  name { A guardroom }
+  desc {
+You have entered what used to be a guardroom for the castle.. there are
+empty weapons racks on the walls and battered shields and armor laying on
+the ground, all useless.
+  }
+  flags { indoors }
+  exits {
+	to { w, 4 }
+	  keywords { door oak heavy" }
+  }
+}
+
+7
+{
+  name { A hallway }
+  desc {
+You are in a hallway leading east, west, and south.. there is a door to
+the north. Light is streaming in above from a small skylight in the roof.
+  }
+  flags { indoors }
+  exits {
+	to { n, 9 }
+	  keywords { door heavy oak" }
+	to { e, 8 }
+	to { s, 4 }
+	to { w, 10 }
+  }
+}
+
+8
+{
+  name { A hallway }
+  desc {
+You are in a hallway with a stone floor and walls.. It continues east and
+west, and there is a door north.
+Light streams in from a small skylight above.
+  }
+  flags { indoors }
+  exits {
+	to { n, 19 }
+	  keywords { door oak heavy" }
+	to { e, 11 }
+	to { w, 7 }
+  }
+}
+
+9
+{
+  name { A bedroom }
+  desc {
+You have entered a small bedroom. There is a door at the north end of the
+room, and also at the south. On either side of the northern door are
+windows above your reach.
+  }
+  flags { indoors }
+  exits {
+	to { n, 15 }
+	  keywords { door oak heavy" }
+	to { s, 7 }
+	  keywords { door oak heavy" }
+  }
+}
+
+10
+{
+  name { A hallway }
+  desc {
+You are in a long hallway which extends east and west.. to the north
+is a heavy oak door. The walls and floor are made of stone. A small
+stream of light peeks in from a half covered skylight above.
+  }
+  flags { indoors }
+  exits {
+	to { n, 20 }
+	  keywords { door oak heavy" }
+	to { e, 7 }
+	to { w, 12 }
+  }
+}
+
+11
+{
+  name { A hallway }
+  desc {
+The hallway turns here, leading north and west.. There is a passage
+leading south into the southeastern tower. Light is being let in by
+an old skylight far above your head.
+  }
+  flags { indoors }
+  exits {
+	to { n, 26 }
+	  desc { The hallway continues north..
+}
+	to { e, 25 }
+	  keywords { door oak heavy" }
+	to { s, 13 }
+	to { w, 8 }
+	  desc { The hallway continues west..
+}
+  }
+}
+
+12
+{
+  name { A hallway }
+  desc {
+The hallway comes to a bend here, leading north, and east.. There is also
+a heavy oaken door west. There are cobwebs all over the walls here, it
+seems this passage hasn't been used for a while. The southwestern tower
+lies south. A beam of light peeks through the skylight.
+  }
+  flags { indoors }
+  exits {
+	to { n, 23 }
+	  desc { The hallway continues north..
+}
+	to { e, 10 }
+	  desc { The hallway continues east..
+}
+	to { s, 14 }
+	  desc { The southwestern tower lies south..
+}
+	to { w, 21 }
+	  keywords { door oak large oaken" }
+	  desc { You see a large oaken door..
+}
+  }
+}
+
+13
+{
+  name { The southeastern tower }
+  desc {
+You see a circular room, about 40 feet in diameter, with eight openings
+spaced evenly about the outside wall. The windows extend from about
+waist height to about head height for a normal human. These are obviously
+ ports through which arrows can be fired. The room appears to be empty.
+  }
+  flags { indoors }
+  exits {
+	to { n, 11 }
+	  desc { You see the hallway..
+}
+  }
+}
+
+14
+{
+  name { The southwestern tower }
+  desc {
+You see a circular room, about 40 feet in diameter, with eight openings
+spaced evenly about the outside wall. The windows extend from about
+waist height to about head height for a normal human. A tree limb has
+grown through one of the windows. These are obviously ports through which
+arrows can be fired. The room appears to be empty.
+  }
+  flags { indoors }
+  exits {
+	to { n, 12 }
+	  keywords { secret" }
+	  desc { You see the hallway..
+}
+  }
+}
+
+15
+{
+  name { The courtyard }
+  desc {
+You are in a grassy courtyard open to the sky. Three doors, including
+the one by which you entered, line the walls. The courtyard continues
+north.
+  }
+  sector { Field }
+  exits {
+	to { n, 16 }
+	  desc { The courtyard continues north..
+}
+	to { e, 39 }
+	  keywords { door oak large oaken heavy" }
+	  desc { You see a large oak door..
+}
+	to { s, 9 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oak door..
+}
+	to { w, 42 }
+	  keywords { door heavy oak" }
+	  desc { You see a heavy oak door..
+}
+  }
+}
+
+16
+{
+  name { The courtyard }
+  desc {
+You see a grassy courtyard open to the sky. Three doors, including the
+one by which you entered, line the walls. The courtyard continues south.
+There is a large oak tree growing here.
+  }
+  sector { Field }
+  exits {
+	to { n, 17 }
+	  keywords { door oak large" }
+	  desc { You see a large oak door..
+}
+	to { e, 38 }
+	  keywords { door oak large" }
+	  desc { You see a large oak door
+}
+	to { s, 15 }
+	  desc { The courtyard continues south..
+}
+	to { w, 40 }
+	  keywords { door oak large" }
+	  desc { You see a large oak door..
+}
+  }
+}
+
+17
+{
+  name { A bedroom }
+  desc {
+You have entered a small bedroom which appears to be sanctioning a few
+rather dirty creatures, by the looks of the beds and cloth thrown about
+the room. There are doors on the north and south walls. the south door
+is flanked by two windows.
+  }
+  flags { indoors }
+  exits {
+	to { n, 18 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oaken door..
+}
+	to { s, 16 }
+	  keywords { door heavy oak" }
+	  desc { You see the courtyard through the windows..
+}
+  }
+}
+
+18
+{
+  name { The hallway }
+  desc {
+You are in a long hallway extending east and west. There are heavy oak
+doors on both the north and south walls. The walls and floor are made of
+stone and have moss growing on them. A small ray of light streams in
+from above.
+  }
+  flags { indoors }
+  exits {
+	to { n, 53 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oak door..
+}
+	to { e, 36 }
+	  desc { The hallway continues east..
+}
+	to { s, 17 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oak door..
+}
+	to { w, 51 }
+	  desc { The hallway continues west..
+}
+  }
+}
+
+19
+{
+  name { A bedroom }
+  desc {
+You have entered a small bedroom of some sort. The only door out of this
+room is the one which you came in by. There is a bed in the northern end
+of the room, which looks recently used. There is a skylight here similar
+to the ones in other rooms.
+  }
+  flags { indoors }
+  exits {
+	to { s, 8 }
+	  keywords { door oak heavy" }
+	  desc { You see the hallway..
+}
+  }
+}
+
+20
+{
+  name { A bedroom }
+  desc {
+You have entered a small bedroom that looks recently used. On the south
+wall is a door, leading back into the hallway. The walls and floor of
+this room are of stone. A small beam of light hits your eyes from above.
+  }
+  flags { indoors }
+  exits {
+	to { s, 10 }
+	  keywords { door heavy oak" }
+	  desc { You see a heavy oak door leading back into the hallway..
+}
+  }
+}
+
+21
+{
+  name { The kitchen }
+  desc {
+The west wall of this room has a ledge about seven feet from the floor, 
+with two small windows above the ledge. The room seems to be a kitchen.
+It contains four tables, a pump, and an old stove.
+  }
+  flags { indoors }
+  exits {
+	to { e, 12 }
+	  keywords { door oak heavy" }
+	  desc { You see the hallway..
+}
+  }
+}
+
+22
+{
+  name { The pantry }
+  desc {
+The west wall of this room has a ledge about seven feet from the floor, 
+with two small windows above the ledge. Cabinets and shelves line the wall.
+In the middle of the floor lies the body of a goblin with a horribly
+swollen arm. Trash and old sacks are scattered about the floor.
+  }
+  extra {
+	keywords { goblin corpse halfway decayed" }
+	desc { There seems to be a large snakebite on the swollen arm.
+ 
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 23 }
+	  keywords { door oak heavy" }
+	  desc { You see the hallway..
+}
+  }
+}
+
+23
+{
+  name { The hallway }
+  desc {
+You are in a long hallway that stretches out north and south. There is a
+skylight high above you letting light in this desolate place. To the west
+is a door.
+  }
+  flags { indoors }
+  exits {
+	to { n, 24 }
+	  desc { The hallway continues..
+}
+	to { s, 12 }
+	  desc { The hallway continues..
+}
+	to { w, 22 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oak door..
+}
+  }
+}
+
+24
+{
+  name { The hallway }
+  desc {
+You are in a long hallway leading north and south. A beam of light hits
+the floor in front of you from a halfway covered skylight in the roof. To
+the east of you on a huge stone wall grows a patch of moss. There is a
+door west of you.
+  }
+  extra {
+	keywords { moss" }
+	desc { It it timeless, now one with the castle.. 
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 45 }
+	  desc { The hallway continues..
+}
+	to { s, 23 }
+	  desc { The hallway continues..
+}
+	to { w, 44 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oak door..
+}
+  }
+}
+
+25
+{
+  name { A utility room }
+  desc {
+The east wall of this room has a ledge about seven feet from the floor, 
+with two small windows above the ledge. The room appears to be empty.
+  }
+  flags { indoors }
+  exits {
+	to { w, 11 }
+	  keywords { door oak heavy oaken" }
+	  desc { You see a heavy oak door..
+}
+  }
+}
+
+26
+{
+  name { The hallway }
+  desc {
+You are in a long hallway which extends north and south. There is a door
+to the east. A ray of sunlight catches your eye through the roof above.
+The walls and floor are made of aging stone here, some corners covered
+in moss.
+  }
+  flags { indoors }
+  exits {
+	to { n, 29 }
+	  desc { The hallway continues..
+}
+	to { e, 27 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oak door..
+}
+	to { s, 11 }
+	  desc { The hallway continues..
+}
+  }
+}
+
+27
+{
+  name { A storeroom }
+  desc {
+The east wall of this room has a ledge about seven feet from the floor.
+There are two small windows above the ledge. Except for some trash on
+the floor, the room appears to be empty.
+  }
+  flags { indoors }
+  exits {
+	to { w, 26 }
+	  keywords { door oak heavy" }
+	  desc { The hallway lies west..
+}
+  }
+}
+
+28
+{
+  name { A storeroom }
+  desc {
+The east wall of this room has a ledge about seven feet from the floor.
+There are two small windows above the ledge. Except for some trash on the
+floor, the room appears to be empty.
+  }
+  flags { indoors }
+  exits {
+	to { w, 29 }
+	  keywords { door oak heavy" }
+	  desc { The hallway lies west..
+}
+  }
+}
+
+29
+{
+  name { The hallway }
+  desc {
+You are in a long hallway which extends to the north and south. To the
+east is a door. The walls and floor are made of stone and have moss growing
+in the cracks. A beam of light hits the floor in front of you from the
+roof.
+  }
+  flags { indoors }
+  exits {
+	to { n, 30 }
+	  desc { The hallway continues..
+}
+	to { e, 28 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oak door..
+}
+	to { s, 26 }
+	  desc { The hallway continues..
+}
+  }
+}
+
+30
+{
+  name { The hallway }
+  desc {
+You are in a hallway that stretches north and south. To the east is a heavy
+oaken door. The walls and floor are made of stone, and have moss growing
+in the cracks. You hear a flock of crows pass above the castle through
+the open skylight, and the room goes dark for a second.
+  }
+  flags { indoors }
+  exits {
+	to { n, 32 }
+	  desc { The hallway continues north..
+}
+	to { e, 31 }
+	  keywords { door oak heavy oaken" }
+	  desc { You see a heavy oak door..
+}
+	to { s, 29 }
+	  desc { The hallway continues south..
+}
+  }
+}
+
+31
+{
+  name { A storeroom }
+  desc {
+The east wall of this room has a ledge about seven feet from the floor.
+There are two small windows above the ledge. Except for two long tables
+along the south wall, the room appears to be empty. As you enter the room,
+you hear the sound of small wings.
+  }
+  extra {
+	keywords { nest ledge" }
+	desc { The stirges have made a nest upon the ledge.
+ 
+	}
+  }
+  flags { indoors }
+  exits {
+	to { w, 30 }
+	  keywords { door oak heavy" }
+	  desc { The hallway lies west..
+}
+  }
+}
+
+32
+{
+  name { The hallway }
+  desc {
+You are in a long hallway which stretches north and south. To the east is
+a door. The walls and floor are made of stone, and have moss growing upon
+them in the cracks. A ray of light hits the floor in front of you from a 
+skylight in the roof.
+  }
+  flags { indoors }
+  exits {
+	to { n, 34 }
+	  desc { The hallway continues north..
+}
+	to { e, 33 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oak door..
+}
+	to { s, 30 }
+	  desc { The hallway continues south..
+}
+  }
+}
+
+33
+{
+  name { The chapel }
+  desc {
+The east wall of this room has a ledge about seven feet from the floor,
+with two small windows above the ledge. There is a small altar on the
+diagonal northwest wall. There are several long benches in the room. Two
+of them have been pushed together in the southeast corner to form a rude
+bed.
+  }
+  flags { indoors }
+  exits {
+	to { w, 32 }
+	  keywords { door oak heavy" }
+	  desc { The hallway lies to the west..
+}
+  }
+}
+
+34
+{
+  name { The hallway }
+  desc {
+You are in a long hallway that has come to a bend, now leading west and
+south. There is a passage north to the northeastern tower. The walls and
+floor are made of stone and have moss growing in the cracks. There is
+rubble on the floor and the room is being flooded by daylight, the skylight
+opened by an unknown force.
+  }
+  exits {
+	to { n, 35 }
+	  desc { The northeastern tower lies north..
+}
+	to { s, 32 }
+	  desc { The hallway continues south..
+}
+	to { w, 36 }
+	  desc { The hallway continues west..
+}
+  }
+}
+
+35
+{
+  name { The northeastern tower }
+  desc {
+You are in a circular room, about 40 feet in diameter, with eight openings
+spaced evenly and from about waist height to about head height for a
+normal human. These are obviously ports through which arrows can be fired.
+The floor of the room is covered with rubbish.
+  }
+  flags { indoors }
+  exits {
+	to { s, 34 }
+	  desc { The hallway lies south..
+}
+  }
+}
+
+36
+{
+  name { The hallway }
+  desc {
+You are in a long hallway extending east and west. On the north and south
+walls are doors. The walls and floor are made of stone, and has moss
+growing between the cracks. A ray of light hits your eye from the skylight
+above.
+  }
+  flags { indoors }
+  exits {
+	to { n, 43 }
+	  keywords { door oak heavuy" }
+	  desc { You see a heavy oak door..
+}
+	to { e, 34 }
+	  desc { The hallway continues east..
+}
+	to { s, 37 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oaken door..
+}
+	to { w, 18 }
+	  desc { The hallway continues west..
+}
+  }
+}
+
+37
+{
+  name { A bedroom }
+  desc {
+You are in a small bedroom, which seems to be empty except for the
+unoccupied bed in the eastern side of the room. The room is lit by a small
+skylight in the southwest corner of the room, letting in light but not
+rain. The only exit out seems to be the door north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 36 }
+	  keywords { door oak heavy" }
+	  desc { The hallway lies north..
+}
+  }
+}
+
+38
+{
+  name { A bedroom }
+  desc {
+This trash filled room contains an empty bed with all its slats removed.
+The room appears to be otherwise empty. A door on the east wall is flanked
+by two small windows about seven feet from the floor.
+  }
+  flags { indoors }
+  exits {
+	to { w, 16 }
+	  keywords { door oak heavy" }
+	  desc { the courtyard lies west..
+}
+  }
+}
+
+39
+{
+  name { A bedroom }
+  desc {
+This trash filled room contains an empty bed. There are scorch marks on
+the wall. The room appears to be otherwise empty. A door on the west wall
+is flanked by two small windows about seven feet from the floor.
+  }
+  flags { indoors }
+  exits {
+	to { w, 15 }
+	  keywords { door oak heavy" }
+	  desc { The courtyard lies west..
+}
+  }
+}
+
+40
+{
+  name { A bedroom }
+  desc {
+This trash filled room contains an empty bed. There is a chest next to the
+bed. Otherwise, the room appears to be empty. A door on the west wall is
+flanked by two small windows about seven feet from the floor.
+  }
+  flags { indoors }
+  exits {
+	to { e, 16 }
+	  keywords { door oak heavy" }
+	  desc { The courtyard lies east..
+}
+  }
+}
+
+41
+{
+  name { A bedroom }
+  desc {
+You are in a small bedroom, the room seems to be empty except for an
+unoccupied bed. The room is lit by a skylight in the southeast corner that
+lets in the light, but not the rain.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 51 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oaken door..
+}
+  }
+}
+
+42
+{
+  name { A bedroom }
+  desc {
+This trash filled room contains an empty bed. The bed clothes are rotten
+and decayed. The room appears to be otherwise empty. A door on the east
+wall is flanked by two small windows about seven feet from the floor.
+  }
+  flags { indoors }
+  exits {
+	to { e, 15 }
+	  keywords { door oak heavy" }
+	  desc { The courtyard lies east..
+}
+  }
+}
+
+43
+{
+  name { A utility room }
+  desc {
+The north wall of this room has a ledge about seven feet from the floor,
+with two small windows above the ledge. The room appears to be empty
+except for the cobwebs clinging all over the walls.
+  }
+  flags { indoors }
+  exits {
+	to { s, 36 }
+	  keywords { door oak heavy" }
+	  desc { The hallway lies south..
+}
+  }
+}
+
+44
+{
+  name { A library }
+  desc {
+The west wall of this room has a ledge about seven feet from the floor,
+with two small windows above the ledge. Bookshelves line the north and
+south walls; a few motheaten books remain on them. There is a large, dusty
+carpet in the middle of the room.
+  }
+  flags { indoors }
+  exits {
+	to { e, 24 }
+	  keywords { door oak heavy" }
+	  desc { The hallway lies east..
+}
+  }
+}
+
+45
+{
+  name { The hallway }
+  desc {
+You are in a long hallway extending north and south. The walls and floor
+are made of stone, and have moss growing upon them. There is a oaken door
+west. A ray of light hits the floor just in front of your feet from a
+skylight above.
+  }
+  flags { indoors }
+  exits {
+	to { n, 48 }
+	  desc { The hallway continues..
+}
+	to { s, 24 }
+	  desc { The hallway continues south..
+}
+	to { w, 46 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oaken door..
+}
+  }
+}
+
+46
+{
+  name { A storeroom }
+  desc {
+The west wall of this room has a ledge about seven feet from the floor,
+with two small windows above the ledge. Except for some trash on the
+floor, the room appears to be empty.
+  }
+  flags { indoors }
+  exits {
+	to { e, 45 }
+	  keywords { door oak heavy" }
+	  desc { The hallway lies east..
+}
+  }
+}
+
+47
+{
+  name { A utility room }
+  desc {
+The west wall of this room has a ledge about seven feet from the floor,
+with two small bricked up windows above the ledge. There is a large
+trapdoor in the middle of the floor.
+  }
+  flags { indoors }
+  exits {
+	to { e, 48 }
+	  key { 19211 }
+	  info { door, closed }
+	  keywords { door oak heavy" }
+	  desc { The hallway lies east..
+}
+  }
+}
+
+48
+{
+  name { The hallway }
+  desc {
+You are in a long hallway extending north and south. The walls and floor
+are made of stone and have moss growing upon the cracks. There is a door
+west. A beam of light hits your eye from above, blinding you for a second.
+  }
+  flags { indoors }
+  exits {
+	to { n, 49 }
+	  desc { The hallway lies north..
+}
+	to { s, 45 }
+	  desc { The hallway continues south..
+}
+	to { w, 47 }
+	  key { 19211 }
+	  info { door, closed }
+	  keywords { door oak oaken heavy" }
+	  desc { You see a heavy oaken door..
+}
+  }
+}
+
+49
+{
+  name { The hallway }
+  desc {
+You are in a long hallway which has come to a bend, now leading east and
+south. The walls and floor are made of stone, and have moss growing upon
+the cracks. A ray of light hits the floor in front of you from the roof
+above. A passge north of you leads to one of the four towers of the castle.
+  }
+  flags { indoors }
+  exits {
+	to { n, 50 }
+	  desc { The northwestern tower lies to the north..
+}
+	to { e, 51 }
+	  desc { The hallway continues east..
+}
+	to { s, 48 }
+	  desc { The hallway continues south..
+}
+  }
+}
+
+50
+{
+  name { The northwestern tower }
+  desc {
+You see a circular room, about 40 feet in diameter, with eight openings
+spaced evenly about the outside wall. The windows extend from about waist
+height to about head height for a normal human. These are obviously ports
+through which arrows can be fired. The room appears to be empty except for
+the remains of a skeleton on the floor.
+  }
+  extra {
+	keywords { skeleton" }
+	desc { It has been there for many years. It was once a defender of this castle.
+ 
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 49 }
+	  desc { The hallway lies south..
+}
+  }
+}
+
+51
+{
+  name { The hallway }
+  desc {
+You are in a long hallway which extends east and west. The walls and floor
+are made of stone, and have moss growing in the cracks. Doors lie both
+north and south. A ray of sunlight hits the wall next to you, highlighting
+its age.
+  }
+  flags { indoors }
+  exits {
+	to { n, 52 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oak door..
+}
+	to { e, 18 }
+	  desc { The hallway continues east..
+}
+	to { s, 41 }
+	  keywords { door oak heavy" }
+	  desc { You see a heavy oak door..
+}
+	to { w, 49 }
+	  desc { The hallway continues west..
+}
+  }
+}
+
+52
+{
+  name { A guardroom }
+  desc {
+The north wall of this room has a ledge about seven feet from the floor,
+with small windows above the ledge. The room looks as if it might have
+been a guard post. there are a few beds, some pegs on the walls for
+clothing, a rack to hold weapons,  and a long table with a drawer that
+might have once served as a desk. there are moth eaten clothes on the bed,
+but the room appears to be otherwise empty.
+  }
+  flags { indoors }
+  exits {
+	to { s, 51 }
+	  keywords { door oak heavy" }
+  }
+}
+
+53
+{
+  name { A storeroom }
+  desc {
+The north wall of this room has a ledge about seven feet from the floor,
+with two small windows above the ledge. The room appears to contain a lot
+of what seems to be personal gear and equipment.
+  }
+  flags { indoors }
+  exits {
+	to { s, 18 }
+	  keywords { door oak heavy" }
+	  desc { The hallway lies south..
+}
+  }
+}

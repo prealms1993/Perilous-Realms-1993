@@ -1,0 +1,277 @@
+From phantom@rock.concert.net Sun Feb 28 16:21 PST 1993
+Received: from rock.concert.net by odin.wosc.osshe.edu (5.65/1.35)
+	id AA11975; Sun, 28 Feb 93 16:21:14 -0800
+Received: by rock.concert.net (5.59/tas-rock/8-12-92)
+	id AA24271; Sun, 28 Feb 93 18:24:11 -0500
+Date: Sun, 28 Feb 93 18:24:11 -0500
+From: Paul M Mann -- Personal Account <phantom@rock.concert.net>
+Message-Id: <9302282324.AA24271@rock.concert.net>
+To: phantom@rock.concert.net, pr-submit@odin.wosc.osshe.edu
+Subject: skill/spell (all but M/C)
+Status: O
+
+**ASSASSIN
+ 
+SKILL                   Lvl|Diff|Cost|Gld|Max|Prereq|
+backstab                  1|  1 |    |   |100|      |
+hide                      5|  1 |    |   |100|      |
+extra attack one         10|  1 |    |   |100|      |
+extra attack two         25|  1 |    |   | 75|      |
+extra attack three       50|  1 |    |   | 50|      |
+extra attack four       100|  1 |    |   | 25|      |
+ 
+SPELLS                  Lvl|Diff|Cost|Gld|Max|mana|Prereq|comp.|
+detect poison            10|  1 |    |   |100| 10 |      |     |
+drain vigor serious      10|  1 |    |   | 80| 14 |      |     |
+poison                   13|  1 |    |   | 90| 20 |      |     |
+drain vigor critic       15|  1 |    |   | 80| 15 |      |     |
+detect invisibility      20|  1 |    |   | 90| 20 |      |     |
+blindness                30|  1 |    |   |100| 30 |      |     |
+energy drain             50|  1 |    |   |100| 20 |      |     |
+paralyze                 45|  1 |    |   |100| 45 |      |     |
+remove paralysis         47|  1 |    |   | 90| 15 |      |     |
+sleep                    75|  1 |    |   | 90| 55 |      |     |
+infravision             100|  1 |    |   |100| 25 |      |     |
+charm person            300|  1 |    |   | 90| 75 |      |     |
+ 
+ 
+**AVENGER
+ 
+SKILL                   Lvl|Diff|Cost|Gld|Max|Prereq
+kick                      1|  1 |    |   |100|
+rescue                    2|  1 |    |   |100|
+extra attack one         16|  1 |    |   |100|
+extra attack two         49|  1 |    |   |100|
+scan                     67|  1 |    |   |100|
+extra attack three      107|  1 |    |   |100|
+extra attack four       197|  1 |    |   |100|
+extra attack five       320|  1 |    |   |100|
+ 
+ 
+**BARBARIAN
+ 
+SKILL                   Lvl|Diff|Cost|Gld|Max|Prereq
+detect magic              1|  1 |    |   |100|
+bash                      1|  1 |    |   |100|
+kick                      5|  1 |    |   |100|
+extra attack one         10|  1 |    |   |100|
+extra attack two         20|  1 |    |   |100|
+extra attack three       50|  1 |    |   |100|
+extra attack four       100|  1 |    |   |100|
+extra attack five       170|  1 |    |   |100|
+extra attack six        250|  1 |    |   |100|
+extra attack seven      300|  1 |    |   |100|
+extra attack eight      375|  1 |    |   |100|
+extra attack nine       450|  1 |    |   |100|
+ 
+SPELLS                  Lvl|Diff|Cost|Gld|Max|mana|prereq|comp
+aid                      18|  1 |    |   | 90|  1 |      |
+ 
+**BARD
+ 
+SKILL                   Lvl|Diff|Cost|Gld|Max|Prereq
+detect evil               5|  1 |    |   |100|
+charm monster             8|  1 |    |   |100|
+appraise                 10|  1 |    |   |100|
+extra attack one         20|  1 |    |   | 75|
+extra attack two         40|  1 |    |   | 50|
+locate object            50|  1 |    |   |100|
+extra attack three      100|  1 |    |   | 25|
+ 
+SPELLS                  Lvl|Diff|Cost|Gld|Max|mana|prereq|comp
+teleimage                15|  1 |    |   |100| 10 |      |
+dexterity                16|  1 |    |   |100| 15 |      |
+nocharm                  17|  1 |    |   |100| 15 |      |
+scry                     32|  1 |    |   |100| 20 |      |
+ 
+ 
+**CAVALIER
+SKILL                   Lvl|Diff|Cost|Gld|Max|Prereq
+kick                      1|  1 |    |   |100|
+rescue                    2|  1 |    |   |100|
+extra attack one         10|  1 |    |   |100|
+extra attack two         20|  1 |    |   |100|
+extra attack three       50|  1 |    |   |100|
+scan                     68|  1 |    |   |100|
+extra attack four       100|  1 |    |   |100|
+extra attack five       170|  1 |    |   |100|
+extra attack six        250|  1 |    |   |100|
+extra attack seven      300|  1 |    |   |100|
+extra attack eight      375|  1 |    |   |100|
+extra attack nine       450|  1 |    |   |100|
+ 
+SPELLS                  Lvl|Diff|Cost|Gld|Max|mana|prereq|comp
+aid                      19|  1 |    |   | 90|  5 |      |
+ 
+**DRUID
+ 
+SKILL                   Lvl|Diff|Cost|Gld|Max|Prereq
+track                    25|  1 |    |   |100|
+extra attack one         25|  1 |    |   | 75|
+extra attack two         50|  1 |    |   | 50|
+scan                     73|  1 |    |   |100|
+extra attack three      100|  1 |    |   | 25|
+ 
+SPELLS                  Lvl|Diff|Cost|Gld|Max|mana|prereq|comp
+control weather           3|  1 |    |   |100| 10 |      |
+nosleep                   7|  1 |    |   |100| 15 |      |
+water breath              8|  1 |    |   |100|  8 |      |
+faerie fire              12|  1 |    |   |100| 17 |      |
+fury                     15|  1 |    |   |100| 10 |      |
+sense life               16|  1 |    |   |100| 17 |      |
+remove poison            17|  1 |    |   |100| 15 |      |
+infravision              19|  1 |    |   |100| 12 |      |
+curse                    20|  1 |    |   |100| 20 |      |
+earthquake               22|  1 |    |   |100| 25 |      |
+dispel invisibility      23|  1 |    |   |100| 50 |      |
+wither                   25|  1 |    |   |100| 18 |      |
+faerie fog               26|  1 |    |   |100| 20 |      |
+shield                   30|  1 |    |   |100| 10 |      |
+ice storm                30|  1 |    |   |100| 30 |      |
+lightning bolt           30|  1 |    |   |100| 30 |      |
+transmove                30|  1 |    |   |100| 30 |      |
+telemove                 40|  1 |    |   |100| 40 |      |
+cone of cold             41|  1 |    |   |100| 25 |      |
+conjure elemental        50|  1 |    |   |100| 45 |      |
+armor                    50|  1 |    |   | 60| 15 |      |
+call lightning           52|  1 |    |   |100| 24 |      |
+shriek                   70|  1 |    |   | 80| 20 |      |
+astral walk              75|  1 |    |   |100| 50 |      |
+meteor swarm            104|  1 |    |   |100| 30 |      |
+recharger               375|  1 |    |   |100| 70 |      |
+ 
+ 
+**ILLUSIONIST
+ 
+SKILL                   Lvl|Diff|Cost|Gld|Max|Prereq
+true sight                3|  1 |    |   |100|
+faerie fire               7|  1 |    |   |100|
+faerie fog               12|  1 |    |   |100|
+polymorph self         2010|  1 |    |   |100|
+ 
+SPELLS                  Lvl|Diff|Cost|Gld|Max|mana|prereq|comp
+teleport                  8|  1 |    |   |100| 30 |      |
+blindness                30|  1 |    |   |100| 20 |      |
+charm person              1|  1 |    |   |100| 50 |      |
+colour spray             20|  1 |    |   |100| 20 |      |
+detect invisibility       1|  1 |    |   |100| 15 |      |
+invisibility              1|  1 |    |   |100| 10 |      |
+flamestrike              55|  1 |    |   |100| 40 |      |
+dispel magic             24|  1 |    |   |100| 20 |      |
+meteor swarm            100|  1 |    |   |100| 35 |      |
+shield                   10|  1 |    |   |100| 25 |      |
+fireshield               74|  1 |    |   |100| 50 |      |
+astral walk              80|  1 |    |   |100| 50 |      |
+scare                    27|  1 |    |   |100| 15 |      |
+invulnerability         200|  1 |    |   |100| 90 |      |
+gust of wind             57|  1 |    |   |100| 15 |      |
+shriek                   40|  1 |    |   | 80| 20 |      |
+wither                   20|  1 |    |   |100| 17 |      |
+fury                     15|  1 |    |   |100| 15 |      |
+mage fire                60|  1 |    |   |100| 30 |      |
+firestorm                70|  1 |    |   | 90| 45 |      |
+telelook                 15|  1 |    |   |100| 15 |      |
+teleimage                25|  1 |    |   |100| 10 |      |
+telemove                 80|  1 |    |   |100| 50 |      |
+scry                     35|  1 |    |   |100| 20 |      |
+dispel invisibility      23|  1 |    |   |100| 50 |      |
+ 
+**NINJA
+ 
+SKILLS                  Lvl|Diff|Cost|Gld|Max|Prereq
+charm person            250|  1 |    |   |100|
+sneak                     1|  1 |    |   |100|
+hide                      5|  1 |    |   |100|
+backstab                  5|  1 |    |   | 80|
+kick                      6|  1 |    |   | 95|
+extra attack one         20|  1 |    |   |100|
+extra attack two         50|  1 |    |   |100|
+ 
+SPELLS                  Lvl|Diff|Cost|Gld|Max|mana|prereq|comp
+drain vigor light         7|  1 |    |   | 90| 10 |      |
+paralyze                 40|  1 |    |   |100| 45 |      |
+ 
+ 
+**PALADIN
+ 
+SKILLS                  Lvl|Diff|Cost|Gld|Max|Prereq
+kick                      1|  1 |    |   |100|
+rescue                    1|  1 |    |   |100|
+extra attack one         16|  1 |    |   |100|
+extra attack two         40|  1 |    |   |100|
+scan                     66|  1 |    |   |100|
+extra attack three       75|  1 |    |   |100|
+extra attack four       150|  1 |    |   |100|
+ 
+SPELLS                  Lvl|Diff|Cost|Gld|Max|mana|prereq|comp
+aid                      27|  1 |    |   | 90|  5 |      |
+slow poison              45|  1 |    |   |100| 10 |      |
+create light             64|  1 |    |   |100| 10 |      |
+refresh                  67|  1 |    |   |100| 10 |      |
+continual light          69|  1 |    |   |100| 15 |      |
+second wind              70|  1 |    |   |100| 15 |      |
+know alignment           75|  1 |    |   |100| 15 |      |
+armor                   100|  1 |    |   | 60| 10 |      |
+bless                   102|  1 |    |   |100| 10 |      |
+cure blind              110|  1 |    |   |100| 20 |      |
+detect magic            115|  1 |    |   |100| 10 |      |
+cure light              120|  1 |    |   |100| 10 |      |
+fear                    125|  1 |    |   |100| 25 |      |
+detect evil             130|  1 |    |   |100| 10 |      |
+cure critic             140|  1 |    |   |100| 30 |      |
+turn                    170|  1 |    |   |100| 25 |      |
+shield                  175|  1 |    |   |100| 15 |      |
+protection from evil    180|  1 |    |   |100|100 |      |
+dispel evil             200|  1 |    |   |100| 75 |      |
+heal                    222|  1 |    |   |100| 90 |      |
+sanctuary               475|  1 |    |   |100| 50 |      |
+ 
+ 
+**RANGER
+ 
+SKILLS                  Lvl|Diff|Cost|Gld|Max|Prereq
+kick                      1|  1 |    |   |100|
+bash                      1|  1 |    |   |100|
+rescue                    3|  1 |    |   |100|
+track                    10|  1 |    |   |100|
+extra attack one         15|  1 |    |   |100|
+extra attack two         50|  1 |    |   |100|
+scan                     65|  1 |    |   |100|
+extra attack three       90|  1 |    |   |100|
+detect evil             100|  1 |    |   |100|
+extra attack four       175|  1 |    |   |100|
+extra attack five       225|  1 |    |   |100|
+extra attack six        330|  1 |    |   |100|
+ 
+ 
+**THIEF
+ 
+SKILLS                  Lvl|Diff|Cost|Gld|Max|Prereq
+pick                      1|  1 |    |   |100|
+sneak                     1|  1 |    |   |100|
+steal                     2|  1 |    |   |100|
+backstab                  2|  1 |    |   |100|
+hide                     10|  1 |    |   |100|
+extra attack one         25|  1 |    |   | 75|
+extra attack two         50|  1 |    |   | 50|
+extra attack three      100|  1 |    |   | 25|
+ 
+ 
+**WARRIOR
+ 
+SKILLS                  Lvl|Diff|Cost|Gld|Max|Prereq
+kick                      1|  1 |    |   |100|
+bash                      1|  1 |    |   |100|
+rescue                    5|  1 |    |   |100|
+disarm                   15|  1 |    |   | 85|
+extra attack one         17|  1 |    |   |100|
+hitall                   30|  1 |    |   | 90|
+extra attack two         51|  1 |    |   |100|
+scan                     67|  1 |    |   |100|
+extra attack three      106|  1 |    |   |100|
+extra attack four       187|  1 |    |   |100|
+extra attack five       330|  1 |    |   |100|
+ 
+SPELLS                  Lvl|Diff|Cost|Gld|Max|mana|pre-req| components
+aid                      15|  1 |    |   | 90|  5 |       |
+

@@ -1,0 +1,3111 @@
+
+0
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, 2 }
+	to { e, 1 }
+	to { s, Quinmoor:75 }
+	to { w, 3 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+1
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { w, 0 }
+  }
+}
+
+2
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { s, 0 }
+  }
+}
+
+3
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, 5 }
+	to { e, 0 }
+	  info { door }
+	  keywords { door" }
+	to { s, Quinmoor:73 }
+	to { w, 4 }
+  }
+}
+
+4
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { e, 3 }
+  }
+}
+
+5
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, 11 }
+	to { s, 3 }
+	to { w, 6 }
+  }
+}
+
+6
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { e, 5 }
+  }
+}
+
+7
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, 8 }
+  }
+}
+
+8
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, 10 }
+	to { e, 9 }
+	to { s, 7 }
+	to { w, 11 }
+  }
+}
+
+9
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { w, 8 }
+  }
+}
+
+10
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { s, 8 }
+  }
+}
+
+11
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, 13 }
+	to { e, 8 }
+	to { s, 5 }
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { e, 11 }
+  }
+}
+
+13
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, 15 }
+	to { s, 11 }
+	to { w, 14 }
+  }
+}
+
+14
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { e, 13 }
+  }
+}
+
+15
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, 61 }
+	to { e, 18 }
+	to { s, 13 }
+	to { w, 16 }
+  }
+}
+
+16
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { e, 15 }
+  }
+}
+
+17
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { s, 18 }
+  }
+}
+
+18
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, 17 }
+	to { e, 20 }
+	to { s, 19 }
+	to { w, 15 }
+  }
+}
+
+19
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, 18 }
+  }
+}
+
+20
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { w, 18 }
+  }
+}
+
+21
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { e, 23 }
+  }
+}
+
+22
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, 64 }
+	to { s, 23 }
+  }
+}
+
+23
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, 22 }
+	to { e, 24 }
+	to { w, 21 }
+  }
+}
+
+24
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { w, 23 }
+  }
+}
+
+25
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 26 }
+  }
+}
+
+26
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 27 }
+	to { e, 28 }
+	to { w, 25 }
+  }
+}
+
+27
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 66 }
+	to { s, 26 }
+  }
+}
+
+28
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 26 }
+  }
+}
+
+29
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 30 }
+  }
+}
+
+30
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 31 }
+	to { e, 33 }
+	to { s, 32 }
+	to { w, 29 }
+  }
+}
+
+31
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 30 }
+  }
+}
+
+32
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 30 }
+  }
+}
+
+33
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 69 }
+	to { e, 34 }
+	to { s, 35 }
+	to { w, 30 }
+  }
+}
+
+34
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 33 }
+  }
+}
+
+35
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 33 }
+	to { e, 36 }
+	to { s, 37 }
+  }
+}
+
+36
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 35 }
+  }
+}
+
+37
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 35 }
+	to { e, 38 }
+	to { w, 40 }
+  }
+}
+
+38
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 37 }
+  }
+}
+
+39
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 40 }
+  }
+}
+
+40
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 39 }
+	to { e, 37 }
+	to { s, 41 }
+	to { w, 42 }
+  }
+}
+
+41
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 40 }
+  }
+}
+
+42
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 40 }
+  }
+}
+
+43
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 37 }
+	to { e, 44 }
+	to { s, 45 }
+  }
+}
+
+44
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 43 }
+  }
+}
+
+45
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 43 }
+	to { e, 46 }
+	to { s, 48 }
+	to { w, 58 }
+  }
+}
+
+46
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 45 }
+  }
+}
+
+47
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 48 }
+  }
+}
+
+48
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 45 }
+	to { e, 47 }
+	to { s, 49 }
+  }
+}
+
+49
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 48 }
+	to { e, 50 }
+	to { s, 52 }
+	to { w, 53 }
+  }
+}
+
+50
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 51 }
+	to { w, 49 }
+  }
+}
+
+51
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 50 }
+	to { w, 52 }
+  }
+}
+
+52
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 49 }
+	to { e, 51 }
+  }
+}
+
+53
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 49 }
+	to { w, 54 }
+  }
+}
+
+54
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 53 }
+	to { w, 55 }
+  }
+}
+
+55
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 54 }
+	to { w, Quinmoor:65 }
+  }
+}
+
+56
+{
+  name { The grand castle of Quilandar }
+  desc {
+This is a rather small room. It appears that it was once part of a tunnel,
+for there is a pile of rubble to the east, when all the other walls are of
+stone. Something about this room gives you the chills.....Hmm... I wonder
+what that big stone box is on the floor?
+  }
+  extra {
+	keywords { stone coffin box" }
+	desc { It looks eerily like a coffin.....
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 58 }
+	to { s, Quinmoor:66 }
+	  info { door }
+	  keywords { door secret" }
+  }
+}
+
+57
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 58 }
+  }
+}
+
+58
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 57 }
+	to { e, 45 }
+	to { s, 59 }
+	to { w, 56 }
+  }
+}
+
+59
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 58 }
+  }
+}
+
+60
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 81 }
+	to { e, 61 }
+  }
+}
+
+61
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 80 }
+	to { e, 62 }
+	to { s, 15 }
+	to { w, 60 }
+  }
+}
+
+62
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 79 }
+	to { e, 63 }
+	to { w, 61 }
+  }
+}
+
+63
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 83 }
+	to { e, 64 }
+	to { w, 62 }
+  }
+}
+
+64
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 77 }
+	to { e, 65 }
+	to { s, 22 }
+	to { w, 63 }
+  }
+}
+
+65
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 76 }
+	to { e, 66 }
+	to { w, 64 }
+  }
+}
+
+66
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 75 }
+	to { e, 67 }
+	to { s, 27 }
+	to { w, 65 }
+  }
+}
+
+67
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 74 }
+	to { e, 68 }
+	to { w, 66 }
+  }
+}
+
+68
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 73 }
+	to { e, 69 }
+	to { w, 67 }
+  }
+}
+
+69
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 72 }
+	to { e, 70 }
+	to { s, 33 }
+	to { w, 68 }
+  }
+}
+
+70
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 72 }
+	to { w, 69 }
+  }
+}
+
+71
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 72 }
+  }
+}
+
+72
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 71 }
+	to { s, 70 }
+  }
+}
+
+73
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 68 }
+  }
+}
+
+74
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 67 }
+  }
+}
+
+75
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 66 }
+  }
+}
+
+76
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 65 }
+  }
+}
+
+77
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 64 }
+  }
+}
+
+78
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+79
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 62 }
+  }
+}
+
+80
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 61 }
+	to { w, 81 }
+  }
+}
+
+81
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 80 }
+	to { s, 60 }
+  }
+}
+
+82
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+83
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 63 }
+  }
+}
+
+84
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+85
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+86
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+87
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+88
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+89
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+90
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+91
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+92
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+93
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+94
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty
+  }
+}
+
+95
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a little twisty maze of tunnels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 96 }
+	to { s, 100 }
+  }
+}
+
+96
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a twistly little maze of tunnels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 97 }
+	to { s, 101 }
+	to { w, 95 }
+  }
+}
+
+97
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of twisty little tunnels, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 98 }
+	to { s, 102 }
+	to { w, 96 }
+  }
+}
+
+98
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of little twisty passages, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 99 }
+	to { s, 103 }
+	to { w, 97 }
+  }
+}
+
+99
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are lost.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 104 }
+	to { w, 98 }
+  }
+}
+
+100
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a little twisty maze of tunnels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 95 }
+	to { e, 101 }
+	to { s, 105 }
+  }
+}
+
+101
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a twisty little maze of tunnels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 96 }
+	to { e, 102 }
+	to { s, 106 }
+	to { w, 100 }
+  }
+}
+
+102
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of twisty little tunnels, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 97 }
+	to { e, 103 }
+	to { s, 107 }
+	to { w, 101 }
+  }
+}
+
+103
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of little twisty passages, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 98 }
+	to { e, 104 }
+	to { s, 108 }
+	to { w, 102 }
+  }
+}
+
+104
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of twisty little passages, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 99 }
+	to { s, 109 }
+	to { w, 103 }
+  }
+}
+
+105
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a little twisty maze of tunnels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 100 }
+	to { e, 106 }
+	to { s, 110 }
+  }
+}
+
+106
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a twisty little maze of tunnels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 101 }
+	to { e, 107 }
+	to { s, 111 }
+	to { w, 105 }
+  }
+}
+
+107
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of twisty little tunnels, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 102 }
+	to { e, 108 }
+	to { s, 112 }
+	to { w, 106 }
+  }
+}
+
+108
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of little twisty passages all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 103 }
+	to { e, 109 }
+	to { s, 113 }
+	to { w, 107 }
+  }
+}
+
+109
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of twisty little passages, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 104 }
+	to { s, 114 }
+	to { w, 108 }
+  }
+}
+
+110
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a little twisty maze of tunnels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 105 }
+	to { e, 111 }
+	to { s, 115 }
+  }
+}
+
+111
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a twisty little maze of tunnels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 106 }
+	to { e, 112 }
+	to { s, 116 }
+	to { w, 110 }
+  }
+}
+
+112
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of twisty little tunnels, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 107 }
+	to { e, 113 }
+	to { s, 117 }
+	to { w, 111 }
+  }
+}
+
+113
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of little twisty passages, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 108 }
+	to { e, 114 }
+	to { s, 118 }
+	to { w, 112 }
+  }
+}
+
+114
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of twisty little passages, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 109 }
+	to { s, 119 }
+	to { w, 113 }
+  }
+}
+
+115
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a little twisty maze of tunnels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 110 }
+	to { e, 116 }
+	to { s, 122 }
+  }
+}
+
+116
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a twisty little maze of tunnels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 111 }
+	to { e, 117 }
+	to { w, 115 }
+  }
+}
+
+117
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of twisty little tunnels, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 112 }
+	to { e, 118 }
+	to { w, 116 }
+  }
+}
+
+118
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of little twisty passages, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 113 }
+	to { e, 119 }
+	to { w, 117 }
+  }
+}
+
+119
+{
+  name { The Labyrinthian tunnels }
+  desc {
+You are in a maze of twisty little passages, all alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 114 }
+	to { w, 118 }
+  }
+}
+
+120
+{
+  name { The entrance to the Labyrinth }
+  desc {
+The labyrinth truly begins here. It is very unlikely that you will find your
+way back if you venture in. Be careful.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 121 }
+	to { w, 99 }
+  }
+}
+
+121
+{
+  name { The labyrinthian tunnels }
+  desc {
+The air is very cold, and you begin to wonder if you will freeze..
+You detect a very stale smell, and then get a scent of...decaying flesh..
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 122 }
+	to { w, 120 }
+  }
+}
+
+122
+{
+  name { The labyrinthian tunnels }
+  desc {
+There is absolutely no light here, and you discover that it can be hard
+to find your way around with the light of a lantern.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 121 }
+	to { e, 123 }
+  }
+}
+
+123
+{
+  name { The labyrinthian tunnels }
+  desc {
+The tunnel is still leading down, and you are very deep underground.. The
+air here is no longer so hot, but is cold and rather musty. The walls are
+now very smooth, and the tunnel curves west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 124 }
+	to { w, 122 }
+  }
+}
+
+124
+{
+  name { A dark tunnel }
+  desc {
+The ceiling is once again stone here, and the tunnel heads down.. The tunnel
+bends to the north, and the walls look very smooth.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 123 }
+	to { e, Quinmoor:18 }
+  }
+}
+
+125
+{
+  name { 31301 }
+  desc {
+Empty
+  }
+}
+
+126
+{
+  name { 31302 }
+  desc {
+Empty
+  }
+}
+
+127
+{
+  name { 31303 }
+  desc {
+Empty
+  }
+}
+
+128
+{
+  name { 31304 }
+  desc {
+Empty
+  }
+}
+
+129
+{
+  name { 31305 }
+  desc {
+Empty
+  }
+}
+
+130
+{
+  name { 31306 }
+  desc {
+Empty
+  }
+}
+
+131
+{
+  name { 31307 }
+  desc {
+Empty
+  }
+}
+
+132
+{
+  name { 31308 }
+  desc {
+Empty
+  }
+}
+
+133
+{
+  name { 31309 }
+  desc {
+Empty
+  }
+}
+
+134
+{
+  name { 31310 }
+  desc {
+Empty
+  }
+}
+
+135
+{
+  name { 31311 }
+  desc {
+Empty
+  }
+}
+
+136
+{
+  name { 31312 }
+  desc {
+Empty
+  }
+}
+
+137
+{
+  name { 31313 }
+  desc {
+Empty
+  }
+}
+
+138
+{
+  name { 31314 }
+  desc {
+Empty
+  }
+}
+
+139
+{
+  name { 31315 }
+  desc {
+Empty
+  }
+}
+
+140
+{
+  name { 31316 }
+  desc {
+Empty
+  }
+}
+
+141
+{
+  name { 31317 }
+  desc {
+Empty
+  }
+}
+
+142
+{
+  name { 31318 }
+  desc {
+Empty
+  }
+}
+
+143
+{
+  name { 31319 }
+  desc {
+Empty
+  }
+}
+
+144
+{
+  name { 31320 }
+  desc {
+Empty
+  }
+}
+
+145
+{
+  name { 31321 }
+  desc {
+Empty
+  }
+}
+
+146
+{
+  name { 31322 }
+  desc {
+Empty
+  }
+}
+
+147
+{
+  name { 31323 }
+  desc {
+Empty
+  }
+}
+
+148
+{
+  name { 31324 }
+  desc {
+Empty
+  }
+}
+
+149
+{
+  name { 31325 }
+  desc {
+Empty
+  }
+}
+
+150
+{
+  name { 31326 }
+  desc {
+Empty
+  }
+}
+
+151
+{
+  name { 31327 }
+  desc {
+Empty
+  }
+}
+
+152
+{
+  name { 31328 }
+  desc {
+Empty
+  }
+}
+
+153
+{
+  name { 31329 }
+  desc {
+Empty
+  }
+}
+
+154
+{
+  name { 31330 }
+  desc {
+Empty
+  }
+}
+
+155
+{
+  name { 31331 }
+  desc {
+Empty
+  }
+}
+
+156
+{
+  name { 31332 }
+  desc {
+Empty
+  }
+}
+
+157
+{
+  name { 31333 }
+  desc {
+Empty
+  }
+}
+
+158
+{
+  name { 31334 }
+  desc {
+Empty
+  }
+}
+
+159
+{
+  name { 31335 }
+  desc {
+Empty
+  }
+}
+
+160
+{
+  name { 31336 }
+  desc {
+Empty
+  }
+}
+
+161
+{
+  name { 31337 }
+  desc {
+Empty
+  }
+}
+
+162
+{
+  name { 31338 }
+  desc {
+Empty
+  }
+}
+
+163
+{
+  name { 31339 }
+  desc {
+Empty
+  }
+}
+
+164
+{
+  name { 31340 }
+  desc {
+Empty
+  }
+}
+
+165
+{
+  name { 31341 }
+  desc {
+Empty
+  }
+}
+
+166
+{
+  name { 31342 }
+  desc {
+Empty
+  }
+}
+
+167
+{
+  name { 31343 }
+  desc {
+Empty
+  }
+}
+
+168
+{
+  name { 31344 }
+  desc {
+Empty
+  }
+}
+
+169
+{
+  name { 31345 }
+  desc {
+Empty
+  }
+}
+
+170
+{
+  name { 31346 }
+  desc {
+Empty
+  }
+}
+
+171
+{
+  name { 31347 }
+  desc {
+Empty
+  }
+}
+
+172
+{
+  name { 31348 }
+  desc {
+Empty
+  }
+}
+
+173
+{
+  name { 31349 }
+  desc {
+Empty
+  }
+}
+
+174
+{
+  name { 31350 }
+  desc {
+Empty
+  }
+}
+
+175
+{
+  name { 31351 }
+  desc {
+Empty
+  }
+}
+
+176
+{
+  name { 31352 }
+  desc {
+Empty
+  }
+}
+
+177
+{
+  name { 31353 }
+  desc {
+Empty
+  }
+}
+
+178
+{
+  name { 31354 }
+  desc {
+Empty
+  }
+}
+
+179
+{
+  name { 31355 }
+  desc {
+Empty
+  }
+}
+
+180
+{
+  name { 31356 }
+  desc {
+Empty
+  }
+}
+
+181
+{
+  name { 31357 }
+  desc {
+Empty
+  }
+}
+
+182
+{
+  name { 31358 }
+  desc {
+Empty
+  }
+}
+
+183
+{
+  name { 31359 }
+  desc {
+Empty
+  }
+}
+
+184
+{
+  name { 31360 }
+  desc {
+Empty
+  }
+}
+
+185
+{
+  name { 31361 }
+  desc {
+Empty
+  }
+}
+
+186
+{
+  name { 31362 }
+  desc {
+Empty
+  }
+}
+
+187
+{
+  name { 31363 }
+  desc {
+Empty
+  }
+}
+
+188
+{
+  name { 31364 }
+  desc {
+Empty
+  }
+}
+
+189
+{
+  name { 31365 }
+  desc {
+Empty
+  }
+}
+
+190
+{
+  name { 31366 }
+  desc {
+Empty
+  }
+}
+
+191
+{
+  name { 31367 }
+  desc {
+Empty
+  }
+}
+
+192
+{
+  name { 31368 }
+  desc {
+Empty
+  }
+}
+
+193
+{
+  name { 31369 }
+  desc {
+Empty
+  }
+}
+
+194
+{
+  name { 31370 }
+  desc {
+Empty
+  }
+}
+
+195
+{
+  name { 31371 }
+  desc {
+Empty
+  }
+}
+
+196
+{
+  name { 31372 }
+  desc {
+Empty
+  }
+}
+
+197
+{
+  name { 31373 }
+  desc {
+Empty
+  }
+}
+
+198
+{
+  name { 31374 }
+  desc {
+Empty
+  }
+}
+
+199
+{
+  name { 31375 }
+  desc {
+Empty
+  }
+}
+
+200
+{
+  name { 31376 }
+  desc {
+Empty
+  }
+}
+
+201
+{
+  name { 31377 }
+  desc {
+Empty
+  }
+}
+
+202
+{
+  name { 31378 }
+  desc {
+Empty
+  }
+}
+
+203
+{
+  name { 31379 }
+  desc {
+Empty
+  }
+}
+
+204
+{
+  name { 31380 }
+  desc {
+Empty
+  }
+}
+
+205
+{
+  name { 31381 }
+  desc {
+Empty
+  }
+}
+
+206
+{
+  name { 31382 }
+  desc {
+Empty
+  }
+}
+
+207
+{
+  name { 31383 }
+  desc {
+Empty
+  }
+}
+
+208
+{
+  name { 31384 }
+  desc {
+Empty
+  }
+}
+
+209
+{
+  name { 31385 }
+  desc {
+Empty
+  }
+}
+
+210
+{
+  name { 31386 }
+  desc {
+Empty
+  }
+}
+
+211
+{
+  name { 31387 }
+  desc {
+Empty
+  }
+}
+
+212
+{
+  name { 31388 }
+  desc {
+Empty
+  }
+}
+
+213
+{
+  name { 31389 }
+  desc {
+Empty
+  }
+}
+
+214
+{
+  name { 31390 }
+  desc {
+Empty
+  }
+}
+
+215
+{
+  name { 31391 }
+  desc {
+Empty
+  }
+}
+
+216
+{
+  name { 31392 }
+  desc {
+Empty
+  }
+}
+
+217
+{
+  name { 31393 }
+  desc {
+Empty
+  }
+}
+
+218
+{
+  name { 31394 }
+  desc {
+Empty
+  }
+}
+
+219
+{
+  name { 31395 }
+  desc {
+Empty
+  }
+}
+
+220
+{
+  name { 31396 }
+  desc {
+Empty
+  }
+}
+
+221
+{
+  name { 31397 }
+  desc {
+Empty
+  }
+}
+
+222
+{
+  name { 31398 }
+  desc {
+Empty
+  }
+}
+
+223
+{
+  name { 31399 }
+  desc {
+Empty
+  }
+}
+
+224
+{
+  name { 31400 }
+  desc {
+Empty
+  }
+}
+
+225
+{
+  name { 31401 }
+  desc {
+Empty
+  }
+}
+
+226
+{
+  name { 31402 }
+  desc {
+Empty
+  }
+}
+
+227
+{
+  name { 31403 }
+  desc {
+Empty
+  }
+}
+
+228
+{
+  name { 31404 }
+  desc {
+Empty
+  }
+}
+
+229
+{
+  name { 31405 }
+  desc {
+Empty
+  }
+}
+
+230
+{
+  name { 31406 }
+  desc {
+Empty
+  }
+}
+
+231
+{
+  name { 31407 }
+  desc {
+Empty
+  }
+}
+
+232
+{
+  name { 31408 }
+  desc {
+Empty
+  }
+}
+
+233
+{
+  name { 31409 }
+  desc {
+Empty
+  }
+}
+
+234
+{
+  name { 31410 }
+  desc {
+Empty
+  }
+}
+
+235
+{
+  name { 31411 }
+  desc {
+Empty
+  }
+}
+
+236
+{
+  name { 31412 }
+  desc {
+Empty
+  }
+}
+
+237
+{
+  name { 31413 }
+  desc {
+Empty
+  }
+}
+
+238
+{
+  name { 31414 }
+  desc {
+Empty
+  }
+}
+
+239
+{
+  name { 31415 }
+  desc {
+Empty
+  }
+}
+
+240
+{
+  name { 31416 }
+  desc {
+Empty
+  }
+}
+
+241
+{
+  name { 31417 }
+  desc {
+Empty
+  }
+}
+
+242
+{
+  name { 31418 }
+  desc {
+Empty
+  }
+}
+
+243
+{
+  name { 31419 }
+  desc {
+Empty
+  }
+}
+
+244
+{
+  name { 31420 }
+  desc {
+Empty
+  }
+}
+
+245
+{
+  name { 31421 }
+  desc {
+Empty
+  }
+}
+
+246
+{
+  name { 31422 }
+  desc {
+Empty
+  }
+}
+
+247
+{
+  name { 31423 }
+  desc {
+Empty
+  }
+}
+
+248
+{
+  name { 31424 }
+  desc {
+Empty
+  }
+}
+
+249
+{
+  name { 31425 }
+  desc {
+Empty
+  }
+}
+
+250
+{
+  name { 31426 }
+  desc {
+Empty
+  }
+}
+
+251
+{
+  name { 31427 }
+  desc {
+Empty
+  }
+}
+
+252
+{
+  name { 31428 }
+  desc {
+Empty
+  }
+}
+
+253
+{
+  name { 31429 }
+  desc {
+Empty
+  }
+}
+
+254
+{
+  name { 31430 }
+  desc {
+Empty
+  }
+}
+
+255
+{
+  name { 31431 }
+  desc {
+Empty
+  }
+}
+
+256
+{
+  name { 31432 }
+  desc {
+Empty
+  }
+}
+
+257
+{
+  name { 31433 }
+  desc {
+Empty
+  }
+}
+
+258
+{
+  name { 31434 }
+  desc {
+Empty
+  }
+}
+
+259
+{
+  name { 31435 }
+  desc {
+Empty
+  }
+}
+
+260
+{
+  name { 31436 }
+  desc {
+Empty
+  }
+}
+
+261
+{
+  name { 31437 }
+  desc {
+Empty
+  }
+}
+
+262
+{
+  name { 31438 }
+  desc {
+Empty
+  }
+}
+
+263
+{
+  name { 31439 }
+  desc {
+Empty
+  }
+}
+
+264
+{
+  name { 31440 }
+  desc {
+Empty
+  }
+}
+
+265
+{
+  name { 31441 }
+  desc {
+Empty
+  }
+}
+
+266
+{
+  name { 31442 }
+  desc {
+Empty
+  }
+}
+
+267
+{
+  name { 31443 }
+  desc {
+Empty
+  }
+}
+
+268
+{
+  name { 31444 }
+  desc {
+Empty
+  }
+}
+
+269
+{
+  name { 31445 }
+  desc {
+Empty
+  }
+}
+
+270
+{
+  name { 31446 }
+  desc {
+Empty
+  }
+}
+
+271
+{
+  name { 31447 }
+  desc {
+Empty
+  }
+}
+
+272
+{
+  name { 31448 }
+  desc {
+Empty
+  }
+}
+
+273
+{
+  name { 31449 }
+  desc {
+Empty
+  }
+}
+
+274
+{
+  name { 31450 }
+  desc {
+Empty
+  }
+}
+
+275
+{
+  name { 31451 }
+  desc {
+Empty
+  }
+}
+
+276
+{
+  name { 31452 }
+  desc {
+Empty
+  }
+}
+
+277
+{
+  name { 31453 }
+  desc {
+Empty
+  }
+}
+
+278
+{
+  name { 31454 }
+  desc {
+Empty
+  }
+}
+
+279
+{
+  name { 31455 }
+  desc {
+Empty
+  }
+}
+
+280
+{
+  name { 31456 }
+  desc {
+Empty
+  }
+}
+
+281
+{
+  name { 31457 }
+  desc {
+Empty
+  }
+}
+
+282
+{
+  name { 31458 }
+  desc {
+Empty
+  }
+}
+
+283
+{
+  name { 31459 }
+  desc {
+Empty
+  }
+}
+
+284
+{
+  name { 31460 }
+  desc {
+Empty
+  }
+}
+
+285
+{
+  name { 31461 }
+  desc {
+Empty
+  }
+}
+
+286
+{
+  name { 31462 }
+  desc {
+Empty
+  }
+}
+
+287
+{
+  name { 31463 }
+  desc {
+Empty
+  }
+}
+
+288
+{
+  name { 31464 }
+  desc {
+Empty
+  }
+}
+
+289
+{
+  name { 31465 }
+  desc {
+Empty
+  }
+}
+
+290
+{
+  name { 31466 }
+  desc {
+Empty
+  }
+}
+
+291
+{
+  name { 31467 }
+  desc {
+Empty
+  }
+}
+
+292
+{
+  name { 31468 }
+  desc {
+Empty
+  }
+}
+
+293
+{
+  name { 31469 }
+  desc {
+Empty
+  }
+}
+
+294
+{
+  name { 31470 }
+  desc {
+Empty
+  }
+}
+
+295
+{
+  name { 31471 }
+  desc {
+Empty
+  }
+}
+
+296
+{
+  name { 31472 }
+  desc {
+Empty
+  }
+}
+
+297
+{
+  name { 31473 }
+  desc {
+Empty
+  }
+}
+
+298
+{
+  name { 31474 }
+  desc {
+Empty
+  }
+}
+
+299
+{
+  name { 31475 }
+  desc {
+Empty
+  }
+}
+
+300
+{
+  name { 31476 }
+  desc {
+Empty
+  }
+}
+
+301
+{
+  name { 31477 }
+  desc {
+Empty
+  }
+}
+
+302
+{
+  name { 31478 }
+  desc {
+Empty
+  }
+}
+
+303
+{
+  name { 31479 }
+  desc {
+Empty
+  }
+}
+
+304
+{
+  name { 31480 }
+  desc {
+Empty
+  }
+}
+
+305
+{
+  name { 31481 }
+  desc {
+Empty
+  }
+}
+
+306
+{
+  name { 31482 }
+  desc {
+Empty
+  }
+}
+
+307
+{
+  name { 31483 }
+  desc {
+Empty
+  }
+}
+
+308
+{
+  name { 31484 }
+  desc {
+Empty
+  }
+}
+
+309
+{
+  name { 31485 }
+  desc {
+Empty
+  }
+}
+
+310
+{
+  name { 31486 }
+  desc {
+Empty
+  }
+}
+
+311
+{
+  name { 31487 }
+  desc {
+Empty
+  }
+}
+
+312
+{
+  name { 31488 }
+  desc {
+Empty
+  }
+}
+
+313
+{
+  name { 31489 }
+  desc {
+Empty
+  }
+}
+
+314
+{
+  name { 31490 }
+  desc {
+Empty
+  }
+}
+
+315
+{
+  name { 31491 }
+  desc {
+Empty
+  }
+}
+
+316
+{
+  name { 31492 }
+  desc {
+Empty
+  }
+}
+
+317
+{
+  name { 31493 }
+  desc {
+Empty
+  }
+}
+
+318
+{
+  name { 31494 }
+  desc {
+Empty
+  }
+}
+
+319
+{
+  name { 31495 }
+  desc {
+Empty
+  }
+}
+
+320
+{
+  name { 31496 }
+  desc {
+Empty
+  }
+}
+
+321
+{
+  name { 31497 }
+  desc {
+Empty
+  }
+}
+
+322
+{
+  name { 31498 }
+  desc {
+Empty
+  }
+}
+
+323
+{
+  name { 31499 }
+  desc {
+Empty
+  }
+}
+
+324
+{
+  name { 31500 }
+  desc {
+Empty
+  }
+}

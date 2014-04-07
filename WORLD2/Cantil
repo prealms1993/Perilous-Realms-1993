@@ -1,0 +1,934 @@
+0
+{
+  name { 2nd Floor Post }
+  desc {
+The second floor of Canticle.  A dull-grey guard room with many scribblings
+on the walls and floor.  To the east is the Rampart and to the north the
+Perimeter Walk.
+  }
+  flags { indoors }
+  exits {
+     to { n, 1 }
+  }
+}
+
+1
+{
+  name { Perimeter Walk }
+  desc {
+A stone walkway encircling the eastern section of Canticle.  You faintly
+smell the scent of death as if it were everywhere.  The 2nd floor post
+is south and the walk continues north.
+  }
+  flags { dark, indoors }
+  exits {
+     to { n, 2 }
+     to { s, 0 }
+  }
+}
+
+2
+{
+  name { Perimeter Walk }
+  desc {
+A stone walkway along the eastern wall of Canticle.  The scent of death is
+overwhelming. The walkway continues to the east and south.
+  }
+  flags { dark, indoors }
+  exits {
+     to { e, 3 }
+     to { s, 1 }
+  }
+}
+
+3
+{
+  name { Perimeter Walk }
+  desc {
+The stone walkway leads along the eastern wall.  Several large holes used
+for battle bring light to an otherwise dreary place.  As you gander out
+one of the holes you see the vast land of Midgaard.  The walkway continues
+north and west.
+  }
+  flags { indoors }
+  exits {
+     to { n, 4 }
+     to { w, 2 }
+  }
+}
+
+4
+{
+  name { Perimeter Walk }
+  desc {
+A stone walkway along the east wall of the castle.  The wall here has been
+damaged from a very nasty weapon.  Soldiers bones are scattered around the
+hall with shreds of clothing still attached.  The walk continues north and
+to the south.
+  }
+  flags { indoors }
+  exits {
+     to { n, 5 }
+     to { s, 3 }
+  }
+}
+
+5
+{
+  name { Entrance to the Sun Tower }
+  desc {
+You stand before a great door leading to the sun tower.  Rumors and stories
+of the powers to be found within it's walls have filled these corridors for
+ages. Patterns on the wall form the image of the sun, you consider the
+past. A walkway leads south and the Servant's hall is to the west.
+  }
+  flags { no_mob, indoors }
+  exits {
+     to { s, 4 }
+     to { w, 6 }
+  }
+}
+
+6
+{
+  name { Servant's Hall }
+  desc {
+A spotlessly clean hallway, it seems the servant's keep parts of this 
+castle extraordinarily clean.  You notice several cleaning carts all pushed
+neatly in the corner.  The Servant's hall continues west.  The Wash room
+is south and a tower looms to the east.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+     to { e, 5 }
+     to { s, 7 }
+     to { w, 8 }
+  }
+}
+
+7
+{
+  name { Wash Room }
+  desc {
+A lavender colored laundry room filled with unclean laundry and great
+stone urns used for washing.  The burly launderers are working as
+quickly as they can.  The overlord occasionally has his armor polished
+here. A singe exit to the hall lies north.
+  }
+  flags { indoors }
+  exits {
+     to { n, 6 }
+  }
+}
+
+8
+{
+  name { Servant's Hall }
+  desc {
+A spotlessly clean hallway, it seems the servant's keep parts of this castle
+extraordinarily clean.  You notice several cleaning carts all pushed neatly
+in the corner.  This hall continues east with the maids chamber west and
+a brightly colored door to the south.
+  }
+  flags { indoors }
+  exits {
+     to { e, 6 }
+     to { s, 17 }
+       key { 38008 }
+       info { door, closed, locked, pickproof }
+       keywords { Brightly Colored door }
+     to { w, 9 }
+  }
+}
+
+9
+{
+  name { Maid's Chamber }
+  desc {
+The maids' room, providing absolutely no privacy at all.  It appears that
+the overlord keeps a healthy stock of beautiful maids to keep him
+entertained
+at all times.  The room is furnished with several small cots and a few 
+old dressers.  Exits are east and west.
+  }
+  flags { indoors }
+  exits {
+     to { e, 8 }
+     to { w, 10 }
+  }
+}
+
+10
+{
+  name { Servant's Hall }
+  desc {
+A spotlessly clean hallway, it seems the servant's keep parts of this
+castle extraordinarily clean.  You notice several cleaning carts are
+missing from the corner... odd.  Exits are to the east and west.  A oak
+door is to the south.
+  }
+  flags { indoors }
+  exits {
+     to { e, 9 }
+     to { s, 11 }
+       key { 38011 }
+       info { door, closed, locked, pickproof }
+       keywords { oak door }
+     to { w, 15 }
+  }
+}
+
+11
+{
+  name { Master Bedroom }
+  desc {
+The Overlord's bedroom.  The huge room has a glass dome for a ceiling.  A
+large 4-poster bed lies in the center of the room.  You hear violins
+playing softly in the background.  There are doors to the north and south.
+  }
+  flags { indoors }
+  exits {
+     to { n, 10 }
+       info { door, closed }
+       keywords { Oak door }
+     to { s, 12 }
+       info { door, closed }
+       keywords { door }
+  }
+}
+
+12
+{
+  name { Dayroom }
+  desc {
+This huge room has a dance floor in the center.  The room of great history
+is decorated by paintings of the current Overlord and Overlords of the
+past. Books are scattered everywhere many have been untouched for years.
+There are doors to the north and west and a study lies to the east.
+  }
+  flags { indoors }
+  exits {
+     to { n, 11 }
+       key { 38011 }
+       info { door, closed, locked, pickproof }
+       keywords { Bedroom door }
+     to { e, 14 }
+     to { w, 13 }
+       info { door, closed }
+       keywords { door }
+  }
+}
+
+13
+{
+  name { A Guest Bedroom }
+  desc {
+A small non-descript bedroom which has been rumored to be haunted.  Shadows
+from flickering lamps throw themselves around the room.  As you look up
+your head becomes light and you feel dizzy.  WATCH OUT!
+Doors are too the east and west.
+  }
+  flags { indoors }
+  exits {
+     to { e, 12 }
+       info { door, closed }
+       keywords { door }
+     to { w, 22 }
+       info { door, closed }
+       keywords { door }
+  }
+}
+
+14
+{
+  name { Overlord's Private Study }
+  desc {
+A private room decorated by huge bookcases and several brass lamps.  The
+furnishings are somewhat worn by age but appear solid.  Looking around
+you notice the legion of books available for reading.  On top of a wooden
+table lies a huge book entitled Perilous Realms Index.
+  }
+  flags { indoors }
+  exits {
+     to { w, 12 }
+  }
+}
+
+15
+{
+  name { Servant's Hall }
+  desc {
+A spotlessly clean hallway, it seems the servant's keep parts of this
+castle extraordinarily clean.  This appears to be the western end of the 
+hall.
+  }
+  flags { indoors }
+  exits {
+     to { e, 10 }
+     to { w, 19 }
+  }
+}
+
+16
+{
+  name { Temple of the Sun }
+  desc {
+As you arrive you are at first blinded by the bright light coming from the
+pedestal in the center of the room.  Once your eyes grow accustomed to the
+brilliance you realize you have entered a temple.  Along with priests and
+worshippers, several temple guards are present guarding the contents of
+the pedestal.  There is a golden plate on the east wall and a door to the
+lab also to the east.
+  }
+  extra {
+     keywords { plate }
+     desc { All who enter to worship are welcome, but beware to the evil
+ones.  
+     }
+  }
+  flags { indoors }
+  exits {
+     to { e, 17 }
+       key { 38016 }
+       info { door, closed, locked, pickproof }
+       keywords { Sun dial }
+  }
+}
+
+17
+{
+  name { Lord Cadderly's Domain }
+  desc {
+Home of Lord Cadderly the Overlord's chief mage.  Cadderly's minions appear
+to be brewing something...smells bad.  A recipe hangs on the wall with a
+large title...CHAOS.  There are books scattered everywhere and scripts
+of vellum stuck to the wall.  A bright door lies north, a sun dial shaped
+door to the west and a huge spiders web covers the south wall.  A scroll
+is stuck on the web.
+  }
+  extra {
+     keywords { scroll }
+     desc { "
+WARNING
+
+Untested adventurers beware of the dark side.
+     }
+     keywords { web }
+     desc { A huge spider web made of steel.  No ordinary spider could have
+made this, 
+maybe the rumors of the Ancient Driderlord are true.  The web appears to be
+a door... although an odd one.
+     }
+     keywords { dial }
+     desc { This huge stone door is the shape of a sun dial.  The time it
+represents
+is inaccurate.. mainly because there is no sun here.  A glow comes from
+small cracks around the door.
+     }
+     keywords { recipe }
+     desc { RECIPE FOR CHAOS
+
+1. Solve the mystery of the Sun
+2. Solve the mystery of the Stars
+3. Solve the mystery of the Moon
+4. Learn the Canticle
+     }
+  }
+  flags { indoors }
+  exits {
+     to { n, 8 }
+       key { 38008 }
+       info { door, closed, locked, pickproof }
+       keywords { brightly colored door }
+     to { s, 18 }
+       key { 38018 }
+       info { door, closed, locked, pickproof }
+       keywords { Web of blackness }
+     to { w, 16 }
+       key { 38016 }
+       info { door, closed, locked, pickproof }
+       keywords { Sun dial }
+  }
+}
+
+18
+{
+  name { Darkened Realms }
+  desc {
+ZOOOOOOOOOOOOOMMMMMMMMMM! You have been transported to the dark side of
+Canticle. Hope you packed your lunch.
+  }
+  flags { indoors }
+}
+
+19
+{
+  name { Entrance to the Moon Tower }
+  desc {
+You stand before a great door leading to the moon tower.  Rumors and
+and stories of the powers to be found within it's walls have filled these
+corridors for ages.  Patterns on the wall form the image of the moon, you
+consider the present. 
+  }
+  flags { no_mob, indoors }
+  exits {
+     to { e, 15 }
+     to { s, 20 }
+  }
+}
+
+20
+{
+  name { Passage of Death }
+  desc {
+This is the portal used by all who die in battle.  A great void leading to
+nowhere as you endlessly drift the the realms of the internet.  As you
+leave here to reenter the realms you will notice a substantial loss of
+experience... Try not to die so much.
+  }
+  flags { indoors }
+  exits {
+     to { n, 19 }
+     to { s, 22 }
+  }
+}
+
+21
+{
+  name { Realm of Lyfe }
+  desc {
+The plateu of solitude.  You have reached the crystal palace of the Queen
+of the Realms.  Be careful of your step its a long way down.
+  }
+  flags { indoors }
+  exits {
+     to { e, Void:2 }
+     to { d, Midgard:0 }
+  }
+}
+
+22
+{
+  name { Immortal Row }
+  desc {
+This is the corridor of the Immortals.  Huge statues decorate each room.
+This room is decorated in red and was built the statues of Deth and Lyfe.
+There is a door to the east and this hall runs north and south.
+  }
+  flags { indoors }
+  exits {
+     to { n, 20 }
+     to { e, 13 }
+       info { door, closed }
+       keywords { door }
+     to { s, 23 }
+  }
+}
+
+23
+{
+  name { Immortal Row }
+  desc {
+This is the corridor of the Immortals.  Some huge statues decorate this
+room. The room is decorated in blue and holds the statues of Alcanzar
+and Staffa.  The east wall seems different than the others, maybe a 
+hidden door.
+  }
+  flags { indoors }
+  exits {
+     to { n, 22 }
+     to { e, 24 }
+       key { 38024 }
+       info { door, closed, locked, secret, pickproof }
+       keywords { Secret }
+     to { s, 33 }
+  }
+}
+
+24
+{
+  name { Secret Corridor }
+  desc {
+A secret passage darkened by the lack of lamps.  The walls here are dark and
+forboding. In the distance you hear sounds of laughter and noises of some
+unknown beast.  Travel with caution and DON'T PANIC.  A secret door lies
+west.
+  }
+  flags { indoors }
+  exits {
+     to { e, 25 }
+     to { w, 23 }
+       info { door, closed }
+       keywords { door }
+  }
+}
+
+25
+{
+  name { Royal Chamber }
+  desc {
+Canticle is home to many Kings and Lords, their pictures lines the walls of
+this fancifully enlightened room.  The furniture here is fit for royalty
+and surely brought a high price to its purchaser.
+  }
+  flags { indoors }
+  exits {
+     to { s, 26 }
+     to { w, 24 }
+  }
+}
+
+26
+{
+  name { Bursar's Chamber }
+  desc {
+The Overlord's treasure troth.  The room is entirely gold-plated.  Be 
+careful of the Bursar, he doesn't like visitors.
+  }
+  flags { indoors }
+  exits {
+     to { n, 25 }
+     to { s, 27 }
+  }
+}
+
+27
+{
+  name { Royal Corridor }
+  desc {
+A bright blue hue outlines the walls here.  Silver ropes are draped along
+giving you the feeling of majesty.  You can imagine the great kings who
+have marched down these halls in the past.
+  }
+  flags { no_mob, indoors }
+  exits {
+     to { n, 26 }
+     to { s, 28 }
+  }
+}
+
+28
+{
+  name { Receiving Room }
+  desc {
+The receiving room has been used for many receptions.  A few brave souls
+have been rewarded with knighthood here.  A listing of the courageous has
+been carved into a marble wall.
+  }
+  flags { indoors }
+  exits {
+     to { n, 27 }
+     to { e, 31 }
+     to { w, 29 }
+  }
+}
+
+29
+{
+  name { Western Lounge }
+  desc {
+A beautiful chamber filled with roaring music.  The virgins from the
+Overlord's own harem are entertaining the guests.  Looking around you
+notice noone is paying you much attention, bad breath?  A funny door
+lies north.
+  }
+  flags { indoors }
+  exits {
+     to { n, 30 }
+       info { door, closed }
+       keywords { funny door }
+     to { e, 28 }
+  }
+}
+
+30
+{
+  name { Jester's Place }
+  desc {
+This room is used by the jesters to prepare for the nightly entertainment.
+Although they appear normal there is something evil about them, they
+always seem to be watching you wherever you move to.
+  }
+  flags { indoors }
+  exits {
+     to { s, 29 }
+       info { door, closed }
+       keywords { door }
+  }
+}
+
+31
+{
+  name { Eastern Lounge }
+  desc {
+A beautiful chamber filled with roaring music.  the virgins from the 
+overlord's own harem are entertaining the guests.  Looking around you
+notice noone is paying you much attention, bad breath?  You see a
+scorched door to the north.
+  }
+  flags { indoors }
+  exits {
+     to { n, 32 }
+       info { door, closed }
+       keywords { Scorched door }
+     to { w, 28 }
+  }
+}
+
+32
+{
+  name { Dragon's Den }
+  desc {
+Home of the Overlord's pet dragon.  Spot was captured for him by a brave
+knight who slew the infamous black dragon.  Spot is just a baby but can
+be a true menace.  The overlord likes to bring him out during parties
+to heat things up a bit.. you notice the walls are a bit scorched.
+  }
+  flags { indoors }
+  exits {
+     to { s, 31 }
+       info { door, closed }
+       keywords { door }
+  }
+}
+
+33
+{
+  name { Immortal Row }
+  desc {
+This is the corridor of the Immortals.  A row of huge statues decorate each
+room. This room is decorated in black and holds the statues of Banshee
+and Phantom.
+  }
+  flags { indoors }
+  exits {
+     to { n, 23 }
+     to { e, 34 }
+     to { s, 35 }
+  }
+}
+
+34
+{
+  name { Weapon's Chamber }
+  desc {
+This room is home for an enchanted weapon.  It was brought
+to life by a visiting mage named Merlin.  It doesn't much care for
+being alive and wishes it could go back to the days of crusades.
+  }
+  flags { indoors }
+  exits {
+     to { w, 33 }
+  }
+}
+
+35
+{
+  name { Immortal Row }
+  desc {
+This is the corridor of the Immortals.  A row of huge statues decorate each
+room. This room is decorated in white and holds the statues of Derkhil
+and TTraveller.
+  }
+  flags { indoors }
+  exits {
+     to { n, 33 }
+     to { s, 36 }
+  }
+}
+
+36
+{
+  name { Passage of Life }
+  desc {
+This is the portal used by all those who were smart enuff to buy insurance.
+A certain presence of mind seems to befall you as your body is returned to
+the fountain with you experience and equipment intact.
+  }
+  flags { indoors }
+  exits {
+     to { n, 35 }
+     to { s, 37 }
+  }
+}
+
+37
+{
+  name { Entrance to the Star Tower }
+  desc {
+You stand before a great door leading to the Star Tower.  This tower is
+rumored to possess the greatest powers to be found in Canticle.  Patterns
+on the walls form the image of a great star chart, you consider the 
+future. A shadowy door lies east.
+  }
+  flags { no_mob, indoors }
+  exits {
+     to { n, 36 }
+     to { e, 38 }
+       info { door, closed }
+       keywords { Shadow door }
+  }
+}
+
+38
+{
+  name { Shadow Walk }
+  desc {
+Home to Shadow demons, this part of the hall is usually travelled quickly.
+The demons are the result of some of Cadderly's experiments gone awry.
+You feel a sudden chill roll up your spine as shrieks and moans fill the
+damp, must passage, it might be best to exit thru the door to the west.
+  }
+  flags { indoors }
+  exits {
+     to { e, 39 }
+     to { w, 37 }
+       info { door, closed }
+       keywords { door }
+  }
+}
+
+39
+{
+  name { Shadow Walk }
+  desc {
+Home to the Shadow Demons, this part of the hall is usually travelled
+quickly.
+You feel a sudden chill roll up your spine as shrieks and moans fill the
+damp, musty passage.  Hope you remembered your scrolls of recall.
+  }
+  flags { indoors }
+  exits {
+     to { e, 40 }
+     to { w, 38 }
+  }
+}
+
+40
+{
+  name { Shadow Walk }
+  desc {
+Home to the Shadow Demons, this part of the hall is usually travelled 
+quickly. You feel a sudden chill roll up your spine as shrieks and moans
+fill the damp, musty passage.  Hope you remembered your scrolls of recall.
+  }
+  flags { indoors }
+  exits {
+     to { e, 41 }
+     to { w, 39 }
+  }
+}
+
+41
+{
+  name { Gallery Wall }
+  desc {
+The walls of this part of the castle are lined with pictures of great
+warriors. Some of this art must be priceless.  You feel a draft and
+a sensation of justice.  There is a crimson door to the north.
+  }
+  flags { indoors }
+  exits {
+     to { n, 42 }
+       key { 38042 }
+       info { door, closed, locked }
+       keywords { Crimson door }
+     to { e, 48 }
+     to { w, 40 }
+  }
+}
+
+42
+{
+  name { The Red Room }
+  desc {
+A room of red, with the scales of justice being the only noticeable pattern
+to orient you in your sense of direction.  You hear a great commotion ahead,
+suddenly a large group of stranger rush past you.
+A small door lies south.
+  }
+  flags { no_mob, indoors }
+  exits {
+     to { n, 43 }
+     to { s, 41 }
+       info { door, closed }
+       keywords { door }
+  }
+}
+
+43
+{
+  name { Crimson Entryway }
+  desc {
+The entryway to a great court.  The majestic ceilings are decorated with
+the law of the land carved in bold Canticlian letters.  Truly this is a
+place where justice can be found.
+  }
+  flags { indoors }
+  exits {
+     to { n, 44 }
+     to { s, 42 }
+  }
+}
+
+44
+{
+  name { The Crimson Court }
+  desc {
+The crimson court of King Crimson awash with lawyers from all lands come
+to learn from the master of justice himself.  The dark crimson colors
+seem to be working on your own conscious as you remember that the virtue
+of Justice has at times failed you.
+  }
+  flags { indoors }
+  exits {
+     to { n, 47 }
+     to { s, 43 }
+     to { w, 45 }
+  }
+}
+
+45
+{
+  name { The Crimson Court }
+  desc {
+The crimson court of King Crimson awash with lawyers from all lands come
+to learn from the master of justice himself.  the dark crimson colors
+seem to be working on your own conscious as you remember that the virtue
+of Justice has at times failed you.
+  }
+  flags { indoors }
+  exits {
+     to { n, 46 }
+     to { e, 44 }
+  }
+}
+
+46
+{
+  name { The Crimson Throne }
+  desc {
+A great red throne looms above the white marble floor of this court.  You
+have entered the presence of the King himself lets hope you have an i
+invitation....
+  }
+  flags { indoors }
+  exits {
+     to { e, 47 }
+     to { s, 45 }
+  }
+}
+
+47
+{
+  name { The Crimson Court }
+  desc {
+The crimson court of King Crimson awash with lawyers from all lands come
+to learn from the master of justice himself.  The dark crimson colors
+seem to be working on your own conscious as you remember that the virtue
+of Justice has at times failed you.
+  }
+  flags { indoors }
+  exits {
+     to { s, 44 }
+     to { w, 46 }
+  }
+}
+
+48
+{
+  name { Gallery Wall }
+  desc {
+The walls of this part of the castle are lined with pictures of great
+mages. Some of this art is priceless.  You feel a draft and the sensation
+of magic.  A door shaped liked a star lies north.
+  }
+  flags { indoors }
+  exits {
+     to { n, 49 }
+       key { 38049 }
+       info { door, closed, locked, pickproof }
+       keywords { Star door }
+     to { e, 50 }
+     to { w, 41 }
+  }
+}
+
+49
+{
+  name { Temple of the Stars }
+  desc {
+As you arrive you are at first blinded by the bright light coming from the
+pedestal in the corner of the room.  Once your eyes grow accustomed to the
+brilliance you realize you have entered a temple.  Along with priests and
+worshippers, several temple guards are present guarding the contents of
+the pedestal.  There is a diamond plate on the wall.
+  }
+  flags { indoors }
+  exits {
+     to { s, 48 }
+       info { door, closed }
+       keywords { door }
+  }
+}
+
+50
+{
+  name { Gallery Wall }
+  desc {
+The walls of this part of the castle are lined with pictures of great
+assassins. This art is cheap but serves a purpose in the grand scheme
+of liberal arts.  You feel a draft and the sensation of BINGO!
+  }
+  flags { indoors }
+  exits {
+     to { n, 51 }
+     to { w, 48 }
+  }
+}
+
+51
+{
+  name { Southeast Rampart }
+  desc {
+You have walked out onto the rampart looking down upon the moor surrounding
+Canticle. From this height you can see the far reaches of midgaard and
+could use this position easily to spot your enemy's approach.
+  }
+  flags { indoors }
+  exits {
+     to { n, 52 }
+     to { s, 50 }
+  }
+}
+
+52
+{
+  name { Overlook }
+  desc {
+>From this position you can view all of Perilous Realms, Perilous indeed.
+  }
+  flags { indoors }
+  exits {
+     to { s, 51 }
+     to { w, 53 }
+       info { door, closed }
+       keywords { Wooden door }
+  }
+}
+
+53
+{
+  name { Escape Route }
+  desc {
+A small room with a large hole in the floor.  A pole attached to the ceiling
+descends thru the hole to the rook nook below.  this must have been a quick
+escape route used during times of war.  A wooden door is to the east.
+  }
+  flags { indoors }
+  exits {
+     to { e, 52 }
+       info { door, closed }
+       keywords { Wooden door }
+  }
+}

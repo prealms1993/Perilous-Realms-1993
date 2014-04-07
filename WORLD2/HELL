@@ -1,0 +1,13 @@
+
+0
+{
+  name { Hell }
+  desc {
+"   You can feel a very warm heat radiating from all directions in this
+most awful of places.
+  }
+  flags { dark, no_mob, indoors, peaceful, nosteal, no_sum, no_magic, private, no_goto }
+  exits {
+	to { n, 0 }
+  }
+}

@@ -1,0 +1,650 @@
+33000
+{
+	name { a mithril two-handed sword }
+	namelist { sword two mithril }
+	long { A large two handed sword rests on the floor. }
+	weight { 20 }
+	value { 353305 }
+	rent { 10208 }
+	type {
+		weapon {
+			no_dice { 5 }
+			size_dice { 5 }
+			type { slash }
+		}
+	}
+	apply {
+		damroll { 4 }
+		dexterity { -1 }
+	}
+	bits { glow, magic }
+	wear { take, wield }
+}
+
+33001
+{
+	name { an elven platemail }
+	namelist { platemail elven }
+	long { A large elven platemail lies on the ground. }
+	weight { 14 }
+	value { 14000 }
+	rent { 4666 }
+	type {
+		armor {
+			effective_ac { 10 }
+                        force { 10 }
+		}
+	}
+	apply {
+		dexterity { 2 }
+	}
+	bits { magic, bless, anti-evil }
+	wear { take, body }
+}
+
+33002
+{
+	name { a pair of elven bracers }
+	namelist { bracers elven }
+	long { A pair of elven bracers lies here. }
+	weight { 9 }
+	value { 9000 }
+	rent { 3000 }
+	type {
+		armor {
+			effective_ac { 9 }
+                        force { 9 }
+		}
+	}
+	apply {
+		all_armor { -4 }
+	}
+	bits { magic }
+	wear { take, arms }
+}
+
+33003
+{
+	name { a pair of elven leggings }
+	namelist { leggings }
+	long { A pair of elven leggings lies here. }
+	weight { 11 }
+	value { 11000 }
+	rent { 3666 }
+	type {
+		armor {
+			effective_ac { 13 }
+                        force { 13 }
+		}
+	}
+	bits { magic, anti-evil }
+	wear { take, legs }
+}
+
+33004
+{
+	name { the silver diadem }
+	namelist { diadem silver }
+	long { A sparkling white silver diadem has been left behind here. }
+	weight { 1 }
+	value { 50000 }
+	rent { 5000 }
+        max_exist { 25 }
+        min_level { 15 }
+	type {
+		other { 0, 0, 0, 0 }
+	}
+	apply {
+		wisdom { 3 }
+		constitution { 3 }
+	}
+	bits { magic, anti-evil }
+	wear { take, neck }
+}
+
+33005
+{
+	name { the battlemasters dirk }
+	namelist { dirk battlemasters }
+	long { A deadly looking dirk lies in the soil. }
+	weight { 8 }
+	value { 15122 }
+	rent { 1500 }
+	type {
+		weapon {
+			no_dice { 7 }
+			size_dice { 4 }
+			type { pierce }
+		}
+	}
+	apply {
+		hitroll { 5 }
+		damroll { 1 }
+	}
+	bits { glow, magic }
+	wear { take, wield }
+}
+
+33006
+{
+	name { an elven helmet }
+	namelist { helmet elven }
+	long { An elven helmet lies here. }
+	weight { 8 }
+	value { 8000 }
+	rent { 800 }
+	type {
+		armor {
+			effective_ac { 8 }
+		}
+	}
+	apply {
+		mana { 20 }
+	}
+	bits { magic, anti-evil }
+	wear { take, head }
+}
+
+33007
+{
+	name { a pair of elven boots }
+	namelist { boots elven }
+	long { A pair of elven boots lies here. }
+	weight { 6 }
+	value { 6000 }
+	rent { 600 }
+	type {
+		armor {
+			effective_ac { 6 }
+		}
+	}
+	apply {
+		move { 15 }
+		damroll { 1 }
+	}
+	bits { magic, anti-evil }
+	wear { take, feet }
+}
+
+33008
+{
+	name { an elven sword }
+	namelist { sword elven }
+	long { A long slender elven sword lies here. }
+	weight { 10 }
+	value { 8000 }
+	rent { 2666 }
+	type {
+		weapon {
+			no_dice { 2 }
+			size_dice { 10 }
+			type { slash }
+		}
+	}
+	apply {
+		hitroll { 2 }
+		damroll { 2 }
+	}
+	bits { glow, magic, anti-evil }
+	wear { take, wield }
+}
+
+33009
+{
+	name { an elven bracelet }
+	namelist { bracelet elven }
+	long { An elven bracelet lies here. }
+	weight { 1 }
+	value { 1000 }
+	rent { 100 }
+        max_exist { 26 }
+        min_level { 20 }
+	type {
+		armor {
+			effective_ac { 1 }
+                        force { 1 }
+		}
+	}
+	apply {
+		strength { 1 }
+	}
+	bits { magic, anti-evil }
+	wear { take, wrist }
+}
+
+33010
+{
+	name { an elven cloak }
+	namelist { cloak elven }
+	long { An elvish looking cloak lies here. }
+	weight { 4 }
+	value { 4000 }
+	rent { 400 }
+	type {
+		armor {
+			effective_ac { 14 }
+                        force { 14 }
+		}
+	}
+	bits { magic, anti-evil }
+	wear { take, neck }
+}
+
+33011
+{
+	name { an elven staff of light }
+	namelist { staff elven light }
+	long { An elvish staff lies here in a cube of light. }
+	weight { 10 }
+	value { 24000 }
+	rent { 1200 }
+	type {
+		light {
+			duration { -1 }
+		}
+	}
+	apply {
+		damroll { 1 }
+		constitution { -1 }
+	}
+	bits { glow, magic }
+	wear { take, hold }
+}
+
+33012
+{
+	name { a pair of elven gloves }
+	namelist { gloves elven }
+	long { A pair of elvish gloves lies here. }
+	weight { 6 }
+	value { 600 }
+	rent { 100 }
+	type {
+		armor {
+			effective_ac { 12 }
+                        force { 12 }
+		}
+	}
+	apply {
+		age { 2 }
+	}
+	bits { magic, anti-evil }
+	wear { take, hands }
+}
+
+33013
+{
+	name { a white medallion }
+	namelist { medallion white }
+	long { A large white medallion lies here on the floor. }
+	weight { 10 }
+	value { 10000 }
+	rent { 1000 }
+	type {
+		armor {
+			effective_ac { 2 }
+		}
+	}
+	bits { magic, anti-good }
+	wear { take, neck }
+}
+
+33014
+{
+	name { the black staff of ancient magic }
+	namelist { magic staff ancient }
+	long { A large black staff lies here absorbing the light. }
+	weight { 8 }
+	value { 60000 }
+        max_exist { 25 }
+	rent { 6000 }
+	type {
+		light {
+			duration { -1 }
+		}
+	}
+	apply {
+		hp { 50 }
+		damroll { 1 }
+	}
+	bits { glow, magic, anti-good }
+	wear { take, hold }
+}
+
+33015
+{
+	name { a dooms cloak }
+	namelist { cloak dooms }
+	long { A large cloak resembling the coming doom lies here. }
+	weight { 10 }
+	value { 40000 }
+	rent { 14000 }
+	type {
+		armor {
+			effective_ac { 10 }
+			force { 10 }
+		}
+	}
+	apply {
+		backstab { 2 }
+		intelligence { -2 }
+	}
+	bits { magic, anti-good }
+	wear { take, neck }
+}
+
+33016
+{
+	name { the dooms leggings }
+	namelist { leggings dooms }
+	long { A pair of leggings resembling the doom. }
+	weight { 11 }
+	value { 23000 }
+	rent { 10000 }
+	type {
+		armor {
+			effective_ac { 13 }
+			force { 13 }
+		}
+	}
+	apply {
+		age { -2 }
+		hitroll { 1 }
+	}
+	bits { magic, anti-good }
+	wear { take, legs }
+}
+
+33017
+{
+	name { the black horns of the minotaur }
+	namelist { horns minotaur black }
+	long { A horn trembling with power lies here. }
+	weight { 14 }
+	value { 125000 }
+	rent { 40000 }
+        max_exist { 15 }
+        min_level { 50 }
+	type {
+		armor {
+			effective_ac { 16 }
+                        force { 16 }
+		}
+	}
+	apply {
+		hitroll { 3 }
+		damroll { 3 }
+	}
+	bits { magic, anti-good }
+	wear { take, head }
+}
+
+33018
+{
+	name { the history book of tarin }
+	namelist { book history }
+	long { A carefully placed book rests on a pedistal. }
+	weight { 1 }
+	value { 1000 }
+	rent { 100 }
+	type {
+		trash { 0, 0, 0, 0 }
+	}
+	apply {
+		wisdom { 1 }
+	}
+	bits { bless }
+	wear { take, hold }
+	extras {
+		keywords { book }
+		desc {
+You open the dusty book and finds that most of the pages have been burned
+or crumbled in the past of many years.
+The last page in the book seems rather new, 2 years old tops;
+
+The forces of the black minotaur have invaded our peaceful forest, and we
+are doomed to the retreat in the tombs. In the day of the moon, Year 50 our
+good king, Tarin lost his battle against the minotaur, and became one of
+it's minions. The queen declares the third day in the month of the Moon,
+as a day of holiness, no work must be done.
+The minotaur have found our retreat in this mountain, and are now invading
+us, the head of their invading force is Tarin our old king! *sob* How cruel
+can this life be?.
+We are drawn back to our last bastion in the marble hall, and will be able
+to keep this for several days we think. Our queen is often leading a helping
+hand against the enemy.
+The power is rising says the queen, new hope is born.
+-referatum. }
+	}
+}
+
+33019
+{
+	name { the claws of the minotaur god }
+	namelist { claws god }
+	long { A pair of extremely large claws lies here. }
+	weight { 25 }
+	value { 146656 }
+	rent { 25552 }
+	type {
+		weapon {
+			no_dice { 6 }
+			size_dice { 8 }
+			type { slash }
+		}
+	}
+	apply {
+		hitroll { 3 }
+	}
+	bits { glow, magic, anti-good, anti-neutral }
+	wear { take, wield }
+}
+
+33020
+{
+	name { the dooms sleeves }
+	namelist { dooms sleeves }
+	long { A pair of sleeves resembling the doom lies here. }
+	weight { 14 }
+	value { 1 }
+	rent { 1 }
+	type {
+		armor {
+			effective_ac { 15 }
+			force { 15 }
+		}
+	}
+	bits { magic, anti-good, anti-neutral }
+	wear { take, arms }
+}
+
+33021
+{
+	name { the magic girdle }
+	namelist { girdle magic }
+	long { A large magic girdle lies here. }
+	weight { 20 }
+	value { 200000 }
+	rent { 2000 }
+	max_exist { 2 }
+	min_level { 50 }
+	type {
+		armor {
+			effective_ac { 20 }
+			force { 20 }
+			absorb { 10 }
+		}
+	}
+	bits { magic, anti-good, anti-neutral }
+	wear { take, waist }
+}
+
+33022
+{
+	name { the diamond platemail }
+	namelist { plate platemail diamond }
+	long { A large diamond platemail lies here. }
+	weight { 10 }
+	value { 65000 }
+	rent { 16000 }
+	type {
+		armor {
+			effective_ac { 10 }
+                        force { 10 }
+		}
+	}
+	bits { magic, anti-good, anti-evil }
+	wear { take, body }
+}
+
+33023
+{
+	name { the funds of Tarin }
+	namelist { treasure }
+	long { The funds of tarin lies here. }
+	weight { 1 }
+	value { 10000 }
+	rent { 33333 }
+	type {
+		money {
+			value { 10000 }
+		}
+	}
+	bits { invisible }
+	wear { take }
+}
+
+33024
+{
+	name { a key }
+	namelist { key }
+	long { A tiny key lies here. }
+	weight { 1 }
+	value { -1 }
+	rent { -1 }
+	type {
+		key { 2, 0, 0, 0 }
+	}
+	bits { glow, magic }
+	wear { take, hold }
+}
+
+33025
+{
+	name { an opal potion }
+	namelist { opal potion }
+	long { An opal potion lies here in the dirt. }
+	weight { 3 }
+	value { 1800 }
+	rent { 200 }
+	type {
+		potion {
+			level { 30 }
+			spell1 { fly }
+		}
+	}
+	bits { magic }
+	wear { take }
+}
+
+33026
+{
+	name { the opal chest }
+	namelist { chest opal }
+	long { A little opal chest rest on the floor. }
+	weight { 1000 }
+	value { 50 }
+	rent { 5 }
+	type {
+		container {
+			max_hold { 500 }
+			flags { closeable, closed }
+		}
+	}
+	bits { glow, magic, anti-evil }
+}
+
+33027
+{
+	name { the kings visor }
+	namelist { visor kings }
+	long { A visor lies here, it glows in a strange way. }
+	weight { 6 }
+	value { 16000 }
+	rent { 5000 }
+	type {
+		armor {
+			effective_ac { 14 }
+			force { 14 }
+		}
+	}
+	apply {
+		save_all { 2 }
+		hitroll { 1 }
+	}
+	bits { glow, magic, anti-good }
+	wear { take, head }
+}
+
+33028
+{
+	name { a black knight's ring }
+	namelist { ring knight black }
+	long { A black knights ring has been left behind here. }
+	weight { 4 }
+	value { 28000 }
+	rent { 4000 }
+	type {
+		armor {
+			effective_ac { 2 }
+		}
+	}
+	apply {
+		damroll { 2 }
+	}
+	bits { glow, magic, anti-good }
+	wear { take, finger }
+}
+
+33029
+{
+	name { The iron mask of sorrow }
+	namelist { iron mask }
+	long { An enormous iron mask lies here, trembling with powers. }
+	weight { 15 }
+	value { 85000 }
+	rent { 5000 }
+	type {
+		armor {
+			effective_ac { 17 }
+                        force { 17 }
+		}
+	}
+	apply {
+		age { -4 }
+	}
+	bits { magic, anti-evil, anti-mage }
+	wear { take, head }
+}
+
+33030
+{
+	name { a heavy wooden club }
+	namelist { club heavy wooden }
+	long { A heavy wooden club lies here in the dirt. }
+	weight { 12 }
+	value { 1728 }
+	rent { 576 }
+	type {
+		weapon {
+			no_dice { 4 }
+			size_dice { 3 }
+			type { bludgeon }
+		}
+	}
+	apply {
+		save_spell { -10 }
+		save_petrification { -10 }
+	}
+	wear { take, wield }
+}

@@ -1,0 +1,446 @@
+
+0
+{
+  name { The tunnel }
+  desc {
+"   Suddenly you feel that the tunnel leads slightly down.. The only 
+exit is to the west, and it leads down..
+  }
+  sector { Forest }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { w, 1 }
+  }
+}
+
+1
+{
+  name { The long tunnel }
+  desc {
+"   You are in a long east-west leading tunnel. The tunnel is quite
+wide at this point.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 0 }
+	to { w, 2 }
+  }
+}
+
+2
+{
+  name { The long tunnel }
+  desc {
+"   You are in a long east-west leading tunnel. The tunnel becomes
+narrow to the west.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 1 }
+	to { w, 3 }
+  }
+}
+
+3
+{
+  name { The long tunnel }
+  desc {
+"   You are in a long east-west leading tunnel. The tunnel is quite
+narrow at this point. You notice a small hole leading south.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 2 }
+	to { s, 6 }
+	to { w, 4 }
+  }
+}
+
+4
+{
+  name { The long tunnel }
+  desc {
+"   You are in a long east-west leading tunnel. The tunnel starts sloping
+down towards the west.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 3 }
+	to { w, Void:-1 }
+  }
+}
+
+5
+{
+  name { The golden cave }
+  desc {
+"   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the south and west.
+  }
+  sector { City }
+  extra {
+	keywords { light gold golden" }
+	desc { It looks good, but as you look closely you notice that it has no value.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 8 }
+	to { w, 6 }
+  }
+}
+
+6
+{
+  name { The golden cave }
+  desc {
+"   You are in a giant cave, all the walls are shining with a soft golden
+light.  The cave continues to the south and east, to the north is a narrow
+tunnel.
+  }
+  sector { City }
+  extra {
+	keywords { light gold golden" }
+	desc { It looks good, but as you look closely you realize that it has no value.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 3 }
+	to { e, 5 }
+	to { s, 9 }
+  }
+}
+
+7
+{
+  name { The passage }
+  desc {
+"   You are in a small passage, it leads south, to the west is a golden
+cave.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { s, 13 }
+	to { w, 8 }
+  }
+}
+
+8
+{
+  name { The golden cave }
+  desc {
+"   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the north and west, east from you there is
+a small passage.
+  }
+  sector { City }
+  extra {
+	keywords { light gold golden" }
+	desc { It looks good, but as you look closely you notice that it has no value.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 5 }
+	to { e, 7 }
+	to { w, 9 }
+  }
+}
+
+9
+{
+  name { The golden cave }
+  desc {
+"   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the south, east and north.
+  }
+  sector { City }
+  extra {
+	keywords { light gold golden" }
+	desc { It looks good, but as you look closely you notice that it has no value.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 6 }
+	to { e, 8 }
+	to { s, 14 }
+  }
+}
+
+10
+{
+  name { The hole }
+  desc {
+"   You are standing by a large hole in the floor, when you looks down
+into the darkness you feel frightened.
+  }
+  sector { Forest }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { w, 11 }
+	to { d, 26 }
+  }
+}
+
+11
+{
+  name { The tunnel }
+  desc {
+"   You are in a small tunnel, it leads from east to the west.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 10 }
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { The tunnel }
+  desc {
+"   You are in a larger tunnel, it leads from west to east.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 11 }
+	to { w, 13 }
+  }
+}
+
+13
+{
+  name { The passage }
+  desc {
+"   You are in a passage that leads towards the south. To the east 
+you see a tunnel.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 7 }
+	to { e, 12 }
+	to { s, 16 }
+  }
+}
+
+14
+{
+  name { The golden cave }
+  desc {
+"   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the north, to the west you see a dark 
+passage.
+  }
+  sector { City }
+  extra {
+	keywords { light gold golden" }
+	desc { It looks good, but as you look closely you notice that it has no value.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 9 }
+	to { w, 15 }
+  }
+}
+
+15
+{
+  name { The dark passage. }
+  desc {
+"   You are in a dark passage, that leads east. In the ceiling you notice
+a small hole, just big enough to pass through.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { e, 14 }
+	to { u, Moria1:21 }
+  }
+}
+
+16
+{
+  name { The passage }
+  desc {
+"   You are in a passage that leads north-south. You notice a small
+light to the south.
+  }
+  sector { Forest }
+  extra {
+	keywords { light" }
+	desc { Well you can't see where it comes from..
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 13 }
+	to { s, 20 }
+  }
+}
+
+17
+{
+  name { The secret tunnel }
+  desc {
+"   You are in a secret tunnel that leads north, to the south you see
+a small chamber.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 14 }
+	to { s, 22 }
+  }
+}
+
+18
+{
+  name { The cave }
+  desc {
+"   You are in a light cave, from torches several feet above your
+head fire lights the room. The cave continues to the west and south.
+To the north a small hole leads to a tunnel.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 11 }
+	to { s, 23 }
+	to { w, 19 }
+  }
+}
+
+19
+{
+  name { The cave }
+  desc {
+"   You are in a light cave, from torches several feet above your
+head fire lights the room. The cave continues to the east and south.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { e, 18 }
+	to { s, 24 }
+	to { w, 21 }
+  }
+}
+
+20
+{
+  name { The passage }
+  desc {
+"   You are in a north-south leading passage. To the south you see
+light.
+  }
+  sector { Forest }
+  extra {
+	keywords { light" }
+	desc { It nearly is enough to light the passage.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 16 }
+	to { s, 25 }
+  }
+}
+
+21
+{
+  name { The secret tunnel }
+  desc {
+"   You are in a secret tunnel that leads west, you feel evilness
+approaching you as you continue west.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { w, 22 }
+  }
+}
+
+22
+{
+  name { The secret chamber }
+  desc {
+"   You are in a secret chamber, the room is filled with an evil
+feeling.
+  }
+  sector { Forest }
+  flags { dark, indoors }
+  exits {
+	to { n, 17 }
+  }
+}
+
+23
+{
+  name { The cave }
+  desc {
+"   You are in a light cave, from torches several feet above your
+head fire lights the room. The cave continues to the north and west.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 18 }
+	to { w, 24 }
+  }
+}
+
+24
+{
+  name { The cave }
+  desc {
+"   You are in a light cave, from torches several feet above your
+head fire lights the room. The cave continues to the east and north.
+To the west a passage leads north.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 19 }
+	to { e, 23 }
+	to { w, 25 }
+  }
+}
+
+25
+{
+  name { The passage }
+  desc {
+"   You are in a passage, to the east you see a cave. Light from the
+cave lights up the passage. To the north the passage leads into
+the darkness..
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+	to { n, 20 }
+	to { e, 24 }
+  }
+}
+
+26
+{
+  name { A Path }
+  desc {
+"    You are on a path heading slightly downwards and most likely out of moria
+you can go back up to the safety (hah) of moria or journey onwards to ?
+  }
+  exits {
+	to { u, 10 }
+  }
+}

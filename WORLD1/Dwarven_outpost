@@ -1,0 +1,1529 @@
+
+0
+{
+  name { The Gate of a Dwarven Outpost }
+  desc {
+To your north lies a massive stone gate.  The craftmanship could only
+be the work of dwarven hands, but the scorch marks and huge hole where
+the portculious was ripped out gives you the idea they may not still
+be around ....
+  }
+  exits {
+	to { n, 1 }
+	to { w, Desert:63 }
+  }
+}
+
+1
+{
+  name { The Gate }
+  desc {
+As you walk through the gate you try to decide whether you are more awed by
+the size of the gate, or the large number of scorch marks that are visible
+on it.  While you look around you are thankful for the respite from the dust
+and heat of the desert.  To the north lies the entry hall of the outpost and
+to the south lies the inhospitable desert.
+  }
+  exits {
+	to { n, 2 }
+	to { s, 0 }
+  }
+}
+
+2
+{
+  name { The Entry Hall }
+  desc {
+This room was the entrance hall to the outpost.  You seem to remember your
+mother saying something about dwarves doing nothing halfway...  Anyway this
+room is so huge it dissapears into darkness to the north.  You can see 
+passages leading west and east.  The gate is to the south from here.
+  }
+  exits {
+	to { n, 5 }
+	to { e, 4 }
+	to { s, 1 }
+	to { w, 3 }
+  }
+}
+
+3
+{
+  name { The Entry Hall }
+  desc {
+You are in the southwest corner of the entry hall.  The far north is still
+shrouded in darkness.  Even in this remote portion of the hall scorch marks
+are visible.  A tiny bit to the east lies the gate and a tiny bit to the
+north a passage exits to the west.
+  }
+  exits {
+	to { n, 6 }
+	to { e, 2 }
+  }
+}
+
+4
+{
+  name { The Entry Hall }
+  desc {
+You are in the southeast corner of the entry hall.  The far north is still
+shrouded in darkness.  Even in this remote portion of the hall scorch marks
+are visible.  A tiny bit to the west lies the gate and a tiny bit to the 
+north a passage exits to the east.
+  }
+  exits {
+	to { n, 7 }
+	to { w, 2 }
+  }
+}
+
+5
+{
+  name { The Entry Hall }
+  desc {
+You are in the middle of the entry hall.  The floor is covered with scorch
+marks.  From the north a wave of heat asails you.  Looking up you see a
+mound of assorted valuables.  This seems to be the source of the heat.  To
+the east and west passages run off into darkness.  The way south will lead
+you back to the gate.
+  }
+  exits {
+	to { n, 8 }
+	to { e, 7 }
+	to { s, 2 }
+	to { w, 6 }
+  }
+}
+
+6
+{
+  name { The Entry Hall }
+  desc {
+You are on the west side of the entry hall.  There is a passage exiting west
+here.  You notice that the wall and floor is covered with scorch marks.  The
+gate lies to the southeast and a huge mound of valuables lies to the 
+northeast
+  }
+  exits {
+	to { n, 9 }
+	to { e, 5 }
+	to { s, 3 }
+	to { w, 75 }
+  }
+}
+
+7
+{
+  name { The Entry Hall }
+  desc {
+You are on the east side of the entry hall.  There is a passage exiting east
+here.  You notice that the wall and floor is covered with scorch marks.  The
+gate lies to the southwest and a huge mound of valuables lies to the
+northwest.
+  }
+  exits {
+	to { n, 10 }
+	to { e, 91 }
+	to { s, 4 }
+	to { w, 5 }
+  }
+}
+
+8
+{
+  name { The Entry Hall }
+  desc {
+You seem to be in the middle of the entry hall.  From here you can see four
+passageways - two leave west and the other two lead east.  If you were still
+standing on the ground you would be waist deep in valuables, but they are so
+tightly packed that they support the combined weight of you and your armor.
+A small distance to the south you can make out the gate.  The mound rises in 
+front of you to the north.
+  }
+  exits {
+	to { n, 11 }
+	to { e, 10 }
+	to { s, 5 }
+	to { w, 9 }
+  }
+}
+
+9
+{
+  name { The Entry Hall }
+  desc {
+You are on the west side of the entry hall.  A mound of valuables of all
+types rises to the east.  This is the the source of the heat that is making
+you uncomfortable.  There are two passages exiting west - ones a tiny bit
+north of you and the other a tiny bit to the south.
+  }
+  exits {
+	to { n, 13 }
+	to { e, 8 }
+	to { s, 6 }
+  }
+}
+
+10
+{
+  name { The Entry Hall }
+  desc {
+You are on the east side of the entry hall.  A mound of valuables of all
+types rises to the west.  This is the the source of the heat that is making
+you uncomfortable.  There are two passages exiting east - one is a tiny bit
+to the north and the other a tiny bit to the south.
+  }
+  exits {
+	to { n, 12 }
+	to { s, 7 }
+	to { w, 8 }
+  }
+}
+
+11
+{
+  name { The Entry Hall }
+  desc {
+You are climbing a mound of valuables.  You reach the top and look upon ...
+a huge impression in the pile.  You guess if you stood in the middle of it
+you would be waist deep.  The outline of the impression seems uncomfortably
+familiar but you can't quite place it.  To the east and west passages exit
+the entry hall.  To the south is the mound that you climbed over and to the
+north you can see the top of a throne sticking out of the mound and the
+outline of a door behind it.
+  }
+  exits {
+	to { n, 14 }
+	to { e, 12 }
+	to { s, 8 }
+	to { w, 13 }
+  }
+}
+
+12
+{
+  name { The Entry Hall }
+  desc {
+You are on the east side of the entry hall.  There is a passage exiting east
+here.  There is a huge mound of valuables rising to the west.  The heat
+eminating from there is nigh unbearable.  You begin to wonder exactly how
+well your armor conducts heat....
+  }
+  exits {
+	to { n, 16 }
+	to { e, 79 }
+	to { s, 10 }
+	to { w, 11 }
+  }
+}
+
+13
+{
+  name { The Entry Hall }
+  desc {
+You are on the west side of the entry hall.  There is a passage exiting west
+here.  There is a huge mound of valuables rising to the east.  The heat
+eminating from causes you to make sure your clothing isn't getting singed.
+  }
+  exits {
+	to { n, 15 }
+	to { e, 11 }
+	to { s, 9 }
+	to { w, 78 }
+  }
+}
+
+14
+{
+  name { The Entry Hall }
+  desc {
+You are standing in front of a throne half buried in all sorts of valuables.
+Behind the throne is a door which exits to the north.  To the east and west
+lie the northern corners of the entry hall.  To the south rises the mound.
+  }
+  extra {
+	keywords { throne" }
+	desc { This was once a magnificent throne.  The red felt of the cushions are now 
+tattered and the sturdy frame scratched from the numerous jewels and
+precious stones surronding it.
+	}
+  }
+  exits {
+	to { n, 17 }
+	  key { 1 }
+	  info { door, closed }
+	  keywords { open door" }
+	to { e, 16 }
+	to { s, 11 }
+	to { w, 15 }
+  }
+}
+
+15
+{
+  name { The Entry Hall }
+  desc {
+You are in the northwest corner of the entry hall.  The mound tapers off
+here.  You can now see numerous scorch marks on the floor and walls.  To
+the west you can see a throne poking out of the mound and a doorway right
+behind it.  A tiny bit to the south a hallway exits west.
+  }
+  exits {
+	to { e, 14 }
+	to { s, 13 }
+  }
+}
+
+16
+{
+  name { The Entry Hall }
+  desc {
+You are in the northeast corner of the entry hall.  The mound tapers off
+here.  You can now see numerous scorch marks on the floor and walls.  To
+the east you can see a throne poking out of the mound and a doorway right
+ behind it.  A tiny bit to the south a hallway exits east.
+  }
+  exits {
+	to { s, 12 }
+	to { w, 14 }
+  }
+}
+
+17
+{
+  name { Northern Hallway }
+  desc {
+You are in a hall that only royalty and their trusted servants have used
+before you.  The door to the south slams shut and the weight on the door
+from the other side will ensure you don't get out that way.  The hallway
+continues to the north.
+  }
+  exits {
+	to { n, 18 }
+  }
+}
+
+18
+{
+  name { Northern Hallway }
+  desc {
+As you tread in the steps of royalty you almost feel like royalty yourself. 
+You stand straighter, hold your head high, and strut along like you own the 
+place.  There is a door to the west and a curtain to the east.  The hallway 
+continues north and south.
+  }
+  exits {
+	to { n, 19 }
+	to { e, 21 }
+	  info { door, closed }
+	  keywords { curtain" }
+	to { s, 17 }
+	to { w, 20 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+19
+{
+  name { Northern Hallway }
+  desc {
+The hallway ends here in a door that is encrusted with gold and jewels.  You
+can tell that any attempt at prying them out would be futile.  The hallway 
+exits to the south.
+  }
+  exits {
+	to { n, 22 }
+	to { s, 18 }
+  }
+}
+
+20
+{
+  name { Guest's Chambers }
+  desc {
+This room was once used for visiting dignitaries and trusted family, now it
+is covered with dust.  It was obviously a fine room at one time with 
+tapestries and a fine four-poster canopied bed.  There is a door to the east.
+  }
+  exits {
+	to { e, 18 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+21
+{
+  name { Guest's Chambers }
+  desc {
+This room is decked out in the finest of finery.  There is a canopied 
+four-poster bed, a large bureau, and a body length mirror.  A fine curtain
+conceals the exit to the west. 
+  }
+  exits {
+	to { w, 18 }
+	  info { door, closed }
+	  keywords { curtain" }
+  }
+}
+
+22
+{
+  name { The Royal Chambers }
+  desc {
+This room is the epitome of luxuriousness.  The plush four-poster bed looks as
+if it could sleep a good sized family comfortably.  The ivory wrought bureau
+and gold framed mirror only emphasize the quality of the furnishings.  A plush
+carpet covers the center of the room.  You think you can see the outline of a
+door to the east.
+  }
+  exits {
+	to { e, 23 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 19 }
+	to { d, 24 }
+	  info { door, closed }
+	  keywords { trap" }
+  }
+}
+
+23
+{
+  name { The Royal Treasury }
+  desc {
+This is it the fabled treasury room for the outpost (where did you think it
+would be located?  Under a trap door beneath that plush carpet?).  Where you 
+expected to see mounds of gold and jewels there is naught the be had.  Either
+the outpost was broke when it was attacked or the treasure has since then 
+been relocated.
+  }
+  exits {
+	to { w, 22 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+24
+{
+  name { Secret Passage! }
+  desc {
+As you go down you feel a strange sensation pass through your body.  Your
+vision blurs and there is a shifting of sorts but you can't quite tell what
+is happening.
+  }
+  tele { 60, 1, 35 }
+  exits {
+	to { u, 22 }
+	  info { door, closed }
+	  keywords { trap" }
+  }
+}
+
+25
+{
+  name { Weight Room }
+  desc {
+There are well spaced weights here - it looks quite organized even though it
+has been a long time since they were used.  The room continues to the north
+and east.
+  }
+  exits {
+	to { n, 26 }
+	to { w, 99 }
+  }
+}
+
+26
+{
+  name { Weight Room }
+  desc {
+Here are a number of bench presses and you are startled to notice that the
+lowest possible choice is 150 lbs.  The room extends south and west.
+  }
+  exits {
+	to { s, 25 }
+	to { w, 27 }
+  }
+}
+
+27
+{
+  name { Weight Room }
+  desc {
+Free weights line the mirror covered walls.  This was where warriors could
+work on or admire their form.  The room continues to the south and east.
+  }
+  exits {
+	to { e, 26 }
+	to { s, 99 }
+  }
+}
+
+28
+{
+  name { Practice Room }
+  desc {
+This spacious chamber stretches south and east.  Most of it is just empty
+space where youngsters and warriors in training can spar.  There is padding
+piled up against the wall.  A nice think coat of dust covers everything.
+  }
+  exits {
+	to { n, 82 }
+	to { e, 29 }
+	to { s, 31 }
+  }
+}
+
+29
+{
+  name { Practice Room }
+  desc {
+There are some wooden swords here and even a couple wooden shields.  There is
+an opening in the north wall here that looks to lead into the weight room.
+The practice room continues to the south and west.
+  }
+  exits {
+	to { n, 99 }
+	to { s, 30 }
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { Practice Room }
+  desc {
+There are some targets lined up against the wall here.  There is also a pile
+of quarrels and crossbows.  The quarrels look as though they would crumble in
+your hand.  The chamber continues to the north and west of you.
+  }
+  exits {
+	to { n, 29 }
+	to { w, 31 }
+  }
+}
+
+31
+{
+  name { Practice Room }
+  desc {
+There are several wooden shields and axes lying here.  The floor is very
+scuffed and well-used but there still remains a thick layer of dust over
+everything.  The chamber continues to the north and east.
+  }
+  exits {
+	to { n, 28 }
+	to { e, 30 }
+  }
+}
+
+32
+{
+  name { Secret Passage! }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 33 }
+	to { s, 31 }
+  }
+}
+
+33
+{
+  name { Secret Passage! }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 34 }
+	to { s, 32 }
+  }
+}
+
+34
+{
+  name { Secret Passage! }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 35 }
+	to { s, 33 }
+  }
+}
+
+35
+{
+  name { Secret Passage! }
+  desc {
+As you go down you feel a strange sensation pass through your body.  Your
+vision blurs and there is a shifting of sorts but you can't quite tell what
+is happening.
+  }
+  tele { 60, 1, 24 }
+  exits {
+	to { u, 36 }
+	  info { door, closed }
+	  keywords { trap" }
+  }
+}
+
+36
+{
+  name { The High Priest's Chambers }
+  desc {
+This chamber is sparsely furnished, containing only a cot and lumpy mattress, 
+a small bureau, and a waredrobe.  A prayer mat can be seen tucked neatly 
+under the bed.  You can see the outline of a trap door in the center of the
+floor.
+  }
+  exits {
+	to { s, 37 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 35 }
+	  info { door, closed }
+	  keywords { trap" }
+  }
+}
+
+37
+{
+  name { Temple Hallway }
+  desc {
+You are in a long hallway.  There is a door to the north.  The hallway to the
+south has doors leaving east and west along the length of it.
+  }
+  exits {
+	to { n, 36 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 38 }
+  }
+}
+
+38
+{
+  name { Temple Hallway }
+  desc {
+There are doorways to the east and west here.  The hallway continues north a
+short distance before ending in a door.  
+  }
+  exits {
+	to { n, 37 }
+	to { e, 49 }
+	to { s, 39 }
+	to { w, 44 }
+  }
+}
+
+39
+{
+  name { Temple Hallway }
+  desc {
+There are doorways to the east and west here.
+The hallway continues north and south.
+  }
+  exits {
+	to { n, 38 }
+	to { e, 50 }
+	to { s, 40 }
+	to { w, 45 }
+  }
+}
+
+40
+{
+  name { Temple Hallway }
+  desc {
+There are doorways to the east and west here.  Looking south you can see a
+door outlined with a soft white light quite a bit in the distance.  The
+hallway continues north and south.
+  }
+  exits {
+	to { n, 39 }
+	to { e, 51 }
+	to { s, 41 }
+	to { w, 46 }
+  }
+}
+
+41
+{
+  name { Temple Hallway }
+  desc {
+There are doorways to the east and west here.  Looking south you can see a
+door outlined with a soft white light quite a bit in the distance.  The
+hallway continues north and south.
+  }
+  exits {
+	to { n, 40 }
+	to { e, 52 }
+	to { s, 42 }
+	to { w, 47 }
+  }
+}
+
+42
+{
+  name { Temple Hallway }
+  desc {
+There are doorways to the east and west here.  A tiny bit to the south you can
+see a door outlined with a soft white light.  The hallway continues north and
+south.
+  }
+  exits {
+	to { n, 41 }
+	to { e, 53 }
+	to { s, 43 }
+	to { w, 48 }
+  }
+}
+
+43
+{
+  name { Temple Hallway }
+  desc {
+There is a door to the south.  It is outlined by a soft white glow.  The 
+hallway continues to the north.
+  }
+  exits {
+	to { n, 42 }
+	to { s, 54 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+44
+{
+  name { Cleric's Chambers }
+  desc {
+This room is sparsely furnished containing only a cot and a threadbare blanket
+with a lumpy mattress.  A prayer mat can be seen tucked neatly under the bed.
+There is a hallway to the east.
+  }
+  exits {
+	to { e, 38 }
+  }
+}
+
+45
+{
+  name { Cleric's Chambers }
+  desc {
+This room is sparsely furnished containing only a cot and a threadbare blanket
+with a lumpy mattress.  A prayer mat can be seen tucked neatly under the bed.
+There is a doorway to the east.
+  }
+  exits {
+	to { e, 39 }
+  }
+}
+
+46
+{
+  name { Cleric's Chambers }
+  desc {
+This room is sparsely furnished containing only a cot and a threadbare blanket
+with a lumpy mattress.  A prayer mat can be seen tucked neatly under the bed.
+A book can be seen partially tucked under the prayer mat.  There is a doorway 
+to the east.
+  }
+  exits {
+	to { e, 40 }
+  }
+}
+
+47
+{
+  name { Cleric's Chambers }
+  desc {
+This room is sparsely furnished containing only a cot and a threadbare blanket
+with a lumpy mattress.  A prayer mat can be seen tucked neatly under the bed.
+A Hymn Book lies on the cot, it seems much read.  There is a doorway to the 
+east.
+  }
+  exits {
+	to { e, 41 }
+  }
+}
+
+48
+{
+  name { Cleric's Chambers }
+  desc {
+This room is sparsely furnished containing only a cot and a threadbare blanket
+with a lumpy mattress.  A prayer mat can be seen tucked neatly under the bed.
+There is a doorway to the east.
+  }
+  exits {
+	to { e, 42 }
+  }
+}
+
+49
+{
+  name { Cleric's Chambers }
+  desc {
+This room is sparsely furnished containing only a cot and a threadbare blanket
+with a lumpy mattress.  A prayer mat can be seen tucked neatly under the bed.
+There is a doorway to the west.
+  }
+  exits {
+	to { w, 38 }
+  }
+}
+
+50
+{
+  name { Cleric's Chambers }
+  desc {
+This room is sparsely furnished containing only a cot and a threadbare blanket
+with a lumpy mattress.  A prayer mat can be seen tucked neatly under the bed.
+There is a doorway to the west.
+  }
+  exits {
+	to { w, 39 }
+  }
+}
+
+51
+{
+  name { Cleric's Chambers }
+  desc {
+This room is sparsely furnished containing only a cot and a threadbare blanket
+with a lumpy mattress.  A prayer mat can be seen tucked neatly under the bed.
+There is a doorway to the west.
+  }
+  exits {
+	to { w, 40 }
+  }
+}
+
+52
+{
+  name { Cleric's Chambers }
+  desc {
+This room is sparsely furnished containing only a cot and a threadbare blanket
+with a lumpy mattress.  A prayer mat can be seen tucked neatly under the bed.
+There is a doorway to the west.
+  }
+  exits {
+	to { w, 41 }
+  }
+}
+
+53
+{
+  name { Cleric's Chambers }
+  desc {
+This room is sparsely furnished containing only a cot and a threadbare blanket
+with a lumpy mattress.  A prayer mat can be seen tucked neatly under the bed.
+A book of prayer lies on the floor next to the bed.  There is a doorway to the
+west.
+  }
+  exits {
+	to { w, 42 }
+  }
+}
+
+54
+{
+  name { Temple }
+  desc {
+You are standing in the northern entrance to an ancient dwarven temple.  A
+soft white glow fills the chamber.  Directly south of you are some benches
+and a little past that is an alter and some more benches.  You may leave in
+any direction.
+  }
+  exits {
+	to { n, 43 }
+	  info { door, closed }
+	  keywords { door" }
+	to { e, 56 }
+	to { s, 57 }
+	to { w, 55 }
+  }
+}
+
+55
+{
+  name { Temple }
+  desc {
+You are in the northwest corner of the temple.  To the south you can see a
+path leading through the benches.  As you look south a feeling of pure and 
+utter evil flow through you.  You can continue either south or east.
+  }
+  exits {
+	to { e, 54 }
+	to { s, 59 }
+  }
+}
+
+56
+{
+  name { Temple }
+  desc {
+You are in the northeast corner of the temple.  To the south you can see a 
+path leading through the benches.  As you look south a feeling of goodness 
+flows through you.  You can continue south or west.
+  }
+  exits {
+	to { s, 58 }
+	to { w, 54 }
+  }
+}
+
+57
+{
+  name { Temple }
+  desc {
+This area is dominated by benches.  You think that this would be an okay seat
+during services but the benches to the south are inviting to the pious at 
+heart.  The source of the soft glow seems to be the alter.
+  }
+  flags { neutral_only, fast_mana, fast_hit_points }
+  exits {
+	to { n, 54 }
+	to { e, 58 }
+	to { s, 60 }
+	to { w, 59 }
+  }
+}
+
+58
+{
+  name { Temple }
+  desc {
+You are on a path betwixt the benches which leads to the alter locaated to 
+the southwest of your position.  As you stand in this area a feeling of 
+peace and vigor fills you.  
+  }
+  flags { good_only, fast_moves }
+  exits {
+	to { n, 56 }
+	to { s, 61 }
+	to { w, 57 }
+  }
+}
+
+59
+{
+  name { Temple }
+  desc {
+As you enter this area a sense of evil washes over you.  You can also feel 
+your magical abilities seeping back into you from the sourrounding area.  The
+alter is to the south of you.
+  }
+  flags { evil_only, fast_mana }
+  exits {
+	to { n, 55 }
+	to { e, 57 }
+	to { s, 62 }
+  }
+}
+
+60
+{
+  name { Temple }
+  desc {
+You have reached the center of the temple and the alter lies at your feet.  
+You are positive that it is the source of the soft white light sourrounding
+you.  The alter itself has some marvelous woodworked figures.  Among the key
+figures engraved on it that you can recognize are the dwarven gods of good, 
+neutrality, and evil.  You can leave in any direction.
+  }
+  exits {
+	to { n, 57 }
+	to { e, 61 }
+	to { s, 63 }
+	to { w, 62 }
+  }
+}
+
+61
+{
+  name { Temple }
+  desc {
+You are among the benches to the east of the alter.  You feel at peace with
+yourself and your sourroundings.  You health seems to be improving as you look
+around.  The alter seems to be the source of the soft white light.
+  }
+  flags { good_only, fast_hit_points }
+  exits {
+	to { n, 58 }
+	to { s, 64 }
+	to { w, 60 }
+  }
+}
+
+62
+{
+  name { Temple }
+  desc {
+You stand among the benches to the west of the alter.  You feel as if someone
+were working you over with a whip as you steadily gain in health.  You can 
+identify the alter as the source of the soft white light.
+  }
+  flags { evil_only, fast_hit_points }
+  exits {
+	to { n, 59 }
+	to { e, 60 }
+	to { s, 65 }
+  }
+}
+
+63
+{
+  name { Temple }
+  desc {
+Walking among the benches gives you an eerie feeling - almost a sense of 
+foreboding that is at odds with this place.  It sort of reminds you of your 
+childhood and dressing up in your Sunday best.
+  }
+  flags { neutral_only, fast_mana, fast_hit_points }
+  exits {
+	to { n, 60 }
+	to { e, 64 }
+	to { s, 66 }
+	to { w, 65 }
+  }
+}
+
+64
+{
+  name { Temple }
+  desc {
+You are on a path leading to and from the alter, which lies to the northeast.
+A feeling of peace comes over you as you absorb magical energies from the 
+sourrounding area.  You can continue north, south, and west.
+  }
+  flags { good_only, fast_mana }
+  exits {
+	to { n, 61 }
+	to { s, 68 }
+	to { w, 63 }
+  }
+}
+
+65
+{
+  name { Temple }
+  desc {
+You are on a path leading to the alter to the northeast of you.  A sense of
+utter revulsion of anything humanoid, including yourself causes you to feel 
+the closet thing to joy possible for one of your kind.  It seems as if little
+deamons are rubbing life into your feet.
+  }
+  flags { evil_only, fast_moves }
+  exits {
+	to { n, 62 }
+	to { e, 63 }
+	to { s, 67 }
+  }
+}
+
+66
+{
+  name { Temple }
+  desc {
+This part of the temple is filled with benches.  You can easily imagine rows
+upon rows of dwarves kneeling here giving thanks.  Passages exit south to
+both the east and the west.  To the north is the body of the temple.
+  }
+  exits {
+	to { n, 63 }
+	to { e, 68 }
+	to { w, 67 }
+  }
+}
+
+67
+{
+  name { Temple }
+  desc {
+The light flashes brilliantly then fades to a soft white glow.  You are in 
+the Southwest corner of what looks to be an ancient dwarven temple.  There is
+an altar to the north and benches down the middle of this good-sized chamber.
+The funny thing though is that the benches don't have any dust on them.  Yet
+you would guess you were the first to enter this hallowed chamber in decades.
+  }
+  exits {
+	to { n, 65 }
+	to { e, 66 }
+	to { s, 69 }
+  }
+}
+
+68
+{
+  name { Temple }
+  desc {
+The light almost blinds you as you enter this chamber before settling down to
+a soft white glow.  You are in an ancient dwarven temple.  The altar lies a 
+good ways north and there are benches covering the most of the center of the
+temple.
+  }
+  exits {
+	to { n, 64 }
+	to { s, 76 }
+	to { w, 66 }
+  }
+}
+
+69
+{
+  name { Southwest Hallway }
+  desc {
+The light is so bright it would hurt your eyes if it wasn't so soft and
+yielding.  As you get nearer you feel as if your heart will burst...
+  }
+  exits {
+	to { n, 67 }
+	to { s, 70 }
+  }
+}
+
+70
+{
+  name { Southwest Hallway }
+  desc {
+Your heart begins to quicken and you wonder what spectacle awaits your 
+mortal eyes as you stare enchanted at the amazingly soft yet brillent white
+glow .
+  }
+  exits {
+	to { n, 69 }
+	to { s, 71 }
+  }
+}
+
+71
+{
+  name { Southwest Hallway }
+  desc {
+As you head north the glow brightens and gets stronger.  You feel no fear
+and are remarkably peaceful.  The darkness to the south of you is an 
+unwanted memory.
+  }
+  exits {
+	to { n, 70 }
+	to { s, 72 }
+  }
+}
+
+72
+{
+  name { Southwest Hallway }
+  desc {
+The first thing you notice is a soft glowing coming from the north.  A wave
+of peace and serenity pass over you.  You barely spare a second glance to 
+the darkness to the east.
+  }
+  exits {
+	to { n, 71 }
+	to { e, 73 }
+  }
+}
+
+73
+{
+  name { Southwest Hallway }
+  desc {
+Looking west you can just make out a turn to the north.  The way east is
+obscurred in darkness.  The tension eases away and you feel at one with
+yourself and your environment.
+  }
+  exits {
+	to { e, 74 }
+	to { w, 72 }
+  }
+}
+
+74
+{
+  name { Southwest Hallway }
+  desc {
+You can feel a tremendous wave of heat coming from the east.  The nice cool
+brease draws you west into the darkened hallway like a moth to flame....
+  }
+  exits {
+	to { e, 75 }
+	to { w, 73 }
+  }
+}
+
+75
+{
+  name { Southwest Hallway }
+  desc {
+The hallway continues into darkness to the west.  The entry hall lies to
+your east. A cool brease is blowing from the west.  
+  }
+  exits {
+	to { e, 6 }
+	to { w, 74 }
+  }
+}
+
+76
+{
+  name { Northwest Hallway }
+  desc {
+This hallway seems to have been well used at one time, but now it seems void
+of life.  If you stand still for a second you can hear the tramping of boots
+from ages past.  The way north is obscurred by a brilliant light.
+  }
+  exits {
+	to { n, 68 }
+	to { s, 77 }
+  }
+}
+
+77
+{
+  name { Northwest Hallway }
+  desc {
+The light grows increasingly brighter to the north.  As you look around you
+realize that the hallway doesn't continue to the west, but instead turns
+northward.
+  }
+  exits {
+	to { n, 76 }
+	to { e, 78 }
+  }
+}
+
+78
+{
+  name { Northwest Hallway }
+  desc {
+You practically throw yourself into the hallway to escape the heat!  You can
+feel a cool breeze coming from the west, but then anything would be cool 
+compared to that.  There also seems to be a soft white glow coming from 
+a northern passageway a little to the west of you.
+  }
+  exits {
+	to { e, 13 }
+	to { w, 77 }
+  }
+}
+
+79
+{
+  name { Northeast Hallway }
+  desc {
+As you enter this hallway you notice the scorch marks covering the wall likee 
+paint.  The stench of fear fills your nostrils and raises the hair on your 
+neck.  The hallway continues to the east and exits to the entry hall in the 
+west.
+  }
+  exits {
+	to { e, 80 }
+	to { w, 12 }
+  }
+}
+
+80
+{
+  name { Northeast Hallway }
+  desc {
+This must have been the hallway for the living area at one point.  Through
+an open doorway to the north you can see what looks like a baracks and to
+the south is a door.  Above the door is a sign that reads "Armory".  The
+hallway continues east and west.
+  }
+  exits {
+	to { n, 83 }
+	to { e, 81 }
+	to { s, 89 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 79 }
+  }
+}
+
+81
+{
+  name { Northeast Hallway }
+  desc {
+The stench of fear (or is it sweat) is strongest here.  A rough-hewn passage
+lies to the south.  This hallway continues to the east and west.  To the 
+north more bunks can be seen through the open doorway.
+  }
+  exits {
+	to { n, 85 }
+	to { e, 82 }
+	to { s, 90 }
+	to { w, 80 }
+  }
+}
+
+82
+{
+  name { Northeast Hallway }
+  desc {
+This hallway ends in a cul de sac with three doors.  The one to the north is
+open and seems to be more barracks.  The one to the east has a sign above it
+proclaiming "Ye ole weight room".  The one to the south seems to be of similar
+prupose with a sign stating simply "Ye practice here".
+  }
+  exits {
+	to { n, 87 }
+	to { e, 99 }
+	to { s, 28 }
+	to { w, 81 }
+  }
+}
+
+83
+{
+  name { Barracks }
+  desc {
+Many bunks line the walls.  By each bunk is a small footlocker.  The room 
+seems quite orderly.  The barracks continues to the north.
+  }
+  exits {
+	to { n, 84 }
+	to { s, 80 }
+  }
+}
+
+84
+{
+  name { Barracks }
+  desc {
+There are a few more bunks here but most of the room is taken up by two large
+round tables and a number of chairs around them.  There is a ale pitcher on 
+its side here and a deck of cards lies strewn across one table.  The barracks
+exits to the south.
+  }
+  exits {
+	to { s, 83 }
+  }
+}
+
+85
+{
+  name { Barracks }
+  desc {
+This used to be living quarters for the dwarves stationed here but now mounds
+of dirt and stone fill the room.  To the north you can see the bunks that 
+were moved there presumably to make room for the dirt.
+  }
+  exits {
+	to { n, 86 }
+	to { s, 81 }
+  }
+}
+
+86
+{
+  name { Barracks }
+  desc {
+There is very little room to move about here.  The disassembled bunks lie in 
+neat piles and you can see the tables leaning against the walls.  There is 
+dirt piled here too.  The rooms exits to the south.
+  }
+  exits {
+	to { s, 85 }
+  }
+}
+
+87
+{
+  name { Barracks }
+  desc {
+These barracks are more spread out and have partitions dividing them.  The 
+footlockers are much larger and the mattresses look a little thicker.  This 
+must have been for visiting families and such.  The Barracks continue to the 
+north and exits to the south.
+  }
+  exits {
+	to { n, 88 }
+	to { s, 82 }
+  }
+}
+
+88
+{
+  name { Barracks }
+  desc {
+There is a small stage here in addition to a few more bunks.  This area is
+quite disorderly - due apparently to the haste in which the inhabbitants 
+packed.  The room exits to the south.
+  }
+  exits {
+	to { s, 87 }
+  }
+}
+
+89
+{
+  name { The Armory }
+  desc {
+You see many equipment racks here.  Some of them still have swords and shields
+from days past.  There is a door to the north.  
+  }
+  exits {
+	to { n, 80 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+90
+{
+  name { Connecting Passage }
+  desc {
+This passage was definitly not planned.  The walls are very rough and you must
+stoop to get through.  The few blunted and broken swords lead you to believe
+that this was used as an escape tunnel.  It exits north and south.
+  }
+  exits {
+	to { n, 81 }
+	to { s, 93 }
+  }
+}
+
+91
+{
+  name { Southeast Hallway }
+  desc {
+This hallway was once well used as evidenced by the many scruff marks on the
+floor and walls.  Now a thick layer of dust has settled over everything.  The
+hallway continues to the east and exits into the entrance hall to the west.
+  }
+  exits {
+	to { e, 92 }
+	to { w, 7 }
+  }
+}
+
+92
+{
+  name { Southeast Hallway }
+  desc {
+This hallway was well-used at one time, but now it is filled with dust.  It 
+continues to the east and west.
+  }
+  exits {
+	to { e, 93 }
+	to { w, 91 }
+  }
+}
+
+93
+{
+  name { Southeast Hallway }
+  desc {
+The hallway forms a 'T' intersection here.  Several odour's vie for dominance
+the more pleasant emanating from the south.  The hallway continues to the 
+north, south, and west.
+  }
+  exits {
+	to { n, 90 }
+	to { s, 94 }
+	to { w, 92 }
+  }
+}
+
+94
+{
+  name { Southeast Hallway }
+  desc {
+In this hallway you think you can smell the odur of cooking food.  But the
+smell eludes you and only has the effect of making you hungry and wary at
+the same time.  There is a door to the south and the hallway continues to
+the north.
+  }
+  exits {
+	to { n, 93 }
+	to { s, 95 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+95
+{
+  name { Dining Room }
+  desc {
+This is a huge room that was obviously used as an eating area.  There are
+tables and benchs filling the room.  The dining room continues to the west.
+A swinging door leaves east, you presume to the kitchen.
+  }
+  exits {
+	to { n, 94 }
+	  info { door, closed }
+	  keywords { door" }
+	to { e, 97 }
+	to { w, 96 }
+  }
+}
+
+96
+{
+  name { Dining Room  }
+  desc {
+The tables here aren't in such good shape as those in the other dining area.
+Most seem rotted through and they are strewn in disarray.  What catches your
+eye are the smaller tables, that were obviously used by the children.  The
+dining room continues to the east.
+  }
+  exits {
+	to { e, 95 }
+  }
+}
+
+97
+{
+  name { Kitchen  }
+  desc {
+The pots and pans in this room seem to have been of the finest quality
+and still maintain their rightful position on the wall.  There are meat
+cleavers and other knives hanging on the center bench.  There is a door
+to the north.  
+  }
+  exits {
+	to { n, 98 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 95 }
+  }
+}
+
+98
+{
+  name { Chef's Quaters }
+  desc {
+Even after years of disuse this room is still plauged by the greese from
+the Chef.  There is a door to the south.
+  }
+  exits {
+	to { s, 97 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+99
+{
+  name { Weight Room  }
+  desc {
+This is the entrance to the weight area.  Though it is quite extensive you 
+realise that this was primarily a military outpost and dwarves are famous
+for keeping in shape.The room extends to the north and east.  
+  }
+  exits {
+	to { n, 27 }
+	to { e, 25 }
+	to { s, 29 }
+	to { w, 82 }
+  }
+}

@@ -1,0 +1,1271 @@
+
+0
+{
+  name { On the river }
+  desc {
+"   To the west, you can see a blue shimmering light.   To the east, you 
+can see a dark tunnel.  The north and south are blocked by tall mountains.
+  }
+  sector { Water NoSwim }
+  river { e, 15 }
+  extra {
+	keywords { blue shimmering light" }
+	desc { The light shimmers and dances before your eyes.  It seems magical in
+some way!
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 1 }
+	to { w, Haondor_dark:46 }
+  }
+}
+
+1
+{
+  name { A long tunnel }
+  desc {
+"    You encounter some rapids as you enter this tunnel cut out of
+the mountains by the river.
+  }
+  sector { Water NoSwim }
+  river { e, 15 }
+  flags { dark, indoors }
+  exits {
+	to { e, 2 }
+	to { w, 0 }
+  }
+}
+
+2
+{
+  name { A long tunnel }
+  desc {
+"     The tunnel branches off north.
+  }
+  sector { Water NoSwim }
+  river { e, 15 }
+  flags { dark, indoors }
+  exits {
+	to { n, 8 }
+	to { e, 3 }
+	to { w, 1 }
+  }
+}
+
+3
+{
+  name { A long tunnel }
+  desc {
+"    The tunnel branches off south.
+  }
+  sector { Water NoSwim }
+  river { e, 15 }
+  flags { dark, indoors }
+  exits {
+	to { e, 4 }
+	to { s, 17 }
+	to { w, 2 }
+  }
+}
+
+4
+{
+  name { A long tunnel }
+  desc {
+"    The tunnel branches off to the south.
+  }
+  sector { Water NoSwim }
+  river { e, 15 }
+  flags { dark, indoors }
+  exits {
+	to { e, 5 }
+	to { s, 18 }
+	to { w, 3 }
+  }
+}
+
+5
+{
+  name { An underground lake }
+  desc {
+"    You are floating on a jet-black underground lake fed by dripping
+water and lime from above. The tunnel continues to the east and the river
+leads back west. To the north is a roughly-hewn hallway.
+  }
+  sector { Water NoSwim }
+  flags { dark, indoors }
+  exits {
+	to { n, 16 }
+	to { e, 6 }
+	to { s, 23 }
+	to { w, 4 }
+  }
+}
+
+6
+{
+  name { A long narrow tunnel }
+  desc {
+"     The tunnel rises sharply to the east.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { e, 7 }
+	to { w, 5 }
+  }
+}
+
+7
+{
+  name { A wide tunnel }
+  desc {
+"    The tunnel continues east and west. To the east the tunnel dives
+down into a bright light.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { e, 26 }
+	to { w, 6 }
+  }
+}
+
+8
+{
+  name { Cave-in }
+  desc {
+"   You stand at the edge of a large pile of rubble created from the last
+rockslide.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { s, 2 }
+	to { d, 9 }
+	  desc { You can easily slide down the rocks without getting hurt.}
+  }
+}
+
+9
+{
+  name { At the foot of the rubble }
+  desc {
+"    You are at the bottom of a large pile of rubble. A tunnel branches
+off to the north and east.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 10 }
+	to { e, 12 }
+	to { u, 8 }
+  }
+}
+
+10
+{
+  name { Cave entrance }
+  desc {
+"     You stand in the middle of a large and beautiful cave. A path leads
+deeper into the darkness.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { s, 9 }
+	to { d, 11 }
+	  desc { You look down into the cave. Bones are strewn about everywhere.}
+  }
+}
+
+11
+{
+  name { Giant cave }
+  desc {
+"    This cavern overwhelms you. The walls and ceiling seem miles away.
+Bones of previous adventurers lie strewn on the cavern floor.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { u, 10 }
+	to { d, Drow1:0 }
+  }
+}
+
+12
+{
+  name { Narrow bend }
+  desc {
+"    The tunnel turns to the south and west.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { s, 13 }
+	to { w, 9 }
+  }
+}
+
+13
+{
+  name { Large cave }
+  desc {
+"    You are standing in a large cave. Many furs are spread out on the floor.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 12 }
+	to { e, 14 }
+  }
+}
+
+14
+{
+  name { Damp hallway }
+  desc {
+"    The walls here are extremely damp, as well as the floor.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { e, 15 }
+	  desc { You hear drops of water.}
+	to { w, 13 }
+  }
+}
+
+15
+{
+  name { Underground pool }
+  desc {
+"    You are wading in a knee deep pool of lime-water.
+  }
+  sector { Water Swim }
+  flags { dark, indoors }
+  exits {
+	to { s, 16 }
+	to { w, 14 }
+  }
+}
+
+16
+{
+  name { Damp hallway }
+  desc {
+"   The walls of the tunnel are extremely damp here. You hear the faint 
+sound of running water to the south.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 15 }
+	  desc { You hear drops of water.}
+	to { s, 5 }
+  }
+}
+
+17
+{
+  name { Narrow crawlway }
+  desc {
+"    This crawlway is just big enough for a human to crawl through or a
+halfling to walk through.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 3 }
+	to { e, 18 }
+	to { s, 19 }
+	  desc { You smell the fragrant odor of fungus.}
+  }
+}
+
+18
+{
+  name { Large cavern }
+  desc {
+"    You have entered a very large cavern. The rock formations would amaze
+almost any dwarf.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 4 }
+	to { w, 17 }
+  }
+}
+
+19
+{
+  name { Fungus patch }
+  desc {
+"    As you walk through the fungus patch, you are shot at by many millions of
+spores. You can hardly breathe.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 17 }
+	to { e, 20 }
+	  desc { The fragrant smell of fungus spores continues to the east}
+  }
+}
+
+20
+{
+  name { Fungus path }
+  desc {
+"    As you walk along the path, millions of spores are shot at you. You can
+hardly breathe.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { s, 21 }
+	  desc { A giant mushroom temple stands to the south.}
+	to { w, 19 }
+	  desc { The fragrant smell of spores continues to the west.}
+  }
+}
+
+21
+{
+  name { Fungus temple }
+  desc {
+"   You find yourself standing inside of a giant mushroom. The inside
+is decorated in the fashion of a temple.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 20 }
+	to { e, 22 }
+  }
+}
+
+22
+{
+  name { Sloping passage }
+  desc {
+"    You follow a path sloping down from the fungus temple.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { s, 21 }
+	to { d, 23 }
+  }
+}
+
+23
+{
+  name { Sloping passage }
+  desc {
+"   You are on a path that gently slopes up from the underground pool.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 5 }
+	  desc { You hear sounds of trickling water.}
+	to { u, 22 }
+  }
+}
+
+24
+{
+  name { The Great Eastern Desert }
+  desc {
+"     A vast desert stretches for miles, the sand constantly shifting around
+you. A pyramid lies to the east and a snow-capped mountain range to the 
+west.
+  }
+  sector { Field }
+  exits {
+	to { n, 30 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 34 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 25 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+25
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the east and a snow-capped mountain range to the 
+west.
+  }
+  sector { Field }
+  exits {
+	to { n, 24 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 31 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 26 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+26
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the east and a snow-capped mountain range to the
+west. The hole which you tumbled out of is too high for you to reach.
+  }
+  sector { Field }
+  exits {
+	to { n, 25 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 36 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 27 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+27
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the east and a snow-capped mountain range to the
+west.
+  }
+  sector { Field }
+  exits {
+	to { n, 26 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 33 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 28 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+28
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-east and a snow-capped mountain range to
+the west.
+  }
+  sector { Field }
+  exits {
+	to { n, 27 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 33 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 29 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+29
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-east and a snow-capped mountain range to
+the west.
+  }
+  sector { Field }
+  exits {
+	to { n, 28 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 37 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 44 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+30
+{
+  name { A small oasis }
+  desc {
+"    You stand beside a small pool of crystal-blue water bathed in the
+shade of a few scarce palm trees. To the north you see a small
+encampment stopped for the day.
+  }
+  sector { Field }
+  exits {
+	to { n, 56 }
+	  desc { You see three tents and some camels hitched to a stake. Shadows moving 
+across the tents suggest activity.}
+	to { e, 36 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 32 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 25 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+31
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the east.
+  }
+  sector { Field }
+  exits {
+	to { n, 31 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 31 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 32 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 24 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+32
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the east.
+  }
+  sector { Field }
+  exits {
+	to { n, 35 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 36 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 33 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 32 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+33
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-east.
+  }
+  sector { Field }
+  exits {
+	to { n, 37 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 37 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 43 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 28 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+34
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south-east.
+  }
+  sector { Field }
+  exits {
+	to { n, 38 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 48 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 34 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 35 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+35
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the east, although it doesn't seem to be resting
+on the ground.
+  }
+  sector { Field }
+  exits {
+	to { n, 39 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 40 }
+	  desc { The pyramid seems to be floating about 100 meters in the air. Even from here,
+you can sense a great evil residing within.}
+	to { s, 32 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 34 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+36
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-east.
+  }
+  sector { Field }
+  exits {
+	to { n, 35 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 41 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 32 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 30 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+37
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-east.
+  }
+  sector { Field }
+  exits {
+	to { n, 48 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 33 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 42 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 33 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+38
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south.
+  }
+  sector { Field }
+  exits {
+	to { n, 46 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 45 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 40 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 34 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+39
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south.
+  }
+  sector { Field }
+  exits {
+	to { n, 46 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 39 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 48 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 39 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+40
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. You are standing below a gigantic pyramid floating about 100 meters
+above the ground. To your left hangs a rope which leads straight up to
+the massive structure. From here you can sense the great evil which resides 
+within.
+  }
+  sector { Field }
+  exits {
+	to { n, 36 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 49 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 41 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 43 }
+	  desc { Sand as far as the eye can see.}
+	to { u, Pyramid:0 }
+	  desc { You can see a rope stretching upwards.
+}
+  }
+}
+
+41
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north.
+  }
+  sector { Field }
+  exits {
+	to { n, 40 }
+	  desc { The pyramid seems to be floating about 100 meters above the desert. Even from
+here you can sense the great evil within.}
+	to { e, 48 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 41 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 37 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+42
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north.
+  }
+  sector { Field }
+  exits {
+	to { n, 49 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 55 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 43 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 41 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+43
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north.
+  }
+  sector { Field }
+  exits {
+	to { n, 42 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 55 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 44 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 33 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+44
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north and a ruined city to the west.
+  }
+  sector { Field }
+  exits {
+	to { n, 50 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 55 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 29 }
+	  desc { Sand as far as the eye can see.}
+	to { w, Thalos:0 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+45
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south.
+  }
+  sector { Field }
+  exits {
+	to { n, 45 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 52 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 45 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 38 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+46
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south-west.
+  }
+  sector { Field }
+  exits {
+	to { n, 38 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 47 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 47 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 39 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+47
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the west.
+  }
+  sector { Field }
+  exits {
+	to { n, 46 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 51 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 53 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 40 }
+	  desc { The pyramid seems to be floating about 100 meters above the desert. Even from
+here you can sense an evil presence within.}
+  }
+}
+
+48
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the west.
+  }
+  sector { Field }
+  exits {
+	to { n, 39 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 48 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 53 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 41 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+49
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-west.
+  }
+  sector { Field }
+  exits {
+	to { n, 53 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 54 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 50 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 42 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+50
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north.
+  }
+  sector { Field }
+  exits {
+	to { n, 50 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 54 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 44 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 42 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+51
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south-west and a deep canyon to the east.
+  }
+  sector { Field }
+  exits {
+	to { n, 51 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 52 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 47 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+52
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south-west and a deep canyon to the east. Just
+below you can make out a tiny ledge.
+  }
+  sector { Field }
+  exits {
+	to { n, 51 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 53 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 45 }
+	  desc { Sand as far as the eye can see.}
+	to { d, 63 }
+  }
+}
+
+53
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the west and a deep canyon to the east.
+  }
+  sector { Field }
+  exits {
+	to { n, 52 }
+	  desc { Sand as far as the eye can see.}
+	to { e, 62 }
+	  desc { A rickety rope bridge stretches across the canyon...it doesn't look too safe.}
+	to { s, 54 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 49 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+54
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the west and a deep canyon to the east.
+  }
+  sector { Field }
+  exits {
+	to { n, 53 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 55 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 50 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+55
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-west and a deep canyon to the east.
+  }
+  sector { Field }
+  exits {
+	to { n, 54 }
+	  desc { Sand as far as the eye can see.}
+	to { s, 55 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 43 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+56
+{
+  name { A nomad camp }
+  desc {
+"    This small group of desert nomads has stopped for the day to rest
+and refresh themselves beside this beautiful oasis. Three tents and some
+camels make up the party. From within two of the tents you hear muffled
+voices, obviously surprised at your visit.
+  }
+  sector { Field }
+  flags { no_magic }
+  exits {
+	to { n, 58 }
+	  desc { Some camels are tied up to a mass of stakes plugged into the ground.}
+	to { e, 57 }
+	  desc { You see inside one of the tents a huddled mass of people, probably slaves.}
+	to { s, 30 }
+	  desc { Sand as far as the eye can see.}
+	to { w, 25 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+57
+{
+  name { Inside a small tent }
+  desc {
+"    This is a small and simple tent with few possessions in sight. Lying
+here and there are young-looking men and women, possibly slaves to the
+leader of this band.
+  }
+  sector { Field }
+  flags { no_magic }
+  exits {
+	to { w, 56 }
+	  desc { You see the center of the nomad camp.}
+  }
+}
+
+58
+{
+  name { Beside the camels }
+  desc {
+"    Here stand about ten camels, all hitched to some stakes plugged into 
+the ground. To the east you see a small tent while to the north you see a 
+larger, fancier tent.
+  }
+  sector { Field }
+  flags { no_magic }
+  exits {
+	to { n, 60 }
+	  desc { This tent seems to be the temporary abode of the nomad leader. You make a
+mental note to visit it before you leave.}
+	to { e, 59 }
+	  desc { In this tent there are very large men, all carrying weapons.}
+	to { s, 56 }
+	  desc { You see the center of the nomad camp.}
+	to { w, 24 }
+	  desc { Sand as far as the eye can see.}
+  }
+}
+
+59
+{
+  name { The warrior's tent. }
+  desc {
+"     This tent has a few furnishings, but mainly it holds the band's 
+protectors. They all stare at you coldly as you enter.
+  }
+  sector { Field }
+  flags { no_magic }
+  exits {
+	to { w, 58 }
+	  desc { Outside you see some peaceful camels.}
+  }
+}
+
+60
+{
+  name { The main tent }
+  desc {
+"     This tent is as lavishly decorated on the inside as it is on the
+outside. A fancy carpet lies on the sand and numerous baskets line the
+walls.
+  }
+  sector { Field }
+  flags { no_magic }
+  exits {
+	to { e, 61 }
+	to { s, 58 }
+	  desc { You see some peaceful camels.}
+  }
+}
+
+61
+{
+  name { The main tent }
+  desc {
+"     This is where the leader of this band of nomads resides. He is 
+definitely rich as you inspect the tapestries, baskets, and a few
+paintings as well.
+  }
+  sector { Field }
+  flags { no_magic }
+  exits {
+	to { w, 60 }
+	  desc { You see the entrance to this tent.}
+  }
+}
+
+62
+{
+  name { The rickety rope bridge. }
+  desc {
+"     You carefully begin to walk across the bridge, but suddenly the rope
+breaks and you fall...
+                     ...and fall
+			   and fall
+			      and fall
+				    ...to your death on the rocks below.
+  }
+  sector { Mountains }
+  flags { death }
+}
+
+63
+{
+  name { The wind-swept ledge }
+  desc {
+"    Being very careful not to lose your balance, you look around and
+find that this canyon is about a half a kilometer deep. To the west is
+a dark cave leading under the desert sands and above you a rope bridge
+spans the gap.
+  }
+  sector { Mountains }
+  flags { no_mob }
+  exits {
+	to { e, Dwarven_outpost:0 }
+	to { w, 64 }
+	to { u, 52 }
+	  desc { The desert sands blow down in your face.}
+  }
+}
+
+64
+{
+  name { The cavemouth }
+  desc {
+"   The air in here is MUCH cooler than outside. From the west you hear 
+strange sounds, but can see nothing. The cave slopes down into the 
+darkness.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { e, 63 }
+	  desc { Outside is lighter and very windy.}
+	to { w, 65 }
+  }
+}
+
+65
+{
+  name { The mysterious lair. }
+  desc {
+"    You have stumbled upon the home of something. From the treasure
+haphazardly strewn about and the rotting carcases, you would guess that
+this is a dragon's lair. As to what type, you can't really say. The cave
+narrows out into a tunnel to the west.
+  }
+  sector { Mountains }
+  flags { dark, indoors, no_magic }
+  exits {
+	to { e, 64 }
+	to { w, 66 }
+  }
+}
+
+66
+{
+  name { A wide tunnel }
+  desc {
+"    This tunnel seems to go on forever into the darkness. You carefully
+feel your way along the walls.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { e, 65 }
+	to { w, 67 }
+  }
+}
+
+67
+{
+  name { A narrower tunnel }
+  desc {
+"    The tunnel becomes very narrow and you fight to squeeze your way through.
+The floor seems to level off a little.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { e, 66 }
+	to { s, 68 }
+  }
+}
+
+68
+{
+  name { A narrow crack }
+  desc {
+"     This part of the tunnel is the hardest to move through as the walls
+move in to meet you.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 67 }
+	to { w, 69 }
+  }
+}
+
+69
+{
+  name { A small cavern. }
+  desc {
+"     It is dark and damp and bats hang from the ceiling. A narrow crack is
+in the east wall. The floor now slopes upwards.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 70 }
+	to { e, 68 }
+  }
+}
+
+70
+{
+  name { A small shaft }
+  desc {
+"     From within this shaft you can see a narrow hole in the roof just
+large enough for one person. Back east is the cavern.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { s, 68 }
+	to { u, 9 }
+  }
+}

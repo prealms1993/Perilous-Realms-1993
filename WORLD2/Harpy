@@ -1,0 +1,1496 @@
+
+1
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+
+A floating sign says:
+
+"--Tread carefully! Only high levels should attempt
+this place. Leave messages on the board if you have problems."
+  }
+  sector { Air }
+  flags { no_mob }
+  exits {
+	to { u, 2 }
+	  desc { There is another cloud above you.  If you jump you might make it...
+}
+	to { d, Midgard_trail:4 }
+  }
+}
+
+2
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+  }
+  exits {
+	to { e, 3 }
+	  desc { There is another cloud east of you.
+}
+	to { d, 1 }
+	  desc { There is another cloud below you.
+}
+  }
+}
+
+3
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+  }
+  exits {
+	to { n, 28 }
+	  desc { You can barely make out a cloud to the north.
+}
+	to { s, 4 }
+	  desc { You see a cloud somewhere south of you.
+}
+  }
+}
+
+4
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+  }
+  exits {
+	to { n, 3 }
+	  desc { You can barely make out a cloud to the north.
+}
+	to { e, 5 }
+	  desc { There is another cloud east of you.
+}
+  }
+}
+
+5
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+  }
+  exits {
+	to { e, 6 }
+	  desc { There is another cloud east of you.
+}
+	to { w, 4 }
+	  desc { You spy a tiny cloud.
+}
+  }
+}
+
+6
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+  }
+  exits {
+	to { n, 7 }
+	  desc { You can barely make out a cloud to the north.
+}
+	to { w, 5 }
+	  desc { You spy a tiny cloud.
+}
+  }
+}
+
+7
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+  }
+  exits {
+	to { e, 8 }
+	  desc { There is another cloud east of you.
+}
+	to { s, 6 }
+	  desc { You see a cloud somewhere south of you.
+}
+	to { d, 26 }
+	  desc { There is another cloud below you.
+}
+  }
+}
+
+8
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+  }
+  exits {
+	to { e, 9 }
+	  desc { An ominous storm cloud looms to the east.
+}
+	to { w, 7 }
+	  desc { You spy a tiny cloud.
+}
+  }
+}
+
+9
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+  }
+  exits {
+	to { w, 8 }
+	  desc { You spy a tiny cloud.
+}
+	to { d, 10 }
+	  desc { An ominous storm cloud looms below you.
+}
+  }
+}
+
+10
+{
+  name { An ominous storm cloud. }
+  desc {
+You find yourself in a storm.  Lightning flashes and thunder
+crashes, making you wish you were dry and warm.
+  }
+  exits {
+	to { e, 11 }
+	  desc { There is a crag, high and rocky.
+}
+	to { w, 25 }
+	  desc { You spy a tiny cloud.
+}
+	to { u, 9 }
+	  desc { There is another cloud above you.  If you jump you might make it...
+}
+  }
+}
+
+11
+{
+  name { High and perilous cliff }
+  desc {
+You are on a high and rocky cliff.  To the west you see a huge
+ominous storm cloud moving this way.  You might want to take cover
+before the storm hits.  You think that there is a narrow trail
+leading to the south.
+  }
+  sector { Mountains }
+  exits {
+	to { s, 12 }
+	to { w, 10 }
+	  desc { An ominous storm cloud looms to the east.
+}
+  }
+}
+
+12
+{
+  name { Narrow rocky trail. }
+  desc {
+A narrow trail leads down towards the mountain and north toward the
+cliff.  It seems to fade in and out as it winds up the hill.
+Obviously, it has not been maintained in years.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 11 }
+	to { d, 13 }
+  }
+}
+
+13
+{
+  name { Small valley. }
+  desc {
+You are in a lush valley full of trees and other vegetation and the
+odd carcass or two.  The trail leads south and it leads up.
+  }
+  sector { Mountains }
+  exits {
+	to { s, 14 }
+	to { u, 12 }
+  }
+}
+
+14
+{
+  name { Small valley. }
+  desc {
+You are in a lush valley full of trees and other vegetation and the
+odd carcass or three.  The trail leads north and it leads down into
+a crevass.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 13 }
+	to { d, 15 }
+	  desc { The crevass looks a little slippery...
+}
+  }
+}
+
+15
+{
+  name { Deep, slippery crevice. }
+  desc {
+The crevice is deep and a little dim and it is hard to make your
+way around.  A mist makes everything a little damp and slippery.
+Better take your time climbing through here.
+  }
+  sector { Mountains }
+  exits {
+	to { s, 17 }
+	to { w, 16 }
+	  desc { The mist looks thicker in this direction.
+}
+	to { u, 14 }
+  }
+}
+
+16
+{
+  name { Incredibly slippery crevice. }
+  desc {
+The crevice is getting more and more slippery.  You are getting
+incredibly nervous and want to turn back.  To the east is the
+crevice and trail you were following.  Below, you can just see the
+edge of a cliff through the mist.  There is no trail leading there,
+just a smooth, flat, dew-covered rock that almost resembles a
+slide...
+  }
+  sector { Mountains }
+  exits {
+	to { e, 15 }
+	  desc { The way back to safety.
+}
+	to { d, 99 }
+	  desc { Only fools would dare tread here!
+}
+  }
+}
+
+17
+{
+  name { Steep mountainside. }
+  desc {
+From here, you can see forever.  Clouds, birds, the forest.
+Midgaard is far, far to the west.  What a postcard perfect view!
+  }
+  sector { Mountains }
+  exits {
+	to { n, 15 }
+	to { u, 18 }
+  }
+}
+
+18
+{
+  name { Steep mountainside. }
+  desc {
+From here, you can see forever.  Clouds, birds, the forest.
+Midgaard is far, far to the west.  What a postcard perfect view!
+  }
+  sector { Mountains }
+  exits {
+	to { e, 19 }
+	to { d, 17 }
+  }
+}
+
+19
+{
+  name { Treacherous Cliff. }
+  desc {
+The cliff is rocky and difficult to negotiate.  One wrong slip and
+you could fall and break a leg or impale yourself or something else
+nasty.
+  }
+  sector { Mountains }
+  exits {
+	to { w, 18 }
+	to { u, 20 }
+	  desc { Above you is an almost vertical cliff.  It looks dangerous but
+climbable.
+}
+  }
+}
+
+20
+{
+  name { Cliff Face. }
+  desc {
+You are more than a little nervous climbing on this almost vertical
+cliff face.  You miraculously find places to grab onto and little
+ledges to rest on.  You see a small cave here.
+  }
+  sector { Mountains }
+  exits {
+	to { e, 21 }
+	  desc { A dank, dark, smelly hole.
+}
+	to { u, 22 }
+	  desc { A large ledge that looks pretty safe.
+}
+	to { d, 19 }
+  }
+}
+
+21
+{
+  name { Dank, dark, smelly hole. }
+  desc {
+This hole must have been used as a lair or nest.  There are
+feathers and bones everywhere and the floor is covered with
+something disgusting.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { w, 20 }
+  }
+}
+
+22
+{
+  name { Large, sturdy ledge. }
+  desc {
+You are on a ledge above a steep cliff face.  You can climb down
+if you want, but be careful!  After viewing the scenery, you notice
+two small caves here, one north and one west.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 24 }
+	to { w, 23 }
+	to { d, 20 }
+  }
+}
+
+23
+{
+  name { Absolutely disgusting lair. }
+  desc {
+The stench in here is quite foul.  There are feathers, bones and
+rotting carcasses everywhere.  This place is absolutely gross and
+you have to strain yourself not to lose your lunch.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { e, 22 }
+	  desc { Your only hope to keep your lunch down is to head this way...
+}
+  }
+}
+
+24
+{
+  name { Absolutely disgusting lair. }
+  desc {
+The stench in here is quite foul.  There are feathers, bones and
+rotting carcasses everywhere.  This place is absolutely gross and
+you have to strain yourself not to lose your lunch.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { s, 22 }
+	  desc { Your only hope to keep your lunch down is to head this way...
+}
+  }
+}
+
+25
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+  }
+  exits {
+	to { e, 10 }
+	  desc { An ominous storm cloud looms to the east.
+}
+	to { u, 26 }
+	  desc { There is another cloud above you.  If you jump you might make it...
+}
+  }
+}
+
+26
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+  }
+  exits {
+	to { n, 31 }
+	  desc { A cirrus cloud hums peacefully to itself
+}
+	to { w, 27 }
+	  desc { You spy a tiny cloud.
+}
+	to { u, 7 }
+	  desc { There is another cloud above you.  If you jump you might make it...
+}
+	to { d, 25 }
+	  desc { There is another cloud below you.
+}
+  }
+}
+
+27
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+  }
+  exits {
+	to { n, 30 }
+	  desc { To the north you see an angry cloud lashing out.
+}
+	to { e, 26 }
+	  desc { There is another cloud east of you.
+}
+	to { u, 28 }
+	  desc { There is another cloud above you.  If you jump you might make it...
+}
+  }
+}
+
+28
+{
+  name { A fluffy white cloud. }
+  desc {
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+  }
+  exits {
+	to { s, 3 }
+	  desc { You see a cloud somewhere south of you.
+}
+	to { d, 27 }
+	  desc { There is another cloud below you.
+}
+  }
+}
+
+29
+{
+  name { Sleepy little cloud. }
+  desc {
+This cloud is peacefully snoozing away, enjoying himself.  There
+is grumpy cloud to the east and a rather shy cloud north of here.
+  }
+  exits {
+	to { n, 32 }
+	  desc { The cloud to the north blushes and tries to hide when you look at
+it.
+}
+	to { e, 30 }
+	  desc { The cloud to the east mutters and grumbles at you.
+}
+  }
+}
+
+30
+{
+  name { Grumpy little cloud. }
+  desc {
+This cloud mutters and grumbles at you.  You have to jump quickly
+to avoid a lightning bolt that passes by your toe.  Your aren't
+sure but you think you hear the cloud snicker.
+  }
+  exits {
+	to { e, 31 }
+	  desc { A happy little cloud is humming peacefully to itself.
+}
+	to { w, 29 }
+	  desc { A sleepy little cloud to the west yawns and rolls over.  You hear
+snoring.
+}
+  }
+}
+
+31
+{
+  name { Happy little cloud. }
+  desc {
+You hear the cloud humming a little song to itself, but you can't
+figure out the song.
+  }
+  exits {
+	to { e, 36 }
+	  desc { There is a pure white cloud north of you.  It is snowing!
+}
+	to { s, 3 }
+	  desc { You see a cloud somewhere south of you.
+}
+	to { w, 30 }
+	  desc { You see an angry little cloud muttering and grumbling to itself.
+}
+  }
+}
+
+32
+{
+  name { Bashful little cloud. }
+  desc {
+This cloud blushes and tries to avoid your glance as you look at
+your surroundings.  You decide that overall it is a peaceful little
+cloud.
+  }
+  exits {
+	to { n, 33 }
+	  desc { The cloud to the north sneezes!
+}
+	to { s, 29 }
+	  desc { A sleepy little cloud to the south yawns and rolls over.  You hear
+snoring.
+}
+	to { w, 42 }
+	  desc { An isolated little raincloud.
+}
+  }
+}
+
+33
+{
+  name { Sneezing little cloud. }
+  desc {
+The cloud is wracked with sneezes.  At first you thought you were
+in an earthquake before you realize where you are!
+  }
+  exits {
+	to { n, 45 }
+	to { e, 34 }
+	  desc { This cloud is, like, totally lost, you know?
+}
+	to { s, 32 }
+	  desc { The cloud to the south blushes and tries to hide when you look at
+it.
+}
+	to { w, 43 }
+	  desc { You see a cirrus maximus cloud.
+}
+  }
+}
+
+34
+{
+  name { Dopey little cloud. }
+  desc {
+This cloud is too busy daydreaming to watch where its going.  It
+doesn't even notice you landing on it.  It looks like it couldn't
+figure its way out of an open box.
+  }
+  exits {
+	to { e, 35 }
+	  desc { You see a very scientific cloud.
+}
+	to { w, 33 }
+	  desc { The cloud sneezes!  Yuck.
+}
+  }
+}
+
+35
+{
+  name { Doc-like little cloud. }
+  desc {
+The cloud looks at you through its Lennon like specs and examines
+you quite scientifically.
+  }
+  exits {
+	to { s, 36 }
+	  desc { There is a pure white cloud south of you.  It is snowing!
+}
+	to { w, 34 }
+	  desc { This cloud is, like, totally lost, you know?
+}
+  }
+}
+
+36
+{
+  name { Snowy, white cloud. }
+  desc {
+You shiver as you stand here.  This beautiful, fluffy, pure white
+cloud is snowing.  The snow is pure and sweet as it melts in your
+mouth.  What a nifty cloud to be on.
+  }
+  exits {
+	to { n, 35 }
+	  desc { You see a very scientific cloud.
+}
+	to { s, 31 }
+	  desc { A happy, peaceful little cloud humming to itself.
+}
+	to { w, 37 }
+  }
+}
+
+37
+{
+  name { Cold, damp cloud. }
+  desc {
+Your mood grows grumpy as you find yourself cold and wet from this
+dismal cloud.  You notice a rock outcropping above you.
+  }
+  flags { dark }
+  exits {
+	to { e, 36 }
+	  desc { There is a pure white cloud east of you.  It is snowing!
+}
+	to { u, 38 }
+  }
+}
+
+38
+{
+  name { Mysterious rock outcropping. }
+  desc {
+This rock outcropping just seems to hang in midair.  To the north
+you see a house and if you ease yourself down, you can land on a
+rather damp, dismal cloud.  The door to the house is closed.
+  }
+  flags { dark, no_mob }
+  exits {
+	to { n, 39 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { Eerie looking house.
+}
+	to { d, 37 }
+  }
+}
+
+39
+{
+  name { Foyer. }
+  desc {
+Shadows play tricks on your eyes.  Everytime you think you see
+something in a corner and turn to get a better look, nothing is
+there.  The place is very dark.  Even with a torch, you have
+trouble making out the room to the east.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 40 }
+	to { s, 38 }
+  }
+}
+
+40
+{
+  name { Tower. }
+  desc {
+You are in a musty old tower.  The smell of mold and mildew is
+almost overpowering.  You hear strange creaks and groans...is it
+the wind or did someone (something?) make that noise.  To the west
+is the house and there is a stairway leading up into the tower.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 39 }
+	to { u, 41 }
+  }
+}
+
+41
+{
+  name { Witches Tower }
+  desc {
+Here you see strange things of arcane value.  There is a cauldron
+in the corner bubbling madly, belching a foul brew that must have
+come from hell.  On shelves lie jars of strange creatures you have
+never seen before, or hope to again.  A cupboard is in the corner.
+  }
+  extra {
+	keywords { cupboard" }
+	desc { The cupboard is in the corner.  It is made of teak and ivory and
+is ornately carved with grotesque scenes of death and torture.	}
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, Midgard:1 }
+	  key { 9102 }
+	  info { door, closed }
+	  keywords { cupboard door" }
+	to { d, 40 }
+  }
+}
+
+42
+{
+  name { Suspicious little raincloud. }
+  desc {
+On second glance, this cloud doesn't seem much like a raincloud.
+A balloon sticks out of the top and you think you hear it humming
+something like, 'Tut, tut!  It looks like rain!'
+  }
+  exits {
+	to { n, 43 }
+	to { e, 32 }
+	  desc { A bashful little cloud that tries to avoid your notice.}
+  }
+}
+
+43
+{
+  name { Cirrus maximimus cloud. }
+  desc {
+This cloud looks like it is of the cirrus maximus genre of clouds.
+  }
+  exits {
+	to { e, 33 }
+	  desc { The cloud to the east sneezes!}
+	to { s, 42 }
+	  desc { A suspicious little raincloud with a balloon.}
+  }
+}
+
+44
+{
+  name { Raging hurricane. }
+  desc {
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 49 }
+	to { d, 57 }
+  }
+}
+
+45
+{
+  name { Raging hurricane. }
+  desc {
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { s, 33 }
+	to { w, 44 }
+	to { d, 48 }
+	  desc { The eye of the storm.}
+  }
+}
+
+46
+{
+  name { Raging hurricane. }
+  desc {
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { w, 45 }
+	to { d, 34 }
+  }
+}
+
+47
+{
+  name { Raging hurricane. }
+  desc {
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { s, 46 }
+	to { d, 48 }
+	  desc { The eye of the storm.}
+  }
+}
+
+48
+{
+  name { The eye of the storm. }
+  desc {
+You are relaxed and peaceful here in the center of the storm.  The
+only problem is, you have to leave sometime.
+  }
+  exits {
+	to { n, 45 }
+	to { e, 49 }
+	to { s, 51 }
+	to { w, 47 }
+  }
+}
+
+49
+{
+  name { Raging hurricane. }
+  desc {
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 52 }
+	to { d, 48 }
+	  desc { The eye of the storm.}
+  }
+}
+
+50
+{
+  name { Raging hurricane. }
+  desc {
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { s, 50 }
+	to { w, 51 }
+  }
+}
+
+51
+{
+  name { Raging hurricane. }
+  desc {
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { e, 50 }
+	to { d, 48 }
+	  desc { The eye of the storm.}
+  }
+}
+
+52
+{
+  name { Raging hurricane. }
+  desc {
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { e, 51 }
+	to { d, 53 }
+  }
+}
+
+53
+{
+  name { Calm cloud. }
+  desc {
+This cloud is just outside the hurricane.  It looks like it might
+get sucked in, but you feel safe for the moment.
+  }
+  exits {
+	to { w, 54 }
+	to { u, 52 }
+  }
+}
+
+54
+{
+  name { Mountainside. }
+  desc {
+You find yourself on the side of a huge granite mountain.  The air
+is quite thin so you know you are at a very high altitude.  There
+is no plant life beyond moss and lichen in this lonely, barren
+place.
+  }
+  sector { Mountains }
+  exits {
+	to { e, 53 }
+	to { w, 55 }
+  }
+}
+
+55
+{
+  name { Mountainside. }
+  desc {
+You find yourself on the side of a huge granite mountain.  The air
+is quite thin so you know you are at a very high altitude.  There
+is no plant life beyond moss and lichen in this lonely, barren
+place.
+  }
+  sector { Mountains }
+  exits {
+	to { e, 54 }
+	to { u, 56 }
+  }
+}
+
+56
+{
+  name { Roc's Nest. }
+  desc {
+You are standing in a nest.  It is huge, at least two spearlengths
+wide.  You see three eggs in the center.  They are knee high, brown
+and look almost leathery.  Better hope mom isn't around!
+  }
+  sector { Mountains }
+  exits {
+	to { d, 55 }
+  }
+}
+
+57
+{
+  name { Cumulative nimble cloud. }
+  desc {
+This cloud looks like it belongs to the phyllus of Cumlative nimble
+clouds.
+  }
+  exits {
+	to { s, 59 }
+	to { w, 58 }
+	to { u, 44 }
+  }
+}
+
+58
+{
+  name { Dark hidden cloud. }
+  desc {
+This cloud looks like the perfect place to hide.
+  }
+  flags { dark }
+  exits {
+	to { e, 57 }
+  }
+}
+
+59
+{
+  name { Yet another cloud }
+  desc {
+You find yourself in yet another cloud.  Will the madness never
+end?  There is a rope ladder leading up.
+  }
+  exits {
+	to { n, 57 }
+	to { u, 60 }
+  }
+}
+
+60
+{
+  name { Front gate }
+  desc {
+There is a gate here.  It is huge, towering over you.  It creaks
+as it sways in the breeeze.  To the south you see a huge lawn.
+There is a rope ladder leading down.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 61 }
+	  desc { To the south you see a huge lawn.
+}
+	to { d, 59 }
+	  desc { There is a rope ladder leading down.
+}
+  }
+}
+
+61
+{
+  name { Lawn }
+  desc {
+The lawn seems to stretch and stretch to the south and to the west.
+North of you is a gate.  The grass is emerald green and luscious,
+obviously well cared for.
+  }
+  sector { Field }
+  exits {
+	to { n, 60 }
+	to { s, 63 }
+	to { w, 62 }
+  }
+}
+
+62
+{
+  name { Croquet game }
+  desc {
+A croquet game has been set up and carelessly left out.  Who ever
+was playing blue was in the lead before they quit.  Benches have
+been set up for spectators and players to enjoy themselves.
+  }
+  sector { Field }
+  exits {
+	to { e, 61 }
+	to { s, 64 }
+  }
+}
+
+63
+{
+  name { Huge, gorgeous fountain. }
+  desc {
+An enormous golden fountain is here.  You see swans, angels,
+gryphons and a host of other creatures in the fountain.  The
+fountain empties into a huge pool that looks quite inviting.
+  }
+  sector { Field }
+  exits {
+	to { n, 61 }
+	to { w, 64 }
+  }
+}
+
+64
+{
+  name { Patio. }
+  desc {
+A huge patio overlooks the lawn area.  There are enough tables and
+chairs for a party of 100.  The tables and chairs are ornate and
+expensive, tasteful and elegant.  Stairs lead up to the main
+house.
+  }
+  sector { Field }
+  exits {
+	to { n, 62 }
+	to { e, 63 }
+	to { u, 65 }
+  }
+}
+
+65
+{
+  name { Long stairway. }
+  desc {
+This stairway is suspended on clouds.  It leads from the house to
+the front lawn.  The banisters are made of ornate gold and silver
+inlays.
+  }
+  sector { City }
+  exits {
+	to { u, 66 }
+	to { d, 64 }
+  }
+}
+
+66
+{
+  name { Front door }
+  desc {
+You stand at the front door of an immense, sprawling mansion made
+of granite and marble.  The door is at least 10 feet high and is
+made of oak.
+  }
+  sector { City }
+  exits {
+	to { e, 73 }
+	to { s, 77 }
+	  info { door, closed }
+	  keywords { oak door" }
+	  desc { You see an ornate oak door.}
+	to { w, 67 }
+	to { d, 65 }
+  }
+}
+
+67
+{
+  name { Lawn northwest of house. }
+  desc {
+You stand just outside the northwest corner of the house.  You try
+to peek in a window, but it is a little too high to see anything.
+  }
+  sector { City }
+  exits {
+	to { e, 66 }
+	to { s, 69 }
+  }
+}
+
+68
+{
+  name { Lawn west of house. }
+  desc {
+You stand just outside the west corner of the house.  You try to
+peek in a window, but it is a little too high to see anything.
+  }
+  sector { City }
+  exits {
+	to { n, 67 }
+	to { s, 69 }
+  }
+}
+
+69
+{
+  name { Lawn southwest of house. }
+  desc {
+You stand just outside the southwest corner of the house.  You try
+to peek in a window, but it is a little too high to see anything.
+  }
+  sector { City }
+  exits {
+	to { n, 68 }
+	to { e, 70 }
+	to { d, 74 }
+  }
+}
+
+70
+{
+  name { Lawn south of house. }
+  desc {
+You stand just outside the south corner of the house.  You try to
+peek in a window, but it is a little too high to see anything.
+  }
+  sector { City }
+  exits {
+	to { e, 71 }
+	to { w, 69 }
+  }
+}
+
+71
+{
+  name { Lawn southeast of house. }
+  desc {
+You stand just outside the southeast corner of the house.  You try
+to peek in a window, but it is a little too high to see anything.
+  }
+  sector { City }
+  exits {
+	to { n, 72 }
+  }
+}
+
+72
+{
+  name { Lawn east of house. }
+  desc {
+You stand just outside the east corner of the house.  You try to
+peek in a window, but it is a little too high to see anything.
+  }
+  sector { City }
+  exits {
+	to { n, 73 }
+	to { s, 71 }
+  }
+}
+
+73
+{
+  name { Lawn northeast of house. }
+  desc {
+You stand just outside the northeast corner of the house.  You try
+to peek in a window, but it is a little too high to see anything.
+  }
+  sector { City }
+  exits {
+	to { s, 72 }
+  }
+}
+
+74
+{
+  name { Dirty, dusty tunnel. }
+  desc {
+This dirty dusty tunnel must lead somewhere.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { e, 75 }
+	to { u, 69 }
+  }
+}
+
+75
+{
+  name { Basement. }
+  desc {
+This seems like your average basement.  Old Christmas decorations,
+suitcases, bicycles litter your way.  You hear the squeaking of
+rats in the corners.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 76 }
+	to { w, 74 }
+  }
+}
+
+76
+{
+  name { Bottom of the stairs. }
+  desc {
+You stand at the bottom of a long staircase leading up to the main
+house.  To the south you can barely make out the accumulated
+clutter gathered throughout the years.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 75 }
+	to { u, 77 }
+  }
+}
+
+77
+{
+  name { Foyer. }
+  desc {
+""Magnificent" does not even begin to describe the foyer.  Lavishly
+decorated, yet elegant, it gives an impression of indescribable
+wealth.  Paintings and tapestries line the walls depicting scenes
+from throughout history.  Antiques furnitures and oriental rugs are
+tastefully placed in ideal spots.  The door is at least 10 feet
+high and is made of oak.
+  }
+  flags { indoors }
+  exits {
+	to { n, 77 }
+	  info { door, closed }
+	  keywords { oak door" }
+	  desc { You see an ornate oak door.}
+	to { e, 83 }
+	to { w, 78 }
+	to { d, 76 }
+  }
+}
+
+78
+{
+  name { Elegant hallway. }
+  desc {
+You are in a long, sprawling hallway connecting the eastern and
+western wings of the house.  There are several chairs and sofas in
+the hallway and some gorgeous, handwoven drapes.
+  }
+  flags { indoors }
+  exits {
+	to { e, 77 }
+	to { s, 79 }
+	to { w, 80 }
+  }
+}
+
+79
+{
+  name { Library }
+  desc {
+You are overwhelmed by the sheer volumes of books here.  The
+shelves stretch all the way to the ceiling and are on every wall,
+even above the doorway.  There are chairs for sitting and reading
+and a desk for more intense studies.
+  }
+  flags { indoors }
+  exits {
+	to { n, 78 }
+  }
+}
+
+80
+{
+  name { Arboretum. }
+  desc {
+A small indoor garden so that the residents don't have to go
+outside to enjoy plants and commune with nature.  There are several
+trees, a small pond and flowers of every kind.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 78 }
+	to { s, 81 }
+  }
+}
+
+81
+{
+  name { Western tower. }
+  desc {
+You are in the bottom part of a tower.  A draft brings a chill to
+your spine and causes creaks and groans.  Curtains flutter in the
+wind, causing quite a distraction.  When you go to shut the window,
+you see that the window is closed.  An old, wooden staircase leads
+up into darkness.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 80 }
+	to { u, 82 }
+  }
+}
+
+82
+{
+  name { Western tower. }
+  desc {
+The tower creaks and groans, almost as if it were muttering to
+itself.  There are windows displaying a full moon, reigning over
+the night sky.  The room is dark and there is almost a musty odor
+to it.  You are surprised that you can't detect any dust or dirt,
+although there are a couple of cobwebs in the corner.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { d, 81 }
+  }
+}
+
+83
+{
+  name { Elegant hallway. }
+  desc {
+You are in a long, sprawling hallway connecting the eastern and
+western wings of the house.  There are several chairs and sofas in
+the hallway and some gorgeous, handwoven drapes.
+  }
+  flags { indoors }
+  exits {
+	to { e, 85 }
+	to { s, 77 }
+	to { w, 84 }
+  }
+}
+
+84
+{
+  name { Conservatory }
+  desc {
+Here was the rehearsal and recital room for the residents of the
+estate.  There is a Steinway piano in the corner and various gilded
+instruments are on display in a glass cabinet.
+  }
+  flags { indoors }
+  exits {
+	to { n, 83 }
+  }
+}
+
+85
+{
+  name { Office }
+  desc {
+You find youself in a lavish office.  The desk is absolutely huge,
+at least ten feet by five feet and made of ebony and inlaid with
+mother of pearl.  A grandfather clock towers over the room,
+mechanically ticking and tocking the hours away.
+  }
+  flags { indoors }
+  exits {
+	to { s, 86 }
+	to { w, 83 }
+  }
+}
+
+86
+{
+  name { Eastern tower. }
+  desc {
+You are in the bottom part of a tower.  A draft brings a chill to
+your spine and causes creaks and groans.  Curtains flutter in the
+wind, causing quite a distraction.  When you go to shut the window,
+you see that the window is closed.  An old, wooden staircase leads
+up into darkness.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 85 }
+	to { u, 87 }
+  }
+}
+
+87
+{
+  name { Eastern tower. }
+  desc {
+The tower creaks and groans, almost as if it were muttering to
+itself.  There are windows displaying a full moon, reigning over
+the night sky.  The room is dark and there is almost a musty odor
+to it.  You are surprised that you can't detect any dust or dirt,
+although there are a couple of cobwebs in the corner.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { d, 86 }
+  }
+}
+
+99
+{
+  name { Mid-Air. }
+  desc {
+You slide down the moisture covered rock, gaining speed as you
+approach the cliff.  Realizing your foolish error, you madly claw
+at the rock, vainly trying to get a precious hold and save your
+worthless hide.  Next time, heed your conscience.
+  }
+  sector { Field }
+  flags { death, no_mob }
+  exits {
+	to { u, 16 }
+  }
+}
+
+100
+{
+  name { 9200 }
+  desc {
+Empty
+  }
+}

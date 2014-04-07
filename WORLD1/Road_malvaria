@@ -1,0 +1,1710 @@
+
+0
+{
+  name { Eastern Path }
+  desc {
+"   This path leads east into the mountains, and west towards Midgaard
+  }
+  sector { Field }
+  exits {
+	to { e, 1 }
+	to { w, Midenir:2 }
+  }
+}
+
+1
+{
+  name { Eastern Path }
+  desc {
+"   You are standing on an east-west path heading eastwards into the
+mountains,and westwards towards the plain of Midgaard.  The mountains to the
+east look very large, and sinister.
+  }
+  sector { Field }
+  exits {
+	to { e, 2 }
+	to { w, 0 }
+  }
+}
+
+2
+{
+  name { Eastern Path }
+  desc {
+"  You are standing on a path leading into the Eastern mountains.  To the
+north the path begins to climb towards the dark, storm-covered peaks, and
+to the west the path leads towards the plains of Midgaard.
+  }
+  sector { Hills }
+  exits {
+	to { n, 3 }
+	to { w, 1 }
+  }
+}
+
+3
+{
+  name { The path through the mountains }
+  desc {
+"   You are standing on a path leading into the Eastern mountains. To
+the east, the path leads towards the dark, storm-covered peaks, and to the
+south the path leads downwards, towards the plains.  You can see the 
+city of Midgaard just a mile or so away to the west.
+  }
+  sector { Hills }
+  exits {
+	to { e, 4 }
+	to { s, 2 }
+  }
+}
+
+4
+{
+  name { The path through the mountains }
+  desc {
+"   You are standing on a path leading into the Eastern mountains. To
+the east, the path leads towards the dark, storm-covered peaks, and to the
+west the path leads downwards, towards the plains.  You can see the 
+city of Midgaard to the west.
+  }
+  sector { Hills }
+  exits {
+	to { e, 5 }
+	to { w, 3 }
+  }
+}
+
+5
+{
+  name { The path through the mountains }
+  desc {
+"   You are standing in the hills below the peaks of the Eastern
+mountains.  To the north, the path continues upwards into the
+mountains, and to the west, the path leads downwards towards the
+plains.  To the east, there is a large crack in the cliff-face.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 6 }
+	to { e, 31 }
+	to { w, 4 }
+  }
+}
+
+6
+{
+  name { The path through the mountains }
+  desc {
+"   You are standing on a path leading north-south through the
+mountains.  To the north, the path steepens as it climbs upwards
+towards the dark peaks.  To the south, it leads downwards, towards
+the plains of Midgaard.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 7 }
+	to { s, 5 }
+  }
+}
+
+7
+{
+  name { The steep path }
+  desc {
+"   You are standing on a path leading northwards towards the dark peaks
+of the eastern mountains, and southwards to the foothills.  The path is
+very steep here, you have to move very slowly to keep from slipping
+and scraping your way down the mountainside.  To the north you can
+hear a strange whistling and howling sound.  
+  }
+  sector { Mountains }
+  exits {
+	to { n, 8 }
+	to { s, 6 }
+  }
+}
+
+8
+{
+  name { The windy path }
+  desc {
+"   You are standing on a steep path, leading northwards towards the
+dark peaks, and southwards towards the foothills.  The geography of
+the area makes the wind whistle and howl around you, a very eerie and 
+frightening experience.
+  }
+  sector { Mountains }
+  exits {
+	to { e, 9 }
+	to { s, 7 }
+  }
+}
+
+9
+{
+  name { The mountain path }
+  desc {
+"   The path has evened out some here, leading westwards towards a
+steep downhill slope, and westwards along a wide ridge towards the
+peaks of the Eastern mountains.  To the west, you can hear a strange
+whistling and howling noise.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 10 }
+	to { w, 8 }
+  }
+}
+
+10
+{
+  name { A choice of directions }
+  desc {
+"   You have come to a choice of paths, north towards a particularly
+dark and evil looking mountain, eastwards along a path between two
+mountains and westwards towards what could be either a cliff-face, or
+a steep downward slope.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 12 }
+	to { e, 11 }
+	to { s, 9 }
+  }
+}
+
+11
+{
+  name { The edge of a ravine }
+  desc {
+"   You are standing at the western edge of a large ravine.  To the
+west you see a path winding through the mountains, and to the east a
+large ravine blocks all foot travel.  You can see a clearing on the
+opposite side of the ravine, perhaps it is another path.  Strange
+squawking noises come from inside the ravine.
+  }
+  sector { Mountains }
+  extra {
+	keywords { ravine noises squawk" }
+	desc { "  As you peer over the edge, you see several large birds circling below.
+Just for a moment, you think you see something larger moving through the 
+depths of the ravine, but it could have been a trick of the light.
+	}
+  }
+  exits {
+	to { e, 13 }
+	to { w, 10 }
+  }
+}
+
+12
+{
+  name { A mountain path }
+  desc {
+"   You are standing on a path leading northwards towards a high ridge,
+and southwards towards a flat clearing.  Movement east and west is
+blocked by large, steep hills.  You are getting very high in the
+mountains now, and the air is thin, and cold.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 14 }
+	to { s, 10 }
+  }
+}
+
+13
+{
+  name { The air above a ravine }
+  desc {
+"   You are flying above a large ravine, which extends northwards,
+southwards and downwards.  To the east and west you see flat spots
+which turn into paths leading off into the mountains.  Below you, you
+can see several large birds circling something even farther below.
+  }
+  sector { Air }
+  extra {
+	keywords { birds below down" }
+	desc { "   You see several birds, about human size.  They seem to be diving and
+attacking something hidden in the depths of the ravine.
+	}
+  }
+  exits {
+	to { n, 78 }
+	to { e, 26 }
+	to { s, 80 }
+	to { w, 11 }
+	to { d, 75 }
+  }
+}
+
+14
+{
+  name { High in the mountains }
+  desc {
+"   You are standing on a ridge high in the mountains. To the north,
+the ridge continues, and to the south the path leads downwards towards
+a flat clearing next to a large ravine.  The air is thin and cold
+here.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 15 }
+	to { s, 12 }
+  }
+}
+
+15
+{
+  name { High in the mountains }
+  desc {
+You are standing on a ridge high in the mountains.  To the east
+the ridge continues, and to the south the path leads downwards towards
+a flat clearing next to a large ravine.  There is a small mine shaft
+dug into the western cliff-face.  A cliff edge lies to the north. 
+The wind howls suddenly, and you shiver with cold.
+  }
+  sector { Mountains }
+  exits {
+	to { n, Nodonn:0 }
+	to { e, 16 }
+	to { s, 14 }
+	to { w, 51 }
+  }
+}
+
+16
+{
+  name { At the edge of a ravine }
+  desc {
+"   You are standing on a large ridge, overlooking a deep ravine.  If
+you could fly, you could go east, into the ravine, but if you can't,
+you'll just have to go either north, or west along the ridge.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 17 }
+	to { e, 78 }
+	to { w, 15 }
+  }
+}
+
+17
+{
+  name { A path through the mountains }
+  desc {
+"   You are standing on a thick ridge leading east and south around a
+large ravine.  To the east, you can see a large pile of rubble,
+perhaps from a recent avalanche.
+  }
+  sector { Mountains }
+  exits {
+	to { e, 18 }
+	to { s, 16 }
+  }
+}
+
+18
+{
+  name { At the edge of a pile of rubble }
+  desc {
+"   You are standing at the edge of a large pile of rubble, which
+covers the entire trail to the east.  To the west, you can travel
+along a large ridge, which leads around a deep ravine.   The rubble
+looks dangerous, but if you are lucky, you can get across.
+  }
+  sector { Mountains }
+  exits {
+	to { e, 19 }
+	to { w, 17 }
+  }
+}
+
+19
+{
+  name { On a pile of rubble }
+  desc {
+"   You are standing on a large pile of rubble, which shifts
+dangerously under your weight. If i were you, i would MOVE and do it
+very quickly!!!!
+  }
+  sector { Mountains }
+  tele { 20, 1, 21 }
+  exits {
+	to { e, 20 }
+	to { w, 18 }
+  }
+}
+
+20
+{
+  name { At the Eastern edge of a large pile of rubble }
+  desc {
+"   You are standing at the edge of a large pile of rubble, which
+covers the entire trail to the west.  To the east, you can travel
+along a large ridge, which leads around a deep ravine.   The rubble
+looks dangerous, but if you are lucky, you can get across.
+  }
+  sector { Mountains }
+  exits {
+	to { e, 22 }
+	to { w, 19 }
+  }
+}
+
+21
+{
+  name { Between large crushing rocks }
+  desc {
+"   Suddenly, the entire pile collapses around you, and huge rocks
+pummel your body into a bloody pulp.  
+  }
+  sector { Forest }
+  flags { death }
+  exits {
+	to { n, 19 }
+	to { e, 20 }
+	to { w, 18 }
+  }
+}
+
+22
+{
+  name { The edge of a ravine }
+  desc {
+"   You are standing at the north-eastern edge of a large ravine.  The
+path leads west and south, and to the east you can see a small
+mine-shaft opening.
+  }
+  sector { Mountains }
+  exits {
+	to { e, 60 }
+	to { s, 23 }
+	to { w, 20 }
+  }
+}
+
+23
+{
+  name { A path through the mountains }
+  desc {
+"   You are standing on a path leading north-south through the
+mountains.  The path is fairly level here, and the going is somewhat
+easier.  Movement to the east and west is blocked by large hills.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 22 }
+	to { s, 24 }
+  }
+}
+
+24
+{
+  name { A mountain path }
+  desc {
+"   You are standing on a path leading north-south through the
+mountains.  The path is fairly level here, and the going is somewhat
+easier.  Movement to the east and west is blocked by large hills.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 23 }
+	to { s, 25 }
+  }
+}
+
+25
+{
+  name { A choice of directions }
+  desc {
+"   You are standing at a three-way split in the path, one branch
+leading north between two large hills, one path leading east towards a
+tall mountain, and one path leading west towards a large crevasse.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 24 }
+	to { e, 27 }
+	to { w, 26 }
+  }
+}
+
+26
+{
+  name { The eastern edge of the ravine }
+  desc {
+"   You are standing at the eastern edge of a large ravine.  If you
+could fly, you could continue west over the ravine, but if you can't
+you'll have to settle for travelling east along the mountain path.  On
+the far side of the ravine you can see another clearing, perhaps it is
+a trail.  }
+  sector { Hills }
+  exits {
+	to { e, 25 }
+	to { w, 13 }
+  }
+}
+
+27
+{
+  name { High in the mountains }
+  desc {
+"   You are standing on trail high in the mountains.  To the south, the
+trail leads downwards along a steep slope.  To the west, the path
+leads towards a large clearing.  }
+  sector { Mountains }
+  exits {
+	to { s, 28 }
+	to { w, 25 }
+  }
+}
+
+28
+{
+  name { A steep trail }
+  desc {
+"   You are standing on a trail leading north and east along a very
+steep slope.  Movement here is very slow, to ensure that you don't
+slip and fall down the mountainside.  
+  }
+  sector { Mountains }
+  exits {
+	to { n, 27 }
+	to { e, 29 }
+  }
+}
+
+29
+{
+  name { A steep trail }
+  desc {
+"   You are standing on a trail leading east and west along a steep
+slope.  To the west, the slope rises rapidly into the mountains, while
+to the east, it levels off as it approaches a valley deep in the heart
+of the Eastern mountains.  To the north, you can see a huge cave entrance.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 61 }
+	to { e, 30 }
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { Overlooking a large valley }
+  desc {
+"   You are standing on a rocky ridge, which overlooks a large, green
+valley hidden deep in the heart of the Eastern Mountains.  To the
+east, you can see a trail leading towards a small village nestled in
+the valley, while to the west, the trail rises rapidly into the
+mountains.
+  }
+  sector { Hills }
+  exits {
+	to { e, 100 }
+	to { w, 29 }
+  }
+}
+
+31
+{
+  name { A tiny cave }
+  desc {
+"   You are standing in a tiny cave, with room for very few people.  There is
+a large crack leading outside to the west, and the cave narrows to a tunnel
+which seems to lead east.  You think that you might be able to squeeze 
+yourself through the crack.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { e, 32 }
+	to { w, 5 }
+  }
+}
+
+32
+{
+  name { A smelly cave }
+  desc {
+"   An unpleasant stench begins to develop in the room, making you wish
+you were somewhere else.  You are standing in a small stone cave, with
+exits to the east, west and south.  Bits and peices of trash are
+scattered about the floor.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 34 }
+	to { s, 33 }
+	to { w, 31 }
+  }
+}
+
+33
+{
+  name { A smelly cavern }
+  desc {
+"   You are standing in a large cavern, while the stench of rot and
+decay fills your head.  A large pile of trash has been piled in the
+corner of this stone cavern, and you can almost see the fumes rise
+from it.  all in all, not a pleasant experience.  There are exits to
+the north and south.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 32 }
+	to { s, 36 }
+  }
+}
+
+34
+{
+  name { A smelly cave }
+  desc {
+"   You are standing in a large cave, and foul smells waft in,
+seemingly from all directions.  Bits and peices of bone and debris
+have been strewn about the room, and do nothing but add to the
+unpleasantness of the situation.  You can leave to the south, and west  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { s, 35 }
+	to { w, 32 }
+  }
+}
+
+35
+{
+  name { A smelly cavern }
+  desc {
+"   You are standing in a large stone cavern, formed from humanoid
+hands.  Evil smells drift about, making your stay here most
+unpleasant.  There are small tunnels leaving to the east, south and
+north.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 34 }
+	to { e, 38 }
+	to { s, 37 }
+  }
+}
+
+36
+{
+  name { A smelly cavern }
+  desc {
+"    You are standing in a large stone cavern, formed from humanoid
+hands.  Evil smells drift about, making your stay here most
+unpleasant.  There are small tunnels leaving to the east, south and
+north.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 33 }
+	to { e, 37 }
+	to { s, 40 }
+  }
+}
+
+37
+{
+  name { A small passage }
+  desc {
+"   You are standing in a small passageway between caves.  While this
+place is odiferous, it is not as pungent as some other places you have
+been.  Three paths part here, one leading north, another south, and
+the last west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 35 }
+	to { s, 39 }
+	to { w, 36 }
+  }
+}
+
+38
+{
+  name { A small tunnel }
+  desc {
+"   The low ceiling of this tunnel nearly scrapes your head as you
+enter, forcing you to duck to avoid brain damage.  This small tunnel
+leads east and west between large caves.  You detect an unpleasant
+order in the room, but it is not strong.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 42 }
+	to { w, 35 }
+  }
+}
+
+39
+{
+  name { A small passage }
+  desc {
+"  You are standing in a small passage connecting two larger caves.
+The passage leads north and east.  Faintly unpleasant smells come from
+the north.  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 37 }
+	to { e, 41 }
+  }
+}
+
+40
+{
+  name { A smelly cavern }
+  desc {
+"   You are standing in a large, rough, smelly cavern.  It reeks of
+decay, and there is trash littering the floor.  Small insects and worm
+like things scurry about the room, eating the refuse.  You have heard
+that these vermin are considered to be delicacies among goblin-kind.
+Which might explain while there is so much trash in this place.  There
+are exits to the north, and south.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 36 }
+	to { s, 44 }
+  }
+}
+
+41
+{
+  name { A small passage }
+  desc {
+"   You are standing in a small passage which connects three larger
+open spaces.  The smell of decay is strong here, but not overpowering.
+You can exit to the east, south and west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 47 }
+	to { s, 43 }
+	to { w, 39 }
+  }
+}
+
+42
+{
+  name { A small tunnel }
+  desc {
+"   You are standing in a small tunnel which seperates two caves.  The
+place stinks, but it is not as foul as other places nearby.  You can
+exit to the south and west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { s, 46 }
+	to { w, 38 }
+  }
+}
+
+43
+{
+  name { A bend in the tunnel }
+  desc {
+"   You are standing in a small tunnel which seperates two caves.  The
+place stinks, but it is not as foul as other places nearby.  You can
+exit to the north and west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 41 }
+	to { w, 45 }
+  }
+}
+
+44
+{
+  name { A small tunnel }
+  desc {
+"   You are standing in a small tunnel which seperates two caves.  The
+place stinks, but it is not as foul as other places nearby.  You can
+exit to the north and east.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 40 }
+	to { e, 45 }
+  }
+}
+
+45
+{
+  name { A small passage }
+  desc {
+"   You are standing in a cramped east-west passage between two caves.
+It is very hard to move here, the walls and ceiling press closely down
+upon you,forcing you to nearly crawl in order to move safely.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 43 }
+	to { w, 44 }
+  }
+}
+
+46
+{
+  name { A small passage }
+  desc {
+"   You are standing in a cramped north-south passage between two caves.
+It is very hard to move here, the walls and ceiling press closely down
+upon you,forcing you to nearly crawl in order to move safely.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 42 }
+	to { s, 47 }
+  }
+}
+
+47
+{
+  name { The entrance to the chief's area }
+  desc {
+"   Flickering torches barely light this room, and reveal some
+threadbare carpet, and bits and pieces of old, broken furniture.  The
+room has an unpleasant aroma, and bits and peices of trash are
+scattered about the room.  You can exit to the north, south or west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 46 }
+	to { s, 48 }
+	to { w, 41 }
+  }
+}
+
+48
+{
+  name { The chief's area }
+  desc {
+"   This is the 'guest' room of the goblin chief, which means that
+there is a rotting table, and a couple of rotting chairs in the center
+of the room.  You see a large wooden door to the east, and there is a
+hallway to the north.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 47 }
+	to { e, 49 }
+	  key { 16001 }
+	  info { door }
+	  keywords { door wooden e" }
+  }
+}
+
+49
+{
+  name { The Throne Room }
+  desc {
+This is the throne room of the goblin leader, filled with broken
+furniture. A few torches spark, but add little more than smoke to
+the ambience of the room.  There is a large wooden door to the west,
+and a threadbare tapestry on the south wall.
+  }
+  sector { City }
+  extra {
+	keywords { tapestry" }
+	desc { "   The tapestry is old and worn.  As you examine it, you
+feel a slight breeze from behind it.  
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 50 }
+	  key { 16002 }
+	  info { door }
+	  keywords { secret tapestry" }
+	to { w, 48 }
+	  key { 16001 }
+	  info { door }
+	  keywords { door wooden w" }
+  }
+}
+
+50
+{
+  name { The treasure room }
+  desc {
+"   You are standing amidst the largest pile of useless junk you have
+ever seen.  Obviously, the creatures here have a different concept of
+value.  Glancing about the room, you see some items which you think
+might be valuable.   }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 49 }
+	  key { 16002 }
+	  info { door }
+	  keywords { door wooden n" }
+	to { u, 99 }
+	  key { 16005 }
+	  info { door }
+	  keywords { secret door u" }
+  }
+}
+
+51
+{
+  name { A small mineshaft }
+  desc {
+"   You are standing in a small mineshaft.  It looks like it was made
+just the right size for dwarves.  To the east, you can leave the
+shaft, and to the north you can venture deeper into the mine.  }
+  flags { dark, indoors }
+  exits {
+	to { n, 52 }
+	to { e, 15 }
+  }
+}
+
+52
+{
+  name { A mineshaft }
+  desc {
+"   You are standing in a small mineshaft.  The shaft stretches north
+and south, and there is a large pair of rails in the center of the
+floor, to enable large mine-cars to move about with thier loads of
+stuff.  You can hear strange echos from the north.  }
+  flags { dark, indoors }
+  exits {
+	to { n, 53 }
+	to { s, 51 }
+  }
+}
+
+53
+{
+  name { A mineshaft }
+  desc {
+"  You are standing in a small mineshaft, which bends here, and leads
+south and east.  To the east, the floor begins to slope downwards at a
+greater angle, and you can feel the walls press in around you.
+Strange sounds echo from the deep parts of the shaft.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 54 }
+	to { s, 52 }
+  }
+}
+
+54
+{
+  name { A deep mineshaft }
+  desc {
+"  You are standing in a small mineshaft, deep in the heart of the
+Eastern mountains.  The shaft leads in an east west manner, and there
+is a definite downward slope to the east.  Strange noises echo from
+the depths of the mine.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 55 }
+	to { w, 53 }
+  }
+}
+
+55
+{
+  name { A deep mineshaft }
+  desc {
+"  You are standing in a small mineshaft, deep in the heart of the
+Eastern mountains.  The shaft leads in an east west manner, and there
+is a definite downward slope to the east.  The twin rails in the floor
+stop here, and a crude platform of wooden planks extend deeper into
+the mine shaft.  You continue to hear strange noises from the depths.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 56 }
+	to { w, 54 }
+  }
+}
+
+56
+{
+  name { A very deep mineshaft }
+  desc {
+"   You are standing in the very bowels of the Eastern mountains, as
+you walk along a path made of wooden planks.  Strange smells waft past
+your nose, and the walls seem to be growing some sort of fungus.  You
+can hear strange noises from the east, extending even deeper into the
+depths of the unknown.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 57 }
+	to { w, 55 }
+  }
+}
+
+57
+{
+  name { A very deep mineshaft }
+  desc {
+"   You are standing in the very bowels of the Eastern mountains, as
+you walk along a path made of wooden planks.  Strange smells waft past
+your nose, and the walls seem to be growing some sort of fungus.  You
+can hear strange noises from the east, extending even deeper into the
+depths of the unknown.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 58 }
+	to { w, 56 }
+  }
+}
+
+58
+{
+  name { A rough-hewn mineshaft }
+  desc {
+"    The mineshaft has degenerated here, until it is nothing more than a
+roughly-hewn tunnel, leading ever deeper into the heart of the Eastern
+Mountains.   You can hear sinister metallic noises to the east, they
+sound very violent and powerful.
+]  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { e, 59 }
+	to { w, 57 }
+  }
+}
+
+59
+{
+  name { A small elevator }
+  desc {
+"   You have found the source of the mysterious noises which echo
+throughout the mine.  A small elevator is here,and a strange
+mechanical contraption seems to whir and hiss as the elevator rises
+and lowers.  As you look around, the platform you are on begins to
+rise upwards, out of the mineshaft.  Far above you, you think you can
+see some light of some kind, but you are not sure.
+  }
+  flags { dark, indoors }
+  tele { 30, 1, 60 }
+  exits {
+	to { w, 58 }
+  }
+}
+
+60
+{
+  name { At the top of the elevator }
+  desc {
+"   You are at the top of a small elevator shaft, which looks like it 
+plunges into the depths of the mountain.  The elevator grinds to a
+halt, and strange noises come from it, as smoke rises from the
+mechanical parts.  Looks like this elevator is out of order.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 22 }
+  }
+}
+
+61
+{
+  name { A large cave }
+  desc {
+"  You are standing inside an enormous cave entrance.  The ceiling is
+at least 30' high.  The ground is well worn from use, and there is no
+trace of debris, or trash.  The cave continues to the east, and there
+is large tunnel to the north, and a mountain trail lies to the south.
+You smell something cooking from inside the cave, it smells rather
+good.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 62 }
+	to { e, 63 }
+	to { s, 29 }
+  }
+}
+
+62
+{
+  name { A large tunnel }
+  desc {
+"   You are standing in a giant tunnel, which links a huge cavern to
+the east,and a large cave entrance to the south.  You can hear
+laughter and other sounds from the east, and the smell of cooked meat
+is unmistakeably in the air. A huge gate lies open to the east,
+inviting newcomers to enter the caves.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 64 }
+	  key { 16003 }
+	  info { door }
+	  keywords { gate iron huge e" }
+	to { s, 61 }
+  }
+}
+
+63
+{
+  name { The eastern end of a large cavern }
+  desc {
+"   You are standing at the eastern end of a large cavern.  Several
+huge barrels and bags have been piled around the room, it looks to be
+some sort of storage area.   The ceiling is about 30' high, and
+the ground looks well worn from many years of being walked upon.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 61 }
+  }
+}
+
+64
+{
+  name { A huge cavern }
+  desc {
+"   You are standing in a huge cavern, whose vaulted ceiling soars to
+perhaps 80' above your head.  A huge iron gate is west, tunnels lead
+north and east.  You can smell the aroma of cooked meat coming from
+the north
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 65 }
+	to { e, 73 }
+	to { w, 62 }
+	  key { 16003 }
+	  info { door }
+	  keywords { gate iron huge w" }
+  }
+}
+
+65
+{
+  name { A huge cavern }
+  desc {
+"   You are standing in a tunnel linking two huge caverns, one to the
+north, and one to the south.  You can smell the aroma of meat cooking
+to the north, and laughter.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 66 }
+	to { s, 64 }
+  }
+}
+
+66
+{
+  name { A huge cavern }
+  desc {
+"   You are standing in a huge cavern, the ceiling rises to at least
+100 feet above your head.  To the west, you can smell the aroma of
+meat cooking, and to the east, you hear laughter.  This room is lit by
+huge torches which are set into the walls.
+  }
+  flags { indoors }
+  exits {
+	to { e, 67 }
+	to { s, 65 }
+	to { w, 69 }
+  }
+}
+
+67
+{
+  name { A large stone hallway }
+  desc {
+"   You are standing in a large hallway, hewn from the granite of the
+eastern mountains.  A large iron door lies to the north, and the
+hallway continues to the east.  To the west is a huge cavern, and the
+unmistakeable aroma of cooked meat.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 71 }
+	  key { 16004 }
+	  info { door }
+	  keywords { door iron n" }
+	to { e, 68 }
+	to { w, 66 }
+  }
+}
+
+68
+{
+  name { A large stone hallway }
+  desc {
+"   You are standing in a large hallway, hewn from the granite of the
+eastern mountains.  A large iron door lies to the north, and the
+hallway continues to the west.
+  }
+  exits {
+	to { n, 72 }
+	  key { 16004 }
+	  info { door }
+	  keywords { door iron barred n" }
+	to { w, 67 }
+  }
+}
+
+69
+{
+  name { The giant kitchen }
+  desc {
+"   You are standing in a kitchen of immense proportions.  The chair
+seats are about 4' off the ground, and the table sits higher than the
+chairs.  The smell of cooked meat comes from the fireplace in this
+room, where a large dwarf is slowly roasting over an open flame.
+  }
+  flags { indoors }
+  exits {
+	to { e, 66 }
+	to { w, 70 }
+  }
+}
+
+70
+{
+  name { The giant pantry }
+  desc {
+"   You are standing in the giant's larder, where several humanoid
+bodies have been stacked neatly agains the walls, along with several
+large animals, pigs and wolves mostly.  All of the bodies have been
+salted to preserve them, and the scent of salt is heavy in the air.
+You can smell meat cooking to the east.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 69 }
+  }
+}
+
+71
+{
+  name { A guest's quarters }
+  desc {
+"  These quarters are large, and well lit.  A large couch sits on the
+east side of the room, and a table occupies the center of the room. A
+lantern, resting on the table, gives light to the room.  On the wall
+is an elven tapestry, equisitely designed, and very expensive looking.  
+  }
+  flags { indoors }
+  exits {
+	to { s, 67 }
+	  key { 16004 }
+	  info { door }
+	  keywords { door iron s" }
+  }
+}
+
+72
+{
+  name { A guest's quarters }
+  desc {
+"   This large stone room is very spacious and roomy.  Several lanterns
+line the walls, giving the room a very warm feeling to it.  The walls
+are almost completely covered with tapestries and curtains, hiding the
+harsh granite behind them.  A comfortable divan rests against the
+north wall of the room,and a wooden table is in the center of the
+room.  Curiously, everything in this room is human-sized.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 68 }
+	  key { 16004 }
+	  info { door }
+	  keywords { door iron barred s" }
+  }
+}
+
+73
+{
+  name { A sleeping area }
+  desc {
+"   Several large animal hides lie on the floor here in huge piles.
+The area is very dark and quiet, and you sense that this is a sleeping
+area for the giants.  You tiptoe through, so as not to wake them.
+Westward lies a huge cavern, and eastwards the cavern continues
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 74 }
+	to { w, 64 }
+  }
+}
+
+74
+{
+  name { A sleeping area }
+  desc {
+"   You are standing at the eastern edge of a sleeping area for the
+giants.  Huge piles of animal skins are scattered about the room, and
+you walk on tip-toe, so as not to disturb any of the sleeping giants.
+The cavern continues to the west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 73 }
+  }
+}
+
+75
+{
+  name { A large ravine }
+  desc {
+"   You are in the air inside a large ravine.  Birdlike creatures can
+be seen to the north, and south, and dark shadows move mysterioulsy in
+the depths.
+  }
+  sector { Air }
+  exits {
+	to { n, 76 }
+	to { s, 77 }
+	to { u, 13 }
+	to { d, 83 }
+  }
+}
+
+76
+{
+  name { The northern part of a deep ravine }
+  desc {
+"   You are at the northern edge of a large ravine.  To the west, there
+is a huge nest, perhaps 50 feet in diameter.  Upwards, and southwards
+the ravine continues, and you can see some movement in the shadowy
+  }
+  sector { Air }
+  exits {
+	to { s, 75 }
+	to { w, 85 }
+	to { u, 78 }
+	to { d, 82 }
+  }
+}
+
+77
+{
+  name { The southern part of a deep ravine }
+  desc {
+"   You are at the southern edge of a large ravine.  Passage east, west
+or south is blocked by the walls of the ravine, but you can travel up
+out of the ravine, north towards the center of the ravine, or
+downwards into the shadowy depths.
+  }
+  sector { Air }
+  exits {
+	to { n, 75 }
+	to { u, 80 }
+	to { d, 84 }
+  }
+}
+
+78
+{
+  name { The air above a ravine }
+  desc {
+"   You are in the air above the ravine.  To the north and south the
+ravine continues, while to the west there is a small landing and a
+path leading into the mountains.  Below you are the depths of the
+ravine, where dark things move in the shadows
+  }
+  sector { Air }
+  exits {
+	to { n, 79 }
+	to { s, 13 }
+	to { w, 16 }
+	to { d, 76 }
+  }
+}
+
+79
+{
+  name { The air above a ravine }
+  desc {
+"  You are at the northernmost edge of the ravine.  Northwards, you see
+a small cave like opening, and you can hear the twittering of some
+creature with the cave.  To the south the ravine continues
+  }
+  sector { Air }
+  exits {
+	to { n, 86 }
+	to { s, 78 }
+  }
+}
+
+80
+{
+  name { The air above a ravine }
+  desc {
+"  You are in the air above the ravine.  The ravine continues to the
+north and south, and you can fly down further into the ravine and see
+what is there.
+  }
+  sector { Air }
+  exits {
+	to { n, 13 }
+	to { s, 81 }
+	to { d, 77 }
+  }
+}
+
+81
+{
+  name { The air above a ravine }
+  desc {
+"   You are at the southernmost point of the ravine, to the south you
+can see a large cave, and to the north the ravine continues.  You hear
+a strange song from within the cave, it sounds very beautiful.
+  }
+  sector { Air }
+  exits {
+	to { n, 80 }
+	to { s, 91 }
+  }
+}
+
+82
+{
+  name { A deep ravine }
+  desc {
+"   You are deep in the ravine, nearly at the bottom.  It is very dim
+down here, little light reaches to these depths.  You can travel south
+towards the center of the ravine, or you can fly up, away from the
+dark shadows that surround you now.
+  }
+  sector { Air }
+  exits {
+	to { s, 83 }
+	to { u, 76 }
+  }
+}
+
+83
+{
+  name { A deep ravine }
+  desc {
+"  You are at the bottom of the ravine.  It is very dim here, you can
+see almost nothing without additional light, since the natural light
+does not penetrate these depths.  Down below you, hidden in the
+darkeness is a hole of pure blackness.  The very thought of entering
+those depths make you shudder.  The bottom of the ravine continues to
+the north and south, or you could fly away from this shadowy place by
+going upwards
+  }
+  sector { Air }
+  exits {
+	to { n, 82 }
+	to { s, 84 }
+	to { u, 75 }
+	to { d, 87 }
+  }
+}
+
+84
+{
+  name { A deep ravine }
+  desc {
+"   You are nearly at the very deepest part of the ravine, but that is
+just to the north of your current position.  Dark shadows wind around
+you, hiding the light, and chilling your bones.  You could fly up, out
+of the ravine, to get away from these shadows.
+  }
+  sector { Air }
+  exits {
+	to { n, 83 }
+	to { u, 77 }
+  }
+}
+
+85
+{
+  name { A Roc's nest }
+  desc {
+"   You are standing on the widest expanse of hay and grasses that you
+have ever encountered.  This circular nest is huge!  Pits and peices
+of corpses lie all around, and there are several recent kills, most of
+which look like strange bird-women, with the wings of birds, and the
+faces of disgustingly ugly women.
+  }
+  sector { Field }
+  exits {
+	to { e, 76 }
+  }
+}
+
+86
+{
+  name { The stirges' lair }
+  desc {
+"   You are in a small, extremely crowded stirge lair, and you can feel
+the beasts' wings all around you.  It is very dark in here, and hard
+to see anything at all.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 79 }
+  }
+}
+
+87
+{
+  name { The depths of a ravine }
+  desc {
+"   You have entered the depths of the ravine, and you feel cold
+shivers run up and down your spine as you contemplate going further
+down into the shadows.  Even the weak light that reaches the air above
+your head is more welcome than the inky blackness of the depths.
+  }
+  sector { Air }
+  flags { dark }
+  exits {
+	to { u, 83 }
+	to { d, 88 }
+  }
+}
+
+88
+{
+  name { A dark hole }
+  desc {
+"   You are surrounded by darkness, you can envision all sorts of
+grotesque monsters hidden, just out of the range of your lights,
+waiting to leap upon you, and render you limb from limb.  Strange
+sounds echo all around you, and you feel a cold wind rise and encircle
+your body, softly touching you...
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { s, 89 }
+	to { u, 87 }
+  }
+}
+
+89
+{
+  name { A dark tunnel }
+  desc {
+"   You are standing in a black tunnel, deep in the heart of the earth.
+Strange noises echo all around you, and you feel the slightest touch
+of unseen creatures.  You hear the rasping breath of an underworld
+creature, it sounds very close
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 88 }
+	to { e, 90 }
+  }
+}
+
+90
+{
+  name { The Dark lair }
+  desc {
+"   You stand in a circular room, hewn from the rocks by powerful
+magic.  A pool of black water sits in the center of the room, and
+strange sounds come from within it, sounds not unlike human screams.
+Skeletons line the walls of the room, each mutilated in a different
+fashion.  A black stone sits behind the pool, it looks to be covered
+in blood, and there is a luminescent fungus covering most of the
+stone.  It seems to be living off of the blood.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 89 }
+  }
+}
+
+91
+{
+  name { The Harpy nest }
+  desc {
+"   You are standing in  a harpy nest, filled with filth and droppings.
+All in all, it is one of the most digusting places you have ever been in.
+A large hole leads downwards, into a dark area, and another hole leads
+southwards.  Judging by the smell, the downward area may be some sort
+of refuse chamber, but you can't tell.  You could also fly out of the
+cave, into a large ravine to the north.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 81 }
+	to { s, 93 }
+	to { d, 92 }
+  }
+}
+
+92
+{
+  name { The dark chute }
+  desc {
+"   You are in a chimney like tunnel vertically connecting two parts of
+the harpy nest.  Stench-ridden fumes rise up the chimney from below,
+nearly making you gag in disgust.  It is fairly clean here, since
+there is no horizontal surface for droppings and trash to cling to.
+  }
+  sector { Air }
+  flags { dark, indoors }
+  exits {
+	to { u, 91 }
+	to { d, 95 }
+  }
+}
+
+93
+{
+  name { A harpy's nest }
+  desc {
+"   You are in a harpy nest, your clothes are covered with droppings
+and other disgusting harpy leftovers.  You can hear strange calls from
+both the south, and the north, they seem oddly beautiful.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 91 }
+	to { s, 94 }
+  }
+}
+
+94
+{
+  name { A harpy's nest }
+  desc {
+"   You are standing in a large harpy nest.  The only thing that
+distinguishes the nest from the rest of the filthy, dropping ridden
+place is that if anything, its even MORE gross and disgusting than the
+tunnels.  You hear singing from all exits, north, south and down.
+It seem strangely enchanting
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 93 }
+	to { s, 98 }
+	to { d, 97 }
+  }
+}
+
+95
+{
+  name { A harpy's nest }
+  desc {
+"   You are standing in a large harpy nest.  The only thing that
+distinguishes the nest from the rest of the filthy, dropping ridden
+place is that if anything, its even MORE gross and disgusting than the
+tunnels.  You hear singing from the south and from above.
+It seem strangely enchanting
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { s, 96 }
+	to { u, 92 }
+  }
+}
+
+96
+{
+  name { A harpy's nest }
+  desc {
+"    You are in a harpy nest, your clothes are covered with droppings
+and other disgusting harpy leftovers.  You can hear strange calls from
+both the south, and the north, they seem oddly beautiful.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 95 }
+	to { s, 97 }
+  }
+}
+
+97
+{
+  name { A harpy's nest }
+  desc {
+"   You are standing in a large harpy nest.  The only thing that
+distinguishes the nest from the rest of the filthy, dropping ridden
+place is that if anything, its even MORE gross and disgusting than the
+tunnels.  You hear singing from the south and north,  and from above.
+It seem strangely enchanting.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 96 }
+	to { s, 99 }
+	to { u, 94 }
+  }
+}
+
+98
+{
+  name { A trashpile }
+  desc {
+"   You are standing in a trashpile for the harpies.  It seems fairly
+clean and pleasant here (as clean and pleasant as a harpy nest can
+get) (which really isn't saying much).  There are some odds and ends,
+and even a glimmer of silver inside the rest of the rubbish.  You can
+hear strange songs from the north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 94 }
+  }
+}
+
+99
+{
+  name { A trashpile }
+  desc {
+"   You are standing in a huge trashpile, filled with unused boxes of
+cleaning supplies, towels, and other implements of cleanliness.
+Several mostly eaten corpses are here, testament to the harpy's
+predatory instincts.  There is one exit, to the north
+  }
+  extra {
+	keywords { pile trash" }
+	desc { "  As you stare at the pile of trash, you notice that it seems to be almost 
+deliberately placed, as if to hide something that was underneath.  Then you 
+notice a small piece of rope, which quickly leads you to a door that has
+been hidden underneath the pile of trash!
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 97 }
+	to { d, 50 }
+	  key { 16005 }
+	  info { door }
+	  keywords { secret door d" }
+  }
+}

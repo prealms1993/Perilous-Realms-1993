@@ -1,0 +1,806 @@
+
+0
+{
+  name { The rope to the Pyramid }
+  desc {
+"   The rope stretches upwards to the pyramid.  However you notice as
+you climb that it seems to be fraying.  Any furthur progress would be
+surely fatal, until someone fixes the rope .
+  }
+  sector { Mountains }
+  exits {
+	to { u, 7 }
+	to { d, Desert:40 }
+	  desc { You can see the floor of the desert
+}
+  }
+}
+
+1
+{
+  name { Sarcophagi of Akinra }
+  desc {
+You have entered a secret passage that leads down to a solemn chamber.
+Here lies the great coffin of Akinra !
+  }
+  flags { dark, indoors }
+  exits {
+	to { u, 4 }
+	  key { 17001 }
+	  info { door, closed }
+	  keywords { coffin" }
+  }
+}
+
+2
+{
+  name { Altar of The Sun God Ra }
+  desc {
+A colorful altar dominates the center of this shrine. Paintings surround
+you paying homage to the great god Ra. A huge statue of the once omnipotent
+Pharaoh Akinra looms over a dias behind the altar. Hieroglyphic etchings
+cover the sandstone floor.
+A spiral stairway leads down.
+  }
+  extra {
+	keywords { translation" }
+	desc { Great was the reign of Akinra. The ... God brought his empire much
+... and power. Since you are reading these writings you have already
+desecrated the ... of this holy place. So be warned: Leave now or be
+forever cursed. The greatest riches and relics of Akinra lay ... his tomb
+to be reclaimed in his ... reign. The Guardians of Akinra are not to be
+trifled with and will protect the tomb fiercly. Suffer defeat and ...
+	}
+	keywords { etchings" }
+	desc { Unfortunately you can't read ancient egyptian.... however a faded ink 
+translation, apparently left by the owners of the grappling hook, is here.
+	}
+  }
+  flags { dark }
+  exits {
+	to { u, 3 }
+	to { d, 4 }
+  }
+}
+
+3
+{
+  name { West face of Pyramid }
+  desc {
+Winds test your footing as you stand here. A Sphinx facing east hasn't noticed
+your presence nor that of a grappling hook under its left paw. There is just
+room enough for you to stand on the ledge and walk around the sides. Someone
+has gained entrance to the tomb by removing some stones near his tail.
+  }
+  exits {
+	to { n, 5 }
+	to { s, 13 }
+	to { w, 7 }
+	  desc { You see the rope stretch over the edge}
+	to { d, 2 }
+  }
+}
+
+4
+{
+  name { Tomb of King Akinra }
+  desc {
+This is the tomb of the Great One. A cold feeling of death intrudes upon
+your being. Looking down the vaulted chamber you see a huge sarcophagus
+bearing the likeness of Akinra. Statues of kneeling worshipers face his
+tomb. You notice the bones of some daring adventurers, less fortunate 
+than you hope to be. One still grasps an ink pen in his right hand.
+Passages lead off in all directions.
+  }
+  extra {
+	keywords { up" }
+	desc { Someone or something has magically blocked your way up.
+	}
+	keywords { coffin" }
+	desc { After brushing off some fo the dust, a sapphire bracelt becomes visible
+engraved on the side of the coffin.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 6 }
+	to { e, 8 }
+	  key { 1 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see a door here with no apparent keyhole.
+I trust you have a mage or thief with you.
+}
+	to { s, 10 }
+	to { w, 9 }
+	to { u, Void:0 }
+	  key { 1 }
+	  info { door, closed }
+	  keywords { nothing
+nothing" }
+	  desc { Something or someone has magically blocked your way
+}
+	to { d, 1 }
+	  key { 17001 }
+	  info { door, closed }
+	  keywords { Coffin" }
+  }
+}
+
+5
+{
+  name { North face of Pryamid }
+  desc {
+Guess what... you see sand.
+  }
+  exits {
+	to { e, 12 }
+	to { w, 3 }
+	to { d, 50 }
+	  desc { You see a VERY long drop down.
+}
+  }
+}
+
+6
+{
+  name { Preperation room }
+  desc {
+This is one of the side rooms off of the tomb chamber.
+A table stands here covered with the tools of mummification.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 4 }
+  }
+}
+
+7
+{
+  name { The rope to the Pyramid }
+  desc {
+You have a good view from up here, hope you aren't afraid of heights. The
+rope continues up disappearing over a ledge. Looking over your shoulder
+you see the vast expanses of the desert stretching off to the horizon. Evil
+permeates the stones of the Pyramid. 
+The rope continues up and trails off below.
+  }
+  exits {
+	to { u, 3 }
+	to { d, 0 }
+  }
+}
+
+8
+{
+  name { Treasure room }
+  desc {
+Many of Akinra's most prized possesions lie here in ornately carved chests.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 4 }
+  }
+}
+
+9
+{
+  name { Passage to Tomb }
+  desc {
+This is a side room off of the main tomb chamber.
+A spiral staircase leads down into darkness.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 4 }
+	to { d, 11 }
+  }
+}
+
+10
+{
+  name { Storage room }
+  desc {
+This room is filled with religious artifacts... candles, robes, incense,
+and small stone daggers (too small to be useful).
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 4 }
+  }
+}
+
+11
+{
+  name { Corridor }
+  desc {
+A mural of mosaic tiles line the walls depicting the empire of Akinra at
+its height of power. 
+Passages lead east west and south.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 18 }
+	to { s, 20 }
+	to { w, 15 }
+	to { u, 9 }
+  }
+}
+
+12
+{
+  name { East face of Pyramid }
+  desc {
+Sand, sand, and more sand... off into the distance you see a sandstorm.
+Is it heading this way ?
+  }
+  exits {
+	to { n, 5 }
+	to { s, 13 }
+	to { d, 50 }
+	  desc { You see a VERY long drop down.
+}
+  }
+}
+
+13
+{
+  name { South face of Pyramid }
+  desc {
+Heat beats down upon you. Looking out across the desert you see the ruins
+of a once great city to the south-west.
+  }
+  exits {
+	to { e, 12 }
+	to { w, 3 }
+	to { d, 50 }
+	  desc { You see a VERY long drop down.
+}
+  }
+}
+
+14
+{
+  name { Guardian's Room }
+  desc {
+This room appears to have one purpose, to house the Stone Golem standing
+here. His last action seems to have been grasping a stone key.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 15 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+15
+{
+  name { West Corridor }
+  desc {
+The corridor ends here. There are doors to the north and south, the
+corridor leaves east.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 14 }
+	  info { door, closed }
+	  keywords { door" }
+	to { e, 11 }
+	to { s, 16 }
+	  info { door, closed }
+	  keywords { south
+door" }
+  }
+}
+
+16
+{
+  name { Guardian's Room }
+  desc {
+This room is non-descrip, save the clay spattered on the ground.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 15 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+17
+{
+  name { Guardian's Room }
+  desc {
+This room pales in comparison to the others. The only noteworthy item
+here is the HUGE chair... and the golem sitting in it. He stands
+at your entrance.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 18 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+18
+{
+  name { East Corridor }
+  desc {
+The corridor ends here with doors to the north and south.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 17 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 19 }
+	  key { 5300 }
+	  info { door, closed }
+	  keywords { gate" }
+	  desc { you see a large iron gate to the south.
+}
+	to { w, 11 }
+  }
+}
+
+19
+{
+  name { Room of Anubis }
+  desc {
+You have entered an ornately guilded throne room. Sitting upon the giant
+throne is the mighty figure of Anubis, wearing a glowing key on a chain
+about his neck.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 18 }
+	  key { 5300 }
+	  info { door, closed }
+	  keywords { gate" }
+  }
+}
+
+20
+{
+  name { Culdesac }
+  desc {
+The murals continue into this room, but tell a different story.
+They show images of death and pain as demonic beings cruely torture
+egyptian heroes. The passage way ends and along the floor you notice
+an iron door set into the ground. The image of a horned devil adornes
+the handle.
+The only other way is north to the chamber.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 11 }
+	to { d, 34 }
+	  key { 5301 }
+	  info { door, closed }
+	  keywords { iron" }
+	  desc { The iron door looks unopenable without the proper key.
+The eyes of the horned devil glow slightly.
+}
+  }
+}
+
+21
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 27 }
+	to { w, 21 }
+	  desc { The maze is very twisty here... your not sure where this leads to.
+}
+  }
+}
+
+22
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 23 }
+  }
+}
+
+23
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 24 }
+	to { w, 22 }
+	  desc { The maze continues here. You hear faint chanting and the sounds of
+slithering.
+}
+  }
+}
+
+24
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 25 }
+	to { s, 30 }
+	to { w, 23 }
+  }
+}
+
+25
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 31 }
+	  desc { The maze continues here. You hear a low gutteral moaning from this direction.
+}
+	to { w, 24 }
+  }
+}
+
+26
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 27 }
+	  desc { The maze continues to the east.
+}
+	to { s, 32 }
+	  desc { The maze continues to the south.
+}
+  }
+}
+
+27
+{
+  name { Maze ? }
+  desc {
+a bunch of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 21 }
+	to { e, 28 }
+	to { s, 33 }
+	to { w, 26 }
+  }
+}
+
+28
+{
+  name { Maze ? }
+  desc {
+A bunch of twisty passages that all look alike.  }
+  flags { dark, indoors }
+  exits {
+	to { e, 29 }
+	to { s, 34 }
+	to { w, 27 }
+  }
+}
+
+29
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 24 }
+	to { s, 36 }
+  }
+}
+
+31
+{
+  name { Dead End. }
+  desc {
+This corridor ends here, but a lonely Spectre looks up as you enter. He 
+is carrying a sapphire bracelet. He looks into your eyes almost as if too
+say, "I'm sorry, but I have to kill you."
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 25 }
+  }
+}
+
+32
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 26 }
+	  desc { The maze continues to the north.
+}
+	to { s, 38 }
+	  desc { The maze continues to the south.
+}
+  }
+}
+
+33
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 27 }
+	to { e, 34 }
+	to { s, 39 }
+  }
+}
+
+34
+{
+  name { Maze ? }
+  desc {
+You have entered the King's Labyrinth. Passages lead off in all
+directions. You think you hear movement nearby.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 28 }
+	to { e, 35 }
+	to { s, 40 }
+	to { w, 33 }
+	to { u, 20 }
+	  key { 5301 }
+	  info { door, closed }
+	  keywords { iron" }
+  }
+}
+
+35
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 41 }
+	to { w, 34 }
+  }
+}
+
+36
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 30 }
+	to { e, 37 }
+	to { s, 42 }
+  }
+}
+
+37
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 43 }
+	to { w, 36 }
+  }
+}
+
+38
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 32 }
+	  desc { The maze continues to the north.
+}
+	to { s, 44 }
+	  desc { The maze continues to the south. You hear faint sounds from this direction.
+}
+  }
+}
+
+39
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 33 }
+  }
+}
+
+40
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 34 }
+	to { s, 46 }
+  }
+}
+
+41
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 35 }
+  }
+}
+
+42
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 36 }
+	to { s, 48 }
+  }
+}
+
+43
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 37 }
+	to { s, 49 }
+  }
+}
+
+44
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike. You think you might hear
+the sound of blowing wind from below.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 38 }
+	  desc { The maze continues to the north.
+}
+	to { d, Desert:40 }
+	  key { 17003 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+45
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  exits {
+	to { e, 46 }
+  }
+}
+
+46
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 40 }
+	to { e, 47 }
+	to { w, 45 }
+  }
+}
+
+47
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 48 }
+	to { w, 46 }
+  }
+}
+
+48
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 42 }
+	to { w, 47 }
+  }
+}
+
+49
+{
+  name { Maze ? }
+  desc {
+A maze of twisty passages that all look alike.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 43 }
+  }
+}
+
+50
+{
+  name { Desert Floor. }
+  desc {
+For some strange reason you decided to jump off the pyramid.
+You're dead.
+  }
+  flags { death }
+}

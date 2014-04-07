@@ -1,0 +1,85 @@
+The CONSENT command can now be set to consent to anyone you can see in the
+game, regardless of if they're in the same room as you or not.  As long as
+neither or you leaves the game all the way, consent will remain (or unless
+you select another consentee or clear your consent).  It would be a good idea
+to do this if you're grouped.
+
+The MOTD command will allow you to view the message of the day again, if you
+missed it upon logging in.  Remember to read it, it contains often important
+information.
+
+NO robots or multiple characters are allowed! Violaters will be warned (maybe)
+then deleted the next time!
+
+Portal is now pc to pc only.. this is due to some new areas and sectors going
+in.. and the fact that we want you to explore more.
+
+ANYONE can wear ANYTHING until we get the anti-class stuff fixed. But dont
+be shocked when you cant later!
+(^^This should really be true now^^)
+
+Components are in testing for the mage class. You can for now buy all except 3
+components in midgard at Osfols or in Tagol (at a much cheaper price).
+
+You DO NOT need components to cast spells BUT the cost is more if you dont have
+them. Mana cost will be Diff * mana (diff is gotten from prac) with diff a min
+of 2 even if its 1.
+
+Kills lists are now cleared if you die.
+
+Stuff in bags stack now.
+
+IMMORTALS ARE *NOT* ALLOWED TO HAVE THEIR MORTAL AND IMMORTL ON AT THE SAME TIME
+(violaters to be severely thrashed and deleted!)
+
+A Note on illusionists. They are not yet read and when they are they will not
+be anything like they were before. There will be mostly all new spells for them
+and they will be real room affecting illusion type spells (such as wall of ??
+phantasmal force, cloud kill etc). There will also NOT be an il/th class ever.
+I'm not sure on a time line here as school comes first and midterms are here.
+
+Components now have a # of uses (seen when you look in a pouch or do inventory)
+and thus some cost more now.
+
+Some components have been added Mages and Cleris require 1 item for almost all
+spells above level 50. See osfol for this item.
+General Stuff:
+--------------
+Useful commands:
+  KILLS           - see your latest kills!
+  SLICE           - cut some food out of your latest kill (see below)
+  SCAN            - look around to see who is in your immediate vicinity
+  LISTHELP        - List all help topics available on the system
+  COMMANDS        - List all commands that you can use at your level
+  ALLSPELLS class - List all spells & skills that the specified class can learn
+  CHANNEL GOSSIP  - tune you out/in of the gossip channel
+  CHANNEL AUCTION - tune you out/in of the auction channel
+  CHANNEL SPORTS  - tune you out/in of the sports channel
+  ECHO            - turn off echoing of says, and shouts
+  SPLIT           - split gold up amoung your group members
+  GSAY            - Say something to only the people in your group
+  NOEXITS         - Turn off/on display of exits in room
+
+Other Stuff:
+------------
+* New Command: 'slice' to carve up your kill (for food, of course).
+* All classes are in but a few still need special abilitys.
+* emote, typo, bug, and idea are level 2 commands to prevent problems
+* Align changes faster if you kill above your lvl. Killing below is much slower.
+
+About Mail:
+-----------
+* go to the provision shop and buy a pen and paper
+* write note pen
+* mail note person
+
+Note: Do not do this if there is a board in the same room because it will end
+up writing on the board instead! :)
+
+Consider - Has been totaly rewritten the old version sucked plain and simple
+	   all it did was compare levels. It now compares AC, absorb, HP, DMG 
+	   and thac0 factors then trys to guess how long it would take each of
+	   you to win. It *DOES NOT* consider spec procs such as breathing or
+	   any non normal attacking. (so if it casts spells or kicks and bashs
+	   etc consider may be wrong). At a later date we may try to fix this
+	   but it will be something that will take some work.

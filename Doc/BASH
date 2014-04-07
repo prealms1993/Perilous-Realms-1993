@@ -1,0 +1,27 @@
+SKILL BASH
+
+General Description:
+  Bash is an attempt to knock your oppent down, by hitting him over the head.
+
+Chance of Success:
+  If your bash skill exceeds
+    random(1,101) - dexterity modifier for you * 10
+                  + dexterity modifier for oppenent * 10
+                  + (something that should be changed)
+  then you succeed.
+
+Result of Success:
+  Your victim takes 1 point of damage and is put into the sitting position.
+  Your victim may not type commands for 2 rounds after being bashed.
+
+Results of Failure:
+  You do no damage, and fall down yourself.
+
+Restrictions:
+  You may not bash someone if more than 3 people are attacking you, or more
+  than 5 people are attacking your victim.
+
+  You may not type commands for 2 rounds regardless of the success or failure
+  of this command.
+
+  Bash may not be initiated in a peacful room.

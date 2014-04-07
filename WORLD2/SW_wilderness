@@ -1,0 +1,926 @@
+
+0
+{
+  name { Fern Road }
+  desc {
+"   The road continues following the western wall of Midgard here, with
+a bridge just to the north crossing the River of Midgard, and more road
+to the south.
+  }
+  sector { Forest }
+  exits {
+	to { n, Midgard:83 }
+	  desc { Onto the bridge.
+}
+	to { s, 1 }
+  }
+}
+
+1
+{
+  name { Fern Road }
+  desc {
+"   The road continues following the western wall of Midgard here, headed
+from north to south. A path heads west into the forest.
+  }
+  sector { Forest }
+  exits {
+	to { n, 0 }
+	to { s, 2 }
+	to { w, 7 }
+  }
+}
+
+2
+{
+  name { Fern Road }
+  desc {
+"   The road continues following the western wall of Midgard here. To the
+south the road bends around the southern wall of Midgard.
+  }
+  sector { Forest }
+  exits {
+	to { n, 1 }
+	to { s, 3 }
+  }
+}
+
+3
+{
+  name { Bend on Fern Road }
+  desc {
+"   The road makes a wide sweeping turn around the southwest corner of
+Midgard here. Despite the wide berth, there are a number of nicks in
+the corner of the wall from people running into it, though the blame is
+most likely placed on wild animals trying to get inside the town. A
+well-marked path leads into the forest south of here.
+  }
+  sector { Forest }
+  extra {
+	keywords { corner nick nicks" }
+	desc { Upon closer inspection, those marks are rather deep, and may very well
+be the clawwork of some ferocious beast.
+	}
+  }
+  exits {
+	to { n, 2 }
+	to { e, 4 }
+	to { s, 31 }
+	  desc { The path seems to lead into the forest.
+}
+  }
+}
+
+4
+{
+  name { Fern Road }
+  desc {
+"   This stretch of road along the southern wall of Midgard seems new
+in comparison to the rest of the road, for it seems to have been recently
+hacked away from the thick green forest along the southern edge of the
+city.
+  }
+  sector { Forest }
+  exits {
+	to { e, 5 }
+	to { w, 3 }
+  }
+}
+
+5
+{
+  name { Fern Road }
+  desc {
+"   This stretch of road along the southern wall of Midgard seems new
+in comparison to the rest of the road, for it seems to have been recently
+hacked away from the thick green forest along the southern edge of the
+city.The southern exit leads to a broken down part of the city.
+To the east there is some construction work going on.
+  }
+  sector { Forest }
+  exits {
+	to { e, 6 }
+	to { s, swamp:1 }
+	to { w, 4 }
+  }
+}
+
+6
+{
+  name { Outside the Southern Gate }
+  desc {
+"   Or rather, outside the soon-to-be southern gate, for it is in the
+process of being built. For security, the hole in the wall has been
+plugged up until the gatework can be completed. The beginnings of a
+guard tower can be seen peeking over the wall. Fern road leads west
+from here.
+  }
+  sector { Field }
+  exits {
+	to { w, 5 }
+  }
+}
+
+7
+{
+  name { Forest Path }
+  desc {
+"   The trees here seem lazily placed, in bunches in one area, and
+distantly apart in others. The path isn't well defined, but rather is
+slightly worn down area where the trees are more scarce. Here, the
+path generally heads west to east.
+  }
+  sector { Forest }
+  exits {
+	to { e, 1 }
+	to { w, 8 }
+  }
+}
+
+8
+{
+  name { Forest Path }
+  desc {
+"   The trees here seem lazily placed, in bunches in one area, and
+distantly apart in others. The path isn't well defined, but rather is
+slightly worn down area where the trees are more scarce. Here, there
+are pathways north, west, and east.
+  }
+  sector { Forest }
+  exits {
+	to { n, 9 }
+	  desc { There are burbling sounds coming from over there.
+}
+	to { e, 7 }
+	to { w, 10 }
+  }
+}
+
+9
+{
+  name { Forest Path by River }
+  desc {
+"   The southern bank of the Midgard river laps gently up to the edge
+of the forest here, exposing the gnarled roots of the trees as they
+probe for water. The path leads away north.
+  }
+  sector { Forest }
+  exits {
+	to { s, 8 }
+  }
+}
+
+10
+{
+  name { Forest Path }
+  desc {
+"   The trees seem closer together here, but still give a fair amount of
+space around a wide path leading from the east to the south.
+  }
+  sector { Forest }
+  exits {
+	to { e, 8 }
+	to { s, 14 }
+  }
+}
+
+11
+{
+  name { Forest Path }
+  desc {
+"   Brambles from the bramble patch south of here are encroaching into
+the forest here, but haven't gained a foothold yet in the shadows of
+the trees.
+  }
+  sector { Forest }
+  exits {
+	to { s, 30 }
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { Forest Path }
+  desc {
+"   The trees here seem lazily placed, in bunches in one area, and
+distantly apart in others. The path isn't well defined, but rather is
+slightly worn down area where the trees are more scarce. Paths lead
+north and east.
+  }
+  sector { Forest }
+  exits {
+	to { n, 13 }
+	to { e, 11 }
+  }
+}
+
+13
+{
+  name { Forest Path }
+  desc {
+"   The trees here seem lazily placed, in bunches in one area, and
+distantly apart in others. The path isn't well defined, but rather is
+slightly worn down area where the trees are more scarce. The path leads
+from the west to the south.
+  }
+  sector { Forest }
+  exits {
+	to { s, 12 }
+	to { w, 14 }
+  }
+}
+
+14
+{
+  name { Forest Path }
+  desc {
+"   Crowding in tightly, the trees in this area seem nearly ready to fall
+over, except that they hold each other up. There is plenty of space
+underneath them, however, and paths lead north, west, and east.
+  }
+  sector { Forest }
+  exits {
+	to { n, 10 }
+	to { e, 13 }
+	to { w, 15 }
+  }
+}
+
+15
+{
+  name { Forest Path }
+  desc {
+"   The trees are sparse here, with paths leaving off in every direction,
+including one toward a clearing to the west.
+  }
+  sector { Forest }
+  exits {
+	to { n, 16 }
+	to { e, 14 }
+	to { s, 20 }
+	to { w, 24 }
+  }
+}
+
+16
+{
+  name { Forest Path }
+  desc {
+"   The trees increase in density here, but not quite so much as to blot
+out the sky. The path leads south to west.
+  }
+  sector { Forest }
+  exits {
+	to { s, 15 }
+	to { w, 17 }
+  }
+}
+
+17
+{
+  name { Forest Path }
+  desc {
+"   The trees here are crowded together, with a clear path hacked away
+to the north. Another path leads east, and there is a clear area to
+the south.
+  }
+  sector { Forest }
+  exits {
+	to { n, 18 }
+	to { e, 16 }
+	to { s, 24 }
+	  desc { There is a clearing there.
+}
+  }
+}
+
+18
+{
+  name { Forest Path by River }
+  desc {
+"   The Midgard river flows by north of here, its waters sparkling
+underneath the hanging branches of the forest. A path leads away
+south from the riverbank.
+  }
+  sector { Forest }
+  exits {
+	to { s, 17 }
+  }
+}
+
+19
+{
+  name { Forest Path }
+  desc {
+"   The path leaves the edge of the forest here, headed into a
+bramble patch to the south. The path continues into the forest to
+the west.
+  }
+  sector { Forest }
+  exits {
+	to { s, 25 }
+	to { w, 20 }
+  }
+}
+
+20
+{
+  name { Forest Path }
+  desc {
+"   The forest leads off in all directions, clear paths between the
+trees except to the south, where the limbs seem to stretch a bit to
+bar the way.
+  }
+  sector { Forest }
+  exits {
+	to { n, 15 }
+	to { e, 19 }
+	to { w, 21 }
+  }
+}
+
+21
+{
+  name { Forest Path }
+  desc {
+"   The forest stretches far and wide from this hilltop point. A clearing
+lies north of here. To the south, the tree limbs seem to stretch a bit to
+bar the way.
+  }
+  sector { Forest }
+  exits {
+	to { n, 24 }
+	  desc { There is a clearing over there.
+}
+	to { e, 20 }
+	to { w, 22 }
+  }
+}
+
+22
+{
+  name { Forest Path }
+  desc {
+"   This is a downwardly leading stretch of path. The top of the hill is
+east of here, and the path heads into thicker forest to the south.
+  }
+  sector { Forest }
+  exits {
+	to { e, 21 }
+	to { s, 23 }
+  }
+}
+
+23
+{
+  name { Forest Path }
+  desc {
+"   The trees here are packed more densely togther than to the north, and
+seems to get even more dense to the south and the west. The path curves
+from the north to the east here.
+  }
+  sector { Forest }
+  exits {
+	to { n, 22 }
+	to { e, Pyramid:901 }
+  }
+}
+
+24
+{
+  name { Clearing }
+  desc {
+"   Ancient tree stumps litter this harshly cleared area, providing
+convenient places for sitting, though perhaps not esthetic ones. The
+ground has been packed down from the frequent passing of people or
+animals, and nothing grows in it. The surrounding forest is quite
+penetrable, except to the west.
+  }
+  sector { Field }
+  exits {
+	to { n, 17 }
+	to { e, 15 }
+	to { s, 21 }
+  }
+}
+
+25
+{
+  name { Bramble Patch }
+  desc {
+"   This mess of thorny bushes provides lots of space for little animals
+to hide themselves in. The brambles allow careful movement south here,
+and the edge of a forest is northward.
+  }
+  sector { Forest }
+  exits {
+	to { n, 19 }
+	to { s, 26 }
+  }
+}
+
+26
+{
+  name { Bramble Patch }
+  desc {
+"   This mess of thorny bushes provides lots of space for little animals
+to hide themselves in. The brambles allow careful movement north, east,
+and south here.
+  }
+  sector { Forest }
+  exits {
+	to { n, 25 }
+	to { e, 28 }
+	to { s, 27 }
+  }
+}
+
+27
+{
+  name { Bramble Patch }
+  desc {
+"   This mess of thorny bushes provides lots of space for little animals
+to hide themselves in. The brambles allow careful movement north here,
+and a wide path lies east. Impenetrable forest lies west.
+  }
+  sector { Forest }
+  exits {
+	to { n, 26 }
+	to { e, 35 }
+  }
+}
+
+28
+{
+  name { Bramble Patch }
+  desc {
+"   This mess of thorny bushes provides lots of space for little animals
+to hide themselves in. The brambles allow careful movement west and east
+here.
+  }
+  sector { Forest }
+  exits {
+	to { e, 29 }
+	to { w, 27 }
+  }
+}
+
+29
+{
+  name { Bramble Patch }
+  desc {
+"   This mess of thorny bushes provides lots of space for little animals
+to hide themselves in. The brambles allow careful movement north and
+west, and there is a wide path to the south.
+  }
+  sector { Forest }
+  exits {
+	to { n, 30 }
+	to { s, 34 }
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { Bramble Patch }
+  desc {
+"   This mess of thorny bushes provides lots of space for little animals
+to hide themselves in. The brambles allow careful movement north and
+south, and there is a wide path to the east.
+  }
+  sector { Forest }
+  exits {
+	to { n, 11 }
+	to { e, 31 }
+	to { s, 29 }
+  }
+}
+
+31
+{
+  name { Wide Path }
+  desc {
+"   Pebbles of granite and other small rocks form the boundaries of this
+wide path through the forest. The pastel colored gravel leads right up
+to the bases of the trees. The path heads south from here. To the north,
+Fern road bends around the southwest corner of Midgard.
+  }
+  sector { Field }
+  exits {
+	to { n, 3 }
+	to { s, 32 }
+	to { w, 30 }
+  }
+}
+
+32
+{
+  name { Wide Path }
+  desc {
+"   Pebbles of granite and other small rocks form the boundaries of this
+wide path through the forest. The pastel colored gravel leads right up
+to the bases of the trees. The path continues north, and halts at a
+clearing to the south.
+  }
+  sector { Forest }
+  exits {
+	to { n, 31 }
+	to { s, 33 }
+  }
+}
+
+33
+{
+  name { Clearing }
+  desc {
+"   The graveled path from the north ends here, forming a wide circular
+cul-de-sac, clear of trees, which would make for a good place to park a
+wagon or three. A small path heads into the surrounding forest to the west.
+  }
+  sector { City }
+  exits {
+	to { n, 32 }
+	to { w, 34 }
+  }
+}
+
+34
+{
+  name { Path }
+  desc {
+"   A bramble patch borders the north edge of the path here, while
+impenetrable forest forms the southern edge. To the east, the path
+stops in a clearing, and the path continues west.
+  }
+  sector { Forest }
+  exits {
+	to { n, 29 }
+	to { e, 33 }
+	to { w, 35 }
+  }
+}
+
+35
+{
+  name { Path }
+  desc {
+"   The path turns from the east to the south in the elbow of a bramble
+patch, which is passable on the west. From the south comes the incessant
+babble of running water.
+  }
+  sector { Forest }
+  exits {
+	to { e, 34 }
+	to { s, 36 }
+	to { w, 27 }
+  }
+}
+
+36
+{
+  name { Path North of Bridge }
+  desc {
+"   A river passes by south of here, its deep waters gurgling and
+grasping at the shore. A narrow wooden bridge anchors itself on each
+bank of the river, providing safe passage across. The path leads
+away north into the forest.
+  }
+  sector { Forest }
+  exits {
+	to { n, 35 }
+	to { s, 37 }
+  }
+}
+
+37
+{
+  name { Troll Bridge }
+  desc {
+"   Old, faded redwood boards form the floor and handrails of his
+structure. The joints are reinforced with metal brackets, and the
+whole thing is anchored to the ground on each bank by strong chains.
+Mounted on two poles attached to the side of the bridge is a board
+with some words scrawled on it in some dark color. Below, the water
+of the river passes by, plunging westward.
+  }
+  sector { Field }
+  extra {
+	keywords { words word color" }
+	desc { It looks like it might be dried blood.
+	}
+	keywords { sign board" }
+	desc { It reads:
+
+   STOP! PAY TROLL!
+	}
+  }
+  flags { evil_only }
+  exits {
+	to { n, 36 }
+	to { s, 38 }
+  }
+}
+
+38
+{
+  name { Path South of Bridge }
+  desc {
+"   To the north, a river rushes by, its current swift and dangerous. A
+narrow bridge provides safe passage over the river, arching well out of
+the water's reach. The path continues south from here.
+  }
+  sector { Forest }
+  exits {
+	to { n, 37 }
+	to { s, 39 }
+  }
+}
+
+39
+{
+  name { Path }
+  desc {
+"   This section of path passes through two rows of tall, slender trees,
+each with wide, cuplike leaves which appear strong enough to be filled
+to the brim with rainwater and not bend or break. The path seems like
+it was more likely built to follow the trees, rather than the trees
+planted astride the path. In either case, they both continue to the
+south, and the sound of running water comes from the north.
+  }
+  sector { Forest }
+  exits {
+	to { n, 38 }
+	to { s, 40 }
+  }
+}
+
+40
+{
+  name { Path }
+  desc {
+"   Two rows of tall, slender trees line the path here, with an opening
+in the western row which opens up on a valley. Somewhere to the east,
+the upper part of a large plateau sticks above the top of the trees. The
+path, rows of trees and all, continues north and south.
+  }
+  sector { Forest }
+  flags { no_mob }
+  exits {
+	to { n, 39 }
+	to { s, 41 }
+	to { w, 46 }
+  }
+}
+
+41
+{
+  name { Path }
+  desc {
+"   The path here is lined by two rows of tall, slender trees which reach
+toward the sky. Somewhere east of here, the top part of a large plateau
+can be seen. The path continues north and south.
+  }
+  sector { Forest }
+  exits {
+	to { n, 40 }
+	to { s, 42 }
+  }
+}
+
+42
+{
+  name { Path }
+  desc {
+"   Here, the path turns from the north to the west inside a thickly
+forested area. Somewhere east of here is a large plateau, which manages
+to stick over the trees a bit.
+  }
+  sector { Forest }
+  exits {
+	to { n, 41 }
+	to { w, 43 }
+  }
+}
+
+43
+{
+  name { Path }
+  desc {
+"   The trees crowd together somewhat around this section of path, which
+heads into similar forest east of here, and into a thinner area south. To
+the west can be seen a thicket.
+  }
+  sector { Field }
+  exits {
+	to { e, 42 }
+	to { s, 44 }
+	to { w, 54 }
+  }
+}
+
+44
+{
+  name { Path }
+  desc {
+"   The forest thins out a bit here, from the dense area to the north, to
+the south where there are few trees and a smattering of grasses. This
+place is essentially a transition between the two.
+  }
+  sector { Field }
+  exits {
+	to { n, 43 }
+	to { s, 45 }
+  }
+}
+
+45
+{
+  name { Path }
+  desc {
+"   The path here passes through a region of grasses, thick weeds, and
+the occasional tree or shrub. A forested area lies northward along the
+path, while southward the path enters a lowland area.
+  }
+  sector { Hills }
+  exits {
+	to { n, 44 }
+  }
+}
+
+46
+{
+  name { Valley }
+  desc {
+"   The land curves gently here, forming a natural depression. To the west,
+a pool of water has accumulated, lacking any other place to flow to. To
+the north, a small garden has been planted. East of here, is an exit from
+the valley through a row of tall trees.
+  }
+  sector { Hills }
+  exits {
+	to { n, 47 }
+	to { e, 40 }
+	to { w, 50 }
+  }
+}
+
+47
+{
+  name { Garden }
+  desc {
+"   Several long furrows have been plowed through the fertile soil here,
+enough space to grow food for maybe one person on a consistent basis.
+There is a hill west of here, and a valley south.
+  }
+  sector { Field }
+  exits {
+	to { s, 46 }
+	to { w, 48 }
+  }
+}
+
+48
+{
+  name { Hill }
+  desc {
+"   This is one of those places greater in altitude than the immediately
+surrounding area - providing a pretty good view and a scare for those
+afflicted with acute acrophobia. A rundown old shack occupies the western
+portion of the hill, there is a small garden east of here, and down the
+hill to the south is a small pool of water.
+  }
+  sector { Forest }
+  exits {
+	to { e, 47 }
+	to { s, 50 }
+	to { w, 49 }
+  }
+}
+
+49
+{
+  name { Shack }
+  desc {
+"   Either hastily or carelessly constructed, this room building does
+not lend any confidence in its stability, and could fall down any time
+now. The walls lean inward and have many spaces between the boards, the
+largest one being the east exit. The roof looks somewhat better, except
+for the gaping hole in the northwest corner.
+  }
+  extra {
+	keywords { wall walls" }
+	desc { They could fall down at any moment.
+	}
+	keywords { corner hole northwest nw" }
+	desc { It's a wide opening, which lets in light and a bit of the weather too.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 48 }
+  }
+}
+
+50
+{
+  name { By Pool }
+  desc {
+"   This depression is the lowest point in this valley, and as such has
+benefited from the water that accumulates here. Healthy green grasses
+border around it and lillies populate its surface.
+  }
+  sector { Field }
+  exits {
+	to { n, 48 }
+	to { e, 46 }
+	to { s, 53 }
+	to { w, 51 }
+  }
+}
+
+51
+{
+  name { Thicket }
+  desc {
+"   Small shrubs and various trees pack themselves together here among
+a lot of dry weeds and grasses. Off to the east can be seen a small
+pool of water. The thicket continues south from here.
+  }
+  sector { Forest }
+  exits {
+	to { e, 50 }
+	to { s, 52 }
+  }
+}
+
+52
+{
+  name { Thicket }
+  desc {
+"   Small shrubs and various trees pack themselves together here among
+a lot of dry weeds and grasses. The thicket continues north and east
+from this spot. An opening leads down into a hollow space to the west.
+  }
+  sector { Forest }
+  exits {
+	to { n, 51 }
+	to { e, 53 }
+	to { w, 55 }
+  }
+}
+
+53
+{
+  name { Thicket }
+  desc {
+"   Small shrubs and various trees pack themselves together here among
+a lot of dry weeds and grasses. To the north can be seen a small
+pool of water. The thicket continues west and south from here.
+  }
+  sector { Forest }
+  exits {
+	to { n, 50 }
+	to { s, 54 }
+	to { w, 52 }
+  }
+}
+
+54
+{
+  name { Thicket }
+  desc {
+"   Small shrubs and various trees pack themselves together here among
+a lot of dry weeds and grasses. Off to the east can be seen a narrow
+pathway. The thicket continues north from here.
+  }
+  sector { Forest }
+  flags { no_mob }
+  exits {
+	to { n, 53 }
+	to { e, 43 }
+  }
+}
+
+55
+{
+  name { Hollow }
+  desc {
+"   This small depression in the ground is roofed by the arching branches
+of the trees and bushes above. The ground is somewhat damp, but not quite
+soggy. There is an opening to the east.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 52 }
+  }
+}
+
+56
+{
+  name { 14256 }
+  desc {
+Empty
+  }
+}

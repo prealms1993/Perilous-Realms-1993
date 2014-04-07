@@ -1,0 +1,190 @@
+
+0
+{
+  name { An overturned cart }
+  desc {
+"   You have come across an overturned cart, lying in the middle of the
+road.  One of the wheels is still spinning.
+  }
+  sector { Field }
+  tele { 60, 1, 1 }
+  exits {
+	to { n, southern_path:1 }
+	to { s, southern_path:100 }
+  }
+}
+
+1
+{
+  name { Ambush! }
+  desc {
+"   Suddenly, a group of bandits leap from cover and attack!
+  }
+  sector { Field }
+  exits {
+	to { n, southern_path:1 }
+	to { s, southern_path:100 }
+	to { w, 3 }
+  }
+}
+
+2
+{
+  name { 402 }
+  desc {
+Empty
+  }
+}
+
+3
+{
+  name { A small path in the woods }
+  desc {
+"   You are standing on a small path in the woods.  To the east, the
+path leads further into the forest, while to the west, you can
+still see the cart, lying on the road.
+  }
+  sector { Field }
+  exits {
+	to { e, 1 }
+	to { w, 4 }
+  }
+}
+
+4
+{
+  name { A small path in the woods }
+  desc {
+"   The path turns north now.. You can hear shouts from up ahead,
+You must be almost upon the bandit camp!
+  }
+  sector { Field }
+  exits {
+	to { n, 5 }
+	to { e, 3 }
+  }
+}
+
+5
+{
+  name { Empty Camp }
+  desc {
+"   As you tear through the woods, you stumble out into a large
+round clearing.  There is a fire burning in the center of the
+grassy area, clearly it was just recently vacated.  Watch out for
+another ambush!
+  }
+  sector { Field }
+  tele { 20, 1, 6 }
+  exits {
+	to { s, 4 }
+  }
+}
+
+6
+{
+  name { Ambush! }
+  desc {
+"  Once again, the bandits jump from hiding, but this time there are
+several more of them, including the leader, a huge ogre...
+  }
+  sector { Field }
+  exits {
+	to { s, 8 }
+	to { w, 13 }
+  }
+}
+
+7
+{
+  name { A small clearing }
+  desc {
+"   You are standing in a large circular clearing in the forest.  There is a
+small fire still burning in the center of the clearing
+  }
+  sector { Field }
+  exits {
+	to { s, 8 }
+	to { w, 13 }
+  }
+}
+
+8
+{
+  name { A small path in the woods }
+  desc {
+"   You are standing on a small path in the woods.  The path
+leads north and east.  To the north is the bandit camp
+you just left, and to the east is the overturned cart.
+  }
+  sector { Field }
+  exits {
+	to { n, 7 }
+	to { e, 9 }
+  }
+}
+
+9
+{
+  name { A small path in the woods }
+  desc {
+"   You are standing on a small path in the woods, leading east
+and west.  To the east you can see an overturned cart
+  }
+  sector { Field }
+  exits {
+	to { e, 10 }
+	to { w, 8 }
+  }
+}
+
+10
+{
+  name { An overturned cart }
+  desc {
+"   You are standing next to an overturned cart.  The wheels
+have ceased turning, and all is quiet
+  }
+  sector { Field }
+  exits {
+	to { n, southern_path:1 }
+	to { s, southern_path:100 }
+	to { w, 9 }
+  }
+}
+
+13
+{
+  name { Another small trail }
+  desc {
+"   You are standing on another small trail leading east and west.
+You hear movement to the west
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { e, 7 }
+	to { w, 14 }
+  }
+}
+
+14
+{
+  name { A shallow pit }
+  desc {
+"   You have stumbled across the (modest) treasure of the bandits.
+Of course, you'll have to get past the guardian first.
+  }
+  sector { Field }
+  exits {
+	to { e, 13 }
+  }
+}
+
+100
+{
+  name { 500 }
+  desc {
+Empty
+  }
+}

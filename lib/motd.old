@@ -1,0 +1,59 @@
+
+IMPORTANT NEW STUFF:
+Teleport rooms use events now.  Like river rooms, their timing is much more
+reliable now.  They can also, like rivers now, be nearly any speed (1 being
+the fastest).
+
+River rooms use events now.  Their timing should be much more reliable (i.e.,
+unless they're fast they won't trigger immediately when you enter ... if you
+enter and then someone else does, you'll flow down the river first).  Builders
+no longer have to make rivers a certain range of speeds, but can instead
+specify nearly anything (but beware, a speed of 1 is pretty darned fast).
+
+Spells can be non-verbal, etc.  This means some spells don't make as much
+noise and don't give as much forewarning.  You can now target spells without
+your targets being checked until the completion of the spell.  You can now
+use the keywords "self", "me" or "myself" in many places to refer to yourself
+without using your name.
+
+The event system was entirely redone, as was mobile death.  This will
+hopefully speed up things, kick out a few bugs, etc.
+
+Many minor bugs were fixed.  There may be more out there lurking, so remember
+to report them if you find them, and try to tell us how we can duplicate the
+effect ourselves.
+
+Varying attack speeds are in.  Your speed depends upon several factors,
+including your choice of weapon.  It's a bit different and may take getting
+used to.  Leave comments to us, as usual.  Right now secondary weapons aren't
+of much use, but I plan to remedy it later.
+
+AID is a skill now instead of a spell.  It has been adjusted to work as
+described in the help on the subject.
+
+Passwords will now expire and also are required to be a bit more secure.  The
+MOTD will only show up if it is newer than the last time you read it.  You can
+still read it via the MOTD command, of course.  Your last logon date and site
+are shown for your security.  A new command, FINGER, allows you to view some
+information about other players.  You can enter in your own finger information
+at the main menu.
+
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+***---> WARNING: QUITTING AT THE FOUNTAIN WILL *NOT* RENT YOU ANYMORE <---***
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
+Some IMPORTANT help you should read:
+DEFAULTSPELL, SKILLS, SPELLS, CHANGES, DEATH, PRAY, STORAGE, MULTIPLAY, AGGR,
+PRIORITY, SACRIFICE, PROFICIENCY, MOTD, CONSENT, DAMAGED ITEMS, INSURANCE,
+CHOOSE, LOCATIONS, COMBAT, EXITS, EXPERIENCE, PROMPT, CODES, MAIL, MUD_INFO
+
+You should REALLY read these as they are not the same as any other mud.
+If you dont read some of them you can get into BIG trouble!
+
+NOTE: AUTOROLLING PROGRAMS ARE *VERY* LIKELY TO GET YOUR SITE BANNED
+^^^^
+
+Not sure why the game keeps dying looks like a possible swap memory problem
+if it dies again while i'm at work it will probably stay down unless scarrow
+shows up.
+

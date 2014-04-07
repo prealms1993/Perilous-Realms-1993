@@ -1,0 +1,183 @@
+0
+{
+  name { The Void }
+  desc {
+"  Just a big boring void....
+  }
+  sector { City }
+  flags { no_mob, indoors, peaceful, no_sum, private }
+}
+ 
+1
+{
+  name { Limbo }
+  desc {
+"   You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+  }
+  sector { City }
+  flags { no_mob, indoors, peaceful, no_sum, private }
+}
+ 
+2
+{
+  name { Beyond Reality }
+  desc {
+"   This place exists.... Beyond Reality.
+  }
+  flags { indoors, no_goto, rent_room }
+}
+ 
+3
+{
+  name { Storage }
+  desc {
+"   This is where link-dead characters stuff is kept.  However, It could be
+an indication of an attempt at cheating.  PS.  This is a death room to keep
+the mortals out.
+  }
+  sector { City }
+  flags { dark, death, no_sum, private, no_goto }
+}
+ 
+4
+{
+  name { Storage }
+  desc {
+"   This is where link-dead characters stuff is kept.  However, It could be
+an indication of an attempt at cheating.  PS.  This is a death room to keep
+the mortals out.
+  }
+  sector { City }
+  flags { dark, death, no_sum, private, no_goto }
+}
+ 
+2999
+{
+  name { Fake Entrance }
+  desc {
+ You shouldnt really be here.. ignore this room
+  }
+  flags { indoors }
+}
+ 
+3000
+{
+  name { Fake Fountain }
+  desc {
+ Your not here you didnt see this room build around it ;)
+  }
+  flags { indoors }
+}
+ 
+3118
+{
+  name { Fake Dump 1 }
+  desc {
+Your not here you didnt see this room build around it ;)
+  }
+  flags { indoors }
+}
+ 
+3119
+{
+  name { Fake Dump 2 }
+  desc {
+Your not here you didnt see this room build around it ;)
+  }
+  flags { indoors }
+}
+ 
+3031
+{
+  name { Fake Hospital }
+  desc {
+Your not here you didnt see this room build around it ;)
+  }
+  flags { indoors }
+}
+ 
+3054
+{
+  name { Fake Alter Room }
+  desc {
+Your not here you didnt see this room build around it ;)
+  }
+  flags { indoors }
+}
+ 
+3014
+{
+  name { Fake Bank }
+  desc {
+Your not here you didnt see this room build around it ;)
+  }
+  flags { indoors }
+}
+ 
+1000
+{
+  name { The platform above a blank world }
+  desc {
+Your standing on a platform high above a chunk of something that looks like
+a world under construction. You see lots of signs of construction going on
+down below, maybe you should go down and help them..
+There is a SIGN here.
+  }
+  flags { indoors }
+  extra {
+        keywords { sign }
+        desc { 
+Please be aware V2 is not going to be a Dikumud based server. The new server
+will allow for ALOT of things that are different (rooms within rooms within
+objects within people etc etc) (a room within a whale.. a room inside a tree
+and so on will all be possible). For now your building on the V1 server for
+V2 until we can get V2 done enough for building.
+ALSO please note that in V2 the emphasis wont be on as much combat as it will
+be on ROLEPLAYING *ALL* areas should encourage THINKING and roleplaying as
+much as possible. At present I'm trying to work out a skills based system
+which means no levels and no exp (no pracs either) things will be learned
+based by doing them and difficulty (and other things) you need to plan around
+ALL of this and not plan on as much combat as V1 had. All puzzles locks etc
+will have a difficulty level rating please keep a track of what you want them
+set at as you make them so that they can be set later!
+ 
+*ANY* Builder who is not active will be replaced/removed! I expect you to
+make all meetings that I post on the crl site (which means check in each day
+on crl) meetings will be held here. I dont want a bunch of people who are just
+going to goof off all the time.. If you cant make a meeting notify a 2009+
+  }
+ }
+}
+ 
+15
+{
+  name { Work Room of the Lords }
+  desc {
+"    This is where the lords are supposed to be working away hard at helping
+the imps get done what needs to be done asap. If your not a lord and your in
+here you had better hope your up for promotion or you can pass through walls.
+There is a board nailed up on the wall with a list of things to do.
+  }
+  flags { lord_only }
+}
+ 
+6999
+{
+  name { Fake Hell }
+  desc {
+Your not here you didnt see this room build around it ;)
+  }
+}
+ 
+49
+{
+  name { Monster Storage }
+  desc {
+"   This is where the errant monsters are stored.  I don't know why they
+are in here, but they seem to show up often enough.
+  }
+  flags { indoors }
+}

@@ -1,0 +1,4914 @@
+#0
+LIMBO~
+49 1 0
+M 0 1 1 3005		Puff
+O 0 3097 2 2       imp board
+O 0 3097 2 15      imp board
+S
+#1
+Temple Extensions~
+249 60 2
+* donation room.
+O 0 1 5 99 10
+O 0 2 5 99 10
+O 0 3 5 99 10
+O 0 4 5 99 10
+O 0 5 5 99 10
+O 0 6 5 99 10
+O 0 7 5 99 10
+O 0 8 5 99 10
+O 0 9 5 99 10
+O 0 10 5 99 10
+O 0 11 5 99 10
+O 0 12 5 99 10
+O 0 13 5 99 10
+*
+M 0 201 5 101
+M 0 202 5 101
+G 1 2 100
+M 0 203 5 102
+G 1 12 100
+M 0 204 5 103
+M 0 205 5 104
+M 0 206 5 105
+G 1 13 100
+M 0 207 5 106
+M 0 208 5 107
+M 0 209 5 108
+G 1 3 100
+M 0 210 5 109
+M 0 211 5 110
+G 1 13 100
+M 0 212 5 111
+G 1 5 100
+M 0 213 5 112
+M 0 214 5 113
+M 0 215 5 114
+G 1 4 100
+M 0 216 5 115
+M 0 217 5 116
+G 1 11 100
+M 0 218 5 117
+M 0 219 5 118
+M 0 220 5 119
+G 1 6 100
+M 0 221 5 120
+M 0 222 5 121
+M 0 223 5 122
+G 1 14 100
+M 0 224 5 123
+M 0 225 5 124
+M 0 226 5 125
+G 1 7 100
+M 0 227 5 126
+M 0 228 5 127
+M 0 229 5 128
+M 0 230 5 129
+G 1 8 100
+M 0 231 5 130
+M 0 232 5 131
+M 0 233 5 132
+G 1 9 100
+M 0 234 5 133
+G 1 247 5
+M 0 235 5 134
+M 0 236 5 135
+M 0 237 5 136
+G 1 3022 100
+M 0 238 5 137
+M 0 239 5 138
+G 1 10 100
+M 0 240 5 139
+M 0 241 5 140
+G 1 41 20
+M 0 242 5 141
+M 0 243 5 142
+G 1 3973 3
+M 0 244 5 143
+M 0 245 5 143
+M 0 246 5 144
+M 0 247 5 145
+M 0 247 5 146
+G 1 3025 100
+M 0 248 5 147
+M 0 249 5 148
+M 0 250 5 149
+M 0 251 5 150
+M 0 252 5 151
+G 1 42  20
+M 0 253 5 152
+G 1 3023 100
+M 0 254 5 153
+M 0 255 5 154
+M 0 256 5 154
+G 1 3025 100
+M 0 257 5 155
+G 1 244  10		Has a wand of Magic Missile
+M 0 258 5 156
+S
+#3
+Shark's domain~
+305 30 1
+M 0 199 4 304
+S
+#4
+The ambush~
+499 11 1
+M 0 4112 29 401   ; the bugbear
+E 1 51 3 16     ; a flail
+M 0 4112 29 401   ; the bugbear
+E 1 51 3 16     ; a flail
+M 0 4112 29 401   ; the bugbear
+E 1 51 3 16     ; a flail
+M 0 4112 29 401   ; the bugbear
+E 1 50 1 16     ; a mace
+M 0 4112 29 401   ; the bugbear
+E 1 47 3 16     ; a spear
+M 0 4113 14 401   ; the ogre
+E 1 3091 2 16   ; A battle axe
+M 0 4112 29 403   ; the bugbear
+E 1 49 1 16     ; a mace
+M 0 4112 29 406   ; the bugbear
+E 1 48 3 16     ; a spear
+M 0 4112 29 406   ; the bugbear
+E 1 48 3 16     ; a spear
+M 0 4112 29 406   ; the bugbear
+E 1 47 3 16     ; a spear
+M 0 4112 29 406   ; the bugbear
+E 1 47 3 16     ; a spear
+G 1 42 6 0      ; a knife
+M 0 4113 14 406   ; the ogre
+E 1 52 3 16     ; a flail
+M 0 4113 14 406   ; the ogre
+E 1 52 3 16     ; a flail
+M 0 4113 14 406   ; the ogre
+E 1 52 3 16     ; a flail
+M 0 261 2 406   ; a hill giant
+E 1 3091 2 16   ; A battle axe
+G 1 48 3 0      ; a spear
+O 0 101 1 413   ; A blade trap
+M 0 4000 2 414   ; the snake
+G 1 5032 2 0    ; a fiery green emerald
+G 1 3056 46 0   ; a golden potion
+G 1 3056 46 0   ; a golden potion
+G 1 5239 2 0    ; A dull grey stone
+S
+#6
+Pinball game~
+699 21 0
+*
+S
+#7
+The Chaos guild hall~
+799 15 2
+*
+D 0 700 4 1
+D 0 701 2 2
+D 0 702 0 2
+D 0 706 2 2
+D 0 707 4 2
+*
+M 0 700 1 709
+G 1 3010 700
+G 1 6013 700
+E 1 3022 700 16
+*
+D 0 710 0 2
+D 0 712 1 2
+D 0 713 3 2
+D 0 713 5 2
+O 0 702 1 713
+O 0 714 1 714
+D 0 714 1 2
+D 0 6125 3 2
+S
+#10
+Asgard~
+1099 30 0
+O 0 3098 1 1000		Bulletin board for gods in Asgard
+S
+#11
+SHIRE~
+1199 35 2
+O 0 1102 1 1103		Sign
+M 0 1018 1 1105  	General Store Shopkeeper
+G 1 8121 999		bags
+G 1 6004 999		lanterns
+M 0 1020 1 1107		Blacksmith
+G 1 5002 5		Halberd
+G 1 7191 5		gold ring
+G 1 20004 5		visor
+G 1 21003 5 		strange boots
+G 1 21005 5		metallic shield
+M 0 1004 2 1108		Nursemaids
+M 0 1004 2 1108
+M 0 1003 6 1108		Toddlers
+M 0 1003 6 1108
+M 0 1003 6 1108
+M 0 1003 6 1108
+M 0 1003 6 1108
+M 0 1003 6 1108
+M 0 1010 8 1110		Non-mobile shiriffs
+E 1 1109 3 16		Tiny dagger
+E 1 3043 100 5		Leather armour
+M 0 1010 8 1110
+E 1 3043 100 5
+M 0 1011 4 1110		Mobile shiriff
+E 1 3043 100 5
+M 0 1012 1 1111		Thain
+E 1 3022 100 16		Long sword
+E 1 1108 5 13
+M 0 1028 4 1114		Country bumpkin
+G 1 255  10
+M 0 1028 4 1115		Country bumpkin
+M 0 1013 1 1116		Innkeeper - Ivy Bush
+G 1 1110 999		eggs
+G 1 3002 999		ale
+G 1 3100 999		cups
+M 0 1023 4 1116		Seasoned adventurers
+M 0 1023 4 1116
+M 0 1024 2 1116		Gossips
+M 0 1024 2 1116
+M 0 1027 7 1116		Chic urbanites
+M 0 1027 7 1116
+M 0 1027 7 1116
+M 0 1021 1 1117		Battle master
+M 0 1026 3 1117		Trainees
+E 1 3021 100 16		Small sword
+M 0 1026 3 1117
+E 1 3021 100 16
+M 0 1026 3 1117
+E 1 3021 100 16
+M 0 1010 8 1119		Non-mobile shiriffs
+E 1 1109 3 16		Tiny dagger
+E 1 3043 100 5
+M 0 1010 8 1119
+E 1 3043 100 5
+M 0 1011 4 1119		Mobile shiriff
+E 1 3043 100 5
+M 0 1019 1 1121		Grocer
+G 1 1103 999		bread
+M 0 1015 6 1123		Mill workers
+M 0 1015 6 1123
+M 0 1015 6 1124
+M 0 1015 6 1124
+M 0 1015 6 1124
+M 0 1014 1 1124		Miller
+M 0 1015 6 1125		Mill workers
+M 0 1022 9 1127		Halfing youths
+M 0 1022 9 1127
+M 0 1022 9 1127
+M 0 1022 9 1129
+M 0 1022 9 1129
+M 0 1022 9 1129
+M 0 1022 9 1130
+M 0 1022 9 1130
+M 0 1022 9 1130
+M 0 1025 1 1128		Beauty
+M 0 1000 1 1128		Wizard
+E 1 1104 1 12		Silvery cloak
+E 1 1100 1 0		Rainbow staff
+M 0 1016 1 1136		Elven warrior
+E 1 1106 1 16		Elven bow
+E 1 3075 25 6		Bronze helmet
+M 0 1017 1 1136		Dwarven prince
+E 1 1107 1 16		Mithril axe
+E 1 3046 10 5		Bronze breast plate
+M 0 1001 1 1137		Ring keeper
+E 1 1101 1 16		Sting
+E 1 1105 1 1		One ring
+E 1 3080 15 7		Bronze leggings
+M 0 1008 1 1138		Bull
+M 0 1006 5 1139		Pigs
+M 0 1006 5 1139
+M 0 1006 5 1139
+M 0 1006 5 1139
+M 0 1006 5 1139
+M 0 1002 1 1141		Farmer Gamgee
+M 0 1005 3 1142		Cows
+M 0 1005 3 1142
+M 0 1005 3 1142
+M 0 1009 4 1142		Horses
+M 0 1009 4 1142
+M 0 1009 4 1142
+M 0 1009 4 1142
+M 0 1007 6 1143		Chickens
+G 1 1110 100		egg
+M 0 1007 6 1143
+G 1 1110 100
+M 0 1007 6 1143
+G 1 1110 100
+M 0 1007 6 1143
+G 1 1110 100
+M 0 1007 6 1143
+G 1 1110 100
+M 0 1007 6 1143
+G 1 1110 100
+M 0 1030 1 1144		Innkeeper - Green Dragon
+G 1 1110 999		eggs
+G 1 3002 999		ale
+G 1 3100 999		cups
+M 0 1031 1 1157         receptionist - green dragon
+M 0 1023 6 1144		Seasoned adventurers
+M 0 1023 6 1144
+M 0 1023 6 1144
+M 0 1027 7 1144		Chic urbanites
+M 0 1027 7 1144
+M 0 1027 7 1144
+M 0 1027 7 1144
+M 0 1010 8 1145		Non-mobile shiriffs
+E 1 1109 3 16		Tiny daggers
+E 1 3043 100 5		Leather armour
+M 0 1010 8 1145
+E 1 3043 100 5
+M 0 1011 4 1145		Mobile shiriff
+E 1 3043 100 5
+M 0 1010 8 1153		Non-mobile shiriffs
+E 1 1109 3 16		Tiny daggers
+E 1 3043 100 5		Leather armour
+M 0 1010 8 1153
+E 1 3043 100 5
+M 0 1011 4 1153		Mobile shiriff
+E 1 3043 100 5
+M 0 1028 4 1154		Country bumpkin
+M 0 1028 4 1155		Country bumpkin
+S
+#21
+The Wasteland~
+2199 25 2
+*
+D 0 2120 3 1  Door to Stone Shelter
+D 0 2140 1 1
+*
+D 0 2140 5 1  Grate under Stone Shelter
+D 0 2135 4 1
+*
+D 0 2113 5 1  Cover to Well
+D 0 2141 4 1
+*
+D 0 2128 0 1  Door to building with Harpies
+D 0 2145 2 1
+*
+D 0 2148 2 1  Door to the Gorgons
+D 0 2150 0 1
+*
+D 0 2155 0 1  Door to the cage
+D 0 2156 2 1
+*
+D 0 2130 5 1  The plate
+D 0 2165 4 1
+*
+D 0 2175 2 1  Door to the Lesser Gods
+D 0 2176 0 1
+*
+D 0 2187 0 1  Door to the Furies
+D 0 2188 2 1
+*
+D 0 2195 2 1  Door from Alcove to Field
+D 0 2194 0 1
+*
+D 0 2151 2 1  Curtain to Proserpina's Bath
+D 0 2160 0 1
+*
+D 0 2193 5 2  Grate to the Hydra
+D 0 2196 4 2
+*
+M 0 2102 30 2126
+M 0 2102 30 2126
+G 1 2101 10
+M 0 2102 30 2126
+G 1 2103 10
+M 0 2102 30 2126
+G 1 2105 10
+M 0 2102 30 2126
+G 1 2102 10
+M 0 2102 30 2126
+G 1 2104 10
+M 0 2102 30 2126
+G 1 2108 10
+M 0 2102 30 2126
+G 1 2106 10
+*
+M 0 2102 30 2115
+G 1 2109 10
+M 0 2102 30 2115
+G 1 2112 10
+M 0 2102 30 2115
+G 1 2110 10
+M 0 2102 30 2115
+*
+M 0 2102 30 2112
+G 1 2107 10
+M 0 2102 30 2112
+G 1 2111 10
+M 0 2102 30 2112
+G 1 2100 10
+M 0 2102 30 2112
+*
+M 0 2101 15 2128
+M 0 2101 15 2128
+M 0 2101 15 2128
+M 0 2101 15 2129
+M 0 2101 15 2129
+M 0 2101 15 2129
+M 0 2101 15 2130
+M 0 2101 15 2130
+M 0 2101 15 2130
+*
+M 0 2105 1 2149  Harpies
+E 1 2123 6 3      amulet
+M 0 2104 1 2149
+G 1 2139 4        candlestick
+M 0 2103 1 2149
+E 1 2121 6 12     brown cloak
+*
+M 0 2106 1 2142  Statue of Hades
+E 1 2120 6 16     fork
+*
+M 0 2109 1 2150 Gorgons
+E 1 2124 6 16
+E 1 2127 6 11
+M 0 2108 1 2150
+E 1 2125 6 3
+M 0 2107 1 2150
+E 1 2126 6 3
+*
+M 0 2110 1 2156 Monoceros
+G 1 2128 6
+*
+M 0 2113 1 2188 Furies
+E 1 2131 6 14
+M 0 2112 1 2188
+E 1 2130 6 14
+M 0 2111 1 2188
+E 1 2129 6 8
+*
+M 0 2114 1 2176 The Lesser Gods
+E 1 2133 6 5
+M 0 2115 1 2176
+E 1 2132 6 16
+M 0 2116 1 2176
+E 1 2134 6 12
+*
+M 0 2117 8 2170 Hounds
+M 0 2117 8 2162
+M 0 2117 8 2158
+M 0 2117 8 2158
+M 0 2117 8 2158
+M 0 2117 8 2158
+M 0 2117 8 2158
+M 0 2117 8 2158
+*
+M 0 2118 1 2158 Hecate
+E 1 2135 6 1
+E 1 2150 6 16
+G 1 2138 1
+G 1 2141 1
+*
+M 0 2119 1 2151 Proserpina
+E 1 2147 3 7
+E 1 2148 3 5
+E 1 2149 3 8
+E 1 2151 3 13
+E 1 2122 6 1      emerald ring
+G 1 2153 2
+M 0 2121 6 2151 Eunuchs
+G 1 2137 4
+M 0 2121 6 2151
+G 1 2140 4
+M 0 2121 6 2151
+M 0 2121 6 2151
+*
+M 0 2122 1 2139 Hypnos
+E 1 2136 6 6
+G 1 2145 5
+G 1 2156 6
+G 1 2156 6
+*
+M 0 2120 1 2189 Hades
+E 1 2142 3 6
+E 1 2143 3 16
+E 1 2144 3 9
+E 1 2155 2 14
+E 1 2155 2 15
+G 1 1311 2      Totem
+G 1 2152 1      Black Key
+M 0 2123 9 2189 Larger Hounds
+M 0 2123 9 2189
+M 0 2123 9 2189
+M 0 2123 9 2189
+M 0 2123 9 2189
+M 0 2123 9 2189
+*
+M 0 2124 1 2196 Hydra
+E 1 2154 1 10
+E 1 2157 1 17
+*
+O 0 2146 6 2160 Grapes in Proserpina's Chamber
+S
+#1400
+The Chessboard~
+1499 20 2
+*
+D 0 1499 3 1		close gate from entrance
+D 0 1498 1 1		    from other side
+*
+M 0 1400 1 1400		black rook
+M 0 1401 1 1401		knight
+M 0 1402 1 1402		bishop
+M 0 1403 1 1403		queen
+M 0 1404 1 1404		king
+M 0 1405 1 1405		bishop
+M 0 1406 1 1406		knight
+M 0 1407 1 1407		rook
+M 0 1408 1 1408		pawn
+M 0 1409 1 1409		"
+M 0 1410 1 1410
+M 0 1411 1 1411
+M 0 1412 1 1412
+M 0 1413 1 1413
+M 0 1414 1 1414
+M 0 1415 1 1415		last black pawn
+M 0 1417 4 1446		mini mindflayer
+M 0 1417 4 1417		mini mindflayer
+M 0 1418 2 1418		Curser
+M 0 1418 2 1443		Curser
+M 0 1419 3 1419		cow
+M 0 1419 3 1419		cow
+M 0 1419 3 1419		cow
+E 1 1413 4 3		  cow bell
+M 0 1420 3 1420		Net lag
+M 0 1420 3 1422		Net lag
+M 0 1421 3 1421		sapling
+M 0 1421 3 1440		sapling
+E 1 1411 10 17		  scroll of detect poison/light
+M 0 1421 3 1441		sapling
+M 0 1428 3 1428		Jugglernaut
+G 1 3102 1000		  a cup
+G 1 3102 1000		  a cup
+G 1 3102 1000		  a cup
+G 1 3102 1000		  a cup
+G 1 3102 1000		  a cup
+G 1 3102 1000		  a cup
+G 1 3010 1000		  a bread
+M 0 1428 3 1444		Jugglernaut
+G 1 3102 1000		  a cup
+G 1 3102 1000		  a cup
+G 1 3102 1000		  a cup
+G 1 3102 1000		  a cup
+G 1 3102 1000		  a cup
+G 1 3102 1000		  a cup
+G 1 3060 1000		  a raft
+M 0 1433 5 1433		Mutterfly
+M 0 1433 5 1433		Mutterfly
+M 0 1433 5 1430		Mutterfly
+M 0 1433 5 1430		Mutterfly
+M 0 1437 2 1437		peel
+M 0 1437 2 1425		peel
+M 0 1448 1 1448		white pawn
+M 0 1449 1 1449		pawn
+M 0 1450 1 1450		pawn
+M 0 1451 1 1451		pawn
+M 0 1452 1 1452		pawn
+M 0 1453 1 1453		pawn
+M 0 1454 1 1454		pawn
+M 0 1455 1 1455		last white pawn
+M 0 1456 1 1456		rook
+M 0 1457 1 1457		knight
+M 0 1458 1 1458		bishop
+M 0 1459 1 1459		queen
+M 0 1460 1 1460		king
+M 0 1461 1 1461		bishop
+M 0 1462 1 1462		knight
+M 0 1463 1 1463		rook
+M 0 1470 1 1470		Jabberwocky
+G 1 1421 1		  Vorpal blade
+M 0 1471 1 1432		pair of medics
+M 0 1472 1 1472		Flame
+G 1 1420 1		  leggings
+M 0 1494 4 1406		beast
+M 0 1494 4 1407		beast
+O 0 4103 12 1407	mold
+M 0 1494 4 1414		beast
+M 0 1494 4 1415		beast
+M 0 1493 1 1414		delivery beast
+G 1 4103 11 		  slime mold
+M 0 1496 4 1448		elf
+O 0 1410 1 1448		sack of flour
+M 0 1496 4 1449		elf
+E 1 1414 10 17		  sleep/armor potion
+M 0 1496 4 1456		elf
+M 0 1496 4 1457		elf
+M 0 1495 1 1414		delivery elf
+M 0 1497 1 1423		Cheshire cat
+G 1 3051 50		  see invis potion
+M 0 1498 8 1426		pigeon
+M 0 1498 8 1445		pigeon
+M 0 1498 8 1442		pigeon
+M 0 1498 8 1429		pigeon
+M 0 1499 1 1499		Sisyphus
+E 1 1430 1 16		  sword of the Phoenix (not for mortals)
+*
+S
+#30
+New Midgard~
+3399 23 2
+*
+*
+M 0 3054 1 3000 insurance man
+*M 0 25001 1 3000    ; keftab at the fountain in midgard
+*E 1 25004 3 6       ; The Helm of the Dragons          
+*E 1 25001 3 3        ; A pile of blue silk             
+*E 1 25013 1 1         ; A Black Onyx Ring              
+*E 1 30004 5 4         ; A black cloak                  
+*E 1 25005 6 5         ; A Rune Covered Breast Plate    
+*E 1 25010 6 9         ; A Pair of Jeweled Gauntlets    
+*E 1 25012 1 14       ; A Flaming Bracelet              
+*E 1 25012 1 15       ; A Flaming Bracelet              
+*E 1 25000 3 16        ; The Sword of the Ancients      
+*E 1 25006 6 8        ; A Pair of Silver Boots
+*
+*
+*M 0 3055 6 2999 ; taxman
+*M 0 3055 6 3030 ; taxman
+*M 0 3055 6 3000 ; taxman
+*M 0 3055 6 25106 ; taxman
+*M 0 3055 6 11026 ; taxman
+*M 0 3055 6 1157 ; taxman
+*
+D 0 3114 5 1        grate to sewer
+D 0 3360 3 2   ; Council Chambers
+D 0 3060 4 2   ; town hall to chambers
+D 0 3360 5 2   ; Council Chambers
+D 0 3361 1 2   ; The Mayors Office
+*
+O 0 3096 1 3360        board in chambers
+O 0 3095 1 1002        Creators board in 1002
+O 0 3099 5 2999        board in entrance
+O 0 3099 5 3005        board at square
+*
+O 0 3135 5 3000        fountain
+*
+M 0 3001 1 3010        ; baker
+G 1 3010 100
+G 1 3011 100
+*
+M 0 3040 1 3076        ; barkeeper
+G 1 3000 100
+G 1 3001 100
+*
+M 0 3003 1 3109        ; weaponsmith
+G 1 3020 500                    dagger
+G 1 3021 500                    small
+G 1 3022 500                    long
+G 1 3023 500                    club
+G 1 3024 500                    hammer
+E 1 3040 500  5            wears plate armor
+E 1 3073 500  9            wears plate gloves
+E 1 3077 500  6            wears steel helm
+E 1 3082 500  7            wears plate leggings
+E 1 3087 500  10           wears plate sleeves
+E 1 6111 500  11           wears large shield
+*
+M 0 3004 1 3108        ; armorer
+G 1 3040 500                    breast plate
+G 1 3041 500                    chain mail shirt
+G 1 3042 500                    wooden shield
+G 1 3043 500                    tough leather jacket
+G 1 3044 500                    studded leather
+G 1 3045 500                    scale mail
+G 1 3046 500                    bronze plate
+G 1 3070 500                    bronze gauntlets
+G 1 3071 500                    leather gloves
+G 1 3072 500                    chain gauntlets
+G 1 3073 500                    plate gauntlets
+G 1 3074 500                    studded gauntlets
+G 1 3075 500                    bronze helm
+G 1 3076 500                    leather cap
+G 1 3077 500                    steel helm
+G 1 3078 500                    chain helm
+G 1 3079 500                    leather helm
+G 1 3080 500                    bronze leggings
+G 1 3081 500                    leather pants
+G 1 3082 500                    plate
+G 1 3083 500                    chain
+G 1 3084 500                    studded
+G 1 3084 500                    studded
+G 1 3085 500                    bronze sleeves
+G 1 3086 500                    leather sleeves
+G 1 3087 500                    plate
+G 1 3088 500                    chain
+G 1 3089 500                    studded
+E 1 3040 500 5             wears plate armor
+E 1 3073 500 9             wears plate gloves
+E 1 3077 500 6             wears steel helm
+E 1 3082 500 7             wears plate leggings
+E 1 3087 500 10            wears plate sleeves
+E 1 6111 500 11            wears large shield
+*
+M 0 3000 1 3126        ; wizard
+G 1 3050 500                Give scroll identify
+G 1 3051 500                Give potion of see invisible.
+G 1 3052 500                Give ...scroll recall
+G 1 3053 500                Give ...wand invis
+G 1 3054 500                Give ...staff sleep
+G 1 3055 500                Give ...potion remove poison
+G 1 3056 500                give ...potion healing (cure critic)
+G 1 3055 500                Give ...potion remove poison
+G 1 3056 500                give ...potion healing (cure critic)
+G 1 3055 500                Give ...potion remove poison
+G 1 3056 500                give ...potion healing (cure critic)
+M 0 3006 1 3066        ; captain
+G 1 3060 20              Give a raft to the captain
+G 1 3061 10              Give canoe to Captain
+*
+M 0 3020 1 3237       The Magic Users Guildmaster
+G 1 30006 1           Rod of Absorbtion.
+M 0 3021 1 3226       The Clerics Guildmaster
+M 0 3022 1 3236      The Thieves Guildmaster
+M 0 3023 1 3235      The Warrior's Guildmaster
+E 1 3040 100   5                   wears plate armor
+E 1 3073 100   9                   wears plate gloves
+E 1 3077 100   6                   wears steel helm
+E 1 3082 100   7             wears plate leggings
+E 1 3087 100   10                  wears plate sleeves
+E 1 6111 100   11                  wears large shield
+*
+*
+M 0 3024 1 3123      The Sorcerer Guard
+G 1 239  10             Has a wand of fireballs
+*
+M 0 3025 1 3018      The Priest Guard
+E 1 3040 100   5                   wears plate armor
+E 1 3073 100   9                   wears plate gloves
+E 1 3077 100   6                   wears steel helm
+E 1 3082 100   7             wears plate leggings
+E 1 3087 100   10                  wears plate sleeves
+E 1 6111 100   11                  wears large shield
+*
+M 0 3026 1 3113      The Assasin Guard
+*
+M 0 3027 1 3091      The Knight Guard
+E 1 3040 100   5                   wears plate armor
+E 1 3073 100   9                   wears plate gloves
+E 1 3077 100   6                   wears steel helm
+E 1 3082 100   7             wears plate leggings
+E 1 3087 100   10                  wears plate sleeves
+E 1 6111 100   11                  wears large shield
+*
+M 0 3029 1 3227      Paladin GM
+M 0 3039 1 3019      paladin guard
+M 0 3028 1 3229      ranger gm
+M 0 3038 1 3054      ranger guard
+M 0 3030 1 3233      cavalier gm
+M 0 3008 1 3079      cavalier guard
+M 0 3031 1 3232      barbarian
+M 0 3009 1 3080      barbarian guard
+M 0 3032 1 3228      druid gm
+M 0 3010 1 3023      druid guard
+M 0 3033 1 3242      illusionist
+M 0 3011 1 3125      illusionist guard
+M 0 3034 1 3230      bard gm
+M 0 3012 1 3057      bard guard
+M 0 3035 1 3234      ninja gm
+M 0 3013 1 3078      ninja guard
+M 0 3036 1 3244      assassin gm
+M 0 3014 1 3139      assassin guard
+M 0 3037 1 3243      avenger gm
+M 0 3015 1 3140      avenger guard
+*
+M 0 3060 10 3018     CityGuard 1
+E 1 3022 100 16            wields a longsword
+E 1 3041 100   5                   chain mail
+E 1 3072 100   9                   wears chain gloves
+E 1 3078 100   6                   wears chain helm
+E 1 3083 100   7             wears chain leggings
+E 1 3088 100   10                  wears chain sleeves
+E 1 6111 100   11                  wears large shield
+*
+M 0 3060 10 3001     CityGuard 2
+E 1 3025 100 16            wields a battle axe
+E 1 3041 100   5                   chain mail
+E 1 3072 100   9                   wears chain gloves
+E 1 3078 100   6                   wears chain helm
+E 1 3083 100   7             wears chain leggings
+E 1 3088 100   10                  wears chain sleeves
+E 1 6111 100   11                  wears large shield
+*
+*
+* CHANGE ALL THIS
+*
+*
+*
+*
+*M 0 3070 2 15000       Repair Guy
+*E 1 43 5 16            wields Tracker (a longsword)
+*
+*
+M 0 3070 2 3106        Repair Guy
+E 1 3040 500 5		   wears plate armor
+E 1 3073 500 9		   wears plate gloves
+E 1 3077 500 6		   wears steel helm
+E 1 3082 500 7             wears plate leggings
+E 1 3087 500 10		   wears plate sleeves
+E 1 6111 500 11		   wears large shield
+*
+M 0 3002 1 3009       The grocer
+G 1 1000 100
+G 1 1001 100
+G 1 3030 100
+G 1 3031 100
+G 1 3032 100
+*
+*
+M 0 3005 1 3030       The receptionist
+*
+*
+*
+M 0 3045 1 3029       The Fighters Waiter  owls nest
+G 1 3002 100
+G 1 3003 100
+G 1 3004 100
+*
+*M 0 3044 1 3076       The Thiefs Waiter     silver feather
+*G 1 3003 100
+*G 1 3004 100
+*
+M 0 3069 14 3031      CityGuard 1
+E 1 3090 100 16                 (2-handed sword)
+F 1 7 3950 -1 -1
+M 0 3069 14 3066      CityGuard 1
+E 1 3090 100 16                 (2-handed sword)
+F 1 7 3950 -1 -1
+M 0 3069 14 3076      CityGuard 1
+E 1 3090 100 16                 (2-handed sword)
+F 1 7 3950 -1 -1
+M 0 3069 14 3012      CityGuard 1
+E 1 3090 100 16                 (2-handed sword)
+F 1 7 3950 -1 -1
+M 0 3069 14 3014      CityGuard 1
+E 1 3090 100 16                 (2-handed sword)
+F 1 7 3950 -1 -1
+M 0 3069 14 3027      CityGuard 1
+E 1 3090 100 16                 (2-handed sword)
+F 1 7 3950 -1 -1
+M 0 3069 14 3034      CityGuard 1
+E 1 3090 100 16                 (2-handed sword)
+F 1 7 3950 -1 -1
+M 0 3069 14 3052      CityGuard 1
+E 1 3090 100 16                 (2-handed sword)
+F 1 7 3950 -1 -1
+M 0 3069 14 3038      CityGuard 1
+E 1 3090 100 16                 (2-handed sword)
+F 1 7 3950 -1 -1
+M 0 3069 14 3107      CityGuard 1
+E 1 3090 100 16                 (2-handed sword)
+F 1 7 3950 -1 -1
+*M 0 3068 1 6000       ninja master
+*
+M 0 3060 10 3118      CityGuard 3
+E 1 3022 100 16            wields a longsword
+E 1 3041 100   5		   chain mail
+E 1 3072 100   9		   wears chain gloves
+E 1 3078 100   6		   wears chain helm
+E 1 3083 100   7             wears chain leggings
+E 1 3088 100   10		   wears chain sleeves
+E 1 6111 100   11		   wears large shield
+*
+M 0 3060 10 3119      CityGuard 4
+E 1 3022 100 16            wields a longsword
+E 1 3041 100   5		   chain mail
+E 1 3072 100   9		   wears chain gloves
+E 1 3078 100   6		   wears chain helm
+E 1 3083 100   7             wears chain leggings
+E 1 3088 100   10		   wears chain sleeves
+E 1 6111 100   11		   wears large shield
+*
+M 0 3060 10 3133      CityGuard 5
+E 1 3041 100   5		   chain mail
+E 1 3072 100   9		   wears chain gloves
+E 1 3078 100   6		   wears chain helm
+E 1 3083 100   7             wears chain leggings
+E 1 3087 100   10		   wears chain sleeves
+E 1 6111 100   11		   wears large shield
+E 1 3022 100 16            wields a longsword
+*
+M 0 3067 10 3247      CityGuard at east gate
+E 1 3022 100 16            wields a longsword
+E 1 3040 100   5		   wears plate armor
+E 1 3073 100   9		   wears plate gloves
+E 1 3077 100   6		   wears steel helm
+E 1 3082 100   7             wears plate leggings
+E 1 3088 100   10		   wears plate sleeves
+E 1 6111 100   11		   wears large shield
+*
+M 0 3067 10 3245      CityGuard at west gate
+E 1 3022 100 16            wields a longsword
+E 1 3040 100   5		   wears plate armor
+E 1 3073 100   9		   wears plate gloves
+E 1 3077 100   6		   wears steel helm
+E 1 3082 100   7             wears plate leggings
+E 1 3087 100   10		   wears plate sleeves
+E 1 6111 100   11		   wears large shield
+*
+M 0 3063 9 3026       A Mercenary (at Dark Alley)
+E 1 3021 100 16            wields a shortsword
+*
+M 0 3063 9 3024       A Mercenary (at Dark Alley)
+E 1 3024 100 16            wields a hammer
+*
+M 0 3063 9 3066       A Mercenary (at crossrods)
+E 1 3025 100 16            wields a battle-axe
+*
+M 0 3064 3 3029       A Happy Drunk (at Inn)
+M 0 3064 3 3075       A Happy Drunk (at Inn)
+M 0 3065 2 3096       A Beggar in poor alley
+M 0 3065 2 3098       A Beggar in Grubby Inn
+*
+M 0 3062 15 3027      The Cute Little Doggy Fido (at Poor Alley)
+M 0 3062 15 3025      The Cute Little Doggy Fido (at Common Square)
+M 0 3062 15 3016      The Cute Little Doggy Fido (at Main Street)
+M 0 3062 15 3012      The Cute Little Doggy Fido (at Main Street)
+M 0 3066 1 3026       The Cute Little Odif Yggod (at Dark Alley)
+*
+M 0 3061 5 3032       The Janitor
+*
+*M 0 3090 1 3032       Kitten
+*M 0 3091 1 3032       Puppy
+*M 0 3092 1 3032       Beagle
+*M 0 3093 1 3032       Rottweiler
+*M 0 3094 1 3032       Wolf
+*M 0 243  1 3032       white dragon
+*
+O 0 3099 5 3060       Bulletin board in Temple (limbo for starters)
+*
+M 0 3062 15 3057      Fido in petting zoo
+M 0 3066 5 3057       Odif in petting zoo
+M 0 6001 15 3057      rabbit in petting zoo
+M 0 9005 5 3057       llama in petting zoo
+M 0 9002 2 3057       Norwegian blue in petting zoo
+*
+*M 0 9000 1 3059       Asp in nursery
+*M 0 9001 1 3059       Creepy Spider in nursery
+*M 0 9003 1 3059       Baby bronto
+*M 0 9004 1 3059       Baby croc
+*
+*M 0 9010 4 3061   Aviary   Black
+*M 0 9011 4 3062    Red
+*M 0 9050 4 3063    Green
+**
+*M 0 9006 4 3064   K9
+*M 0 9007 4 3065
+*M 0 9008 4 3066
+*M 0 9009 4 3066
+*
+*M 0 9013 4 3068   Insect  fire Beetle
+*M 0 9014 4 3069   Insect  large spider
+*M 0 9015 4 3070   Insect  scorpion
+*
+*M 0 9016 4 3071    primates
+*M 0 9017 4 3072
+*M 0 9018 4 3073
+*
+*M 0 9019 4 3075   reptiles
+*M 0 9020 4 3076
+*M 0 9021 4 3077
+*
+*M 0 9022 4 3079   bears
+*M 0 9023 4 3080
+*M 0 9024 4 3081
+*G 1 296  5
+*
+*M 0 9025 4 3083   tigers
+*M 0 9026 4 3084
+*M 0 9027 4 3085
+*G 1 3057  100      silver potion
+*
+*O 0 10000 1 3086
+*
+*D 0 3110 1 2          Lock door from HQ to road
+*D 0 3111 3 2          Lock door from road to HQ
+*D 0 3129 2 2          Lock graveyard from outside
+*D 0 3400 0 2          Lock graveyard from inside
+*
+*O 0 3134 3 3101       Bench 1 at promenade
+*O 0 3134 3 3102       Bench 2 at promenade
+*O 0 3134 3 3103       Bench 3 at promenade
+*
+M 0 3100 1 3024       Maid in Park graveyard
+G 1 3100 500             A cup of tea
+G 1 3101 500             A cup of coffee
+G 1 3102 500             A cup of water
+*
+*M 0 3120 1 3106       Sexton in Park Cafe
+*G 1 3121 2               A rusty old key (to graveyard)
+*
+M 0 3121 1 3216       Swan in Pond
+M 0 3122 1 3216       Duckling in Pond
+M 0 3123 1 3210       Sparrow in Park
+M 0 3124 2 3217       Duck 1 in Park
+M 0 3124 2 3218       Duck 2 in Park
+*
+*M 0 3140 1 3110       Chief (guard) in H.Q.
+*G 1 3056  100      golden potion
+*G 1 3122 2               Give chief A wooden key to the desk.
+*E 1 3022 100 16            wields a longsword
+*E 1 3040 100   5		   wears plate armor
+*E 1 3073 100   9		   wears plate gloves
+*E 1 3077 100   6		   wears steel helm
+*E 1 3082 100   7             wears plate leggings
+*E 1 3088 100   10		   wears plate sleeves
+*E 1 6111 100   11		   wears large shield
+*M 0 3141 4 3110       Mad Guard in H.Q.
+*E 1 3040 100   5		   wears plate armor
+*E 1 3073 100   9		   wears plate gloves
+*E 1 3077 100   6		   wears steel helm
+*E 1 3082 100   7             wears plate leggings
+*E 1 3088 100  10		   wears plate sleeves
+*E 1 6111 100   11		   wears large shield
+*M 1 3141 4 3110       Mad Guard in H.Q.
+*E 1 3040 100   5		   wears plate armor
+*E 1 3073 100   9		   wears plate gloves
+*E 1 3077 100   6		   wears steel helm
+*E 1 3082 100   7             wears plate leggings
+*E 1 3088 100   10		   wears plate sleeves
+*E 1 6111 100   11		   wears large shield
+*M 1 3141 4 3110       Mad Guard in H.Q.
+*E 1 3040 100   5		   wears plate armor
+*E 1 3073 100   9		   wears plate gloves
+*E 1 3077 100   6		   wears steel helm
+*E 1 3082 100   7             wears plate leggings
+*E 1 3088 100   10		   wears plate sleeves
+*E 1 6111 100   11		   wears large shield
+*M 1 3141 4 3110       Mad Guard in H.Q.
+*E 1 3040 100   5		   wears plate armor
+*E 1 3073 100   9		   wears plate gloves
+*E 1 3077 100   6		   wears steel helm
+*E 1 3082 100   7             wears plate leggings
+*E 1 3088 100   10		   wears plate sleeves
+*E 1 6111 100   11		   wears large shield
+*
+*O 0 3130 1 3110       Load the desk
+*P 1 3123 1 3130         Put brass key in desk
+*O 0 3131 1 3110       Load the safe
+*P 1 3132 1 3131       Put money in safe
+**
+M 0 3060 20 3111      CityGuard 1
+E 1 3022 100 16            wields a longsword
+E 1 3040 100   5		   wears plate armor
+E 1 3073 100   9		   wears plate gloves
+E 1 3077 100   6		   wears steel helm
+E 1 3082 100   7             wears plate leggings
+E 1 3088 100   10		   wears plate sleeves
+E 1 6111 100   11		   wears large shield
+*G 1 3120 2                 Has an iron key to H.Q.
+M 0 3060 20 3111      CityGuard 2
+E 1 3025 100 16            wields a battle-axe
+E 1 3041 100   5		   chain mail
+E 1 3072 100   9		   wears chain gloves
+E 1 3078 100   6		   wears chain helm
+E 1 3083 100   7             wears chain leggings
+E 1 3087 100   10		   wears chain sleeves
+E 1 6111 100   11		   wears large shield
+M 0 3060 20 3111      CityGuard 3
+E 1 3022 100 16            wields a longsword
+E 1 3040 100   5		   wears plate armor
+E 1 3073 100   9		   wears plate gloves
+E 1 3077 100   6		   wears steel helm
+E 1 3082 100   7             wears plate leggings
+E 1 3088 100   10		   wears plate sleeves
+E 1 6111 100   11		   wears large shield
+M 0 3060 20 3111      CityGuard 4
+E 1 3022 100 16            wields a longsword
+E 1 3041 100   5		   chain mail
+E 1 3072 100   9		   wears chain gloves
+E 1 3078 100   6		   wears chain helm
+E 1 3083 100   7             wears chain leggings
+E 1 3087 100   10		   wears chain sleeves
+E 1 6111 100   11		   wears large shield
+*
+*
+M 0 3144 1 3120       Town Crier
+*
+O 0 3135 1 3223       Fountain on Penny Lane
+O 0 3136 1 3223       20 coins on Penny Lane
+*
+S
+#34
+Graveyard plus~
+3499 30 2
+*
+M 0 3405 1 3405       load Priest in Chapel.
+D 0 3404 2 1          Close Chapel door from outside
+D 0 3405 0 1          Close Chapel door from inside
+D 0 3405 5 1          Close alter door down at chap.
+O 0 3400 1 3405       Candlestick in Chapel
+*
+M 0 3400 8 3441       load skeleton in tombs.
+E 1 3421 15 16             rusty sword
+M 0 3400 8 3430       load skeleton in tombs.
+E 1 3421 15 16             rusty sword
+M 0 3400 8 3410       load skeleton in tombs.
+E 1 3421 15 16             rusty sword
+M 0 3400 8 3419       load skeleton in shrine.
+E 1 3421 15 16             rusty sword
+*
+M 0 3401 8 3414       load zombie into Shohan
+M 0 3401 8 3414       load zombie into Shohan
+M 0 3401 8 3414       load zombie into Shohan
+M 0 3401 8 3414       load zombie into Shohan
+M 0 3401 8 3409       load zombie into Bedroom
+M 0 3401 8 3409       load zombie into Bedroom
+M 0 3401 8 3409       load zombie into Bedroom
+*
+M 0 3402 8 3447       load Ghoul in tombs
+M 0 3402 8 3454       load Ghoul in 2nd level
+M 0 3402 8 3462       load Ghoul in 2nd level
+M 0 3402 8 3437       load Ghoul in shrine areas
+M 0 3402 8 3409       load Ghoul into Bedroom
+*
+M 0 3403 1 3411       load wraith in cata.
+E 1 3425 3 17            give 'em an orb
+M 0 3404 1 3460       load vampire in den of vamp.
+E 1 3428 3 16           flaming sword
+E 1 3427 10 12          black cape
+E 1 3419 1 17           Holds a key to final level
+G 1 3424 5               give him the magic item...
+*
+M 0 3406 4 3466       load a Mi-Go in gilded hall.
+E 1 3403 8 5             wears about body pink plasma armor
+M 0 3406 4 3474       load a Mi-Go in cata.
+E 1 3403 8 5             wears about body pink plasma armor
+M 0 3406 4 3463       load a Mi-Go in cata.
+E 1 3403 8 5             wears about body pink plasma armor
+M 0 3406 4 3455       load a Mi-Go in cata.
+E 1 3403 8 5             wears about body pink plasma armor
+*
+M 0 3407 5 3465       load a nightgaunt in gilded hall.
+E 1 3402 5 16            wield tickler
+M 0 3407 5 3465       load a nightgaunt in gilded hall.
+E 1 3402 5 16            wield tickler
+M 0 3407 5 3457       load a nightgaunt in cata.
+E 1 3402 5 16            wield tickler
+M 0 3407 5 3452       load a nightgaunt in cata.
+E 1 3402 5 16            wield tickler
+M 0 3407 5 3453       load a nightgaunt in cata.
+E 1 3402 5 16            wield tickler
+M 0 3408 1 3471       loads a H. Horror in the secret passage.
+E 1 3425 3 17            give 'em an orb
+G 1 3426 10               give bar of gold
+*
+M 0 3409 4 3444       load Weeds in tombs
+M 0 3409 4 3444       load Weeds in tombs
+M 0 3409 4 3426       load Weeds in tombs
+M 0 3409 4 3426       load Weeds in tombs
+*
+M 0 3410 1 3449       Load up ol' Snapper Joe
+E 1 3414 10 16           Wields a Rapier
+E 1 3429 5 5
+E 1 3411 2 17            holds the dirty key (to 2nd )
+*
+M 0 3411 1 3434       load flesh eater in Jubal section
+E 1 3414 10 16           wields a rapier
+G 1 3412 2               Has Jubal's head
+P 1 3413 2 3412           ring in head
+*
+M 0 3412 1 3424       load up King Crotus (ghost of)
+E 1 3416 1 17            holds coffin key
+O 0 3415 1 3424        his coffin
+P 1 3417 5 3415          put flask in coffin
+P 1 3418 1 3415          put mound o' coins in coffin
+*
+M 0 3413 5 3432       load slug in grand hallway
+G 1 3422 10              give 'em a piece o' slime
+M 0 3413 5 3417       load slug in grand hallway
+G 1 3422 10              give 'em a piece o' slime
+M 0 3413 5 3450       load slug in 2nd level
+G 1 3422 10              give 'em a piece o' slime
+M 0 3413 5 3418       load slug in tombs
+G 1 3422 10              give 'em a piece o' slime
+M 0 3413 5 3441       load slug in tombs
+G 1 3422 10              give 'em a piece o' slime
+*
+M 0 3414 1 3468       mad etcher in gilded hallway
+E 1 3423 4 5              wears a smock
+M 0 3415 1 3468       His wife :)
+*
+M 0 3416 4 3426       body in tombs
+M 0 3416 4 3442       body in tombs
+M 0 3416 4 3448       body in tombs
+M 0 3416 4 3411       body in tombs
+*
+O 0 3420 1 3448       put vault rathcor here
+P 1 3410 1 3420        put rod key in rathcor
+*
+D 0 3418 5 1         close down to tombs
+D 0 3421 2 1         close oak door south
+D 0 3422 0 1         close other side
+D 0 3421 3 2         close entrance to level one
+D 0 3412 2 1         close shohans
+D 0 3413 0 1         close from other side
+D 0 3422 2 1         close crotus's
+D 0 3423 0 1         close other side
+D 0 3427 2 1         close Mitnar's
+D 0 3428 0 1         close other side
+D 0 3437 0 1         close door to bedroom
+D 0 3409 0 1         close door out of bedroom
+D 0 3429 5 1         close trapdoor down from mitnar's
+D 0 3449 1 2         close door to 2nd level at snapper
+D 0 3408 3 2         close door other side
+D 0 3460 5 2         close door to 3rd level
+D 0 3475 4 2         close other side
+D 0 3464 1 1         close secret door in catacombs
+D 0 3471 3 1         close door in secret pass.
+*
+S
+#35
+Miden'Nir~
+3599 20 2
+*
+M 0 3500 2 3521       Load Wyvern at carnage
+M 0 3500 2 3521       Load Wyvern at carnage\
+M 0 3501 5 3512       goblin in forest
+M 0 3501 5 3512       ''
+M 0 3501 5 3509        ''
+M 0 3501 5 3506       ''
+M 0 3501 5 3513
+S
+#37
+Felix's Arena~
+3899 5 0
+*
+D 0 3694 0 0   ; Common Room of the Clan MacCleod
+D 0 3694 1 0   ; Common Room of the Clan MacCleod
+D 0 3694 2 0   ; Common Room of the Clan MacCleod
+D 0 3694 3 0   ; Common Room of the Clan MacCleod
+D 0 3694 4 0   ; Common Room of the Clan MacCleod
+D 0 3694 5 0   ; Common Room of the Clan MacCleod
+D 0 3695 5 0   ; Zippo's Room
+D 0 3696 3 0   ; Ice's Room
+D 0 3697 1 0   ; Naazgul's Room
+D 0 3698 4 0   ; Tank's Room
+D 0 3699 1 0   ; Inside the Castle of Clan MacCleod
+D 0 3699 2 0   ; Inside the Castle of Clan MacCleod
+D 0 3699 5 0   ; Inside the Castle of Clan MacCleod
+D 0 3701 0 0   ; Felix's Living Area 
+D 0 3702 0 0   ; Entrance to the Arena
+M 0 4005 5 3703   ; the orc
+D 0 3703 2 0   ; Southern End of Arena
+M 0 4056 15 3705   ; the orc
+E 1 3021 9 16   ; a small sword
+M 0 6100 2 3706   ; the vicious warg
+M 0 4056 15 3706   ; the orc
+E 1 3021 9 16   ; a small sword
+M 0 6103 5 3707   ; the large, black wolf
+M 0 4056 15 3708   ; the orc
+E 1 3021 9 16   ; a small sword
+M 0 4112 29 3708   ; the bugbear
+E 1 3022 35 16   ; a long sword
+M 0 4112 29 3708   ; the bugbear
+M 0 4112 29 3708   ; the bugbear
+G 1 3057 84 0   ; a silver potion
+M 0 6103 5 3709   ; the large, black wolf
+M 0 4055 13 3710   ; the hobgoblin
+E 1 3024 6 16   ; a warhammer
+M 0 4003 17 3710   ; the kobold
+M 0 4055 13 3710   ; the hobgoblin
+E 1 3024 6 16   ; a warhammer
+D 0 3710 0 0   ; Northern end of Arena
+M 0 4055 13 3711   ; the hobgoblin
+E 1 3024 6 16   ; a warhammer
+M 0 4003 17 3711   ; the kobold
+E 1 1109 4 16   ; a tiny dagger
+D 0 3713 5 0   ; Fighters Quarters
+M 0 5011 4 3715   ; The drider
+M 0 17002 3 3715   ; The wight
+M 0 518 5 3715   ; The lamia
+M 0 226 12 3716   ; An ogre
+M 0 518 5 3716   ; The lamia
+M 0 5011 4 3716   ; The drider
+M 0 226 12 3716   ; An ogre
+M 0 226 12 3716   ; An ogre
+M 0 518 5 3717   ; The lamia
+M 0 5006 3 3717   ; The nomad leader
+M 0 226 12 3717   ; An ogre
+M 0 519 1 3718   ; The stone golem
+M 0 226 12 3719   ; An ogre
+M 0 518 5 3721   ; The lamia
+M 0 226 12 3721   ; An ogre
+M 0 7043 3 3721   ; The scaled basilisk
+M 0 226 12 3721   ; An ogre
+M 0 7043 3 3721   ; The scaled basilisk
+M 0 5006 3 3721   ; The nomad leader
+M 0 226 12 3721   ; An ogre
+M 0 5311 7 3721   ; The guardian naga
+M 0 5311 7 3721   ; The guardian naga
+M 0 518 5 3722   ; The lamia
+M 0 101 1 3722   ; A giant troll
+M 0 17002 3 3722   ; The wight
+M 0 226 12 3723   ; An ogre
+M 0 7041 3 3723   ; The sea hag
+M 0 226 12 3723   ; An ogre
+M 0 4100 2 3723   ; the Mage
+M 0 7041 3 3724   ; The sea hag
+M 0 226 12 3724   ; An ogre
+D 0 3729 3 0   ; Passage
+D 0 3730 1 0   ; Passage
+D 0 3733 3 0   ; Passage
+D 0 3738 1 0   ; Passage
+D 0 3750 2 0   ; Stair Well
+D 0 3763 2 0   ; Throne Room
+D 0 3769 0 0   ; Cat King's Living Quarters
+D 0 3769 2 0   ; Cat King's Living Quarters
+D 0 3771 2 0   ; Passage
+D 0 3772 0 0   ; Passage
+D 0 3782 0 0   ; Passage
+D 0 3782 2 0   ; Passage
+D 0 3783 0 0   ; Orange Knight's Room
+D 0 3783 2 0   ; Orange Knight's Room
+D 0 3784 0 0   ; Passage
+D 0 3805 1 0   ; King Ogre's Room
+D 0 3806 3 0   ; Passage
+S
+#39
+DanjerHaus~
+3999 40 2
+M 0 3900 1 3941
+G 1 3950 999
+M 0 3905 1 3941
+M 0 3906 1 3901
+M 0 3907 1 3901
+M 0 3901 1 3940
+G 1 3903 999
+G 1 3905 999
+G 1 3907 999
+G 1 3909 999
+G 1 3911 999
+G 1 3913 999
+G 1 3914 999
+G 1 3930 999
+G 1 3931 999
+G 1 3932 999
+O 0 3900 1 3904		green fridge
+P 1 3903 999 3900	Guiness 6pack
+P 1 3902 999 3903
+P 1 3902 999 3903
+P 1 3902 999 3903
+P 1 3902 999 3903
+P 1 3902 999 3903
+P 1 3902 999 3903
+O 0 3901 1 3904		brown fridge
+D 0 3900 0 2	front door, outside
+D 0 3901 2 2	front door, inside
+D 0 3901 0 1	south hall door
+D 0 3906 2 1	south hall door
+D 0 3901 1 1	east porch door, inside
+D 0 3902 3 1	east porch door, outside
+D 0 3904 3 2	west porch door, inside
+D 0 3905 1 2	west porch door, outside
+D 0 3902 0 1	east porch screen door
+D 0 3909 2 1	east porch screen door
+D 0 3905 3 1	west porch screen door
+D 0 3911 1 1	west porch screen door
+D 0 3908 1 2	Hammor's bedroom door, inside
+D 0 3907 3 2	Hammor's bedroom door, outside
+*
+S
+#40
+Moria level 1-2~
+4099 42 2
+*
+* Level 1
+*
+M 0 4000 1 4030     The large snake
+G 1 4001 1          Carry a goblin corpse
+G 1 3055 100         white potion
+P 1 4002 5 4001     Which contains 500 coins.
+*
+M 0 4001 10 4025     a green snake
+M 0 4001 10 4025     a green snake
+*
+M 0 4001 10 4015     a green snake
+M 0 4001 10 4015     a green snake
+*
+M 0 4002 9 4023     a centipede
+M 0 4002 9 4023     a centipede
+*
+M 0 4002 9 4017     a centipede
+G 1 3055 100         white potion
+M 0 4002 9 4017     a centipede
+M 0 4002 9 4017     a centipede
+M 0 4002 9 4017     a centipede
+M 0 4002 9 4017     a centipede
+*
+M 0 4002 9 4020     a centipede
+M 0 4002 9 4020     a centipede
+M 0 4020 3 4020     a bugbear
+E 1 45   20 16
+G 1 4002 5
+*
+M 0 4003 19 4021     a kobolt
+M 0 4003 19 4021     a kobolt
+G 1 3056 100                        give him a golden potion
+M 0 4003 19 4021     a kobolt
+M 0 4003 19 4021     a kobolt
+M 0 4003 19 4021     a kobolt
+*
+M 0 4003 19 4013     a kobolt
+M 0 4003 19 4013     a kobolt
+G 1 3055 100         white potion
+M 0 4003 19 4013     a kobolt
+G 1 4002 5
+M 0 4003 19 4013     a kobolt
+M 0 4003 19 4013     a kobolt
+*
+M 0 4003 19 4027     a kobolt
+M 0 4003 19 4027     a kobolt
+G 1 3057  100      silver potion
+M 0 4003 19 4027     a kobolt
+M 0 4003 19 4027     a kobolt
+G 1 3055 100         white potion
+M 0 4003 19 4027     a kobolt
+*
+M 0 4004 19 4015     an ork
+E 1 44   20 16
+M 0 4004 19 4015     an ork
+G 1 4002 5
+M 0 4020 3  4015     a bugbear
+G 1 3055 100         white potion
+M 0 4004 19 4015     an ork
+*
+M 0 4004 19 4028     an ork
+M 0 4004 19 4028     an ork
+G 1 3057  100      silver potion
+M 0 4004 19 4028     an ork
+*
+M 0 4005 19 4022     a large ork
+M 0 4020 3  4022     a bugbear
+G 1 4002 5
+M 0 4005 19 4022     a large ork
+G 1 4002 5
+M 0 4005 19 4022     a large ork
+G 1 3057  100      silver potion
+M 0 4005 19 4022     a large ork
+E 1 4000 5 1        ring of weakness on left finger
+*
+* Moria level 2
+*
+M 0 4050 3 4062     a warrior
+G 1 3057  100      silver potion
+G 1 4002 5
+M 0 4057 6 4062     a bugbear
+G 1 3056 100                        give him a golden potion
+M 0 4050 3 4062     a warrior
+G 1 3056 100                        give him a golden potion
+M 0 4050 3 4062     a warrior
+G 1 4051 3          give him a helmet of savin' throw
+*
+M 0 4051 6 4070     a warrior
+G 1 4002 5
+M 0 4057 6 4070     a bugbear
+G 1 3055 100         white potion
+M 0 4051 6 4070     a warrior
+*
+M 0 4051 6 4050     a warrior
+M 0 4051 6 4050     a warrior
+G 1 3055 100         white potion
+*
+M 0 4051 6 4073     a warrior
+G 1 3057  100      silver potion
+*
+M 0 4051 6 4055     a warrior
+M 0 4058 2 4055     an ogre
+G 1 4002 5
+M 0 4051 6 4055     a warrior
+*
+M 0 4052 18 4056     a hobgoblin
+E 1 45   20 16
+M 0 4052 18 4056     a hobgoblin
+G 1 3056 100                        give him a golden potion
+M 0 4052 18 4056     a hobgoblin
+G 1 4002 5
+*
+M 0 4052 18 4065     a hobgoblin
+M 0 4057 6 4065     a bugbear
+G 1 3055 100         white potion
+M 0 4052 18 4065     a hobgoblin
+G 1 4002 5
+M 0 4052 18 4065     a hobgoblin
+*
+M 0 4052 18 4059     a hobgoblin
+G 1 3057 100      silver potion
+M 0 4052 18 4059     a hobgoblin
+M 0 4052 18 4059     a hobgoblin
+G 1 3055 100         white potion
+*
+M 0 4053 9 4058     a snake
+G 1 4002 5
+M 0 4053 9 4058     a snake
+M 0 4053 9 4058     a snake
+G 1 3056 100                        give him a golden potion
+M 0 4053 9 4058     a snake
+*
+M 0 4053 9 4068     a snake
+M 0 4053 9 4068     a snake
+G 1 3057  100      silver potion
+M 0 4053 9 4068     a snake
+M 0 4057 6 4068     a bugbear
+M 0 4053 9 4068     a snake
+*
+M 0 4054 9 4060     a centipede
+M 0 4054 9 4060     a centipede
+G 1 3056 100                        give him a golden potion
+M 0 4054 9 4060     a centipede
+*
+M 0 4054 9 4053     a centipede
+M 0 4054 9 4053     a centipede
+M 0 4054 9 4053     a centipede
+*
+M 0 4054 9 4052     a centipede
+M 0 4054 9 4052     a centipede
+M 0 4054 9 4052     a centipede
+*
+M 0 4055 19 4064     a hobgoblin
+M 0 4058 2 4064     an ogre
+G 1 4002 5
+M 0 4055 19 4064     a hobgoblin
+M 0 4055 19 4064     a hobgoblin
+G 1 3055 100         white potion
+M 0 4055 19 4064     a hobgoblin
+M 0 4055 19 4064     a hobgoblin
+*
+M 0 4055 19 4071     a hobgoblin
+M 0 4055 19 4071     a hobgoblin
+G 1 3057  100      silver potion
+M 0 4055 19 4071     a hobgoblin
+G 1 4002 5
+M 0 4057 6 4071     a bugbear
+M 0 4055 19 4071     a hobgoblin
+M 0 4055 19 4071     a hobgoblin
+G 1 4050 100         give him a purple potion
+*
+M 0 4056 19 4067     an orc
+M 0 4056 19 4067     an orc
+M 0 4056 19 4067     an orc
+M 0 4056 19 4067     an orc
+M 0 4057 6 4067     a bugbear
+G 1 3056 100                        give him a golden potion
+M 0 4056 19 4067     an orc
+G 1 4002 5
+M 0 4056 19 4067     an orc
+*
+M 0 4056 19 4057     an orc
+E 1 3025 99 16
+M 0 4056 19 4057     an orc
+M 0 4056 19 4057     an orc
+G 1 3057 100
+M 0 4056 19 4057     an orc
+M 0 4057 6 4057     a bugbear
+G 1 4002 5
+M 0 4056 19 4057     an orc
+G 1 3055 100         white potion
+M 0 4056 19 4057     an orc
+*
+O 0 4052 8 4068     plant a mushroom
+O 0 4052 8 4069     plant a mushroom
+O 0 4052 8 4070     plant a mushroom
+O 0 4052 8 4071     plant a mushroom
+*
+S
+#41
+Moria level 3-4~
+4199 40 2
+*
+* Level 1
+*
+M 0 4100 1 4114    The mage
+G 1 3055 100         white potion
+G 1 4102 2         Scroll of identify.
+* the mage's minions.
+M 0 4112 5 4114
+E 1 3025 99 16
+M 0 4113 10 4114   An ogre.
+E 1 44   20 16
+M 0 4112 5 4114
+E 1 3025 99 16
+M 0 4113 3 4114
+E 1 3025 99 16
+*
+M 0 4101 8 4122    The troll
+E 1 3025 99 16
+M 0 4101 8 4122    The troll
+G 1 3055 100         white potion
+M 0 4112 19 4122
+M 0 4101 8 4122    The troll
+E 1 3025 99 16
+M 0 4101 8 4122    The troll
+E 1 4100 2 16      The blade
+*
+M 0 4102 5 4111    The snakes
+G 1 4103 10        Slime
+M 0 4112 19 4111
+M 0 4102 5 4111    The snakes
+M 0 4113 10 4111   An ogre.
+G 1 3055 100         white potion
+M 0 4102 5 4111    The snakes
+G 1 4104 3         Poisoned slime
+*
+M 0 4102 6 4103    A thief
+M 0 4112 19 4103
+E 1 3025 99 16
+M 0 4113 10 4103   An ogre.
+M 0 4102 6 4103    A thief
+G 1 3055 100         white potion
+M 0 4102 6 4103    A thief
+G 1 4103 10        Slime
+G 1 4104 3         Poisoned slime
+*
+M 0 4103 19 4124    A orc
+G 1 4104 10        Slime
+M 0 4103 19 4124    A orc
+E 1 3025 99 16
+G 1 4104 10        Slime
+M 0 4112 19 4124
+M 0 4113 10 4124   An ogre.
+M 0 4103 19 4124    A orc
+G 1 3025 99
+G 1 4104 10        Slime
+M 0 4103 19 4124    A orc
+G 1 4104 10        Slime
+G 1 3057 100
+M 0 4103 19 4124    A orc
+G 1 3055 100         white potion
+G 1 4104 10        Slime
+M 0 4112 19 4124
+*
+M 0 4105 5 4108    A centipede
+M 0 4105 5 4108    A centipede
+M 0 4112 19 4108
+M 0 4112 19 4108
+G 1 3055 100         white potion
+M 0 4113 10 4108   An ogre.
+M 0 4105 5 4108    A centipede
+M 0 4105 5 4108    A centipede
+M 0 4105 5 4108    A centipede
+*
+M 0 4106 6 4113    A warrior
+G 1 4101 1         Some gloves
+G 1 3057 100
+M 0 4113 10 4113   An ogre.
+G 1 6108 10        10,000 gold     Carried (big prize)
+G 1 3055 100         white potion
+M 0 4112 19 4113
+*
+M 0 4107 19 4119    A kobold
+G 1 4104 10        Slime
+G 1 3025 99
+M 0 4112 19 4119
+G 1 3025 99
+M 0 4107 19 4119    A kobold
+G 1 3055 100         white potion
+G 1 4104 10        Slime
+M 0 4112 19 4119
+M 0 4107 19 4119    A kobold
+G 1 4104 10        Slime
+M 0 4112 19 4119
+M 0 4107 19 4119    A kobold
+G 1 4104 10        Slime
+M 0 4112 19 4119
+M 0 4107 19 4119    A kobold
+G 1 4104 10        Slime
+M 0 4107 19 4119    A kobold
+G 1 3057 100
+G 1 4104 10        Slime
+M 0 4107 19 4119    A kobold
+G 1 4104 10        Slime
+M 0 4107 19 4119    A kobold
+G 1 4104 10        Slime
+M 0 4112 19 4119
+G 1 3055 100         white potion
+M 0 4107 19 4119    A kobold
+G 1 4104 10        Slime
+M 0 4113 10 4119   An ogre.
+*
+S
+#42
+Moria Extentions (TheHand)~
+4999 47 0
+*
+S
+#50
+The Great Eastern Desert~
+5099 15 2
+*
+M 0 5015 3 5039          Dustdigger
+M 0 5015 3 5033          Dustdigger
+M 0 5015 3 5049          Dustdigger
+M 0 5017 1 5058          Rabid Camel
+*
+M 0 5000 9 5047          Dervish
+E 1 7211 25 16             (short sword)
+M 0 5000 9 5033          Dervish
+E 1 7211 25 16             (short sword)
+M 0 5001 9 5040          Large Dervish
+G 1 3055 100         white potion
+E 1 3022 25 16             (long sword)
+*
+M 0 5002 9 5031          Snake, coral
+M 0 5003 9 5050          Scorpion, small
+*
+M 0 5004 1 5036          Purple Worm
+G 1 5019 10                (pink potion)
+E 1 5020 1 17              (platinum wand)
+E 1 5021 2 16              (energy bow)
+M 0 5020 1 5036          Young Sandworm
+G 1 255  10
+G 1 3057 100
+*
+M 0 5005 1 5065          Brass Dragon
+G 1 5024 1                 (golden key)
+G 1 5022 10                (encrypted scroll)
+G 1 3056 100
+G 1 3056 100
+*
+O 0 5023 1 5070          iron chest
+P 1 5026 3 5023            (ruby)
+P 1 5027 3 5023            (diamond)
+P 1 5028 3 5023            (sapphire)
+P 1 5029 3 5023            (lapis)
+P 1 5030 1 5023            (Tiger Jewel)
+P 1 5031 1 5023            (Red-eyed jewel)
+P 1 5032 3 5023            (emerald)
+*
+O 0 5015 1 5070          $$$
+*
+M 0 5006 1 5061          Nomad leader
+E 1 5016 10 16             (sabre)
+M 0 5007 1 5060          Nomad Comm.
+E 1 5017 15 16             (scimitar)
+M 0 5008 5 5059          Nomad Warriors
+E 1 5018 25 16             (cutlass)
+M 0 5009 10 5057         Slaves
+*
+M 0 5010 1 5011          Dracolich
+E 1 5001 1 5                (Bandedmail)
+E 1 5002 1 16               (Halberd)
+*
+M 0 5011 3 5009          Driders
+E 1 3022 50 16             (long sword)
+G 1 3057 100
+M 0 5012 3 5014          Druegars
+E 1 5000 15 16             (mining pick)
+*
+M 0 5013 9 5021          myconoids
+M 0 5013 9 5021          myconoids
+M 0 5013 9 5021          myconoids
+M 0 5013 9 5021          myconoids
+G 1 3055 100         white potion
+M 0 5013 9 5021          myconoids
+M 0 5013 9 5021          myconoids
+M 0 5013 9 5021          myconoids
+M 0 5013 9 5021          myconoids
+M 0 5014 1 5021          Shaman, myc.
+G 1 3056 100
+E 1 5003 1 3
+*
+O 0 5005 1 5011          bone
+O 0 5006 1 5049          cactus cup
+O 0 5006 1 5031          cactus cup
+O 0 5006 1 5044          cactus cup
+O 0 5007 1 5060          basket in commanders tent
+P 1 5012 1 5007            (stakes)
+P 1 5011 1 5007            (coil o' rope)
+O 0 5008 1 5061          1st basket leaders tent
+P 1 5014 5 5008            (turban)
+O 0 5009 1 5061          2nd basket leaders tent
+O 0 5010 1 5061          3rd basket leaders tent
+P 1 5013 50 5010           (tattered map)
+*
+*
+S
+#51
+drow city~
+5199 35 2
+*
+M 0 5100 15 5122           GOBLIN SLAVE
+M 0 5100 15 5122           GOBLIN SLAVE
+M 0 5100 15 5122           GOBLIN SLAVE
+M 0 5100 15 5122           GOBLIN SLAVE
+M 0 5100 15 5122           GOBLIN SLAVE
+*
+M 0 5101 50 5118           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5118           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5118           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5118           DROW COMMOMER
+G 1 3057 100
+E 1 5100 50 16
+M 0 5101 50 5133
+G 1 3055 100         white potion
+E 1 5100 50 16
+M 0 5101 50 5133
+G 1 3057 100
+E 1 5100 50 16
+M 0 5101 50 5133
+E 1 5100 50 16
+M 0 5101 50 5133
+E 1 5100 50 16
+M 0 5101 50 5118           DROW COMMOMER
+E 1 5100 50 16
+E 1 254  3  14
+M 0 5101 50 5118           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5118           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5118           DROW COMMOMER
+G 1 3057 100
+E 1 5100 50 16
+M 0 5101 20 5133
+E 1 5100 50 16
+M 0 5101 20 5133
+G 1 3057 100
+E 1 5100 50 16
+M 0 5101 20 5133
+E 1 5100 50 16
+M 0 5101 20 5133
+E 1 5100 50 16
+*
+M 0 5102 34 5104            DROW WARRIOR
+E 1 5101 12 16
+M 0 5102 34 5104            DROW WARRIOR
+E 1 5101 12 16
+M 0 5102 34 5124
+G 1 3057 100
+E 1 5101 12 16
+M 0 5102 34 5124
+E 1 5101 12 16
+M 0 5102 34 5124
+E 1 5101 12 16
+M 0 5102 34 5108
+G 1 3057 100
+E 1 5101 12 16
+M 0 5102 34 5124
+E 1 5101 12 16
+G 1 3057 100
+M 0 5102 34 5108
+E 1 5101 12 16
+M 0 5102 34 5111
+G 1 3057 100
+E 1 5101 12 16
+M 0 5102 34 5111
+E 1 5101 12 16
+M 0 5102 34 5104            DROW WARRIOR
+E 1 5101 12 16
+M 0 5102 34 5104            DROW WARRIOR
+E 1 5101 12 16
+M 0 5102 34 5124
+G 1 3057 100
+E 1 5101 12 16
+M 0 5102 34 5124
+E 1 5101 12 16
+M 0 5102 34 5124
+E 1 5101 12 16
+M 0 5102 34 5108
+G 1 3057 100
+E 1 5101 12 16
+M 0 5102 34 5124
+E 1 5101 12 16
+G 1 3057 100
+M 0 5102 34 5108
+E 1 5101 12 16
+M 0 5102 34 5111
+G 1 3057 100
+E 1 5101 12 16
+M 0 5102 34 5111
+E 1 5101 12 16
+*
+M 0 5103 8 5104            DROW MAGE
+E 1 5102 4 16
+G 1 3057 100
+G 1 240  10		Has a wand of color spray
+M 0 5103 8 5124
+E 1 5102 4 16
+M 0 5103 8 5108
+G 1 3057 100
+E 1 5102 4 16
+M 0 5103 8 5111
+E 1 5102 4 16
+*
+M 0 5104 8 5104            DROW PRIESTESS
+E 1 5103 4 16
+G 1 3057 100
+M 0 5104 8 5124
+E 1 5103 4 16
+E 1 252  8 3
+M 0 5104 8 5108
+E 1 5103 4 16
+M 0 5104 8 5111
+E 1 5103 4 16
+*
+M 0 5105 3 5118            DROW MASTER
+E 1 5105 3 16
+E 1 5110 5 17
+G 1 3057 100
+M 0 5105 3 5120
+G 1 3055 100         white potion
+E 1 5104 2 16
+E 1 5110 5 17
+G 1 3057 100
+M 0 5105 3 5116
+E 1 5104 2 16
+E 1 5110 5 17
+*
+M 0 5106 3 5150            DROW WEAPONSMASTER
+E 1 5105 3 16
+E 1 5109 1 9
+G 1 3057 100
+M 0 5106 3 5101            (another) DROW WEAPONSMASTER
+E 1 5105 3 16
+*
+M 0 5107 3 5125            4TH MATRON MOTHER
+E 1 5106 3 16
+G 1 5114 3
+G 1 3056 100
+M 0 5101 50 5125           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5125           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5125           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5125           DROW COMMOMER
+M 0 5107 3 5105            3RD MATRON MOTHER
+E 1 5106 3 16
+G 1 3056 100
+E 1 5111 2 6
+M 0 5101 50 5105           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5105           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5105           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5105           DROW COMMOMER
+M 0 5107 3 5109            2ND MATRON MOTHER
+E 1 5106 3 16
+E 1 5108 2 10
+M 0 5101 50 5109           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5109           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5109           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5109           DROW COMMOMER
+E 1 5100 50 16
+M 0 5108 1 5113            1ST MATRON MOTHER
+G 1 3056 100
+E 1 5107 1 16
+M 0 5101 50 5113           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5113           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5113           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5113           DROW COMMOMER
+E 1 5100 50 16
+*
+M 0 5109 1 5148            YOCHLOL
+G 1 3056 100
+M 0 5101 50 5148           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5148           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5148           DROW COMMOMER
+E 1 5100 50 16
+M 0 5101 50 5148           DROW COMMOMER
+E 1 5100 50 16
+*
+S
+#52
+The City of Thalos~
+5299 5 1
+*
+M 0 5200 1 5250             Beholder
+E 1 5208 3 11                 (iron shield)
+E 1 5223 3 3                  (green cloak)
+*M 0 3071 1 5250 	Super Repair Guy.
+*
+M 0 5201 40 5234             Lamia (all lamias have daggers)
+E 1 3020 15 16
+M 0 5201 40 5235             Lamia
+G 1 3056 100
+E 1 3020 15 16
+M 0 5210 20 5232             Lamia
+M 0 5201 40 5229             Lamia
+E 1 3020 15 16
+M 0 5201 40 5236             Lamia
+G 1 3055 100         white potion
+E 1 3020 15 16
+M 0 5210 20 5237             Lamia
+M 0 5201 40 5240             Lamia
+E 1 3020 15 16
+M 0 5201 40 5242             Lamia
+E 1 3020 15 16
+M 0 5210 20 5218             Lamia
+M 0 5201 40 5216             Lamia
+E 1 3020 15 16
+M 0 5201 40 5219             Lamia
+E 1 3020 15 16
+M 0 5210 20 5220             Lamia
+G 1 3057 100
+M 0 5201 40 5221             Lamia
+E 1 3020 15 16
+G 1 3057 100
+M 0 5201 40 5225             Lamia
+E 1 3020 15 16
+G 1 3055 100         white potion
+M 0 5210 20 5226             Lamia
+M 0 5201 40 5224             Lamia
+E 1 3020 15 16
+M 0 5201 40 5203             Lamia
+E 1 3020 15 16
+M 0 5210 20 5204             Lamia
+G 1 3057 100
+M 0 5201 40 5205             Lamia
+E 1 3020 15 16
+M 0 5210 20 5206             Lamia
+E 1 3020 15 16
+M 0 5201 40 5208             Lamia
+G 1 3057 100
+E 1 3020 15 16
+M 0 5210 20 5209             Lamia (lots of 'em, eh?)
+G 1 3057 100
+E 1 3020 15 16
+*
+M 0 5202 1 5229             Mimic chest
+E 1 5214 1 17                 (ball o' light)
+M 0 5203 1 5226             Mimic boulder
+G 1 5215 1                    (tattered scroll)
+M 0 5204 1 5219             Mimic floor
+G 1 5218 1                    (talisman)
+M 0 5205 1 5238             Mimic potery
+G 1 3055 100         white potion
+E 1 5214 1 17                 (ball o' light)
+M 0 5206 1 5236             Mimic planks
+E 1 5222 5 12                 (black robe)
+*
+M 0 5207 4 5232             lizard
+M 0 5207 4 5217             lizard
+M 0 5207 4 5227             lizard
+M 0 5207 4 5244             lizard
+*
+M 0 5208 3 5247             golem SW
+E 1 5224 1 17                 (ebony seal)
+E 1 5200 5 5                  (chainmail vest)
+M 0 5208 3 5246             golem NW
+E 1 5226 1 17                 (ivory seal)
+E 1 30000 5 1                 (fire resist ring)
+M 0 5208 3 5248             golem NE
+E 1 5221 5 16                 (2-handed sword)
+*
+O 0 5225 1 5231             curved desk
+P 1 5215 1 5225                (scroll of enchantment)
+P 1 5216 2 5225                (scroll of detection)
+*
+O 0 5227 1 5233             glass cabinet
+P 1 5201 1 5227               (iron helm)
+P 1 5202 1 5227               (iron gauntlets)
+P 1 5203 1 5227               (iron sleeves)
+P 1 5204 1 5227               (iron boots)
+P 1 5205 1 5227               (iron leggings)
+P 1 5206 1 5227               (iron girth)
+*
+O 0 5228 10 5242            rotten arm
+O 0 5219 5 5217             venison
+O 0 5220 1 5234             cracked fountain
+O 0 5207 5 5229             battered armor
+*
+O 0 5210 2 5238             black potion
+O 0 5211 2 5238             orange potion
+O 0 5213 2 5238             serp. staff
+*
+O 0 5217 2 5230             silver flute
+O 0 5250 2 5230             mandolin
+O 0 5251 2 5230             harp
+*
+O 0 5230 1 5202             pale blue (all stones)
+O 0 5231 1 5205             scar. and blue
+O 0 5232 1 5208             inc. blue
+O 0 5233 1 5211             deep red
+O 0 5234 1 5214             pink
+O 0 5235 1 5217             white
+O 0 5236 1 5220             pale lavander
+O 0 5237 1 5224             green and lav.
+O 0 5238 1 5227             dusty rose
+O 0 5239 1 5230             dull grey
+O 0 5240 1 5234             viv. purple
+O 0 5241 1 5238             pink and green
+O 0 5242 1 5241             pale green
+O 0 5243 1 5246             clear
+O 0 5244 1 5250             irrad.
+*
+S
+#53
+GREAT PYRAMID~
+5399 10 1
+M 0 5300 1 5317		IRON GOLEM
+E 1 5303 1 17		EMERALD KEY
+M 0 5301 1 5316		CLAY GOLEM
+E 1 5302 1 17		DIAMOND KEY
+M 0 5302 1 5314		STONE GOLEM
+E 1 5300 1 17		STONE KEY
+M 0 5303 1 5331		SPECTRE
+E 1 17001 1 14		SAPPHIRE BRACELET
+E 1 5311 1 8		MERCURY'S BOOTS
+E 1 5313 1 16		DAGGER OF SLICING
+M 0 5304 1 5301		MUMMY
+M 0 5305 1 5302		STATUE
+M 0 5306 1 5319		ANUBIS
+E 1 5301 1 3		GLOWING KEY
+M 0 5307 4 5308		MIMIC
+G 1 5305 1		TREASURE
+M 0 5307 4 5308
+M 0 5307 4 5308
+M 0 5307 4 5308
+M 0 5308 4 5349		RUST MONSTER
+M 0 5308 4 5349
+M 0 5308 4 5349
+M 0 5308 4 5349
+M 0 5310 10 5344	NILE CROC
+M 0 5310 10 5344
+M 0 5310 10 5344
+M 0 5310 10 5344
+M 0 5310 10 5344
+M 0 5310 10 5344
+M 0 5310 10 5344
+M 0 5310 10 5344
+M 0 5310 10 5344
+M 0 5310 10 5344
+M 0 5310 10 5344
+M 0 5311 5 5322		GUARDIAN NAGA
+M 0 5311 5 5322
+M 0 5311 5 5322
+M 0 5311 5 5322
+M 0 5311 5 5322
+M 0 5312 20 5333	RATS
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+M 0 5312 20 5333
+O 0 5316 1 5301		OUTER COFFIN
+P 1 5315 1 5316		INNER COFFIN
+P 1 5308 1 5315		BRACERS
+P 1 5309 1 5315		MEDALLION
+O 0 5306 1 5306		SACRAFICIAL DAGGER
+D 0 5304 5 2 		TO COFFIN
+D 0 5301 4 2
+D 0 5304 4 2            TO VOID
+D 0 5304 1 2		TO TREASURE ROOM
+D 0 5308 3 2
+D 0 5314 2 1		TO STONE GOLEM
+D 0 5315 0 1
+D 0 5316 0 1 		TO CLAY GOLEM
+D 0 5315 2 1
+D 0 5317 2 1 		TO IRON GOLEM
+D 0 5318 0 1
+D 0 5319 0 2		TO ANUBIS
+D 0 5318 2 2
+D 0 5334 4 2		TO MAZE
+D 0 5320 5 2
+D 0 5344 5 2		EXIT
+S
+#60
+HAON-DOR-LIGHT~
+6099 30 2
+* Mobiles & equipment
+M 0 6000 1 6009  John the Lumberjack
+E 1 6000 10 16     axe Equipped (WIELD)
+E 1 6001 10 5      shirt Equipped (BODY)
+E 1 6002 10 8      boots Equipped (FEET)
+D 0 6009 0 1     Cabin door must be closed
+M 0 6001 5 6012  Rabbit 1
+M 0 6001 5 6015         2
+M 0 6001 5 6017         3
+M 0 6001 5 6019         4
+M 0 6002 1 6022  Brown bear
+M 0 6004 1 6023  Fallow deer
+M 0 6005 2 6014  Brown fox
+* Objects
+O 0 6003 1 6010  John's fireplace
+O 0 6004 1 6010  John's lantern
+O 0 6005 1 6010  John's wooden chest
+P 1 6007 1 6005    Coins (In chest)
+P 1 6006 1 6003  John's brass key (In fireplace)
+G 1 3057 100
+O 0 6013 3 6010  Water barrel
+O 0 6010 2 6023  Blackberries
+O 0 6011 3 6006  Mushroom 1
+O 0 6011 3 6013           2
+O 0 6011 3 6016           3
+O 0 6012 1 6000  The news sign
+S
+#61
+HAON-DOR-DARK~
+6199 30 2
+* Mobiles and equipment
+M 0 6100 2 6116  Vicious warg
+M 0 6100 2 6116  Vicious warg
+G 1 3057 100
+M 0 6101 2 6127  Ferocious warg
+M 0 6101 2 6127  Ferocious warg
+G 1 3055 100         white potion
+G 1 3057 100
+M 0 6102 4 6108  Grey wolf 1
+M 0 6102 4 6108  Grey wolf 1
+M 0 6102 4 6104            2
+M 0 6102 4 6104            2
+M 0 6103 4 6112  Black wolf 1
+M 0 6103 4 6112  Black wolf 1
+M 0 6103 4 6118             2
+M 0 6103 4 6118             2
+M 0 6110 4 6120  Tree 1.1
+G 1 3057 100
+M 0 6110 4 6123       1.2
+M 0 6111 4 6109       2.1
+G 1 3057 100
+M 0 6111 4 6105       2.2
+M 0 6112 1 6143  Green dragon
+G 1 3055 100         white potion
+G 1 6110 10        Strength potion (Carried)
+G 1 6112 1         Iron crown (Carried)
+G 1 3057 100
+O 1 6111 10 6143   Shield
+M 0 6113 3 6133  Posionous spider 1
+M 0 6113 3 6133                   2
+M 0 6113 3 6133                   3
+M 0 6114 1 6134  Queen Spider
+G 1 3047 3        elven chain.
+G 1 3056 100
+G 1 6113 1         Iron sceptre       Carried
+M 0 6115 1 6100  Shargugh the Forest Brownie
+E 1 6114 1 1       Iron ring (Equipped (FINGER_R))
+G 1 3055 100
+* Objects
+O 0 6102 1 6103  Hollow tree
+O 0 6103 1 6113  Branch, light
+O 0 6104 1 6125  Branch, weapon
+O 0 6105 1 6105  Branch, unusable
+O 0 6106 4 6104  Toadstool 1.1
+O 0 6106 4 6111            1.2
+O 0 6106 4 6122            1.3
+O 0 6107 4 6119            2.1 (poisonous)
+S
+#63
+Felix's other area~
+6499 47 0
+*
+S
+#65
+The Dwarven Kingdom~
+6599 40 2
+*
+M 0 6500 4 6505    guard
+E 1 6504 100 16
+E 1 6505 100 5     eq plate
+M 0 6500 4 6505    guard
+E 1 6504 100 16
+E 1 6505 100 5
+M 0 6500 4 6540
+E 1 6504 100 16
+E 1 6505 100 5
+E 1 6502 100 17
+M 0 6500 4 6540
+E 1 6504 100 16
+E 1 6505 100 5
+*
+O 0 6506 1 6534  load 'heal' stick
+O 0 6507 2 6513
+O 0 6507 2 6505
+O 0 6507 2 6503
+O 0 6507 1 6540
+*
+M 0 6501 9 6503   load in roam. dwv. worker
+M 0 6501 9 6502
+M 0 6501 9 6501
+D 0 6505 3 2
+D 0 6513 1 2
+D 0 6526 5 1
+D 0 6540 1 2
+D 0 6541 3 2
+D 0 6527 4 1
+M 0 6502 1 6527
+E 1 6503 100 17
+M 0 6503 1 6516    the H&T storekeeper
+G 1 6510 100
+G 1 6511 100
+G 1 6512 100
+G 1 6504 100
+G 1 6505 100
+E 1 6504 100 16
+E 1 7909 100 17
+M 0 6504 1 6535  Baker
+G 1 3000 100
+G 1 3003 100
+G 1 3031 100
+G 1 3010 100
+G 1 3011 100
+E 1 7909 100 17
+E 1 6504 100 16
+M 0 6505 1 6515   Lizard
+M 0 6506 2 6508  Giant
+M 0 6500 6 6509
+E 1 6509 100 16
+E 1 6510 100 6
+E 1 6511 100 1
+M 0 6500 6 6509
+E 1 6512 100 9
+E 1 6509 100 16
+E 1 6505 100 5
+M 0 6507 4 6543
+E 1 6508 100 16
+M 0 6507 4 6543
+E 1 6508 100 16
+M 0 6507 4 6542
+E 1 6508 100 16
+M 0 6508 4 6543
+E 1 6512 100 9
+E 1 6508 100 16
+M 0 6510 4 6534  peon in hospital
+E 1 7211 100 16
+M 0 6510 4 6534
+E 1 7211 100 16
+M 0 6514 4 6521  barracks guard
+E 1 6509 100 16
+M 0 6514 4 6521
+E 1 6509 100 16
+M 0 6500 4 6521  guardhouse guard
+G 1 6550 1       key #6550 (mine key)
+M 1 6500 4 6521
+M 1 6500 4 6521
+M 0 6511 8 6523  barracks dwarf
+E 1 7211 100 16
+M 0 6511 8 6523
+E 1 7211 100 16
+M 0 6511 8 6523
+E 1 7211 100 16
+M 0 6511 8 6523
+E 1 7211 100 16
+M 0 6511 8 6524
+E 1 6504 100 16
+E 1 6514 100 17
+M 0 6511 8 6524
+E 1 7211 100 16
+M 0 6511 8 6524
+E 1 7211 100 16
+M 0 6512 3 6528  unwanted sons and daughters
+M 0 6512 3 6529
+M 0 6513 3 6529
+M 0 6513 3 6530
+M 0 6515 4 6531   man in waiting
+M 0 6515 4 6531
+M 0 6509 1 6534  doctor with heal sticks
+E 1 6506 100 17
+M 0 6516 1 6553  mazekeeper
+M 0 6517 2 6548  giant snakes
+M 0 6517 2 6549
+O 0 6516 1 6532  maze key
+O 0 6517 6 6545  coal
+O 0 6518 3 6551
+M 0 6500 2 6512
+E 1 6508 100 16
+M 0 6500 2 6512
+E 1 6508 100 16
+M 0 6505 1 6520   lizard again
+D 0 6512 1 2
+D 0 6525 3 2
+D 0 6509 0 2
+D 0 6510 2 2
+D 0 6521 2 1
+D 0 6523 0 1
+D 0 6544 0 2
+D 0 6546 2 2
+D 0 6531 0 1
+D 0 6532 2 1
+S
+#68
+Arctica~
+6899 40 2
+*
+M 0 6103 1 6801
+M 0 6102 4 6802
+M 0 6813 1 6803
+M 0 6103 4 6807
+M 0 6807 2 6807
+M 0 6804 1 6810
+M 0 6800 1 6811
+M 0 6800 1 6812
+M 0 6102 2 6814
+M 0 6807 1 6816
+M 0 6824 1 6818
+M 0 6813 1 6819
+M 0 6818 1 6819
+M 0 6800 2 6819
+M 0 6800 1 6821
+M 0 6800 10 6824
+M 0 6800 10 6825
+M 0 6803 1 6825
+E 1 6809 1 6
+O 0 6801 2 6826
+M 0 4103 1 6827
+M 0 6800 1 6831
+M 0 6808 2 6832
+M 0 6810 1 6833
+M 0 6806 1 6833
+O 0 6801 2 6834
+M 0 6821 1 6835
+M 0 6800 4 6838
+M 0 6817 2 6839
+M 0 6819 2 6841
+M 0 6103 5 6842
+M 0 6803 1 6842
+E 1 6809 1 6
+M 0 6815 1 6844
+M 0 6802 1 6846
+E 1 6800 1 17
+O 0 6803 1 6805
+P 1 6808 1 6803
+P 1 6804 1 6803
+P 1 6805 1 6803
+P 1 6806 1 6803
+M 0 6800 1 6858
+M 0 6822 1 6861
+M 0 6817 1 6868
+M 0 6103 4 6870
+M 0 6811 1 6871
+M 0 6823 1 6873
+E 1 6802 1 16
+M 0 6807 1 6874
+M 0 6825 1 6876
+E 1 7211 1 16
+O 1 3001 5 6876
+O 1 3010 5 6876
+M 0 6804 1 6877
+M 0 6103 1 6879
+M 0 6811 1 6880
+S
+#69
+QUIFAEL-CUSTOM-ROOMS~
+6999 30 2
+* Backups & specials
+M 0 6001 1 6900  Backup rabbit
+M 0 6003 1 6900  Ferocious rabbit
+M 0 6900 1 6900  Computer bug
+O 0 6900 1 6902  Global optimizer
+O 0 6950 1 6902  Coffee machine
+P 0 6951 3 6950    Coffee cup
+*M 0 6910 1 6900  Isha the Dark Elf
+*G 1 6109 10        Healing potion       Carried
+*E 1 6910 1 5     Dragon scale shirt   Equipped (BODY)
+*E 1 6911 1 7     Dragon scale skirt Equipped (LEGS)
+*E 1 6912 1 3       Black cloak  Equipped (NECK_1)
+*E 1 6913 1 13      Silver belt  Equipped (WAISTE)
+*E 1 6914 1 16      Long, slender sword   Equipped (WIELD)
+*M 0 6999 1 6999  Death
+*E 1 6999 1 16      Scythe Equipped (WIELD)
+S
+#70
+Sewer~
+7099 15 2
+M 0 7001 9 7041            The mean bat
+M 0 7001 9 7025            The mean bat
+M 0 7001 9 7004            The mean bat
+M 0 7001 9 7004            The mean bat
+M 0 7002 3 7049             The Sewer Rat
+M 0 7002 3 7031             The Sewer Rat
+M 0 7003 8 7039           The Small Hairy Spider
+M 0 7003 8 7039           The Small Hairy Spider
+M 0 7003 8 7039           The Small Hairy Spider
+M 0 7003 8 7037           The Small Hairy Spider
+M 0 7003 8 7037           The Small Hairy Spider
+M 0 7003 8 7050           The Small Hairy Spider
+S
+#71
+SecondSewer~
+7199 20 2
+M 0 7004 3 7102            The Earth Beetle
+G 1 3055 100
+M 0 7005 7 7112            The Giant Maggot
+M 0 7005 7 7112            The Giant Maggot
+M 0 7005 7 7122            The Giant Maggot
+M 0 7002 7 7104             The Sewer Rat
+M 0 7000 3 7103            The Horrifying Mudmonster
+M 0 7000 3 7103            The Horrifying Mudmonster
+G 1 3057 100        Healing potion       Carried
+M 0 7006 7 7113            The slithering snake
+M 0 7006 7 7122            The slithering snake
+M 0 7006 7 7122            The slithering snake
+D 1 7116 5 1
+D 1 7280 4 1
+S
+#72
+SEWERMAZE~
+7399 25 2
+* The lair
+D 0 7201 3 2     Lock stone door
+D 0 7201 2 1     Close wood door
+D 0 7202 0 1     Close wood door
+D 0 7208 0 1     Close door
+*
+M 0 7200 1 7201  Load master mindflayer
+E 1 7200 4 16      Equip master with devil rod
+E 1 7203 4 3     Equip master with cloak
+G 1 7205 7200    Give key to master
+O 1 7204 6 7200  Potion into treasury
+O 1 7210 1 7200  Treasure into treasury
+M 0 7201 1 7203  Load senior mindflayer
+E 1 7201 4 16 Equip with large mace
+M 0 7202 2 7205  Junior mindflayer
+G 1 3057 100        Healing potion       Carried
+E 1 7202 8 16 Equip with large mace
+M 0 7202 2 7207  Load junior mindflayer
+G 1 3057 100        Healing potion       Carried
+E 1 7202 8 16 Equip with small mace
+O 0 7206 4 7206  Load Skull
+* The sewermaze
+O 0 7208 20 7211 Load light stick
+O 0 7208 20 7218        "
+O 0 7208 20 7230	"
+O 0 7209 4 7214  Load MUD-boots
+M 0 7203 10 7214 Load wererat
+E 1 7211 16 16 Equip with short sword
+M 0 7203 10 7213 Load wererat
+E 1 7211 16 16 Equip with short sword
+M 0 7203 10 7215 Load wererat
+E 1 7211 16 16 Equip
+M 0 7203 10 7217 Load wererat
+E 1 7211 16 16 Equip
+M 0 7203 10 7219 Load wererat
+E 1 7211 16 16 Equip
+M 0 7203 10 7221 Load wererat
+E 1 7211 16 16 Equip
+M 0 7203 10 7223 Load wererat
+G 1 3057 100        Healing potion       Carried
+E 1 7211 16 16 Equip
+M 0 7203 10 7225 Load wererat
+E 1 7211 16 16 Equip
+M 0 7203 10 7233 Load wererat
+E 1 7211 16 16 Equip
+M 0 7203 10 7233 Load wererat
+E 1 7211 16 16 Equip
+M 0 7204 1 7234  Load gigantic rat
+* The small Hell
+D 0 7280 4 1               Close Secret entrance
+D 0 7116 5 1                ------- || -------
+M 0 7002 5 7285             The Sewer Rat
+E 1 7190 2 2           Equip rat with ring
+M 0 7002 5 7285             The Sewer Rat
+M 0 7000 8 7286            The Horrifying Mudmonster
+G 1 3057 100        Healing potion       CarriedM
+G 1 3057 100        Healing potion       Carried
+M 0 7000 8 7286            The Horrifying Mudmonster
+M 0 7000 8 7281            The Horrifying Mudmonster
+M 0 7000 8 7281            The Horrifying Mudmonster
+G 1 3057 100        Healing potion       Carried
+M 0 7000 8 7280            The Horrifying Mudmonster
+D 1 7116 5 1
+D 1 7280 4 1
+S
+#74
+The tunnels~
+7899 25 2
+D 0 7415 0 1
+D 0 7416 2 1
+D 0 7418 1 1
+D 0 7421 3 1
+D 0 7424 1 1
+D 0 7425 3 1
+D 0 7405 2 1
+D 0 7406 0 1
+D 0 7404 2 1
+D 0 7405 0 1
+M 0 7040 1 7428          Load The Red Dragon
+G 1 3057 100        Healing potion       Carried
+M 0 7041 2 7444          Load The Sea Hag
+G 1 3057 100        Healing potion       Carried
+M 0 7042 2 7435          Load The Good Guardian Naga
+M 0 7043 3 7439          Load The Basilisk
+G 1 3057 100        Healing potion       Carried
+M 0 7044 6 7406          Load The Lemure Blob
+M 0 7045 1 7419          Load Jones
+G 1 3057 100        Healing potion       Carried
+M 0 7046 1 7424          Load Herald
+M 0 7010 2 7429          Load Chr "something"
+G 1 3057 100        Healing potion       Carried
+S
+#79
+Redferne's Residence~
+7999 30 2
+D 0 7900 0 2
+D 0 7901 2 2
+D 0 7902 1 1
+D 0 7901 3 1
+D 0 7901 1 1
+D 0 7910 3 1
+D 0 7910 1 2
+D 0 7903 3 2
+D 0 7904 1 1
+D 0 7913 3 1
+D 0 7911 2 1
+D 0 7912 0 1
+D 0 7904 3 1
+D 0 7905 1 1
+D 0 7906 1 1
+D 0 7908 3 1
+D 0 7906 0 1
+D 0 7907 2 1
+M 0 7009 1 7900         The Grand Knight of Paladins
+E 1 7212 1 16          Equip sword on Knight
+E 1 7217 1 5           Equip Breast-Plate on Knight
+E 1 7218 1 7           Equip Leg-plates on Knight
+E 1 7219 1 9           Equip Gloves on Knight
+E 1 7220 1 6           Equip Helmet on Knight
+E 1 7221 1 11          Equip Shield on Knight
+E 1 7223 1 10          Equip arm guards on Knight
+E 1 7222 1 8           Equip Heavy Boots on Knight
+G 1 7911 1               Give key to chest to the knight
+O 0 7090 40 7907           The Waybread
+O 0 7090 40 7907           The Waybread
+O 0 7090 40 7907           The Waybread
+O 0 7090 40 7907           The Waybread
+O 0 7090 40 7907           The Waybread
+O 0 6013 10 7908           The barrel with water
+O 0 6013 10 7908           The barrel with water
+O 0 6013 10 7908           The barrel with water
+O 0 6013 10 7908           The barrel with water
+O 0 6013 10 7908           The barrel with water
+O 0 6013 10 7908           The barrel with water
+O 0 7910 1 7910           Load chest
+P 1 7190 2 7910           The Silver Ring
+P 1 7191 1 7910           The (Invisible) Golden Ring
+P 1 7207 1 7910           Muddy gauntlets
+P 1 7208 6 7910         Light stick
+O 0 7909 10 7903         MONEY
+O 0 7212 2 7903          Bastard sword
+O 0 7215 2 7903          Light sabre
+O 0 7216 2 7903         Two-handed sword
+S
+#80
+Main matrix~
+8099 10 2
+M 0 8000 1 8020		the Shredder
+M 0 8001 10 8010	the Bugs
+M 0 8001 10 8012	..
+M 0 8001 10 8013	.
+M 0 8001 10 8022
+M 0 8001 10 8023
+M 0 8001 10 8032
+M 0 8001 10 8033
+M 0 8001 10 8044
+M 0 8001 10 8052
+M 0 8001 10 8082
+M 0 8005 2 8014		Cursors
+M 0 8005 2 8050
+M 0 8006 2 8043		Juggernauts
+M 0 8006 2 8051
+M 0 8008 7 8000		Butterflies
+M 0 8008 7 8002		..
+M 0 8008 7 8021		.
+M 0 8008 7 8054
+M 0 8008 7 8061
+M 0 8008 7 8072
+M 0 8008 7 8080
+O 0 8900 2 8052		Construction signs
+O 0 8900 2 8061
+O 0 8901 4 8053		Posters
+O 0 8901 4 8072		.
+O 0 8901 4 8082
+O 0 8901 4 8083
+M 0 8010 3 8053		a Cowboy
+G 1 8121 5			     his Satchel..
+P 1 8102 10 8121     (with some stuff)
+E 1 8120 3 16        and his Whip.
+D 0 8045 5 1		close trapdoor
+D 0 8071 3 1		close tower
+S
+#81
+Main_matrix_auxiliary~
+8999 5 1
+M 0 8003 1 8150		the Daemon
+G 1 8100 1          give ..
+D 0 8150 4 1			Close door
+O 0 8101 2 8150			dirty dishes
+O 1 8101 2 8150
+O 0 8102 3 8104		S FX progs
+O 1 8102 3 8104
+M 0 8001 2 8101		Bugs
+G 1 8102 3			(1 w prg)
+M 0 8001 2 8101
+O 0 8113 2 8102		bones
+O 0 8113 2 8103
+D 0 8112 2 1		closer pyramid door
+S
+#91
+Dylan's_area~
+9199 20 2
+M 0 9101 40 9102	Lots of Harpies!!
+M 0 9101 40 9102
+M 0 9101 40 9105
+M 0 9101 40 9105
+M 0 9101 40 9127
+M 0 9101 40 9127
+M 0 9101 40 9127
+M 0 9101 40 9108
+M 0 9101 40 9108
+M 0 9101 40 9108
+M 0 9101 40 9112
+M 0 9101 40 9112
+M 0 9101 40 9117
+M 0 9101 40 9119
+M 0 9101 40 9119
+M 0 9101 40 9119
+M 0 9101 40 9121
+M 0 9101 40 9122
+M 0 9101 40 9122
+M 0 9101 40 9129
+M 0 9101 40 9131
+M 0 9101 40 9133
+M 0 9101 40 9135
+M 0 9101 40 9144
+M 0 9101 40 9145
+M 0 9101 40 9146
+M 0 9101 40 9147
+M 0 9101 40 9149
+M 0 9101 40 9150
+M 0 9101 40 9151
+M 0 9101 40 9152
+M 0 9101 40 9158
+M 0 9101 40 9158
+M 0 9101 40 9162
+M 0 9101 40 9162
+M 0 9102 2 9123		Harpy Leader #1
+G 1 9104 50			magenta potion
+M 0 9102 2 9124		Harpy Leader #2
+G 1 9105 1			ancient parchment
+M 0 9103 5 9148
+M 0 9103 5 9109
+M 0 9103 5 9137
+M 0 9103 5 9163
+M 0 9103 5 9177
+M 0 9104 2 9182		Efreet #1
+G 1 9102 9			bronze bracers
+M 0 9104 2 9187		Efreet #2
+G 1 9103 20			ornate brooch
+M 0 9105 1 9156		Female roc
+M 0 9106 1 9153		Male roc
+M 0 9107 1 9141		Wicked Witch
+S
+#85
+Valley Trails~
+9999 30  0
+S
+#90
+Deadly Creatures Exhibit~
+10999 10 2
+* first Exhibit (10000)
+M 0 9051 6 10000  Hel Hound
+O 0 3022 1 10000  longsword in room   (debris)
+* second exhibit slasher monkeys and hel hounds
+M 0 9052 6 10001  Slasher monkey
+O 0 3040 2 10001  Breast plate??
+M 0 9051 2 10002  Hel Hound
+M 0 9051 2 10003  Hel Hound
+M 0 9051 2 10004  Hel Hound
+G 1 3057 100        Healing potion       Carried
+M 0 9052 2 10002
+M 0 9052 2 10003
+M 0 9052 2 10004
+O 0 10002 1 10004   dart lying in room (will soon be picked up)
+* second exhibit
+M 0 9053 6 10005  Cocorada
+O 0 3052 1 10005    scroll recall lying in room
+M 0 9053 4 10006
+M 0 9053 4 10007
+G 1 10002 1        dart
+M 0 9053 4 10009
+* third exhibit
+M 0 9056 6 10009 Polar bear
+G 1 3057 100        Healing potion       Carried
+O 0 3077 1 10009 steel helm
+O 0 6111 1 10009 large shield
+M 0 9056 4 10010
+M 0 9056 4 10011
+M 0 9056 4 10012
+G 1 10002 1        dart
+*fourth exhibit
+M 0 9054 6 10014  Alligator
+G 1 10002 1        dart
+M 0 9054 4 10015
+O 0 6013 1 10015   barrel of water.
+M 0 9054 4 10016
+G 1 3057 100        Healing potion       Carried
+M 0 9054 4 10017
+*fifth exhibit
+M 0 9055 6 10018 saber tooth tiger
+O 0 4050 1 10018    purple potion
+M 0 9055 4 10019
+M 0 9055 4 10020
+G 1 3057 100        Healing potion       Carried
+M 0 9055 4 10021
+O 0 10001 1 10021   half eaten corpse
+P 1 10002 3 10001   dart in corpse
+P 1 10002 3 10001   dart in corpse
+P 1 10002 3 10001   dart in corpse
+S
+#109
+The Temple Maze~
+10999 40 2
+*
+M 0 10900 15 10901 Level 5 beasties
+M 0 10900 15 10902
+M 0 10900 15 10903
+M 0 10900 15 10904
+M 0 10900 15 10906
+M 0 10900 15 10907
+M 0 10900 15 10908
+M 0 10900 15 10909
+M 0 10900 15 10911
+M 0 10900 15 10912
+M 0 10900 15 10913
+M 0 10900 15 10914
+M 0 10900 15 10916
+M 0 10900 15 10917
+M 0 10900 15 10922
+*
+M 0 10901 9 10905  Level 7 beasties
+M 0 10901 9 10910
+M 0 10901 9 10915
+M 0 10901 9 10918
+M 0 10901 9 10919
+M 0 10901 9 10920
+M 0 10901 9 10921
+M 0 10901 9 10923
+M 0 10901 9 10924
+*
+M 0 10902 1 10925  The Sentry
+G 1 10904 5        Give him the bow tie!
+*G 1 2009  5
+*
+O 1 10900 10 10925   Load the Pizza box and fill it!
+P 1 10901 100 10900
+P 1 10901 100 10900
+P 1 10901 100 10900
+P 1 10901 100 10900
+P 1 10901 100 10900
+P 1 10901 100 10900
+P 1 10901 100 10900
+P 1 10901 100 10900
+P 1 10901 100 10900
+P 1 10901 100 10900
+*
+O 1 10902 10 10925  Load the soft drink bottle
+S
+#110
+Main Castle Python~
+11999 30 2
+M 0 11001 1 11001     Lord Python
+E 1 3022 500 16
+E 1 3040 500 5
+E 1 3077 500 6
+E 1 3082 500 7
+E 1 3073 500 9
+E 1 3088 500 10
+*
+*
+M 0 11004 4 11014     CastleGuard 1
+E 1 3022 500 16            wields a longsword
+*
+M 0 11004 4 11004     CastleGuard 2
+E 1 3022 100 16            wields a longsword
+*
+M 0 11005 4 11016     CastleGuard at 1st gate
+E 1 3022 100 16            wields a longsword
+*
+M 0 11005 4 11008     CastleGuard at 2nd gate
+E 1 3022 100 16            wields a longsword
+*
+M 0 11006 3 11009     DrunkGuard
+E 1 3022 100 16            wields a longsword
+*
+M 0 11007 2 11005     WeightGuard
+*
+M 0 3066 2 11014      The Cute Little Odif Yggod
+*
+M 0 11010 3 11012     Sheep in a tree
+*
+M 0 11010 2 11015     Sheep in a tree
+*
+M 0 11011 1 11012     Commoner
+*
+M 0 11012 4 11013     Pantomime horse
+*
+M 0 11013 3 11006     Pepperpot
+G 1 6011 50                has a mushroom
+* cheeser
+M 0 11014 1 11025     cheese shop owner
+* baker
+M 0 11015 1 11019     baker
+* receptionist
+M 0 11016 1 11026     receptionist
+S
+#120
+Amber~
+12999 30 0
+S
+#130
+Reserved area 2~
+13999 30 0
+S
+#140
+Reserved area 3~
+14999 30 0
+S
+#150
+Southern Lands~
+15999 30 0
+S
+#160
+Road To Malvaria~
+16999 30 0
+*
+M 0 6506 14 16030   ; The giant
+M 0 201 19 16045   ; a goblin
+M 0 201 19 16047   ; a goblin
+M 0 201 19 16047   ; a goblin
+D 0 16048 1 0   ; The chief's area
+M 0 16049 1 16049   ; gobin
+G 1 53 1 0   ; a morning star
+M 0 201 19 16049   ; a goblin
+M 0 201 19 16049   ; a goblin
+M 0 201 19 16049   ; a goblin
+M 0 201 19 16049   ; a goblin
+M 0 201 19 16049   ; a goblin
+M 0 201 19 16049   ; a goblin
+M 0 201 19 16049   ; a goblin
+M 0 201 19 16049   ; a goblin
+M 0 201 19 16049   ; a goblin
+M 0 201 19 16049   ; a goblin
+M 0 201 19 16049   ; a goblin
+D 0 16049 2 0   ; The Throne Room
+D 0 16049 3 0   ; The Throne Room
+M 0 201 19 16050   ; a goblin
+D 0 16050 0 0   ; The treasure room
+D 0 16050 4 0   ; The treasure room
+M 0 6506 14 16061   ; The giant
+M 0 6506 14 16061   ; The giant
+M 0 6506 14 16062   ; The giant
+D 0 16062 1 0   ; A large tunnel
+M 0 6506 14 16064   ; The giant
+D 0 16064 3 0   ; A huge cavern
+M 0 6506 14 16066   ; The giant
+M 0 6506 14 16066   ; The giant
+D 0 16067 0 0   ; A large stone hallway
+M 0 6506 14 16068   ; The giant
+D 0 16068 0 0   ; A large stone hallway
+M 0 6506 14 16069   ; The giant
+M 0 6506 14 16070   ; The giant
+M 0 6506 14 16071   ; The giant
+D 0 16071 2 0   ; A guest's quarters
+D 0 16072 2 0   ; A guest's quarters
+M 0 6506 14 16073   ; The giant
+M 0 6506 14 16074   ; The giant
+M 0 16091 2 16081   ; harpy
+M 0 16085 1 16085   ; roc
+G 1 5305 2 0   ; a huge treasure
+M 0 201 19 16091   ; a goblin
+M 0 16091 2 16091   ; harpy
+M 0 201 19 16093   ; a goblin
+M 0 201 19 16097   ; a goblin
+D 0 16099 5 0   ; A trashpile
+D 0 16200 1 0   ; The Throne Room of Drow
+D 0 16200 2 0   ; The Throne Room of Drow
+D 0 16200 3 0   ; The Throne Room of Drow
+D 0 16201 3 0   ; Rambozo's Room
+D 0 16202 1 0   ; Shadowspawn's Room
+S
+#170
+Dem's Area~
+17999 30 2
+*
+D 0 17012 0 1		close door from cave to stairs
+D 0 17014 2 1		close door from stairs to cave
+D 0 17024 0 1		close riddle entrance
+D 0 17028 2 1		close riddle exit
+D 0 17045 2 0 		open trap entrance
+D 0 17048 0 2		lock trap exit
+D 0 17048 1 1		close the closets
+D 0 17048 2 1
+D 0 17048 3 1
+D 0 17048 4 1
+D 0 17048 5 1
+D 0 17049 3 1
+D 0 17050 0 1
+D 0 17051 1 1
+D 0 17052 5 1
+D 0 17053 4 1
+D 0 17054 0 0 		open door from golems to stairs
+D 0 17056 2 0 		open door from stairs to golems
+D 0 17074 1 1		close door to vampire
+D 0 17076 3 1		close door from vampire
+D 0 17080 0 1		close door to crab
+D 0 17082 2 1		close door from crab
+D 0 17082 0 1		close poseidon's face
+D 0 17084 2 1		close back of poseidon's face
+D 0 17096 2 0		open door to huge steps
+D 0 17098 0 0		open door from huge steps
+D 0 17106 5 1		close door to ogre
+D 0 17108 4 1		close door from ogre
+*
+M 0 17000 1 17018	wandering black pudding
+G 1 17021 1		give pudding pop
+*
+M 0 17004 1 17028	guardian sphinx
+*
+M 0 17001 1 17034	wandering invisible stalker
+G 1 296 1		give bag of holding
+*
+M 0 17010 1 17042	hiding green slime
+G 1 6109 2		give potion of healing
+*
+M 0 17003 2 17044	wandering bugbears
+M 0 17003 2 17044
+*
+M 0 17005 3 17049	shadows in closet
+M 0 17005 3 17049
+M 0 17005 3 17049
+G 1 17003 43		give false key
+*
+O 0 17022 1 17050	put missile scroll (looks like charm) in 2.closet
+O 0 17003 43 17050	put false key in 2.closet
+*
+M 0 17006 1 17051	air elemental in 3.closet
+G 1 17003 43		give false key
+G 1 17007 1		give necklace (12000 coins)
+*
+O 0 17003 43 17052	put false key in 4.closet
+O 0 17008 1 17052	put sleep potion in 4.closet
+*
+O 0 17003 43 17053	put 27 false keys in 5.closet
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17002 1 17053	put the real key in 5.closet
+O 0 17003 43 17053	put 12 more false keys in 5.closet
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+O 0 17003 43 17053
+*
+M 0 17007 4 17054	put in 3 nice flesh golems
+M 0 17007 4 17054
+M 0 17007 4 17054
+M 0 17008 1 17054	put in a mean flesh golem
+G 1 17005 1		give parchment with solution
+G 1 17006 1		give pen
+M 0 17007 4 17054	put in another nice flesh golem
+*
+M 0 17009 2 17066	put geyser on third platform
+*
+M 0 17009 2 17070	put geyser on fifth platform
+*
+M 0 17011 1 17076	put vampire in coffin
+G 1 17009 1		give dispel scroll
+G 1 17011 2		give two unholy symbols
+G 1 17011 2
+*
+M 0 17012 1 17082	guardian crab
+*
+M 0 17013 1 17086	mimic looks like Wave
+G 1 17001 1		give luck bracelet
+G 1 17012 1		give storm giant's bolt
+*
+M 0 17002 1 17090	wandering wight
+G 1 17009 1		give dispel magic scroll
+*
+M 0 17014 6 17092	hiding ghouls
+M 0 17014 6 17092
+M 0 17014 6 17092
+M 0 17014 6 17092
+M 0 17014 6 17092
+M 0 17014 6 17092
+G 1 17004 1		give charm scroll
+G 1 17010 1		give sanctuary scroll
+G 1 17016 1		give sense life potion
+*
+M 0 17015 1 17100	giant crayfish
+*
+M 0 17016 1 17104	sea lion
+*
+M 0 17017 1 17108	Qesnef the ogre mage (look like gentle hobbit)
+G 1 17017 1		give protection scroll
+G 1 17018 1		give bronze breast plate (cursed)
+G 1 6109 2		give healing potion
+G 1 17015 4		give gold bracelets
+G 1 17015 4
+G 1 17015 4
+G 1 17015 4
+S
+#180
+DarkenElf's Area~
+18999 30 0
+S
+#190
+Flint's Area~
+19199 30 0
+S
+#192
+Castle Mistamere~
+19999 20 2
+*
+D 0 19247 1 2
+D 0 19248 3 2
+*
+M 0 19200 4 19206
+E 1 7211 19200 16
+M 0 19200 4 19206
+E 1 7211 19200 16
+M 0 19200 4 19206
+E 1 7211 19200 16
+M 0 19200 4 19206
+E 1 7211 19200 16
+*
+M 0 19201 1 19220
+E 1 7211 19201 16
+M 0 19201 1 19209
+E 1 19203 19201 16
+*O 1 19204 2 -1
+G 1 19204 19201
+M 0 19201 1 19219
+E 1 7211 19201 16
+*
+O 0 19201 1 19225
+*
+M 0 19202 3 19231
+M 0 19202 3 19231
+M 0 19202 3 19231
+O 1 19205 2 19231
+O 1 19205 2 19231
+*
+M 0 19206 1 19233
+E 1 19209 19206 16
+O 0 19206 1 19233
+*O 1 19207 2 -1
+P 1 19207 19206
+*O 1 19207 2 -1
+P 1 19207 19206
+*
+M 0 19208 1 19237
+*
+M 0 19209 3 19253
+E 1 7211 19209 16
+M 0 19209 3 19253
+E 1 7211 19209 16
+M 0 19209 3 19253
+E 1 7211 19209 16
+M 0 19210 1 19253
+E 1 19208 19210 16
+O 1 19205 1 19210
+G 1 19205 19210
+O 1 19204 1 19210
+G 1 19204 19210
+*
+M 0 19203 4 19217
+E 1 19209 19203 16
+M 0 19203 4 19217
+E 1 19209 19203 16
+M 0 19203 4 19217
+E 1 19209 19203 16
+M 0 19203 4 19217
+E 1 19209 19203 16
+*
+M 0 19207 2 19244
+O 1 19202 1 19244
+G 1 19202 19207
+M 0 19207 2 19244
+O 1 19202 1 19244
+G 1 19202 19207
+*
+O 0 19200 1 19221
+O 0 103 1 19221
+P 1 103 19200
+*
+O 0 19204 1 19240
+*
+M 0 19205 2 19215
+M 0 19205 2 19215
+M 0 19205 2 19216
+M 0 19205 2 19216
+*
+M 0 19212 1 19202
+*
+M 0 19211 3 19207
+M 0 19211 3 19212
+M 0 19211 3 19245
+M 0 19211 3 19249
+M 0 19211 3 19236
+M 0 19211 3 19230
+M 0 19211 3 19226
+M 0 19211 3 19211
+S
+#200
+Arachnos~
+20099 5 1
+**
+M 0 20001 10 20001		young spider
+M 0 20001 10 20006		young spider
+M 0 20001 10 20006                young spider
+M 0 20001 10 20004		young spider
+**
+M 0 20005 1 20003			wasp
+**
+M 0 20010 1 20042			bird spider
+G 1 3056 100                        give him a golden potion
+**
+M 0 20003 9 20013			wolf spider
+**
+M 0 20008 5 20008			slave
+M 0 20008 5 20008                 slave
+G 1 3057 100                        give him a silver potion
+M 0 20008 5 20008                 slave
+M 0 20003 9 20008			wolf spider
+M 0 20008 5 20008                 slave
+M 0 20008 5 20008                 slave
+*
+M 0 20009 2 20027			quasit
+G 1 3057 100                        give him a silver potion
+**
+M 0 20007 5 20035			ethereal spider
+G 1 3056 100                        give him a golden potion
+M 0 20003 9 20035			wolf spider
+**
+M 0 20007 5 20033			ethereal spider
+**
+M 0 20004 1 20032			stuck orc
+M 0 20003 9 20032			wolf spider
+***
+M 0 20006 3 20021			drone spider
+G 1 3057 100                        give him a silver potion
+**
+M 0 20006 3 20031			drone spider
+**
+M 0 20011 1 20073			Hermit
+G 1 3056 100                        give him a golden potion
+M 0 20003 9 20035			wolf spider
+**
+M 0 20015 1 20050			Ki-Rin
+G 1 20003 1			  give her a pontiff's headdress
+G 1 6109 10                        give him a blue potion
+**
+M 0 20014 1 20099			Arachnos
+G 1 20002 1			  give her a wizard's hat
+**
+M 0 20012 1 20070			Donjonkeeper
+G 1 20001 1			   give him the thief's knife
+**
+M 0 20013 1 20067			guardian
+**
+M 0 20006 3 20030			drone spider
+M 0 20003 9 20030			wolf spider
+**
+M 0 20002 1 20060			Yevaud
+G 1 20004 2			   give him a black knight's visor
+G 1 7203  4			   give him a purple cloak
+E 1 20005 2 2                      Equip with ring
+**
+M 0 20016 1 20030			baby dragon
+G 1 3057 100                        give him a silver potion
+**
+M 0 20017 1 20040			elder wormkin
+G 1 3056 100                        give him a golden potion
+M 0 20003 9 20035			wolf spider
+**
+*D 0 20092 0 2
+*D 0 20099 2 2
+S
+#210
+Ershteep Road and City~
+21200 59 2
+*
+D 0 21004 0 2   Close and lock
+D 0 21052 2 2   fireplace
+D 0 21012 3 2
+D 0 21016 1 2   Close all the sewer
+D 0 21056 1 2   doors!
+D 0 21053 3 2
+D 0 21055 4 1
+D 0 21034 1 1
+D 0 21032 1 1   Close doors of sanctum
+D 0 21033 3 1
+*
+M 0 21007 1 21052  Guard dog in fireplace
+*G 1 21008 1        give him the ring!
+G 1 21012 3        give him an opal potion
+M 0 21012 1 21011  Gargoyle
+G 1 21002 5        give gargoyle the key to the sewers
+G 1 3057  100      silver potion
+M 0 21008 2 21054  Rats
+M 0 21008 2 21057
+M 0 21011 3 21031  aggressive Yellow enfan in foyer
+G 1 21011 2        give him the key for the cases!
+E 1 21014 3 16     wields runed dagger
+O 0 21010 3  21024
+P 1 21006 10 21010 tunic in armory
+P 1 21007 10 21010 high heels in armory
+O 0 21010 3  21030
+P 1 21013 10 21010 long swords
+P 1 21013 10 21010
+O 0 21010 3  21037
+P 1 21009 1  21010  bracelet in case in jewellery
+*
+M 0 21009 4 21045 agg green
+M 0 21009 4 21045 agg green
+M 0 21010 2 21045 agg purple
+M 0 21011 3 21045 agg yellow
+G 1 3056 100                        give him a golden potion
+G 1 21001 1      give this guy the key to the fireplace
+*
+M 0 21001 10 21012
+M 0 21001 10 21016
+M 0 21001 10 21019
+M 0 21001 10 21025       blue enfans
+M 0 21001 10 21038
+M 0 21001 10 21038
+M 0 21001 10 21049
+M 0 21001 10 21051
+*
+M 0 21002 10 21014
+M 0 21002 10 21014
+M 0 21002 10 21027
+M 0 21002 10 21032      grey enfans
+M 0 21002 10 21039
+M 0 21002 10 21042
+M 0 21002 10 21047
+M 0 21002 10 21046
+*
+M 0 21009 4 21033 agg green
+M 0 21009 4 21033 agg green
+M 0 21010 2 21033 agg purple
+M 0 21011 3 21033 agg yellow
+M 0 21006 1 21033 the black man!
+G 1 3056 100                        give him a golden potion
+E 1 21003 3 8     boots
+E 1 21005 3 11    shield
+E 1 21004 3 16    claymore
+*
+M 0 21003 5 21010
+M 0 21003 5 21030
+M 0 21003 5 21040   green enfans
+M 0 21003 5 21050
+M 0 21003 5 21059
+*
+M 0 21004 4 21023
+M 0 21004 4 21022   purple
+M 0 21004 4 21041
+M 0 21004 4 21048
+*
+M 0 21005 3 21032   yellows
+M 0 21005 3 21043
+M 0 21005 3 21047
+G 1 3056 100                        give him a golden potion
+*
+S
+#220
+Mangar and Gruu's area~
+22999 60 0
+*
+S
+#230
+Mitdgard's area~
+23999 30 0
+*
+S
+#240
+The Land of Oz~
+24999 30 0
+*
+S
+#250
+The Abyss~
+25999 27 2
+**
+**  Abyss
+**
+M 0 25005 10 25000   ; a Lost Soul
+M 0 25017 7 25003   ; the Gatekeeper
+E 1 25017 4 16      ; Sword of Sharpness
+M 0 25017 7 25003   ; the Gatekeeper
+E 1 25017 4 16      ; Sword of Sharpness
+M 0 25005 10 25006   ; a Lost Soul
+M 0 25005 10 25006   ; a Lost Soul
+D 0 25010 3 0       ; Western End of the Misty Cavern
+M 0 25017 7 25011   ; the Gatekeeper
+E 1 25017 4 16      ; Sword of Sharpness
+M 0 25017 7 25011   ; the Gatekeeper
+E 1 25017 4 16      ; Sword of Sharpness
+M 0 25014 1 25012   ; the Death knight
+E 1 25018 3 2       ; A Crystal Ring
+*E 1 25004 3 6       ; The Helm of the Dragons
+E 1 25016 4 16      ; a Silver Trident
+E 1 25050 1 17       ; A Runed Key
+M 0 25005 10 25013  ; a Lost Soul
+M 0 25016 7 25015   ; a Shadow Daemon
+M 0 25016 7 25015   ; a Shadow Daemon
+M 0 25012 6 25015   ; a Githyanki
+M 0 25016 7 25015   ; a Shadow Daemon
+M 0 25012 6 25015   ; a Githyanki
+M 0 25016 7 25015   ; a Shadow Daemon
+M 0 25016 7 25015   ; a Shadow Daemon
+M 0 25012 6 25015   ; a Githyanki
+M 0 25012 6 25015   ; a Githyanki
+M 0 25010 1 25015   ; the kraken
+M 0 25012 6 25017   ; a Githyanki
+M 0 25012 6 25020   ; a Githyanki
+M 0 25011 1 25020   ; the Treant
+E 1 3032 5 17       ; a bag
+P 1 4050 6 3032     ; a purple potion
+P 1 4050 6 3032     ; a purple potion
+*P 1 25021 1 3032    ; A Small Medallion
+*P 1 25018 7 3032    ; A Crystal Ring
+*P 1 25023 1 3032    ; A Bright Green Cape
+M 0 25016 7 25023   ; a Shadow Daemon
+M 0 25016 7 25023   ; a Shadow Daemon
+M 0 25005 10 25025   ; a Lost Soul
+M 0 25005 10 25027   ; a Lost Soul
+M 0 25005 10 25029   ; a Lost Soul
+M 0 25008 4 25030   ; an Efreet
+E 1 296 5 17       ; a bag
+*P 1 25002 2 3032    ; A pair of silver sleeves
+*P 1 25019 2 3032    ; A Jeweled Dagger
+M 0 25017 7 25031   ; the Gatekeeper
+E 1 25017 7 16      ; Sword of Sharpness
+M 0 25017 7 25031   ; the Gatekeeper
+E 1 25017 7 16      ; Sword of Sharpness
+M 0 25017 7 25031   ; the Gatekeeper
+E 1 25017 7 16      ; Sword of Sharpness
+D 0 25033 3 2       ; Western End of the Courtyard
+M 0 25005 10 25034  ; a Lost Soul
+G 1 4050 6 0        ; a purple potion
+G 1 3056 39 0       ; a golden potion
+M 0 25005 10 25034   ; a Lost Soul
+G 1 3056 39 0        ; a golden potion
+M 0 25005 10 25034   ; a Lost Soul
+G 1 4050 6 0          ; a purple potion
+G 1 4050 6 0          ; a purple potion
+G 1 3056 39 0         ; a golden potion
+G 1 3056 39 0         ; a golden potion
+D 0 25034 1 2       ; Inside a Small Stone Building
+M 0 25015 1 25039   ; the Neo-Otyugh
+G 1 21012 10 0      ; an opal potion
+G 1 25025 1 0       ; Glaive
+M 0 25007 4 25041   ; a White Gold Manticore
+E 1 25018 7 17       ; A Crystal Ring
+M 0 25007 4 25041   ; a White Gold Manticore
+E 1 25018 7 17       ; A Crystal Ring
+M 0 25009 1 25046   ; the Hydra
+G 1 25022 1 0         ; An Ivory Bracelet
+G 1 25024 1 0         ; The fire blade
+D 0 25049 2 2       ; Southern End of Coridoor
+M 0 25000 1 25050   ; The Demi-Lich
+E 1 25013 1 1         ; A Black Onyx Ring
+E 1 30001 3 2         ; A silver ring
+E 1 25008 6 3         ; A Black and Silver Cloak
+E 1 30004 5 4         ; A black cloak
+E 1 25005 6 5         ; A Rune Covered Breast Plate
+E 1 25010 6 9         ; A Pair of Jeweled Gauntlets
+E 1 25000 3 16        ; The Sword of the Ancients
+E 1 25052 1 17        ; A Runed Key
+D 0 25050 2 2       ; Castle Throne Room
+M 0 25007 4 25051   ; a White Gold Manticore
+E 1 25018 7 17        ; A Crystal Ring
+M 0 25007 4 25051   ; a White Gold Manticore
+E 1 3032  5 17        ; a bag
+P 1 25018 7 3032       ; A Crystal Ring
+P 1 21012 10 3032      ; an opal potion
+P 1 21012 10 3032      ; an opal potion
+P 1 21012 10 3032      ; an opal potion
+*P 1 25002 2 3032       ; A pair of silver sleeves
+*P 1 25004 2 3032       ; The Helm of the Dragons
+D 0 25051 0 2       ; The Vault
+M 0 25006 6 25054   ; a Storm Giant
+G 1 25053 1 0        ; A Runed Key
+M 0 25006 6 25054   ; a Storm Giant
+E 1 25019 2 16       ; A Jeweled Dagger
+D 0 25054 1 2      ; End of the Grand Hallway
+D 0 25055 3 2      ; A Large Room
+D 0 25057 2 0      ; The Castle Store Room
+M 0 25006 6 25058   ; a Storm Giant
+M 0 25006 6 25058   ; a Storm Giant
+D 0 25058 0 0      ; Castle Barracks
+D 0 25058 2 0      ; Castle Barracks
+D 0 25059 1 1      ; Guest Room
+M 0 25008 4 25063   ; an Efreet
+M 0 25008 4 25077   ; an Efreet
+M 0 25008 4 25077   ; an Efreet
+D 0 25077 3 0      ; Beneath the Sacraficial Pit
+D 0 25078 1 0      ; Entrance to the Sanctuary
+D 0 25079 0 0      ; The Sanctuary
+D 0 25079 3 0      ; The Sanctuary
+D 0 25080 1 0      ; The Sanctuary
+D 0 25080 3 0      ; The Sanctuary
+M 0 25002 1 25081   ; A Crimson Death
+E 1 25011 1 12       ; A Pitch-Black Cloak
+E 1 25012 1 14       ; A Flaming Bracelet
+E 1 25012 1 15       ; A Flaming Bracelet
+E 1 25017 7 16       ; Sword of Sharpness
+E 1 21012 3 17       ; an opal potion
+D 0 25081 1 0      ; Crimson's Death Room
+M 0 25004 3 25082   ; a Black Slayer
+M 0 25004 3 25082   ; a Black Slayer
+M 0 25004 3 25082   ; a Black Slayer
+E 1 25014 1 16        ; the Shadowshiv
+D 0 25082 2 0      ; The Sanctuary
+D 0 25082 3 0      ; The Sanctuary
+D 0 25083 1 0      ; The Sanctuary
+M 0 25006 6 25084   ; a Storm Giant
+M 0 25006 6 25084   ; a Storm Giant
+D 0 25084 2 1      ; Sanctuary Guard Post
+M 0 25013 1 25085   ; Kalas
+E 1 25013 3 1        ; A Black Onyx Ring
+E 1 25018 7 2        ; A Crystal Ring
+E 1 25006 6 8        ; A Pair of Silver Boots
+E 1 25010 6 9        ; A Pair of Jeweled Gauntlets
+E 1 25011 6 12       ; A Pitch-Black Cloak
+E 1 25015 6 16       ; A Flaming Two-Handed Sword
+E 1 25051 1 17       ; A Runed Key
+G 1 21012 10 0       ; an opal potion
+G 1 21012 10 0       ; an opal potion
+D 0 25085 0 1      ; Chamber of Kalas
+D 0 25088 3 1      ; End of a Narrow Passage
+M 0 25003 1 25089   ; A Mist Daemon
+E 1 3032 100 17        ; a bag
+P 1 25011 3 3032      ; A Pitch-Black Cloak
+*P 1 25012 3 3032      ; A Flaming Bracelet
+*P 1 25008 3 3032      ; A Black and Silver Cloak
+*P 1 25008 3 3032      ; A Black and Silver Cloak
+D 0 25089 1 1      ; The Mist
+D 0 25091 3 0      ; The Castle Dungeon
+D 0 25092 1 0      ; Secret Passage
+D 0 25092 2 0      ; Secret Passage
+D 0 25093 0 0      ; Hall of Ancients
+D 0 25094 1 0      ; A Small Alcove
+D 0 25095 1 0      ; A Narrow Tunnel
+**
+**
+**  Guild
+**
+M 0 25100 20 25100   ; the Paladin Guardsman
+M 0 25100 20 25100   ; the Paladin Guardsman
+M 0 25100 20 25101   ; the Paladin Guardsman
+M 0 25100 20 25101   ; the Paladin Guardsman
+M 0 25100 20 25102   ; the Paladin Guardsman
+M 0 25100 20 25102   ; the Paladin Guardsman
+M 0 25100 20 25103   ; the Paladin Guardsman
+M 0 25100 20 25103   ; the Paladin Guardsman
+D 0 25104 1 2         ; Atop the Marble Staircase
+M 0 25100 20 25105   ; the Paladin Guardsman
+M 0 25100 20 25105   ; the Paladin Guardsman
+D 0 25105 3 2         ; The Hall of Paladins
+M 0 3005 2 25106     ; the receptionist
+D 0 25107 5 2        ; Meditation Chamber
+M 0 25100 20 25108   ; the Paladin Guardsman
+M 0 25100 20 25108   ; the Paladin Guardsman
+M 0 25100 20 25109   ; the Paladin Guardsman
+M 0 25100 20 25109   ; the Paladin Guardsman
+M 0 25100 20 25110   ; the Paladin Guardsman
+M 0 25100 20 25110   ; the Paladin Guardsman
+D 0 25110 3 2         ; A Guarded Hallway
+M 0 25101 1 25111   ; the Grand Knight of Paladins
+E 1 25059 1 17      ; A diamond key
+D 0 25111 1 2       ; Throne of the Grand Knight
+D 0 25111 5 2       ; Throne of the Grand Knight
+D 0 25112 4 2       ; Beneath the Throne
+D 0 25113 5 2       ; Chambers of the Grand Knight
+O 0 6005 5 25114   ; a wooden chest
+*P 1 7203 4 6005     ; a purple cloak
+*P 1 7203 4 6005   ; a purple cloak
+*P 1 1104 2 6005   ; a silvery cloak
+O 0 6005 5 25114   ; a wooden chest
+*P 1 7212 2 6005   ; a huge bastard sword
+*P 1 7219 1 6005   ; a pair of gloves
+*P 1 7190 4 6005   ; a glinting ring of silver
+*P 1 7190 4 6005   ; a glinting ring of silver
+*O 0 6005 5 25114   ; a wooden chest
+*P 1 7217 1 6005      ; a silvery breast plate
+*P 1 7220 1 6005      ; a silvery helmet
+*P 1 7222 1 6005      ; a pair of heavy plated boots
+O 0 6005 5 25114   ; a wooden chest
+P 1 25100 2 6005   ; A Golden Shield
+*P 1 7223 1 6005      ; some arm plates
+*P 1 7218 1 6005      ; some leg plates
+D 0 25114 4 2        ; Grand Knight's Treasury
+M 0 25100 20 25115   ; the Paladin Guardsman
+M 0 25100 20 25115   ; the Paladin Guardsman
+D 0 25115 4 2        ; Beneath the Altar
+M 0 3071 2 25116   ; The Super Repair Guy
+E 1 25058 4 17      ; An emerald key
+M 0 25100 20 25118   ; the Paladin Guardsman
+M 0 25100 20 25118   ; the Paladin Guardsman
+D 0 25120 1 2       ; End of Passage
+*O 0 3088 15 25121   ; a pair of plate sleeves
+*O 0 25100 2 25121   ; A Golden Shield
+*O 0 25101 1 25121   ; A Paladin's Longsword
+*O 0 3072 8 25121   ; a pair of chain gauntlets
+*O 0 3083 8 25121   ; a pair of chain leggings
+*O 0 3078 8 25121   ; a chain helm
+*O 0 3041 8 25121   ; a chain mail shirt
+D 0 25121 3 2      ; Storage Chamber
+O 0 25102 2 25101  ;board
+*O 0 25102 2 25105  ;board
+**
+S
+#260
+Hawk's area~
+26999 23 0
+*
+S
+#270
+Haplo's area~
+27999 39 0
+*
+S
+#280
+Someone's area (Honda?)~
+28999 31 0
+*
+S
+#290
+Oz's other area~
+29999 51 0
+*
+S
+#300
+Corys Area~
+30999 1 0
+*
+S
+#310
+Shempores Area~
+31999 1 0
+*
+M 0 31005 8 31032   ; A tree
+M 0 31006 7 31033   ; An ent
+M 0 31005 8 31034   ; A tree
+M 0 31007 1 31038   ; Treebeard
+M 0 31006 7 31041   ; An ent
+M 0 31005 8 31042   ; A tree
+M 0 31005 8 31045   ; A tree
+M 0 31000 5 31047   ; A Troll Warrior
+M 0 31005 8 31050   ; A tree
+M 0 31006 7 31051   ; An ent
+M 0 31005 8 31051   ; A tree
+M 0 31006 7 31052   ; An ent
+M 0 31006 7 31053   ; An ent
+M 0 31006 7 31054   ; An ent
+M 0 31005 8 31054   ; A tree
+M 0 31005 8 31055   ; A tree
+M 0 31006 7 31060   ; An ent
+M 0 31001 3 31063   ; A young troll
+M 0 31001 3 31067   ; A young troll
+M 0 31000 5 31067   ; A Troll Warrior
+M 0 31000 5 31071   ; A Troll Warrior
+M 0 31003 4 31071   ; A Troll Guard
+G 1 31001 6 0   ; A steel spear
+G 1 31001 6 0   ; A steel spear
+M 0 31003 4 31071   ; A Troll Guard
+G 1 31001 6 0   ; A steel spear
+M 0 31003 4 31071   ; A Troll Guard
+G 1 31001 6 0   ; A steel spear
+M 0 31003 4 31071   ; A Troll Guard
+G 1 31001 6 0   ; A steel spear
+M 0 31002 1 31071   ; The troll shamen
+E 1 31008 1 6   ; A steel helm
+E 1 2130 2 15   ; A serpentine bracelet
+E 1 31001 6 16   ; A steel spear
+D 0 31071 1 2   ; A small room
+D 0 31072 0 0   ; A dead end
+M 0 31000 5 31074   ; A Troll Warrior
+M 0 31021 7 31079   ; A tree
+M 0 31021 7 31081   ; A tree
+M 0 31021 7 31088   ; A tree
+M 0 31021 7 31093   ; A tree
+M 0 31021 7 31095   ; A tree
+M 0 31021 7 31097   ; A tree
+M 0 31021 7 31098   ; A tree
+M 0 31022 6 31101   ; A citizen
+D 0 31125 0 0   ; The castle gates
+O 0 31005 1 31127   ; A rusty helm
+O 0 31002 1 31127   ; A crystal necklace
+D 0 31127 3 2   ; The treasure room
+D 0 31130 2 0   ; The lost town of Quinmoor
+M 0 31022 6 31140   ; A citizen
+M 0 31022 6 31145   ; A citizen
+M 0 31013 1 31145   ; The shopkeeper
+M 0 31022 6 31146   ; A citizen
+M 0 1023 9 31146   ; a seasoned adventurer
+M 0 1023 9 31146   ; a seasoned adventurer
+M 0 1023 9 31146   ; a seasoned adventurer
+M 0 31014 1 31146   ; The innkeeper
+M 0 31011 1 31147   ; Kilfen, the bartender
+M 0 31012 1 31148   ; The treasure broker
+M 0 31015 1 31150   ; The baker
+M 0 31016 1 31151   ; The armourer
+M 0 31022 6 31152   ; A citizen
+M 0 31017 1 31152   ; The jeweler
+M 0 31022 6 31154   ; A citizen
+M 0 31020 1 31154   ; The chandler
+M 0 31019 1 31155   ; Kilnab, the wizard
+M 0 31018 1 31156   ; The swordsmith
+D 0 31164 0 0   ; The gates of castle Quilandar
+D 0 31166 0 0   ; The grand castle of Quilandar
+D 0 31169 2 0   ; The grand castle of Quilandar
+D 0 31169 3 0   ; The grand castle of Quilandar
+D 0 31170 0 0   ; The grand castle of Quilandar
+D 0 31172 1 0   ; The grand castle of Quilandar
+D 0 31176 3 0   ; The grand castle of Quilandar
+D 0 31179 1 0   ; The grand castle of Quilandar
+M 0 31000 5 31187   ; A Troll Warrior
+D 0 31232 2 0   ; The grand castle of Quilandar
+M 0 31009 3 31271   ; A kobold
+M 0 31008 8 31272   ; The labyrinth guardian
+M 0 31008 8 31273   ; The labyrinth guardian
+M 0 31008 8 31274   ; The labyrinth guardian
+M 0 31009 3 31276   ; A kobold
+M 0 31008 8 31278   ; The labyrinth guardian
+M 0 31010 7 31278   ; A dark elf
+M 0 31008 8 31279   ; The labyrinth guardian
+M 0 31010 7 31279   ; A dark elf
+M 0 31010 7 31279   ; A dark elf
+M 0 31008 8 31284   ; The labyrinth guardian
+M 0 31008 8 31287   ; The labyrinth guardian
+M 0 31010 7 31287   ; A dark elf
+M 0 31010 7 31287   ; A dark elf
+M 0 31010 7 31287   ; A dark elf
+M 0 31010 7 31288   ; A dark elf
+M 0 31009 3 31289   ; A kobold
+M 0 31008 8 31290   ; The labyrinth guardian
+*
+S
+#320
+Kempers Area~
+32999 1 0
+*
+S
+#330
+Tomb's of Tarin~
+33099 30 2
+*
+*
+D 0 33008 0 1 - Officers barraks  CLOSED to the NORTH
+D 0 33010 2 1 - Officers sleeping quarters  CLOSED to the SOUTH
+D 0 33013 0 2 - Guardmens corridors  LOCKED to the NORTH
+D 0 33012 2 1 - Kitchen  CLOSED to the SOUTH
+D 0 33012 2 1 - Kitchen  CLOSED to the SOUTH
+D 0 33012 2 1 - Kitchen  CLOSED to the SOUTH
+D 0 33015 0 1 - Fridge  CLOSED to the NORTH
+D 0 33024 4 2 - Wine cellar  LOCKED to the UP
+D 0 33024 4 2 - Wine cellar  LOCKED to the UP
+D 0 33023 5 2 - Inside the wardrobe  LOCKED to the DOWN
+D 0 33024 1 1 - Wine cellar  CLOSED to the EAST
+D 0 33026 3 1 - Secret tunnel  CLOSED to the WEST
+D 0 33026 1 2 - Secret tunnel  LOCKED to the EAST
+D 0 33025 0 1 - Behind the curtain  CLOSED to the NORTH
+D 0 33027 2 1 - Southern marble hall  CLOSED to the SOUTH
+D 0 33036 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 33033 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 33036 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 33033 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 33039 1 1 - Eastern end of the marble hallway  CLOSED to the EAST
+D 0 33029 3 1 - Western marble hall  CLOSED to the WEST
+D 0 33031 0 2 - Northern marble hall  LOCKED to the NORTH
+D 0 33041 2 2 - Dark corridor  LOCKED to the SOUTH
+D 0 33044 3 2 - Silvery rooms of privacy  LOCKED to the WEST
+D 0 33036 1 2 - Treasure room of Tarin  LOCKED to the EAST
+D 0 33050 1 1 - Realm of Illusions  CLOSED to the EAST
+D 0 33050 1 2 - Realm of Illusions  LOCKED to the EAST
+D 0 33051 3 2 - Lair of the Dead  LOCKED to the WEST
+D 0 33052 2 2 - Trail up on a little mountain  LOCKED to the SOUTH
+D 0 33000 0 2 - Inside the mountain  LOCKED to the NORTH
+D 0 33052 2 2 - Trail up on a little mountain  LOCKED to the SOUTH
+D 0 33000 0 2 - Inside the mountain  LOCKED to the NORTH
+D 0 33033 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 33036 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 33070 2 2 - Behind the tree  LOCKED to the SOUTH
+D 0 33061 0 2 - Walking on the narrow trail through the forest  LOCKED to the N
+M 0 33000 1 33004 - the King of Tarin -> Vault of heroes
+E 1 33027 1 6 -     the kings visor
+E 1 33021 1 13 -     the magic girdle
+E 1 33000 2 16 -     a mithril two-handed sword
+D 0 33086 1 1 - Lift room  CLOSED to the EAST
+D 0 33005 3 1 - Entrance hall of Tarin  CLOSED to the WEST
+D 0 33024 1 1 - Wine cellar  CLOSED to the EAST
+D 0 33024 1 1 - Wine cellar  CLOSED to the EAST
+D 0 33026 3 1 - Secret tunnel  CLOSED to the WEST
+D 0 33026 1 1 - Secret tunnel  CLOSED to the EAST
+D 0 33020 0 1 - Dimly lit room  CLOSED to the NORTH
+D 0 33023 2 1 - Inside the wardrobe  CLOSED to the SOUTH
+D 0 33077 1 1 - Crown of the trees  CLOSED to the EAST
+D 0 33083 3 1 - Inside a large tree  CLOSED to the WEST
+D 0 33077 1 1 - Crown of the trees  CLOSED to the EAST
+D 0 33083 3 1 - Inside a large tree  CLOSED to the WEST
+D 0 33061 0 1 - Walking on the narrow trail through the forest  CLOSED to the N
+D 0 33070 2 1 - Behind the tree  CLOSED to the SOUTH
+M 0 33002 8 33005 - A dark lord of Tarin -> Entrance hall of Tarin
+M 0 33001 8 33007 - the stone statue -> Guardmens corridors
+E 1 33015 2 3 -     a dooms cloak
+M 0 33001 8 33011 - the stone statue -> Bend in corridors
+M 0 33001 8 33012 - the stone statue -> Kitchen
+M 0 33001 8 33017 - the stone statue -> The Inn for heroes
+E 1 33016 2 7 -     the dooms leggings
+M 0 33002 8 33020 - A dark lord of Tarin -> Dimly lit room
+M 0 33002 8 33023 - A dark lord of Tarin -> Inside the wardrobe
+M 0 33003 1 33024 - the Warlord -> Wine cellar
+E 1 33022 1 5 -     the diamond platemail
+M 0 33004 1 33037 - the silver dragon -> Golden throne
+E 1 33024 1 17 -     a key
+E 1 33004 1 3 -     the silver diadem
+M 0 33005 1 33037 - the royal elven captain -> Golden throne
+E 1 33010 2 3 -     an elven cloak
+E 1 33007 1 8 -     a pair of elven boots
+E 1 33003 2 7 -     a pair of elven leggings
+E 1 33002 2 10 -     a pair of elven bracers
+E 1 33001 2 5 -     an elven platemail
+M 0 33006 6 33035 - the elven guard -> Below the huge golden throne
+E 1 33013 1 3 -     a white medallion
+M 0 33006 6 33035 - the elven guard -> Below the huge golden throne
+M 0 33007 6 33027 - the elven hall guard -> Southern marble hall
+E 1 33009 1 14 -     an elven bracelet
+M 0 33007 6 33027 - the elven hall guard -> Southern marble hall
+E 1 33010 2 3 -     an elven cloak
+M 0 33007 6 33029 - the elven hall guard -> Western marble hall
+E 1 33006 1 6 -     an elven helmet
+M 0 33007 6 33029 - the elven hall guard -> Western marble hall
+E 1 33008 1 16 -     an elven sword
+M 0 33007 6 33031 - the elven hall guard -> Northern marble hall
+E 1 33011 2 17 -     an elven staff of light
+M 0 33007 6 33031 - the elven hall guard -> Northern marble hall
+E 1 33012 1 9 -     a pair of elven gloves
+M 0 33008 2 33028 - the elven battlemaster -> Diamond pillar
+E 1 33005 1 16 -     the battlemasters dirk
+M 0 33008 2 33033 - the elven battlemaster -> Eastern marble hall
+M 0 33009 3 33025 - the undead lich -> Behind the curtain
+M 0 33009 3 33006 - the undead lich -> Marble hallway
+M 0 33009 3 33038 - the undead lich -> Marble hallway
+M 0 33011 6 33086 - the black devil -> Lift room
+M 0 33011 6 33006 - the black devil -> Marble hallway
+M 0 33011 6 33040 - the black devil -> Guards head-quarters
+M 0 33011 6 33011 - the black devil -> Bend in corridors
+M 0 33010 4 33012 - the red devil -> Kitchen
+M 0 33010 4 33007 - the red devil -> Guardmens corridors
+M 0 33010 4 33005 - the red devil -> Entrance hall of Tarin
+M 0 33012 1 33009 - the black knight -> Pr .de barraks
+E 1 33028 2 1 -     a black knight's ring
+M 0 33013 3 33010 - the drake -> Officers sleeping quarters
+M 0 33013 3 33014 - the drake -> Pr .ates bathroom
+M 0 33014 1 33018 - the undead blacksmith -> Inside the weapon shop
+E 1 33014 1 17 -     the black staff of ancient magic
+M 0 33015 1 33039 - the black minotaur -> Eastern end of the marble hallway
+E 1 33017 2 17 -     the black horns of the minotaur
+O 0 33018 1 33035 - the history book of tarin -> Below the huge golden throne
+D 0 33040 4 1 - Guards head-quarters  CLOSED to the UP
+D 0 33087 5 1 - The minotaur's hideout  CLOSED to the DOWN
+M 0 33016 1 33087 - the minotaur god -> The minotaur's hideout
+E 1 33019 1 16 -     the claws of the minotaur god
+M 0 33017 1 33008 - the black baron -> Officers barraks
+M 0 33018 5 33033 - the elven soldier -> Eastern marble hall
+M 0 33018 5 33032 - the elven soldier -> Sapphire pillar
+M 0 33018 5 33031 - the elven soldier -> Northern marble hall
+M 0 33018 5 33029 - the elven soldier -> Western marble hall
+M 0 33019 4 33052 - the undead wolf -> Trail up on a little mountain
+M 0 33019 4 33056 - the undead wolf -> Clearing in the forest
+M 0 33020 4 33059 - the burned tree -> Bend on the old trail through the forest
+M 0 33020 4 33067 - the burned tree -> Very dense forest
+M 0 33020 4 33063 - the burned tree -> Dark dense forest
+M 0 33020 4 33055 - the burned tree -> Old trail through the forest
+M 0 33021 1 33002 - the undead earth snake -> Upper half of the broken stairs
+M 0 33001 8 33086 - the stone statue -> Lift room
+E 1 33020 1 10 -     the dooms sleeves
+O 0 33023 1 33036 - the funds of Tarin -> Treasure room of Tarin
+D 0 33036 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 33033 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 33036 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 33033 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 33036 3 2 - Treasure room of Tarin  LOCKED to the WEST
+M 0 33006 6 33044 - the elven guard -> Silvery rooms of privacy
+O 0 33026 1 33044 - the opal chest -> Silvery rooms of privacy
+P 1 33025 1 33026 - an opal potion  -> the opal chest
+P 1 33025 1 33026 - an opal potion  -> the opal chest
+P 1 33025 1 33026 - an opal potion  -> the opal chest
+P 1 33025 1 33026 - an opal potion  -> the opal chest
+M 0 33022 2 33036 - the silvery waiter -> Treasure room of Tarin
+M 0 33022 2 33044 - the silvery waiter -> Silvery rooms of privacy
+M 0 33023 1 33085 - the king of trees -> High tree
+E 1 33029 1 6 -     the iron mask of sorrow
+M 0 33024 1 33084 - A huge ancient tree -> Crown of the trees
+M 0 33025 4 33078 - the black griffen -> Crown of the trees
+M 0 33025 4 33080 - the black griffen -> Crown of the trees
+M 0 33025 4 33074 - the black griffen -> Crown of the trees
+M 0 33026 4 33074 - the undead spirit -> Crown of the trees
+M 0 33026 4 33076 - the undead spirit -> Crown of the trees
+M 0 33026 4 33083 - the undead spirit -> Inside a large tree
+O 0 33030 1 33075 - a heavy wooden club -> Dead chambers up in the crowns of the
+M 0 33027 1 33082 - the titan -> Crown of the trees
+E 1 33031 4 5 -     the titans chain mail
+M 0 33028 1 33070 - the sphinx -> Behind the tree
+*
+*
+S
+#340
+Someones Area~
+34999 1 0
+*
+S
+#350
+Phantoms Area~
+35999 1 0
+*
+M 0 35000 1 35001   ; The storekeeper
+E 1 35006 4 16   ; short sword
+G 1 35004 1 0   ; A torch
+G 1 35003 1 0   ; A bronze lantern
+M 0 35001 1 35002   ; The innkeeper
+E 1 35006 4 16   ; short sword
+M 0 35002 1 35005   ; The baker
+E 1 35006 4 16   ; short sword
+G 1 35011 1 0   ; bread
+G 1 35010 1 0   ; a pastry
+G 1 35009 1 0   ; a hard biscuit
+M 0 35003 1 35006   ; The bartender
+E 1 35006 4 16   ; short sword
+G 1 35012 1 0   ; beer bottle
+M 0 35007 4 35008   ; A villager
+M 0 35007 4 35011   ; A villager
+M 0 35007 4 35012   ; A villager
+M 0 35006 2 35018   ; The guard
+E 1 35007 3 16   ; A longsword
+M 0 35007 4 35020   ; A villager
+M 0 35006 2 35022   ; The guard
+E 1 35007 3 16   ; A longsword
+D 0 35024 1 0   ; An underground chamber
+O 0 35000 2 35033   ; A rusty dagger
+M 0 35004 1 35050   ; The guard
+E 1 35007 3 16   ; A longsword
+M 0 35005 1 35051   ; A gnome
+E 1 35001 1 5   ; An old leather jacket
+E 1 35000 2 16   ; A rusty dagger
+M 0 35100 9 35084   ; A mountain goat
+M 0 35100 9 35101   ; A mountain goat
+M 0 35100 9 35102   ; A mountain goat
+D 0 35103 3 1   ; Lost in the Mountains.
+M 0 35101 2 35105   ; A mountain ram
+M 0 35100 9 35110   ; A mountain goat
+M 0 35100 9 35120   ; A mountain goat
+M 0 35100 9 35120   ; A mountain goat
+M 0 35100 9 35132   ; A mountain goat
+M 0 35100 9 35138   ; A mountain goat
+M 0 35100 9 35142   ; A mountain goat
+M 0 35101 2 35153   ; A mountain ram
+*
+S
+#360
+Skips Area~
+36999 1 0
+*
+S
+#370
+Fugazis Area~
+37499 1 0
+*
+S
+#375
+Dancs Area~
+37999 1 0
+*
+S
+#380
+Tarans Area~
+38999 1 0
+*
+S
+#390
+Free~
+39499 30 0
+*
+S
+#395
+Free~
+39999 1 0
+*
+S
+#400
+Free~
+40499 1 0
+*
+S
+#405
+Free~
+40999 1 0
+*
+S
+#410
+Free~
+41499 1 0
+*
+S
+#415
+Free~
+41999 1 0
+*
+S
+#420
+Free~
+42499 1 0
+*
+S
+#425
+Free~
+42999 1 0
+*
+S
+#430
+...~
+43499 1 0
+*
+S
+#435
+?~
+43999 1 0
+*
+S
+#440
+?~
+44499 1 0
+*
+S
+#445
+?~
+44999 1 0
+*
+S
+#450
+?~
+45499 1 0
+*
+S
+#455
+Tagol City~
+45999 30 1
+*
+D 0 44515 0 0   ; On the totem's tongue
+D 0 44524 0 0   ; Tagolic Gates
+D 0 44529 2 0   ; North of the Main Gates
+D 0 44533 0 0   ; Outside the Southern Inner Gates
+D 0 44534 2 0   ; Inside the Southern Gate
+M 0 44504 11 44538   ; Dwarven Cityguard
+G 1 46 15 0   ; a battleaxe
+M 0 44504 11 44538   ; Dwarven Cityguard
+G 1 46 15 0   ; a battleaxe
+M 0 44504 11 44538   ; Dwarven Cityguard
+G 1 46 15 0   ; a battleaxe
+M 0 44508 16 44540   ; Dwarven citizen
+M 0 44505 12 44542   ; Peacekeeper
+M 0 44505 12 44542   ; Peacekeeper
+M 0 44505 12 44542   ; Peacekeeper
+M 0 44508 16 44543   ; Dwarven citizen
+M 0 44507 1 44546   ; Master Guardian
+O 0 3099 4 44546   ; a bulletin board
+M 0 44508 16 44547   ; Dwarven citizen
+M 0 44505 12 44549   ; Peacekeeper
+M 0 44505 12 44549   ; Peacekeeper
+M 0 44505 12 44549   ; Peacekeeper
+M 0 44505 12 44554   ; Peacekeeper
+M 0 44505 12 44554   ; Peacekeeper
+M 0 44505 12 44554   ; Peacekeeper
+M 0 44508 16 44557   ; Dwarven citizen
+M 0 44504 11 44559   ; Dwarven Cityguard
+G 1 46 15 0   ; a battleaxe
+M 0 44504 11 44559   ; Dwarven Cityguard
+G 1 46 15 0   ; a battleaxe
+M 0 44504 11 44559   ; Dwarven Cityguard
+G 1 46 15 0   ; a battleaxe
+M 0 44508 16 44574   ; Dwarven citizen
+M 0 44508 16 44574   ; Dwarven citizen
+M 0 44508 16 44574   ; Dwarven citizen
+M 0 44508 16 44583   ; Dwarven citizen
+M 0 44508 16 44583   ; Dwarven citizen
+M 0 44504 11 44585   ; Dwarven Cityguard
+G 1 46 15 0   ; a battleaxe
+M 0 44504 11 44585   ; Dwarven Cityguard
+G 1 46 15 0   ; a battleaxe
+M 0 44508 16 44593   ; Dwarven citizen
+M 0 44508 16 44593   ; Dwarven citizen
+M 0 44509 1 44610   ; Filthy Rogue
+M 0 44510 1 44611   ; Shadowy cloaked figure
+M 0 44504 11 44618   ; Dwarven Cityguard
+G 1 46 15 0   ; a battleaxe
+M 0 44504 11 44618   ; Dwarven Cityguard
+G 1 46 15 0   ; a battleaxe
+M 0 44504 11 44618   ; Dwarven Cityguard
+G 1 46 15 0   ; a battleaxe
+O 0 3000 3 44618   ; a barrel
+O 0 46 15 44618   ; a battleaxe
+O 0 46 15 44618   ; a battleaxe
+O 0 46 15 44618   ; a battleaxe
+O 0 46 15 44618   ; a battleaxe
+O 0 44500 1 44618   ; a black key
+O 0 44510 1 44618   ; pastry
+O 0 44516 1 44618   ; T
+O 0 44517 1 44618   ; a thin copper bracelet
+M 0 44508 16 44620   ; Dwarven citizen
+M 0 44508 16 44622   ; Dwarven citizen
+M 0 44505 12 44623   ; Peacekeeper
+M 0 44505 12 44623   ; Peacekeeper
+M 0 44505 12 44623   ; Peacekeeper
+M 0 44508 16 44625   ; Dwarven citizen
+M 0 44508 16 44638   ; Dwarven citizen
+M 0 44508 16 44638   ; Dwarven citizen
+M 0 44500 1 44651   ; Hathor
+M 0 3027 2 44653   ; the Knight
+M 0 3023 2 44654   ; the Guildmaster
+M 0 3039 2 44659   ; the Paladin
+M 0 3029 2 44660   ; the Guildmaster
+M 0 3009 2 44661   ; The Barbarian
+M 0 3008 2 44663   ; the Cavalier
+M 0 3012 2 44664   ; The Bard
+M 0 3034 2 44665   ; the Guildmaster
+M 0 3030 2 44670   ; the Guildmaster
+M 0 3038 2 44671   ; the Ranger
+M 0 3028 2 44672   ; the Guildmaster
+M 0 3014 3 44689   ; The Assassin
+M 0 3022 2 44690   ; the Guildmaster
+M 0 3014 3 44692   ; The Assassin
+M 0 3036 2 44693   ; the Guildmaster
+M 0 3013 2 44695   ; The Ninja
+M 0 3035 2 44696   ; the Guildmaster
+M 0 3010 2 44697   ; The Master Druid
+M 0 3032 2 44698   ; the Guildmaster
+M 0 1031 5 44701   ; the receptionist
+M 0 3024 2 44704   ; the Sorcerer
+M 0 3020 2 44705   ; the Guildmaster
+M 0 3011 2 44706   ; The Illusionist
+M 0 3033 2 44707   ; the Guildmaster
+M 0 44502 1 44708   ; Kinsil
+M 0 3025 2 44729   ; the Knight Templar
+M 0 3021 2 44730   ; the Guildmaster
+M 0 44503 1 44740   ; Jah
+D 0 44745 4 0   ; A juncture in the etheral plane
+D 0 44767 3 0   ; A sidestreet
+D 0 44776 0 0   ; The black gates
+M 0 1031 5 44811   ; the receptionist
+M 0 44501 1 44812   ; Spave
+M 0 3015 2 44813   ; The Avenger
+M 0 3037 2 44814   ; the Guildmaster
+M 0 1031 5 44815   ; the receptionist
+*
+S
+#500
+whos?~
+50499 1 0~
+*
+S
+#505
+Sadus's orential zone~
+50999 30 2
+*
+M 0 50560 3 50504   ; the yakuza
+M 0 50560 3 50504   ; the yakuza
+M 0 50564 7 50504   ; the samurai
+M 0 50564 7 50504   ; the samurai
+D 0 50504 3 2   ; The Lotus Blossom
+M 0 50553 6 50505   ; an addict
+M 0 50553 6 50505   ; an addict
+M 0 50553 6 50505   ; an addict
+M 0 50553 6 50505   ; an addict
+M 0 50553 6 50505   ; an addict
+M 0 50553 6 50505   ; an addict
+D 0 50505 1 2   ; Back Room
+M 0 50560 3 50506   ; the yakuza
+E 1 50520 8 3   ; a beaded necklace
+E 1 50502 2 16   ; a pair of nunchaku
+M 0 50566 2 50506   ; the burly yakuza
+G 1 50502 2 0   ; a pair of nunchaku
+M 0 50566 2 50506   ; the burly yakuza
+E 1 50518 2 2   ; an ivory ring
+E 1 50510 2 16   ; a pair of sai
+M 0 50574 1 50507   ; the Yakuza Master
+E 1 50518 2 2   ; an ivory ring
+E 1 50520 8 3   ; a beaded necklace
+E 1 50503 2 13   ; a black hakama
+E 1 50511 1 16   ; a bo staff
+G 1 50501 3 0   ; a finger
+G 1 50501 3 0   ; a finger
+G 1 50501 3 0   ; a finger
+M 0 50551 3 50508   ; a youngster
+D 0 50510 0 1   ; Hallway
+D 0 50510 2 1   ; Hallway
+D 0 50511 0 1   ; Hallway
+D 0 50511 1 1   ; Hallway
+D 0 50511 2 1   ; Hallway
+M 0 50562 1 50512   ; the whore matron
+E 1 50514 1 16   ; a naginata spear
+D 0 50512 3 1   ; Matron Whore's Bedroom
+M 0 50551 3 50514   ; a youngster
+M 0 50551 3 50514   ; a youngster
+M 0 50557 5 50516   ; the geisha
+D 0 50516 2 1   ; Bedroom
+M 0 50557 5 50517   ; the geisha
+D 0 50517 2 1   ; Bedroom
+M 0 50557 5 50518   ; the geisha
+D 0 50518 0 1   ; Bedroom
+M 0 50557 5 50519   ; the geisha
+D 0 50519 0 1   ; Bedroom
+M 0 50573 3 50520   ; the black belt
+M 0 50561 12 50520   ; the white belt
+M 0 50561 12 50520   ; the white belt
+M 0 50561 12 50520   ; the white belt
+M 0 50561 12 50520   ; the white belt
+M 0 50561 12 50520   ; the white belt
+M 0 50561 12 50520   ; the white belt
+M 0 50561 12 50520   ; the white belt
+M 0 50561 12 50520   ; the white belt
+M 0 50561 12 50520   ; the white belt
+M 0 50561 12 50520   ; the white belt
+M 0 50575 1 50521   ; the Shihan
+M 0 50573 3 50521   ; the black belt
+M 0 50573 3 50521   ; the black belt
+M 0 50561 12 50521   ; the white belt
+M 0 50561 12 50521   ; the white belt
+D 0 50521 0 1   ; Second Chamber
+M 0 50576 1 50522   ; Yamaguchi Sensei
+D 0 50522 2 1   ; First Chamber
+M 0 50559 1 50523   ; Miller
+E 1 50508 1 16   ; a pair of tonfa
+M 0 50558 1 50524   ; the farmer
+G 1 50513 1 0   ; a pair of kama
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+M 0 50552 18 50524   ; the  youngster
+D 0 50527 3 1   ; Front Gate
+M 0 50564 7 50528   ; the samurai
+E 1 50506 8 16   ; a katana
+M 0 50564 7 50528   ; the samurai
+E 1 50507 1 16   ; a Japanese short sword
+M 0 50564 7 50528   ; the samurai
+E 1 50506 8 16   ; a katana
+M 0 50564 7 50528   ; the samurai
+E 1 50506 8 16   ; a katana
+M 0 50564 7 50528   ; the samurai
+E 1 50506 8 16   ; a katana
+D 0 50528 1 1   ; Courtyard
+D 0 50529 3 1   ; Garden
+D 0 50530 1 1   ; Anteroom
+D 0 50530 2 0   ; Anteroom
+M 0 50578 1 50531   ; the Shogun
+E 1 50517 1 6   ; the Shogun's helmet
+E 1 50515 1 13   ; a white hakama
+E 1 50506 8 16   ; a katana
+M 0 50557 5 50532   ; the geisha
+D 0 50532 0 0   ; Bedroom
+M 0 50555 2 50539   ; the crane
+D 0 50539 0 1   ; Waterfall
+M 0 50555 2 50541   ; the crane
+M 0 50556 2 50541   ; the monkey
+M 0 50554 2 50544   ; the peacock
+M 0 50571 1 50544   ; the tiger
+M 0 50554 2 50545   ; the peacock
+M 0 50556 2 50547   ; the monkey
+D 0 50549 2 1   ; Behind the Waterfall
+M 0 50567 2 50551   ; the ninja
+E 1 50522 5 16   ; a ninja-to
+M 0 50567 2 50555   ; the ninja
+E 1 50522 5 16   ; a ninja-to
+M 0 50569 2 50568   ; the Kunoichi
+E 1 50523 3 16   ; a pair of hand claws
+M 0 50572 3 50569   ; the chunin ninja
+E 1 50510 2 16   ; a pair of sai
+M 0 50569 2 50571   ; the Kunoichi
+E 1 50523 3 16   ; a pair of hand claws
+M 0 50572 3 50572   ; the chunin ninja
+E 1 50522 5 16   ; a ninja-to
+M 0 50572 3 50575   ; the chunin ninja
+E 1 50522 5 16   ; a ninja-to
+M 0 50577 1 50579   ; the Shinobi
+E 1 50503 2 13   ; a black hakama
+E 1 50522 5 16   ; a ninja-to
+M 0 50563 6 50585   ; the shinto priest
+E 1 50520 8 3   ; a beaded necklace
+M 0 50563 6 50587   ; the shinto priest
+E 1 50520 8 3   ; a beaded necklace
+M 0 50563 6 50589   ; the shinto priest
+E 1 50520 8 3   ; a beaded necklace
+M 0 50563 6 50590   ; the shinto priest
+E 1 50520 8 3   ; a beaded necklace
+M 0 50563 6 50592   ; the shinto priest
+E 1 50520 8 3   ; a beaded necklace
+M 0 50563 6 50592   ; the shinto priest
+E 1 50520 8 3   ; a beaded necklace
+M 0 50570 2 50597   ; the Shadow Swordsman
+M 0 50568 3 50605   ; the undead warrior
+E 1 50506 8 16   ; a katana
+D 0 50609 3 2   ; Outside Tomb
+D 0 50610 1 2   ; Qornak's Tomb
+D 0 50617 1 2   ; Outside Lair
+M 0 50565 2 50619   ; the samurai ghost
+M 0 50568 3 50626   ; the undead warrior
+E 1 50506 8 16   ; a katana
+M 0 50568 3 50628   ; the undead warrior
+E 1 50506 8 16   ; a katana
+M 0 50565 2 50632   ; the samurai ghost
+M 0 50570 2 50636   ; the Shadow Swordsman
+S
+#510
+Someones Area~
+51499 1 0
+*
+S
+#515
+??~
+51999 1 0
+*
+S
+#520
+??~
+52499 1 0
+*
+S
+#525
+Dwarven Outpost~
+52999 33 1
+*
+M 0 52500 1 52511   ; Ancient Brass Dragon
+D 0 52514 0 1   ; The Entry Hall
+D 0 52518 1 1   ; Northern Hallway
+D 0 52518 3 1   ; Northern Hallway
+D 0 52520 1 1   ; Guest's Chambers
+D 0 52521 3 1   ; Guest's Chambers
+D 0 52522 1 1   ; The Royal Chambers
+D 0 52522 5 1   ; The Royal Chambers
+D 0 52523 3 1   ; The Royal Treasury
+D 0 52524 4 1   ; Secret Passage!
+M 0 52503 10 52527   ; dwarven refugee
+M 0 52503 10 52527   ; dwarven refugee
+M 0 52503 10 52529   ; dwarven refugee
+M 0 52503 10 52529   ; dwarven refugee
+D 0 52535 4 1   ; Secret Passage!
+D 0 52536 2 1   ; The High Priest's Chambers
+D 0 52536 5 1   ; The High Priest's Chambers
+D 0 52537 0 1   ; Temple Hallway
+D 0 52543 2 1   ; Temple Hallway
+M 0 52502 10 52544   ; Spectral Dwarven Priest
+M 0 52502 10 52545   ; Spectral Dwarven Priest
+M 0 52502 10 52547   ; Spectral Dwarven Priest
+M 0 52502 10 52549   ; Spectral Dwarven Priest
+M 0 52502 10 52551   ; Spectral Dwarven Priest
+M 0 52502 10 52553   ; Spectral Dwarven Priest
+D 0 52554 0 1   ; Temple
+M 0 52502 10 52560   ; Spectral Dwarven Priest
+M 0 52502 10 52560   ; Spectral Dwarven Priest
+M 0 52501 1 52560   ; Spectral Dwarven High Priest
+E 1 52500 1 6   ; dwarven circlet
+E 1 52501 1 16   ; a mace
+M 0 52502 10 52561   ; Spectral Dwarven Priest
+M 0 52502 10 52562   ; Spectral Dwarven Priest
+D 0 52580 2 1   ; Northeast Hallway
+M 0 52503 10 52584   ; dwarven refugee
+M 0 52503 10 52584   ; dwarven refugee
+M 0 52503 10 52587   ; dwarven refugee
+M 0 52503 10 52589   ; dwarven refugee
+M 0 52503 10 52589   ; dwarven refugee
+M 0 52503 10 52589   ; dwarven refugee
+D 0 52589 0 1   ; The Armory
+D 0 52594 2 1   ; Southeast Hallway
+D 0 52595 0 1   ; Dining Room
+M 0 52504 1 52597   ; dwarven cook
+G 1 52502 1 0   ; meat cleaver
+D 0 52597 0 1   ; Kitchen 
+D 0 52598 2 1   ; Chef's Quaters
+S
+#530
+??~
+53499 1 0
+*
+S
+#570
+??~
+57499 1 0
+*
+S
+#575
+Staffa~
+57999 30 1
+*
+M 0 57513 4 57501   ; Birdy
+M 0 57500 17 57503   ; Guard
+E 1 57518 7 11   ; a small steel shield
+E 1 57516 7 16   ; A steel sword
+G 1 57553 1 0   ; White marble key
+M 0 57500 17 57503   ; Guard
+E 1 57518 7 11   ; a small steel shield
+E 1 57516 7 16   ; A steel sword
+D 0 57503 0 2   ; The gates to the Castle Nodonn
+D 0 57506 2 2   ; The southern courtyards
+O 0 57510 1 57507   ; A large marble fountain
+D 0 57507 1 1   ; Center courtyards
+D 0 57507 3 1   ; Center courtyards
+D 0 57508 0 0   ; The northern courtyard
+D 0 57509 1 0   ; The east alcove
+D 0 57510 3 0   ; Bottem of the stairs
+M 0 57500 17 57512   ; Guard
+D 0 57513 3 0   ; Hallway on the upper floor
+M 0 57505 1 57514   ; Aluteyn
+E 1 57512 2 12   ; A dark blue cloak
+G 1 57515 1 0   ; A large painting
+D 0 57514 1 0   ; A Plush bedroom
+D 0 57515 3 0   ; Hallway on the upper floor
+D 0 57516 1 0   ; A large Bedroom
+D 0 57522 4 1   ; A strangly dark staircase
+M 0 57508 1 57523   ; Death Knight
+G 1 57502 3 0   ; A misty cloak
+G 1 57504 2 0   ; The glowing purple stone
+M 0 57511 1 57523   ; Magus
+E 1 57502 3 3   ; A misty cloak
+D 0 57523 1 0   ; A dark and hideous lab
+D 0 57523 2 0   ; A dark and hideous lab
+D 0 57523 5 1   ; A dark and hideous lab
+D 0 57524 3 0   ; A secret chamber
+M 0 57500 17 57525   ; Guard
+M 0 57500 17 57526   ; Guard
+D 0 57526 2 0   ; Bottem of a staircase
+D 0 57527 0 0   ; A hallway leading north and south
+D 0 57528 2 0   ; A hallway leading north and south
+M 0 57500 17 57529   ; Guard
+D 0 57529 0 0   ; Bottem of a staircase
+M 0 57506 4 57530   ; Servent
+D 0 57530 3 0   ; the west alcove
+M 0 57500 17 57531   ; Guard
+M 0 57500 17 57532   ; Guard
+D 0 57533 1 0   ; Hallway on the top floor
+D 0 57534 1 0   ; Hallway on the top floor
+M 0 57500 17 57537   ; Guard
+M 0 57500 17 57537   ; Guard
+D 0 57537 3 1   ; Barracks
+M 0 57500 17 57538   ; Guard
+M 0 57500 17 57538   ; Guard
+D 0 57538 1 1   ; Barracks
+M 0 57500 17 57540   ; Guard
+E 1 57518 7 11   ; a small steel shield
+E 1 57516 7 16   ; A steel sword
+G 1 57551 1 0   ; a small oak key
+M 0 57500 17 57540   ; Guard
+E 1 57518 7 11   ; a small steel shield
+E 1 57516 7 16   ; A steel sword
+D 0 57540 0 2   ; Before the door to the kings chamber
+M 0 57500 17 57541   ; Guard
+E 1 57518 7 11   ; a small steel shield
+E 1 57516 7 16   ; A steel sword
+E 1 57550 1 17   ; Steel Prison key
+M 0 57500 17 57541   ; Guard
+E 1 57518 7 11   ; a small steel shield
+E 1 57516 7 16   ; A steel sword
+D 0 57541 2 0   ; Checkpoint
+D 0 57542 1 2   ; A dark and dusty hallway
+D 0 57542 3 2   ; A dark and dusty hallway
+D 0 57543 1 2   ; A dark and dusty hallway
+D 0 57543 3 2   ; A dark and dusty hallway
+D 0 57545 0 0   ; A dark hallway
+D 0 57546 2 0   ; A narrow tunnel leading up
+M 0 57500 17 57548   ; Guard
+E 1 57518 7 11   ; a small steel shield
+E 1 57516 7 16   ; A steel sword
+E 1 57552 1 17   ; A small iron key
+D 0 57548 0 2   ; Before the Iron doors
+M 0 57512 1 57549   ; Vie-Tiamen
+E 1 57505 1 12   ; A Major cloak of distortion
+D 0 57549 2 2   ; The Crypt of the King Vie-Tiamen
+M 0 57501 7 57550   ; Royal Guard
+D 0 57550 2 2   ; Before the Throne room
+M 0 57501 7 57551   ; Royal Guard
+D 0 57551 0 0   ; The Throne room
+D 0 57551 1 0   ; The Throne room
+D 0 57551 3 0   ; The Throne room
+M 0 57502 1 57552   ; Captain
+E 1 57503 2 5   ; The Golden breast plate
+E 1 57506 4 10   ; A pair of Banded of sleeves
+E 1 57500 1 16   ; The Defender
+M 0 57501 7 57552   ; Royal Guard
+M 0 57501 7 57552   ; Royal Guard
+M 0 57503 1 57552   ; King Nodonn
+E 1 57501 1 0   ; The Spectre of Power
+G 1 57502 3 0   ; A misty cloak
+D 0 57552 1 0   ; The kings Chamber
+M 0 57501 7 57553   ; Royal Guard
+E 1 57508 3 5   ; Banded plate
+E 1 57507 3 7   ; A pair of Banded leggings
+E 1 57506 4 10   ; A pair of Banded of sleeves
+E 1 57519 3 12   ; A large gleaming red cloak
+E 1 50515 2 13   ; a white hakama
+E 1 57509 3 16   ; A Two-Handed steel sword
+M 0 57501 7 57553   ; Royal Guard
+E 1 57508 3 5   ; Banded plate
+E 1 57507 3 7   ; A pair of Banded leggings
+E 1 57506 4 10   ; A pair of Banded of sleeves
+E 1 57519 3 12   ; A large gleaming red cloak
+E 1 57509 3 16   ; A Two-Handed steel sword
+M 0 57501 7 57553   ; Royal Guard
+E 1 57508 3 5   ; Banded plate
+E 1 57507 3 7   ; A pair of Banded leggings
+E 1 2144 2 9   ; A pair of strange gauntlets
+E 1 57506 4 10   ; A pair of Banded of sleeves
+E 1 57519 3 12   ; A large gleaming red cloak
+G 1 57509 3 0   ; A Two-Handed steel sword
+D 0 57553 3 0   ; The Royal guards chamber
+D 0 57554 2 0   ; A small room inside the Dais.
+M 0 57504 1 57555   ; Queen Merce
+E 1 57504 2 17   ; The glowing purple stone
+O 0 57513 1 57555   ; desk
+P 1 57511 2 57513   ; A small brush
+M 0 57507 3 57556   ; Prisoner
+D 0 57556 3 2   ; Prison cell
+M 0 57507 3 57557   ; Prisoner
+D 0 57557 1 2   ; Prison cell
+M 0 57507 3 57558   ; Prisoner
+D 0 57558 3 2   ; Prison cell
+D 0 57559 1 0   ; A large plain marble hallway
+M 0 57506 4 57560   ; Servent
+D 0 57560 1 0   ; A large plain marble hallway
+D 0 57561 3 0   ; Dining hall
+M 0 57506 4 57562   ; Servent
+D 0 57562 3 0   ; Kitchen
+D 0 57563 1 0   ; The kings dinning area
+M 0 57510 1 57566   ; Hill Giant
+D 0 57566 1 2   ; Prison cell
+D 0 57570 3 0   ; A large marble hallway.
+D 0 57574 4 0   ; A narrow staircase
+D 0 57575 5 0   ; Atop a large tower.
+M 0 57506 4 57576   ; Servent
+D 0 57576 3 0   ; A large bedroom
+D 0 57577 3 0   ; A large bedroom
+D 0 57578 2 0   ; A small stone hallway
+D 0 57580 0 0   ; A store room
+M 0 57513 4 57583   ; Birdy
+M 0 57513 4 57584   ; Birdy
+M 0 57513 4 57586   ; Birdy
+M 0 57509 1 57591   ; Ancient Red Dragon
+S
+#600
+Mouse~
+60499 20 1
+*
+M 0 60009 1 60006   ; A huge stone golem
+G 1 60006 1 0   ; A green glowing key
+D 0 60006 0 2   ; The Gateway
+D 0 60007 2 2   ; The south end of the long hallway
+D 0 60009 0 1   ; Far end of the Hallway
+D 0 60009 1 1   ; Far end of the Hallway
+D 0 60009 3 1   ; Far end of the Hallway
+M 0 60002 1 60010   ; A defiler
+D 0 60010 1 1   ; A room with alot of blood in it
+D 0 60011 3 1   ; Small hallway
+M 0 60016 7 60012   ; A zombie
+M 0 60013 1 60012   ; A Large Black Man
+E 1 60019 1 11   ; A Brightly Glowing shield
+*E 1 60029 2 16   ; A Gleaming Long Sword
+D 0 60012 1 0   ; A small room
+M 0 60014 3 60013   ; A sabre-toothed tiger
+D 0 60013 3 0   ; The armoury
+M 0 60014 3 60014   ; A sabre-toothed tiger
+D 0 60015 1 0   ; A dark hallway
+M 0 60014 3 60016   ; A sabre-toothed tiger
+D 0 60016 0 0   ; A secret room!
+D 0 60016 3 0   ; A secret room!
+M 0 60010 1 60017   ; Corrosion, the Black Dragon
+M 0 60016 7 60018   ; A zombie
+D 0 60018 2 0   ; Room of Bones
+M 0 60016 7 60019   ; A zombie
+M 0 60016 7 60020   ; A zombie
+M 0 60011 1 60020   ; Spider
+E 1 60011 1 3   ; A Cloak of Elvenkind
+G 1 60001 1 0   ; A coffin key
+D 0 60020 0 2   ; Room of coffins
+D 0 60020 1 2   ; Room of coffins
+D 0 60020 3 2   ; Room of coffins
+M 0 60008 1 60021   ; The Head Mortician
+G 1 60032 10 0   ; A Pitch Black Potion
+G 1 60032 10 0   ; A Pitch Black Potion
+G 1 60032 10 0   ; A Pitch Black Potion
+G 1 4050 10 0   ; a purple potion
+G 1 4050 10 0   ; a purple potion
+G 1 4050 10 0   ; a purple potion
+M 0 60012 4 60021   ; A zombie of a giant
+M 0 60012 4 60021   ; A zombie of a giant
+M 0 60012 4 60021   ; A zombie of a giant
+D 0 60021 2 2   ; Mortician's Room
+M 0 60012 4 60022   ; A zombie of a giant
+D 0 60022 3 2   ; Inside a coffin
+D 0 60023 1 2   ; Inside a coffin
+D 0 60023 5 1   ; Inside a coffin
+D 0 60024 4 1   ; A small room
+D 0 60025 1 0   ; A Rough Hallway
+D 0 60025 2 1   ; A Rough Hallway
+D 0 60026 3 0   ; The Glowing room
+D 0 60028 3 1   ; More stairs
+D 0 60029 1 1   ; The Dungeon
+D 0 60029 3 1   ; The Dungeon
+M 0 60004 1 60030   ; Crunch, the jailer
+G 1 60013 2 0   ; A ring of protection
+G 1 60002 1 0   ; A cell key
+D 0 60030 1 1   ; The jailer's room
+D 0 60030 3 1   ; The jailer's room
+D 0 60031 0 2   ; Three cells...
+D 0 60031 3 2   ; Three cells...
+D 0 60032 1 2   ; Three more cells...
+D 0 60032 2 2   ; Three more cells...
+D 0 60032 3 2   ; Three more cells...
+D 0 60033 1 1   ; Passageway behind Crunch's room
+M 0 60006 4 60035   ; A Slave
+M 0 60006 4 60035   ; A Slave
+D 0 60035 2 2   ; A cell
+D 0 60036 3 0   ; A cell
+M 0 60006 4 60037   ; A Slave
+M 0 60007 8 60037   ; A blood-thirsty slave
+D 0 60037 1 2   ; A cell
+M 0 60007 8 60038   ; A blood-thirsty slave
+D 0 60038 0 2   ; A cell
+M 0 60007 8 60039   ; A blood-thirsty slave
+D 0 60039 1 2   ; A cell
+M 0 60007 8 60040   ; A blood-thirsty slave
+D 0 60040 3 2   ; A cell
+D 0 60041 0 1   ; North end of the Rough hallway
+M 0 60025 2 60042   ; A Mist
+D 0 60042 2 1   ; Stair to the second floor of the castle
+D 0 60043 0 0   ; Second Floor balcony
+D 0 60043 3 0   ; Second Floor balcony
+D 0 60044 2 0   ; Stairs to the Pit
+M 0 60015 1 60046   ; A Gladiator
+E 1 60018 1 13   ; A Pitch-Black Belt
+M 0 60007 8 60047   ; A blood-thirsty slave
+M 0 60006 4 60051   ; A Slave
+M 0 60007 8 60051   ; A blood-thirsty slave
+M 0 60007 8 60051   ; A blood-thirsty slave
+D 0 60052 1 0   ; Turn in the passage
+M 0 60021 1 60055   ; Alvyn Gallax, a madman
+G 1 60021 1 0   ; Phifer's decanter
+M 0 60016 7 60058   ; A zombie
+M 0 60016 7 60061   ; A zombie
+D 0 60063 2 0   ; The labrinyth
+M 0 60017 2 60064   ; A Skeleton
+D 0 60064 0 0   ; Dead end.  Lots of them.
+D 0 60065 0 0   ; Secret Passage
+D 0 60065 2 0   ; Secret Passage
+M 0 60017 2 60066   ; A Skeleton
+M 0 60019 4 60067   ; A Guardian
+M 0 60019 4 60067   ; A Guardian
+M 0 60019 4 60067   ; A Guardian
+D 0 60067 0 2   ; Glyphs and Wards
+M 0 60003 1 60068   ; A Greater Tarrasgue
+G 1 60016 2 0   ; A Crystal Dragon Skull
+D 0 60068 2 2   ; The end...
+D 0 60068 3 1   ; The end...
+M 0 60018 1 60069   ; The Nameless
+D 0 60069 1 1   ; Treasure room
+M 0 60016 7 60076   ; A zombie
+M 0 60007 8 60077   ; A blood-thirsty slave
+M 0 60026 1 60078   ; A Bone Guardian
+M 0 60000 1 60079   ; Coringor the Ancient Elven King
+E 1 60017 1 15   ; A Blue ice bracelet
+G 1 60003 1 0   ; A red, runed key
+G 1 4050 10 0   ; a purple potion
+G 1 60032 10 0   ; A Pitch Black Potion
+G 1 60032 10 0   ; A Pitch Black Potion
+D 0 60079 5 1   ; Throne of Bones
+D 0 60080 4 1   ; Behind the throne
+M 0 60020 1 60081   ; A amorphous blob
+M 0 60027 18 60083   ; A Shadow
+M 0 60027 18 60084   ; A Shadow
+M 0 60027 18 60084   ; A Shadow
+M 0 60027 18 60085   ; A Shadow
+M 0 60027 18 60088   ; A Shadow
+M 0 60027 18 60089   ; A Shadow
+D 0 60094 0 0   ; Back Enterance
+D 0 60095 0 0   ; Dining room
+D 0 60097 2 0   ; The Kitchen
+D 0 60098 1 1   ; The pantry
+M 0 60027 18 60099   ; A Shadow
+M 0 60027 18 60099   ; A Shadow
+M 0 60027 18 60099   ; A Shadow
+D 0 60099 3 1   ; Stairs to the cellar
+M 0 60027 18 60100   ; A Shadow
+D 0 60102 1 0   ; Laboratory
+D 0 60103 3 0   ; Vault
+D 0 60111 1 0   ; Hallway
+D 0 60111 3 0   ; Hallway
+D 0 60112 3 0   ; Hallway
+D 0 60113 2 0   ; Hallway
+D 0 60114 2 0   ; Hallway
+D 0 60115 2 0   ; Hallway
+D 0 60116 2 0   ; Hallway
+M 0 60024 1 60117   ; Mathew the Wizard
+E 1 60013 2 2   ; A ring of protection
+D 0 60117 0 0   ; Mathew's Chambers
+M 0 60023 1 60118   ; Sir Xavier
+E 1 60023 1 16   ; A Frost Brand Scimitar
+D 0 60118 0 0   ; Sir Xavier's Chambers
+D 0 60119 0 0   ; Guest Chambers
+D 0 60120 0 0   ; Guest Chambers
+D 0 60121 3 0   ; Servant Chambers
+D 0 60122 1 0   ; Servant Chambers
+M 0 60027 18 60124   ; A Shadow
+M 0 60027 18 60124   ; A Shadow
+M 0 60025 2 60124   ; A Mist
+D 0 60125 2 0   ; Path to the Twilight Gap
+M 0 60022 2 60134   ; A Shadow Dragon
+M 0 60027 18 60135   ; A Shadow
+M 0 60027 18 60136   ; A Shadow
+M 0 60027 18 60144   ; A Shadow
+M 0 60040 1 60148   ; A Small Dragon
+G 1 60007 1 0   ; A grey stone key
+D 0 60148 0 2   ; Outside a Tower
+D 0 60149 2 2   ; Main hall
+D 0 60150 0 0   ; Main Hall
+D 0 60151 2 0   ; Stairwell
+D 0 60154 2 0   ; Stairwell, upper level
+M 0 60028 1 60155   ; A Soul Beckoner
+G 1 60032 10 0   ; A Pitch Black Potion
+G 1 60032 10 0   ; A Pitch Black Potion
+G 1 60032 10 0   ; A Pitch Black Potion
+G 1 60032 10 0   ; A Pitch Black Potion
+G 1 60032 10 0   ; A Pitch Black Potion
+D 0 60155 0 0   ; Second Floor
+M 0 60037 3 60157   ; An Animated Suit of Armor
+M 0 60037 3 60157   ; An Animated Suit of Armor
+M 0 60037 3 60157   ; An Animated Suit of Armor
+M 0 60034 6 60158   ; A shadow mastiff
+D 0 60159 1 0   ; Center of a long hallway
+M 0 60034 6 60160   ; A shadow mastiff
+M 0 60034 6 60161   ; A shadow mastiff
+M 0 60034 6 60161   ; A shadow mastiff
+M 0 60034 6 60161   ; A shadow mastiff
+M 0 60034 6 60161   ; A shadow mastiff
+D 0 60161 3 0   ; A kennel
+D 0 60162 0 1   ; A passage off the long hallway
+D 0 60162 2 1   ; A passage off the long hallway
+D 0 60163 0 1   ; Doorways..which one?
+D 0 60163 2 1   ; Doorways..which one?
+D 0 60165 2 1   ; Storeroom
+D 0 60166 0 1   ; The library
+D 0 60166 2 1   ; The library
+M 0 60019 4 60167   ; A Guardian
+*G 1 60029 2 0   ; A Gleaming Long Sword
+D 0 60167 0 1   ; Secret Library
+D 0 60168 2 1   ; Laboratory
+D 0 60168 3 0   ; Laboratory
+D 0 60170 0 0   ; Small pasage
+D 0 60170 1 0   ; Small pasage
+M 0 60035 1 60171   ; A summoned shadow
+D 0 60171 2 0   ; Summoning Chamber
+M 0 60022 2 60172   ; A Shadow Dragon
+D 0 60174 0 0   ; Meeting Room
+M 0 60005 1 60175   ; A Lich
+D 0 60175 1 1   ; A bedroom
+D 0 60175 2 0   ; A bedroom
+D 0 60175 3 0   ; A bedroom
+D 0 60176 1 0   ; Passage to the Vault
+M 0 60036 1 60177   ; Loliadac the Rakashaka
+G 1 60016 2 0   ; A Crystal Dragon Skull
+D 0 60178 3 1   ; A secret passage
+M 0 60038 1 60179   ; A Large Skeleton
+E 1 60028 1 16   ; A Rusty Dagger
+E 1 60022 1 17   ; A Small Silver Cross
+M 0 60027 18 60180   ; A Shadow
+M 0 60027 18 60180   ; A Shadow
+M 0 60001 1 60180   ; Prince Vlad the Destroyer
+E 1 60020 1 3   ; A Cloak of Arachnida
+M 0 60027 18 60180   ; A Shadow
+M 0 60033 3 60181   ; A Burning Shadow
+M 0 60033 3 60185   ; A Burning Shadow
+M 0 60031 2 60185   ; A Flaming Griffin
+M 0 60031 2 60185   ; A Flaming Griffin
+M 0 60033 3 60186   ; A Burning Shadow
+D 0 60187 2 2   ; Outside a house of flame
+M 0 60029 1 60189   ; A Greater Flame
+G 1 60004 1 0   ; A flaming key
+M 0 60030 3 60191   ; A Minor Flame
+G 1 60005 1 0   ; A tiny golden key
+M 0 60030 3 60191   ; A Minor Flame
+M 0 60030 3 60191   ; A Minor Flame
+D 0 60192 0 2   ; Inside a Flaming Door
+D 0 60192 2 2   ; Inside a Flaming Door
+M 0 60032 1 60193   ; The Protector of the Flames
+G 1 60015 1 0   ; A Flaming Belt
+G 1 60014 1 0   ; Flaming bracers
+D 0 60193 0 2   ; Inside a flaming house
+D 0 60196 5 2   ; Large Cavern
+M 0 60041 1 60197   ; The First Champion
+E 1 60009 1 8   ; Boots of Tracking
+G 1 60027 1 0   ; A crimson red key
+M 0 60042 1 60198   ; The Second Champion
+E 1 60010 1 8   ; Glowing white boots
+G 1 60024 1 0   ; A shimmering white key.
+M 0 60043 1 60199   ; The Third Champion
+E 1 60008 1 8   ; Boots of elvenkind
+G 1 60026 1 0   ; A shimmering grey key
+M 0 60044 1 60200   ; The Fourth Champion
+E 1 60030 1 8   ; Dark Green Boots
+G 1 60025 1 0   ; A shimmering black key
+D 0 60201 4 2   ; Past the first door
+D 0 60201 5 2   ; Past the first door
+D 0 60202 4 2   ; 60202
+D 0 60202 5 2   ; 60202
+D 0 60203 4 2   ; 60203
+D 0 60203 5 2   ; 60203
+D 0 60204 4 2   ; 60204
+M 0 60039 1 60205   ; The Judgement Maker
+E 1 60031 1 17   ; A Set of weighing scales
+S
+#605
+someones area~
+60999 1 0
+*
+S
+#700
+someones area~
+70499 1 0
+*
+S
+#705
+someones area~
+70999 1 0
+*
+S
+#9998
+Last Area~
+2147483647 30 0
+*  *grin*
+S
+#9999
+$~

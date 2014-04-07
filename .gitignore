@@ -1,0 +1,5 @@
+vcc/
+*.out
+*.bak
+*.tar
+*.o

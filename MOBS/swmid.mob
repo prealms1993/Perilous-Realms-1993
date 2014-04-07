@@ -1,0 +1,93 @@
+14200
+{
+name { Wild Willy }
+namelist { willy wild }
+shortdesc { Waving his arms about randomly, Wild Willy turns himself in circles here. }
+longdesc {
+   His sanity apparently left him ages ago. A mass of hair surrounds his
+head, stringily pointing in various directions, and he hasn't bathed
+recently either.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 4 }
+alignment { 0 }
+gold { 100 }
+hit_bonus { 17 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 40, 0 }
+body { 40, 0 }
+arms { 40, 0 }
+legs { 40, 0 }
+feet { 40, 0 }
+hp { 9, 8, 5  }
+move { 300 }
+experience { 602 }
+damage { 2, 2, 2  }
+immune { charm }
+affected { sense-life }
+act { scavenger, aggressive, stay-zone, wimpy, immortal }
+}
+14201
+{
+name { the vicious pink rabbit }
+namelist { vicious pink rabbit }
+shortdesc { A pink rabbit creeps along in search of food. }
+longdesc {
+   The rabbit is a bright shade of pink, which fades toward white at
+spots, and is nearly dark red in the eyes. The rabbit seems hungry and
+inordinately malevolent.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 2 }
+alignment { -300 }
+gold { 50 }
+hit_bonus { 15 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 80, 0 }
+body { 80, 0 }
+arms { 80, 0 }
+legs { 80, 0 }
+feet { 80, 0 }
+hp { 3, 7, 8  }
+move { 300 }
+experience { 293 }
+damage { 1, 2, 1  }
+act { aggressive, stay-zone }
+}
+14202
+{
+name { the big ugly troll }
+namelist { troll big ugly }
+shortdesc { A big ugly troll stands here, holding out its hand. }
+longdesc {
+   It must be taller than twelve feet, with muscles that shine dirtily
+through what is either fur or a poorly constructed garment. Behind the
+eyes lies a certain amount of intelligent, and a considerable amount of
+greed.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 35 }
+alignment { -150 }
+gold { 300 }
+hit_bonus { 19 }
+dam_bonus { 2 }
+attacks_per_round { 1 }
+head { 10, 1 }
+body { 10, 1 }
+arms { 10, 1 }
+legs { 10, 1 }
+feet { 10, 1 }
+hp { 8, 8, 140  }
+move { 300 }
+experience { 3986 }
+damage { 4, 3, 19  }
+act { special, sentinel, scavenger }
+}

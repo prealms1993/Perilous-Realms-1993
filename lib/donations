@@ -1,0 +1,118 @@
+ 
+As many of you may know Perilous Realms is trying to move to its own player
+owned machine. What this would mean is no more bouncing around from machine
+to machine (well we have only bounced once so far) no more limits on the
+number of players at one time (except the machines limit) and no more sharing
+the machine with other processes like news that would slow it down for the
+game. So over the past week I have gone out and priced several machines and
+as promised I am now posting those prices and what I hope to see happen..
+ 
+DEC Alpha ............ 15k
+HP 9000/715 .......... 13k
+Sun3 ................. 12k
+IBM 486/66 ............ 8k
+ 
+These are all with a 1G drive and 64megs of memory (and for the ibm its all
+SCSI hardware). The IBM also includes ~$1000 for the UNIX OS (which may or
+may not cover it as an OS hasnt been decided on yet and some are quite a bit
+over 1k).
+
+By request a list of approx prices for the pc: 1G drive $1300, 64megs of error
+correcting memory $3500+, Busmaster VLB card with 2 meg $600+, CPU $600, MB $300
+Misc other items (case, drives, net card, mono VGA monitor and card), Operating
+system $1000
+ 
+Because of the prices and the fact that the hardware is not proprietary (so
+fixing any problems wont cost lots of money) I want to go with the IBM machine.
+ 
+Now here is the kicker. I cant pay 8k for a machine to run P.R. on, with my job
+there is no way I could do that. What I am going to do is look towards you the
+players of P.R. and ask for a small donation from each of you. Depending on
+the amount of your donation I will be offering ingame rewards to your PC. Also
+each player who donates at least $5 will be transferred to the new machine once
+it is up and running. Each donator will also have their name and amount donated
+listed in a new command (founders?). If we can actually get enough for the
+machine I will also be able to leave P.R. v1 running after v2 is done, presently
+v1 is planned to most likely go down soon after v2 starts running because I
+wont have room to run both at once. V1 also has almost no work going on on it
+and no new areas planned for it, if we get this machine I will start fixing up
+the broken areas and adding the new ones I have around here (and some fix it
+up work will be done on the code). Other things like my policy on reimbursement
+would also be a bit more lenient (although multiplaying is still a no no). I
+will also fix up the armor class system so it actually works right/means
+something again.
+ 
+It is entirely possibly that v1 will stay here on crl.com while v2 goes to
+another machine but if this happens the 20 player limit will still be here
+and I wont be doing much more advancement of the server (except for bug
+fixes). In other words what you see now is what you'll get. If the possible
+site for v2 falls through then we are talking a whole new deal once v2 is
+ready. *A COPY OF PR V? WILL STAY HERE ON CRL!*
+ 
+Perks for donating:
+Amount                Perk
+ $5                   Transfer of PC to new machine + 1 level
+ $7.50                2 levels
+ $10                  3 levels + a 10 AC Happy cap (head armor)
+ $12.50               3 levels + a 10 AC neck armor (cape or necklace)
+ $15                  4 levels + a 15 AC boots
+ $17.50               4 levels + a ring with +1 whatever you wish or +10 if its
+                                 a save or mana/power item.
+ $20                  5 levels + a 15 arms armor
+ $22.50               5 levels + a 15 AC about armor (this is not body armor)
+ $25                  6 levels + a ring +2 whatever you wish or +25 if mana and
+                                 +15 if save
+ $27.50               6 levels + a 15 AC leg armor
+ $30                  7 levels + a 25 AC body armor (limit first 15 people then
+                                 drops to 20AC armor)
+ $40                  7 levels + a ring +4 whatever you wish or +50 if mana and
+                                 +20 if save
+ $50                  20 levels  plus any 2 items above
+                                 OR a house of your own (max 2 rooms)
+ $75                  35 levels  plus any 3 items above
+                      OR any 1 FAST flag for your house (help flags)
+$100                  50 levels  plus any 4 items above
+                      OR 20 levels plus Max of all stats except 1 random one.
+ 
+**NOTE** The any # items is that number of UNIQUE items not 4 +4 rings or 1
++16 ring or whatever (also not 1 plus 7 ring). You can get a +4 and +3 ring
+but not both + the same thing either!
+
+The highest donator will get a "special bonus" if over $100 an even better
+bonus.
+ 
+The levels and items are for v1. v2 has no levels. I may include something on 
+the v2 mud as well if you are interested in it.
+
+All Items will be usable by any class. They will also be exempt from the
+adjustments that may happen to items in the next 6-8 months (time permitting).
+This will follow the fixing of the AC system.
+ 
+All donations can be sent to:
+  P.R. Fund (c/o Craig Mohr)
+  1034 NW 34th
+  Corvallis, Oregon USA
+                  97330
+ 
+Make checks or Money orders payable to "Craig Mohr". (Bank didnt like PR Fund)
+Please include your PC's name with your donation. I am trying to set up a 
+special account under the name P.R. Fund but the bank is being hard nosed 
+and saying they can only do it for non-profit corporations which we are not
+since we are trying to get money for a machine to run this on. That is why
+I need my name on the pay to line in the future I hope to just have P.R. Fund.
+(It actually IS in another account seperate from anything of mine just not
+under the name I wanted..)
+
+The money will stay in the account collecting interest until there is enough to
+pay for the machine, OS and connection. I am currently talking to the school
+here about getting a free connection but wont know for awhile. There IS the
+possibility of NOT getting enough cash for the machine. If this does happen
+I cant repay everyone. It might instead go towards getting a better account
+on another machine that requires payment or possibly buying a harddrive for
+someone elses machine and then using that space. This is one reason for the
+items and levels since there is no guarranty the other is for incentive.
+
+PR has been around for over 2 years now and I hope we can be around for many
+many more to come.
+
+Deth has made the first $100 contribution.

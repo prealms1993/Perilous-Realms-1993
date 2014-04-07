@@ -1,0 +1,130 @@
+#9200
+Unseen Servant~
+An Unseen Servant~
+An visible Unseen Servant floats around aimlessly, waiting to be summoned.~
+It definitely wants a master.
+~
+64 8 0 S
+1 10 10 1d10+10 1d5+0
+100 200
+8 8 0
+#9201
+Dust Devil~
+A Dust Devil~
+The Dust Devil floats long, picking up debris left lying around.~
+A swirling vortex of dust.
+~
+68 8 -10 S
+3 10 8 5d6+20 1d7+1
+300 400
+8 8 0
+#9202
+Lesser Air Elemental~
+A Lesser Air Elemental~
+One of the lesser Air Elementals exists here.~
+A swirling mass of air.
+~
+2 10 0 S
+5 10 5 1d5+96 2d4+1
+500 1000
+8 8 0
+#9203
+Invisible Stalker~
+An Invisible Stalker~
+A Stalker is standing here, glaring at you.~
+He seems pretty nasty, but he does hold the key to the other realms.
+~
+68 138 0 S
+7 10 4 5d10+100 2d4+3
+50 2500
+8 8 1
+#9204
+Djinn~
+The Djinn~
+A powerful Djinn, Lord of this Element, glances at you with scorn.~
+Clad in silken Pantalons and a flowing azure cloak, he seems in control of
+the situation.
+~
+192 236 500 S
+11 5 2 10d10+100 2d6+4
+2000 15000
+8 8 1
+#9205
+Djinniyeh Wife~
+The Djnniyeh~
+A Djinniyeh reclines upon a silken cushion.~
+This Djinniyeh, while not very strong, is in command of superior magical
+forces.
+~
+192 136 500 S
+13 0 2 10d10+150 2d2+1
+2000 15000
+5 5 2
+#9206
+Greater Air Elemental Guard~
+The Greater Air Elemental Guard~
+A Greater Air Elemental stands guard here.~
+This mass of air looks very large and hard to hit.
+~
+2 136 1 S
+9 0 0 5d5+100 3d4+3
+100 10000
+8 8 0
+#9210
+water wierd~
+The Water Wierd~
+You faintly make out a disturbance in the water here.
+~
+A vaguely snake-like discoloration of the water.
+~
+100 10 -400 S
+5 15 3 2d10+60 2d4+1
+0 1586
+8 8 0
+#9211
+lesser water elemental~
+Lesser Water Elemental~
+One of the Lesser Water Elementals swirls here.
+~
+Two orbs of deep green peer out of this wave.
+~
+64 0 0 S
+7 10 1 7d5+60 2d5+1
+515 2587
+8 8 0
+#9212
+triton~
+A Triton~
+A strange fish-man is swimming by you
+~
+The lower half of this creature ends in two finned legs, while his
+torso, head, and arms are handsomely human.  He has a silvery skin,
+which fades into sliver-blue scales on the lower half of his body.
+His hair is deep blue.
+~
+68 8 200 S
+9 10 3 10d10+70 2d5+2
+2176 6536
+8 8 1
+#9213
+greater water elemental~
+The Greater Water Elemental~
+This Elemental seems much more powerful than the lesser's of its kind.
+~
+A very large pool of swirling water.
+~
+64 8 0 S
+11 7 0 1d100+70 5d3+4
+10574 15845
+8 8 0
+#9214
+steven marid~
+Steven the Marid~
+A tall Marid named Steven glances at you with his arms crossed in contempt.
+~
+A tall, arrogant Marid.  His muscles are very well devolped.
+~
+68 136 200 S
+13 5 -1 1d100+200 4d5+5
+20000 25674
+8 8 1

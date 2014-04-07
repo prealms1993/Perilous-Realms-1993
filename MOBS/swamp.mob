@@ -1,0 +1,621 @@
+3601
+{
+name { A Huge Swamp Troll }
+namelist { troll }
+shortdesc { A Huge Swamp Troll charges towards you. }
+longdesc {
+This huge behemoth towers to a height of 15 feet, It sneers at you
+as it approaches and raises its black taloned claws to strike you.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 113 }
+alignment { -600 }
+gold { 2500 }
+hit_bonus { 5 }
+dam_bonus { 5 }
+attacks_per_round { 2 }
+head { 20, 4 }
+body { 20, 4 }
+arms { 20, 4 }
+legs { 20, 4 }
+feet { 20, 4 }
+hp { 4, 112, 600  }
+move { 300 }
+experience { 20783 }
+damage { 4, 4, 5  }
+affected { detect-evil, detect-magic, group, sneak }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3602
+{
+name { A Large Green Troll }
+namelist { troll }
+shortdesc { A Large Green Troll attempts to get a hold on you. }
+longdesc {
+This big troll is towers several feet over you.  He has a large spear
+which he seems to ply with utmost prowess.  He jabs his spear at you
+and cackles with glee.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 98 }
+alignment { -400 }
+gold { 2200 }
+hit_bonus { 13 }
+dam_bonus { 4 }
+attacks_per_round { 2 }
+head { 30, 3 }
+body { 30, 3 }
+arms { 30, 3 }
+legs { 30, 3 }
+feet { 30, 3 }
+hp { 4, 98, 584  }
+move { 300 }
+experience { 19872 }
+damage { 3, 5, 4  }
+affected { detect-invisible, sense-life }
+act { scavenger, aggressive, stay-zone }
+}
+3603
+{
+name { A Mean Looking Ogre }
+namelist { ogre }
+shortdesc { A Mean Looking Ogre stands here getting ready to beat in your face. }
+longdesc {
+This mean looking bastard looks like he could tear you limb from limb.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 127 }
+alignment { -500 }
+gold { 2500 }
+hit_bonus { 11 }
+dam_bonus { 5 }
+attacks_per_round { 2 }
+head { 50, 5 }
+body { 50, 5 }
+arms { 50, 5 }
+legs { 50, 5 }
+feet { 50, 5 }
+hp { 4, 126, 600  }
+move { 300 }
+experience { 23788 }
+damage { 5, 5, 5  }
+affected { detect-invisible }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3604
+{
+name { The Swamp Thing }
+namelist { thing }
+shortdesc { The Swamp Thing shambles about here, It seems hungry. }
+longdesc {
+The Swamp Thing has huge fists, which look like they could pound you flat.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 168 }
+alignment { -700 }
+gold { 3200 }
+hit_bonus { 19 }
+dam_bonus { 6 }
+attacks_per_round { 3 }
+head { 80, 6 }
+body { 80, 6 }
+arms { 80, 6 }
+legs { 80, 6 }
+feet { 80, 6 }
+hp { 4, 168, 636  }
+move { 300 }
+experience { 34696 }
+damage { 4, 5, 10  }
+affected { detect-invisible, sense-life, dodge }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3605
+{
+name { A Mean Looking Gnoll }
+namelist { gnoll }
+shortdesc { There is a Mean Looking Gnoll here, he looks slightly unhappy. }
+longdesc {
+The Gnoll is clad in a suit of chain, and carries a large morning star.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 63 }
+alignment { -400 }
+gold { 1400 }
+hit_bonus { 7 }
+dam_bonus { 3 }
+attacks_per_round { 2 }
+head { 60, 2 }
+body { 60, 2 }
+arms { 60, 2 }
+legs { 60, 2 }
+feet { 60, 2 }
+hp { 4, 63, 393  }
+move { 300 }
+experience { 10362 }
+damage { 2, 8, 4  }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3606
+{
+name { A Huge Hairy Beast }
+namelist { beast }
+shortdesc { A Huge Hairy Beast shambles towards you with death in his eyes. }
+longdesc {
+This Huge Beast stands about 20 feet in height and has huge green clawed
+appendages.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 127 }
+alignment { -450 }
+gold { 2500 }
+hit_bonus { 14 }
+dam_bonus { 5 }
+attacks_per_round { 2 }
+head { 60, 5 }
+body { 60, 5 }
+arms { 60, 5 }
+legs { 60, 5 }
+feet { 60, 5 }
+hp { 4, 126, 600  }
+move { 300 }
+experience { 24426 }
+damage { 4, 4, 4  }
+affected { detect-evil, sense-life }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3607
+{
+name { A Rather Small Beast }
+namelist { beast }
+shortdesc { A Rather Small Beast cringes in terror as it notices you. }
+longdesc {
+This Rather Small Beast looks like you could take it out with a single
+sword blow.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 7 }
+alignment { 0 }
+gold { 130 }
+hit_bonus { 2 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 90, 0 }
+body { 90, 0 }
+arms { 90, 0 }
+legs { 90, 0 }
+feet { 90, 0 }
+hp { 4, 7, 46  }
+move { 300 }
+experience { 742 }
+damage { 1, 10, 1  }
+act { scavenger, stay-zone }
+}
+3608
+{
+name { The Will-O-Wisp }
+namelist { will will-o-wisp wisp }
+shortdesc { A Will-O-Wisp darts hear and there, making fun of you. }
+longdesc {
+This strange little creature seems very hard to keep your eyes on.
+You stare as hard as you can at the glowing ball of floating light and
+are just able to notice a small pair of glowing eyes.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 56 }
+alignment { 0 }
+gold { 900 }
+hit_bonus { 14 }
+dam_bonus { 3 }
+attacks_per_round { 1 }
+head { -50, 0 }
+body { -50, 0 }
+arms { -50, 0 }
+legs { -50, 0 }
+feet { -50, 0 }
+hp { 4, 56, 348  }
+move { 300 }
+experience { 11124 }
+damage { 3, 3, 3  }
+affected { invisible, detect-invisible, sense-life, dodge }
+act { nice-thief, aggressive, stay-zone }
+}
+3609
+{
+name { The Monsterous Snake }
+namelist { snake }
+shortdesc { A Huge Snake slithers towards you, thinking "Lunch". }
+longdesc {
+This 18 or so foot long reptile looks rather hungry.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 98 }
+alignment { 0 }
+gold { 2200 }
+hit_bonus { 14 }
+dam_bonus { 4 }
+attacks_per_round { 1 }
+head { 40, 3 }
+body { 40, 3 }
+arms { 40, 3 }
+legs { 40, 3 }
+feet { 40, 3 }
+hp { 4, 98, 584  }
+move { 300 }
+experience { 19008 }
+damage { 4, 4, 6  }
+affected { invisible, sense-life, dodge }
+act { special, sentinel, scavenger, aggressive, stay-zone }
+}
+3610
+{
+name { A Large Snake }
+namelist { snake }
+shortdesc { A Rather Large Python rests in a coil here. }
+longdesc {
+It looks similar to some of the largest Amazon pythons you have never seen.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 63 }
+alignment { 0 }
+gold { 1400 }
+hit_bonus { 10 }
+dam_bonus { 3 }
+attacks_per_round { 1 }
+head { 80, 2 }
+body { 80, 2 }
+arms { 80, 2 }
+legs { 80, 2 }
+feet { 80, 2 }
+hp { 4, 63, 393  }
+move { 300 }
+experience { 10079 }
+damage { 3, 3, 5  }
+affected { invisible, sense-life, dodge }
+act { special, sentinel, scavenger, aggressive, stay-zone }
+}
+3611
+{
+name { The Marshman }
+namelist { marshman man marsh }
+shortdesc { A Marshman saunters towards you, reaching for your pouch of gold. }
+longdesc {
+This rather gaunt individual seems tired of people who play mud and
+has decided it is time for you to die.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 84 }
+alignment { 0 }
+gold { 1800 }
+hit_bonus { 10 }
+dam_bonus { 4 }
+attacks_per_round { 1 }
+head { 10, 3 }
+body { 10, 3 }
+arms { 10, 3 }
+legs { 10, 3 }
+feet { 10, 3 }
+hp { 4, 84, 491  }
+move { 300 }
+experience { 13599 }
+damage { 2, 5, 5  }
+affected { invisible, sense-life, dodge }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3612
+{
+name { The Old Marsh Hag }
+namelist { hag }
+shortdesc { An Old Marsh Hag is here. }
+longdesc {
+This disgusting bitch deserves to die.  You feel a great need to put a
+sword through her.  She does have rather large nails though.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 70 }
+alignment { 0 }
+gold { 1400 }
+hit_bonus { 10 }
+dam_bonus { 3 }
+attacks_per_round { 1 }
+head { 10, 2 }
+body { 10, 2 }
+arms { 10, 2 }
+legs { 10, 2 }
+feet { 10, 2 }
+hp { 4, 70, 426  }
+move { 300 }
+experience { 11396 }
+damage { 3, 5, 10  }
+act { scavenger, stay-zone }
+}
+3613
+{
+name { A Death Slaad }
+namelist { slaad death }
+shortdesc { A Death Slaad is standing here distraut, he seems to have lost his way. }
+longdesc {
+This dark apparation stands a meager 13 feet in height he pulls out
+a scythe and prepares to do combat with you.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 203 }
+alignment { 0 }
+gold { 7000 }
+hit_bonus { 21 }
+dam_bonus { 10 }
+attacks_per_round { 1 }
+head { -40, 1 }
+body { -40, 1 }
+arms { -40, 1 }
+legs { -40, 1 }
+feet { -40, 1 }
+hp { 4, 203, 1154  }
+move { 300 }
+experience { 93506 }
+damage { 5, 4, 10  }
+affected { detect-invisible, sense-life, dodge }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3614
+{
+name { A Marsh Wolf }
+namelist { wolf marsh }
+shortdesc { A Marsh Wolf sniffs the ground and then notices your scent and leaps at you. }
+longdesc {
+This rather plump wolf looks well fed, probably ate a friend or two of
+yours who came into the marsh.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 56 }
+alignment { 0 }
+gold { 900 }
+hit_bonus { 6 }
+dam_bonus { 3 }
+attacks_per_round { 1 }
+head { 80, 2 }
+body { 80, 2 }
+arms { 80, 2 }
+legs { 80, 2 }
+feet { 80, 2 }
+hp { 4, 56, 348  }
+move { 300 }
+experience { 8487 }
+damage { 3, 5, 1  }
+affected { detect-invisible, sense-life }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3615
+{
+name { An air elemental }
+namelist { air elemental }
+shortdesc { An air elemental hovers here. }
+longdesc {
+All you see is air!
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 113 }
+alignment { 0 }
+gold { 2500 }
+hit_bonus { 14 }
+dam_bonus { 5 }
+attacks_per_round { 2 }
+head { 10, 4 }
+body { 10, 4 }
+arms { 10, 4 }
+legs { 10, 4 }
+feet { 10, 4 }
+hp { 4, 112, 600  }
+move { 300 }
+experience { 22494 }
+damage { 4, 8, 2  }
+affected { sneak, hide }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3616
+{
+name { A water elemental splashes water on you and }
+namelist { water elemental }
+shortdesc { A water elemental oozes about here. }
+longdesc {
+This puddle of water moves about by its own free will!
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 127 }
+alignment { 0 }
+gold { 2500 }
+hit_bonus { 14 }
+dam_bonus { 5 }
+attacks_per_round { 2 }
+head { 10, 5 }
+body { 10, 5 }
+arms { 10, 5 }
+legs { 10, 5 }
+feet { 10, 5 }
+hp { 4, 126, 600  }
+move { 300 }
+experience { 24426 }
+damage { 4, 8, 2  }
+affected { sneak, hide }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3617
+{
+name { A Titanic SeaMonster }
+namelist { seamonster monster sea }
+shortdesc { A Titanic SeaMonster wades in the water here. }
+longdesc {
+This Huge beast has huge nasty fangs and bloodshot eyes, looks like he
+could eat your whole party for desert.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 182 }
+alignment { 1000 }
+gold { 5000 }
+hit_bonus { 17 }
+dam_bonus { 8 }
+attacks_per_round { 4 }
+head { 50, 7 }
+body { 50, 7 }
+arms { 50, 7 }
+legs { 50, 7 }
+feet { 50, 7 }
+hp { 4, 182, 776  }
+move { 300 }
+experience { 50045 }
+damage { 4, 10, 5  }
+affected { dodge, sneak, hide }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3618
+{
+name { A Shambling Mound }
+namelist { mound shambling }
+shortdesc { A Large Shambling Mound shambles towards you. }
+longdesc {
+This grotesque pile of plant matter fills you with utmost horror as
+it tries to lay its grimey paws on you.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 91 }
+alignment { 0 }
+gold { 2200 }
+hit_bonus { 12 }
+dam_bonus { 4 }
+attacks_per_round { 1 }
+head { 10, 3 }
+body { 10, 3 }
+arms { 10, 3 }
+legs { 10, 3 }
+feet { 10, 3 }
+hp { 4, 91, 528  }
+move { 300 }
+experience { 15638 }
+damage { 3, 6, 2  }
+affected { detect-invisible, sense-life }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3619
+{
+name { The Orc Shaman }
+namelist { shaman orc }
+shortdesc { An Orc Shaman stands before you holding a staff and wearing robes. }
+longdesc {
+This old orc has an array of bones stuck in his hair and strange symbols
+painted on his face and hands.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 84 }
+alignment { 0 }
+gold { 1800 }
+hit_bonus { 10 }
+dam_bonus { 4 }
+attacks_per_round { 1 }
+head { 70, 3 }
+body { 70, 3 }
+arms { 70, 3 }
+legs { 70, 3 }
+feet { 70, 3 }
+hp { 4, 84, 491  }
+move { 300 }
+experience { 13599 }
+damage { 3, 4, 1  }
+affected { detect-invisible, sense-life }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3620
+{
+name { A Marsh Giant }
+namelist { giant }
+shortdesc { A Huge Marsh Giant stomps towards you. }
+longdesc {
+This Huge monster of a man, has green gnarly teeth and a slight disposition
+about him.  He carries a BIG stick.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 106 }
+alignment { 0 }
+gold { 2500 }
+hit_bonus { 12 }
+dam_bonus { 5 }
+attacks_per_round { 2 }
+head { 50, 4 }
+body { 50, 4 }
+arms { 50, 4 }
+legs { 50, 4 }
+feet { 50, 4 }
+hp { 4, 105, 600  }
+move { 300 }
+experience { 21153 }
+damage { 6, 6, 1  }
+affected { detect-invisible, sense-life }
+act { sentinel, scavenger, aggressive, stay-zone }
+}
+3621
+{
+name { The Gargoyle }
+namelist { gargoyle }
+shortdesc { A Large Gargoyle lands next to you, baring his fangs at you. }
+longdesc {
+This creepy fellow looks like he could use you as a meal, and might.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 98 }
+alignment { -600 }
+gold { 2200 }
+hit_bonus { 16 }
+dam_bonus { 4 }
+attacks_per_round { 2 }
+head { 0, 0 }
+body { 0, 0 }
+arms { 0, 0 }
+legs { 0, 0 }
+feet { 0, 0 }
+hp { 4, 98, 584  }
+move { 300 }
+experience { 20390 }
+damage { 4, 4, 4  }
+affected { detect-invisible, sense-life }
+act { sentinel, scavenger, aggressive, stay-zone }
+}

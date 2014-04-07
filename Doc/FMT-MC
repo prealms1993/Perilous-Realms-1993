@@ -1,0 +1,181 @@
+From phantom@rock.concert.net Sun Feb 28 16:26 PST 1993
+Received: from rock.concert.net by odin.wosc.osshe.edu (5.65/1.35)
+	id AA12120; Sun, 28 Feb 93 16:25:52 -0800
+Received: by rock.concert.net (5.59/tas-rock/8-12-92)
+	id AA24353; Sun, 28 Feb 93 18:28:49 -0500
+Date: Sun, 28 Feb 93 18:28:49 -0500
+From: Paul M Mann -- Personal Account <phantom@rock.concert.net>
+Message-Id: <9302282328.AA24353@rock.concert.net>
+To: phantom@rock.concert.net, pr-submit@odin.wosc.osshe.edu
+Subject: spell/skill lists (m/c)
+Status: RO
+
+**MAGE
+ 
+SPELLS                  Lvl|Diff|Cost|Gld|Max|mana|Prereq|comp
+burning hands             1|  1 |    |   |100|  7 |      |
+shield                    2|  1 |    |   |100| 15 |      |
+create light              3|  1 |    |   |100| 10 |      |
+magic missile             3|  1 |    |   |100| 14 |      |
+detect magic              4|  1 |    |   |100|  5 |      |
+detect invisibility       5|  1 |    |   |100|  7 |      |
+shocking grasp            5|  1 |    |   |100| 15 |      |
+ventriloquate             6|  1 |    |   |100|  5 |      |
+continual light           7|  1 |    |   |100| 15 |      |
+chill touch               7|  1 |    |   |100| 12 |      |
+fly                       8|  1 |    |   |100| 15 |      |
+drain vigor light         9|  1 |    |   | 60| 10 |      |
+refresh                  10|  1 |    |   |100| 10 |      |
+charm person             11|  1 |    |   |100| 10 |      |
+lightning bolt           12|  1 |    |   |100| 15 |      |
+water breath             13|  1 |    |   |100| 15 |      |
+strength                 14|  1 |    |   |100| 10 |      |
+armor                    15|  1 |    |   | 80|  5 |      |
+drain vigor serious      15|  1 |    |   | 60| 12 |      |
+invisibility             16|  1 |    |   |100|  5 |      |
+infravision              16|  1 |    |   |100|  7 |      |
+weakness                 17|  1 |    |   |100| 10 |      |
+sleep                    18|  1 |    |   |100| 15 |      |
+calm                     19|  1 |    |   |100| 15 |      |
+minor creation           20|  1 |    |   |100|  5 |      |
+dispel magic             21|  1 |    |   |100| 15 |      |
+acid blast               22|  1 |    |   |100| 15 |      |
+knock                    22|  1 |    |   |100| 10 |      |
+second wind              23|  1 |    |   |100| 10 |      |
+drain vigor critic       24|  1 |    |   | 65| 17 |      |
+know alignment           25|  1 |    |   |100| 10 |      |
+fear                     26|  1 |    |   |100| 15 |      |
+monsum one               27|  1 |    |   |100| 10 |      |
+teleport                 28|  1 |    |   |100| 30 |      |
+charm monster            29|  1 |    |   |100| 10 |      |
+ice storm                31|  1 |    |   |100| 15 |      |
+monsum two               32|  1 |    |   |100| 13 |      |
+blindness                33|  1 |    |   |100|  5 |      |
+translook                36|  1 |    |   |100| 15 |      |
+nosleep                  39|  1 |    |   |100| 15 |      |
+cone of cold             40|  1 |    |   |100| 15 |      |
+vigorize light           40|  1 |    |   |100| 20 |      |
+monsum three             42|  1 |    |   |100| 16 |      |
+curse                    45|  1 |    |   |100| 20 |      |
+nocharm                  48|  1 |    |   |100| 15 |      |
+monsum four              51|  1 |    |   |100| 19 |      |
+faerie fire              54|  1 |    |   |100| 10 |      |
+colour spray             55|  1 |    |   |100| 25 |      |
+summon                   55|  1 |    |   |100| 20 |      |
+vigorize serious         57|  1 |    |   |100| 30 |      |
+energy drain             59|  1 |    |   |100| 35 |      |
+monsum five              61|  1 |    |   |100| 22 |      |
+clone                    67|  1 |    |   |100| 40 |      |
+fireball                 69|  1 |    |   |100| 25 |      |
+dispel invisibility      73|  1 |    |   |100| 50 |      |
+enchant weapon           75|  1 |    |   |100|100 |      |
+vigorize critic          77|  1 |    |   |100| 40 |      |
+monsum six               77|  1 |    |   |100| 25 |      |
+faerie fog               79|  1 |    |   |100| 15 |      |
+animate dead             84|  1 |    |   |100| 30 |      |
+shriek                   87|  1 |    |   | 70| 25 |      |
+scry                     89|  1 |    |   |100| 20 |      |
+monsum seven             90|  1 |    |   |100| 28 |      |
+paralyze                100|  1 |    |   |100| 35 |      |
+meteor swarm            105|  1 |    |   |100| 15 |      |
+mage fire               119|  1 |    |   |100| 35 |      |
+pword blind             125|  1 |    |   |100| 15 |      |
+fireshield              125|  1 |    |   |100| 50 |      |
+succor                  135|  1 |    |   |100|100 |      |
+portal                  145|  1 |    |   |100| 75 |      |
+conjure elemental       150|  1 |    |   |100| 30 |      |
+pword kill              150|  1 |    |   |100| 25 |      |
+nosummon                155|  1 |    |   |100| 20 |      |
+locate object           167|  1 |    |   |100| 20 |      |
+stone skin              176|  1 |    |   |100| 25 |      |
+cacaodemon              195|  1 |    |   |100| 60 |      |
+invulnerability         250|  1 |    |   |100|100 |      |
+vitilize mana           275|  1 |    |   | 80| 40 |      |
+warp weapon             280|  1 |    |   |100| 50 |      |
+recharger               400|  1 |    |   |100| 75 |      |
+polymorph self         2010|  1 |    |   |100| 20 |      |
+ 
+ 
+**CLERIC
+ 
+SKILL                   Lvl|Diff|Cost|Gld|Max|Prereq
+extra attack one         50|  1 |    |   | 75|
+extra attack two        101|  1 |    |   | 50|
+ 
+SPELLS                  Lvl|Diff|Cost|Gld|Max|mana|Prereq|comp
+cure light                1|  1 |    |   |100|  5 |      |
+armor                     2|  1 |    |   |100|  5 |      |
+cause light               2|  1 |    |   |100|  8 |      |
+turn                      2|  1 |    |   |100|  5 |      |
+bless                     3|  1 |    |   |100|  5 |      |
+create light              3|  1 |    |   |100|  5 |      |
+create water              3|  1 |    |   |100|  5 |      |
+detect evil               3|  1 |    |   |100|  5 |      |
+create food               4|  1 |    |   |100|  5 |      |
+detect poison             4|  1 |    |   |100|  5 |      |
+slow poison               5|  1 |    |   |100| 10 |      |
+detect magic              6|  1 |    |   |100|  5 |      |
+drain vigor light         7|  1 |    |   | 60| 10 |      |
+cure blind                8|  1 |    |   |100|  5 |      |
+water breath              8|  1 |    |   |100| 10 |      |
+continual light           8|  1 |    |   |100| 10 |      |
+calm                      9|  1 |    |   |100| 15 |      |
+detect invisibility       9|  1 |    |   |100|  5 |      |
+refresh                   9|  1 |    |   |100|  5 |      |
+drain vigor serious      10|  1 |    |   | 60| 12 |      |
+remove poison            11|  1 |    |   |100|  5 |      |
+blindness                12|  1 |    |   |100|  5 |      |
+dispel magic             12|  1 |    |   |100| 15 |      |
+nosleep                  13|  1 |    |   |100| 15 |      |
+remove curse             14|  1 |    |   |100|  5 |      |
+sense life               15|  1 |    |   |100| 10 |      |
+earthquake               15|  1 |    |   |100| 15 |      |
+drain vigor critic       15|  1 |    |   | 65| 17 |      |
+word of recall           15|  1 |    |   |100| 10 |      |
+cure serious             15|  1 |    |   |100|  9 |      |
+cause serious            16|  1 |    |   |100| 10 |      |
+cure critic              16|  1 |    |   |100| 10 |      |
+dexterity                16|  1 |    |   |100| 15 |      |
+poison                   17|  1 |    |   |100| 10 |      |
+second wind              18|  1 |    |   |100|  5 |      |
+true sight               19|  1 |    |   |100| 20 |      |
+animate dead             20|  1 |    |   |100| 15 |      |
+control weather          20|  1 |    |   |100| 25 |      |
+fly                      20|  1 |    |   |100| 15 |      |
+translook                21|  1 |    |   |100| 15 |      |
+vigorize light           21|  1 |    |   |100| 20 |      |
+dispel evil              22|  1 |    |   |100| 20 |      |
+flamestrike              22|  1 |    |   |100| 15 |      |
+dispel good              24|  1 |    |   |100| 20 |      |
+call lightning           25|  1 |    |   |100| 15 |      |
+faerie fire              26|  1 |    |   |100| 10 |      |
+nocharm                  28|  1 |    |   |100| 15 |      |
+curse                    29|  1 |    |   |100| 20 |      |
+cause critical           30|  1 |    |   |100| 15 |      |
+remove paralysis         30|  1 |    |   |100| 10 |      |
+summon                   32|  1 |    |   |100| 20 |      |
+dispel invisibility      34|  1 |    |   |100| 50 |      |
+faerie fog               36|  1 |    |   |100| 20 |      |
+heal                     40|  1 |    |   |100| 50 |      |
+wither                   40|  1 |    |   |100| 15 |      |
+harm                     50|  1 |    |   |100| 40 |      |
+sanctuary                50|  1 |    |   |100| 50 |      |
+vigorize serious         52|  1 |    |   |100| 30 |      |
+succor                   55|  1 |    |   |100| 15 |      |
+fireshield               59|  1 |    |   |100| 40 |      |
+shriek                   60|  1 |    |   | 80| 20 |      |
+firestorm                67|  1 |    |   |100| 40 |      |
+holy word                69|  1 |    |   |100| 45 |      |
+nosummon                 71|  1 |    |   |100| 25 |      |
+unholy word              73|  1 |    |   |100| 50 |      |
+locate object            75|  1 |    |   |100| 20 |      |
+conjure elemental        75|  1 |    |   |100| 30 |      |
+portal                   80|  1 |    |   |100| 65 |      |
+vigorize critic          81|  1 |    |   |100| 40 |      |
+gust of wind             97|  1 |    |   |100| 15 |      |
+invulnerability         100|  1 |    |   |100| 50 |      |
+full harm               125|  1 |    |   |100|100 |      |
+cacaodemon              175|  1 |    |   |100| 50 |      |
+recharger               210|  1 |    |   | 85|  5 |      |
+chain lightning         240|  1 |    |   |100| 35 |      |
+

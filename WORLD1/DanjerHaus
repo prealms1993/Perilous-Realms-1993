@@ -1,0 +1,487 @@
+
+0
+{
+  name { Front Porch of the DanjerHaus }
+  desc {
+"  You are on the front porch of the DanjerHaus.  The entire house is
+made of brick and it has a rusting metal roof with a few chimneys
+sticking out.  The vegetation seems a bit unkempt for a house in the
+noble district, but the residents obviously are above catering to the
+needs of their neighbors.
+  Diamond Street is south of here.  The wooden front door to the north
+leads into the living room.
+  }
+  sector { City }
+  extra {
+	keywords { vegetation
+shrubbery
+plants }
+	desc { It looks like the residents have not done any yardwork in a LONG time.
+There are numerous beer bottles from uncounted parties hidden in the
+bushes and tall grass.  Venturing off the sidewalk would prove an
+adventure in itself.
+	}
+  }
+  flags { no_mob }
+  exits {
+	to { n, 1 }
+	  key { 3950 }
+	  info { door, closed }
+	  keywords { door
+north
+front }
+	to { s, Midgard:136 }
+  }
+}
+
+1
+{
+  name { DanjerHaus living room }
+  desc {
+"  This is the living room of the DanjerHaus.  There are windows in
+most of the south wall giving you a nice view of the overgrown
+shrubbery and the street.  There is a brick fireplace in the center of
+the north wall. Furniture is almost nonexistent, but there is quite a
+bit of musical equipment scattered about.
+  To the east, through a glass-paned door, you can see a screened-in
+brick porch.  The door leading to the front porch is in the west
+corner of the south wall.  A comfortable TV room is to the west and a
+door to the hallway is in the west end of the north wall.
+  }
+  extra {
+	keywords { band
+equipment
+amp
+drums
+bass
+keyboard }
+	desc { It looks like a band practices in this room.  There's a drum set in one
+corner, a bass amp in another, a keyboard near the fireplace and a few
+microphone stands scattered randomly with a couple of exotic percussion
+instruments on a crate.
+	}
+	keywords { fireplace }
+	desc { This fireplace used to keep the living room warm before central heating
+was installed.  Unlike the other two (former) fireplaces in this house,
+this one could still warm the house.
+	}
+	keywords { floor }
+	desc { The formerly beautiful hardwood floors are a bit scuffed from the
+numerous parties.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 6 }
+	  info { door, closed }
+	  keywords { door
+north
+hall
+hallway }
+	to { e, 2 }
+	  info { door, closed }
+	  keywords { door
+east
+glass
+porch }
+	to { s, 0 }
+	  key { 3950 }
+	  info { door, closed }
+	  keywords { door
+south
+front }
+	to { w, 3 }
+	  info { door, closed }
+	  keywords { door
+west
+glass
+tv }
+  }
+}
+
+2
+{
+  name { East porch of the DanjerHaus }
+  desc {
+"  This is a very comfortable place to relax on a warm summer day.  The
+porch is made mostly of brick with a ceiling fan in the middle of wood
+roof.  The porch is screened beginning about 2' off the floor and
+ending at the ceiling.  You can see Diamond Street south through the
+screens.
+ There are a few couches along the walls and some chairs facing the
+couches.  Maybe you should have a nap?
+  Through the glass paned door to the west is the living room.
+Through a screen door to the north is an overgrown, narrow side yard.
+  }
+  extra {
+	keywords { fan }
+	desc { This ceiling fan was installed rather well by a former resident.  It
+helps keep the porch cool in the summer.
+~	}
+	keywords { couch
+couches
+chairs
+chair
+lamp }
+	desc { There are two couches along the west wall and several chairs scattered
+to form a sitting circle.  There is a lamp on a table.  It seems to have
+a red light bulb?!
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 9 }
+	  info { door, closed }
+	  keywords { door
+screen
+north }
+	to { w, 1 }
+	  info { door, closed }
+	  keywords { door
+west
+glass
+livingroom }
+  }
+}
+
+3
+{
+  name { TV room }
+  desc {
+"  This room has several comfortable couches on all but the north walls
+and potted plants all around.  There is a TV in the center of the
+north end of the room with two old VCRs stacked on top of it.  There
+are several bizzare wall hangings including "native" masks and a
+guitar.
+  There are windows in the south and west walls looking out over
+Diamond Street and the driveway respectively.  To the east is the
+living room and a door in the north wall leads to the kitchen.
+  }
+  extra {
+	keywords { TV
+vcr }
+	desc { This is a fairly small TV with two VCRs stacked on top of it.  You try
+to turn it on, but it seems this reality doesn't support electricity.
+	}
+	keywords { hangings
+hanging
+painting }
+	desc { One of the curtains is actually a rug or towel or something depicting a
+herd of camels equipped in very regal style.  There are some pictures of
+native huts from Africa.
+	}
+	keywords { masks
+mask }
+	desc { These are bizzare face masks.  You can't tell if they're genuine native
+masks or fake tourist masks.  They have bright colors and funky facial
+expressions.  If you were an evil spirit you'd be scared too.
+	}
+	keywords { guitar }
+	desc { It's a small guitar hanging from a nail on the wall.  It seems
+to be in tune.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 4 }
+	  info { door, closed }
+	  keywords { door
+north
+kitchen }
+	to { e, 1 }
+	  info { door, closed }
+	  keywords { door
+east
+glass
+livingroom }
+  }
+}
+
+4
+{
+  name { Kitchen of the DanjerHaus }
+  desc {
+"  This room, like many kitchens, has linoleum floor.  There is a
+closet in the east wall that used to have a fireplace, but now
+contains the hot water heater and the air conditioning equipment.  A
+pantry is in the east wall as well.  There are cabinets on the south
+wall, a sink on the west end, and a green and a brown refrigerator on
+the north and west walls respectively.
+  Through a door to the south is the TV room.  Two doors in the north
+end of the east and west walls lead to the hallway and the west porch
+respectively.
+  }
+  flags { indoors }
+  exits {
+	to { e, 6 }
+	  info { door, closed }
+	  keywords { door
+east
+hall
+hallway }
+	to { s, 3 }
+	  info { door, closed }
+	  keywords { door
+south
+tvroom }
+	to { w, 5 }
+	  key { 3950 }
+	  info { door, closed }
+	  keywords { door
+west
+porch }
+  }
+}
+
+5
+{
+  name { West porch of the DanjerHaus }
+  desc {
+"  This porch has a wooden floor, brick walls and screened windows.
+There are a few disconnected laundry appliances and HUGE garbage cans
+full of empty beer bottles and cans.  There is also a bowl of cat food
+and a bowl of water for the kittens Little Guy and Runt.
+  There is a heavy wooden door to the east that leads into the
+kitchen.  Through a screen door to the west is a garage.
+  }
+  extra {
+	keywords { bottles
+cans
+garbage }
+	desc { It seems that all the bottles and cans that are generated at the parties
+make their way out here.  There are several garbage cans filled to the
+brim with bottles and cans of sorted glass and tin.
+	}
+	keywords { bowls }
+	desc { There is a bowl of water and a bowl of food here.  It probably belongs
+to the kittens since Big Guy would need more food than this.
+	}
+	keywords { appliances
+washer
+dryer }
+	desc { There is a pair of disconnected laundry appliances here.  Evidently
+the residents plan to do away with trips to the laundromat eventually.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 4 }
+	  key { 3950 }
+	  info { door, closed }
+	  keywords { door
+east
+kitchen }
+	to { w, 11 }
+	  info { door, closed }
+	  keywords { door
+screen
+west }
+  }
+}
+
+6
+{
+  name { South end of hallway }
+  desc {
+"  This is the central hallway of the house.  It extends north for the
+remainder of the house with bedrooms on either side.  Through a door
+to the south is the living room.  Through a door to the west is the
+kitchen.
+  }
+  flags { indoors }
+  exits {
+	to { n, 7 }
+	to { s, 1 }
+	  info { door, closed }
+	  keywords { door
+south
+livingroom }
+	to { w, 4 }
+	  info { door, closed }
+	  keywords { door
+west
+kitchen }
+  }
+}
+
+7
+{
+  name { Central hallway }
+  desc {
+"  This is the central hallway of the house.  Where there once was a
+fireplace there now is an alcove with a table and a telephone with a
+chalkboard above it.
+  To the west is Hammor's bedroom.  To the west is another bedroom.
+The hall ends to the south where it leads to the social areas.
+  }
+  extra {
+	keywords { phone }
+	desc { You pick up the phone, but there's no dial tone.  The residents are probably
+still waiting for it to be invented.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 41 }
+	  info { door, closed }
+	  keywords { door
+north }
+	to { s, 6 }
+	to { w, 8 }
+	  info { door, closed }
+	  keywords { door
+west
+Hammor }
+  }
+}
+
+8
+{
+  name { Hammor's bedroom }
+  desc {
+"  This room is EXTREMELY messy.  There is laundry piled in a number of
+corners and spilling out of the closet.  Every horizontal surface,
+including the floor, is covered by something.  Books, printouts, and
+clothes are scattered around the room haphazardly.
+  There is a messy bed in the middle of the room and a couch and chair
+for visitors, although they would have to remove a few layers of junk
+to sit down.  There is a rather small stereo system in the closet with
+a small collection of CDs.
+  }
+  exits {
+	to { e, 7 }
+	  info { door, closed }
+	  keywords { door
+east
+hallway }
+  }
+}
+
+9
+{
+  name { Side yard }
+  desc {
+"  You are in the side yard of the DanjerHaus.  The house is to the
+west and the brick porch is to the south.  There is a line of tall
+trees to the east with 8' shrubs screening out the view of other
+houses.  There is a clearing to the north that must be the back yard.
+  This place is completely overgrown with shrubs, vines and weeds and
+there are only faint trails leading north to the back yard, south to
+the porch and east around the porch.
+  }
+  exits {
+	to { n, 10 }
+	to { e, 0 }
+	to { s, 2 }
+	  info { door, closed }
+	  keywords { door
+screen
+south }
+  }
+}
+
+10
+{
+  name { Back yard }
+  desc {
+"  You are in the back yard of the DanjerHaus.  It is a large clearing
+in the middle of the rampant shrubbery that surrounds the brick
+structure.  The house is to the south while on all other sides you are
+surrounded by tall trees with thick shrubs between them.  There is a
+garage to the southwest and a 6' fence to the west behind the trees.
+  There is a door into the house to the south, but it's locked.  There
+is also a trail to the east leading to the side yard and a trail to
+the west leading to the garage.
+  }
+  exits {
+	to { e, 9 }
+	to { w, 11 }
+  }
+}
+
+11
+{
+  name { DanjerGarage }
+  desc {
+"  You are in the garage of the DanjerHaus.  What a dangerous place it
+is too.  There are tools scattered all over the place and a mostly
+disassembled VW van on the west half of the concrete slab.  The
+ceiling over the concrete slab is aluminum, supported by poles.  The
+garage proper is closed and contains lots of furniture and probably
+poisonous spiders.  The house is to the east and a wooden fence blocks
+any movement west.
+  A wide path leads north to the back yard.  There is a lane between
+parked cars south of here that leads to the front yard.  To the east
+is a brick porch with garbage cans and laundry appliances.
+  }
+  exits {
+	to { n, 10 }
+	to { e, 5 }
+	  info { door, closed }
+	  keywords { door
+screen
+east }
+	to { s, 0 }
+  }
+}
+
+40
+{
+  name { Andy's Imports }
+  desc {
+"  This is an English-style pub, selling food and beer.  Andy has all
+the wimpy American beers for the peasants, as well as fine imports and
+locally brewed beers for the connoisseurs.
+  There are numerous mirrors on the wall advertising the various beers
+for sale.  There is a menu on the bar listing the available viands and
+beverages for sale.
+  }
+  extra {
+	keywords { menu }
+	desc { Beers are listed on the mirrors.
+The food purchasable here includes
+  Italian Sub
+  Grilled Cheese Sandwich
+  Cajun Sausage
+	}
+	keywords { mirrors mirror }
+	desc { The mirrors advertise Budweiser, Coors, Michelob, Guinness Stout,
+Pilsner Urquell, Sierra Nevada Pale Ale, and through the window behind
+the bar you can see a mini-brewery where Andy brews his own beer for
+sale in the pub.
+	}
+  }
+  exits {
+	to { e, Midgard:131 }
+	  key { 3952 }
+	  info { door }
+	  keywords { door
+east }
+  }
+}
+
+41
+{
+  name { Eric's Lair }
+  desc {
+"  This is the lair of Eric the roommate.  He has a waterbed in the far
+corner, a couch along one wall and a bookcase filled with science
+fiction and technical reference manuals on another wall.  There is a
+stereo near the bed and an old terminal on a table. There are bowls
+filled with cat food and water beneath the stereo.  This must be where
+Big Guy gets his food.
+  }
+  extra {
+	keywords { terminal computer }
+	desc { "  It is an ancient CIT-101 connected to the phone lines with a 9600
+baud modem.  Because of this wonderful device Eric never has to leave
+the DanjerHaus.  He can hack from home.
+	}
+  }
+  exits {
+	to { s, 7 }
+	  info { door, closed }
+	  keywords { door
+south }
+  }
+}

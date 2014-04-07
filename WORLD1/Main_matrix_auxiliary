@@ -1,0 +1,678 @@
+
+0
+{
+  name { 8100 }
+  desc {
+Empty
+  }
+}
+
+1
+{
+  name { The trash dump }
+  desc {
+"   You are standing knee-deep in a pile of assorted debris, cardboard-
+like scraps and needle-like bits of bent metal. The room is in fact a
+part of a curving corridor, going east and south.
+  }
+  extra {
+	keywords { debris junk cardboard needle" }
+	desc { It is obviously totally useless, even if you do not understand what it
+actually is.
+	}
+	keywords { hole" }
+	desc { It appears to be changing shape continually, widening and narrowing,
+though never quite closing.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 2 }
+	  desc { The corridor continues turning right as long as your light reaches. It
+looks cleaner that way.
+}
+	to { s, 3 }
+	  desc { The corridor continues turning left as long as you can see. There are
+no more debris a short stretch down this corridor.
+}
+	to { u, Main_matrix:10 }
+	  desc { There is a small hole high above you, barely reachable from the top of
+the largest pile of trash.
+}
+  }
+}
+
+2
+{
+  name { The ring }
+  desc {
+"   You are standing in a curving corridor, going south and west.
+Skeletons and pieces of skeletons, clad in once-bright tatters, are
+stapled to the wall on the outside of the curve.
+  }
+  extra {
+	keywords { skeleton skeletons bones" }
+	desc { The skeletons are, upon closer examination, actually made from glass,
+by someone obviously good at what he does. Their clothes are
+coarsely woven from spun glass.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 4 }
+	  desc { The corridor continues to curve right for as long as your light
+reaches.
+}
+	to { w, 1 }
+	  desc { For as long as you can see, the corridor keeps turning left.
+}
+  }
+}
+
+3
+{
+  name { The ring }
+  desc {
+"   You are standing in a curving corridor, going north and east.
+Skeletons and pieces of skeletons, clad in once-bright tatters, are
+stapled to the wall on the outside of the curve.
+  }
+  extra {
+	keywords { skeleton skeletons bones" }
+	desc { The skeletons are, upon closer examination, actually made from glass,
+by someone obviously good at what he does. Their clothes are
+coarsely woven from spun glass.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 1 }
+	  desc { The corridor continues to curve right for as long as your light
+reaches.
+}
+	to { e, 4 }
+	  desc { For as long as you can see, the corridor keeps turning left.
+}
+  }
+}
+
+4
+{
+  name { The ring }
+  desc {
+"   You are standing in a long corridor, curving north and west. There
+is a noticeable layer of fine dust covering everything here. The
+grey-painted walls are flaking, revealing more of the glass-like
+material that also covers the ground above. There is a wide crack in
+the ceiling above, but it is too high for you to reach.
+  }
+  extra {
+	keywords { writing letters" }
+	desc { The letters look familiar enough, but the text is wholly
+incomprehensible:
+
+              ... :=P^; Q^.N:=P^.N; Q^.P:=P; I ...
+and
+              ... B087 A0 72C0 34760F 0A ...
+
+Perhaps it is some strange and ancient magic?
+	}
+	keywords { walls wall glass" }
+	desc { There is something written on the glass-like material in faintly
+glowing blue letters, only partially covered by the paint.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 2 }
+	  desc { The corridor continues to curve left for as long as your light
+reaches.
+}
+	to { w, 3 }
+	  desc { For as long as you can see, the corridor keeps turning right.
+}
+  }
+}
+
+10
+{
+  name { The glass road }
+  desc {
+You are standing on a glass road, suspended from nothing some 40
+yds off the ground. The road ends here, connecting to a winding
+glass staircase leading down. It continues south, curving right
+as it passes the southern horizon.
+  }
+  sector { Field }
+  extra {
+	keywords { ground horizon matrix" }
+	desc { Far below you, the Main Matrix spreads in all its splendour. The
+glowing lines make out gigantic, intricate and completely incompre-
+hensible patterns, constantly shifting and changing. The beauty is
+only marred by the wide crack in the glass-like material starting
+some half-mile to the north, going south right underneath where you
+stand.
+	}
+	keywords { road" }
+	desc { The road is only visible inasmuch as it reflects you and the ground
+below. It is somewhat disconcerting to see 40 yds of nothing
+between one's feet and the ground.
+	}
+  }
+  exits {
+	to { s, 11 }
+	  desc { The barely visible road continues south, where, over the horizon,
+you can see the top of a great pale-blue pyramid, apparently
+standing on its tip.
+}
+	to { d, Main_matrix:12 }
+	  desc { You feel dizzy...
+}
+  }
+}
+
+11
+{
+  name { The glass road }
+  desc {
+You are standing on a glass road, suspended from nothing some 100
+yds off the ground. The road continues north and south, curving
+left as it passes the northern horizon.
+  }
+  sector { Field }
+  extra {
+	keywords { ground horizon matrix" }
+	desc { Far below you, the Main Matrix spreads in all its splendour. The
+glowing lines make out gigantic, intricate and completely incompre-
+hensible patterns, constantly shifting and changing. The beauty is
+only marred by the wide crack in the glass-like material going from
+north to south, about one-half mile to your west.
+	}
+	keywords { road" }
+	desc { The road is only visible inasmuch as it reflects you and the ground
+below. It is somewhat disconcerting to see 100 yds of nothing
+between one's feet and the ground.
+	}
+  }
+  exits {
+	to { n, 10 }
+	  desc { Near the horizon, it looks as if the road connects to a glass
+staircase.
+}
+	to { s, 12 }
+	  desc { The barely visible road continues south, where, over the horizon,
+you can see the top of a great pale-blue pyramid, apparently
+standing on its tip.
+}
+  }
+}
+
+12
+{
+  name { The glass road }
+  desc {
+"   You are standing on a glass road, suspended from nothing some 300
+yds off the ground. The road leads to a wide square opening in the side
+of a great, pale-blue inverted pyramid to the south. Some two yards
+into the opening is a wide double door, made from metal. The road
+continues north, sweeping over the horizon.
+  }
+  sector { Field }
+  extra {
+	keywords { letters writing" }
+	desc { "               =======================================
+                              LEVEL 10
+                            UPPER I.C.E.
+               (INTRUSION COUNTERMEASURES ELECTRONICS)
+
+                          DATABASE IS DOWN
+
+                   !   D O   N O T   E N T E R   !
+               =======================================
+
+You can see that it has been written using a letter template and an un-
+usually nasty-coloured spray paint.
+	}
+	keywords { door opening" }
+	desc { The doors lie in shadow, but you can easily make out the large letters
+on them, written in a truly disgusting neon purple colour. There is a
+large lever on the right-hand side.
+	}
+	keywords { ground horizon matrix" }
+	desc { Far below you, the Main Matrix spreads in all its splendour. The
+glowing lines make out gigantic, intricate and completely incompre-
+hensible patterns, constantly shifting and changing. The beauty is
+only marred by the wide crack in the glass-like material going from
+north to south, about one-half mile to your west.
+	}
+	keywords { road" }
+	desc { The road is only visible inasmuch as it reflects you and the ground
+below. It is somewhat disconcerting to see 100 yds of nothing
+between one's feet and the ground.
+	}
+  }
+  exits {
+	to { n, 10 }
+	to { s, 899 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { Through the door you can see nothing but a grey fog, shot through occa-
+sionally with red lightening. A faint wailing can be heard, as from souls
+in mortal agony.
+}
+  }
+}
+
+20
+{
+  name { The matrix fault }
+  desc {
+"   You are standing on the bottom of a wide crack in the matrix, going
+north and south. The sides of the fault are alive with writhing
+worm-like things, snaking out from the cracked glass, sparking madly.
+To your west, a pile of great slabs of glass has fallen into a jumble
+beside the wall. They are much too large and sharp-edged for you to
+lose your precious fingers on! To the south, there is at least four
+yards between the furthest reaches of the worm-like strands, but to the
+north, the crack narrows to a point where it is impossible to pass.
+  }
+  sector { Field }
+  extra {
+	keywords { strands worm" }
+	desc { They are made from some milky-white, shiny material, and when you really
+look at them, you realize that they are not alive at all, the force of
+the sparks that erupt whenever they touch each other is sufficient to
+keep them waving about. Those sparks must be nasty!
+	}
+	keywords { slabs glass wall" }
+	desc { Between two large slabs of glass, there is a narrow chute, leading
+_very_ steeply down into darkness.
+	}
+  }
+  exits {
+	to { s, 21 }
+	  desc { The fault zig-zags out of sight to the south, with plenty of clearing
+between the sparks and good, even footing.
+}
+	to { d, 4 }
+	  desc { Between two large slabs of glass, there is a narrow chute, leading
+_very_ steeply down into darkness.
+}
+  }
+}
+
+21
+{
+  name { The matrix fault }
+  desc {
+"   You are standing on the bottom of a wide crack, going north-south
+through the matrix. The sides of the fault are alive with writhing
+worm-like things, snaking out from the cracked glass, sparking madly.
+High above you, a wooden log has been placed across the chasm.
+  }
+  sector { Field }
+  extra {
+	keywords { bridge log" }
+	desc { It is much too high for you to climb or jump up there.
+	}
+	keywords { strands worm" }
+	desc { They are made from some milky-white, shiny material, and when you really
+look at them, you realize that they are not alive at all, the force of
+the sparks that erupt whenever they touch each other is sufficient to
+keep them waving about. Those sparks must be nasty!
+	}
+  }
+  exits {
+	to { n, 20 }
+	  desc { The fault zig-zags out of sight to the north, with plenty of clearing
+between the sparks and good, even footing.
+}
+	to { s, 22 }
+	  desc { The fault zig-zags out of sight to the south, with plenty of clearing
+between the sparks and good, even footing.
+}
+  }
+}
+
+22
+{
+  name { The matrix fault }
+  desc {
+"   You are standing on the bottom of a wide crack in the matrix, going
+north and south. The sides of the fault are alive with writhing
+worm-like things, snaking out from the cracked glass, sparking madly.
+To the south, a pale blue wall cuts across the fault. It is part of a
+pyramid, extending down into the ground even below the present depth.
+High above you, to the south, the wall of another, larger pyramid, this
+one apparently standing on the tip of the smaller one, looms ominously.
+  }
+  sector { Field }
+  extra {
+	keywords { strands worm" }
+	desc { They are made from some milky-white, shiny material, and when you really
+look at them, you realize that they are not alive at all, the force of
+the sparks that erupt whenever they touch each other is sufficient to
+keep them waving about. Those sparks must be nasty!
+	}
+	keywords { tear letters writing" }
+	desc { Looking closer, you can see that the letters have been spray-painted on
+the wall, using a letter template:
+
+                ====================================
+                                LEVEL -4
+                       PERMANENT STORAGE LEVEL
+                          DATABASE IS DOWN
+
+                   !   D O   N O T   E N T E R   !
+                ====================================
+
+Looking in through the tear, you see only a grey fog, shot through with
+red lightening. A faint wailing, as from souls in agony, is
+occasionally heard from within.
+	}
+  }
+  exits {
+	to { n, 21 }
+	  desc { The fault zig-zags out of sight to the north, with plenty of clearing
+between the sparks and good, even footing.
+}
+	to { s, 899 }
+	  desc { There is a large tear in the pyramid's wall, about one half yard above
+your present level. Beside the tear, something is written in
+unpleasantly purple letters.
+}
+  }
+}
+
+23
+{
+  name { The matrix fault }
+  desc {
+"   You are standing at the northern end, on the bottom of a wide crack
+in the matrix, going south. The sides of the fault are alive with
+writhing worm-like things, snaking out from the cracked glass, sparking
+madly. At the end of the fault, to the north, a pile of great slabs of
+glass has fallen into a jumble beside the wall. They are much too large
+and sharp-edged for you to climb and lose your precious fingers on! To
+the south, there is at least four yards between the furthest reaches of
+the worm-like strands..
+  }
+  sector { Field }
+  extra {
+	keywords { strands worm" }
+	desc { They are made from some milky-white, shiny material, and when you really
+look at them, you realize that they are not alive at all, the force of
+the sparks that erupt whenever they touch each other is sufficient to
+keep them waving about. Those sparks must be nasty!
+	}
+  }
+  exits {
+	to { s, 24 }
+	  desc { The fault zig-zags out of sight to the south, with plenty of clearing
+between the sparks even if one has to jump from broken slab to broken
+slab, catching one's balance whenever the treacherous slabs move under
+one's feet.
+}
+  }
+}
+
+24
+{
+  name { The matrix fault }
+  desc {
+"   You are standing on the bottom of a wide crack in the matrix, going
+north and south. The sides of the fault are alive with writhing
+worm-like things, snaking out from the cracked glass, sparking madly.
+Surrounding to all sides but north, a pile of great slabs of glass has
+fallen into a jumble beside the wall. They are much too large and
+sharp-edged for you to climb and lose your precious fingers on! To the
+north, there is at least four yards between the furthest reaches of the
+worm-like strands, but to the south, the crack narrows to a point where
+it is impossible to pass.
+  }
+  sector { Field }
+  extra {
+	keywords { slabs pile walls" }
+	desc { Looking around, you find two tunnels: one small and dark, sloping down
+to the west, the other larger, going east.
+	}
+  }
+  exits {
+	to { n, 23 }
+	  desc { The fault zig-zags out of sight to the north, with plenty of clearing
+between the sparks even if one has to jump from broken slab to broken
+slab, catching one's balance whenever the treacherous slabs move under
+one's feet.
+}
+	to { e, 50 }
+	  desc { Between two large slabs of glass, standing balanced against each other,
+there is a natural-looking tunnel leading east. The purple glow from
+within the tunnel, however, is anything but natural-looking...
+}
+	to { w, 40 }
+	  desc { Between two large slabs of glass, there is a narrow chute, sloping
+gently west, down into the dark.
+}
+  }
+}
+
+30
+{
+  name { The log bridge }
+  desc {
+"   You are standing on wooden log, placed from the west to the east side
+of the wide fault in the matrix. The fault seems alive with madly swishing
+worm-like tendrils, snaking out of the sides. Only a path some 4 yds wide
+on the bottom seems to be out of their reach.
+  }
+  sector { Field }
+  extra {
+	keywords { log bridge" }
+	desc { There are a few green leaves on some twigs, still holding on. It
+looks rather incongruous, lying there, but you decide that its better
+than nothing for keeping you _over_ those strands...
+	}
+	keywords { strands tendrils" }
+	desc { They are made from some milky-white, shiny material, and when you really
+look at them, you realize that they are not alive at all, the force of
+the sparks that erupt whenever they touch each other is sufficient to
+keep them waving about. Those sparks must be nasty!
+	}
+  }
+  exits {
+	to { e, Main_matrix:33 }
+	  desc { A wide expanse of lined and glow-patterned glass stretches before you.
+}
+	to { w, Main_matrix:32 }
+	  desc { The Matrix continues all the way to the horizon.
+}
+	to { d, 21 }
+	  desc { Looking down, you experience some vertigo as the log rolls slightly
+under your feet. There is some 10 yards to the bottom, but if you jump
+from the center of the log, you can avoid touching the flailing tendrils,
+that cover the sides of the fault.
+}
+  }
+}
+
+40
+{
+  name { The deep cave }
+  desc {
+"   You are standing knee-deep in cold water, flowing into this cave
+from some unknown direction, but obviously leaving through a
+low-ceilinged tunnel to the south. To the west a tunnel slopes up
+out of the water.
+  }
+  extra {
+	keywords { sign text letters" }
+	desc { On the sign is written in atrocious purple letters:
+
+                ====================================
+                           N O   E N T R Y
+
+                      ACCESS TEMPORARILY CLOSED
+                         SECTOR UNDER REPAIR
+
+                                  / MATRIX CONTROL
+                ====================================
+
+It is apparently written using spray-paint and a letter template.
+	}
+	keywords { water" }
+	desc { It is very cold, you can feel your feet growing numb.
+	}
+	keywords { tunnel" }
+	desc { The tunnel south is barred by a strong grille, on which a sign is
+fixed securely.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 24 }
+	  desc { At the far end of the tunnel, you seem to be able to make out a
+faint light.
+}
+  }
+}
+
+50
+{
+  name { The cave }
+  desc {
+"   This is the Daemon's Lair. It is suffused in a purple glow from
+the myriad multishaped and -sized screens covering most of three
+walls. There is a rung ladder on the only uncluttered wall, going
+up through a shaft in the ceiling. There is an easy chair, a
+rumpled bed and a table piled high with yestercycle's dirty dishes.
+In the wall to the west, a tunnel leads out to the Matrix Fault.
+  }
+  extra {
+	keywords { screens glow screen" }
+	desc { The purple glowing screens are in many different shapes and sizes.
+They all display some line-drawing moving about in apparent con-
+fusion, except some few that are merely black. Some of the line-
+drawings are very confusing, and when one tries to look closer, the
+eyes start to hurt. They definitely don't look as if they belong in
+either 2- or 3-space.
+	}
+	keywords { lock trap trapdoor door" }
+	desc { There is a heavy lock hanging on it, but fortunately it is unlocked.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { w, 24 }
+	  desc { You can see faint sparking out there.
+}
+	to { u, Main_matrix:45 }
+	  key { 8100 }
+	  info { door, closed }
+	  keywords { trapdoor door" }
+	  desc { Looking up the shaft, you see a trapdoor some four or five yards up,
+with a heavy lock on it.
+}
+  }
+}
+
+899
+{
+  name { The fog }
+  desc {
+"   You are in a grey fog, falling, screaming in pain as you realize
+that you are being torn to nothing, atom by atom, falling and falling
+and falling......
+....
+.
+
+You fall...screaming.......ahhhhhhhhhhhhhhhhhhhhhhhh!!!!!!!!!!!!!
+
+
+
+Fortunately for you, the Gods of PR  have placed a safety net at the
+moment right before impact! You breathe a sigh of relief and check your
+shorts. Onward, great adventurer!
+  }
+  flags { no_mob }
+  exits {
+	to { n, 12 }
+	to { s, Main_matrix:71 }
+  }
+}
+
+900
+{
+  name { Valley Trail }
+  desc {
+"   To the south this path ends at a cave in the mountains.  To the north,
+it stretches down through the hills, towards a winding river.  You can see
+a line of smoke there too.
+  }
+  sector { Field }
+  exits {
+	to { n, 901 }
+	  desc { You can see the valley through the hills
+}
+	to { s, Moria1:31 }
+	  desc { You can see the Valley at the cave.
+}
+  }
+}
+
+901
+{
+  name { Valley Trail }
+  desc {
+"    This trail continues to wind through the hills.  it forks off, to the
+east, and continutes to the north.  The line of smoke to the north is clearer 
+now, perhaps it is from a village?
+  }
+  sector { Field }
+  exits {
+	to { n, 902 }
+	  desc { You can see a trail through the hills.
+}
+	to { e, 903 }
+	  desc { You can see a trail through the hills.  The hills grow higher here.
+}
+	to { s, 900 }
+	  desc { You can see a trail that leads towards a mountain.
+}
+  }
+}
+
+902
+{
+  name { Valley Trail }
+  desc {
+"   The path becomes more treacherous here, You may wish to turn back.  A deep
+ravine bars your passage to the west, and a steep cliff your passage to the
+east.  Northwards you can see the river now, and you think that there might
+be some movement there too.
+  }
+  sector { Field }
+  exits {
+	to { n, Tagol:0 }
+	to { s, 901 }
+	  desc { You can see a trail through the hills.
+}
+  }
+}
+
+903
+{
+  name { Trail through the hills }
+  desc {
+"  This trail rises to the crest of a large hill, and you can see the
+entire area in its beauty.  To the north, you can see at least two
+settlements, one far to the north, the other closer.  The river winds below,
+and there may be something or someone on the river, though you are not sure.
+The path leads down the hillside, or back to the west
+  }
+  sector { Field }
+  exits {
+	to { w, 901 }
+	  desc { You can see a trail through the hills.
+}
+  }
+}

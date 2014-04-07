@@ -1,0 +1,65 @@
+
+0
+{
+  name { The Void }
+  desc {
+boring..  }
+  sector { City }
+  flags { no_mob, indoors, peaceful, no_sum, private }
+}
+
+1
+{
+  name { Limbo }
+  desc {
+"   You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+  }
+  sector { City }
+  flags { no_mob, indoors, peaceful, no_sum, private }
+}
+
+2
+{
+  name { Beyond Reality }
+  desc {
+"   This place exists.... Beyond Reality.
+  }
+  flags { indoors, no_goto, rent_room }
+}
+
+3
+{
+  name { Storage }
+  desc {
+"   This is where link-dead characters stuff is kept.  However, It could be
+an indication of an attempt at cheating.  PS.  This is a death room to keep
+the mortals out.
+  }
+  sector { City }
+  flags { dark, death, no_sum, private, no_goto }
+}
+
+4
+{
+  name { Storage }
+  desc {
+"   This is where link-dead characters stuff is kept.  However, It could be
+an indication of an attempt at cheating.  PS.  This is a death room to keep
+the mortals out.
+  }
+  sector { City }
+  flags { dark, death, no_sum, private, no_goto }
+}
+
+49
+{
+  name { Monster Storage }
+  desc {
+"   This is where the errant monsters are stored.  I don't know why they
+are in here, but they seem to show up often enough.
+  }
+  flags { indoors }
+}

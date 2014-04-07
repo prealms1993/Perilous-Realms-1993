@@ -1,0 +1,1209 @@
+
+0
+{
+  name { Shemp's Lounge }
+  desc {
+You are floating in nothingness. Everywhere you look it is dark, except 
+for a blue glow radiating from a neon sign bearing the words `Shempore's Lounge'
+which is floating, unmoving, in mid-air. There are no walls, no ceiling, no 
+floor, but you can't help feeling confined by the darkness.
+There is a comfortable looking couch floating here.
+  }
+  extra {
+	keywords { couch" }
+	desc { The couch appears to be some sort of soft leather. It is black, and when you
+sit down on it, it adjusts to the shape of your body, and reclines. As you sit
+there in the blue glow, floating in nothingness, you feel completely at peace.
+	}
+	keywords { neon sign" }
+	desc { The sign floats in the darkness, the only source of illumination in this,
+the darkest place in the universe, the void. when you look at the glowing 
+blue script letters, you sense there is something magical about it.
+	}
+  }
+  flags { no_mob, indoors, peaceful, rent_room }
+}
+
+1
+{
+  name { Inside a house in Quinmoor }
+  desc {
+You are wandering through an endless network of hallways, rooms, and stairways.
+One passage looks identical to another, and as you wander further, you notice..
+There is No One Here!
+  }
+  exits {
+	to { e, 36 }
+	to { s, 4 }
+  }
+}
+
+2
+{
+  name { Shempore's Reminder room }
+  desc {
+Current last room in realm: 31170
+Blank some before 31170.
+  }
+}
+
+3
+{
+  name { The walls suddenly cave in! }
+  desc {
+You can't go back anymore. 
+  }
+  flags { dark }
+  tele { 10, 0, Ent_forest:70 }
+}
+
+4
+{
+  name { A house in Quinmoor }
+  desc {
+You are wandering through an endless network of hallways, rooms, and stairways.
+One passage looks like another, but you notice as you walk further, it
+looks like no one has lived here in a long, long time.
+  }
+  extra {
+	keywords { couch leather" }
+	desc { The couch appears to be some sort of soft leather. It is black, and when you
+sit down, it adjusts to the shape of your body, and reclines. As you sit
+there in the blue glow, floating in nothingness, you feel completely at peace.
+	}
+	keywords { sign blue neon" }
+	desc { The sign floats in the darkness, the only source of illumination in this,
+the darkest place in the universe, the void. When you look at the glowing
+blue script letters, you sense there is great power present here.
+	}
+  }
+  exits {
+	to { n, 1 }
+	to { s, 5 }
+  }
+}
+
+5
+{
+  name { A house in Quinmoor }
+  desc {
+The hallway takes a turn here, and now heads west. Strange, the city should
+be to the east...
+  }
+  exits {
+	to { n, 4 }
+	to { w, 57 }
+  }
+}
+
+6
+{
+  name { On a river }
+  desc {
+You are floating on a river. To the south of here is the Inverness River,
+and the way back. Where the two rivers meet, you see the blueish, healthy
+water of this river mingle with the dark, black water of the Inverness,
+burdoned with the sewage of the city. The river here is bordered by steep 
+concrete walls, making exit impossible to the east or west.
+  }
+  sector { Water NoSwim }
+  flags { no_mob }
+  exits {
+	to { n, 7 }
+	to { s, Midgard:280 }
+  }
+}
+
+7
+{
+  name { On a small stream }
+  desc {
+The concrete walls give way to sheer rock faces here, not artificial, 
+but equally impassable. The river narrows here, and picks up speed.
+On the northern horizon you can make out a waterfall.
+  }
+  sector { Water Swim }
+  exits {
+	to { n, 8 }
+	to { s, 6 }
+  }
+}
+
+8
+{
+  name { On a small stream }
+  desc {
+The sheer rock faces continue, with the exception of a rather small looking
+hole on the west side. It is in the shadows, so you can't tell how far
+back it goes.
+  }
+  sector { Water Swim }
+  exits {
+	to { n, 9 }
+	to { s, 7 }
+	to { w, 16 }
+  }
+}
+
+9
+{
+  name { On a small stream }
+  desc {
+The stream is very shallow here, you can see a rock lip to the north, over
+which you guess the water flows at no more than a few inches deep. Beyond 
+that lip, however, the bottom is not visible, and the water is very blue and
+dark. There is a very picturesque waterfall to the north, also.
+  }
+  sector { Water Swim }
+  exits {
+	to { n, 10 }
+	to { s, 8 }
+  }
+}
+
+10
+{
+  name { A Deep, Deep Pool }
+  desc {
+A huge water fall feeds the pool here, and two other streams also.
+Strange that so little of the water escapes. Suddenly, you find yourself being 
+banged against the rock walls, and being swept around the pool.
+Now you know why this place is so dark...It's a whirlpool!
+
+                                 You are swept around..
+                                                       ..And around
+Your boat capsizes, but you hold onto it. You feel yourself
+being pulled under...
+  }
+  sector { Field }
+  tele { 10, 1, 11 }
+}
+
+11
+{
+  name { You are swept under. }
+  desc {
+You know where the water goes to. You are in the deep, deep ocean.
+This isn't just the ocean, though, this is the stuff dreams are made of.
+There is a beautiful coral reef to the north, and a shipwreck to the east.
+A clownfish darts past you, beautiful and graceful. You begin to smile,
+then you remember...You're DROWNING!
+
+
+You calm when you notice that the fish aren't the only beautiful thing around.
+
+A beautiful mermaid with flaming red hair swims past you.
+  }
+  sector { Underwater }
+  extra {
+	keywords { mermaid red" }
+	desc { She is very beautiful. Somehow you seem to remember her face, 
+but you can't be sure. 
+	}
+  }
+  tele { 40, 1, 12 }
+}
+
+12
+{
+  name { The mermaid gives you a long, passionate kiss, and fills your lungs with air. }
+  desc {
+The mermaid whispers softly 'Remember me always..my name is Aeylin.'
+
+  }
+  tele { 10, 0, 13 }
+}
+
+13
+{
+  name { The Deep Deep Ocean }
+  desc {
+The water here is blue, dark though it is.. There is a coral reef directly
+below you, with beautiful fish of many colors.
+Their beauty does not compare, however, to the beauty of the
+mysterious mermaid which swims beside you.
+  }
+  sector { Underwater }
+  tele { 40, 1, 14 }
+}
+
+14
+{
+  name { The mermaid takes you in her arms, and gives you another kiss. }
+  desc {
+The mermaid swims long, and you slowly fall asleep..
+  }
+  tele { 10, 0, 15 }
+}
+
+15
+{
+  name { Near the portal }
+  desc {
+You seem to be floating high above the ocean. There is a glistening
+portal to the west, through which you can see desolate plains.
+The mermaid has left.
+  }
+  sector { Field }
+  exits {
+	to { w, Ent_forest:0 }
+  }
+}
+
+16
+{
+  name { A dark tunnel }
+  desc {
+To the east there is a bright light, and to the west there is only darkness.
+The cool breeze off the stream mingles with the hot, stagnant air in the
+tunnel.
+  }
+  flags { dark, no_mob }
+  exits {
+	to { e, 8 }
+	to { w, 17 }
+  }
+}
+
+17
+{
+  name { A bend in the dark tunnel }
+  desc {
+The tunnel bends here, and heads north. It seems to be getting somewhat hotter,
+and the air seems drier, though it is stagnant. As you walk on, you hear
+footsteps behind you..you stop suddenly, and for a moment, they continue..
+  }
+  flags { dark }
+  exits {
+	to { n, 18 }
+	to { e, 16 }
+  }
+}
+
+18
+{
+  name { A fork in the dark tunnel }
+  desc {
+Strangely enough, the ceiling here is wooden, and seems rather thin.
+you hear it creak, and thin lines of light pepper the floor. 
+You hear the faint sounds of adventurers preparing to depart above.
+  }
+  flags { dark }
+  exits {
+	to { e, 19 }
+	to { s, 17 }
+	to { w, trash3:124 }
+  }
+}
+
+19
+{
+  name { A dark tunnel }
+  desc {
+The tunnel continues to the north, and there seems to be a hole in the
+ceiling, and above it is dark. The air here is still slightly hot,
+but there is a strange cool breeze blowing towards the floor from
+above.
+  }
+  flags { dark }
+  exits {
+	to { n, 22 }
+	to { w, 18 }
+	to { u, 20 }
+  }
+}
+
+20
+{
+  name { A dark room }
+  desc {
+You are in a dark room.. The rafters are exposed, as well as the wall boards.
+There is a door in the west wall, and there is also a hole in the floor.
+The air here is cool, and carries the faint scent of vodka.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 21 }
+	to { d, 19 }
+  }
+}
+
+21
+{
+  name { The Owl's Nest Inn }
+  desc {
+The door snaps shut behind you!
+  }
+  tele { 10, 1, Midgard:29 }
+}
+
+22
+{
+  name { A dark tunnel }
+  desc {
+The tunnel grows more narrow here, and the air gets much hotter.
+You begin to see a light to the north, and the floor begins to 
+be sandy.
+  }
+  flags { dark }
+  exits {
+	to { n, 23 }
+	to { s, 19 }
+  }
+}
+
+23
+{
+  name { A sandy tunnel }
+  desc {
+The air here is growing hot to the point of discomfort. You are 
+beginning to sweat, and walking is becoming difficult, due to the 
+extremely sandy floor. The light is very bright, and you no longer
+need your lantern.
+  }
+  flags { indoors }
+  exits {
+	to { n, 24 }
+	to { s, 22 }
+  }
+}
+
+24
+{
+  name { The end of the tunnel }
+  desc {
+The end of the tunnel is near, and you can see the plains to the north.
+The floor is completely sand here, and walking is difficult. 
+  }
+  flags { indoors }
+  exits {
+	to { n, Ent_forest:0 }
+	to { s, 23 }
+  }
+}
+
+25
+{
+  name { The castle gates }
+  desc {
+Above you towers the wall of the castle. There are at least ten guards pacing
+on this small wall alone. They are barking orders back and fourth, 
+all the while eyeing you suspiciously. The castle gates appear to be shut.
+  }
+  exits {
+	to { n, 26 }
+	  key { 4000 }
+	  info { door }
+	  keywords { castle gate gates stone" }
+	to { s, Ent_forest:18 }
+  }
+}
+
+26
+{
+  name { A blank room }
+  desc {
+You don't know how you managed to enter this room, as there are no walls,
+and no doors. This area is imcomplete, which is probably why when you put
+your hand out, it disappears. You decide that it would be best to get out 
+of here before YOU disappear, and you utter a prayer to the god of salvation.
+  }
+  tele { 10, 1, Midgard:1 }
+}
+
+27
+{
+  name { The treasure room }
+  desc {
+This seems to be the only room that does not reak of death. There are no 
+skeletons, no bones, nothing here, except treasure. There is some blood,
+however, for the swords have not been cleaned.
+  }
+  flags { dark }
+  exits {
+	to { s, 61 }
+	to { w, Ent_forest:71 }
+	  key { 31012 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+28
+{
+  name { The great northern road }
+  desc {
+The road enters a long, winding chasm here. It turns sharply to the south, and
+the road appears to have had little traffic of late. The cobbles are broken, and
+the road is in terrible condition.
+  }
+  sector { Field }
+  exits {
+	to { n, Ent_forest:12 }
+	to { s, 29 }
+  }
+}
+
+29
+{
+  name { The great northern road }
+  desc {
+The road turns sharply here, and now heads east, following the path of the
+chasm. The wind here is gale like, and seems to be constantly blowing.
+To the east, you can see the very edge of what seems to be a wall.
+  }
+  sector { City }
+  flags { no_mob }
+  exits {
+	to { n, 28 }
+	to { e, 30 }
+  }
+}
+
+30
+{
+  name { The lost town of Quinmoor }
+  desc {
+You are at the main gates to the town. They consist of two huge wooden
+doors spanning the entire length of the chasm. Guards pace a walkway above.
+  }
+  sector { City }
+  exits {
+	to { s, 31 }
+	  info { door }
+	  keywords { city gates gate wooden wood" }
+	to { w, 29 }
+  }
+}
+
+31
+{
+  name { Inside the gates of Quinmoor }
+  desc {
+The chasm has opened into a large valley, and the wind is no longer present.
+You are inside the gates of a wonderous city. The houses and businesses
+are all seemingly intertwined, for the buildings are so close together there are
+planks between open doorways on the second and third stories.
+A road leads east and west, and the town square is to the south.
+  }
+  sector { City }
+  exits {
+	to { n, 30 }
+	to { e, 37 }
+	to { s, 32 }
+	to { w, 41 }
+  }
+}
+
+32
+{
+  name { The Quinmoor town square }
+  desc {
+The square is a beautiful sight. The roads lead in all directions, and in the
+center of the square is a fountain. It has a statue in the center, and a very
+beautiful statue at that.
+  }
+  sector { City }
+  extra {
+	keywords { fountain" }
+	desc { The fountain is very majestic, and seems very peaceful looking. The water
+forms a complete wall around what looks to be a statue in the center.
+	}
+	keywords { statue aeylin maiden flame" }
+	desc { The statue is of a flowing form, a beautiful elvish maiden. Her body is
+mingled with flames, and the statue has a captivating aura about it.
+	}
+	keywords { statue aeylin beautiful" }
+	desc { The statue is of a flowing form, a beautiful elvish maiden. Her dress is
+mingled with flame, and it is difficult to know whether she really existed.
+	}
+  }
+  exits {
+	to { n, 31 }
+	to { e, 33 }
+	to { w, 35 }
+  }
+}
+
+33
+{
+  name { The lost city of Quinmoor }
+  desc {
+You are just east of the town square. To the south you hear the sounds of a 
+minstrel singing, and the sounds of rowdy adventurers. The road continues east
+and west.
+  }
+  sector { City }
+  exits {
+	to { e, 34 }
+	to { s, 46 }
+	to { w, 32 }
+  }
+}
+
+34
+{
+  name { The lost city of Quinmoor }
+  desc {
+You are at the end of the road. To the south you can hear a man mumbling,
+but a sign over the door seems to indicate that it is a shop. The windows
+are dominated by huge paintings, bloody swords, and delicate statuettes.
+  }
+  sector { City }
+  exits {
+	to { s, 45 }
+	to { w, 33 }
+  }
+}
+
+35
+{
+  name { The lost city of Quinmoor }
+  desc {
+You are on an east-west road in the lost city of Quinmoor. To the east you
+notice a beautiful statue, sparkling with water, and from the south you notice
+the faint sounds of adventurers preparing to depart from the city.
+  }
+  sector { City }
+  exits {
+	to { e, 32 }
+	to { s, 47 }
+	to { w, 36 }
+  }
+}
+
+36
+{
+  name { The lost city of Quinmoor }
+  desc {
+You are at the end of the road. The road is blocked on the west by a building,
+but there is an open doorway. The store to the south, however, seems to have
+the only door in the city, and you can see why. On an old wooden sign swinging
+above the door the words Treasure Broker are painted in script.
+  }
+  sector { City }
+  exits {
+	to { e, 35 }
+	to { s, 48 }
+	to { w, 1 }
+  }
+}
+
+37
+{
+  name { A road in Quinmoor }
+  desc {
+The valley wall is to the north, and you are on a road through the city.
+To the south is the scribe, who can supply you with any kind of scroll.
+  }
+  sector { City }
+  exits {
+	to { e, 38 }
+	to { s, 53 }
+	to { w, 31 }
+  }
+}
+
+38
+{
+  name { A road in Quinmoor }
+  desc {
+The valley wall is to the north, and you are on a road through the city.
+To the south is the chandler, who, it is said, makes candles that won't go
+out in a hurricane.
+  }
+  sector { City }
+  exits {
+	to { e, 39 }
+	to { s, 54 }
+	to { w, 37 }
+  }
+}
+
+39
+{
+  name { A road in Quinmoor }
+  desc {
+The valley wall is to the north, and you are on a road through the city. 
+To the south is the wizard, who sells potions and wands.
+  }
+  sector { City }
+  exits {
+	to { e, 40 }
+	to { s, 55 }
+	to { w, 38 }
+  }
+}
+
+40
+{
+  name { A road in Quinmoor }
+  desc {
+You are on a road through the sity. The valley wall is to the north, and the
+road meets a small dirt path to the east. To the south is the swordsmith, who's
+blades are so keen they slice through other swords.
+  }
+  sector { City }
+  exits {
+	to { e, 63 }
+	to { s, 56 }
+	to { w, 39 }
+  }
+}
+
+41
+{
+  name { A road in Quinmoor }
+  desc {
+You are just to the south of the valley wall, and are on a road through the 
+city. To the south is the jewelsmith, who deals in rings, necklaces, and 
+bracelets. 
+  }
+  sector { City }
+  exits {
+	to { e, 31 }
+	to { s, 52 }
+	to { w, 42 }
+  }
+}
+
+42
+{
+  name { A road in Quinmoor }
+  desc {
+You are on a road through the wonderous city of Quinmoor. To the south is the
+armourer, who makes armours so beautiful they blind their opponents with their
+brightness.
+  }
+  sector { City }
+  exits {
+	to { e, 41 }
+	to { s, 51 }
+	to { w, 43 }
+  }
+}
+
+43
+{
+  name { A road in Quinmoor }
+  desc {
+You are walking on a road in the lost city of Quinmor. To the south
+is the baker, who's cakes are made with the finest bee's honey.
+  }
+  sector { City }
+  exits {
+	to { e, 42 }
+	to { s, 50 }
+	to { w, 44 }
+  }
+}
+
+44
+{
+  name { A road in Quinmoor }
+  desc {
+You are walking on a road through the lost city of Quinmoor. The valley wall is
+to the north, and to the south is the general store, where gossip is collected
+and spread far and wide. To the west the road ends and meets a small dirt path.
+  }
+  sector { City }
+  exits {
+	to { e, 43 }
+	to { s, 49 }
+	to { w, 62 }
+  }
+}
+
+45
+{
+  name { The Quinmoor antique shop }
+  desc {
+You are in what appears to be an antique shop. The owner (At least you think
+that he's the owner and not one of the items for sale) is sitting in a 
+rocking chair in the corner, mumbling to himself.  As he rocks back and
+forth, he mumbles things about mermaids, and women of fire..
+  }
+  exits {
+	to { n, 34 }
+  }
+}
+
+46
+{
+  name { The inn at Quinmoor }
+  desc {
+You are in the inn at Quinmoor. There is a huge fireplace set in the eastern
+wall, and there is fresh bread baking, as well as a pig roasting on a spit.
+All through the room there are adventurers sitting at tables, chatting about
+riches beyond belief, and fair maidens just waiting to be rescued.
+  }
+  extra {
+	keywords { hearth fireplace spit pig bread stone" }
+	desc { The hearth is of stone, and it looks like it has been here forever. The
+floor seems to have been laid around the base, not the base around the
+floor. There is a pig roasting on the spit, and it looks almost done.
+on a stone shelf above the flames, some bread bakes, and the aroma drifting
+about tells you the bread is of rye.
+	}
+  }
+  exits {
+	to { n, 33 }
+  }
+}
+
+47
+{
+  name { The pub at Quinmoor }
+  desc {
+You are in the local pub. A friendly barkeep launches drinks down the bar to
+waiting hands, but occasionally the drink meets an empty on the way. There 
+are adventurers seated about the room, but there is an especially rowdy
+bunch at the bar.
+  }
+  exits {
+	to { n, 35 }
+  }
+}
+
+48
+{
+  name { The treasure broker of Quinmoor }
+  desc {
+You are in the treasure broker's store. He sells nothing, save to the slocal
+shopkeepers, but will buy anything of value. The store is adorned with
+diamonds, and the broker is dressed in a mithril coat.
+  }
+  exits {
+	to { n, 36 }
+  }
+}
+
+49
+{
+  name { The general store }
+  desc {
+This place is the gossip hub of the town. There are people waiting in line,
+people playing some form of...chess maybe? There are some large barrels on the
+west wall, and bags and crates dominate the remainder of the room.
+  }
+  exits {
+	to { n, 44 }
+  }
+}
+
+50
+{
+  name { The bakery }
+  desc {
+You are in the bakery of Quinmoor. The south wall of the room is dominated
+by large shelves, behind which you can see flames leaping. There are loaves
+on every shelf, slowly baking to perfection. The baker notices you, and turns.
+  }
+  exits {
+	to { n, 43 }
+  }
+}
+
+51
+{
+  name { The armoury of Quinmoor }
+  desc {
+The armoury is cluttered with pieces of armour. There are some by the windows
+which reflect light so well they seem to generate the light themselves.
+In the corner there is a pile of battered, bloody pieces of armour, clearly
+scrap to be melted down.
+  }
+  exits {
+	to { n, 42 }
+  }
+}
+
+52
+{
+  name { The jewel smith }
+  desc {
+There seem to be no things of value in the shop itself, but there is a small
+compartment in the back wall which holds more jewels and metals than you have
+seen in all your life and adventures. Even thr richest dragon hoarde would
+compare not to the magnificance of the huge diamonds and perfectly shaped
+ingots of gold.
+  }
+  exits {
+	to { n, 41 }
+  }
+}
+
+53
+{
+  name { The scribe of Quinmoor }
+  desc {
+If you've ever seen the workshop of a wizard, this is surely it. It seems that
+this wizard dabbles in everything from alchemy to elementalism, and sells 
+scrolls for a living.. Everywhere you look there are piles of scrolls, half 
+blown-up wands, and something that when it was alive resembled a..were frog?
+Interesting place he's got here..
+  }
+  exits {
+	to { n, 37 }
+  }
+}
+
+54
+{
+  name { The chandler's shop }
+  desc {
+The scent of burning cedar permeates the air here, and the chandler is busy
+melting wax. There is a large wooden machine in the southern part of the store,
+which looks like it's capable of dipping hundreds of candles simultaneously.
+Why anyone would need so many candles is beyond comprehension.
+  }
+  exits {
+	to { n, 38 }
+  }
+}
+
+55
+{
+  name { The wizard of Quinmoor }
+  desc {
+The room is neat and tidy, and the wizard looks like he has nothing to do.
+There is a chair in one corner, and the only thing in the room besides that
+is a rather large desk, but it looks to be for business purposes. Why would
+a wizard's workshop be so clean and tidy?
+  }
+  extra {
+	keywords { desk" }
+	desc { The desk is made of dark walnut, and has no drawers, only a rather thick top.
+	}
+  }
+  exits {
+	to { n, 39 }
+  }
+}
+
+56
+{
+  name { The sword smith }
+  desc {
+The windows are almost blocked by the multitude of blades of every kind hanging
+across them. There seem to be swords of every kind you know of, and quite a few
+you don't.. There is a grinding machine in the corner, and a small metal 
+smelting device in another corner.
+  }
+  extra {
+	keywords { metal device" }
+	desc { You see nothing special..
+	}
+	keywords { grinder machine" }
+	desc { You see nothing special..
+	}
+  }
+  exits {
+	to { n, 40 }
+  }
+}
+
+57
+{
+  name { A long hallway }
+  desc {
+You are in a very long hallway.. There are no doors, no windows, nothing..
+The tunnel is long enough that you cannot see the end, which, you assume, must
+be to the west.
+  }
+  exits {
+	to { e, 5 }
+	to { w, 58 }
+  }
+}
+
+58
+{
+  name { A long, long tunnel }
+  desc {
+The tunnel continues east and west, and to the west you can begin to see
+the end of the tunnel. The walls are white, and featureless.
+  }
+  exits {
+	to { e, 57 }
+	to { w, 59 }
+  }
+}
+
+59
+{
+  name { A very long tunnel }
+  desc {
+You are walking in a very long tunnel. To the east you think you can see the
+end of the tunnel, and some light, but you can't be sure. To the west you can
+see a dark hole, perhaps the end.
+  }
+  exits {
+	to { e, 58 }
+	to { w, 60 }
+  }
+}
+
+60
+{
+  name { The end of the tunnel }
+  desc {
+You have come to the end of the tunnel. To the east, you see only darkness,
+a tunnel in the rock. To the west you can see the white tunnel leading off into
+oblivion.
+  }
+  exits {
+	to { e, 59 }
+	to { w, 61 }
+  }
+}
+
+61
+{
+  name { The entrance }
+  desc {
+You are in the trolls lair, and the stench is overwhelming. This room appears
+to be where the trolls leave the bodies of the townspeople they slay, for there
+are bodies of many people, lying here rotting. The tunnel leads west, and the
+lair is to the north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, Ent_forest:62 }
+	to { e, 60 }
+  }
+}
+
+62
+{
+  name { A small path }
+  desc {
+You are at the beginning, as well as the end of what might at some time have
+been a road, but is now nothing more than a small dirt path. There is a 
+barricade to the south, which stretches from the buildings to the ease to the
+valley wall to the west.
+  }
+  sector { City }
+  flags { no_mob }
+  exits {
+	to { w, 40 }
+  }
+}
+
+63
+{
+  name { A small path }
+  desc {
+You are at the beginning, as well as the end of what might at some time have
+been a road, but is now nothing more thatn a small dirt path. There is a 
+barricade to the south, which stretches from the buildings to the west to the
+valley wall to the east. It looks completely impassible.
+  }
+  sector { Field }
+  exits {
+	to { w, 40 }
+  }
+}
+
+64
+{
+  name { The gates of castle Quilandar }
+  desc {
+You are before a huge gate. Four huge guards stand watch at the gate, and
+you count at least fifty pacing this side of the castle on the walkways above.
+You may enter the castle to the north.
+  }
+  sector { Field }
+  exits {
+	to { n, 65 }
+	  info { door }
+	to { s, Ent_forest:18 }
+  }
+}
+
+65
+{
+  name { The grand castle of Quilandar }
+  desc {
+You stand just inside the gates of the castle, and are completely in awe.
+Broad, cobblestone streets lead off to the east and west, and to the
+north are huge stone doors. The streets are crowded with people, and there
+seems to be a vague rhythm to the city.
+  }
+  sector { Field }
+  exits {
+	to { e, trash3:55 }
+	to { s, 64 }
+	to { w, 66 }
+  }
+}
+
+66
+{
+  name { The grand castle of Quilandar }
+  desc {
+To the north and south are huge stone walls, leading off into the distance.
+They are completely featureless, except for a tiny stone set on the north wall.
+The street continues to the west and east, and the people thin out to the west.
+  }
+  sector { Field }
+  extra {
+	keywords { stone" }
+	desc { it is very tiny, and as you tap on it a small crack appears. You shove in
+your dagger, and expose a door.
+	}
+  }
+  exits {
+	to { n, trash3:56 }
+	  info { door }
+	  keywords { door secret" }
+	to { e, 65 }
+	to { w, 67 }
+  }
+}
+
+67
+{
+  name { The grand castle of Quilandar }
+  desc {
+The wall to the north is once again featureless, a stark white stone..
+The wall to the south, however, has a rope ladder, obviously leading up to
+the guards' walkways above.
+  }
+  sector { Field }
+  extra {
+	keywords { ladder rope" }
+	desc { It looks very sturdy, but the construction of the rope bothers you.. It looks
+like it's made of something other than hair...	}
+  }
+  exits {
+	to { e, 66 }
+	to { w, 68 }
+  }
+}
+
+68
+{
+  name { The grand castle of Quilandar }
+  desc {
+The road turns to the west, and the crowd is very thin, but to the east
+the people seem jammed together. All around you are guards, wearing the
+emblem of the red lion.
+  }
+  sector { Field }
+  exits {
+	to { e, 67 }
+	to { w, 69 }
+  }
+}
+
+69
+{
+  name { The grand castle of Quilandar }
+  desc {
+A strong breeze blows here, and above you can see the flag of the red lion 
+flying above. To the south and west there are stone doors, marked in runes.
+  }
+  sector { Field }
+  exits {
+	to { n, 73 }
+	to { e, 68 }
+	to { s, 70 }
+	  info { door }
+	  keywords { door runed runes" }
+	to { w, 72 }
+	  info { door }
+	  keywords { door runes runed" }
+  }
+}
+
+70
+{
+  name { The grand castle of Quilandar }
+  desc {
+You appear to be inside some sort of barracks. There are low stone beds all 
+around the room, and there are spare spears and shields lying around. There
+is another room to the west, and to the north you may return to the street.
+  }
+  sector { Field }
+  exits {
+	to { n, 69 }
+	  info { door }
+	  keywords { door runed runes" }
+	to { w, 71 }
+  }
+}
+
+71
+{
+  name { The grand castle of Quilandar }
+  desc {
+The room you are in appears to be some sort of lounge. There is a large stone
+table, covered with the remains of what would seem to be last years dinner.
+There is a rope ladder hanging down from a hole in the ceiling, and it looks
+like it would be easy to climb.
+  }
+  extra {
+	keywords { table dinner food" }
+	desc { The table is covered with bones, and some decaying meat. Bugs crawl in and
+out of the meat, and maggots writhe around on the flesh.
+	}
+	keywords { rope ladder" }
+	desc { The same thing about the rope scares you... It looks like...something.
+	}
+  }
+  exits {
+	to { n, 72 }
+	to { e, 70 }
+  }
+}
+
+72
+{
+  name { The grand castle of Quilandar }
+  desc {
+You are in some sort of barracks. There are low stone beds everywhere, 
+and spare spears and shields strewn about. To the south a beam of light
+penetrates the grey dullness of the room.
+  }
+  exits {
+	to { e, 69 }
+	  info { door }
+	  keywords { door runes runed" }
+	to { s, 71 }
+  }
+}
+
+73
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, trash3:3 }
+	to { s, 69 }
+	to { w, 74 }
+	  keywords { door" }
+  }
+}
+
+74
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { e, 73 }
+	  keywords { door" }
+  }
+}
+
+75
+{
+  name { The grand castle of Quilandar }
+  desc {
+Empty  }
+  exits {
+	to { n, trash3:0 }
+  }
+}

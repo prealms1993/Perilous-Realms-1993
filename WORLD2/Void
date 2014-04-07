@@ -1,0 +1,221 @@
+
+0
+{
+  name { The Void }
+  desc {
+boring..  }
+  sector { City }
+  flags { no_mob, indoors, peaceful, no_sum, private }
+  exits {
+	to { u, Midgard:0 }
+  }
+}
+
+1
+{
+  name { Limbo }
+  desc {
+"   You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+  }
+  sector { City }
+  flags { no_mob, indoors, peaceful, no_sum, private }
+  exits {
+	to { u, Midgard:1 }
+	  desc { Temple}
+  }
+}
+
+2
+{
+  name { Beyond Reality }
+  desc {
+"   This place exists.... Beyond Reality.
+  }
+  flags { indoors, no_goto, rent_room }
+}
+
+3
+{
+  name { Storage }
+  desc {
+"   This is where link-dead characters stuff is kept.  However, It could be
+an indication of an attempt at cheating.  PS.  This is a death room to keep
+the mortals out.
+  }
+  sector { City }
+  flags { dark, death, no_sum, private, no_goto }
+}
+
+4
+{
+  name { Storage }
+  desc {
+"   This is where link-dead characters stuff is kept.  However, It could be
+an indication of an attempt at cheating.  PS.  This is a death room to keep
+the mortals out.
+  }
+  sector { City }
+  flags { dark, death, no_sum, private, no_goto }
+}
+
+5
+{
+  name { Midgaard Coach }
+  desc {
+"   You are now at the Temple of Midgaard.
+	Please exit to the east.
+	Next stop. The Wizard's shop.
+  }
+  flags { indoors }
+  tele { 30, 1, 6 }
+  exits {
+	to { e, Midgard:1 }
+  }
+}
+
+6
+{
+  name { Midgaard Coach }
+  desc {
+"   You are now at the Wizard's shop.
+	Please exit to the east.
+	Next stop, The dark river.
+  }
+  flags { indoors }
+  tele { 30, 1, 7 }
+  exits {
+	to { e, Midgard:33 }
+  }
+}
+
+7
+{
+  name { Midgaard Coach }
+  desc {
+"   You are now at the Dark river.
+	Please exit to your east.
+	Next stop, The city of Orshingal
+  }
+  flags { indoors }
+  tele { 30, 1, 8 }
+  exits {
+	to { e, Pyramid:844 }
+  }
+}
+
+8
+{
+  name { Midgaard Coach }
+  desc {
+"   You are now at the City of Orshingal.
+	Please exit to the east.
+	Next stop, the Shire.
+  }
+  flags { indoors }
+  tele { 30, 1, 9 }
+  exits {
+	to { e, Arachnos:1001 }
+  }
+}
+
+9
+{
+  name { Midgaard Coach }
+  desc {
+"   You are now at the Shire.
+	Please exit to the east.
+	Next stop, Arachnos.
+  }
+  flags { indoors }
+  tele { 30, 1, 10 }
+  exits {
+	to { e, Asgard:100 }
+  }
+}
+
+10
+{
+  name { Midgaard Coach }
+  desc {
+"   You are now at Arachnos.
+	Please exit to the east.
+	Next stop, Castle Python.
+  }
+  flags { indoors }
+  tele { 30, 1, 11 }
+  exits {
+	to { e, Arachnos:1 }
+  }
+}
+
+11
+{
+  name { Midgaard Coach }
+  desc {
+"   You are now at Castle Python.
+	Please exit to the east.
+	Next stop, Moria.
+  }
+  flags { indoors }
+  tele { 30, 1, 12 }
+  exits {
+	to { e, Crossroads:4 }
+  }
+}
+
+12
+{
+  name { Midgaard Coach }
+  desc {
+"   You are now at the mines of Moria.
+	Please exit to the east.
+	Next stop, the Temple of Midgaard
+  }
+  flags { indoors }
+  tele { 30, 1, 5 }
+  exits {
+	to { e, Moria1:0 }
+  }
+}
+
+15
+{
+  name { Work Room of the Lords }
+  desc {
+"    This is where the lords are supposed to be working away hard at helping
+the imps get done what needs to be done asap. If your not a lord and your in
+here you had better hope your up for promotion or you can pass through walls.
+There is a board nailed up on the wall with a list of things to do.
+  }
+  flags { lord_only }
+}
+
+20
+{
+  name { 20 }
+  desc {
+Empty
+  }
+  tele { 10, 1, 2 }
+}
+
+44
+{
+  name { 44 }
+  desc {
+Empty
+  }
+}
+
+49
+{
+  name { Monster Storage }
+  desc {
+"   This is where the errant monsters are stored.  I don't know why they
+are in here, but they seem to show up often enough.
+  }
+  flags { indoors }
+}

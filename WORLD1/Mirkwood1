@@ -1,0 +1,16 @@
+
+0
+{
+  name { In Mirkwood }
+  desc {
+You are deep in the heart of the forest of Mirkwood.  You are unable to
+walk south because of brownish, stagnant river.  You can continue to walk
+either west or north.
+  }
+  sector { Field }
+  exits {
+	to { n, Ambush:0 }
+	to { s, river1:0 }
+	to { w, Mirkwood2:0 }
+  }
+}

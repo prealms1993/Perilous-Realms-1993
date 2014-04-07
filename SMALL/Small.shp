@@ -1,0 +1,14 @@
+1
+{
+  keeper { 3000 }
+  location { 3000 }
+  sell { 1000, 1001 }
+  sell_mult { 0 }
+  messages {
+    dont_buy { I don't buy! }
+    dont_have { Haven't got that on storage - try list! }
+    no_item { I don't buy! }
+    player_cant_afford { If you have no money, you'll have to go! }
+    sell { That'll be %d coins. }
+  }
+}

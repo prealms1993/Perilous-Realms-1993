@@ -1,0 +1,950 @@
+
+0
+{
+  name { The Grand Gate of Thalos }
+  desc {
+"     You stand in the archway of a gigantic stone archway. The two
+steel gates have been forced open and have rusted in place. A hollow
+gust of wind blows by you into the deserted, and seemingly destroyed,
+city.
+  }
+  sector { City }
+  exits {
+	to { e, Desert:43 }
+	  desc { The desert sands stretch on for miles and miles.}
+	to { w, 1 }
+	  desc { You see devastation everywhere. Houses lie in ruin and skeletons litter
+the streets. You see strange beasts stalking the shadows.}
+  }
+}
+
+1
+{
+  name { Main Street }
+  desc {
+"     This was once a magnificent street, but now is in total ruin. The
+streets are barren and windswept and the silence is unending. To the south
+you see a ruined cottage while north leads into a dark back alley. Howls
+and screams echo through the deserted city.
+  }
+  sector { City }
+  exits {
+	to { n, 39 }
+	  desc { It's a dark alley.}
+	to { e, 0 }
+	  desc { The entrance to the city lies this way.}
+	to { s, 35 }
+	  desc { A ruined shack lies to the south.}
+	to { w, 2 }
+	  desc { Main Street lies this way.}
+  }
+}
+
+2
+{
+  name { Main Street }
+  desc {
+"     This was once a magnificant street, but now is in total ruin. The
+streets are barren and windswept and the silence is unending. On one
+side is a collapsed house while on the other is the entrance to a large
+ruined mansion. Eerie sounds echo within the mansion. Near the center of 
+town you see a large domed building, relatively intact.
+  }
+  sector { City }
+  exits {
+	to { n, 36 }
+	  desc { The remnants of a store lie this way.}
+	to { e, 1 }
+	to { s, 32 }
+	  desc { It looks like what used to be the main building in the city.}
+	to { w, 3 }
+	  desc { A withered garden path lies this way.}
+  }
+}
+
+3
+{
+  name { A garden path }
+  desc {
+"     A circular path surrounds a magnificant domed temple in the center
+of the city. Flowers have withered away and the once lush trees are bare.
+Vines and ivy snake up the sides of the temple and entangle themselves
+around your feet. A sudden volley of howls pierces the air.
+  }
+  sector { City }
+  exits {
+	to { n, 4 }
+	  desc { The garden path continues around the building.}
+	to { e, 2 }
+	  desc { This is the main street leading to the city's entrance}
+	to { s, 6 }
+	  desc { The garden path continues around the building.}
+	to { w, 50 }
+	  desc { Inside the temple, small patches of light shoot through each doorway as
+well as a few holes in the ceiling.}
+  }
+}
+
+4
+{
+  name { A garden path }
+  desc {
+"     A circular path surrounds a magnificant domed temple in the center
+of the city. Flowers have withered away and the once lush trees are bare.
+Vines and ivy snake up the sides of the temple and entangle themselves
+around your feet.
+  }
+  sector { City }
+  exits {
+	to { n, 11 }
+	  desc { A side street leads of to the northern half of the city.}
+	to { e, 3 }
+	  desc { The garden path continues around the building.}
+	to { s, 50 }
+	  desc { Inside the temple, small patches of light shoot through each doorway as
+well as a few holes in the ceiling.}
+	to { w, 5 }
+	  desc { The garden path continues around the building.}
+  }
+}
+
+5
+{
+  name { A garden path }
+  desc {
+"     A circular path surrounds a magnificent domed temple in the center
+of the city. Flowers have withered away and the once lush trees are bare.
+Vines and ivy creep up the sides of the temple and entangle themselves 
+around your feet.
+  }
+  sector { City }
+  exits {
+	to { n, 4 }
+	  desc { The garden path continues around the building.}
+	to { e, 50 }
+	  desc { Inside the temple, small patches of light shoot through each doorway as
+well as a few cracks in the ceiling.}
+	to { s, 6 }
+	  desc { The garden path continues around the building.}
+	to { w, 7 }
+	  desc { What looks like a market place lies this way.}
+  }
+}
+
+6
+{
+  name { A garden path }
+  desc {
+"     A circular path surrounds a magnificant domed temple in the center 
+of the city. Flowers have withered away and the once lush trees are bare.
+Vines and ivy creep up the sides of the temple and entangle themselves 
+around your feet.
+  }
+  sector { City }
+  exits {
+	to { n, 50 }
+	  desc { Inside the temple, small patches of light shoot through each doorway as
+well as a few cracks in the ceiling.}
+	to { e, 3 }
+	  desc { The garden path continues around the building.}
+	to { s, 12 }
+	  desc { A small side street leads to the southern half of the city.}
+	to { w, 5 }
+	  desc { The garden path continues around the building.}
+  }
+}
+
+7
+{
+  name { The market place }
+  desc {
+"     You stand in the middle of a large square lined on each side with
+baskets, carts, and stands of all shapes and sizes. Abandoned, these
+little shops still contain some of their goods once sold to a demanding
+public.
+  }
+  sector { City }
+  exits {
+	to { n, 25 }
+	  desc { A small table has been toppled over, spilling fine jewelry and gems
+onto the ground.}
+	to { e, 5 }
+	  desc { A small garden path encircles a large domed temple in the center of the 
+city.}
+	to { s, 20 }
+	  desc { Rotted remains of fruits and vegetables lie strewn about.}
+	to { w, 8 }
+	  desc { The market place continues.}
+  }
+}
+
+8
+{
+  name { The market place }
+  desc {
+"     You stand at the end of the market square. Stands and carts line
+each side, filled with remnants of fine foods and exquisite goods.
+A small hole in the western wall of the city leads back out into the desert.
+  }
+  sector { City }
+  exits {
+	to { n, 22 }
+	  desc { Tattered carpets and ruined bales of silk sit idly by a run down stand.}
+	to { e, 7 }
+	  desc { The center of the market lies this way.}
+	to { s, 17 }
+	  desc { >From the massive stench, this must have been a meat and poultry stand.
+It lies totally bare.}
+  }
+}
+
+9
+{
+  name { A side street }
+  desc {
+"    This small side street leads east and west into back alleys while
+to the south you see the temple. The incessant howling tears at your
+mind.
+  }
+  sector { City }
+  exits {
+	to { e, 43 }
+	to { s, 10 }
+	to { w, 28 }
+  }
+}
+
+10
+{
+  name { A side street }
+  desc {
+"     You are in the common section of the city. Ruined buildings made of
+clay and stone is all the view has to offer. Most of these homes are 
+nothing but piles of rubble, but some look almost safe enough to venture
+into. The street continues north and south and buildings line the street.
+  }
+  sector { City }
+  exits {
+	to { n, 9 }
+	to { e, 44 }
+	  info { door, closed }
+	  desc { A small doorway leads into a partially collapsed house.}
+	to { s, 11 }
+	to { w, 26 }
+	  desc { A small clay dwelling sits here.}
+  }
+}
+
+11
+{
+  name { A side street }
+  desc {
+"     This small side street leads away from the garden path to the south.
+Around you stand large piles or rubble where the houses of commoners
+used to be. A lone howl makes you worry greatly about your safety here.
+  }
+  sector { City }
+  exits {
+	to { n, 10 }
+	to { e, 37 }
+	  desc { An unusually tall dwelling stands looming over you.}
+	to { s, 4 }
+	  desc { A garden path circles around the temple.}
+	to { w, 27 }
+	  desc { Here lies a small stone house with a thatched roof.}
+  }
+}
+
+12
+{
+  name { A side street }
+  desc {
+"    This small side street leads south away from the temple into the
+business section of town. The destruction that leveled this city was not
+biased; these important looking buildings have been almost totally
+destroyed. There is a hole in the wall of a very large structure to the
+east.
+  }
+  sector { City }
+  exits {
+	to { n, 6 }
+	  desc { A small garden path encircles the temple.}
+	to { e, 32 }
+	  desc { This possibly could be the city hall.}
+	to { s, 13 }
+	to { w, 21 }
+	  desc { Inside the building you see long pieces of metal, an oven, and some
+anvils.}
+  }
+}
+
+13
+{
+  name { A side street }
+  desc {
+"     This small side street is lined with the remains of once great
+buildings. To the north is a dark, foreboding structure while to the
+south lies the entrance to a small tavern. The street continues north
+and south.
+  }
+  sector { City }
+  exits {
+	to { n, 12 }
+	to { e, 30 }
+	  desc { >From the looks of it, this was once a two story abode. The entire second
+floor has collapsed leaving a very little part of the bar still free
+from debris.}
+	to { s, 14 }
+	to { w, 19 }
+	  desc { This seems to be the only guild house in the entire city. It's dark nature
+makes you wonder about its' origins.}
+  }
+}
+
+14
+{
+  name { A side street }
+  desc {
+"    You are at the end of a long street leading to the center of the city.
+A long dark alley runs east and west.
+  }
+  sector { City }
+  exits {
+	to { n, 13 }
+	to { e, 29 }
+	to { w, 18 }
+  }
+}
+
+15
+{
+  name { Under a ruined watchtower }
+  desc {
+"     You stand at the base of a tall watchtower built to protect the city
+from invaders. From the looks of things, it did not do a good job.
+  }
+  sector { City }
+  exits {
+	to { n, 16 }
+	to { e, 18 }
+	to { u, 47 }
+  }
+}
+
+16
+{
+  name { A back alley }
+  desc {
+"    This alley leads to the rear of what used to be a meat stand. You wince
+at the stench. South is one of the city watchtowers.
+  }
+  sector { City }
+  exits {
+	to { n, 17 }
+	  desc { You see the back-side of the market place meat stand.}
+	to { s, 15 }
+	  desc { A tall watchtower stands a silent vigil over the city.}
+  }
+}
+
+17
+{
+  name { The meat stand }
+  desc {
+"    A large stand has been set up here with metal hooks and wooden racks
+in the background. Hanging on the hooks are very small scraps of meat
+and other game. This stand is relatively empty, and a sudden burst of
+howling and screaming makes you realize why this is so.
+  }
+  sector { City }
+  exits {
+	to { n, 8 }
+	  desc { The market place lies this way.}
+	to { e, 20 }
+	  desc { This is a cart full of rotted vegitables and fruits.}
+	to { s, 16 }
+  }
+}
+
+18
+{
+  name { A back alley }
+  desc {
+"     A narrow alley leads east to a wider street and west to one of 
+the city watchtowers.
+  }
+  sector { City }
+  exits {
+	to { e, 14 }
+	  desc { A small side street greets you.}
+	to { w, 15 }
+	  desc { A tall watchtower stands a silent vigel over the city.}
+  }
+}
+
+19
+{
+  name { The guild house }
+  desc {
+"     You are standing in what once was this city's ONLY guild house.
+Tables and chairs have been smashed and broken weapons lie strewn about
+the floor as if some massive battle had taken place here. Draped along 
+the back wall is a tattered, jet-black banner with the symbol of the
+Darkside set upon it.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { e, 13 }
+	  desc { A small side street runs past the building.}
+  }
+}
+
+20
+{
+  name { The produce stand }
+  desc {
+"    A large cart sits here carrying rotted fruit and vegitables. Flys 
+swarm all about what seems to be the last remaining bits of food left
+in the city.
+  }
+  sector { City }
+  exits {
+	to { n, 7 }
+	  desc { The market place is deserted.}
+	to { w, 17 }
+	  desc { A strong stench eminates from the meat stand next to you.}
+  }
+}
+
+21
+{
+  name { The smithy }
+  desc {
+"    In here you find tools and anvils used to make various weapons
+and items. The walls have been stripped clean and only a few incomplete
+pieces of armor and weaponry are left.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { e, 12 }
+	  desc { A small side street runs past the building.}
+  }
+}
+
+22
+{
+  name { The tapestry stand }
+  desc {
+"     Tattered and torn tapestries and rugs lie heaped in piles. Fancy
+robes and various articles of clothing are now just rags. You stare at 
+the strange piles for a long time until a piercing howl makes you
+think these might be beds.
+  }
+  sector { City }
+  exits {
+	to { n, 23 }
+	to { e, 25 }
+	  desc { A fine jewelry stand lies in ruin next to you.}
+	to { s, 8 }
+	  desc { The market place is deserted.}
+  }
+}
+
+23
+{
+  name { A back alley }
+  desc {
+"    A narrow alley leads north to one of the city watchtowers while
+to the south there lies a market stand full of torn clothes and rugs.
+  }
+  sector { City }
+  exits {
+	to { n, 24 }
+	  desc { A tall watchtower stands a silent vigel over the city.}
+	to { s, 22 }
+  }
+}
+
+24
+{
+  name { Under the watchtower }
+  desc {
+"    You stand under one of the city watchtowers built to protect
+the city from invaders. Obviously, it failed.
+  }
+  sector { City }
+  exits {
+	to { e, 28 }
+	to { s, 23 }
+	to { u, 46 }
+	  desc { Above you looms a tall watchtower.}
+  }
+}
+
+25
+{
+  name { The jewelery stand }
+  desc {
+"    A table has been tipped over, spilling fine jewelery and gems
+across the market place. Most of these trinkets are battered and 
+tarnished and few would have any value anymore.
+  }
+  sector { City }
+  exits {
+	to { s, 7 }
+	  desc { The market place is deserted.}
+	to { w, 22 }
+	  desc { Next to you is a stand full of ruined clothes and rugs.}
+  }
+}
+
+26
+{
+  name { A ruined clay dwelling }
+  desc {
+"    This was once a very plain house with nothing more than a few chairs
+and a bed. A cold fireplace suggests that the city has been adandoned
+for quite a while. Almost nothing remains of this humble abode.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { e, 10 }
+	  desc { Outside is a small side street.}
+  }
+}
+
+27
+{
+  name { A collapsed stone dwelling }
+  desc {
+"     This small house has completely collapsed upon itself leaving piles
+of debris here and there. A few rafters still stand with thatched straw
+hanging downand a hot wind gusts through the hollow dwelling.
+  }
+  sector { City }
+  exits {
+	to { e, 11 }
+	  desc { A small side street runs past the house.}
+  }
+}
+
+28
+{
+  name { A back alley }
+  desc {
+"    A narrow alley leads east to one of the city watchtowers and west to
+a small side street.
+  }
+  sector { City }
+  exits {
+	to { e, 9 }
+	to { w, 24 }
+  }
+}
+
+29
+{
+  name { An abandoned shop }
+  desc {
+"     From the outside this place looks like an ordinary pile of rubble,
+but inside these cramped quarters you discover what used to be a shop
+filled with armor, weapons, and various other goods. A small sign flutters
+in the wind.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { w, 14 }
+	  desc { A small side street runs past the shop.}
+  }
+}
+
+30
+{
+  name { The Tavern of the Sun }
+  desc {
+"     A glorious place in it's prime, this tavern now lies in ruin; tables
+and chairs are broken scattered, bottles and glasses shattered, and
+a small performance stage crushed. Musical instruments and personal
+belongings lie under the rubble, but the people they once belonged to are 
+not with them. Looking up you see that the entire second floor and roof 
+has fallen in, leaving a gaping hole above.
+  }
+  sector { City }
+  exits {
+	to { w, 13 }
+	  desc { A small side street runs past the tavern.}
+  }
+}
+
+31
+{
+  name { South wing of the city hall }
+  desc {
+"     You stand in a large room attached to this end of the hallway which 
+leads back north to the reception area. Pedistals and columns have fallen
+and most of the valuable items have been taken, leaving worthless debris.
+A few chairs have survived, as well as a large curved desk. To the east
+is a vine-covered archway leading out into a private courtyard.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 32 }
+	  desc { The long hallway leads back to the main reception area of the city hall.}
+	to { e, 34 }
+  }
+}
+
+32
+{
+  name { The city hall }
+  desc {
+"     This is the main reception area of Thalos' city hall. The walls have
+been charred and scored massively and debris is spread from wall to wall.
+A large gaping hole in the west wall allows you to see out to one of
+the city's side streets. Obviously noone will be seeing you through today. 
+Hallways lead south and east.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 2 }
+	  desc { Main street runs past the city hall.}
+	to { e, 33 }
+	  desc { A hallway leads to the east wing of the city hall.}
+	to { s, 31 }
+	  desc { A hallway leads to the south wing of the city hall.}
+	to { w, 12 }
+  }
+}
+
+33
+{
+  name { East wing of the city hall }
+  desc {
+"    Here lies the reminants of a fancy office, possibly the mayor's. A few
+withered plants and broken pieces of furniture make this place anything
+but fancy, though. The only thing remaining intact here is a large
+glass cabinet. A long hallway leads west back to the reception area and
+an ivy-covered archway leads south into a private courtyard.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { s, 34 }
+	to { w, 32 }
+  }
+}
+
+34
+{
+  name { The private gardens and courtyard of Thalos }
+  desc {
+"     What a shame that this mass destruction also touched this once
+beautiful place. The temple's garden path has nothing on this garden.
+Flowers and trees have been smashed into the ground and lawn benches
+thrown through walls. A large marble fountain in the center of the
+courtyard still stands, though, defying any attempts to destroy its
+beauty. Above stands the reminants of one of the watchtowers. Archways 
+north and west lead back into the city hall.
+  }
+  sector { City }
+  exits {
+	to { n, 33 }
+	to { w, 31 }
+  }
+}
+
+35
+{
+  name { A small guard house }
+  desc {
+"    This was once the barracks for Thalos' cityguards. Now just an empty
+shell, this small shack still stands guarding the entrance both to the
+city and to the city hall.
+  }
+  sector { City }
+  exits {
+	to { n, 1 }
+	  desc { Main street runs by this building.}
+  }
+}
+
+36
+{
+  name { A collapsed home }
+  desc {
+"    All that's left of this house is a few scattered piles of rubble
+and a very large blast crater. Obviously someone or something important 
+was once housed here. A shreeking howl chills your blood.
+  }
+  sector { City }
+  exits {
+	to { s, 2 }
+	  desc { Main street runs past this ruined home.}
+  }
+}
+
+37
+{
+  name { A tall dwelling }
+  desc {
+"     This seems to be the tallest structure remaining in the city. At
+one time this could have been an inn of some sort, but now it's just
+a mess. The back wall as been completely knocked down revealing an 
+entrance into another building through yet another collapsed wall.
+Between the two buildings are a few blast craters and boulders. An old,
+very dangerous looking set of wooden steps leads up to a badly rotting
+second floor.  It does not look safe to go up those stairs.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { e, 38 }
+	to { w, 11 }
+	  desc { A small side street winds past the dwelling.}
+	to { u, 45 }
+	  desc { The stairs and even the entire second floor itself looks very unsafe
+for travel. Gusts of wind make them creak and shudder.}
+  }
+}
+
+38
+{
+  name { A small shack }
+  desc {
+"    This cramped dwelling could not have housed more than one person. Now
+with the back wall missing, it could hold many more. Looking around you
+find broken shelves and workbenches with various vials and pouches spilling
+contents all across the floor. This was possibly the magic shop of the
+city. The doorway to the east is blocked, making the only exit back west.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { w, 37 }
+  }
+}
+
+39
+{
+  name { A back alley }
+  desc {
+"    A narrow back alley goes south to main street and north towards
+a watchtower. A mass of howls catches you of guard.
+  }
+  sector { City }
+  exits {
+	to { n, 40 }
+	to { s, 1 }
+	  desc { Main street runs past here.}
+  }
+}
+
+40
+{
+  name { A back alley }
+  desc {
+"    A narrow back alley leads north to one of the city watchtowers
+and south towards main street. To the west is a doorway to a small
+house blocked by debris.
+  }
+  sector { City }
+  exits {
+	to { n, 41 }
+	  desc { A tall watchtower stands a silent vigil over the city.}
+	to { s, 39 }
+  }
+}
+
+41
+{
+  name { Under a watchtower }
+  desc {
+"    You stand under a tall watchtower. Narrow back alleys lead west and
+south and a very weak looking ladder leads up into the tower.
+  }
+  sector { City }
+  exits {
+	to { s, 40 }
+	to { w, 43 }
+	to { u, 48 }
+	  desc { Winds howl high above your head in the tower above.}
+  }
+}
+
+42
+{
+  name { A bath house }
+  desc {
+"    This was once the bath house for the commoners of the city. Hot
+steamy water still wells up from a hole in the floor. Obviously there
+is a hot spring located under the city (making the decision to put
+a city here seem much more reasonable). Closer inspection of the water
+yields a dead body floating around in it, skin melted away from months
+of floating in there. The west wall has collapsed revealing another
+collapsed house.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 43 }
+	to { w, 44 }
+	  desc { The wall has collapsed on the adjoining house, creating a new opening
+in it.}
+  }
+}
+
+43
+{
+  name { A back alley }
+  desc {
+"    A narrow back alley leads west to a small side street and east to one 
+of the city watchtowers. Great amounts of steam issue forth from the
+building to the south.
+  }
+  sector { City }
+  exits {
+	to { e, 41 }
+	  desc { A watchtower stands a silent vigil over the city.}
+	to { s, 42 }
+	to { w, 9 }
+	  desc { A side street runs by here.}
+  }
+}
+
+44
+{
+  name { An upright house }
+  desc {
+"    This home is practically the only one around that is still standing.
+Except for the massive hole in the east wall, evrything else looks
+intact, including the windows. Great amounts of steam issue forth from
+the hole in the east wall.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { e, 42 }
+	to { w, 10 }
+	  desc { A small side street runs past the house.}
+  }
+}
+
+45
+{
+  name { On the second floor }
+  desc {
+"     The minute you step off onto this floor you realize it was a mistake.
+The old rotted floorboards suddenly give way and you fall down, impaling
+yourself on jagged boards below.
+  }
+  sector { City }
+  flags { death }
+}
+
+46
+{
+  name { The north-west watchtower }
+  desc {
+"     You stand atop one of the city watchtowers. The view is magnificant
+from here and you can see all the way to the western mountains. No wonder
+this place stood for so long.
+  }
+  sector { City }
+  exits {
+	to { d, 24 }
+	  desc { The city lies below.}
+  }
+}
+
+47
+{
+  name { The south-west watchtower }
+  desc {
+"     You stand atop one of the city watchtowers. The view is magnificant
+from here and you can see all the way to the western mountains. To the
+south the desert stretches to the horizon. No wonder this place stood
+for so long.
+  }
+  sector { City }
+  exits {
+	to { d, 15 }
+	  desc { The city lies below.}
+  }
+}
+
+48
+{
+  name { The north-east watchtower }
+  desc {
+"    You stand atop one of the city watchtowers. The view is magnificant
+from here and you can see a great floating pyramid to the north-east.
+Desert sand stretches to the horizon. No wonder this place stood for so
+long.
+  }
+  sector { City }
+  exits {
+	to { d, 41 }
+	  desc { The city lies below.}
+  }
+}
+
+49
+{
+  name { Under a watchtower }
+  desc {
+"    As you desend the ladder, the rotted rungs break sending you quickly
+to your demise far below on the city street. Splat.
+  }
+  sector { City }
+  flags { death }
+}
+
+50
+{
+  name { The Temple of Thalos }
+  desc {
+"    You stand within one of the most holy places in the realm. This
+stunning domed temple once housed the city's worshipers en masse. 
+Unfortunately, it succumed to the destruction brought on this city.
+Long benches lie toppled and the altar desicrated. Large chunks of stone
+have fallen from the walls and roof, sending sunlight streaming in on
+you. A few books lie about, conveying to you a holy message in a
+strange tounge. 
+     Wind gusts through the four archways and howls and screams can be
+heard from all parts of the city.
+  }
+  sector { City }
+  flags { indoors, no_magic }
+  exits {
+	to { n, 4 }
+	  desc { A side street leads to the northern half of the city.}
+	to { e, 3 }
+	  desc { Main street leads out to the main gate of the city.}
+	to { s, 6 }
+	  desc { A side street leads to the southern part of the city.}
+	to { w, 5 }
+	  desc { The market place lies this way.}
+  }
+}
+
+51
+{
+  name { The Southeast Watchtower }
+  desc {
+"    Odd, this tower seemed old and rotting before, but now that you have
+entered it, you realize that the rot was an illusion!  This tower
+is in perfect condition!  Something ususual is going on here....
+  }
+  sector { City }
+  exits {
+	to { d, 34 }
+	  desc { You see the city hall below
+}
+  }
+}

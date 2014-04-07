@@ -1,0 +1,198 @@
+9200
+{
+	name { Cloak of the Djinn }
+	namelist { Djinn Cloak }
+	long { A Cloak of the Djinn is floating here.
+ }
+	weight { 2 }
+	value { 105000 }
+	rent { 100000 }
+	type {
+		armor {
+			effective_ac { 14 }
+			force { 14 }
+		}
+	}
+	apply {
+		dexterity { 2 }
+	}
+	bits { glow, magic }
+	wear { take, neck }
+}
+ 
+9201
+{
+	name { A Magewand }
+	namelist { Magewand mage wand mithril rod }
+	long { A mithril wand, inlaid with runes, levitates here a centimeter above ground level.
+ }
+	weight { 1 }
+	value { 30000 }
+	rent { 30000 }
+	type {
+		wand {
+			level { 10 }
+			max_charges { 10 }
+			charges { 10 }
+			spell { lightning bolt }
+		}
+	}
+	apply {
+		wisdom { 1 }
+		hitroll { 2 }
+	}
+	bits { hum, invisible, magic, nodrop }
+	wear { take, hold }
+	extras {
+		keywords { Runes warning }
+		desc { The Runes are of the Warning type, indicating that the use of this object may
+be hazardous to good health. }
+		keywords { Magewand wand mithril rod }
+		desc { This wand looks rather strange..  It tapers to a point in the wrong direction. }
+	}
+}
+ 
+9202
+{
+	name { A Magesword }
+	namelist { Magesword mage sword blade }
+	long { A straight mithril blade, inlaid with runes, dejectedly lies here.
+ }
+	weight { 2 }
+	value { 40000 }
+	rent { 50000 }
+	type {
+		weapon {
+			no_dice { 2 }
+			size_dice { 10 }
+			type { slash }
+		}
+	}
+	apply {
+		intelligence { 1 }
+		wisdom { 2 }
+	}
+	bits { glow, invisible, magic, bless }
+	wear { take, wield, hold }
+}
+ 
+9203
+{
+	name { MageBane }
+	namelist { Magebane Bane Mage Wizard mana }
+	long { A pink ball of mana flits around in space.
+ }
+	value { 1 }
+	rent { -1 }
+	type {
+		light {
+			duration { -1 }
+		}
+	}
+	apply {
+		mana { -120 }
+		age { 15 }
+	}
+	bits { glow, hum, magic, nodrop, anti-cleric }
+	wear { take, hold }
+}
+ 
+9207
+{
+	name { A water-blue key }
+	namelist { Blue Key Water Elemental }
+	long { A water-blue key to the plane of Water.
+ }
+	value { 5 }
+	rent { -1 }
+	type {
+		key { 2, 0, 0, 0 }
+	}
+	apply {
+		wisdom { 2 }
+		constitution { 2 }
+	}
+	bits { magic }
+	wear { take, hold }
+}
+ 
+9208
+{
+	name { A earth-brown key }
+	namelist { Brown Key Earth Elemental }
+	long { A brown key to the plane of Earth.
+ }
+	value { 5 }
+	rent { -1 }
+	type {
+		key { 2, 0, 0, 0 }
+	}
+	apply {
+		strength { 1 }
+		all_armor { -5 }
+	}
+	bits { magic }
+	wear { take, hold }
+}
+ 
+9209
+{
+	name { A fire-red key }
+	namelist { Red Key Fire Elemental }
+	long { A red key to the plane of Fire.
+ }
+	value { 5 }
+	rent { -1 }
+	type {
+		key { 2, 0, 0, 0 }
+	}
+	apply {
+		intelligence { 1 }
+		hitroll { 1 }
+	}
+	bits { magic }
+	wear { take, hold }
+}
+ 
+9210
+{
+	name { A rune covered arm band of the Marid }
+	namelist { armband marid }
+	long { A rune coverd arm band lies here.
+ }
+	weight { 1 }
+	value { 40584 }
+	rent { 40000 }
+	type {
+		armor {
+			effective_ac { 7 }
+			force { 7 }
+		}
+	}
+	apply {
+		damroll { 2 }
+	}
+	bits { glow, magic }
+	wear { take, wrist }
+}
+ 
+9211
+{
+	name { A Decanter of Endless Water }
+	namelist { decanter endless water }
+	long { An everfull flask of water lies here.
+ }
+	weight { 2 }
+	value { 33000 }
+	rent { 33000 }
+	type {
+		drink_container {
+			max_units { 100 }
+		}
+	}
+	apply {
+		save_paralysis { -2 }
+	}
+	bits { magic, nodrop }
+	wear { take, hold }
+}

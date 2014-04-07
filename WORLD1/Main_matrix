@@ -1,0 +1,1342 @@
+
+0
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+  }
+  sector { Field }
+  extra {
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 80 }
+	  desc { Somewhere off to the northeast you can see a pillar of light
+stretching up towards infinity.
+}
+	to { e, 1 }
+	  desc { Somewhere off to the northeast you can see a pillar of light
+stretching up towards infinity.
+}
+	to { s, 10 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { w, 2 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+1
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   There is a strong smell of ozone here, probably caused by a
+circle of pale blue lightning, approx. 2 yards diameter, which is
+hanging in the air 1 yd off the ground, revolving slowly around
+its vertical axis.
+  }
+  sector { Field }
+  extra {
+	keywords { lightening gate circle" }
+	desc { Looking through the circle, you see a swirling haze, occasion-
+ally coalescing into a peaceful meadow, or a clump of trees.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  flags { no_mob }
+  exits {
+	to { n, 71 }
+	  desc { Somewhere off to the north you can see a pillar of light
+stretching up towards infinity.
+}
+	to { e, 2 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 11 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { w, 0 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { u, Midgard:24 }
+	  keywords { gate circle" }
+	  desc { Looking through the circle, you see a swirling haze, occasion-
+ally coalescing into some grubby-looking back alley. It would be
+possible to jump through it with a running start, if one was
+careful not to touch the edges.
+}
+  }
+}
+
+2
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+  }
+  sector { Field }
+  extra {
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 83 }
+	  desc { To the north, you can see the top of what must be a _huge_ wall.
+}
+	to { e, 0 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 15 }
+	  desc { To the south, you can see flickering light on the horizon.
+}
+	to { w, 1 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+10
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+  There is a large hole in the grid here.
+  }
+  sector { Field }
+  extra {
+	keywords { hole" }
+	desc { The hole is slowly changing shape as the pattern moves, expan-
+ding and retracting, but never quite closing. It is quite dark.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 0 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { e, 11 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 20 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { w, 15 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { d, Main_matrix_auxiliary:1 }
+	  desc { The hole is slowly changing shape as the pattern moves, expan-
+ding and retracting, but never quite closing. It is quite dark.
+}
+  }
+}
+
+11
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+  }
+  sector { Field }
+  extra {
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 1 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { e, 12 }
+	  desc { Far away, near the horizon, you can see reflexes glittering off
+a glass road in the sky.
+}
+	to { s, 21 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { w, 10 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+12
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   To your east, a wide crack gapes through the strange material,
+that covers the ground.
+  }
+  sector { Field }
+  extra {
+	keywords { crack fault" }
+	desc { It is deep and wide, with sparking root-like strands snaking out
+of the sides. Huge glassy slabs with sharp edges provides a
+treacherous and uncertain-looking way down.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 1 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 22 }
+	  desc { The glass stretches all the way to the horizon, along the fault-
+line.
+}
+	to { w, 11 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { u, Main_matrix_auxiliary:10 }
+	  desc { A staircase of transparent glass, only made visible through the
+numerous reflexes from the ground, reach up to a glass road that
+sweeps over the horizon to the south-west.
+}
+	to { d, Main_matrix_auxiliary:20 }
+	  desc { Treacherous slabs of dull glass wih sharp edges provides a way
+down. One probably wouldn't be able to get back UP again, though!
+}
+  }
+}
+
+13
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   To your west, a wide fault splits the glassy material.
+  }
+  sector { Field }
+  extra {
+	keywords { crack fault" }
+	desc { It is deep and wide, with sparking root-like strands snaking out
+of the sides.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 2 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { e, 14 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 23 }
+	  desc { The glass stretches all the way to the horizon, along the crack.
+}
+  }
+}
+
+14
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+  }
+  sector { Field }
+  extra {
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 82 }
+	  desc { Near the horizon to the north, you can see the top of a _huge_
+wall.
+}
+	to { e, 15 }
+	  desc { You notice a flickering, multicoloured light on the horizon to
+the east.
+}
+	to { s, 23 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { w, 13 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+15
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   There is a tall beacon pole standing here, on top of which a
+powerful light strobes dizzyingly through the spectrum.
+  }
+  sector { Field }
+  extra {
+	keywords { pole beacon" }
+	desc { It is about one yd in diameter and 10 yds tall. It is made from
+polished metal, and look smooth and unclimbable. The light on
+top of it is too bright for you to make out the actual source.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 2 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { e, 10 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 24 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { w, 14 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+20
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+  }
+  sector { Field }
+  extra {
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 10 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { e, 21 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 50 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { w, 35 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+21
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+  }
+  sector { Field }
+  extra {
+	keywords { pyramid" }
+	desc { It is pale blue, and quite smooth, but details are hard to work
+out at this distance.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 11 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { e, 22 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 41 }
+	  desc { To the south, you can see the top of a huge pyramid, apparently
+standing on its tip.
+}
+	to { w, 20 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+22
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   To the east, a wide crack in the glass gapes hungrily.
+  }
+  sector { Field }
+  extra {
+	keywords { crack fault" }
+	desc { It is deep and wide, with sparking root-like strands snaking out
+of the sides.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 12 }
+	  desc { You can see the reflexes off a glass road in the sky, swinging
+around from the north to the southeast.The crack continues to the
+north.
+}
+	to { s, 13 }
+	  desc { The glass stretches all the way to the horizon, along the fault-
+line.
+}
+	to { w, 21 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+23
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   To your west, a wide crack in the glass mars the otherwise
+perfect geometry of the place.
+  }
+  sector { Field }
+  extra {
+	keywords { crack fault" }
+	desc { It is deep and wide, with sparking root-like strands snaking out
+of the sides.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 13 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { e, 14 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 33 }
+	  desc { The glass stretches along the fault, all the way to the horizon.
+}
+  }
+}
+
+24
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   To the south, you can see the northern end of a wide fault in
+the glassy material, that covers the ground.
+  }
+  sector { Field }
+  extra {
+	keywords { crack fault" }
+	desc { It is deep and wide, with sparking root-like strands snaking out
+of the sides.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back. The shapes
+seem unusually un-geometrical here, as if they were not really
+only 3-dimensional.
+	}
+  }
+  exits {
+	to { n, 15 }
+	  desc { To the north, you can barely make out a flickering light on the
+horizon.
+}
+	to { e, 35 }
+	  desc { To the east, you can follow the crack around its eastern side.
+}
+	to { w, 34 }
+	  desc { To the west, you can see a wide expanse of glass along the faults
+western side.
+}
+	to { d, Main_matrix_auxiliary:23 }
+	  desc { Wide slabs of broken, dull glass with sharp edges provide a way
+down amidst the debris. It is uncertain, however, whether they
+will provide a way up...
+}
+  }
+}
+
+32
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   To your east, a wide chasm opens in the glassy material, that
+cover the ground. A wooden log has been placed across it here.
+  }
+  sector { Field }
+  extra {
+	keywords { log bridge" }
+	desc { There are a few green leaves on some twigs, still holding on. It
+looks rather incongruous, lying there.
+	}
+	keywords { crack fault chasm" }
+	desc { It is deep and wide, with sparking root-like strands snaking out
+of the sides.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 22 }
+	  desc { The glass stretches along the crack, all the way to the horizon.
+}
+	to { e, Main_matrix_auxiliary:30 }
+	  desc { A wooden log, doubling as a bridge, has been placed across the
+fault-line to the east.
+}
+	to { s, 41 }
+	  desc { To the south, the crack vanishes in the distance, and towering
+above it, you can see the top of a large, pale-blue pyramid,
+apparently standing on its tip.
+}
+	to { w, 21 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+33
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   To your west, a wide chasm opens in the glassy material, that
+cover the ground. A wooden log has been placed across it here.
+   High above you, a vaguely-seen glass road stretches from
+north to south.
+  }
+  sector { Field }
+  extra {
+	keywords { log bridge" }
+	desc { There are a few green leaves on some twigs, still holding on. It
+looks rather incongruous, lying there.
+	}
+	keywords { crack fault chasm" }
+	desc { It is deep and wide, with sparking root-like strands snaking out
+of the sides.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 23 }
+	  desc { The glass stretches along the crack, all the way to the horizon.
+}
+	to { e, 34 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 43 }
+	  desc { To the south, the crack vanishes in the distance, and towering
+above it, you can see the top of a large, pale-blue pyramid,
+apparently standing on its tip.
+}
+	to { w, Main_matrix_auxiliary:30 }
+	  desc { A wooden log, doubling as a bridge, has been placed across the
+fault-line to the west.
+}
+  }
+}
+
+34
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   To the east, a narrow, but steep, crack opens in the ground.
+  }
+  sector { Field }
+  extra {
+	keywords { crack fault" }
+	desc { It is deep and narrow (though too wide to jump across..), with
+sparking root-like strands snaking out of the sides.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 24 }
+	  desc { The glass stretches all the way to the horizon, along the fault.
+}
+	to { s, 44 }
+	  desc { The glass stretches along the fault, all the way to the horizon.
+}
+	to { w, 33 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+35
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   To the north-west, a narrow, but steep, crack opens in the
+strange, glassy material, that covers the ground.
+  }
+  sector { Field }
+  extra {
+	keywords { crack fault" }
+	desc { It is deep and narrow (though too wide to jump across..), with
+sparking root-like strands snaking out of the sides.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 24 }
+	  desc { The glass stretches all the way to the horizon, along the fault.
+}
+	to { e, 20 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 45 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { w, 44 }
+	  desc { The glass stretches along the fault, all the way to the horizon.
+}
+  }
+}
+
+41
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   Above you, to the south-east, towers a gigantic structure; a
+pale blue pyramid, several hundred meters tall, standing in-
+verted tip-to-tip on a smaller (some 10-20 meters tall) pyramid.
+  }
+  sector { Field }
+  extra {
+	keywords { road" }
+	desc { The glass road, hanging unsupported in the air, is only visible
+due to the light it sheds, reflecting the lines in the ground
+	}
+	keywords { pyramid" }
+	desc { It looks flat out impossible, but never the less the larger
+pyramid is balanced, point-to-point, on the smaller. They are
+both polished smooth, pale blue, except at a point some 30 yds
+up on the larger one, where a black square hole provides en-
+trance for travelers on the glass road that reach it here.
+Where the pyramids intersect, they appear to be open to the air,
+the larger one only supported by four faintly-glowing girders.
+The pyramid is far too smooth to be climbable.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 21 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { e, 32 }
+	  desc { To the east, you can barely make out a vague shimmer on horizon.
+Also, a small, unidentifiable at this distance, object is lying
+near the shimmer.
+}
+	to { s, 51 }
+	  desc { To the south, under the enormous overhang of the upper pyramid,
+the glassy surface continues to the horizon.
+}
+	to { w, 45 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+43
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   To your west, a wide chasm opens in the glassy material, that
+cover the ground.
+   Above you, southwest of you, towers a gigantic structure; a pale
+blue pyramid, several hundred meters tall, standing inverted tip-to-
+tip on a smaller (some 10-20 meters tall) pyramid.
+   High above you, a vaguely-seen glass road stretches south, from
+a barely-seen opening in the upper pyramid.
+  }
+  sector { Field }
+  extra {
+	keywords { road" }
+	desc { The glass road, hanging unsupported in the air, is only visible
+due to the light it sheds, reflecting the lines in the ground
+	}
+	keywords { pyramid" }
+	desc { It looks flat out impossible, but never the less the larger
+pyramid is balanced, point-to-point, on the smaller. They are
+both polished smooth, pale blue, except at a point some 30 yds
+up on the larger one, where a black square hole provides en-
+trance for travelers on the glass road that reach it here.
+Where the pyramids intersect, they appear to be open to the air,
+the larger one only supported by four faintly-glowing girders.
+The pyramid is far too smooth to be climbable.
+	}
+	keywords { crack fault chasm" }
+	desc { It is deep and wide, with sparking root-like strands snaking out
+of the sides.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 33 }
+	  desc { The glass stretches along the crack, all the way to the horizon.
+}
+	to { e, 45 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 54 }
+	  desc { The black surface stretches as far as you can see.
+}
+  }
+}
+
+44
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   To the north, you can see the southern end of a wide fault in
+the glassy material that covers the ground.
+  }
+  sector { Field }
+  extra {
+	keywords { crack fault" }
+	desc { It is deep and wide, with sparking root-like strands snaking out
+of the sides.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back. The shapes
+seem unusually un-geometrical here, as if they were not really
+only 3-dimensional.
+	}
+  }
+  exits {
+	to { e, 35 }
+	  desc { To the east, you can follow the crack around its eastern side.
+}
+	to { s, 34 }
+	  desc { To the west, you can see a wide expanse of glass along the faults
+western side.
+}
+	to { d, Main_matrix_auxiliary:24 }
+	  desc { Wide slabs of broken, dull glass with sharp edges provide a way
+down amidst the debris. It is uncertain, however, whether they
+will provide a way up...
+}
+  }
+}
+
+45
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+  }
+  sector { Field }
+  extra {
+	keywords { square" }
+	desc { It looks like a trapdoor. There even is a rather small and
+inconspicuous handle set in it next to a tiny keyhole.
+	}
+	keywords { lines patterns web" }
+	desc { The patterns swirl and change all about you, except for one square
+that remains black and unchanging.
+	}
+  }
+  exits {
+	to { n, 35 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { e, 41 }
+	  desc { To the east you can see the top of a pyramid, standing inverted
+for some strange reason... or perhaps you are hallucinating?
+}
+	to { s, 83 }
+	  desc { Far to the south you can see the corner of a _very_ tall wall.
+}
+	to { w, 43 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { d, Main_matrix_auxiliary:50 }
+	  key { 8100 }
+	  info { door, closed }
+	  keywords { trapdoor door" }
+	  desc { There is a small square trapdoor in the pattern here. It doesn't
+change shape at all, as opposed to the rest of the pattern.
+}
+  }
+}
+
+50
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+  }
+  sector { Field }
+  extra {
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 20 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { e, 51 }
+	  desc { Far to the east (ENE, actually) you can see a corner of a large
+pale-blue pyramid, standing top downwards, as far as you can see...
+}
+	to { s, 80 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { w, 53 }
+	  desc { For as far as you can see (which isn't more than at most 1/2 mile)
+the black glass stretches unbroken.
+}
+  }
+}
+
+51
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   Above you, to the north-east, towers a gigantic structure; a
+pale blue pyramid, several hundred meters tall, standing in-
+verted tip-to-tip on a smaller (some 10-20 meters tall) pyramid.
+   High above you, a glass road only faintly seen sweeps to the
+northeast and the south.
+  }
+  sector { Field }
+  extra {
+	keywords { road" }
+	desc { The glass road, hanging unsupported in the air, is only visible
+due to the light it sheds, reflecting the lines in the ground.
+	}
+	keywords { pyramid" }
+	desc { It looks flat out impossible, but never the less the larger
+pyramid is balanced, point-to-point, on the smaller. They are
+both polished smooth, pale blue, except at a point some 30 yds
+up on the larger one, where a black square hole provides en-
+trance for travelers on the glass road that reach it here.
+Where the pyramids intersect, they appear to be open to the air,
+the larger one only supported by four faintly-glowing girders.
+The pyramid is far too smooth to be climbable.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 41 }
+	  desc { To the north, under the enormous overhang of the upper pyramid,
+the glassy surface continues to the horizon.
+}
+	to { e, 52 }
+	  desc { To the east, under the enormous overhang of the upper pyramid,
+the glassy surface continues. To the south-east, some crystal-
+line structures sparkle prettily.
+}
+	to { s, 61 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { w, 50 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+52
+{
+  name { Main Matrix }
+  desc {
+"   You are standing between the base of the lower pyramid (to the
+north) and the crystalline structures (to the south). The upper
+pyramid looms over you in a way that gives you severe doubts about
+the wisdom of standing underneath what looks like a million tons,
+balanced on a point...
+  }
+  sector { Field }
+  extra {
+	keywords { pyramid" }
+	desc { It looks flat out impossible, but never the less the larger
+pyramid is balanced, point-to-point, on the smaller.
+Where the pyramids intersect, they appear to be open to the air,
+the larger one only supported by four faintly-glowing girders.
+The pyramid is far too smooth to be climbable.
+	}
+	keywords { structure structures trees tree" }
+	desc { They look like trees, a bit too regular and balanced though (off
+course, the amount of debris cluttering the ground suggests that all
+the _im_-balanced ones have shattered too the ground...).
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { e, 53 }
+	  desc { Beyond the crystal trees to the east, you can see the corner of a
+HUGE wall, stretching south and further east.
+}
+	to { s, Void:-1 }
+	  desc { You see a tangled mass of crystalline structures blocking your
+way. Many of them looks broken, and shards of crystal litter the
+ground.
+}
+	to { w, 51 }
+	  desc { The black glass stretches out beyond the pyramid and the crystals,
+all the way to the horizon.
+}
+  }
+}
+
+53
+{
+  name { Main Matrix }
+  desc {
+"   You are standing next to the immensely tall wall, stretching out
+over the horizon to the east and west. Some ten yds up the wall begins
+a steel-girder staircase, looking like a fire-escape, only a bit too
+high. It continues all the vay to the top off the wall, several hundred
+yds above.
+  }
+  sector { Field }
+  extra {
+	keywords { stairs staircase" }
+	desc { It is made from thin steel girders, looking much too frail to
+support your weight.
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+	keywords { wall" }
+	desc { It is metallic-looking, very smooth and immensely high.
+	}
+  }
+  exits {
+	to { n, 54 }
+	  desc { The glass stretches off to the horizon.
+}
+	to { e, 50 }
+	  desc { The expanse of glass continues as far as you can see.
+}
+	to { w, 52 }
+	  desc { Beyond the wall to the south-west you can see a glittering, like
+reflexes in some crystal.
+}
+	to { u, Void:-1 }
+	  desc { There is much too high for you to jump all the way up to the stair-
+case there.
+}
+  }
+}
+
+54
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+  }
+  sector { Field }
+  extra {
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 44 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { e, 80 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { s, 53 }
+	  desc { Far in the distance to the south, you can see the top of a huge
+wall, going from a corner to the southeast over the horizon in the
+southwest
+}
+	to { w, 43 }
+	  desc { To the west, you can see the top of a great pale-blue pyramid, appa-
+rently standing on its tip.
+}
+  }
+}
+
+61
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+   To the east, some crystalline structures, looking like glass
+trees, bars your way.
+  }
+  sector { Field }
+  extra {
+	keywords { structure structures trees tree" }
+	desc { They look like trees, a bit too regular and balanced though (off
+course, the amount of debris cluttering the ground suggests that all
+the _im_-balanced ones have shattered too the ground...).
+	}
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 51 }
+	  desc { Far to the north (NNW, actually) you can see a corner of a large
+pale-blue pyramid, standing top downwards, as far as you can see...
+}
+	to { e, Void:-1 }
+	  desc { You see a tangled mass of crystalline structures blocking your
+way. Many of them looks broken, and shards of crystal litter the
+ground.
+}
+	to { s, 72 }
+	  desc { The glass stretches all the way to the horizon. Far to the south-
+east, beyond the crystal structures, you glimpse the top of a huge
+wall.
+}
+	to { w, 71 }
+	  desc { Somewhere off to the southwest you can see a pillar of light
+stretching up towards infinity.
+}
+  }
+}
+
+71
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on the glass surface next to a tower thrusting up
+from a steep hole. A narrow bridge leads across what is essentially a
+moat, across to a wide gate in the tower wall.
+  }
+  sector { Field }
+  extra {
+	keywords { tower" }
+	desc { The tower is made from the same material as the rest of the matrix;
+looking closer you can see that the matrix just dips down into the moat-
+like hole, then thrusts up as the tower walls. The lines and patterns
+continue down the hole and up the tower, but they are much more twisted
+and convoluted here. Near the top of the tower there is a balcony, and
+from the flat roof a glass bridge or road leads away, over the horizon
+to the northeast. You can barely make out a guardian-like figure standing
+on the top.
+	}
+	keywords { road bridge" }
+	desc { The glass road, hanging unsupported in the air, is only visible
+due to the light it sheds, reflecting the lines in the ground.
+	}
+	keywords { figure guard guardian person" }
+	desc { You can't make out details at this distance.
+	}
+	keywords { letters" }
+	desc { "               ======================================
+        		     POWERTOWER
+                      AUTHORIZED PERSONNEL ONLY
+
+                          DATABASE IS DOWN
+
+                   !   D O   N O T   E N T E R   !
+               ======================================
+
+You can see that it has been written using a letter template and an
+unusually nasty-coloured spray paint.
+	}
+	keywords { door gate" }
+	desc { The doors lie in shadow, but you can easily make out the large letters
+on them, written in a truly disgusting neon purple colour.
+	}
+  }
+  exits {
+	to { n, 61 }
+	  desc { The black glassy surface stretches for as far as you can see.
+}
+	to { e, 72 }
+	  desc { Near the horizon you can see the top of a huge wall, stretching north
+and south. To the north it disappears beyond some crystalline structures,
+to the south it continues past the horizon.
+}
+	to { s, 1 }
+	  desc { The glassy surface stretches south for as far as you can see.
+}
+	to { w, Main_matrix_auxiliary:899 }
+	  info { door, closed }
+	  keywords { gate door" }
+	  desc { Through the door you can see nothing but a grey fog, shot through occa-
+sionally with red lightening. A faint wailing can be heard, as from souls
+in mortal agony.
+}
+  }
+}
+
+72
+{
+  name { Main Matrix }
+  desc {
+"   You are standing beneath a huge gate, set into an even higher
+wall. It must be at least 300 yds tall! The gates are some 50 yds
+high, and there is no wall above them.
+  }
+  sector { Field }
+  extra {
+	keywords { wall" }
+	desc { It is metallic-looking, very smooth and immensely high.
+	}
+  }
+  exits {
+	to { n, 61 }
+	  desc { The way directly to the north along the wall is blocked by some
+crystalline structures. To the west of those the glassy expanse
+continues as far as you can see.
+}
+	to { e, Void:-1 }
+	  desc { The gates are much too high to jump over (I mean, 50 yds? Come ON!).
+}
+	to { s, 82 }
+	  desc { The glassy expanse continues south along the wall.
+}
+	to { w, 71 }
+	  desc { Far to the west you can see a soaring pillar of light, stretching up
+from a small tower.
+}
+  }
+}
+
+80
+{
+  name { Main Matrix }
+  desc {
+"   You are standing on what appears to be an expanse of black
+glass. Beneath your feet perfectly straight lines form enormous,
+web-like patterns, glowing with a bluish-green light. The sky is
+a uniform pale grey, and the horizon seem to be much too close.
+  }
+  sector { Field }
+  extra {
+	keywords { lines patterns web" }
+	desc { The lines seem to be shifting slowly, twisting from squares,
+to hexagons, to twisted irregular shapes, and back.
+	}
+  }
+  exits {
+	to { n, 50 }
+	  desc { Somewhere off to the northeast you can see a pillar of light
+stretching up towards infinity.
+}
+	to { e, 82 }
+	  desc { Far to the east you can see the top of a _really_ high wall,
+and somewhere off to the northeast you can see a pillar of light
+stretching up towards infinity.
+}
+	to { s, 0 }
+	  desc { The glass stretches all the way to the horizon.
+}
+	to { w, 54 }
+	  desc { The glass stretches all the way to the horizon.
+}
+  }
+}
+
+82
+{
+  name { Main Matrix }
+  desc {
+"   You are standing beneath a huge gate, set into an even higher
+wall. It must be at least 300 yds tall! The gates are some 50 yds
+high, and there is no wall above them.
+  }
+  sector { Field }
+  extra {
+	keywords { wall" }
+	desc { It is metallic-looking, very smooth and immensely high.
+	}
+  }
+  exits {
+	to { n, 61 }
+	  desc { The glassy expanse continues north along the wall.
+}
+	to { e, Void:-1 }
+	  desc { The gates are much too high to jump over (I mean, 50 yds? Come ON!).
+}
+	to { s, 14 }
+	  desc { The glassy expanse continues south for as far as you can see.
+}
+	to { w, 80 }
+	  desc { The glassy expanse continues south for as far as you can see.
+}
+  }
+}
+
+83
+{
+  name { Main Matrix }
+  desc {
+"   You are standing under the the highest wall you've ever seen.
+From where you stand, near the south-eastern corner, a slope leads
+up to a wide portal set in the south wall, some 40 yds up.
+  }
+  sector { Field }
+  extra {
+	keywords { gate portal slope" }
+	desc { The slope leads up to a portal, through which you can see a swirling
+grey fog, shot through with red lightening. Occasionally a tendril of
+fog snakes out, looking as if sniffing, then withdraws with a shudder.
+From within, a faint wailing can be heard, as if from souls in agony.
+	}
+	keywords { wall" }
+	desc { It is metallic-looking, very smooth and immensely high.
+	}
+  }
+  exits {
+	to { n, 53 }
+	  desc { Around the corner, the glass stretches along the wall beyond the
+horizon.
+}
+	to { e, 45 }
+	  desc { The glassy expanse continues for as far as you can see.
+}
+	to { s, 2 }
+	  desc { The glassy expanse continues for as far as you can see.
+}
+	to { w, Main_matrix_auxiliary:899 }
+	  desc { The slope leads up to a portal, through which you can see a swirling
+grey fog, shot through with lightening. Occasionally a tendril of fog
+snakes out, looking as if sniffing, then withdraws with a shudder. From
+within, a faint wailing can be heard, as if from souls in agony.
+}
+  }
+}

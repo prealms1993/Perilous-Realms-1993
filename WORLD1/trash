@@ -1,0 +1,21 @@
+
+0
+{
+  name { Darrel's Home }
+  desc {
+A sign on the far wall reads "Welcome to my home, you can visit for as long
+as you like, but please clean up after yourself. - Darrel"
+Around the room you notice various scenes of battle woven into tapestries
+hanging from the wall.  In the center of room stands a large table
+overflowing with food and drink.  Next to the far wall stands a full suit
+of glowing armor and a huge flaming two-handed sword.  Along the walls
+torches burn, providing light.  You begin to wonder if you are really
+welcome here.
+  }
+  flags { indoors }
+  exits {
+	to { w, Ershteep:1 }
+	  info { door, closed }
+	  keywords { Door" }
+  }
+}

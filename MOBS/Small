@@ -1,0 +1,29 @@
+3000
+{
+name { Zifnab }
+namelist { zifnab }
+shortdesc { Zifnab wanders behind the counter, talking to himself }
+longdesc {
+He is wearing brown robes, and seems to be having a conversation with the
+floor.  All the more disturbing because the floor occasionally answers.
+}
+race { human }
+height { 170 }
+level { 900 }
+alignment { 1000 }
+gold { 50000 }
+hit_bonus { 37 }
+dam_bonus { 37 }
+attacks_per_round { 4 }
+head { -80, 10 }
+body { -80, 10 }
+arms { -80, 10 }
+legs { -80, 5 }
+feet { -80, 5 }
+hp { 1, 1, 40000  }
+move { 300 }
+experience { 876802 }
+damage { 8, 8, 28  }
+immune { backstab, charm }
+act { sentinel, citizen }
+}

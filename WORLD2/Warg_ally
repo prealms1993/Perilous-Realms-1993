@@ -1,0 +1,1297 @@
+
+1
+{
+  name { Entry to Warg Alley }
+  desc {
+If you are small enough to squirm through the small crumbeling entry way,
+you have the feeling that adventure awaits.
+  }
+  sector { City }
+  flags { no_mob }
+  exits {
+	to { e, 2 }
+	  info { door, closed }
+	  keywords { crumbling hole" }
+	  desc { The opening leads to a large courtyard.
+}
+	to { w, Moor1:3 }
+	  desc { A side street lies to the west.
+}
+  }
+}
+
+2
+{
+  name { Courtyard }
+  desc {
+Large Courtyard with a bricked over arched entryway is to the west.
+The courtyard has the look of long neglect and is covered with
+unhealthy looking litter.
+  }
+  sector { City }
+  exits {
+	to { n, 3 }
+	  desc { Courtyard
+}
+	to { e, 6 }
+	  desc { Courtyard
+}
+	to { s, 8 }
+	  desc { Courtyard
+}
+	to { w, 1 }
+	  desc { Bricked over archway with a small hole.
+}
+  }
+}
+
+3
+{
+  name { Courtyard }
+  desc {
+Northwest corner of a large, dirty courtyard. Stangely, quite, you feel a
+faint unease as you peer east.
+  }
+  sector { City }
+  exits {
+	to { e, 4 }
+	  desc { Courtyard
+}
+	to { s, 2 }
+	  desc { Courtyard
+}
+  }
+}
+
+4
+{
+  name { Courtyard }
+  desc {
+North side of the large courtyard. Suddenly a loud, mad howl of an unknown
+beast reverberates through the courtyard.
+  }
+  sector { City }
+  exits {
+	to { e, 5 }
+	  desc { Courtyard
+}
+	to { s, 6 }
+	  desc { Courtyard
+}
+	to { w, 3 }
+	  desc { Courtyard
+}
+  }
+}
+
+5
+{
+  name { Courtyard }
+  desc {
+Northeast corner of the courtyard. Again the howl of the mad animal rings
+out. It sounds vaguely doglike. Still there is some quality that you just
+can't put your finger on.
+  }
+  sector { City }
+  exits {
+	to { s, 7 }
+	  desc { Courtyard
+}
+	to { w, 4 }
+	  desc { Courtyard
+}
+  }
+}
+
+6
+{
+  name { Courtyard }
+  desc {
+Center of the large, neglected courtyard. You fell very vulnerable to
+attack from all sides here.
+  }
+  sector { City }
+  exits {
+	to { n, 4 }
+	  desc { Courtyard
+}
+	to { e, 7 }
+	  desc { Courtyard
+}
+	to { s, 9 }
+	  desc { Courtyard
+}
+	to { w, 2 }
+	  desc { Courtyard
+}
+  }
+}
+
+7
+{
+  name { Courtyard }
+  desc {
+East side of the courtyard. The howls are getting clearer now. The east wall
+of the courtyard has a chewed look. What could be so hungry that it would
+chew earthen bricks?
+  }
+  sector { City }
+  exits {
+	to { n, 5 }
+	  desc { Courtyard
+}
+	to { s, 10 }
+	  desc { Courtyard
+}
+	to { w, 6 }
+	  desc { Courtyard
+}
+  }
+}
+
+8
+{
+  name { Courtyard }
+  desc {
+Southwest corner of a large, dirty courtyard. Stangely, quite, you feel a
+faint unease as you peer east.
+  }
+  sector { City }
+  exits {
+	to { n, 2 }
+	  desc { Courtyard
+}
+	to { e, 9 }
+	  desc { Courtyard
+}
+  }
+}
+
+9
+{
+  name { Courtyard }
+  desc {
+South side of the large courtyard. Suddenly a loud, mad howl of an unknown
+beast reverberates through the courtyard.
+  }
+  sector { City }
+  exits {
+	to { n, 6 }
+	  desc { Courtyard
+}
+	to { e, 10 }
+	  desc { Courtyard
+}
+	to { w, 8 }
+	  desc { Courtyard
+}
+  }
+}
+
+10
+{
+  name { Courtyard }
+  desc {
+Southeast corner of the courtyard. Again the howl of the mad animal rings
+out. It sounds vaguely doglike. Still there is some quality that you just
+can't put your finger on. You can make out the beginnings of a decayed meat
+stench.......
+  }
+  sector { City }
+  exits {
+	to { n, 7 }
+	  desc { Courtyard
+}
+	to { e, 11 }
+	  desc { Dark, roughly chewed opening to the east.
+}
+	to { w, 9 }
+	  desc { Courtyard
+}
+  }
+}
+
+11
+{
+  name { Mirky Alley }
+  desc {
+A dimly lit alleyway stretches before you. If you look directly up, you
+can see the beautiful sky.
+  }
+  sector { Field }
+  exits {
+	to { e, 12 }
+	  desc { Mirky Alley
+}
+	to { w, 10 }
+	  desc { Courtyard
+}
+  }
+}
+
+12
+{
+  name { Mirky Alley }
+  desc {
+A dimly lit alleyway stretches before you. If you look directly up, you
+can see less of the beautiful sky.
+  }
+  sector { Field }
+  exits {
+	to { e, 13 }
+	  desc { Mirky Alley
+}
+	to { w, 11 }
+	  desc { Mirky Alley
+}
+  }
+}
+
+13
+{
+  name { Mirky Alley }
+  desc {
+A dimly lite alleyway stretches before you. If you look directly up, you
+can see very little of the beautiful sky. You are beginning to wonder if you
+should turn back.
+  }
+  sector { Field }
+  exits {
+	to { e, 36 }
+	  desc { Crumbling hole in the wall
+}
+	to { s, 14 }
+	  desc { Growling Alley
+}
+	to { w, 12 }
+	  desc { Mirky Alley
+}
+  }
+}
+
+14
+{
+  name { Growling Alley }
+  desc {
+The howls have now given way to deep throated growls. If you look up now,
+you will find that you can now longer see the sky. Aren't you glad you
+brought a light? But you shiver with the thought that it could burn out.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 13 }
+	  desc { Mirky Alley
+}
+	to { s, 15 }
+	  desc { Growling Alley
+}
+  }
+}
+
+15
+{
+  name { Growling Alley }
+  desc {
+The howls have now given way to deep throated growls. It hard to imagine how
+there can be a darker, scarier alleyway anywhere.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 14 }
+	  desc { Growling Alley
+}
+	to { s, 16 }
+	  desc { Growling Alley
+}
+  }
+}
+
+16
+{
+  name { Growling Alley }
+  desc {
+The growls are getting worst. This is getting on your nerves.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 15 }
+	  desc { Growling Alley
+}
+	to { s, 17 }
+	  desc { Growling Alley
+}
+  }
+}
+
+17
+{
+  name { Growling Alley }
+  desc {
+The growls are becoming so strong that the walls are beginning to vibrate.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 16 }
+	  desc { Growling Alley
+}
+	to { e, 18 }
+	  desc { Growling Alley
+}
+  }
+}
+
+18
+{
+  name { Growling Alley }
+  desc {
+The growls are becoming so strong that the walls are beginning to vibrate.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 19 }
+	  desc { Growling Alley
+}
+	to { w, 17 }
+	  desc { Growling Alley
+}
+  }
+}
+
+19
+{
+  name { Growling Alley }
+  desc {
+The growls are becoming so strong that the walls are beginning to vibrate.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 20 }
+	  desc { Growling Alley
+}
+	to { w, 18 }
+	  desc { Growling Alley
+}
+  }
+}
+
+20
+{
+  name { Growling Alley }
+  desc {
+The growls are becoming so strong that the walls are beginning to vibrate.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 21 }
+	  desc { Growling Alley
+}
+	to { w, 19 }
+	  desc { Growling Alley
+}
+  }
+}
+
+21
+{
+  name { Growling Alley }
+  desc {
+The growls are becoming so strong that the walls are beginning to vibrate.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 22 }
+	  desc { Growling Alley
+}
+	to { w, 20 }
+	  desc { Growling Alley
+}
+  }
+}
+
+22
+{
+  name { Growling Alley }
+  desc {
+The growls are becoming so strong that the walls are beginning to vibrate.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 23 }
+	  desc { Growling Alley
+}
+	to { w, 21 }
+	  desc { Growling Alley
+}
+  }
+}
+
+23
+{
+  name { Growling Alley }
+  desc {
+The growls are becoming so strong that the walls are beginning to vibrate.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 24 }
+	  desc { Growling Alley
+}
+	to { w, 22 }
+	  desc { Growling Alley
+}
+  }
+}
+
+24
+{
+  name { Growling Alley }
+  desc {
+The growls are becoming so strong that the walls are vibrating.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 25 }
+	  desc { Growling Alley
+}
+	to { w, 23 }
+	  desc { Growling Alley
+}
+  }
+}
+
+25
+{
+  name { Growling Alley }
+  desc {
+No it is not your imagination, the walls are visually vibrating. Will they
+stay up?
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 26 }
+	  desc { Growling Alley
+}
+	to { w, 24 }
+	  desc { Growling Alley
+}
+  }
+}
+
+26
+{
+  name { Growling Alley }
+  desc {
+How much longer to you have to put up with this growling? Of course the
+gnawed bones littering the alley are of some concern also.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 27 }
+	  desc { Growling Alley
+}
+	to { s, 25 }
+	  desc { Growling Alley
+}
+  }
+}
+
+27
+{
+  name { Growling Alley }
+  desc {
+You can no longer hear the growling. The frequency of the growling has dropped
+below your hearing range. Still the walls are shaking!
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 28 }
+	  desc { Shaking Alley
+}
+	to { s, 26 }
+	  desc { Growling Alley
+}
+  }
+}
+
+28
+{
+  name { Shaking Alley }
+  desc {
+The walls are shaking and so is the ground. The litter of bones has grown.
+scattered amoung the bones is a lot of loose, brownish fur.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 29 }
+	  desc { Quiet Intersection
+}
+	to { s, 26 }
+	  desc { Growling Alley
+}
+  }
+}
+
+29
+{
+  name { Quiet Intersection }
+  desc {
+The vibrating has stopped. Instead, there is a hungry anticipation hanging
+in the air.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 30 }
+	  desc { Mirky Alley
+}
+	to { s, 28 }
+	  desc { Shaking Alley
+}
+	to { w, 56 }
+	  desc { Small hole in the wall}
+  }
+}
+
+30
+{
+  name { Mirky Alley }
+  desc {
+A dimly lite alleyway stretches before you. If you look directly up, you
+can see less of the beautiful sky.
+  }
+  sector { Field }
+  exits {
+	to { e, 31 }
+	  desc { Mirky Alley
+}
+	to { w, 29 }
+	  desc { Quiet Intersection
+}
+  }
+}
+
+31
+{
+  name { Mirky Alley }
+  desc {
+The alley has quickly closed on you. Ahead is darkness, back is light.
+  }
+  sector { Field }
+  exits {
+	to { e, 32 }
+	  desc { Animal Den
+}
+	to { w, 30 }
+	  desc { Mirky Alley
+}
+  }
+}
+
+32
+{
+  name { Warg-Fido Den }
+  desc {
+A large den of the most unholy combination. A warg stud and his fido mates
+are here defending their pack of half-grown half breeds. Still the offspring
+are very hungry and glad to see you.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { n, 33 }
+	  desc { Northern Alleyway
+}
+	to { w, 31 }
+	  desc { Mirky Alley
+}
+  }
+}
+
+33
+{
+  name { Northern Alley }
+  desc {
+As you step into the alleyway, a cold shiver runs down your spine.
+This area is clean and well lite. Why? Why haven't the warg-fido's
+messed this area up too?
+  }
+  sector { Field }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 34 }
+	  desc { Large House
+}
+	to { s, 32 }
+	  desc { Warg-Fido Den
+}
+  }
+}
+
+34
+{
+  name { Large well kept house }
+  desc {
+The floor of this well kept house is covered with the skins of countless
+wargs. But everyonce in awhile, you see what could be a human skin amoung
+the warg skins. The walls are covered with beautiful tapestries depicting
+battles against lamias. For some reason, the lamias are always winning.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 35 }
+	  desc { Study
+}
+	to { s, 33 }
+	  desc { Northern Alley
+}
+  }
+}
+
+35
+{
+  name { Warg Master Study }
+  desc {
+This looks like the room of a master thinker. The room is littered with
+paper everywhere. The walls are covered with unusual writing. You sure
+wish you had spent more time studying at school, instead of spending all
+your spare time off adventuring.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { s, 34 }
+	  desc { Front room
+}
+  }
+}
+
+36
+{
+  name { Quiet tunnel }
+  desc {
+You are in the middle of a dirt tunnel. The footprints in the soft dirt
+floor look like someone was walking on stilts.
+  }
+  sector { Field }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 39 }
+	  desc { Edge of Anthill
+}
+	to { w, 13 }
+	  desc { Mirky Alley
+}
+  }
+}
+
+37
+{
+  name { Edge of anthill }
+  desc {
+You stand on the outside edge of a large anthill.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { e, 42 }
+	  desc { Anthill
+}
+	to { s, 38 }
+	  desc { Edge of anthill
+}
+  }
+}
+
+38
+{
+  name { Edge of anthill }
+  desc {
+You stand on the outside edge of a large anthill.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 37 }
+	  desc { Edge of anthill
+}
+	to { e, 42 }
+	  desc { Anthill
+}
+	to { s, 39 }
+	  desc { Edge of anthill
+}
+  }
+}
+
+39
+{
+  name { Edge of anthill }
+  desc {
+You stand on the outside edge of a large anthill.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 38 }
+	  desc { Edge of anthill
+}
+	to { e, 43 }
+	  desc { Anthill 
+}
+	to { s, 40 }
+	  desc { Edge of anthill
+}
+	to { w, 36 }
+	  desc { Quiet tunnel
+}
+  }
+}
+
+40
+{
+  name { Edge of anthill }
+  desc {
+You stand on the outside edge of a large anthill.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 39 }
+	  desc { Edge of anthill
+}
+	to { e, 44 }
+	  desc { Anthill
+}
+	to { s, 41 }
+	  desc { Edge of anthill
+}
+  }
+}
+
+41
+{
+  name { Edge of anthill }
+  desc {
+You stand on the outside edge of a large anthill.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 40 }
+	  desc { Edge of anthill
+}
+	to { e, 44 }
+	  desc { Anthill 
+}
+  }
+}
+
+42
+{
+  name { Anthill }
+  desc {
+You are standing midway up a large mound of hard packed dirt. All around you
+are ants.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 45 }
+	  desc { Anthill
+}
+	to { e, 46 }
+	  desc { Top of hill
+}
+	to { s, 43 }
+	  desc { Anthill
+}
+	to { w, 37 }
+	  desc { Edge of anthill
+}
+  }
+}
+
+43
+{
+  name { Anthill }
+  desc {
+You are standing midway up a large mound of hard packed dirt. All around you
+are ants.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 42 }
+	  desc { Anthill
+}
+	to { e, 46 }
+	  desc { Top of hill
+}
+	to { s, 44 }
+	  desc { Anthill
+}
+	to { w, 39 }
+	  desc { Edge of anthill
+}
+  }
+}
+
+44
+{
+  name { Anthill }
+  desc {
+You are standing midway up a large mound of hard packed dirt. All around you
+are ants.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 43 }
+	  desc { Anthill
+}
+	to { e, 46 }
+	  desc { Top of hill
+}
+	to { s, 47 }
+	  desc { Anthill
+}
+	to { w, 41 }
+	  desc { Edge of anthill
+}
+  }
+}
+
+45
+{
+  name { Anthill }
+  desc {
+You are standing midway up a large mound of hard packed dirt. All around you
+are ants.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { e, 46 }
+	  desc { Top of hill
+}
+	to { s, 42 }
+	  desc { Anthill
+}
+  }
+}
+
+46
+{
+  name { Top of Anthill }
+  desc {
+Ah, you have reached the top of the hill. Congratulations! From here, you
+can see the opening into the anthill. Do you dare go in? All it takes is
+just 1 little step down.........
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 45 }
+	  desc { Anthill
+}
+	to { e, 49 }
+	  desc { Anthill
+}
+	to { s, 43 }
+	  desc { Anthill
+}
+	to { w, 47 }
+	  desc { Anthill
+}
+	to { d, 57 }
+	  desc { Ant hill Entrance
+}
+  }
+}
+
+47
+{
+  name { Anthill }
+  desc {
+You are standing midway up a large mound of hard packed dirt. All around you
+are ants.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 46 }
+	  desc { Top of hill
+}
+	to { e, 50 }
+	  desc { Anthill
+}
+	to { w, 44 }
+	  desc { Anthill
+}
+  }
+}
+
+48
+{
+  name { Anthill }
+  desc {
+You are standing midway up a large mound of hard packed dirt. All around you
+are ants.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 45 }
+	  desc { Anthill
+}
+	to { e, 46 }
+	  desc { Top of hill
+}
+	to { s, 49 }
+	  desc { Anthill
+}
+  }
+}
+
+49
+{
+  name { Anthill }
+  desc {
+You are standing midway up a large mound of hard packed dirt. All around you
+are ants.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 48 }
+	  desc { Anthill
+}
+	to { e, 53 }
+	  desc { Edge of anthill
+}
+	to { s, 50 }
+	  desc { Anthill
+}
+	to { w, 46 }
+	  desc { Top of hill
+}
+  }
+}
+
+50
+{
+  name { Anthill }
+  desc {
+You are standing midway up a large mound of hard packed dirt. All around you
+are ants.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 49 }
+	  desc { Anthill
+}
+	to { e, 46 }
+	  desc { Top of hill
+}
+	to { s, 47 }
+	  desc { Anthill
+}
+  }
+}
+
+51
+{
+  name { Edge of anthill }
+  desc {
+You stand on the outside edge of a large anthill.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { s, 52 }
+	  desc { Edge of anthill
+}
+	to { w, 48 }
+	  desc { Anthill 
+}
+  }
+}
+
+52
+{
+  name { Edge of anthill }
+  desc {
+You stand on the outside edge of a large anthill.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 51 }
+	  desc { Edge of anthill
+}
+	to { s, 53 }
+	  desc { Edge of anthill
+}
+	to { w, 48 }
+	  desc { Anthill 
+}
+  }
+}
+
+53
+{
+  name { Edge of anthill }
+  desc {
+You stand on the outside edge of a large anthill.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 52 }
+	  desc { Edge of anthill
+}
+	to { e, 56 }
+	  desc { Quiet tunnel
+}
+	to { s, 54 }
+	  desc { Edge of anthill
+}
+	to { w, 49 }
+	  desc { Anthill 
+}
+  }
+}
+
+54
+{
+  name { Edge of anthill }
+  desc {
+You stand on the outside edge of a large anthill.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 53 }
+	  desc { Edge of anthill
+}
+	to { s, 55 }
+	  desc { Edge of anthill
+}
+	to { w, 50 }
+	  desc { Anthill 
+}
+  }
+}
+
+55
+{
+  name { Edge of anthill }
+  desc {
+You stand on the outside edge of a large anthill.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 54 }
+	  desc { Edge of anthill
+}
+	to { w, 50 }
+	  desc { Anthill 
+}
+  }
+}
+
+56
+{
+  name { Quiet tunnel }
+  desc {
+You are in the middle of a dirt tunnel. The footprints in the soft dirt
+floor look like someone was walking on stilts.
+  }
+  sector { Field }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 29 }
+	  desc { Quiet Intersection
+}
+	to { w, 53 }
+	  desc { Edge of Anthill
+}
+  }
+}
+
+57
+{
+  name { Entrance to nest }
+  desc {
+You are standing on a small ledge. About 6 feet below you, you can see the
+staff turn horizontal. Above you, you can see the exit to the ant nest. Do
+humans really belong here?
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { u, 46 }
+	  desc { Top of hill
+}
+	to { d, 58 }
+	  desc { Inside nest
+}
+  }
+}
+
+58
+{
+  name { Inside nest }
+  desc {
+You are standing at the bottom of the shaft. Way above you, you can see the
+exit. There is a tunnel nearly 8 feet in diameter off to the north, but it
+curves to the east after about 30 feet. The walls of the tunnel seem to be
+coated solid, sickly white material.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 59 }
+	  desc { Curve in nest
+}
+	to { u, 57 }
+	  desc { Entrance to nest
+}
+  }
+}
+
+59
+{
+  name { Curve in nest }
+  desc {
+The white tunnels are beginning to close in on you. This would be a perfect
+place to defend the tunnels if one was so inclined.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { e, 60 }
+	  desc { Long, quiet tunnel
+}
+	to { s, 58 }
+	  desc { Inside nest
+}
+  }
+}
+
+60
+{
+  name { Long, quite tunnel }
+  desc {
+The tunnel widens as it continues east. The white walls could make weaker
+people feel sick. Still, it is nice and quiet here. Wonder why??
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { e, 61 }
+	  desc { Tunnel Intersection
+}
+	to { w, 59 }
+	  desc { Curve in nest
+}
+  }
+}
+
+61
+{
+  name { Tunnel intersection }
+  desc {
+Hmmm.... Now what? Should you continue east, or north. Perhaps if you are
+wise, you will go back and leave these white halls to their rightfull owners.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 64 }
+	  desc { Long, quite tunnel
+}
+	to { e, 62 }
+	  desc { Long, quite tunnel
+}
+	to { w, 60 }
+	  desc { Long, quite tunnel
+}
+  }
+}
+
+62
+{
+  name { Long, quite tunnel }
+  desc {
+To the east, you hear a lot of noise and you notice an odd smell. Still the
+walls are the same sickly white, but you notice that the quality of the walls
+has degraded.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { e, 63 }
+	  desc { Worker's quarters
+}
+	to { w, 61 }
+	  desc { Tunnel intersection
+}
+  }
+}
+
+63
+{
+  name { Worker's quarters }
+  desc {
+Ah, now this is more like home! This must be where the ant's actually live.
+This place is a mess. If it weren't for the sickly white walls and all these
+ants, you could mistake this place for your bedroom.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { w, 62 }
+	  desc { Long, quite tunnel
+}
+  }
+}
+
+64
+{
+  name { Long, quite tunnel }
+  desc {
+To the west, you hear a lot of noise and you notice an sweet smell. Still the
+walls are the same sickly white, but you notice that the quality of the walls
+has upgraded.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { s, 61 }
+	  desc { Tunnel intersection
+}
+	to { w, 65 }
+	  desc { Queen's chamber
+}
+  }
+}
+
+65
+{
+  name { Queen's chamber }
+  desc {
+You are standing in a huge, beautiful, perfumed room. How would have thought
+that this ugly white could actually be made to look wonderfull! Why would
+simple ants do that?
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { e, 64 }
+	  desc { Long, quite tunnel
+}
+  }
+}

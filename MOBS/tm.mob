@@ -1,0 +1,920 @@
+33000
+{
+name { the King of Tarin }
+namelist { king tarin }
+shortdesc { The king of Tarin stands here looking at the statues. }
+longdesc {
+The first thing you notice about this man is the way he stands.
+Nothing, not even a single muscle seems to move on his body. He
+stands like he was frozen in time and space.  Battle scars show
+the great deal of experience this man has.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 400 }
+alignment { -1000 }
+gold { 32500 }
+hit_bonus { 25 }
+dam_bonus { 17 }
+attacks_per_round { 5 }
+head { -200, 9 }
+body { -200, 9 }
+arms { -200, 9 }
+legs { -200, 9 }
+feet { -200, 9 }
+hp { 9, 750, 9200 }
+move { 300 }
+experience { 676064 }
+damage { 4, 7, 8 }
+immune { charm, pierce }
+affected { detect-evil, sanctuary, detect-invisible, true sight }
+act { special, sentinel, scavenger, aggressive }
+spell { shriek }
+}
+33001
+{
+name { the stone statue }
+namelist { statue stone }
+shortdesc { A stone statue stands here. }
+longdesc {
+You see a statue with a strange skin made of stone. It's pearly white
+looks mad.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 150 }
+alignment { -1000 }
+gold { 200 }
+hit_bonus { 20 }
+dam_bonus { 6 }
+attacks_per_round { 3 }
+head { 0, 6 }
+body { 0, 6 }
+arms { 0, 6 }
+legs { 0, 6 }
+feet { 0, 6 }
+hp { 4, 150, 600 }
+move { 300 }
+experience { 29908 }
+damage { 4, 4, 2 }
+immune { charm, pierce }
+affected { detect-invisible, sanctuary, true sight }
+act { aggressive, stay-zone }
+}
+33002
+{
+name { A dark lord of Tarin }
+namelist { lord dark }
+shortdesc { A sneaky looking dark lord of Tarin stands here. }
+longdesc {
+ You see an awful looking man, dead ages ago. His eyes are pearly white
+as all monsters in this realm.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 101 }
+alignment { -1000 }
+gold { 500 }
+hit_bonus { 15 }
+dam_bonus { 5 }
+attacks_per_round { 2 }
+head { 0, 4 }
+body { 0, 4 }
+arms { 0, 4 }
+legs { 0, 4 }
+feet { 0, 4 }
+hp { 4, 100, 600  }
+move { 300 }
+experience { 51744 }
+damage { 4, 4, 15 }
+affected { sanctuary, true sight, detect-invisible }
+act { aggressive }
+immune { charm, pierce }
+spell { energy drain, fireball }
+}
+33003
+{
+name { the Warlord }
+namelist { warlord dark }
+shortdesc { An enormous looking warlord stands here. }
+longdesc {
+ You see a golem, undead, hovering above you with an insane look in its
+eyes.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 300 }
+alignment { -500 }
+gold { 22500 }
+hit_bonus { 20 }
+dam_bonus { 15 }
+attacks_per_round { 3 }
+head { -40, 6 }
+body { -40, 6 }
+arms { -40, 6 }
+legs { -40, 6 }
+feet { -40, 6 }
+hp { 5, 300, 5400 }
+move { 300 }
+experience { 393353 }
+damage { 2, 7, 15 }
+affected { sanctuary, true sight }
+act { special, aggressive }
+immune { charm, pierce }
+spell { energy drain, fireball }
+caster { 45 }
+}
+33004
+{
+name { the silver dragon }
+namelist { dragon }
+shortdesc { A beautiful silver dragon rests on a throne of gold. }
+longdesc {
+ You see a beautiful silver dragon, though tired of holding this last
+bastion from the evil forces, still pretty. Once in a while you see
+the silver body fade into an even more beautiful young woman.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 400 }
+alignment { 1000 }
+gold { 32500 }
+hit_bonus { 20 }
+dam_bonus { 17 }
+attacks_per_round { 3 }
+head { -100, 10 }
+body { -100, 10 }
+arms { -100, 10 }
+legs { -100, 10 }
+feet { -100, 10 }
+hp { 4, 500, 7200 }
+move { 300 }
+experience { 650050 }
+damage { 4, 4, 10 }
+immune { charm, pierce }
+affected { detect-invisible, sanctuary }
+act { sentinel }
+spell { ice storm, meteor shower, cone of cold }
+}
+33005
+{
+name { the royal elven captain }
+namelist { elf elven captain }
+shortdesc { A royal elf captain stands guard here. }
+longdesc {
+ You see a young elf guard, looking human though a couple of sticky ears
+shows the difference.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 300 }
+alignment { 1000 }
+gold { 22500 }
+hit_bonus { 24 }
+dam_bonus { 15 }
+attacks_per_round { 3 }
+head { -20, 7 }
+body { -20, 9 }
+arms { -20, 7 }
+legs { -20, 7 }
+feet { -20, 7 }
+hp { 4, 300, 3400 }
+move { 300 }
+experience { 426000 }
+damage { 6, 2, 20 }
+immune { charm }
+resistant { pierce }
+affected { detect-invisible, sanctuary, true sight }
+act { special, sentinel, scavenger }
+spell { firestorm }
+}
+33006
+{
+name { the elven guard }
+namelist { guard elven }
+shortdesc { A young elven guard stands here. }
+longdesc {
+ You see a rather broad shouldered guard with a firm look in his eyes.
+The many days under siege have surely made him tired, but non the less
+he is still on his post guarding the queen, the silver dragon.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 150 }
+alignment { 1000 }
+gold { 200 }
+hit_bonus { 20 }
+dam_bonus { 6 }
+attacks_per_round { 2 }
+head { 0, 0 }
+body { 0, 0 }
+arms { 0, 0 }
+legs { 0, 0 }
+feet { 0, 0 }
+hp { 4, 150, 600 }
+move { 300 }
+experience { 39908 }
+damage { 2, 4, 5 }
+affected { detect-invisible, sanctuary }
+act { special, sentinel }
+resistant { pierce }
+immune { charm }
+}
+33007
+{
+name { the elven hall guard }
+namelist { hall guard elf elven }
+shortdesc { A large elven hall guard stands here watching the curtains. }
+longdesc {
+ You see a tired looking elf with big blue eyes, the white hair is long
+and though the tired look on his face, he seems ready to fight for his
+life.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 141 }
+alignment { 1000 }
+gold { 200 }
+hit_bonus { 15 }
+dam_bonus { 5 }
+attacks_per_round { 2 }
+head { 10, 5 }
+body { 10, 5 }
+arms { 10, 5 }
+legs { 10, 5 }
+feet { 10, 5 }
+hp { 4, 140, 600 }
+move { 300 }
+experience { 35212 }
+damage { 2, 5, 8 }
+affected { detect-invisible }
+act { special, sentinel }
+resistant { pierce }
+immune { charm }
+}
+33008
+{
+name { the elven battlemaster }
+namelist { battlemaster elven }
+shortdesc { A large elven battlemaster stands here. }
+longdesc {
+ You see a dark elf with frey hair, his eyes is sparkling blue and shows
+no fear of anything.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 250 }
+alignment { 600 }
+gold { 17000 }
+hit_bonus { 21 }
+dam_bonus { 13 }
+attacks_per_round { 3 }
+head { -40, 7 }
+body { -40, 7 }
+arms { -40, 7 }
+legs { -40, 7 }
+feet { -40, 7 }
+hp { 4, 250, 4000 }
+move { 300 }
+experience { 205572 }
+damage { 3, 6, 16 }
+affected { detect-invisible, true sight }
+immune { pierce, charm }
+spell { bash, kick }
+}
+33009
+{
+name { the undead lich }
+namelist { undead lich }
+shortdesc { A large undead lich is here growling like a fierce animal. }
+longdesc {
+ You see an undead wizard assembling wierd powers of evil.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 101 }
+alignment { -1000 }
+gold { 200 }
+hit_bonus { 10 }
+dam_bonus { 5 }
+attacks_per_round { 2 }
+head { 80, 4 }
+body { 80, 4 }
+arms { 80, 4 }
+legs { 80, 4 }
+feet { 80, 4 }
+hp { 4, 100, 600 }
+move { 300 }
+experience { 171744 }
+damage { 1, 100, 1 }
+affected { invisible, detect-invisible, sanctuary }
+act { aggressive, stay-zone }
+immune { pierce, charm }
+spell { chill touch }
+}
+33010
+{
+name { the red devil }
+namelist { devil red }
+shortdesc { A hoovering red devil is here. }
+longdesc {
+You see nothing special about it.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 160 }
+alignment { -900 }
+gold { 300 }
+hit_bonus { 15 }
+dam_bonus { 6 }
+attacks_per_round { 2 }
+head { 10, 6 }
+body { 10, 6 }
+arms { 10, 6 }
+legs { 10, 6 }
+feet { 10, 6 }
+hp { 4, 160, 620 }
+move { 300 }
+experience { 57558 }
+damage { 2, 7, 7 }
+affected { invisible, detect-invisible, sanctuary }
+act { aggressive }
+spell { curse, energy drain }
+}
+33011
+{
+name { the black devil }
+namelist { devil black }
+shortdesc { A huge black devil is here. }
+longdesc {
+You see a black devil with a evil look in it's eyes.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 180 }
+alignment { -1000 }
+gold { 5000 }
+hit_bonus { 18 }
+dam_bonus { 8 }
+attacks_per_round { 2 }
+head { 10, 7 }
+body { 10, 7 }
+arms { 10, 7 }
+legs { 10, 7 }
+feet { 10, 7 }
+hp { 4, 180, 740 }
+move { 300 }
+experience { 75792 }
+damage { 3, 8, 10 }
+affected { invisible, detect-invisible, sanctuary }
+act { aggressive }
+resistant { pierce }
+immune { charm }
+spell { curse, energy drain }
+}
+33012
+{
+name { the black knight }
+namelist { knight black }
+shortdesc { A black knight charges you. }
+longdesc {
+You see a humanoid creature, it's skin is dark and no-one ever seemed to
+be able to rid the world of it's presence.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 260 }
+alignment { -1000 }
+gold { 17000 }
+hit_bonus { 22 }
+dam_bonus { 13 }
+attacks_per_round { 3 }
+head { -80, 9 }
+body { -80, 9 }
+arms { -80, 9 }
+legs { -80, 9 }
+feet { -80, 9 }
+hp { 4, 260, 2180 }
+move { 300 }
+experience { 287280 }
+damage { 3, 10, 20 }
+affected { detect-invisible, sanctuary, true sight }
+act { aggressive }
+resistant { pierce }
+immune { charm }
+spell { chain lightning, kick, bash }
+}
+33013
+{
+name { the drake }
+namelist { drake }
+shortdesc { A large drake stands here, burning with scorching heat. }
+longdesc {
+ The huge mouth is covered in blood, and from the color you guess it must be
+human. -* Eirk *-
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 170 }
+alignment { -1000 }
+gold { 3200 }
+hit_bonus { 16 }
+dam_bonus { 6 }
+attacks_per_round { 3 }
+head { 10, 6 }
+body { 10, 6 }
+arms { 10, 6 }
+legs { 10, 6 }
+feet { 10, 6 }
+hp { 4, 170, 640 }
+move { 300 }
+experience { 61812 }
+damage { 3, 8, 8 }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+resistant { pierce }
+immune { charm }
+spell { kick, bash }
+}
+33014
+{
+name { the undead blacksmith }
+namelist { undead blacksmith }
+shortdesc { The undead blacksmith stands here, doing it's dirty job. }
+longdesc {
+You see the looks of a once peaceful blacksmith turned, by the evil forces,
+into this horrible creature.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 220 }
+alignment { -1000 }
+gold { 7000 }
+hit_bonus { 20 }
+dam_bonus { 10 }
+attacks_per_round { 2 }
+head { -20, 0 }
+body { -20, 0 }
+arms { -20, 0 }
+legs { -20, 0 }
+feet { -20, 0 }
+hp { 4, 220, 1460 }
+move { 300 }
+experience { 161184 }
+damage { 2, 8, 16 }
+immune { charm, pierce }
+affected { detect-invisible, sanctuary, true sight }
+act { sentinel, aggressive }
+spell { kick, bash }
+}
+33015
+{
+name { the black minotaur }
+namelist { minotaur black }
+shortdesc { A large black minotaur stands here, drooling like a madman. }
+longdesc {
+You see a large creature, totally enveloped in darkness.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 450 }
+alignment { -1000 }
+gold { 35000 }
+hit_bonus { 26 }
+dam_bonus { 18 }
+attacks_per_round { 2 }
+head { -100, 10 }
+body { -100, 10 }
+arms { -100, 10 }
+legs { -100, 10 }
+feet { -100, 10 }
+hp { 6, 450, 8615 }
+move { 300 }
+experience { 482069 }
+damage { 8, 10, 10 }
+affected { detect-invisible, infravision }
+act { sentinel, aggressive }
+resistant { pierce }
+immune { charm }
+spell { kick, bash }
+}
+33016
+{
+name { the minotaur god }
+namelist { god minotaur }
+shortdesc { The god of minotaurs rests on the throne looking very angry. }
+longdesc {
+You see a mass with the form of a minotaur, large claws that look to be able
+to cut through rock are on both hands and feet.
+Eyes burning with hatred meet you as you enter.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 500 }
+alignment { -1000 }
+gold { 45000 }
+hit_bonus { 25 }
+dam_bonus { 20 }
+attacks_per_round { 5 }
+head { -50, 2 }
+body { -50, 2 }
+arms { -50, 2 }
+legs { -50, 2 }
+feet { -50, 2 }
+hp { 4, 500, 11500 }
+move { 300 }
+experience { 1240048 }
+damage { 8, 10, 20 }
+affected { detect-invisible, sanctuary, true sight }
+act { special, sentinel, aggressive }
+resistant { pierce }
+immune { charm }
+spell { kick, bash, firestorm }
+caster { 45 }
+}
+33017
+{
+name { the black baron }
+namelist { baron black undead }
+shortdesc { The black baron stands here planning the next attack upon the dragon. }
+longdesc {
+ The black baron is a nasty looking man converted to the dark side of life,
+his eyes ears have been cut off and the only thing on him that reminds of a
+human being is the fact that he still got his nose and eyes. Both blue!
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 180 }
+alignment { -1000 }
+gold { 50 }
+hit_bonus { 17 }
+dam_bonus { 8 }
+attacks_per_round { 2 }
+head { 0, 0 }
+body { 0, 0 }
+arms { 0, 0 }
+legs { 0, 0 }
+feet { 0, 0 }
+hp { 4, 180, 740 }
+move { 300 }
+experience { 65410 }
+damage { 3, 4, 8 }
+affected { detect-invisible, sanctuary }
+act { sentinel, aggressive }
+immune { pierce }
+}
+33018
+{
+name { the elven soldier }
+namelist { elf elven soldier }
+shortdesc { An elven soldier stands guard here. }
+longdesc {
+You see an elf with green eyes and huge sticky ears. The long blond hair is
+carefully placed beneith a helmet.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 160 }
+alignment { 1000 }
+gold { 3200 }
+hit_bonus { 16 }
+dam_bonus { 6 }
+attacks_per_round { 2 }
+head { 0, 0 }
+body { 0, 0 }
+arms { 0, 0 }
+legs { 0, 0 }
+feet { 0, 0 }
+hp { 4, 160, 620 }
+move { 300 }
+experience { 41824 }
+damage { 3, 5, 6 }
+immune { charm }
+affected { detect-invisible, sanctuary }
+act { wimpy }
+}
+33019
+{
+name { the undead wolf }
+namelist { wold undead }
+shortdesc { An undead wolf sneaks around here. }
+longdesc {
+You see a wolf like creature with red flaming eyes.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 80 }
+alignment { -1000 }
+gold { 1800 }
+hit_bonus { 8 }
+dam_bonus { 4 }
+attacks_per_round { 2 }
+head { 40, 3 }
+body { 40, 3 }
+arms { 40, 3 }
+legs { 40, 3 }
+feet { 40, 3 }
+hp { 4, 80, 473 }
+move { 300 }
+experience { 19532 }
+damage { 2, 5, 3 }
+affected { detect-invisible, sneak }
+act { aggressive, stay-zone }
+immune { pierce }
+}
+33020
+{
+name { the burned tree }
+namelist { tree burned undead }
+shortdesc { A burned tree hoovers above you, it seems to have been dead for ages. }
+longdesc {
+You see an enormous tree lacking every branch and every leaf on it's body,
+what ever the force who did this is, it is indeed powerful.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 300 }
+alignment { -1000 }
+gold { 0 }
+hit_bonus { 20 }
+dam_bonus { 15 }
+attacks_per_round { 2 }
+head { -100, 10 }
+body { -100, 10 }
+arms { -100, 10 }
+legs { -100, 10 }
+feet { -100, 10 }
+hp { 4, 300, 3400 }
+move { 300 }
+experience { 390287 }
+damage { 3, 15, 10 }
+immune { charm, pierce }
+affected { detect-invisible }
+act { aggressive, stay-zone, wimpy }
+spell { fireball }
+}
+33021
+{
+name { the undead earth snake }
+namelist { snake undead }
+shortdesc { A fairly large undead earth snake slitters around here. }
+longdesc {
+ A slimy slettering snake, with an ugly tongue.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 50 }
+alignment { -500 }
+gold { 900 }
+hit_bonus { 10 }
+dam_bonus { 3 }
+attacks_per_round { 2 }
+head { 0, 0 }
+body { 0, 0 }
+arms { 0, 0 }
+legs { 0, 0 }
+feet { 0, 0 }
+hp { 4, 50, 300 }
+move { 300 }
+experience { 8166 }
+damage { 3, 3, 2 }
+act { aggressive, stay-zone }
+}
+33022
+{
+name { the silvery waiter }
+namelist { waiter silvery }
+shortdesc { A young silvery waiter stands here. }
+longdesc {
+ You see one of the personal waiter of the silver dragon.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 80 }
+alignment { 1000 }
+gold { 1800 }
+hit_bonus { 20 }
+dam_bonus { 4 }
+attacks_per_round { 2 }
+head { 0, 3 }
+body { 0, 3 }
+arms { 0, 3 }
+legs { 0, 3 }
+feet { 0, 3 }
+hp { 4, 80, 473 }
+move { 300 }
+experience { 13978 }
+damage { 5, 5, 7 }
+immune { charm }
+affected { detect-invisible }
+act { sentinel, wimpy }
+}
+33023
+{
+name { the king of trees }
+namelist { tree king }
+shortdesc { The king of all trees in the world stands here, thinking about life. }
+longdesc {
+You see a "thing" with leaf's and branches almost in the shape of a human
+being, a pair of white eyes have been placed on something looking just like
+a human head.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 600 }
+alignment { 1000 }
+gold { 47500 }
+hit_bonus { 30 }
+dam_bonus { 20 }
+attacks_per_round { 4 }
+head { -200, 12 }
+body { -200, 12 }
+arms { -200, 12 }
+legs { -200, 12 }
+feet { -200, 12 }
+hp { 4, 600, 14633 }
+move { 300 }
+experience { 893891 }
+damage { 9, 9, 24 }
+immune { charm, pierce }
+affected { detect-evil, detect-invisible, detect-magic, sense-life, sanctuary, infravision, true sight }
+act { sentinel, scavenger }
+spell { chain lightning }
+}
+33024
+{
+name { A huge ancient tree }
+namelist { ancient tree }
+shortdesc { A huge ancient tree stands here, guarding the north entrance. }
+longdesc {
+You see a large tree, that doesn't move a bit when you approach it. It's
+arms and legs are leg giant branches from the biggest tree you have ever
+seen. Battlescars is everywhere on this trees body.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 600 }
+alignment { 1000 }
+gold { 47500 }
+hit_bonus { 40 }
+dam_bonus { 20 }
+attacks_per_round { 4 }
+head { 0, 2 }
+body { 0, 2 }
+arms { 0, 2 }
+legs { 0, 2 }
+feet { 0, 2 }
+hp { 4, 600, 14633 }
+move { 300 }
+experience { 697545 }
+immune { charm }
+damage { 25, 4, 20 }
+affected { detect-evil, detect-invisible, sense-life, sanctuary, infravision }
+act { special, sentinel, stay-zone }
+}
+33025
+{
+name { the black griffin }
+namelist { griffin black evil }
+shortdesc { A black griffin flies around here. }
+longdesc {
+You see a dark dog like creature with a huge pair of wings on it's back,
+it's red eyes glares evilly at you.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 200 }
+alignment { -1000 }
+gold { 7000 }
+hit_bonus { 20 }
+dam_bonus { 10 }
+attacks_per_round { 3 }
+head { 0, 0 }
+body { 0, 0 }
+arms { 0, 0 }
+legs { 0, 0 }
+feet { 0, 0 }
+hp { 4, 200, 1100  }
+move { 300 }
+experience { 77352 }
+damage { 2, 8, 10  }
+affected { detect-invisible, infravision }
+act { scavenger, aggressive, stay-zone }
+}
+33026
+{
+name { the undead spirit }
+namelist { spirit undead }
+shortdesc { A transparent spirit is hoovering above the ground here. }
+longdesc {
+The spirit is white, and looks just like a cartoon monster.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 150 }
+alignment { -1000 }
+gold { 3200 }
+hit_bonus { 14 }
+dam_bonus { 6 }
+attacks_per_round { 2 }
+head { 10, 6 }
+body { 10, 6 }
+arms { 10, 6 }
+legs { 10, 6 }
+feet { 10, 6 }
+hp { 4, 150, 600  }
+move { 300 }
+experience { 36049 }
+damage { 3, 7, 14  }
+affected { infravision, true sight }
+act { scavenger, aggressive }
+}
+33027
+{
+name { the titan }
+namelist { titan }
+shortdesc { A HUGE titan sits here eating some rotten flesh from a corpse. }
+longdesc {
+You see a humanoid creature with ENORMOUS arms, it's eyes are firmly
+fixedd upon the rotten flesh it's eating.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 360 }
+alignment { -100 }
+gold { 27500 }
+hit_bonus { 30 }
+dam_bonus { 16 }
+attacks_per_round { 3 }
+head { -50, 7 }
+body { -50, 7 }
+arms { -50, 7 }
+legs { -50, 7 }
+feet { -50, 7 }
+hp { 4, 360, 5680  }
+move { 300 }
+experience { 396317 }
+damage { 1, 100, 10  }
+affected { infravision, true sight }
+act { sentinel, scavenger }
+spell { bash, kick }
+}
+33028
+{
+name { the sphinx }
+namelist { sphinx }
+shortdesc { A strange looking sphinx rests under a huge tree. }
+longdesc {
+You see a strange looking creature half dog half human, it's eyes looks
+at you as though it was going to ask you a question.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 500 }
+alignment { 0 }
+gold { 45000 }
+hit_bonus { 50 }
+dam_bonus { 20 }
+attacks_per_round { 4 }
+head { -28, 2 }
+body { -28, 2 }
+arms { -28, 2 }
+legs { -28, 2 }
+feet { -28, 2 }
+hp { 4, 500, 11500  }
+move { 300 }
+experience { 540048 }
+damage { 7, 8, 14  }
+immune { charm }
+affected { detect-invisible, infravision, true sight }
+act { sentinel }
+}

@@ -1,0 +1,2513 @@
+
+0
+{
+  name { T in Dirt Road }
+  desc {
+"   The road forms a 'T' here, continuing its way west to the Lotus
+Blossom and branching off north towards the other side of town.  There
+is a certain feeling of tranquility in the air, heightened by the soft
+music of a flute somewhere nearby, floating along the breeze...
+  }
+  sector { City }
+  exits {
+	to { n, 3 }
+	to { e, 1 }
+	to { w, 2 }
+  }
+}
+
+1
+{
+  name { Dirt Road }
+  desc {
+"   A quaint little path through a beautiful forest of light green.  You
+can hear the birds singing in the breeze, and somewhere in the distance
+you can hear the plucking medody of someone playing a koto.  There is a 
+small wooden sign along the side of the road, hand carved.  The path
+continues west.
+  }
+  sector { City }
+  extra {
+	keywords { sign" }
+	desc { "
+      Welcome to Little Kyoto!
+
+Be sure to visit our attractions, including
+the Shinto Temple, the Lotus Blossom Bar, 
+and the Happy Samurai.  Have a good stay!
+	}
+  }
+  exits {
+	to { e, Midgard_trail:2 }
+	to { w, 0 }
+  }
+}
+
+2
+{
+  name { Outside the Lotus Blossom }
+  desc {
+"   The second favorite hangout of the Shogun's men.  The Lotus Blossom
+sits peacefully to the south here, where the road ends.  The building
+is small and unobtrusive; not much sound emanates from within, and a
+small curl of black smoke rises from the chimney.  The dirt road goes
+back east.
+  }
+  sector { City }
+  extra {
+	keywords { chimney" }
+	desc { Words could not describe the beauty.
+	}
+  }
+  exits {
+	to { e, 0 }
+	to { s, 4 }
+  }
+}
+
+3
+{
+  name { Outside Brothel }
+  desc {
+"   You stand outside the Happy Samurai, a favorite hangout of the Shogun's
+men.  The low roof droops down invitingly over the entrance to the east.
+Hmm...wonder if anyone's around...
+  }
+  sector { City }
+  exits {
+	to { n, 8 }
+	to { e, 9 }
+	to { s, 0 }
+  }
+}
+
+4
+{
+  name { The Lotus Blossom }
+  desc {
+"   The most popular bar (and the only bar) in town.  The only place 
+where samurai and yakuza can sit in the same room and drink a hot
+cup of sake.  Many a farmer with marital problems can be found here,
+although most respectable people stay away.  Strange...not as many
+people are here as you expected from the numbers going in...
+   There is an ornate teakwood door inconspicuously beckoning at the
+back of the room on the west wall, and you can leave north.
+  }
+  extra {
+	keywords { door" }
+	desc { "   This beautifully carved, ornate teakwood door sits inconspicuisly
+at the back of the room on the west wall.  It is difficult to spot at
+first; the way it is carved almost makes it seem to be a part of the
+wall.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 2 }
+	to { w, 5 }
+	  key { 50500 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+5
+{
+  name { Back Room }
+  desc {
+"   This is the "secret" opium den located in the back room of the
+Lotus Blossom.  The dim lighting is worsened by the smoke; the air
+is quite stuffy.  Patrons lie around on mats in inebriated pleasure,
+sucking the deadly smoke that is their life's blood out of their
+water pipes.
+   One of the mats has been moved aside, revealing an inviting
+passage underneath...
+  }
+  flags { indoors }
+  exits {
+	to { e, 4 }
+	  key { 50500 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 6 }
+  }
+}
+
+6
+{
+  name { Yakuza Den }
+  desc {
+"   The secret underground hideout of the Japanese gangsters
+known as the Yakuza.  Thieves scurry back and forth, some
+carrying messages, some carrying money, some carrying drugs.
+Many of them are missing fingers.
+   The practice yard is to the west, and a foreboding room
+lies to the east...
+  }
+  flags { indoors }
+  exits {
+	to { e, 7 }
+	to { w, 25 }
+	to { u, 5 }
+  }
+}
+
+7
+{
+  name { Inner Sanctum }
+  desc {
+"   The office of the Yakuza Master...head of organized crime
+in Little Kyoto.  A strong sense of lust for money and power
+pervades this place, adding to the atmosphere of violence.
+  Money and opium lie discarded carelessly all around the room,
+and you can exit to the west.
+  }
+  flags { indoors }
+  exits {
+	to { w, 6 }
+  }
+}
+
+8
+{
+  name { Crossroads }
+  desc {
+"   You stand at the crossroads in the middle of town.  You can travel west
+towards Yamaguchi's Dojo and the Shogun's palace, or east towards the poorer
+farm district.  The bar and brothel are both to the south, and you can travel
+farther north into the Minakami Woods.
+  }
+  sector { City }
+  exits {
+	to { n, 26 }
+	to { e, 15 }
+	to { s, 3 }
+	to { w, 13 }
+  }
+}
+
+9
+{
+  name { Foyer }
+  desc {
+"   The foyer of the Happy Samurai, the local whorehouse.  Very tastefully
+decorated, considering the business that is done here.  Paintings of cranes
+and peacocks line the walls, adding to the warm, friendly atmosphere.  You
+can take the stairway up to go deeper (?) into the building, or you can exit
+to the west.  (There is a certain part of you screaming "GO UP! GO UP!!")
+  }
+  flags { indoors }
+  exits {
+	to { w, 3 }
+	to { u, 10 }
+  }
+}
+
+10
+{
+  name { Hallway }
+  desc {
+"   This is a quaint, well-kept hallway.  Not elegant, but...servicable.  
+There are two sliding paper screens here, to the north and south.  The
+hall continues east, and you can go down the stairs to the foyer.  Was
+that a giggle you just heard?...
+  }
+  flags { indoors }
+  exits {
+	to { n, 16 }
+	  info { door, closed }
+	  keywords { screen paper" }
+	to { e, 11 }
+	to { s, 18 }
+	  info { door, closed }
+	  keywords { screen paper" }
+	to { d, 9 }
+  }
+}
+
+11
+{
+  name { Hallway }
+  desc {
+"   The hallway ends here at another paper screen to the east, with two others
+to your north and south.  You can travel west back down the hall, or maybe do
+a little "exploring."  
+   Did you just hear a moan?  Nah...
+  }
+  flags { indoors }
+  exits {
+	to { n, 17 }
+	  info { door, closed }
+	  keywords { screen paper" }
+	to { e, 12 }
+	  info { door, closed }
+	  keywords { screen paper" }
+	to { s, 19 }
+	  info { door, closed }
+	  keywords { screen paper" }
+	to { w, 10 }
+  }
+}
+
+12
+{
+  name { Matron Whore's Bedroom }
+  desc {
+"   This room is different from the others, there is only one mat and one
+pillow, and the light is dimmer.  Hope you didn't interrupt anything...
+  }
+  flags { indoors }
+  exits {
+	to { w, 11 }
+	  info { door, closed }
+	  keywords { screen paper" }
+  }
+}
+
+13
+{
+  name { Outside Temple }
+  desc {
+"   The most beautiful and majestic building in Little Kyoto, the Shinto
+monastary, lies to the south.  You can hear the chants of the priests
+counting beads emanating from within, an endless circle in search of the
+ultimate meaninglessness of life and death.  You can enter to the south,
+or you can continue along your way to the east and west.
+  }
+  sector { City }
+  exits {
+	to { e, 8 }
+	to { s, 80 }
+	to { w, 14 }
+  }
+}
+
+14
+{
+  name { Outside Dojo }
+  desc {
+"  You stand just outside the dojo of Yamaguchi Sensei, the greatest karate
+teacher in Little Kyoto.  There must be a class in progress; the building
+shakes with the stomping of feet and the air is filled with the distant sounds
+of the students kiai.  The road continues west a short way and ends at the
+Shogun's Palace, or you can travel back east.
+  }
+  sector { City }
+  exits {
+	to { n, 20 }
+	to { e, 13 }
+	to { w, 33 }
+  }
+}
+
+15
+{
+  name { Farm District }
+  desc {
+"   The poorer section of Little Kyoto, where all the real production takes
+place.  Fields of rice stretch out towards the mountains to the east, a
+tribute to plenty.  The farmer would obviously be well off if he wasn't so
+heavily taxed by the Shogun.  The farmer's house lies directly to the north,
+and the rice mill to the immediate east.  You can travel back west to the
+crossroads.
+  }
+  sector { City }
+  exits {
+	to { n, 24 }
+	to { e, 23 }
+	to { w, 8 }
+  }
+}
+
+16
+{
+  name { Bedroom }
+  desc {
+"   You have entered one of the chambers where the geishas wait for their
+customers.  There are several mats and pillows lying around, and you can
+hear giggles and moans emanating from all around you.  The only exit is
+back through the paper screen.
+  }
+  flags { indoors }
+  exits {
+	to { s, 10 }
+	  info { door, closed }
+	  keywords { screen paper" }
+  }
+}
+
+17
+{
+  name { Bedroom }
+  desc {
+"   You have entered one of the chambers where the geishas wait for their
+customers.  There are several mats and pillows lying around, and you can
+hear giggles and moans emanating from all around you.  The only exit is
+back through the paper screen.
+  }
+  flags { indoors }
+  exits {
+	to { s, 11 }
+	  info { door, closed }
+	  keywords { screen paper" }
+  }
+}
+
+18
+{
+  name { Bedroom }
+  desc {
+"   You have entered one of the chambers where the geishas wait for their
+customers.  There are several mats and pillows lying around, and you can
+hear giggles and moans emanating from all around you.  The only exit is
+back through the paper screen.
+  }
+  flags { indoors }
+  exits {
+	to { n, 10 }
+	  info { door, closed }
+	  keywords { screen paper" }
+  }
+}
+
+19
+{
+  name { Bedroom }
+  desc {
+"   You have entered one of the chambers where the geishas wait for their
+customers.  There are several mats and pillows lying around, and you can
+hear giggles and moans emanating from all around you.  The only exit is
+back through the paper screen.
+  }
+  flags { indoors }
+  exits {
+	to { n, 11 }
+	  info { door, closed }
+	  keywords { screen paper" }
+  }
+}
+
+20
+{
+  name { Third Chamber }
+  desc {
+"   The third chamber of the dojo, where lower ranking black belts can usually
+be found instructing the latest wave of white belts.  A cool breeze flows in
+from several open screens, keeping the air fresh.  The hardwood floor is clean
+and smooth, and several charts of beginning kata are on the walls.  You can
+leave the dojo to the south, or go north into the second chamber.
+  }
+  extra {
+	keywords { charts chart" }
+	desc { The crane katas of the Saifa series are beautifully illustrated for those who
+wish to further their training. 
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 21 }
+	to { s, 14 }
+  }
+}
+
+21
+{
+  name { Second Chamber }
+  desc {
+"   The second chamber of the dojo, where Yamaguchi sensei himself can be found
+guiding the further instruction of his black belt students.  A portrait of
+Miyagi Sensei is on the wall above several makiwara striking boards.  There is
+a screen to the north, beatifully painted with the image of a tiger preparing
+to pounce...
+  }
+  extra {
+	keywords { portrait picture miyagi" }
+	desc { A solemn portrait of Sensei Chojun Miyagi, founder of Goju-Ryu karate.
+	}
+	keywords { makiwara striking boards board" }
+	desc { The makiwara are striking posts lined along the walls for the students to
+practice their linear striking techniques and toughen their hands.
+	}
+	keywords { screen tiger painting" }
+	desc { The screen must lead to another room to the north, although it is closed
+right now.  The tiger is very realistically painted, its hungry eyes stare
+into you soul...
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 22 }
+	  info { door, closed }
+	  keywords { screen paper" }
+	to { s, 20 }
+  }
+}
+
+22
+{
+  name { First Chamber }
+  desc {
+"   You have breached the sanctity of the first chamber, a training place
+reserved only for the inner circles of the higher ranking black belts.  You
+can attempt to escape to the south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 21 }
+	  info { door, closed }
+	  keywords { screen paper" }
+  }
+}
+
+23
+{
+  name { Rice Mill }
+  desc {
+"   This is the rice mill, where all the rice grinding is done.  Rice lies all
+around you in abundance, a sure sign that milling has taken place recently.  
+You can exit west.
+  }
+  flags { indoors }
+  exits {
+	to { w, 15 }
+  }
+}
+
+24
+{
+  name { Farmhouse }
+  desc {
+"   You are inside the farmhouse, where the rice farmer resides with his wife
+and children.  The surroundings are rather simple, but clean and well-cared
+after.  You can exit to the south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 15 }
+  }
+}
+
+25
+{
+  name { Practice Yard }
+  desc {
+"   The training yard of Japanese thieves.  Some of the younger Yakuza
+are practicing their skills here, honing their abilities to backstab,
+pick locks, steal, and so on.  You notice that most of them still have
+all of their fingers.  There is a passage leading back to the den to the
+east.
+  }
+  flags { indoors }
+  exits {
+	to { e, 6 }
+  }
+}
+
+26
+{
+  name { Forest Path }
+  desc {
+"   A quaint little path through a beautiful forest of light green.  You
+can hear the birds singing in the breeze, and somewhere in the distance
+you hear the sound of rushing water.  The path continues north into the
+Minakami Woods and south to Little Kyoto.
+  }
+  sector { Forest }
+  exits {
+	to { n, 34 }
+	to { s, 8 }
+  }
+}
+
+27
+{
+  name { Front Gate }
+  desc {
+"   You stand just outside the palace of the Shogun, the ruler of Little
+Kyoto.  You can hear the sounds of the samurai in training in the courtyard
+beyond the front gate, they sound pretty tough.  You can go east down the
+dirt road and re-enter town, or you can brave the palace...
+  }
+  extra {
+	keywords { gate" }
+	desc { "   The gate is black metal, and guards the way into the courtyard beyond,
+where you can see the samurai practicing their fighting skills.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 33 }
+	to { w, 28 }
+	  info { door, closed }
+	  keywords { gate iron black" }
+  }
+}
+
+28
+{
+  name { Courtyard }
+  desc {
+"   You stand in the courtyard of the Shogun's palace, where his men can
+often be found practicing their swordfighting and their aikido.  You can
+leave the palace to the east, or you can continue west into the garden.
+  }
+  flags { indoors }
+  exits {
+	to { e, 27 }
+	  info { door, closed }
+	  keywords { gate iron black" }
+	to { w, 29 }
+  }
+}
+
+29
+{
+  name { Garden }
+  desc {
+"   You are in a quaint herb garden used to grow the herbs that season the
+Shogun's food.  You go east to the training courtyard, or you can enter the
+residential area of the palace to the west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 28 }
+	to { w, 30 }
+	  info { door, closed }
+	  keywords { screen paper" }
+  }
+}
+
+30
+{
+  name { Anteroom }
+  desc {
+"   This is the anteroom of the palace, and is beautifully and richly 
+decorated with different paintings and carvings from all over the realms.
+You can go to the garden to the east, the throne room to the north, and 
+the sleeping chamber to the south.
+  }
+  sector { City }
+  exits {
+	to { n, 31 }
+	to { e, 29 }
+	  info { door, closed }
+	  keywords { screen paper" }
+	to { s, 32 }
+	  info { door }
+	  keywords { screen paper" }
+  }
+}
+
+31
+{
+  name { Throne Room }
+  desc {
+"   This is the throne room of the Shogun, where he rules this town and
+its inhabitants.  You are awed by the grandeur of this room, but you hold
+back your respect-this was all paid for out of the taxes of the over-
+burdened residents of Little Kyoto.  You can exit south.
+  }
+  sector { City }
+  exits {
+	to { s, 30 }
+  }
+}
+
+32
+{
+  name { Bedroom }
+  desc {
+"   You are in the private sleeping chamber of the Shogun, where all of
+his illegitimate children are conceived.  You can exit to the north.
+  }
+  sector { City }
+  exits {
+	to { n, 30 }
+	  info { door }
+	  keywords { screen paper" }
+  }
+}
+
+33
+{
+  name { Dirt Road }
+  desc {
+"   You are nearing the end of the dirt road, the front gate of the Shogun's
+palace lies before you.  You can go west or back east towards the rest of
+town.
+  }
+  sector { City }
+  exits {
+	to { e, 14 }
+	to { w, 27 }
+  }
+}
+
+34
+{
+  name { Denser Forest }
+  desc {
+"   The forest is very dense along the path here, and doesn't allow
+passage to the east or west.  It grows lighter to the north, however,
+where it intercepts a clearing, and you can follow the path south
+towards the town of Little Kyoto.
+  }
+  sector { Forest }
+  exits {
+	to { n, 35 }
+	to { s, 26 }
+  }
+}
+
+35
+{
+  name { Clearing }
+  desc {
+"   A quaint little forest clearing where you could stop for a bit and
+enjoy your surroundings.  You can see some forest animals playing in a
+beautiful meadow just to the north, and a path leads east towards the
+sound of rushing water.  The forest grows denser to the south.
+  }
+  sector { Forest }
+  exits {
+	to { n, 41 }
+	to { e, 36 }
+	to { s, 34 }
+  }
+}
+
+36
+{
+  name { Minakami Path }
+  desc {
+"   The trees that line the path on either side arch up towards each
+other, and far above your head their branches intermingle and criss-
+cross tentatively like young lovers.  The path leads toward a dark
+area to the east, and back west to the main trail.  Somewhere in the
+distance you hear the roar of a tiger.
+  }
+  sector { Forest }
+  exits {
+	to { e, 37 }
+	to { w, 35 }
+  }
+}
+
+37
+{
+  name { Dim Path }
+  desc {
+"  The trees are very dense around you here, only allowing passage to
+the west and north.  You hear the distant chattering of monkeys, and
+the sound of rushing water is noticeably louder.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 38 }
+	to { w, 36 }
+  }
+}
+
+38
+{
+  name { Rocky Path }
+  desc {
+"   You have reached the edge of the forest, where the path grows quite
+rocky and more difficult to navigate.  You can enter the forest to the
+south, or you can go east, where you see a beautiful waterfall.
+  }
+  sector { Forest }
+  exits {
+	to { e, 39 }
+	to { s, 37 }
+  }
+}
+
+39
+{
+  name { Waterfall }
+  desc {
+"   The path comes to an end here at a beautiful waterfall shrouded in green.
+The four-foot-wide sheet of water flows gracefully from a ledge hanging eight
+feet or so above the pool of radiance below.  You realize that what really
+catches your eye about the waterfall is its symmetry, it almost looks too
+perfect.
+  }
+  sector { Forest }
+  extra {
+	keywords { door" }
+	desc { The door is black stone, and is very well placed.  It blends in perfectly
+with the stone wall behind it.
+	}
+	keywords { wall stone indent" }
+	desc { "   Upon closer inspection you notice that there is a very well hidden
+stone door placed behind the waterfall; you wouldn't have found it had
+you never looked.
+	}
+	keywords { waterfall water sheet" }
+	desc { The dimensions of the waterfall are perfect and square, and it is
+exceptionally thin.  It seems exactly placed over an indent in the
+stone wall behind it.
+	}
+  }
+  exits {
+	to { n, 49 }
+	  info { door, closed }
+	  keywords { door stone" }
+	to { w, 38 }
+  }
+}
+
+40
+{
+  name { Minakami Forest }
+  desc {
+"  You stand at the edge of the forest, just west of the meadow.  All
+around, you hear the sounds of the forest; the screeching of monkeys,
+the mournful call of a crane, and somewhere farther off the distant
+roar of a tiger.
+  }
+  sector { Forest }
+  exits {
+	to { n, 45 }
+	to { e, 41 }
+  }
+}
+
+41
+{
+  name { Meadow }
+  desc {
+"   A beautiful meadow in the center of the forest.  Cranes and small
+animals wander freely through the tall grass, enjoying the simple
+pleasures in life.  The Minakami Woods surrounds you on all directions
+except south, which leads back to the forest clearing.
+  }
+  sector { Forest }
+  exits {
+	to { n, 44 }
+	to { e, 42 }
+	to { s, 35 }
+	to { w, 40 }
+  }
+}
+
+42
+{
+  name { Minakami Forest }
+  desc {
+"   You wander through the fresh air and simple beauty of the Minakami
+Woods.  Paths lead off in most directions, and somewhere in the 
+distance you can hear the rushing sound of a waterfall.
+  }
+  sector { Forest }
+  exits {
+	to { n, 43 }
+	to { w, 41 }
+  }
+}
+
+43
+{
+  name { Minakami Forest }
+  desc {
+"   You wander through the fresh air and simple beauty of the Minakami
+Woods.  Paths lead off in most directions, and somewhere in the
+distance you can hear the sound of rushing water.
+  }
+  sector { Forest }
+  exits {
+	to { n, 48 }
+	to { s, 42 }
+	to { w, 44 }
+  }
+}
+
+44
+{
+  name { Minakami Forest }
+  desc {
+"   You stand at the edge of the forest, just north of the meadow.
+Somewhere nearby you hear the call of a crane searching for its mate,
+and further yet, the sounds of rushing water.  You can go in any
+direction.
+  }
+  sector { Forest }
+  exits {
+	to { n, 47 }
+	to { e, 43 }
+	to { s, 41 }
+	to { w, 45 }
+  }
+}
+
+45
+{
+  name { Minakami Forest }
+  desc {
+"   You stand in the simple splendor of the Minakami Woods, amidst the
+small pine trees and the occasional sounds of birdcries.  Paths 
+continue to the north, east, and south.
+  }
+  sector { Forest }
+  exits {
+	to { n, 46 }
+	to { e, 44 }
+	to { s, 40 }
+  }
+}
+
+46
+{
+  name { Minakami Forest }
+  desc {
+"   You stand deep in the Minakami Woods, the trees are too dense to the
+north to make any more progress.  All around, you hear the sounds of 
+forest, and somewhere nearby you can hear the screeching of a monkey.
+  }
+  sector { Forest }
+  exits {
+	to { e, 47 }
+	to { s, 45 }
+  }
+}
+
+47
+{
+  name { Minakami Forest }
+  desc {
+"   You are deep in the Minakami woods, the trees are too dense to the
+north to make any more progress.  All around you hear the sounds of
+the forest, and somewhere nearby you can hear the chattering of a
+monkey.
+  }
+  sector { Forest }
+  exits {
+	to { e, 48 }
+	to { s, 44 }
+	to { w, 46 }
+  }
+}
+
+48
+{
+  name { Minakami Forest }
+  desc {
+"   You wander through the fresh air and simple beauty of the Minakami
+Woods.  Paths lead off in most directions, and somewhere in the
+distance you can hear the rushing sound of a waterfall.
+  }
+  sector { Forest }
+  exits {
+	to { s, 43 }
+	to { w, 47 }
+  }
+}
+
+49
+{
+  name { Behind the Waterfall }
+  desc {
+"   You stand just behind the waterfall, and see the area beyond through its
+distorted lens.  The rushing sound of water is amplified here, and echoes
+back into the dark cave to the north.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+	to { n, 50 }
+	to { s, 39 }
+	  info { door, closed }
+	  keywords { door stone" }
+  }
+}
+
+50
+{
+  name { Wet Cave }
+  desc {
+"   The cave is much more damp here, lichen and moss grow in abundance.  Some
+glow dimly, adding to the eerie atmosphere and helping illuminate the tunnel
+beyond.  You can't shake the feeling that you are being watched...
+  }
+  flags { dark }
+  exits {
+	to { n, 51 }
+	to { s, 49 }
+  }
+}
+
+51
+{
+  name { Tunnel }
+  desc {
+"   The tunnel grows slightly narrower here, a claustrophobic feeling washes
+over you like nausea. The rushing sound of the waterfall is very muffled, the
+distance has turned its roar into a faint disturbance. The tunnel continues
+north and south.
+  }
+  flags { dark }
+  exits {
+	to { n, 52 }
+	to { s, 50 }
+  }
+}
+
+52
+{
+  name { Tunnel }
+  desc {
+"  You have reached the end of the tunnel.  The sound of the waterfall has
+been reduced to a whisper, and the lichens grow more sparsely.  There is a
+small passage near to the ground leading east, and a strange, beckoning
+passage leading west.  You can follow the tunnel back south.
+  }
+  flags { dark }
+  exits {
+	to { e, 53 }
+	to { s, 51 }
+	to { w, 54 }
+  }
+}
+
+53
+{
+  name { Small Passage }
+  desc {
+"   You are in a small passage in the side of the tunnel.  The passage ends
+as quickly as it began however, you can't go any further.  There is a hole
+about ten feet above you, but you don't think you can reach it.  Your only
+exit is to the west.
+  }
+  extra {
+	keywords { hole" }
+	desc { You can't see anything beyond, it is too dark on the other side of the hole.
+It is too far up for you to reach.
+	}
+  }
+  flags { dark }
+  exits {
+	to { w, 52 }
+  }
+}
+
+54
+{
+  name { Entrance to the Eternal Passageway }
+  desc {
+"   You stand at the entrance to the Eternal Passageway, a seemingly endless
+myriad of rooms with twisting corridors that lead off in every direction.
+This place is forbidden to the townsfolk, legend has it that the ninja live
+in secrecy here and navigate the passage with confidence.  There is a sign 
+here.  You can leave east, or you can brave the passage and enter to the 
+north.
+  }
+  extra {
+	keywords { sign" }
+	desc { ""There is no coming back"
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 55 }
+	to { e, 52 }
+  }
+}
+
+55
+{
+  name { Eternal Passageway }
+  desc {
+"   This is one of the many rooms in the Eternal Passageway, twisting tunnels
+lead off in every direction.
+  }
+  flags { dark }
+  exits {
+	to { n, 56 }
+	to { e, 55 }
+	to { s, 55 }
+	to { w, 55 }
+	to { u, 55 }
+	to { d, 55 }
+  }
+}
+
+56
+{
+  name { Eternal Passageway }
+  desc {
+"   This is one of the many rooms in the Eternal Passageway, twisting tunnels
+lead off in every direction.
+  }
+  flags { dark }
+  exits {
+	to { n, 57 }
+	to { e, 56 }
+	to { s, 55 }
+	to { w, 56 }
+	to { u, 56 }
+	to { d, 56 }
+  }
+}
+
+57
+{
+  name { Eternal Passageway }
+  desc {
+"   This is one of the many rooms in the Eternal Passageway, twisting tunnels
+lead off in every direction.
+  }
+  flags { dark }
+  exits {
+	to { n, 58 }
+	to { e, 57 }
+	to { s, 56 }
+	to { w, 57 }
+	to { u, 57 }
+	to { d, 57 }
+  }
+}
+
+58
+{
+  name { Eternal Passageway }
+  desc {
+"   This is one of the many rooms in the Eternal Passageway, twisting tunnels
+lead off in every direction.
+  }
+  flags { dark }
+  exits {
+	to { n, 58 }
+	to { e, 59 }
+	to { s, 57 }
+	to { w, 58 }
+	to { u, 58 }
+	to { d, 58 }
+  }
+}
+
+59
+{
+  name { Walkway }
+  desc {
+"   You stand in a straight, normal walkway; the twisting passages of the
+Eternal Passageway left behind.  There is no moss or lichen here, and the
+tunnel seems much more defined, more man-made.  You can continue down the
+hallway eastward or you can re-enter the maze to the west.
+  }
+  flags { dark }
+  exits {
+	to { e, 60 }
+	to { w, 58 }
+  }
+}
+
+60
+{
+  name { Walkway }
+  desc {
+"   You stand in a walkway opposite from the Eternal Passageway, which lies
+a little ways to the west.  You can continue towards a round room to the east,
+where you think you hear some voices in attentive conversation.
+  }
+  flags { dark }
+  exits {
+	to { e, 61 }
+	to { w, 59 }
+  }
+}
+
+61
+{
+  name { Round Room }
+  desc {
+"   You are in the ante-chamber to the secret ninja lair, where the masters
+of the art of invisibility make their abode and practice their deadly skills.
+You can enter the initial training hall directly to the south, and you can re-
+enter the walkway to the west.
+  }
+  flags { dark }
+  exits {
+	to { s, 62 }
+	to { w, 60 }
+  }
+}
+
+62
+{
+  name { Ninja Training Hall }
+  desc {
+"   You've found the ninja training hall, where the ninja go to hone their
+skills and practice their deadly art.  You have an eerie feeling that you
+are being watched, and would feel safer going back north.  There are two
+hallways to the east and west.
+  }
+  flags { dark }
+  exits {
+	to { n, 61 }
+	to { e, 70 }
+	to { w, 63 }
+  }
+}
+
+63
+{
+  name { Ninja Hallway }
+  desc {
+"   This hallway leads down from the training hall to the first chunin chamber,
+the rooms of the lower-ranking ninja line it on both sides.  You can continue
+south down the hall, enter a sleeping chamber to the west, or go back east to
+the training hall.  There is also a small hole going down to a room about ten
+feet below...but you don't think you could make it back up.
+  }
+  extra {
+	keywords { hole" }
+	desc { This hole allows you to drop down into a room about ten feet below, but you
+don't think you could make it back up.
+	}
+  }
+  flags { dark }
+  exits {
+	to { e, 62 }
+	to { s, 65 }
+	to { w, 64 }
+	to { d, 53 }
+  }
+}
+
+64
+{
+  name { Sentry's Chamber }
+  desc {
+"   This is the sleeping chamber of a genin ninja, the lowest ranking ninja.
+It is bare, save for the essentials, and you can exit west.
+  }
+  flags { dark }
+  exits {
+	to { e, 63 }
+  }
+}
+
+65
+{
+  name { Ninja Hallway }
+  desc {
+"   You are now halfway down the hallway, and realize you are haunted by the
+feeling that you are being watched.  This place gives you the creeps...
+You can continue down the hall to the north or south, or you can enter a
+sleeping chamber to the east.
+  }
+  flags { dark }
+  exits {
+	to { n, 63 }
+	to { e, 66 }
+	to { s, 67 }
+  }
+}
+
+66
+{
+  name { Sentry's Chamber }
+  desc {
+"   This is the sleeping chamber of a genin ninja, the lowest ranking ninja.
+It is bare, save for the essentials, and you can exit west.
+  }
+  flags { dark }
+  exits {
+	to { w, 65 }
+  }
+}
+
+67
+{
+  name { Ninja Hallway }
+  desc {
+"   You stand just outside of the chunin's chamber to the south and the
+kunoichi's chamber to the east.  You feel compelled to go north back up
+the hallway; this place gives you the willies.
+  }
+  flags { dark }
+  exits {
+	to { n, 65 }
+	to { e, 68 }
+	to { s, 69 }
+  }
+}
+
+68
+{
+  name { Kunoichi's Chamber }
+  desc {
+"   This is the sleeping chamber of a kunoichi, a female ninja.  Various
+feminine things are here.  You can exit west.
+  }
+  flags { dark }
+  exits {
+	to { w, 67 }
+  }
+}
+
+69
+{
+  name { Chunin's Chamber }
+  desc {
+"   This is the sleeping chamber of a chunin, a higher ranking ninja.  The
+room is bare, save for the essentials, but you can't shake the feeling that
+you are being watched...
+  }
+  flags { dark }
+  exits {
+	to { n, 67 }
+  }
+}
+
+70
+{
+  name { Ninja Hallway }
+  desc {
+"   This hallway leads down from the training hall to the Shinobi's chamber,
+where the rooms of the higher-ranking ninja are found.  You can continue
+down the hallway or you can enter a sleeping chamber to the east.
+  }
+  flags { dark }
+  exits {
+	to { e, 71 }
+	to { s, 73 }
+	to { w, 62 }
+  }
+}
+
+71
+{
+  name { Kunoichi's Chamber }
+  desc {
+"   You've entered that living space of a Kunoichi, female ninja.  Various
+feminine things lie around the room.  You can exit west.
+  }
+  flags { dark }
+  exits {
+	to { w, 70 }
+  }
+}
+
+72
+{
+  name { Chunin's Chamber }
+  desc {
+"   The living quarters of the chunin, a higher ranking ninja.  It is bare,
+save for the essentials, but you can't help but feel watched...
+   You can exit east.
+  }
+  flags { dark }
+  exits {
+	to { e, 73 }
+  }
+}
+
+73
+{
+  name { Ninja Hallway }
+  desc {
+"   You can almost feel the hairs prick up on the back of your neck...you
+have an unshakable feeling that you are being watched.  You can follow the
+hallway north and south, and you can enter a chamber to the west.
+  }
+  flags { dark }
+  exits {
+	to { n, 70 }
+	to { s, 74 }
+	to { w, 72 }
+  }
+}
+
+74
+{
+  name { Ninja Hallway }
+  desc {
+"   You begin to feel severe apprehension as you draw nearer to the Shinobi's
+chamber, and begin to wonder if it's already to late to turn back...
+You can continue north or south, and you can enter a sleeping chamber to the
+east.
+  }
+  flags { dark }
+  exits {
+	to { n, 73 }
+	to { e, 75 }
+	to { s, 77 }
+  }
+}
+
+75
+{
+  name { Chunin's Chamber }
+  desc {
+"   The living quarters of the chunin, a higher ranking ninja.  It is bare,
+save for the essentials, but you can't help but feel watched...
+   You can exit west.
+  }
+  flags { dark }
+  exits {
+	to { w, 74 }
+  }
+}
+
+76
+{
+  name { Chunin's Chamber }
+  desc {
+"   The living quarters of the chunin, a higher ranking ninja.  It is bare,
+save for the essentials, but you can't help but feel watched...
+   You can exit east.
+  }
+  flags { dark }
+  exits {
+	to { e, 77 }
+  }
+}
+
+77
+{
+  name { Outside Shinobi's Chamber }
+  desc {
+"   You stand just outside the Shinobi's chamber, marveling that you are still
+alive.  You just KNOW that you are being watched, and you feel as if you've
+just willingly walked into an ambush.  You can go north up the hallway, west
+into another sleeping chamber, or south into the clutches of the Shinobi.
+  }
+  flags { dark }
+  exits {
+	to { n, 74 }
+	to { s, 78 }
+	to { w, 76 }
+  }
+}
+
+78
+{
+  name { Shinobi's Chamber }
+  desc {
+"   You are in the living quarters of the leader of the ninja-the Shinobi.
+Various poisons and fighting implements lay about the room, and a mysterious
+exit leads south.  You can go back to the hallway to the north.
+  }
+  flags { dark }
+  exits {
+	to { n, 77 }
+	to { s, 79 }
+  }
+}
+
+79
+{
+  name { Treasure Storage }
+  desc {
+"   The room where the ninja store their gold, the profit of years of 
+assassination and thievery from the town of Little Kyoto.  The ill-gotten
+wealth of the masters of invisibility lies all around you, carelessly tossed
+here and then forgotten.  You can exit north.
+  }
+  flags { dark }
+  exits {
+	to { n, 78 }
+  }
+}
+
+80
+{
+  name { Entrance to Monastary }
+  desc {
+"   You stand just inside the doorway of Little Kyoto's Shinto monastary,
+the only stone structure in town.  You can't help but to stop for a
+moment and admire the architecture; there is a simple beauty in the long
+green moss that hangs from the pillars.  It seems so peaceful here.
+You can continue south into the temple or you can go north to the dirt
+road.
+  }
+  flags { indoors }
+  exits {
+	to { n, 13 }
+	to { s, 81 }
+  }
+}
+
+81
+{
+  name { Junction }
+  desc {
+"   You have come to a junction of hallways, south to the main hall, east to
+the priest's chambers, west to the prayer courtyard, and north to leave the
+temple.
+  }
+  flags { indoors }
+  exits {
+	to { n, 80 }
+	to { e, 84 }
+	to { s, 82 }
+	to { w, 91 }
+  }
+}
+
+82
+{
+  name { Meditation Hall }
+  desc {
+"   The meditation hall of the priests.  They come here when they gather
+together for ceremonies and when they meet with the citizens of the town.
+There are rows of mats here for them to kneel on, facing the shrine at the
+end of the room.  The only light here streams in from the front entrance,
+there are no windows.  You can exit to the north, and the shrine is south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 81 }
+	to { s, 83 }
+  }
+}
+
+83
+{
+  name { Shrine }
+  desc {
+"   The shrine of the temple, the place where they burn their incense and
+pray for guidance.  The natural lighting has grown dim here, and the melted
+wax on the altar seems to indicate that candles are often burned here with
+the incense for priests who meditate in the evening.  There is a statuette
+of their deity on the altar from which emanates a certain cynical wisdom.
+You can exit to the north.
+  }
+  extra {
+	keywords { statuette" }
+	desc { This is a statuette of a tall, well built demon-spawn humanoid with pitch
+black skin.  Its body is hairless and perfect, and its vacant eyes stare
+menacingly into your soul...
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 82 }
+  }
+}
+
+84
+{
+  name { Hall }
+  desc {
+"   This hallway is dark and gloomy, a hollow reflection of the lives of the
+priests whose chambers line it.  These rooms are where they spend most of
+their time when they aren't deep in ceremony or meditation.  You can enter 
+a chamber to the east or you can follow the hall to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 85 }
+	to { s, 86 }
+	to { w, 81 }
+  }
+}
+
+85
+{
+  name { Priest's Chamber }
+  desc {
+"   What a dreary life must be that of a priest-the bare walls, the cold stone,
+the heartless room that offers no comfort.  Such a state of self-denial seems
+to lead to de-humanization.  You find yourself growing depressed, and you want
+to exit west.
+  }
+  flags { indoors }
+  exits {
+	to { w, 84 }
+  }
+}
+
+86
+{
+  name { Hall }
+  desc {
+"   You are about halfway down the dark hall, and a spirit of gloom is upon
+you.  You can continue along the hall to the north and south, and you can
+enter a priest's chamber to the east.  You get the distinct impression that
+this place could wilt flowers at will.
+  }
+  flags { indoors }
+  exits {
+	to { n, 84 }
+	to { e, 87 }
+	to { s, 88 }
+  }
+}
+
+87
+{
+  name { Priest's Chamber }
+  desc {
+"   This room is the same as the others...cold and depressing.  You wonder
+how someone could live a life so bare.  You feel compelled to exit west.
+  }
+  flags { indoors }
+  exits {
+	to { w, 86 }
+  }
+}
+
+88
+{
+  name { Hall }
+  desc {
+"   You have reached the end of the hall, where you can continue south into
+the counting room.  The last priest's chamber lies to the east, and you can
+follow the hallway back north.  This place fills you with such depression...
+  }
+  flags { indoors }
+  exits {
+	to { n, 86 }
+	to { e, 89 }
+	to { s, 90 }
+  }
+}
+
+89
+{
+  name { Priest's Chamber }
+  desc {
+"   Another priest's chamber...the same bare room and cold floor.  How can
+they stand to live like this?  You can exit to the west.
+  }
+  flags { indoors }
+  exits {
+	to { w, 88 }
+  }
+}
+
+90
+{
+  name { Counting Room }
+  desc {
+"   The room where certain disillusioned priests can go to count their beads
+and regain their lost faith.  Sometimes certain priests preparing for sexual
+encounters sit here and count them over and over thousands of times for a 
+month before they feel purified and ready to procreate.
+  }
+  flags { indoors }
+  exits {
+	to { n, 88 }
+  }
+}
+
+91
+{
+  name { Hall }
+  desc {
+"   The lighting is good here, the hall comes from the courtyard located at
+the side of the temple.  You can hear the chants of the priests in the 
+courtyard as they pray for higher enlightenment.  You can continue west, or
+you can go east to the junction.
+  }
+  flags { indoors }
+  exits {
+	to { e, 81 }
+	to { w, 92 }
+  }
+}
+
+92
+{
+  name { Courtyard }
+  desc {
+"   You stand in the shinto courtyard, where a few stunted trees grow among
+the rocks and the birds are never found.  You hear the endless chant of the
+priests, trying forever to redeem themselves from life and become their 
+ultimate aspiration...one with nothing.  You can enter a small storage house
+to the south or travel back east into the temple.
+  }
+  flags { indoors }
+  exits {
+	to { e, 91 }
+	to { s, 93 }
+  }
+}
+
+93
+{
+  name { Storage Room }
+  desc {
+"   This is a small room adjacent to the courtyard which the priests have
+converted into a storage area.  Different garden tools are neatly stacked
+here off to the side, and it appears that this area recieves traffic often.
+There is a hole in the floor here, and you can go back north to the courtyard.
+  }
+  extra {
+	keywords { hole" }
+	desc { The hole in the floor is perfectly circular and is about
+two feet in diameter.  You can see a ladder inside going
+down.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 92 }
+	to { d, 94 }
+  }
+}
+
+94
+{
+  name { Room of Jars }
+  desc {
+"   You find yourself in the burial chamber of the Shinto priests.  The
+walls are lined with ceremonial jars, each one filled with the ashes of
+those who have gone on in their search for enlightenment.  The passage
+to the north seems less traveled, leading farther away from the ladder
+that takes you back to the land of the living...
+  }
+  flags { indoors }
+  exits {
+	to { n, 95 }
+	to { u, 93 }
+  }
+}
+
+95
+{
+  name { Tombs }
+  desc {
+"   This rooms seems older, and the jars have been replaced with tombs.
+The air has grown very musty, heightening you already quickened sense
+of apprehension.  An ominous sense of hatred seems to emanate from the
+room to the east, you have a sudden urge to flee south to the safety of
+the light.  There is some graffiti scrawled on the wall here.
+  }
+  extra {
+	keywords { graffiti wall inscription" }
+	desc { Wise man once say "Man who rushes blindly into danger with no recall
+scroll and no graph paper is a fool."
+	}
+  }
+  flags { dark }
+  exits {
+	to { e, 96 }
+	to { s, 94 }
+  }
+}
+
+96
+{
+  name { Hatred }
+  desc {
+"   As you enter this room you instantly feel fear; constant, throbbing,
+growing.  You inexplicably feel like you are being watched by somone
+who you can't see...someone who hates you.  Someone who, for no reason,
+wishes to kill you.  You can't shake the feeling, it's like you just 
+woke up from a bad dream and you're still there.  You can escape in any
+direction.
+  }
+  flags { dark }
+  exits {
+	to { n, 97 }
+	to { e, 99 }
+	to { s, 100 }
+	to { w, 95 }
+  }
+}
+
+97
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 97 }
+	to { e, 98 }
+	to { s, 96 }
+	to { w, 112 }
+  }
+}
+
+98
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 98 }
+	to { e, 98 }
+	to { s, 99 }
+	to { w, 97 }
+  }
+}
+
+99
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 98 }
+	to { e, 99 }
+	to { s, 101 }
+	to { w, 96 }
+  }
+}
+
+100
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 96 }
+	to { e, 101 }
+	to { s, 103 }
+	to { w, 100 }
+  }
+}
+
+101
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 99 }
+	to { e, 101 }
+	to { s, 135 }
+	to { w, 100 }
+  }
+}
+
+102
+{
+  name { West of Gloominess }
+  desc {
+"   You can't quite put your finger on what it is, but for some reason you
+begin to feel mildly depressed.  You can exit east and south.
+  }
+  flags { dark }
+  exits {
+	to { e, 103 }
+	to { s, 111 }
+  }
+}
+
+103
+{
+  name { Gloominess }
+  desc {
+"   As you enter this room you are filled with a deep sense of depression.
+You consider turning back, but decide that maybe it isn't worth it. 
+Maybe nothing is worth anything anymore and you should just end it all
+right now before you get even more depressed.  You can exit in every
+direction, but you don't see why you should try.
+  }
+  flags { dark }
+  exits {
+	to { n, 100 }
+	to { e, 135 }
+	to { s, 104 }
+	to { w, 102 }
+  }
+}
+
+104
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 103 }
+	to { e, 106 }
+	to { s, 105 }
+	to { w, 111 }
+  }
+}
+
+105
+{
+  name { Corner }
+  desc {
+"   You have come to a corner in the maze, a nice place to rest and
+try to shake off the feeling that you are just walking in circles.
+You can re-enter the passages of the catacombs to the north and to
+the west.
+  }
+  flags { dark }
+  exits {
+	to { n, 104 }
+	to { w, 134 }
+  }
+}
+
+106
+{
+  name { Hall of Skulls }
+  desc {
+"   You have stumbled upon the entrance to the Hall of Skulls, a section
+of the labyrinth built entirely out of decaying human heads.  The white
+faces grin dryly at you out of the darkness, their empty eyes stare right
+through your soul.  You can re-enter the catacombs to the west, or you can
+continue east down the eerie corridor.
+  }
+  flags { dark }
+  exits {
+	to { e, 107 }
+	to { w, 104 }
+  }
+}
+
+107
+{
+  name { Hall of Skulls }
+  desc {
+"   You are halfway down the corridor now, you can see both ends faintly
+through the darkness.  You begin to experience a sensation that you are
+being watched, and wonder if maybe you shouldn't turn back...
+  }
+  flags { dark }
+  exits {
+	to { e, 108 }
+	to { w, 106 }
+  }
+}
+
+108
+{
+  name { Hall of Skulls }
+  desc {
+"   You have reached the end of the hall, where the walls of skulls finally
+come to an end.  You can take a passage south, or you can go back west.
+  }
+  flags { dark }
+  exits {
+	to { s, 109 }
+	to { w, 107 }
+  }
+}
+
+109
+{
+  name { Outside Tomb }
+  desc {
+"   You are outside what appears to be a large tomb, sealed with a great
+stone door.  There is an epitaph written on the wall here in glowing
+golden letters, as though scrawled with magic fire.  You can go north
+back into the hall of skulls.
+  }
+  extra {
+	keywords { epitaph inscription wall" }
+	desc { "          The Tomb of the Fallen God
+
+This is the tomb of the immortal Qornak. Legend has
+it that he once lived in Asgaard with the gods, and
+fell shamefully from grace after he was discovered
+interfering with the destinies of mortals, a trans-
+gression strictly forbidden to the deities.
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 108 }
+	to { w, 110 }
+	  key { 50501 }
+	  info { door, closed }
+	  keywords { door stone" }
+  }
+}
+
+110
+{
+  name { Qornak's Tomb }
+  desc {
+"   You stand in a tomb of darkness and isolation, Qornak's private hell.
+The room emanates a deep sense of loss and regret, and surges with an
+intense emotion of anger and retribution.  You had better leave...
+  }
+  flags { dark }
+  exits {
+	to { e, 109 }
+	  key { 50501 }
+	  info { door, closed }
+	  keywords { door stone" }
+  }
+}
+
+111
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 102 }
+	to { e, 104 }
+	to { s, 134 }
+	to { w, 129 }
+  }
+}
+
+112
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 113 }
+	to { e, 97 }
+	to { s, 120 }
+	to { w, 114 }
+  }
+}
+
+113
+{
+  name { Dead End }
+  desc {
+"   You have stumbled upon one of the few dead ends in the labyrinth,
+a good place for the smart adventurer to stop and get his bearings.
+It is darker here, but at least you know that there is nothing behind
+you except the wall.  There is an inscription scrawled here.
+  }
+  extra {
+	keywords { inscription" }
+	desc { The inscription is written in an excited hand...
+
+S E E S S S
+	}
+  }
+  flags { dark }
+  exits {
+	to { s, 112 }
+  }
+}
+
+114
+{
+  name { Hall of Bones }
+  desc {
+"   You have stumbled upon the entrance to the Hall of Bones, a section
+of the labyrinth built entirely out of decaying human bodies.  The white
+fingers seem to emanate from the walls and point right through you.  You
+can re-enter the catacombs to the east, or you can continue west down the
+eerie corridor.
+  }
+  flags { dark }
+  exits {
+	to { e, 112 }
+	to { w, 115 }
+  }
+}
+
+115
+{
+  name { Hall of Bones }
+  desc {
+"   You are halfway down the corridor now, you can see both ends faintly
+through the darkness.  You begin to experience a sensation that you are
+being watched, and wonder if maybe you shouldn't turn back...
+  }
+  flags { dark }
+  exits {
+	to { e, 114 }
+	to { w, 116 }
+  }
+}
+
+116
+{
+  name { Hall of Bones }
+  desc {
+"   You have reached the end of the hall, where the walls of bones finally
+come to and end.  You can take a passage north, or you can go back east.
+  }
+  flags { dark }
+  exits {
+	to { n, 117 }
+	to { e, 115 }
+  }
+}
+
+117
+{
+  name { Outside Lair }
+  desc {
+"   You are outside what appears to be a large tomb, sealed with a great
+stone door.  There is an engraving on the wall here in golden letters,
+as though written with magic fire.  You can go south back into the hall
+of bones.
+  }
+  extra {
+	keywords { engraving wall graffiti" }
+	desc { Remove thy shoes, pilgrim, for
+you stand on holy ground.  Woe
+be to him that dare to disturb
+the resting place of Sadus the
+lord of the thieves; ye hath 
+incurred the wrath of the gods!
+	}
+  }
+  flags { dark }
+  exits {
+	to { e, trash5:358 }
+	  info { door, closed }
+	  keywords { door stone" }
+	to { s, 116 }
+  }
+}
+
+118
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 118 }
+	to { e, 119 }
+	to { s, 121 }
+	to { w, 118 }
+  }
+}
+
+119
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 119 }
+	to { e, 120 }
+	to { s, 122 }
+	to { w, 118 }
+  }
+}
+
+120
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 112 }
+	to { e, 120 }
+	to { s, 123 }
+	to { w, 119 }
+  }
+}
+
+121
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 118 }
+	to { e, 122 }
+	to { s, 124 }
+	to { w, 121 }
+  }
+}
+
+122
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 119 }
+	to { e, 123 }
+	to { s, 125 }
+	to { w, 121 }
+  }
+}
+
+123
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 120 }
+	to { e, 123 }
+	to { s, 126 }
+	to { w, 122 }
+  }
+}
+
+124
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 121 }
+	to { e, 125 }
+	to { s, 127 }
+	to { w, 124 }
+  }
+}
+
+125
+{
+  name { Room of Peace }
+  desc {
+"   As you enter this room a peaceful wave of calmness washes over you.
+It seems much more friendly, an oasis in the heart of the confusing
+passages of the dead.  It seems like a pleasant place to stop and find
+your bearings.  You can re-enter the maze in any direction.
+  }
+  flags { peaceful }
+  exits {
+	to { n, 122 }
+	to { e, 126 }
+	to { s, 128 }
+	to { w, 124 }
+  }
+}
+
+126
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 123 }
+	to { e, 126 }
+	to { s, 129 }
+	to { w, 125 }
+  }
+}
+
+127
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 124 }
+	to { e, 128 }
+	to { s, 130 }
+	to { w, 127 }
+  }
+}
+
+128
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 125 }
+	to { e, 129 }
+	to { s, 131 }
+	to { w, 127 }
+  }
+}
+
+129
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 126 }
+	to { e, 111 }
+	to { s, 132 }
+	to { w, 128 }
+  }
+}
+
+130
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 127 }
+	to { e, 131 }
+	to { s, 130 }
+	to { w, 130 }
+  }
+}
+
+131
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 128 }
+	to { e, 132 }
+	to { s, 133 }
+	to { w, 130 }
+  }
+}
+
+132
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 129 }
+	to { e, 134 }
+	to { s, 132 }
+	to { w, 131 }
+  }
+}
+
+133
+{
+  name { Dead End }
+  desc {
+"   You have stumbled upon one of the few dead ends in the labyrinth,
+a good place for the smart adventurer to stop and get his bearings.
+It is darker here, but at least you know that there is nothing behind
+you except the wall.  There is an inscription scrawled here.
+  }
+  extra {
+	keywords { inscription" }
+	desc { The inscription is written in the hand of one who has lost all hope...
+
+N E E E
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 131 }
+  }
+}
+
+134
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 111 }
+	to { e, 105 }
+	to { s, 134 }
+	to { w, 132 }
+  }
+}
+
+135
+{
+  name { East of Gloominess }
+  desc {
+"   You can't quite put your finger on what it is, but for some reason you
+begin to feel mildly depressed.  You can exit in every direction except
+for south.
+  }
+  flags { dark }
+  exits {
+	to { n, 101 }
+	to { e, 136 }
+	to { w, 103 }
+  }
+}
+
+136
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 137 }
+	to { e, 136 }
+	to { s, 136 }
+	to { w, 135 }
+  }
+}
+
+137
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 138 }
+	to { e, 137 }
+	to { s, 136 }
+	to { w, 137 }
+  }
+}
+
+138
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 139 }
+	to { e, 138 }
+	to { s, 137 }
+	to { w, 138 }
+  }
+}
+
+139
+{
+  name { Catacombs }
+  desc {
+"   You wander through a large maze of tombs found deep under the temple;
+the confusing passages seem to meander on forever.  Jars of ashes and
+burial crypts line the walls, and strange noises echo in the darkness
+beyond.  Passages lead away in all directions.
+  }
+  flags { dark }
+  exits {
+	to { n, 140 }
+	to { e, 139 }
+	to { s, 138 }
+	to { w, 139 }
+  }
+}
+
+140
+{
+  name { Dead End }
+  desc {
+"   You have stumbled upon one of the few dead ends in the labyrinth,
+a good place for the smart adventurer to stop and get his bearings.
+It is darker here, but at least you know that there is nothing behind
+you except the wall.  There is an inscription scrawled here.
+  }
+  extra {
+	keywords { inscription" }
+	desc { The inscription is written in a desperate hand...
+
+S S S S W
+	}
+  }
+  exits {
+	to { s, 139 }
+  }
+}

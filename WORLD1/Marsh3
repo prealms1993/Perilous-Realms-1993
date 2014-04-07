@@ -1,0 +1,269 @@
+
+0
+{
+  name { The Marsh }
+  desc {
+"   Entering the marsh is like entering another world.  It is thick with
+lush vegetation.  Reeds grow as high as a man on horseback, making long
+distance viewing impossible.  The flat terrain is occasionally broken by 
+a hillock which rises above the reeds.
+  }
+  flags { indoors }
+  exits {
+	to { n, 1 }
+  }
+}
+
+1
+{
+  name { The Massacre }
+  desc {
+"   Startled by your arrival, a half dozen carrion birds rise in front of you.
+Pushing through some tall weeds, you come upon the remains of a fight.  Dead
+men and horses are sinking into the mud all around you.  About ten feet
+away lies the body of an immense ceratosaur.  The livery of the dead men
+identifies this party as a unit of soldiers from a nearby barony.
+  }
+  exits {
+	to { n, 3 }
+	to { e, 2 }
+	to { s, 0 }
+  }
+}
+
+2
+{
+  name { Desolate Marsh }
+  desc {
+"   This part of the marsh seems indistinguishable from any other.  Are you
+sure you know where you are?  The reeds appear even taller than they are,
+because you're standing knee deep in muck.  You wish those pesky gnats would
+go away and leave you alone.
+  }
+  exits {
+	to { n, 4 }
+	to { w, 1 }
+  }
+}
+
+3
+{
+  name { Desolate Marsh }
+  desc {
+"   This part of the marsh seems indistinguishable from any other.  Are you
+sure you know where you are?  The reeds appear even taller than they are,
+because you're standing knee deep in muck.  You wish those pesky gnats would
+go away and leave you alone.
+  }
+  exits {
+	to { n, 6 }
+	to { e, 15 }
+	to { s, 1 }
+	to { w, 13 }
+  }
+}
+
+4
+{
+  name { Desolate Marsh }
+  desc {
+"   This part of the marsh seems indistinguishable from any other.  Are you
+sure you know where you are?  The reeds appear even taller than they are,
+because you're standing knee deep in muck.  You wish those pesky gnats would
+go away and leave you alone.
+  }
+  exits {
+	to { n, 5 }
+	to { e, 8 }
+	to { s, 2 }
+	to { w, 15 }
+  }
+}
+
+5
+{
+  name { Desolate Marsh }
+  desc {
+"   This part of the marsh seems indistinguishable from any other.  Are you
+sure you know where you are?  The reeds appear even taller than they are,
+because you're standing knee deep in muck.  You wish those pesky gnats would
+go away and leave you alone.
+  }
+  exits {
+	to { s, 4 }
+	to { w, 6 }
+  }
+}
+
+6
+{
+  name { Desolate Marsh }
+  desc {
+"   This part of the marsh seems indistinguishable from any other.  Are you
+sure you know where you are?  The reeds appear even taller than they are,
+because you're standing knee deep in muck.  You wish those pesky gnats would
+go away and leave you alone.
+  }
+  exits {
+	to { e, 5 }
+	to { s, 3 }
+	to { w, 7 }
+  }
+}
+
+7
+{
+  name { Desolate Marsh }
+  desc {
+"   This part of the marsh seems indistinguishable from any other.  Are you
+sure you know where you are?  The reeds appear even taller that they are,
+because you're standing knee deep in muck.  You wish those pesky gnats would
+go away and leave you alone.
+  }
+  exits {
+	to { e, 6 }
+	to { s, 13 }
+  }
+}
+
+8
+{
+  name { By The Lake }
+  desc {
+"   You follow what looks like some sort of path around the edge of a large
+hillock on your right.  To your left is water as far as the eye can see,
+and it looks deep.
+   You hear a rustling sound coming from the reeds!!
+  }
+  exits {
+	to { w, 4 }
+  }
+}
+
+9
+{
+  name { The Clearing }
+  desc {
+"   This clearing is just as inviting as it ever was.  You dread entering
+the marsh to the east as you recall its noisome smell and the painful stings
+of those hundreds of little red gnats.
+   Whoa! You've just noticed a tiny grass hut standing south of the part in
+the reeds that marks your exit from the marsh!  The hut must have been
+invisible when you entered, because it is partly set into the marsh and
+would be out of view if you were facing in the opposite direction.
+  }
+  exits {
+	to { n, 7 }
+	to { e, 3 }
+	to { s, 14 }
+	to { w, 10 }
+  }
+}
+
+10
+{
+  name { Beside A Large Boulder }
+  desc {
+"  You are standing in the shadow of a HUGE boulder and feel a slight chill.
+This area shows signs of having been used as a campsite, but not by any of
+the world's lawful races!  You think some footprints you see may belong to the
+lizard men which are rumored to inhabit this area.  You pray that none of
+those insidious creatures are lurking nearby ...  }
+  exits {
+	to { e, 9 }
+	to { w, 11 }
+  }
+}
+
+11
+{
+  name { Under A Tree }
+  desc {
+"   Yuck!  All around you, there are big piles of some nasty white substance
+that smells simply terrible!  Even worse, it looks like someone or something
+has been collecting small amounts of this stuff for some unthinkably foul
+purpose.
+   CAW! CAW! Above you, a gigantic pteranodon takes flight!  Its enormous 
+wings beat surprisingly fast, buffeting you with a blast of air.  The
+pteranodon heads east, but you think there may be still more of them up in
+the tree ...
+  }
+  exits {
+	to { e, 10 }
+	to { u, 12 }
+  }
+}
+
+12
+{
+  name { The Pteranodon Nest }
+  desc {
+"   You struggle up into the upper branches of the old tree and find that
+the pteranodon's nest is large enough and firm enough for humanoids to walk
+on.  Cracked eggshells lie scattered all around along with an odd 
+assortment of animal bones and decaying plant material.  Ack! Is that a
+human femur you see off to the right?!?!
+  }
+  exits {
+	to { d, 11 }
+  }
+}
+
+13
+{
+  name { The Clearing }
+  desc {
+"   Ahhh!  The reeds part to reveal a nice clear area of hard ground!  The
+grass is green, soft and inviting to you after your tiring travels through
+the marsh.  Perhaps this would be a good place to set up camp before you
+continue this perilous excursion.
+   Ahead of you, there is a large boulder, which you estimate to be over
+twenty feet tall!  Beyond the boulder is a shady tree in which you see signs
+of movement and from which emanate strange cawing sounds ...
+  }
+  exits {
+	to { n, 7 }
+	to { e, 3 }
+	to { w, 10 }
+  }
+}
+
+14
+{
+  name { A Small Grass Hut }
+  desc {
+"   You lower your head to enter the small doorway of the hut, and your nose
+is immediately assaulted by the pungent smell of some strange incense.  The
+hut is unlit, but enough light comes in from outside to let you see clearly.
+There are two copper braziers in which the incense is smouldering.  On the
+ground, several white grubs wriggle and writhe.  All in all, this is a very
+unpleasant place to be ... especially compared to that nice clearing to
+the north.
+  }
+  exits {
+	to { n, 9 }
+  }
+}
+
+15
+{
+  name { The Murky Pool }
+  desc {
+"   You are wading in water up to your armpits.  This is terribly
+disturbing because you cannot see anything below your waist and you
+think you just felt something slither between your legs ....
+  }
+  exits {
+	to { e, 4 }
+	to { w, 3 }
+  }
+}
+
+16
+{
+  name { Storage }
+  desc {
+This is where Dagon keeps stuff. Hands off.
+
+  }
+}

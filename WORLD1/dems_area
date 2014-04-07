@@ -1,0 +1,1102 @@
+
+0
+{
+  name { Dem's Palace }
+  desc {
+"   You are in the grand palace of Dem the Goddess of Chance.  You recline
+on a Huge 20,000 square foot waterbed with luxurious cushions.  A large
+wheel on the wall bears the symbols from all the major arcana of Tarot.
+  }
+  extra {
+	keywords { place_for_dem" }
+	desc { 1
+	}
+  }
+  flags { indoors }
+}
+
+4
+{
+  name { On the river bank south of the volcano }
+  desc {
+"   You are on a narrow path leading through the hills.  To the south a fast
+river is flowing westwards through the mountains.  The way is blocked by large
+mountains to the east and west.  The path leads up the southern face of the
+volcano to the north.
+  }
+  sector { Forest }
+  extra {
+	keywords { dark river" }
+	desc { The river flows fast and strong.  It is black or looks so in the gloom.
+	}
+	keywords { volcano mount mountain" }
+	desc { Steam gushes forth from the tall peak to form a roaring white plume that
+supports a floating palace.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 6 }
+	  desc { The narrow path winds up the way to the north.
+}
+	to { s, Midgard:1 }
+	  desc { The path leads down the riverbank to the south.
+}
+  }
+}
+
+6
+{
+  name { On a narrow trail on the southern face of the volcano }
+  desc {
+"   A small hot stream rolls down the mountainside next to you here.  The
+narrow path winds down the volcano.  Above you it leads to a small stream
+vent that whistles now and then.
+  }
+  sector { Mountains }
+  extra {
+	keywords { volcano mount mountain" }
+	desc { Steam gushes forth from the tall peak to form a roaring white plume that
+supports a floating palace.
+	}
+	keywords { small stream" }
+	desc { Steam rises from the hot eddies of the small stream as it trickles down
+the slope.
+	}
+	keywords { vent cave" }
+	desc { You spot a small indentation in the rock above you from which whistling noises
+emerge.
+	}
+  }
+  flags { no_mob }
+  exits {
+	to { u, 8 }
+	  desc { The narrow path leads to a small indentation in the mountain face from which
+whistling noises emerge.
+}
+	to { d, 4 }
+	  desc { The narrow path winds down to the riverside below you.
+}
+  }
+}
+
+8
+{
+  name { At the mouth of the cave on the volcano }
+  desc {
+"   The hot stream exits the mountainside here.  You stand at the mouth of
+a cave leading into the face of the volcano.  Hot steam rushes out every
+few minutes making a loud whistling sound.
+  }
+  sector { Mountains }
+  extra {
+	keywords { cave identation" }
+	desc { The cave is steamy inside.  You see thick muck on the floor.
+	}
+	keywords { stream" }
+	desc { The stream is mucky here.  It is fed from inside the cave.
+	}
+  }
+  flags { no_mob }
+  exits {
+	to { n, 10 }
+	  desc { The stream enters a hot, mucky cave to the north.
+}
+	to { d, 6 }
+	  desc { The narrow path winds down the mountainside below you.
+}
+  }
+}
+
+10
+{
+  name { A steamy cave }
+  desc {
+"   You are in a dark cave shaped like a long tube entering the volcano.  It is
+uncomfortably hot and wet.  The ceiling and walls are slick with condensed
+steam and the floor is covered with several inches of muck.
+
+   Every few minutes, a hot blast of steam comes from the other end of the
+cave, making a whistling sound and nearly blowing your torch out.
+  }
+  sector { Water Swim }
+  extra {
+	keywords { mud muck floor" }
+	desc { The icky sludge smells bad and is difficult to move through.
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 12 }
+	  desc { The cave continues further into the mountain to the north.
+}
+	to { s, 8 }
+	  desc { To the south, sunlight shows the way to the cool, fresh mountainside.
+}
+  }
+}
+
+12
+{
+  name { The end of a steamy cave }
+  desc {
+"   You have reached the end of the dark, steamy cave.  The hot air is being
+blown back and forth through a small crack in the wall, nearly blowing your
+torch out.  The walls vibrate with the loud whistle this produces.
+
+   You are standing in several inches of muck.
+  }
+  sector { Water Swim }
+  extra {
+	keywords { mud muck floor" }
+	desc { The icky sludge smells bad and is difficult to move through.
+	}
+	keywords { crack wall" }
+	desc { After looking closely, you make out a door disguised with volcanic rock.
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 14 }
+	  info { door, closed }
+	  keywords { crack door wall" }
+	  desc { To the north is a periodically reverberating cave wall.
+}
+	to { s, 10 }
+	  desc { The cave continues to the south.
+}
+  }
+}
+
+14
+{
+  name { Top of a stairwell }
+  desc {
+"   You find yourself at the top of a spiral stairwell.  Burning bits of your
+torch fall to reveal that it must descend about 100 feet!
+  }
+  sector { Forest }
+  extra {
+	keywords { torch" }
+	desc { Your torch sputters dimly and uncertainly in the humid air!
+	}
+  }
+  flags { dark }
+  exits {
+	to { s, 12 }
+	  info { door, closed }
+	  keywords { door crack wall" }
+	  desc { Hot air whistles around the edges of a door to the south.
+}
+	to { d, 18 }
+	  desc { The stairs sprial down into the dank depths.
+}
+  }
+}
+
+18
+{
+  name { Bottom of a stairwell }
+  desc {
+"   You are deep inside the mountain.  You're wading in about a foot of
+warm water with patches of white and green algae floating on top.  It's going
+to be slow going in here!  The foul, humid air makes your torch sputter
+uncertainly.
+  }
+  sector { Forest }
+  extra {
+	keywords { algae white green water" }
+	desc { Mostly harmless.
+	}
+  }
+  flags { dark }
+  exits {
+	to { e, 20 }
+	  desc { A corridor leads to the east.
+}
+	to { u, 14 }
+	  desc { The stairs wind up into the darkness.
+}
+  }
+}
+
+20
+{
+  name { An east-west tunnel }
+  desc {
+Empty  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 22 }
+	to { w, 18 }
+  }
+}
+
+22
+{
+  name { A north-west bend }
+  desc {
+"   You see light to the north.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 24 }
+	  desc { You see light to the north.
+}
+	to { w, 20 }
+  }
+}
+
+24
+{
+  name { A north-south corridor }
+  desc {
+"   A sphinx with a woman's torso waits at an intersection to the north. You 
+notice a small ridge running across the water here.  The sphinx tells you to
+pass through the wall of force.
+     "Round she is, yet flat as a board
+      Altar of the Lupine Lords
+      Jewel on black velvet, pearl in the sea
+      Unchanged but e'erchanging, eternally
+      Open her to pass"
+  }
+  sector { Forest }
+  extra {
+	keywords { small ridge water" }
+	desc { The water sticks up like a meniscus on an invisible wall here.
+	}
+	keywords { sphinx" }
+	desc { The gynosphinx eyes you and says, "You have to answer the riddle to pass."
+	}
+  }
+  exits {
+	to { n, 28 }
+	  info { door, closed }
+	  keywords { moon" }
+	to { s, 22 }
+	  desc { The corridor bends to the south.
+}
+	to { u, 26 }
+  }
+}
+
+26
+{
+  name { On top of an invisible wall }
+  desc {
+"   A note is here.
+  }
+  sector { Water Swim }
+  extra {
+	keywords { note message" }
+	desc { The message says:
+That's cheating.  The sphinx won't let you do that!
+	}
+  }
+  exits {
+	to { n, 24 }
+	  desc { North of the wall a sphinx waits at an intersection.  A note is here.
+}
+	to { d, 24 }
+	  desc { Back at the riddle}
+  }
+}
+
+28
+{
+  name { A four-way intersection }
+  desc {
+"   The corridor splits to form three dark branches here.
+  }
+  sector { Forest }
+  extra {
+	keywords { put_sphinx_sentinel_here" }
+	desc { &1	}
+  }
+  exits {
+	to { n, 34 }
+	to { e, 36 }
+	to { s, 24 }
+	  info { door, closed }
+	  keywords { moon" }
+	to { w, 38 }
+	to { u, 26 }
+  }
+}
+
+34
+{
+  name { A north-south corridor }
+  desc {
+Empty  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 78 }
+	to { s, 28 }
+	  desc { You see light to the south.
+}
+  }
+}
+
+36
+{
+  name { An east-west corridor }
+  desc {
+"
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 42 }
+	to { w, 28 }
+	  desc { You see light from the west.
+}
+  }
+}
+
+38
+{
+  name { An east-west corridor }
+  desc {
+"
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 28 }
+	  desc { You see light from the east.
+}
+	to { w, 88 }
+  }
+}
+
+42
+{
+  name { An east-west corridor }
+  desc {
+"   The algae seems greener here.
+  }
+  sector { Forest }
+  extra {
+	keywords { put_hiding_greenslime_here" }
+	desc { &3	}
+  }
+  flags { dark }
+  exits {
+	to { e, 44 }
+	to { w, 36 }
+  }
+}
+
+44
+{
+  name { A t-intersection }
+  desc {
+"  The corridor splits here.  To the south, you see a door with light shining
+through the cracks.  The corridor continues to the north and west.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 46 }
+	to { s, 45 }
+	  desc { You hear no sounds behind the door, but the lights are on inside.
+}
+	to { w, 42 }
+  }
+}
+
+45
+{
+  name { A north-south hallway }
+  desc {
+"   Light comes from under a door to the south.
+  }
+  sector { Forest }
+  flags { dark, no_mob }
+  exits {
+	to { n, 44 }
+	to { s, 48 }
+	  key { 17003 }
+	  info { door }
+	  keywords { door" }
+	  desc { It's a large, oaken door.
+}
+  }
+}
+
+46
+{
+  name { A north-south corridor }
+  desc {
+"   You see a room with five flesh golems to the north.  A note is here.
+  }
+  sector { Forest }
+  extra {
+	keywords { note message" }
+	desc { the message reads:
+You need only kill the golem that does not belong.
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 54 }
+	  desc { You see five flesh golems.
+}
+	to { s, 44 }
+  }
+}
+
+48
+{
+  name { A well lit room }
+  desc {
+"   As you enter this well lit, dry 30'X30' room, the door slams and locks
+behind you!  There are closets to the south, east, west, up, and down.  I sure
+hope the key is in one of them!
+  }
+  exits {
+	to { n, 45 }
+	  key { 17003 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { A door leads out the way you came in.
+}
+	to { e, 49 }
+	  info { door, closed }
+	  keywords { closet" }
+	  desc { You see the closet.
+}
+	to { s, 50 }
+	  info { door, closed }
+	  keywords { 2.closet" }
+	  desc { You see the 2.closet.
+}
+	to { w, 51 }
+	  info { door, closed }
+	  keywords { 3.closet" }
+	  desc { You see the 3.closet.
+}
+	to { u, 52 }
+	  info { door, closed }
+	  keywords { 4.closet" }
+	  desc { You see the 4.closet.
+}
+	to { d, 53 }
+	  info { door, closed }
+	  keywords { 5.closet" }
+	  desc { You see the 5.closet.
+}
+  }
+}
+
+49
+{
+  name { The closet }
+  desc {
+"
+  }
+  extra {
+	keywords { three_shadows_and_falsekey" }
+	desc { &4	}
+  }
+  exits {
+	to { w, 48 }
+	  info { door, closed }
+	  keywords { closet" }
+	  desc { You see a well lit room.
+}
+  }
+}
+
+50
+{
+  name { The 2.closet }
+  desc {
+"
+  }
+  extra {
+	keywords { potionofcharm_and_falsekey" }
+	desc { &6	}
+  }
+  exits {
+	to { n, 48 }
+	  info { door, closed }
+	  keywords { 2.closet" }
+	  desc { You see a well lit room.
+}
+  }
+}
+
+51
+{
+  name { The 3.closet }
+  desc {
+"
+  }
+  extra {
+	keywords { 1200jewelry_falsekey_airelemental" }
+	desc { &7	}
+  }
+  exits {
+	to { e, 48 }
+	  info { door, closed }
+	  keywords { 3.closet" }
+	  desc { You see a well lit room.
+}
+  }
+}
+
+52
+{
+  name { The 4.closet }
+  desc {
+"
+  }
+  extra {
+	keywords { falsekey_wandsleep_doesn't_look_like_sleep" }
+	desc { &8	}
+  }
+  exits {
+	to { d, 48 }
+	  info { door, closed }
+	  keywords { 4.closet" }
+	  desc { You see a well lit room.
+}
+  }
+}
+
+53
+{
+  name { The 5.closet }
+  desc {
+"
+  }
+  extra {
+	keywords { 40keys_real_is_28" }
+	desc { &9	}
+  }
+  exits {
+	to { u, 48 }
+	  info { door, closed }
+	  keywords { 5.closet" }
+	  desc { You see a well lit room.
+}
+  }
+}
+
+54
+{
+  name { A well lit room }
+  desc {
+"   You enter a well lit, 30'X20' room with a door on the north wall.
+  }
+  sector { Forest }
+  extra {
+	keywords { 5golems_sentinels_onlyoneismean" }
+	desc { &10	}
+  }
+  exits {
+	to { n, 56 }
+	  info { door }
+	  keywords { door" }
+	  desc { Stairs lead up to the north.
+}
+	to { s, 46 }
+  }
+}
+
+56
+{
+  name { Stairs }
+  desc {
+"   You face a set of stairs that lead up into a dry passageway.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 54 }
+	  info { door }
+	  keywords { door" }
+	  desc { A well lit room is to the south.
+}
+	to { u, 58 }
+  }
+}
+
+58
+{
+  name { A turnstile }
+  desc {
+"   You are at a turnstile in a dry, upper passageway that leads to the east.
+A set of stairs lead back down into the muck (yech!).
+  }
+  flags { dark }
+  exits {
+	to { e, 60 }
+	  desc { You see light from the east.
+}
+	to { d, 56 }
+  }
+}
+
+60
+{
+  name { A scary platform }
+  desc {
+"   The stone platform you stand on is set into the side of a natural cave.
+To the west, the passageway leads back into darkness.  To the east, you see
+five precariously hung platforms that span a chasm to another passageway
+entrance.  In the chasm below, scalding mud boils in wait of a victim.  Huge
+geysers periodically spout up engulfing the platforms!
+  }
+  exits {
+	to { e, 62 }
+	to { w, 58 }
+	  desc { The platform swings before you hanging on a great chain.
+}
+  }
+}
+
+62
+{
+  name { First platform }
+  desc {
+"
+  }
+  sector { Mountains }
+  exits {
+	to { e, 64 }
+	  desc { The safety of the passageway is to the east.}
+	to { w, 60 }
+  }
+}
+
+64
+{
+  name { Second platform }
+  desc {
+"
+  }
+  sector { Mountains }
+  exits {
+	to { e, 66 }
+	to { w, 62 }
+  }
+}
+
+66
+{
+  name { Third platform }
+  desc {
+"
+  }
+  sector { Mountains }
+  extra {
+	keywords { put_geyser_sentinel" }
+	desc { &11	}
+  }
+  exits {
+	to { e, 68 }
+	to { w, 64 }
+  }
+}
+
+68
+{
+  name { Fourth platform }
+  desc {
+"
+  }
+  sector { Mountains }
+  flags { private }
+  exits {
+	to { e, 70 }
+	to { w, 66 }
+  }
+}
+
+70
+{
+  name { Fifth platform }
+  desc {
+"
+  }
+  sector { Mountains }
+  extra {
+	keywords { put_geyser_sentinel" }
+	desc { &12	}
+  }
+  flags { private }
+  exits {
+	to { e, 72 }
+	to { w, 68 }
+	  desc { The safety of the passageway is to the west.
+}
+  }
+}
+
+72
+{
+  name { A scary platform }
+  desc {
+"   You are grateful to be on the far end of the large, boiling chasm.  But
+you dread the thought of the return trip!  The chasm lies to the east, and the
+dry passageway leads on to the west.
+  }
+  flags { no_mob, private }
+  exits {
+	to { e, 74 }
+	  desc { The platform swings before you hanging on a great chain.
+}
+	to { w, 70 }
+  }
+}
+
+74
+{
+  name { An east-west passageway }
+  desc {
+"   You walk down a small, dry passageway.  There is light coming from the
+east.  You see a door to the west.
+  }
+  flags { dark, private }
+  exits {
+	to { e, 76 }
+	to { w, 72 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+76
+{
+  name { Lair of the vampire }
+  desc {
+"   Before you lies the coffin of the horrible Vampire Amelia!
+  }
+  extra {
+	keywords { vampire_infravision_senselife_drain_charm_whelm" }
+	desc { &13	}
+  }
+  flags { dark, private }
+  exits {
+	to { w, 74 }
+	  info { door, closed }
+  }
+}
+
+78
+{
+  name { A north-south corridor }
+  desc {
+"  Steps ascend to higher, dryer ground.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 34 }
+	to { u, 80 }
+	  desc { The stairs go up to a door.
+}
+  }
+}
+
+80
+{
+  name { Top of stairs }
+  desc {
+"   You are at the top of dry, sturdy stairs.  A door lies to your north.  The
+stairs lead back into the mire bellow you.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { n, 82 }
+	  info { door, closed }
+	  keywords { door sturdy" }
+	  desc { This is a rather sturdy door.
+}
+	to { d, 78 }
+	  desc { Back down there?  Yuck!
+}
+  }
+}
+
+82
+{
+  name { A huge bubble }
+  desc {
+"   You stand on an outcropping of volcanic rock, domed on top by a Huge 
+bubble!  Outside the bubble's protective membrane, the water that must fuel
+the volcano's plume boils fiercely.  To the north you see great, gilded
+doors decorated with a rather ornate visage of Poseidon.
+  }
+  sector { City }
+  extra {
+	keywords { door doors poseidon visage" }
+	desc { What beautiful golden doors!  Too bad they're so Heavy.
+	}
+	keywords { bubble membrane water boil dome" }
+	desc { The membrane feels tender to the touch and the water scalding.  It would
+really be a shame if it broke!
+	}
+	keywords { giant_crab" }
+	desc { &14	}
+  }
+  flags { private }
+  exits {
+	to { n, 84 }
+	  info { door, closed }
+	  keywords { door doors poseidon visage" }
+	to { s, 80 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+84
+{
+  name { Hall of Poseidon }
+  desc {
+"   You stand at the south end of a short hallway.  Flaming torches are fixed
+on the walls with coral.  The walls and floor are of shiny brass.  At the
+north end, a glowing trident rests on a pedestal!
+  }
+  flags { private }
+  exits {
+	to { n, 86 }
+	  desc { The famous trident Wave waits to the north!
+}
+	to { s, 82 }
+	  info { door, closed }
+	  keywords { doors door poseidon visage" }
+	  desc { To the south is the chamber of the guardian crab.
+}
+  }
+}
+
+86
+{
+  name { Wave's pedestal }
+  desc {
+"   The trident Wave lies before you, glowing with power.....
+
+                     ........It stirs!
+  }
+  extra {
+	keywords { mimic_with_wave" }
+	desc { &14	}
+  }
+  flags { private }
+  exits {
+	to { s, 84 }
+  }
+}
+
+88
+{
+  name { A drop-off }
+  desc {
+"   The floor has dropped out from under you!
+
+   Good thing you weren't wearing any more armor...as it is, you can swim
+to the north or east.
+  }
+  sector { Forest }
+  extra {
+	keywords { floor bottom" }
+	desc { It is too deep to feel the floor here.
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 90 }
+	to { e, 38 }
+	  desc { You see a light from the east.
+}
+  }
+}
+
+90
+{
+  name { A north-south corridor }
+  desc {
+"   The corridor runs north and south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 92 }
+	to { s, 88 }
+  }
+}
+
+92
+{
+  name { Foot of the stairs }
+  desc {
+"   You stand at the foot of some old stairs.  They lead up into a small, dry
+passage.  More muck is to the south.
+  }
+  sector { Forest }
+  extra {
+	keywords { hiding_ghouls_paralysis" }
+	desc { &15	}
+  }
+  flags { dark }
+  exits {
+	to { s, 90 }
+	to { u, 94 }
+  }
+}
+
+94
+{
+  name { A small passage }
+  desc {
+"   You crouch in a small, dry passageway at the top of some stairs.  The
+passage bends further to the west.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { w, 96 }
+	to { d, 92 }
+	  desc { Back into the murky corridors (Yuck!)
+}
+  }
+}
+
+96
+{
+  name { A bend in the passage }
+  desc {
+"   You are at an east-south bend in the passageway.  You see light coming
+from a door to the south.
+  }
+  sector { City }
+  flags { dark }
+  exits {
+	to { e, 94 }
+	to { s, 98 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+98
+{
+  name { Top of Huge stairs }
+  desc {
+"   You stand at the top of an Enormous set of stairs.  Each step is about 15
+feet long and 6 feet deep!  On successive step below you are giant crayfish,
+giant scorpions, half shark-half lion beasts, and a door.
+  }
+  sector { Forest }
+  exits {
+	to { n, 96 }
+	  info { door }
+	  keywords { door" }
+	to { d, 100 }
+  }
+}
+
+100
+{
+  name { Second giant step }
+  desc {
+"   You stand on the second giant step.
+  }
+  sector { Forest }
+  extra {
+	keywords { one_giant_crawfish_here" }
+	desc { &16	}
+  }
+  flags { private }
+  exits {
+	to { u, 98 }
+	to { d, 102 }
+  }
+}
+
+102
+{
+  name { Third giant step }
+  desc {
+"   You stand on the third giant step.
+  }
+  sector { Forest }
+  extra {
+	keywords { scorpion giant" }
+	desc { The scorpion looks like an illusion when examined closely.
+	}
+  }
+  flags { private }
+  exits {
+	to { u, 100 }
+	to { d, 104 }
+  }
+}
+
+104
+{
+  name { Fourth giant step }
+  desc {
+"   You stand on the fourth giant step.
+  }
+  sector { Forest }
+  extra {
+	keywords { sea lion shark" }
+	desc { The sea lion has the back half of a shark and the front half of a lion.
+	}
+	keywords { one_sea_lion" }
+	desc { &17	}
+  }
+  flags { private }
+  exits {
+	to { u, 102 }
+	to { d, 106 }
+  }
+}
+
+106
+{
+  name { Bottom step }
+  desc {
+"   You stand at the bottom of the Enormous stairs.  A small wooden door,
+swollen with moisture, is set in the floor.
+  }
+  sector { Forest }
+  flags { private }
+  exits {
+	to { u, 104 }
+	to { d, 108 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+108
+{
+  name { A warm, dry cave }
+  desc {
+"   You land in a warm, dry cave.  The walls are covered in furs, and a pot of
+soup cooks on a tripod.
+  }
+  extra {
+	keywords { ogremagi_with_blackrazor" }
+	desc { &19	}
+  }
+  flags { private }
+  exits {
+	to { u, 106 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	  desc { You see brighter light from above.
+}
+  }
+}

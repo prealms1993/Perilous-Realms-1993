@@ -1,0 +1,1736 @@
+
+0
+{
+  name { A Gravel Road on the Graveyard }
+  desc {
+"   You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road grow dark evergreen trees.  An iron
+gate is to the north.
+  }
+  sector { City }
+  exits {
+	to { n, Midgard:399 }
+	  info { door, closed }
+	  keywords { gate" }
+	  desc { Through the solid iron bars you see the Concourse.
+}
+	to { s, 1 }
+	  desc { The gravel road continues southwards.
+}
+  }
+}
+
+1
+{
+  name { A Gravel Road on the Graveyard }
+  desc {
+"  You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road grow dark evergreen trees.
+  }
+  sector { City }
+  exits {
+	to { n, 0 }
+	  desc { The gravel road continues northwards.
+}
+	to { s, 2 }
+	  desc { The gravel road continues southwards.
+}
+  }
+}
+
+2
+{
+  name { A Gravel Road on the Graveyard }
+  desc {
+"  You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road grow dark evergreen trees.
+  }
+  sector { City }
+  exits {
+	to { n, 1 }
+	  desc { The gravel road continues northwards.
+}
+	to { s, 3 }
+	  desc { The gravel road continues southwards.
+}
+  }
+}
+
+3
+{
+  name { A Gravel Road on the Graveyard }
+  desc {
+"  You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road grow dark evergreen trees.
+  }
+  sector { City }
+  exits {
+	to { n, 2 }
+	  desc { The gravel road continues northwards.
+}
+	to { s, 4 }
+	  desc { The gravel road continues southwards to an open space before a small
+building.
+}
+  }
+}
+
+4
+{
+  name { In front of the Chapel }
+  desc {
+"  You are on an open space before a small chapel.  A gravel road leads north
+through the graveyard and the chapel entrance is to the south.
+  }
+  sector { City }
+  exits {
+	to { n, 3 }
+	  desc { The gravel road continues northwards.
+}
+	to { s, 5 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { The chapel door is made of dark wood.
+}
+  }
+}
+
+5
+{
+  name { Inside the Chapel }
+  desc {
+"   You are in a small, dark chapel.  The dark brown glass in the tiny windows
+do not let much light through.  A few rows of worn wooden benches stand here
+and an ancient altar sits in the middle of the floor.
+  }
+  sector { City }
+  extra {
+	keywords { benches rows" }
+	desc { The benches are not of the comfortable kind.
+	}
+	keywords { altar" }
+	desc { The altar looks very old...you examine the floor around the alter and notice
+that it seems less dusty than the rest of the room...
+	}
+	keywords { glass windows" }
+	desc { The windows must be meant to be dark.  At least they are completely clean.
+	}
+  }
+  exits {
+	to { n, 4 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { The chapel door is made of dark wood.
+}
+	to { d, 21 }
+	  info { door, closed }
+	  keywords { altar" }
+  }
+}
+
+6
+{
+  name { The graveyard }
+  desc {
+"   There are tombstones everywhere.  The gravel road is to the west, and
+the graveyard continues to the south.
+  }
+  sector { City }
+  extra {
+	keywords { tombstone tomb" }
+	desc { "   'Here lies dear old Fred
+	A big rock fell on his head.'
+	}
+  }
+  exits {
+	to { s, 7 }
+	  desc { You can see more of the graveyard.
+}
+	to { w, 0 }
+	  desc { You can see the gravel road through the trees
+}
+  }
+}
+
+7
+{
+  name { The graveyard }
+  desc {
+"   There are tombstones everywhere.  The gravel road is to the west, and
+the graveyard continues to the south.
+  }
+  sector { City }
+  extra {
+	keywords { tombstone tomb" }
+	desc { "   'Here lies dear old Fred
+	A big rock fell on his head.'
+	}
+  }
+  exits {
+	to { s, 8 }
+	  desc { You can see more of the graveyard.
+}
+	to { w, 1 }
+	  desc { You can see the gravel road through the trees
+}
+  }
+}
+
+8
+{
+  name { Stairwell leading down into darkness }
+  desc {
+"  You sense even more danger coming from below but are urged onward...
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 49 }
+	  key { 3411 }
+	  info { door, closed }
+	  keywords { door" }
+	to { d, 50 }
+  }
+}
+
+9
+{
+  name { The acolyte bedroom }
+  desc {
+"  This is why you were not welcomed at the entrance by the tomb's faithful
+servants...Blood and gore is almost knee deep in here...
+Oh NO! the door shut behind you!  It's a trap!
+Wait! Do you see an exit north?
+A bloodied corpse of an acolyte is lying here...
+A bloodied corpse of an acolyte is lying here...
+A bloodied corpse of an acolyte is lying here...
+  }
+  extra {
+	keywords { corpse corpses" }
+	desc { "  Just heavily mauled and torn apart...throats were savagely ripped
+out and guts spilled on the floor...you slip and land, planting yourself
+firmly in the slick wetness and splatter yourself with the disgusting offel.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 37 }
+	  info { door, closed }
+	  keywords { curtain" }
+	  desc { You see a curtain to the north
+}
+  }
+}
+
+10
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns.
+A half-decomposed body lies in the corner...
+  }
+  extra {
+	keywords { scribbling scribble writing" }
+	desc { "  It is a simple message (in blood):  " H E L P "
+hmm....wonder what it might mean...
+	}
+	keywords { body" }
+	desc { " Oh gods! This is sick!...maggots and the smell of slowly rotting flesh...
+But there is something scribbled or the floor beside him...you wonder
+what kind of writing a dying man would write?...you may soon find out...
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 15 }
+	to { s, 11 }
+  }
+}
+
+11
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...the rooms seems foggy and the air a bit muggy...
+A bed of straw is here and some dried out husks of bodies lying about...
+  }
+  extra {
+	keywords { husks bodies" }
+	desc { " They seem totally drained of their lifeforce...like someone sucked them
+dry.
+	}
+	keywords { bed straw" }
+	desc { " nothing too exciting here...
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 10 }
+	to { s, 12 }
+  }
+}
+
+12
+{
+  name { Grand hall of the kings }
+  desc {
+"  You are at the west end of the Grand Hall which extends all the way eastward
+but of course the hallway is dark so you can just make out the area around you.
+Here there is a doorway to the south some strange writing written above it.
+Also on the floor are some strange brownish stains. But glancing at it proves
+fruitless as to its real nature.
+  }
+  extra {
+	keywords { door writing" }
+	desc { Above the door is some strange writing!
+hmm...it seems to be worn with age but it seems to refer to some old realm
+that you never heard of and a ruler by the name of Shohan.
+	}
+	keywords { stains brownish" }
+	desc { ARG! Your sixth sense tells you that it may be old dried up blood. Your skin
+crawls and the hairs on the back of your neck rises...
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 17 }
+	to { s, 13 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { A door to the south
+}
+  }
+}
+
+13
+{
+  name { The shrine of Shohan }
+  desc {
+"  BLOOD EVERYWHERE! The walls are coated with blood, bits of bloody flesh
+lie at your feet and torn clothing is scattered about. It wouldn't disturb you
+in the least if not for the fact that it is all FRESH!...What ever used to
+pass as an altar here, lies overturned and smashed.
+Doors lead to the south and to the north.
+  }
+  extra {
+	keywords { Altar" }
+	desc { "  Well It Was A Beautifully Crafted Stone Altar To The Once King Of This
+Region, Shohan...Now It Is More Or Less Destroyed Savagely.
+	}
+	keywords { Flesh Blood" }
+	desc { "  Ick! Disgusting And It Smells Aweful. Your Feet Stick To The Floor.
+	}
+	keywords { Clothing" }
+	desc { "  Well It Used To Be White...It Seems To Be Clothing Of An Altarboy Or The
+Remnants Of The Robes Of A Priest.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 12 }
+	  info { door, closed }
+	  keywords { north" }
+	to { s, 14 }
+	  info { door, closed }
+	  keywords { south" }
+  }
+}
+
+14
+{
+  name { The Ancient Tomb Of Shohan }
+  desc {
+"  Once Beautiful, This Place Has Been Turned Into A Slaughterhouse By The
+Hands Of Evil Beings...Even More Blood And Dead, Wet, And Cold, Rotting Flesh.
+This Place Looks Like The Feeding Grounds Of Beasts And Monsters. The Is An
+Overturned Sarcophagus Of The Once Powerful King Shohan Lying Here...All Of
+It'S Contents Strewn About And Half Eaten. And Now You Seem To Know Where
+The Lost Acolytes Have Been Taken...
+A Door leads to the north and a doorway has been hewn to the east...
+  }
+  extra {
+	keywords { Writing" }
+	desc { "  It Is Barely Readable...But It Says:
+           "All Hail The New King; We Serve The Master,
+                   Roch'tar...The Undying One!...
+         Those Who Decline His Worship Shall Be Slaughtered!"
+	}
+	keywords { Corpse Body King Shohan" }
+	desc { "  Quite Dead, Desecrated And Destoyed...
+	}
+	keywords { Coffin Sarcophagus" }
+	desc { "  An Eloquent Piece Of Art...Now Destroyed...There Seems To Be Writing On It...
+	}
+	keywords { door" }
+	desc { "  There is a door to the north and an opening that was smash with tremendous
+strength to the east.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 13 }
+	  info { door, closed }
+	  keywords { door north" }
+	to { e, 19 }
+  }
+}
+
+15
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 20 }
+	to { s, 16 }
+	to { w, 10 }
+  }
+}
+
+16
+{
+  name { Entrance to the lower chambers }
+  desc {
+"  You can tell that this area wasnt a part of the original construction the
+walls have been hewn by a mighty force and the walls look as though they
+were clawed to shape this crudely built passage.
+The passage slopes upward here and also continues to the north.
+  }
+  extra {
+	keywords { walls" }
+	desc { "  Something BIG must have done this job! There are some blood traces in the
+clawmarks tho...so maybe whatever did this is living...
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 15 }
+	to { u, 18 }
+	  info { door, closed }
+	  keywords { tunnel" }
+  }
+}
+
+17
+{
+  name { The grand hall of the kings }
+  desc {
+"  Nearing the western wing of the grand hall of the kings. To the south a door
+exists but has been totally blocked and hammered to make it unusable to anyone.
+Your only exits exist to the east and west in this gloomy hallway.
+  }
+  extra {
+	keywords { door" }
+	desc { "  Ripped and torn...the lock has been smashed...
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 22 }
+	to { w, 12 }
+  }
+}
+
+18
+{
+  name { The shrine of Cristis the Kind }
+  desc {
+"  Different than the rest this place is fairly well kept...whoever destroyed
+the other areas must have been disinterested in this area and so an altar
+still stands here and the walls show some interesting scenes from the life
+of Cristis the Kind...a ruler of the outlying regions around Midgaard many
+years ago...
+  The door to the north has been permanently jammed; the southern door seems to
+have been ripped out of its hinges so there is nothing but an opening to the
+south. The room slopes downward towards the north to a stone door.
+The Ghost of Cristis the Kind stands here barely visible to the eye.
+You sense he is trying to say something.
+  }
+  extra {
+	keywords { parchment" }
+	desc { "  It says an aweful lot for its apperent size:
+     "Hello stranger and last hope for Midgaard and this tomb!
+   or just anyone who passes through my tomb.  This is a last plea
+   for aid by a man long since dead from this Earth.  I have served
+   all my life for the cause of good and hope for your help now
+   that my time has passed.
+     The forces of evil have taken control of this tomb and the great
+   Kings of old need your aid to free us and deliver us to peace
+   once again. I think that I alone have been able to make myself
+   appear and manage to have the last acolyte here write this note,
+   for I am unable to speak, or affect this dying world.
+     These forces of evil plan to eventually take over Midgaard
+   and the outlying reaches for their own! They MUST be stopped. No one
+   knows how long this will take it could be days it could be months!
+     Their leader goes by the name of Roch'tar, the reincarnated Vampire
+   of a time somewhere after my death.  He is yet not able to enter
+   this world presently but is somewhere still trapped here in these
+   tombs.  You MUST stop him by sytematically destroying his minions
+   and followers who he has created from the dead and called from the
+   bowels of the earth!!!
+     Thank you all who may endeaver to succeed and and may the Gods
+   bless you on your Quest!"
+
+ Two hints: in order to leave this place you must get the special
+    rod from a hidden vault in a room down and to the east somewhere...
+    this room will be a painted room as well...look vault and it will
+    tell you what to do...the second hint is that I may appear elsewhere
+    in the lower sections of the tombs for more help!
+	}
+	keywords { ghost cristis" }
+	desc { "  Pathetic and ghastly he looks very sad...his rest has been disturbed by
+the evil creatures that have invaded his domain and grave...He stands here
+shimmeringly desolid and quite unable to effect the outside world or be
+effect by the outside world...he is quite old, but very kind looking...
+He holds up a tiny piece of parchment for all to read and look at with a
+glimmer of tears in his eyes...
+	}
+	keywords { walls scenes" }
+	desc { "  Beautiful and ancient...scenes of battles with horrid creatures of ugly
+distortion...Cristis the Kind and his armies are shown here defeating the
+evil armies of the past... You recognize a small painting of an ancient city
+as being the older replica of Midgaard...it was much bigger then during the
+greater times of the old Empire.
+	}
+	keywords { altar" }
+	desc { "  This king must have been well loved. Great care was taken into the creation
+of this altar. It stands only about 2 feet high with the remnants of candle-
+wax on its top surface. It says in ancient tongue on its dusty top:
+              "Praise the almighty Cristis the bringer of
+                 good and justice to the world. He who
+                fought the evilest finally is at peace
+               may the Gods remember him forever..."
+	}
+	keywords { door" }
+	desc { "  The door to the north is permanently jammed and bolted down with large bands
+of metal...the only ways out seem to be down and south.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 19 }
+	to { d, 16 }
+	  info { door, closed }
+	  keywords { stone tunnel" }
+  }
+}
+
+19
+{
+  name { The ancient tomb of Cristis }
+  desc {
+"  Everything here has simply been destroyed...
+Exits lead north and west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 18 }
+	to { w, 14 }
+  }
+}
+
+20
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 25 }
+	to { w, 15 }
+  }
+}
+
+21
+{
+  name { Entrance chamber to the great halls of the kings }
+  desc {
+"  Whomever built this place must have been very rich indeed!  Though
+you did enter through a rather small door this place has enough room
+to hold a several score of people.  The floor has a beautifully woven
+carpet, and the walls are covered in finely crafted tapesties. You can
+tell that these things must have been worth much but they have not lasted
+well throughtout the ages. Massive doors lead off to the south and a small
+door leads up above you only accessable via. a large stone staircase.
+  }
+  extra {
+	keywords { letters graffiti" }
+	desc { "  the letters say:
+
+            "Beware here all of man, because passed here lies only
+             death for those who dont flee now..."
+
+                              Insho'rkthon brsskra-lehsn Roch'tar
+
+Beneath, there are two criss-crossing scratchmarks in an X formation that
+look like someone (or something) raked their claws across the wood.
+Neat signature.
+	}
+	keywords { oak" }
+	desc { "  They're HUGE! They are at least 2 feet tall and about 10 feet wide.
+If not for one thing they would be perfectly preserved.  There appears
+to be some letters crudely scratched into the wood.
+	}
+	keywords { staircase stairs" }
+	desc { "  Though quite cracked they do look very stable.
+	}
+	keywords { tapesties" }
+	desc { "  The tapesties were woven into beautiful and exciting scenes of battles
+long ago. One on the left your shows the historic battle between Jubal the
+Benevolent and Hroth Kragen's forces that eventually Jubal's army won (of
+course) and was responsible for the forming the city within which you now
+reside.  Here was the most inportant stategic point in Jubal's supply-line
+due to the how remote it is and of course it was (at that time) the last
+major population and mercanile district before the sea...where of course
+Hroth's forces were eventually driven and demolished.
+	}
+	keywords { carpet" }
+	desc { "  Red carpeting completely covers the floor. it seems untouched throughtout
+the ages and has a large build up of dust. There are tracks leading up and
+to the west so you know that someone has been down here before.
+	}
+	keywords { stone door trapdoor" }
+	desc { Its rather small and looks quite heavy but maybe with some kind of 'leverage'
+you could move it...it does have a queerly shaped hole that looks big enough
+for an equally queerly shaped pole to fit inside...if only you had it! Then
+you could 'unlock' the trapdoor.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 22 }
+	  info { door, closed }
+	  keywords { oak" }
+	  desc { Finely polished oak doors stand in your way to the south.
+}
+	to { w, 5 }
+	  key { 3410 }
+	  info { door, closed }
+	  keywords { stone trapdoor door" }
+	  desc { You see a large set of stone stairs leading upwards to a small stone door at
+the top. But they lead more west for some reason than up.
+}
+  }
+}
+
+22
+{
+  name { The grand hall of the kings }
+  desc {
+"  Here lies a long hallway which stretchs both east and west. On the southern side of the hall there are many many doors each with the name of a king who
+has passed away and is entombed here. The hallway is beautiful yet still kind
+of chilling. Even tho the area has been relatively well keep by the acolytes
+who live here, there still remains a stench of the undead.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 21 }
+	  info { door, closed }
+	  keywords { oak" }
+	to { e, 27 }
+	to { s, 23 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { The door has written above it : "May all the lands thank Crotus the Victor
+                                  Without his guidance this kingdom would
+                                  not have stood"
+}
+	to { w, 17 }
+  }
+}
+
+23
+{
+  name { The shrine of the great king Crotus }
+  desc {
+"  Mostly rubble this place used to be the shrine of the famous king Crotus
+who saved the northern regions from being overrun by the Goblin hordes of
+100 years ago. If not for him Midgaard of course would have eventually been
+squashed by these monsters as well...luckily this was not the case. Tho it
+is now appearent that a new threat has appeared to the city and this region.
+Though Crotus was a goodly king, it was rumored that he turned to the dark ways
+in his dying years...supposed he died an evil man...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 22 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 24 }
+  }
+}
+
+24
+{
+  name { The tomb of Crotus the Victor }
+  desc {
+"  Here the room is left fairly untouched...tho not alot was done with the
+room or maybe the artwork just wore off. A sarcophagus lies in the middle of
+the room and seems undisturbed...tho it also seems used alot. A hole has been
+knocked into the east wall...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 23 }
+	to { e, 29 }
+  }
+}
+
+25
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 26 }
+	to { w, 20 }
+  }
+}
+
+26
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...You hear a brief shuffling noise somewhere off to the
+east.
+A half-decomposed body is lying in the corner here...
+  }
+  extra {
+	keywords { corpse" }
+	desc { "  Yuk very disgusting...just lying there...it stinks.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 25 }
+	to { e, 30 }
+  }
+}
+
+27
+{
+  name { The grand hall of the kings }
+  desc {
+"  Nearing the western wing of the grand hall of the kings. To the south is a
+door and to the east and west the hall continues. The writing is still legable
+above the doorframe.
+  }
+  extra {
+	keywords { door writing" }
+	desc { "  It says : "May he who falls in combat speak aloud oh great Mitnar's name
+             for then that warrior shall be saved..."
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 32 }
+	to { s, 28 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 22 }
+  }
+}
+
+28
+{
+  name { The shrine of Mitnar the Conquerer }
+  desc {
+"  Noone ever really understood why he was laid to rest and honored here...
+according to the writing on the wall Mitnar was quite a gruesome beast of
+a man...he loved battle...and nothing else.  But many warrior has passed
+thru Midgaard over the years and warriors did love Mitnar he was the
+perfect warrior and all fighting men looked up to this man...
+  On the wall is depicted battle after battle after battle. Not much
+was really accomplished by this man that you can tell...
+  A small opening has been shaped carefully to the east.
+  }
+  extra {
+	keywords { opening" }
+	desc { "  This one was done with more care during creation...odd.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 27 }
+	  info { door, closed }
+	  keywords { door" }
+	to { e, 33 }
+	to { s, 29 }
+  }
+}
+
+29
+{
+  name { The tomb of Mitnar the Conquerer }
+  desc {
+"  Hmm...neat place. you can tell that it once held quite an inventory of
+Gold, treasure and weapons because the wall paintings show dramatic scenes
+of men and women warriors alike bowing down to their dead God-figure,
+Mitnar. Scenes show get heaps of treasure and weapons sacrificed to the
+Great Mitnar. Even today there exist cult worshipers of this long dead
+great warrior and king. Where his coffin was...there is now only a
+rectangular blemish on the floor of the dusty room...hmm...there is something
+odd about the floor tho...the western wall has a hole punched through it as
+well.
+  }
+  extra {
+	keywords { floor" }
+	desc { "  HEY! There's a trapdoor here!!!
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 28 }
+	to { w, 24 }
+	to { d, 36 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+	  desc { There seems to be a handle on the top though you cant figure out why you didnt
+see it before.
+}
+  }
+}
+
+30
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 35 }
+	to { s, 31 }
+	to { w, 20 }
+  }
+}
+
+31
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 30 }
+	to { e, 36 }
+  }
+}
+
+32
+{
+  name { The grand hall of the kings }
+  desc {
+"  Nearing the western wing of the grand hall of the kings. To the south a door
+exists but has been totally blocked and hammered also to make it unusable to
+anyone. Your only exits exist to the east and west in this gloomy hallway.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 37 }
+	to { w, 27 }
+  }
+}
+
+33
+{
+  name { The shrine of Frath the Penniless }
+  desc {
+"  More blood and gore are settled into this room...the stench is unbearable.
+The walls are almost covered in blood and little chunks of dried meat. Almost
+as if it were painted on...ICK! in fact there is a purposeful look to it.
+  The original paintings on the wall still are visible...but you still have
+an urge to vomit!
+  A distant moan is heard...tho you cant really place it.
+  The normal exit to the south has been totally blocks by rubble systematically
+piled there, and the door to the north is barred shut...thus the only way
+to go is either east or west.
+  }
+  extra {
+	keywords { painting walls" }
+	desc { "  Interesting...judging from the artwork Frath the Penniless was a very
+generous ruler in his time...an excellent economist it seems...the joke at
+the time was that he gave out so much money that he was penniless himself!
+He thus recieved that title by default.
+	}
+	keywords { rubble" }
+	desc { "  This isnt an accident...someone ..or thing placed this pile here for who
+knows what reason...
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 38 }
+	to { w, 28 }
+  }
+}
+
+34
+{
+  name { The tomb of Frath the penniless }
+  desc {
+"  UGH! the scene is sickening...the sarcophagus is opened up and the mummified
+body lies out in the open but ripped to pieces and partially gnawed pieces
+of flesh and bone. Rubble lies to the north and the room has been physically
+raised somehow because the only exit is downward from where you came...
+  }
+  flags { dark, indoors }
+  exits {
+	to { d, 39 }
+  }
+}
+
+35
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+A half-decomposed body is lying in the corner here...
+  }
+  extra {
+	keywords { corpse" }
+	desc { "  Yuk, very disgusting...just lying there...it stinks.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 41 }
+	to { s, 36 }
+	to { w, 30 }
+  }
+}
+
+36
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 35 }
+	to { e, 41 }
+	to { w, 31 }
+  }
+}
+
+37
+{
+  name { The grand hall of the kings }
+  desc {
+"  You are at the very western end of the grand hall of the kings.  Again
+someone seems to have purposely jammed the door leading south...there is a
+door leading north and the hallway continues west.
+Tho the southern door is blocked and damaged you can still making out some
+writing at its head.
+  }
+  extra {
+	keywords { writing" }
+	desc { "  It reads : "Behind these doors lie the remains of
+              the great benefactor of all Midgaard
+              and its outlying regions,
+              Jubal the Benevolent"
+  Extra special care has been taken in keeping this lettering fresh.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 9 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 32 }
+  }
+}
+
+38
+{
+  name { The shrine of Jubal }
+  desc {
+"   It is a shame this was once beautiful. Now the huge tapestries have been
+torn down and the carpeting all pulled up...the paintings on the ceiling are
+unreadable and the altar is crumbled...you here a crunching sound nearby...
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 39 }
+	to { w, 33 }
+  }
+}
+
+39
+{
+  name { The ancient tomb of Jubal the Benevolent }
+  desc {
+"  The desecration of the dead here is hideous...the smell coming off of the
+opened sarcophagus and nauseating...the floor is slightly crumpled and walls
+are raked...but the worst part is the mummy...Jubal the Benevolent is missing
+his head!
+  The only exits are north and up to the west...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 38 }
+	to { u, 34 }
+  }
+}
+
+40
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 45 }
+	to { s, 41 }
+  }
+}
+
+41
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...slithering noises now?
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 40 }
+	to { e, 46 }
+	to { w, 36 }
+  }
+}
+
+42
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...You hear a far-off scream...
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 47 }
+	to { s, 43 }
+  }
+}
+
+43
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+A half-decomposed body is lying in the corner here...
+  }
+  extra {
+	keywords { corpse" }
+	desc { "  Yuk, very disgusting...just lying there...oozing...
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 42 }
+	to { s, 44 }
+  }
+}
+
+44
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 43 }
+	to { e, 49 }
+  }
+}
+
+45
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 40 }
+	to { s, 46 }
+	to { w, 40 }
+  }
+}
+
+46
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 45 }
+	to { s, 47 }
+	to { w, 41 }
+  }
+}
+
+47
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 46 }
+	to { s, 48 }
+	to { w, 42 }
+  }
+}
+
+48
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...But then again this place is quite different!
+  The room has been totally hollowed out and smoothed...and a pit has
+been drilled in the center of the floor (though nothing is in it).
+  Also extensive gruesome paintings of beasts and monsters terrorizing the
+country side; vampires sucking the blood of beasts and humans alike...
+the scenes are horribly graphic.
+The Ghost of Cristis is floating here...
+  }
+  extra {
+	keywords { vault" }
+	desc { "  Yeah there is a tiny painting of a vault in this murel...and it seems
+to be reflected picture of the vault...the word in tiny print is rat'hcor
+so that could mean ....
+	}
+	keywords { parchment" }
+	desc { "  Written on it he says :
+      "Congratuations adventurer you made it this far! Now, in order
+    to get out of here look at the vault hidden in the painting and
+    get the key pry rod that will take you out...if you have passed
+    through all of these monsters and abonimations with ease you are
+    ready to continue. But if not the rod will help you get out.The
+    Vault will clue you on what to open.
+      There exists nearby a horrid beast called Snapper Joe...he is
+    a reincarnated fiend called up directly from hell...he is tough
+    but if you manage to kill him he has a key to the lower depths
+    of these horrid tombs and catacombs. I cant promise you what lies
+    ahead but it will promise to be challenging and hopefully will
+    prove that we are nearing the end of the reign of the Horrid
+    Roch'tar.
+      If you need to rest and come back, take the rod. But remember to
+    dump it so that others will have a chance at continuing here also.
+      Thank you again brave fellows!"
+	}
+	keywords { ghost cristis" }
+	desc { "  He looks alittle fainter and is holding up another parchment for you
+to read...
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 47 }
+  }
+}
+
+49
+{
+  name { The lower chambers and tombs of the undead }
+  desc {
+"  The stench of death is heavy in here...you think you may get easily lost
+in these caverns...
+A small door leads off to the east.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 8 }
+	  key { 3411 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 44 }
+  }
+}
+
+50
+{
+  name { Entrance to the Forbidden Catacombs }
+  desc {
+"  You have entered the forbidden catacombs. This cave system must have been
+built long ago. The air is dank and smells of something dead...or maybe undead.
+Enter here at your own risk...something evil abodes here....
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 51 }
+	  desc { Too dark to tell.
+}
+	to { e, 52 }
+	  desc { Too dark to tell.
+}
+	to { s, 53 }
+	  desc { Too dark to tell.
+}
+	to { w, 54 }
+	  desc { Too dark to tell.
+}
+	to { u, 8 }
+  }
+}
+
+51
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, musty air...the earth seems to moan softly.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 55 }
+	  desc { Too dark to tell.
+}
+	to { s, 50 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+52
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, musty air...the earth seems to groan beneath your feet...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 61 }
+	  desc { Too dark to tell.
+}
+	to { w, 50 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+53
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, musty air...the earth seems to groan beneath your feet...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 50 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+54
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, musty air...the earth seems to moan softly.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 50 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+55
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, musty air...a faint cry is heard in the distance.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 56 }
+	  desc { Too dark to tell.
+}
+	to { w, 51 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+56
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, musty air...the walls are slick with moisture...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 55 }
+	  desc { Too dark to tell.
+}
+	to { e, 57 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+57
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, musty air...the earth seems to groan softly...
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 58 }
+	  desc { Too dark to tell.
+}
+	to { w, 56 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+58
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, musty air...a faint cry is heard in the distance...
+The floor rises slightly to the west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 57 }
+	to { s, 72 }
+	  desc { You see unfathomable blackness to the south...
+}
+	to { w, 59 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+59
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, musty air...the walls are slick with moisture, and
+a horrible stench fills the air.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 58 }
+	  desc { Too dark to tell.
+}
+	to { w, 60 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+60
+{
+  name { Den of the Vampire }
+  desc {
+"  Your mind whirls in the hideous madness of this place... The stench
+is horrendous and dead bodies, suck of all their life, lay all over.
+One coffin lies in the center of the room...but the occupant will
+obviously be you...
+  }
+  extra {
+	keywords { coffin" }
+	desc { "  Jet black, it looks very old, as is it's owner.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 73 }
+	  desc { Too dark to tell.
+}
+	to { d, 75 }
+	  key { 3419 }
+	  info { door, closed }
+	  keywords { coffin" }
+	  desc { A jet black coffin...who knows what lurks beneath.
+}
+  }
+}
+
+61
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, dank air...the walls seems to breath...
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 62 }
+	  desc { Too dark to tell.
+}
+	to { s, 52 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+62
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, dank air...the smell of the dead is quite noticable...
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 63 }
+	  desc { Too dark to tell.
+}
+	to { w, 61 }
+	  desc { Too dark too tell.
+}
+  }
+}
+
+63
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, dank air...a faint dry is heard in the distance...
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 62 }
+	  desc { Too dark to tell.
+}
+	to { e, 64 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+64
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, dank air...the slick walls seem to close in around you...
+The eastern walls seems a bit odd for some reason.
+  }
+  extra {
+	keywords { secret" }
+	desc { YEAH! there it is ...a SECRET door...in the eastern wall!
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 70 }
+	  info { door, closed }
+	  keywords { secret" }
+	  desc { there seems to be a faint outline of something here...maybe a secret door}
+	to { s, 65 }
+	  desc { Too dark to tell.
+}
+	to { w, 63 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+65
+{
+  name { The gilded hallway }
+  desc {
+"  Wow! Although this hallway is quit filthy and dusty, but it is noticably
+different than the rest of the catacombs...but you dont feel too safe...
+The walls faintly show ancient detailed etchings in gold and silver of
+ancient Gods and even more Ancient rituals...not all of which seems
+pleasant. The hallway continues north into the catacombs and further
+south as long as you can see.
+  }
+  extra {
+	keywords { etchings" }
+	desc { Beautiful yet disturbing...they urge you too move onward.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 64 }
+	  desc { The glow of your light reflects off the walls and you see the catacombs.
+}
+	to { s, 66 }
+	  desc { The glow of your light reflects off the walls...the gilded hallway.
+}
+  }
+}
+
+66
+{
+  name { The gilded hallway }
+  desc {
+"  Ancient etchings and writing all done in intricate gold and silver
+designs fill these walls...they are almost too interesting to go on.
+but you draw your attention away due to how unsafe this horribly
+beautiful place really is. Your light source flickers off the walls
+showing you exits north and south.
+  }
+  extra {
+	keywords { etchings" }
+	desc { beautiful yet disturbing...they urge you to move on carefully.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 65 }
+	  desc { Your light reveals more of the hallway.
+}
+	to { s, 67 }
+	  desc { Your light reveals more of the hallway.
+}
+  }
+}
+
+67
+{
+  name { The gilded hallway }
+  desc {
+"  Ancient etchings and writing all done in intricate gold and silver
+designs fill these walls...they are almost too interesting to go on.
+but you draw your attention away due to how unsafe this horribly
+beautiful place really is. Your light source flickers off the walls
+showing you exits north and south.
+  }
+  extra {
+	keywords { etchings" }
+	desc { beautiful yet disturbing...they urge you to move on carefully.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 66 }
+	  desc { You light reveals more of the hallway.
+}
+	to { s, 68 }
+	  desc { Your light reveals more of the hallway.
+}
+  }
+}
+
+68
+{
+  name { The gilded hallway }
+  desc {
+"  Ancient etchings and writing all done in intricate gold and silver
+designs fill these walls...they are almost too interesting to go on.
+but you draw your attention away due to how unsafe this horribly
+beautiful place really is. Your light source flickers off the walls
+showing you exits north and south.
+  }
+  extra {
+	keywords { etchings" }
+	desc { beautiful yet disturbing...they urge you to move on carefully.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 67 }
+	  desc { You light reveals more of the hallway.
+}
+	to { s, 69 }
+	  desc { Your light reveals more of the hallway.
+}
+  }
+}
+
+69
+{
+  name { The gilded hallway }
+  desc {
+"  Ancient etchings and writing all done in intricate gold and silver
+designs fill these walls...they are almost too interesting to go on.
+but you draw your attention away due to how unsafe this horribly
+beautiful place really is. Your light source flickers off the walls
+showing you exits north and west.
+  }
+  extra {
+	keywords { west secret door" }
+	desc { weird no door here anymore
+	}
+	keywords { etchings" }
+	desc { beautiful yet disturbing...they urge you to move on carefully.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 68 }
+	  desc { You light reveals more of the hallway.
+}
+	to { w, 69 }
+	  desc { Your light reveals THAT THIS LINK AINT DONE YET!-------------------
+}
+  }
+}
+
+70
+{
+  name { The secret passageway }
+  desc {
+"  A secret passage! You wonder where it may lead!
+  }
+  extra {
+	keywords { east secret door" }
+	desc { The door closed on you so softly that you didnt even notice!
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 71 }
+	  desc { Too dark to tell.
+}
+  }
+}
+
+71
+{
+  name { The secret passageway }
+  desc {
+"  A secret passage! Seems to be the southern end.
+Another door lead to the west.
+  }
+  extra {
+	keywords { door" }
+	desc { Hmm...maybe you should try to open it?
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 70 }
+	  desc { Too dark to tell.
+}
+	to { w, 69 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { Hmm...a small wooden door is this way.
+}
+  }
+}
+
+72
+{
+  name { The short way to hell... }
+  desc {
+"   you fall........
+            hmm....its getting really really HOT!
+you fall...
+                        you fall....
+     slowly you are cooking as you fall further....you skin is burning and
+your hair 'evaporates'...
+
+                                           you fall...
+
+                 and fall....
+
+                                     AND STOP!
+
+Welcome to HELL!
+
+But even in Hell we give you another chance.
+
+  }
+  flags { death, indoors }
+  exits {
+	to { n, 58 }
+	  desc { HEE HEE
+}
+	to { e, 50 }
+	  desc { HEE HEE
+}
+	to { s, 74 }
+	  desc { HEE HEE
+}
+  }
+}
+
+73
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, musty air...the walls are slick with moisture, and
+a horrible stench fills the air.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 74 }
+	to { w, 60 }
+  }
+}
+
+74
+{
+  name { The catacombs }
+  desc {
+"  Stone walls, musty air...a faint cry is heard in the distance...
+The floor rises slightly to the west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 72 }
+	  desc { You would be really stupid to go this way...
+}
+	to { s, 57 }
+	to { w, 73 }
+  }
+}
+
+75
+{
+  name { Inside the coffin }
+  desc {
+"  Holy cow! this place is HUGE! In fact you are inside a huge cavern.
+You cant see around yourself because the light only lights this general
+area. The cavern continue in all directions...a ladder leads upward to a
+lid of some sort.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 75 }
+	  desc { Needs yet to be linked anywhere important
+}
+	to { e, 75 }
+	  desc { same as north
+}
+	to { s, 75 }
+	  desc { same as North
+}
+	to { w, 75 }
+	  desc { same as north
+}
+	to { u, 60 }
+	  key { 3419 }
+	  info { door, closed }
+	  keywords { lid coffin" }
+  }
+}

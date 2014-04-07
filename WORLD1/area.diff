@@ -1,0 +1,5306 @@
+Abyss
+4c4
+<   name { The Mountain Path }
+---
+>   name { Lost in the Mountains }
+6,8c6,8
+< " You find yourself standing in a heavily wooded area, overgrown with brush,
+< and gnarled trees. To the north, you see a neglected, twisted path, 
+< disappearing far into the mountains.
+---
+> " Numerous craggy mountains surround you. Twisted, deadened trees stare at
+> you from all around. A neglected path, at your feet. You get an uneasy
+> feeling of deja-vu.
+10,11d9
+<   sector { Mountains }
+<   flags { no_mob, private }
+14d11
+< 	to { s, Ershteep:61 }
+24c21
+< feeling of deja-vu. 
+---
+> feeling of deja-vu.
+29c26
+< 	to { n, Mouse:0 }
+---
+> 	to { n, 1 }
+42,43c39
+<   sector { Mountains }
+<   flags { private }
+---
+>   sector { City }
+58c54
+< foe. 
+---
+> foe.
+61c57
+<   flags { peaceful, private }
+---
+>   flags { private }
+77,78c73,74
+<   sector { Mountains }
+<   flags { dark, private }
+---
+>   sector { Forest }
+>   flags { dark }
+95,96c91,92
+<   sector { Mountains }
+<   flags { dark, private }
+---
+>   sector { Forest }
+>   flags { dark }
+108c104
+< a strong sense of death, here. The darkness seems to come alive at 
+---
+> a strong sense of death, here. The darkness seems to come alive at
+114,115c110,111
+<   sector { Mountains }
+<   flags { dark, private }
+---
+>   sector { Forest }
+>   flags { dark }
+126c122
+< "  From here, caverns branch off in all directions.  You hear
+---
+> " From here, caverns branch off in all directions. You here
+128c124
+< the cavern has been enveloped in a glowing mist.
+---
+> the cavern has beed enveloped in a glowing mist.
+130,131c126,127
+<   sector { Mountains }
+<   flags { dark, private }
+---
+>   sector { Forest }
+>   flags { dark }
+149,150c145,146
+<   sector { Mountains }
+<   flags { dark, private }
+---
+>   sector { Forest }
+>   flags { dark }
+161,162c157,158
+< filling the cavern. You are overpowered by the feeling of 
+< death and despair. Through the mist you can just barely make 
+---
+> filling the cavern. You are overpowered by the feeling of
+> death and despair. Through the mist you can just barely make
+165,166c161,162
+<   sector { Mountains }
+<   flags { dark, private }
+---
+>   sector { Forest }
+>   flags { dark }
+179c175
+< the doors, perhaps a key hole. The mist in this room seems to 
+---
+> the doors, perhaps a key hole. The mist in this room seems to
+183,184c179,180
+<   sector { Mountains }
+<   flags { dark, private }
+---
+>   sector { Forest }
+>   flags { dark }
+189c185
+< 	  keywords { Door Huge~" }
+---
+> 	  keywords { Door Huge" }
+199c195
+< rvation, you find that it resembeles some sort of window. 
+---
+> rvation, you find that it resembeles some sort of window.
+201c197
+< you start to recall the crashing sounds of the waves...and 
+---
+> you start to recall the crashing sounds of the waves...and
+204,205c200,201
+<   sector { Mountains }
+<   flags { dark, private }
+---
+>   sector { Forest }
+>   flags { dark }
+221,222c217,218
+<   sector { Mountains }
+<   flags { dark, private }
+---
+>   sector { Forest }
+>   flags { dark }
+233,235c229,231
+< "  As you step through the window, you are instantly transported
+< to find yourself here.  Just to the north is what appears to be
+< the shore of a large ocean.
+---
+> " As you step through the window, you are instantly transported
+> to find yourself here. Just to the north is what appears to be
+> the shore of a lareg ocean.
+237,238c233
+<   sector { Mountains }
+<   flags { private }
+---
+>   sector { Forest }
+253,254c248
+<   sector { Mountains }
+<   flags { private }
+---
+>   sector { Forest }
+269,270c263
+<   sector { Mountains }
+<   flags { private }
+---
+>   sector { Field }
+283,284c276,277
+< " As you go farther and farther out into the see you lose sight of 
+< all land. The thing that was back toword the shore appears to be 
+---
+> " As you go farther and farther out into the see you lose sight of
+> all land. The thing that was back toword the shore appears to be
+287,288c280
+<   sector { Mountains }
+<   flags { private }
+---
+>   sector { Field }
+304,305c296
+<   sector { Mountains }
+<   flags { private }
+---
+>   sector { Forest }
+319c310
+< creatures. Bones line the shore, hundreds of them, every wave 
+---
+> creatures. Bones line the shore, hundreds of them, every wave
+322,323d312
+<   sector { Mountains }
+<   flags { private }
+334c323
+< "   As you enter these woods you feel an ever growing sense 
+---
+> "   As you enter these woods you feel an ever growing sense
+339,340d327
+<   sector { Mountains }
+<   flags { private }
+357,358d343
+<   sector { Mountains }
+<   flags { private }
+370,371c355,356
+< plant life here. The plains are vast, and endless as far as the 
+< eye can see. Besides the woods from which you have just come 
+---
+> plant life here. The plains are vast, and endless as far as the
+> eye can see. Besides the woods from which you have just come
+375,376d359
+<   sector { Mountains }
+<   flags { private }
+391,392d373
+<   sector { Mountains }
+<   flags { private }
+406c387
+< ground on which you stand. Whatever made this trail could 
+---
+> ground on which you stand. Whatever made this trail could
+409,410d389
+<   sector { Mountains }
+<   flags { private }
+425,426d403
+<   sector { Mountains }
+<   flags { private }
+441,442d417
+<   sector { Mountains }
+<   flags { private }
+457,458d431
+<   sector { Mountains }
+<   flags { private }
+473,474d445
+<   sector { Mountains }
+<   flags { private }
+489,490d459
+<   sector { Mountains }
+<   flags { private }
+505,506d473
+<   sector { Mountains }
+<   flags { private }
+523,524d489
+<   sector { Mountains }
+<   flags { private }
+540,541d504
+<   sector { Mountains }
+<   flags { private }
+557,558d519
+<   sector { Mountains }
+<   flags { private }
+575,576d535
+<   sector { Mountains }
+<   flags { private }
+594c553
+< look reveals the remains of what may have been a knight. The 
+---
+> look reveals the remains of what may have been a knight. The
+602,603d560
+<   sector { Mountains }
+<   flags { private }
+619,620d575
+<   sector { Mountains }
+<   flags { private }
+633c588
+< The building appears empty, for the door lies open, 
+---
+> The building appears empty, for the door lies open,
+636,637d590
+<   sector { Mountains }
+<   flags { private }
+652,653d604
+<   sector { Mountains }
+<   flags { private }
+669,670d619
+<   sector { Mountains }
+<   flags { private }
+681,682c630
+< "
+<    Upon entering, you discover that this may have been
+---
+> "   Upon entering, you discover that this may have been
+686,687c634
+< feeling comes over you, you sench you are not alone.
+< 
+---
+> feeling comes over you, you sense you are not alone.
+689,690d635
+<   sector { Mountains }
+<   flags { private }
+706,707d650
+<   sector { Mountains }
+<   flags { private }
+725,726d667
+<   sector { Mountains }
+<   flags { private }
+742c683
+< seemingly bottomless pit into which you have fallen. Just as you 
+---
+> seemingly bottomless pit into which you have fallen. Just as you
+747a689
+>   sector { City }
+765,766d706
+<   sector { Mountains }
+<   flags { private }
+783,784d722
+<   sector { Mountains }
+<   flags { private }
+795c733
+< "   As you begin to climb the staircase, you start to hear strange 
+---
+> "   As you begin to climb the staircase, you start to hear strange
+801,802d738
+<   sector { Mountains }
+<   flags { private }
+814c750
+< is lit by a stream of fire coming from some kind of three-headed 
+---
+> is lit by a stream of fire coming from some kind of three-headed
+819,820d754
+<   sector { Mountains }
+<   flags { private }
+836,837d769
+<   sector { Mountains }
+<   flags { private }
+849c781
+< a door or two further down the hall. There seems to be a 
+---
+> a door or two further down the hall. There seems to be a
+852,853d783
+<   sector { Mountains }
+<   flags { private }
+872,873d801
+<   sector { Mountains }
+<   flags { private }
+900,901d827
+<   sector { Mountains }
+<   flags { private }
+919,920d844
+<   sector { Mountains }
+<   flags { private }
+938,939d861
+<   sector { Mountains }
+<   flags { private }
+953c875
+< of some sort stands at one side of the room, the statue is not like 
+---
+> of some sort stands at one side of the room, the statue is not like
+957,958d878
+<   sector { Mountains }
+<   flags { private }
+975,976d894
+<   sector { Mountains }
+<   flags { private }
+996,997d913
+<   sector { Mountains }
+<   flags { private }
+1017,1018d932
+<   sector { Mountains }
+<   flags { private }
+1034,1035d947
+<   sector { Mountains }
+<   flags { private }
+1053,1054d964
+<   sector { Mountains }
+<   flags { private }
+1074,1075d983
+<   sector { Mountains }
+<   flags { private }
+1092c1000
+< hear footsteps behind you as the door suddenly slams shut! The only 
+---
+> hear footsteps behind you as the door suddenly slams shut! The only
+1097,1098d1004
+<   sector { Mountains }
+<   flags { private }
+1113,1114d1018
+<   sector { Mountains }
+<   flags { private }
+1130,1131d1033
+<   sector { Mountains }
+<   flags { private }
+1146,1147d1047
+<   sector { Mountains }
+<   flags { private }
+1261,1262d1160
+<   sector { Mountains }
+<   flags { private }
+1278,1279d1175
+<   sector { Mountains }
+<   flags { private }
+1296,1297d1191
+<   sector { Mountains }
+<   flags { private }
+1313,1314d1206
+<   sector { Mountains }
+<   flags { private }
+1332,1333d1223
+<   sector { Mountains }
+<   flags { private }
+1351,1352d1240
+<   sector { Mountains }
+<   flags { private }
+1370,1372c1258,1260
+< "   As you enter this room, you get a feeling of saftey. A large,
+< ornate door lies directly to the west of you, a feeling of great 
+< evil radiates from it. As you begin to look around the room, a 
+---
+> "   As you enter this room, you get a feeling of safety. A large,
+> ornate door lies directly to the west of you, a feeling of great
+> evil radiates from it. As you begin to look around the room, a
+1375,1376d1262
+<   sector { Mountains }
+<   flags { private }
+1397,1398d1282
+<   sector { Mountains }
+<   flags { private }
+1416,1417d1299
+<   sector { Mountains }
+<   flags { private }
+1436,1437d1317
+<   sector { Mountains }
+<   flags { private }
+1454,1455d1333
+<   sector { Mountains }
+<   flags { private }
+1468c1346
+< "   You have entered the chambers of Kalas, the knight, and 
+---
+> "   You have entered the chambers of Kalas, the knight, and
+1473,1474d1350
+<   sector { Mountains }
+<   flags { private }
+1491,1492d1366
+<   sector { Mountains }
+<   flags { private }
+1508,1509d1381
+<   sector { Mountains }
+<   flags { private }
+1521,1522c1393,1394
+< you can just barely make out the door to the west. You hear 
+< a faint, ghost like voice float through the air, but you 
+---
+> you can just barely make out the door to the west. You hear
+> a faint, ghost like voice float through the air, but you
+1525,1526d1396
+<   sector { Mountains }
+<   flags { private }
+1544,1545d1413
+<   sector { Mountains }
+<   flags { private }
+1562,1563d1429
+<   sector { Mountains }
+<   flags { private }
+1575,1576c1441,1442
+< dungeon, bones lie strewn about the room. The only exit from 
+< this room is to the south. The wall to the west has a small 
+---
+> dungeon, bones lie strewn about the room. The only exit from
+> this room is to the south. The wall to the west has a small
+1579,1580d1444
+<   sector { Mountains }
+<   flags { private }
+1597,1598d1460
+<   sector { Mountains }
+<   flags { private }
+1602,1603c1464
+< 	  keywords { ex
+< wall split" }
+---
+> 	  keywords { wall split" }
+1621,1622d1481
+<   sector { Mountains }
+<   flags { private }
+1634,1635c1493,1494
+< "   Upon entering this small alcove, you get a safe feeling 
+< within its walls. The room is clean and several tapestries 
+---
+> "   Upon entering this small alcove, you get a safe feeling
+> within its walls. The room is clean and several tapestries
+1640,1641d1498
+<   sector { Mountains }
+<   flags { private }
+1659,1660d1515
+<   sector { Mountains }
+<   flags { private }
+1675c1530
+< is lit by a dim light of some kind at the far end of the 
+---
+> is lit by a dim light of some kind at the far end of the
+1678,1679d1532
+<   sector { Mountains }
+<   flags { private }
+1690c1543
+< "   At this point of the tunnel, the walls get closer together 
+---
+> "   At this point of the tunnel, the walls get closer together
+1695,1696d1547
+<   sector { Mountains }
+<   flags { private }
+1707c1558
+< "   As you come to the end of the tunnel, you notice the 
+---
+> "   As you come to the end of the tunnel, you notice the
+1711,1712d1561
+<   sector { Mountains }
+<   flags { private }
+1724,1725d1572
+<   sector { Mountains }
+<   flags { private }
+1732c1579
+< "   You stand at the foot of a huge arch, formed of the finest 
+---
+> "   You stand at the foot of a huge arch, formed of the finest
+1735c1582
+< and gleams brightly in the sunlight. Upon entering the archway, 
+---
+> and gleams brightly in the sunlight. Upon entering the archway,
+1739,1740d1585
+<   sector { Mountains }
+<   flags { private }
+1743d1587
+< 	to { w, Main_matrix:0 }
+1753c1597
+< thieves on the right hand side of the path, it stares at you, its eyes 
+---
+> thieves on the right hand side of the path, it stares at you, its eyes
+1755c1599
+< many fine gems have been set into it. The statue is protected by some 
+---
+> many fine gems have been set into it. The statue is protected by some
+1758,1759d1601
+<   sector { Mountains }
+<   flags { private }
+1771c1613
+< of the remarkable statues, made entirely of black onyx, a statue of 
+---
+> of the remarkable statues, made entirely of black onyx, a statue of
+1777,1778d1618
+<   sector { Mountains }
+<   flags { private }
+1798,1799d1637
+<   sector { Mountains }
+<   flags { private }
+1818,1819d1655
+<   sector { Mountains }
+<   flags { private }
+1841,1842d1676
+<   sector { Mountains }
+<   flags { private }
+1863,1864d1696
+<   sector { Mountains }
+<   flags { private }
+1882,1883d1713
+<   sector { Mountains }
+<   flags { private }
+1905,1906d1734
+<   sector { Mountains }
+<   flags { private }
+1922,1923d1749
+<   sector { Mountains }
+<   flags { private }
+1941,1942d1766
+<   sector { Mountains }
+<   flags { private }
+1962,1963d1785
+<   sector { Mountains }
+<   flags { private }
+1986,1987d1807
+<   sector { Mountains }
+<   flags { private }
+2007,2008d1826
+<   sector { Mountains }
+<   flags { private }
+2027,2028d1844
+<   sector { Mountains }
+<   flags { private }
+2047,2048d1862
+<   sector { Mountains }
+<   flags { private }
+2067,2068d1880
+<   sector { Mountains }
+<   flags { private }
+2084,2085d1895
+<   sector { Mountains }
+<   flags { private }
+2096c1906
+< "   Suddenly, you find yourself in a hidded passage somewhere 
+---
+> "   Suddenly, you find yourself in a hidded passage somewhere
+2102,2103d1911
+<   sector { Mountains }
+<   flags { private }
+2119,2120d1926
+<   sector { Mountains }
+<   flags { private }
+2136,2137d1941
+<   sector { Mountains }
+<   flags { private }
+2156,2157d1959
+<   sector { Mountains }
+<   flags { private }
+2175,2176d1976
+<   sector { Mountains }
+<   flags { private }
+2190c1990
+< openings between them to the north and south, almost as if it were 
+---
+> openings between them to the north and south, almost as if it were
+2193,2194d1992
+<   sector { Mountains }
+<   flags { private }
+2208c2006
+< possible in almost all directions. You notice a large, winged 
+---
+> possible in almost all directions. You notice a large, winged
+2213,2214d2010
+<   sector { Mountains }
+<   flags { private }
+2233,2234d2028
+<   sector { Mountains }
+<   flags { private }
+2253,2254d2046
+<   sector { Mountains }
+<   flags { private }
+2273,2274d2064
+<   sector { Mountains }
+<   flags { private }
+2293,2294d2082
+<   sector { Mountains }
+<   flags { private }
+2313,2314d2100
+<   sector { Mountains }
+<   flags { private }
+2333,2334d2118
+<   sector { Mountains }
+<   flags { private }
+2353,2354d2136
+<   sector { Mountains }
+<   flags { private }
+2373,2374d2154
+<   sector { Mountains }
+<   flags { private }
+2393,2394d2172
+<   sector { Mountains }
+<   flags { private }
+2413,2414d2190
+<   sector { Mountains }
+<   flags { private }
+2433,2434d2208
+<   sector { Mountains }
+<   flags { private }
+2447c2221
+< "   The trees seem to thin out here, and you find that travel is 
+---
+> "   The trees seem to thin out here, and you find that travel is
+2453,2454d2226
+<   sector { Mountains }
+<   flags { private }
+2473,2474d2244
+<   sector { Mountains }
+<   flags { private }
+2493,2494d2262
+<   sector { Mountains }
+<   flags { private }
+2513,2514d2280
+<   sector { Mountains }
+<   flags { private }
+2533,2534d2298
+<   sector { Mountains }
+<   flags { private }
+2548c2312
+< possible in almost all directions.  You notice a large, winged
+---
+> possible in almost att directions. You notice a large, winged
+2553,2554d2316
+<   sector { Mountains }
+<   flags { private }
+2568c2330
+< possible in almost all directions. You notice a large, winged 
+---
+> possible in almost all directions. You notice a large, winged
+2573,2574d2334
+<   sector { Mountains }
+<   flags { private }
+2593,2594d2352
+<   sector { Mountains }
+<   flags { private }
+2613,2614d2370
+<   sector { Mountains }
+<   flags { private }
+2633,2634d2388
+<   sector { Mountains }
+<   flags { private }
+2653,2654d2406
+<   sector { Mountains }
+<   flags { private }
+2673,2674d2424
+<   sector { Mountains }
+<   flags { private }
+2693,2694d2442
+<   sector { Mountains }
+<   flags { private }
+2710c2458
+< to make out exactly what the creature is, and it is well out of 
+---
+> to make out exactly what the creature is, and it is well out of
+2713,2714d2460
+<   sector { Mountains }
+<   flags { private }
+2733,2734d2478
+<   sector { Mountains }
+<   flags { private }
+2753,2754d2496
+<   sector { Mountains }
+<   flags { private }
+2767c2509
+< "   The trees seem to thin out here, and you find that travel is 
+---
+> "   The trees seem to thin out here, and you find that travel is
+2773,2774d2514
+<   sector { Mountains }
+<   flags { private }
+2793,2794d2532
+<   sector { Mountains }
+<   flags { private }
+2813,2814d2550
+<   sector { Mountains }
+<   flags { private }
+2833,2834d2568
+<   sector { Mountains }
+<   flags { private }
+2853,2854d2586
+<   sector { Mountains }
+<   flags { private }
+2873,2874d2604
+<   sector { Mountains }
+<   flags { private }
+2893,2894d2622
+<   sector { Mountains }
+<   flags { private }
+2907,2908c2635,2636
+< "   As you step into this part of the forest, you breath a sigh 
+< of relief as you realize that you have finally found your way 
+---
+> "   As you step into this part of the forest, you breath a sigh
+> of relief as you realize that you have finally found your way
+2915,2916d2642
+<   sector { Mountains }
+<   flags { private }
+2934,2935d2659
+<   sector { Mountains }
+<   flags { private }
+2949c2673
+< winged creature the had been following you before, seems 
+---
+> winged creature the had been following you before, seems
+2952,2953d2675
+<   sector { Mountains }
+<   flags { private }
+2965c2687
+< trees seem to thin out a little, revealing  the entrance to a 
+---
+> trees seem to thin out a little, revealing  the entrance to a
+2969,2970d2690
+<   sector { Mountains }
+<   flags { private }
+2972a2693
+> 	to { s, 175 }
+2976a2698,3206
+> 167
+> {
+>   name { The Svelerian Caverns }
+>   desc {
+> "   As you enter these caverns, you notice the walls of this
+> portion of the cavern are covered with ancient runes and markings
+> which you do not understand. The ceiling of the caverns are fairly
+> high above you, and the cavern seems to glow with a sort of inner
+> light. Just as you are about to leave, you hear what you think
+> are voices somewhere to the west.
+>   }
+>   exits {
+> 	to { e, 166 }
+> 	to { w, 168 }
+>   }
+> }
+> 
+> 168
+> {
+>   name { The Svelerian Caverns }
+>   desc {
+> "   As you venture further into the caverns, the voices slowly
+> begin to fade away, as if the speakers had taken another passage.
+> The walls of the cavern here, are not like that of the entrance,
+> for they have no runes or markings upon them.
+>   }
+>   exits {
+> 	to { e, 167 }
+> 	to { w, 169 }
+>   }
+> }
+> 
+> 169
+> {
+>   name { The Svelerian Caverns }
+>   desc {
+> "   Here, the cavern gets very narrow, but you can manage to
+> go further with little trouble. The walls here are damp, and
+> unlike most caverns, the walls of this one are warm to your
+> touch. Once again you think you hear voices, but the seem to
+> fade away into the distance.
+>   }
+>   exits {
+> 	to { e, 168 }
+> 	to { w, 170 }
+>   }
+> }
+> 
+> 170
+> {
+>   name { A Narrow Cavern }
+>   desc {
+> "   Moving further down into the caverns, again you hear the
+> voices, this time louder than before. This part of the cavern
+> seems that it is used often, for the rough edges of the cavern
+> floor have been worn away from what would seem to be constant
+> travel.
+>   }
+>   exits {
+> 	to { e, 169 }
+> 	to { s, 171 }
+>   }
+> }
+> 
+> 171
+> {
+>   name { A Narrow Cavern }
+>   desc {
+> "   Strange, the cavern seems to dead end here, although you
+> are sure that you heard voices, and that this cavern has been
+> traveled by many people. A small pile of rubble lies against
+> the far wall, as if a portion of the wall had colapsed.
+>   }
+>   exits {
+> 	to { n, 170 }
+> 	to { d, 172 }
+> 	  key { 25126 }
+> 	  info { door, closed }
+> 	  keywords { floor trap rubble" }
+>   }
+> }
+> 
+> 172
+> {
+>   name { Caverns Beneath Violet Mountain }
+>   desc {
+> "   Here, far beneath the earths surface, you find the fabled caverns
+> of Violet Mountain.  It is said that these caverns once housed the
+> late king of Lucenia's most valuable treasures, also the stories of
+> these caverns also tell of a great dragon being housed within the walls
+> of these caverns to protect the riches.  If the stories are true, and
+> and the riches were placed here, then perhaps the treasure is still within
+> these caverns, also, to your dismay, that would mean the dragon is here
+> also.
+>   }
+>   exits {
+> 	to { n, 173 }
+> 	to { u, 171 }
+>   }
+> }
+> 
+> 173
+> {
+>   name { The Violet Caverns }
+>   desc {
+> "   Entering these caverns, you can feel the dragon's presence,
+> there is no doubt that the tresure is still here, that is if it
+> ever was, for the twisted remains of what looks as though it was
+> a group of adventurers, probably attempting to steal the dragon's
+> treasures lies here. The ground beneath you trembles slightly
+> as you hear a loud roar from somewhere far below...
+>   }
+>   exits {
+> 	to { n, 174 }
+> 	to { s, 172 }
+>   }
+> }
+> 
+> 174
+> {
+>   name { 25174 }
+>   desc {
+> Empty
+>   }
+> }
+> 
+> 175
+> {
+>   name { The Svelerian Forest }
+>   desc {
+> "   Entering this portion of the forest, you hear the sound of laughter
+> and you spot a small town to the south. the ground is fairly well worn
+> here from the constant travel of the townsfolk. A small, broken wagon
+> lies of the the right hand side of the trail.
+>   }
+>   exits {
+> 	to { n, 166 }
+> 	to { s, 176 }
+>   }
+> }
+> 
+> 176
+> {
+>   name { Outside the Northern Gate of Lucenia }
+>   desc {
+> "   As you come closer to the town, you realize that it is not so small
+> after all, but rather large. A huge iron gate has been left open for the
+> occupants of the town to go in and out. Guarding the gate, are many large,
+> mean looking guards dressed in full plate and eyeing you as if you were
+> some sort of suspect.
+>   }
+>   exits {
+> 	to { n, 175 }
+> 	to { e, 177 }
+> 	to { s, 179 }
+>   }
+> }
+> 
+> 177
+> {
+>   name { Lucenian Gatehouse }
+>   desc {
+> "   This room is lines with many different types of weapons and armor
+> hanging upon the walls. Several of the local guards stand duty here,
+> ordering you to leave immediately. A small jail cell lies to the east,
+> and the only other exit from the room appears to be back west.
+>   }
+>   exits {
+> 	to { e, 178 }
+> 	to { w, 176 }
+>   }
+> }
+> 
+> 178
+> {
+>   name { Inside the Jail of Lucenia }
+>   desc {
+> "   Here, the criminals, killers, and robbers of the town are kept.
+> Although the guards are not supposed to torture their prisoners, there
+> seems to be an awful lot of blood splattered along the walls of this
+> cell.Perhaps it is not wise for you to be in here, the guards may
+> mistake you for a prisoner....
+>   }
+>   exits {
+> 	to { w, 177 }
+>   }
+> }
+> 
+> 179
+> {
+>   name { Inside the Northern Gate of Lucenia }
+>   desc {
+> "   Here, you are able to get your first look at the inner city, as
+> you gaze the the city, you almost lose you breath, for placed directly
+> in front of the gate to the city, is a large, marble building, with to
+> large marble columns. A sign above the door to the building reads
+> "The Lucenian Town Hall".
+>   }
+>   exits {
+> 	to { n, 176 }
+> 	to { s, 180 }
+>   }
+> }
+> 
+> 180
+> {
+>   name { Archers Way }
+>   desc {
+> "   The cobblestone streets of Lucenia make it even more spectacular
+> to look at upon first arrival. The entrance to the Lucenian Town Hall
+> lies just to the south of you, while Archers Way continues to the east
+> and west. You hear the distant sounds of battle comimg from somewhere
+> to the east.
+>   }
+>   exits {
+> 	to { n, 179 }
+> 	to { e, 182 }
+> 	to { s, 181 }
+> 	  key { 25130 }
+> 	  info { door, closed }
+> 	  keywords { door" }
+> 	to { w, 212 }
+>   }
+> }
+> 
+> 181
+> {
+>   name { The Lucenian Town Hall }
+>   desc {
+> "   This is where the mayor of the town of Lucenia comes to relax, the
+> room looks very comfortable and doest look like much business ever goes
+> on here. Looking over to your right, you see the mayor of Lucenia looking
+> you over carefully, and then he welcomes your presence when after he
+> decides you mean no harm.
+>   }
+>   exits {
+> 	to { n, 180 }
+> 	  key { 25130 }
+> 	  info { door, closed }
+> 	  keywords { door" }
+>   }
+> }
+> 
+> 182
+> {
+>   name { Archers Way }
+>   desc {
+> "   You stand on Archers Way, signs tell you that the merchant section
+> of the town, and local training area lie somewhere further down Archers
+> Way to the east. The smell of freshly baked bread seems to coming from
+> the east.
+>   }
+>   exits {
+> 	to { e, 183 }
+> 	to { w, 180 }
+>   }
+> }
+> 
+> 183
+> {
+>   name { Archers Way }
+>   desc {
+> "   You stand on Archers Way, signs indicate that you have entered the
+> merchant section of Lucenia. Directly to the south of you lies the town
+> bakery, while you hear the sound of metal being forged a little further
+> to the east.
+>   }
+>   exits {
+> 	to { e, 185 }
+> 	to { s, 184 }
+> 	to { w, 182 }
+>   }
+> }
+> 
+> 184
+> {
+>   name { Askevon's Bakery }
+>   desc {
+> "   You have entered the town bakery, the smell of fresh bread fills the
+> air. A large counters rests in the back of the rooms, behind which many
+> different baked goods are placed for sale. The baker stands behind the
+> counter, waiting patiently for his next customer.
+>   }
+>   exits {
+> 	to { n, 183 }
+>   }
+> }
+> 
+> 185
+> {
+>   name { Archers Way }
+>   desc {
+> "   You are standing on Archers Way, in the middle of the merchant section
+> of town. From somewhere to the east, you hear the sound of metal being
+> forged. The sounds of battle seem to get closer with every step. A sign
+> indicates that the local blacksmith is a little to the east.
+>   }
+>   exits {
+> 	to { e, 186 }
+> 	to { w, 183 }
+>   }
+> }
+> 
+> 186
+> {
+>   name { Archers Way }
+>   desc {
+> "   A sign indicates that the town blacksmith lies just to the north of
+> here, while another indicates that the town grocer lies a little further
+> to the east on Archers Way. A blast on intense heat assaults you as the
+> door to the blacksmith's shop is opened.
+>   }
+>   exits {
+> 	to { n, 187 }
+> 	to { e, 188 }
+> 	to { w, 185 }
+>   }
+> }
+> 
+> 187
+> {
+>   name { Raylock's Smithy Shop }
+>   desc {
+> "   You are assaulted by a wave of intense heat as you enter this building.
+> A large, muscular man works at the forge in the far corner of the room, upon
+> noticing you, he immediately stops his work to offer you a look at his finest
+> wares.
+>   }
+>   exits {
+> 	to { s, 186 }
+>   }
+> }
+> 
+> 188
+> {
+>   name { Archers Way }
+>   desc {
+> "   From the east you hear the sounds of combat. Many people crowd in this
+> part of town to do the days shopping. To the south, a long road stretches
+> out into the residential portion of the city, while to the east, you just
+> barely make out the blacksmith's shop.
+>   }
+>   exits {
+> 	to { e, 189 }
+> 	to { s, 258 }
+> 	to { w, 186 }
+>   }
+> }
+> 
+> 189
+> {
+>   name { Archers Way }
+>   desc {
+> "   You stand on Archers Way, the main street of Lucenia. A large sign
+> hangs above the doorway to the north, indicating that it is the local
+> grocers. While another sign indicates thats the northern gate of the
+> town lies to the west.
+>   }
+>   exits {
+> 	to { n, 190 }
+> 	to { e, 191 }
+> 	to { w, 188 }
+>   }
+> }
+> 
+> 190
+> {
+>   name { General Store }
+>   desc {
+> "   As you walk into this room, a small, burly man offers you a look
+> at his goods. The room is decorated with several different things on
+> each wall. Knives, bags, torches etc are all carefully placed upon
+> each wall, so the customers can see what the store has to offer.
+>   }
+>   exits {
+> 	to { s, 189 }
+>   }
+> }
+> 
+> 191
+> {
+>   name { Archers Way }
+>   desc {
+> "   To the north, you see the remains of what looks as though it was
+> once some sort of shop. The walls now crumbled and blackened, it appears
+> as though it was destroyed by a fire. To the east, the sound of battle
+> gets louder... that must be where the traning yard is.
+>   }
+>   exits {
+> 	to { n, 193 }
+> 	to { e, 192 }
+> 	to { w, 189 }
+>   }
+> }
+> 
+> 192
+> {
+>   name { Archers Way }
+>   desc {
+> "    You stand on Archers Way, directly to the east of you, the town
+> training yard can be seen. While to the east lies the Merchant section
+> of the town. You hear the sound of metal being forged in the distance.
+>   }
+>   exits {
+> 	to { e, 194 }
+> 	to { w, 191 }
+>   }
+> }
+> 
+> 193
+> {
+>   name { A Runied Building }
+>   desc {
+> "   Walking into this room, you see large pieces of wood hanging from
+> the ceiling, blackened by the fire that ravaged the building. The roof
+> of the structure doesnt look to strong, but seems to be holding out.
+> The shattered remains of glass vials and bottles can be identified from
+> the various useless items that line the floor.
+>   }
+>   exits {
+> 	to { s, 191 }
+>   }
+> }
+> 
+> 194
+> {
+>   name { Outside the Training Yard }
+>   desc {
+> "   You stand outside of the training yard of Lucenia. The walls around this
+> large battle field are scratched and nicked from constant battle. A large
+> man stands here at the entrance, preventing strong people from taking advan-
+> tage of the young trainees.
+>   }
+>   exits {
+> 	to { e, 195 }
+> 	to { w, 192 }
+>   }
+> }
+> 
+> 195
+> {
+>   name { Training Yard }
+>   desc {
+> "   Entering the training yard, you see many young pupils practicing
+> their combat techniques. Blood stains the ground, but no one seems to be
+> severly injured.
+>   }
+>   exits {
+> 	to { n, 196 }
+> 	to { e, 199 }
+> 	to { w, 194 }
+>   }
+> }
+> 
+> 196
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { n, 197 }
+> 	to { e, 201 }
+> 	to { s, 195 }
+>   }
+> }
+> 
+> 197
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { n, 198 }
+> 	to { e, 202 }
+> 	to { s, 196 }
+>   }
+> }
+> 
+> 198
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { e, 203 }
+> 	to { s, 197 }
+>   }
+> }
+> 
+> 199
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { n, 201 }
+> 	to { e, 204 }
+> 	to { w, 195 }
+>   }
+> }
+> 
+2996,2997c3226,4127
+<   sector { Mountains }
+<   flags { private }
+---
+> }
+> 
+> 201
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { n, 202 }
+> 	to { e, 205 }
+> 	to { s, 199 }
+> 	to { w, 196 }
+>   }
+> }
+> 
+> 202
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { n, 203 }
+> 	to { e, 206 }
+> 	to { s, 201 }
+> 	to { w, 197 }
+>   }
+> }
+> 
+> 203
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { e, 207 }
+> 	to { s, 202 }
+> 	to { w, 198 }
+>   }
+> }
+> 
+> 204
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { n, 205 }
+> 	to { e, 208 }
+> 	to { w, 199 }
+>   }
+> }
+> 
+> 205
+> {
+>   name { Training Yard }
+>   desc {
+> "   you see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { n, 206 }
+> 	to { e, 209 }
+> 	to { s, 204 }
+> 	to { w, 201 }
+>   }
+> }
+> 
+> 206
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { n, 207 }
+> 	to { e, 210 }
+> 	to { s, 205 }
+> 	to { w, 202 }
+>   }
+> }
+> 
+> 207
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { e, 211 }
+> 	to { s, 206 }
+> 	to { w, 203 }
+>   }
+> }
+> 
+> 208
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { n, 209 }
+> 	to { w, 204 }
+>   }
+> }
+> 
+> 209
+> {
+>   name { Training Yard }
+>   desc {
+> Empty
+>   }
+>   exits {
+> 	to { n, 210 }
+> 	to { s, 208 }
+> 	to { w, 205 }
+>   }
+> }
+> 
+> 210
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { n, 211 }
+> 	to { s, 209 }
+> 	to { w, 206 }
+>   }
+> }
+> 
+> 211
+> {
+>   name { Training Yard }
+>   desc {
+> "   You see many young pupils practicing their combat techniques.
+> Blood stains the ground, but no one seems to be severly injured.
+>   }
+>   exits {
+> 	to { s, 210 }
+> 	to { w, 207 }
+>   }
+> }
+> 
+> 212
+> {
+>   name { Archers Way }
+>   desc {
+> "   You stand the the street of Archers Way, exits lead east and west. The
+> Lucenian Town Hall lies a little ways to the east, also the merchant
+> section of town lies to the east.
+>   }
+>   exits {
+> 	to { e, 180 }
+> 	to { w, 213 }
+>   }
+> }
+> 
+> 213
+> {
+>   name { Archers Way }
+>   desc {
+> "   Here, the city gets dark, the walkway being shadowed by the wall
+> of the city, and a large building to the south. The building to the
+> south has no entrance from this side, forcing you to walk around the
+> town to get in.
+>   }
+>   exits {
+> 	to { e, 212 }
+> 	to { w, 214 }
+>   }
+> }
+> 
+> 214
+> {
+>   name { Archers Way }
+>   desc {
+> "   You are nearing the end of Archers Way, a little to the west, the
+> road turns and cuts off on to another street. The building to the south
+> casts a dark shadow over the walkway, making it hard to read any signs
+> that might be placed here.
+>   }
+>   exits {
+> 	to { e, 213 }
+> 	to { w, 215 }
+>   }
+> }
+> 
+> 215
+> {
+>   name { Archers Way }
+>   desc {
+> "   You have reached the end of Archers way, here the street cuts off
+> onto Silver Avenue. The street is dark here, and would be a likely
+> spot for the beggars of the down to make there homes.
+>   }
+>   exits {
+> 	to { e, 214 }
+> 	to { s, 216 }
+>   }
+> }
+> 
+> 216
+> {
+>   name { Silver Avenue }
+>   desc {
+> "   You stand on Silver Avenue, this is where some of the more expensive
+> shops are housed. The walls of the buildings in this section of town
+> are clean and you can tell that this part of town is well cared for by
+> the richer portion of the the towns residents.
+>   }
+>   exits {
+> 	to { n, 215 }
+> 	to { s, 217 }
+>   }
+> }
+> 
+> 217
+> {
+>   name { Silver Avenue }
+>   desc {
+> "   You stand on Silver Avenue, home to the richer shops of the town.
+> A sign above the door to the east has a large, richly decorated sign
+> above it which reads "Jeweler". Silver Avenue continues to run to the
+> south, while a little to the north is Archers way.
+>   }
+>   exits {
+> 	to { n, 216 }
+> 	to { e, 218 }
+> 	to { s, 219 }
+>   }
+> }
+> 
+> 218
+> {
+>   name { Jeweler }
+>   desc {
+> "   Upon entering this room, you are astonished by all of the gems and
+> jewelery. All of the gem and jewelery are finelycut and crafted, and
+> not a flaw can be seen in one of them. The only exit from the room is
+> back to the west.
+>   }
+>   exits {
+> 	to { w, 217 }
+>   }
+> }
+> 
+> 219
+> {
+>   name { Silver Avenue }
+>   desc {
+> "   This section of Silver Avenue contains nothing of Interest. Further
+> south, you can make out a few shops. The east walls appears to be newly
+> constructed, making you guess that there was a shop there at one time,
+> but has just recently closed down.
+>   }
+>   exits {
+> 	to { n, 217 }
+> 	to { s, 220 }
+>   }
+> }
+> 
+> 220
+> {
+>   name { Silver Avenue }
+>   desc {
+> "   You are standing on Silver Avenue, just east of the mages armory
+> and to the south you can make see a few other stores. The sign above
+> the door to the easy reads "The Mages Armory" in fancy lettering.
+> Silver Avenue continues to the north and south.
+>   }
+>   exits {
+> 	to { n, 219 }
+> 	to { s, 222 }
+> 	to { w, 221 }
+>   }
+> }
+> 
+> 221
+> {
+>   name { The Mages Armory }
+>   desc {
+> "   As you enter this room, you see many fine silk robes and various
+> other items, made for the specific purpose of protecting mages. There
+> is a large, wooden counter, behind which rests an old, wise looking
+> man dressed in the robes of a wizard.
+>   }
+>   exits {
+> 	to { e, 220 }
+>   }
+> }
+> 
+> 222
+> {
+>   name { Silver Avenue }
+>   desc {
+> "   You are on Silver Avenue, to the north of you lies the mages armory,
+> while the entrance to the Haven Inn. The shops on this street lies to the
+> north, also Archers way lies a ways to the north of here.
+>   }
+>   exits {
+> 	to { n, 220 }
+> 	to { s, 223 }
+>   }
+> }
+> 
+> 223
+> {
+>   name { Silver Avenue }
+>   desc {
+> "   Over the doorway to the east of you is a sign that reads "Haven Inn"
+> in fancy gold lettering. Directly to the south lies the end of Silver
+> Avenue. You hear soft music coming from inside doorway to the Haven Inn
+> to your east.
+>   }
+>   exits {
+> 	to { n, 222 }
+> 	to { e, 224 }
+> 	to { s, 225 }
+>   }
+> }
+> 
+> 224
+> {
+>   name { The Haven Inn }
+>   desc {
+> "   Entering this room, you notice that the floor is richly carpeted,
+> and on the eastern wall hangs a pair of crossed swords. On the southern
+> wall of the Inn there are many trophies donated by adventures on previous
+> expeditions, among them are the head of a brass dragon and the head of
+> an ancient blue dragon.
+>   }
+>   exits {
+> 	to { w, 223 }
+> 	to { u, 226 }
+>   }
+> }
+> 
+> 225
+> {
+>   name { Silver Avenue }
+>   desc {
+> "   Here, Silver Avenue comes to an end and cuts into Crimson Avenue.
+> A sign indicates that the guild section of the town is housed. Crimson
+> Avenue continues to the east, while Silver Avenue continues to the north.
+>   }
+>   exits {
+> 	to { n, 223 }
+> 	to { e, 227 }
+>   }
+> }
+> 
+> 226
+> {
+>   name { Upstairs of the Haven Inn }
+>   desc {
+> "   This room is decorated by portraits of the gods, each finely painted
+> and looks remarkably life-like. The western wall of the room is covered
+> with many fine tapestries of great beauty and value. A large, gold plated
+> dest rests in the far corner, behind which a small woman sits, assigning
+> rooms to her many customers.
+>   }
+>   exits {
+> 	to { d, 224 }
+>   }
+> }
+> 
+> 227
+> {
+>   name { Crimson Avenue }
+>   desc {
+> "   You are standing at the beginning of Crimson Avenue, signs indicate
+> that the guild section of the town of Lucenia is a little further east
+> on Crimson Avenue, while Silver Avenue lies to the west of here. You
+> spot the entrance to some sort of guild just to the east of you.
+>   }
+>   exits {
+> 	to { e, 228 }
+> 	to { w, 225 }
+>   }
+> }
+> 
+> 228
+> {
+>   name { Crismon Avenue }
+>   desc {
+> "   You stand on Crimson Avenue, a sign hangs just above the doorway
+> to the south that reads "Mages Only" in brilliant blue lettering.
+> Signs indicate that you have entered the guild section of town, and
+> that this section extends further to the west on Crimson Avenue.
+>   }
+>   exits {
+> 	to { e, 232 }
+> 	to { s, 229 }
+> 	to { w, 227 }
+>   }
+> }
+> 
+> 229
+> {
+>   name { Entrance to the Hall of Wizardry }
+>   desc {
+> "   You have stumbled upon what appears to be the local mages guild.
+> A brilliant sign reads "Mages Only" in glowing blue lettering. A large
+> man, dressed in long, black robes stands here, glaring at you as if
+> you didnt belong. The only exits from the room are to the north and
+> south.
+>   }
+>   exits {
+> 	to { n, 228 }
+> 	to { s, 230 }
+>   }
+> }
+> 
+> 230
+> {
+>   name { Library }
+>   desc {
+> "   You have entered the guilds library, thousands and thousands of
+> magic books and tomes line the wall. The books here are sacred and
+> have been placed under a magic protection to prevent those of lesser
+> skills using the books for personal study.
+>   }
+>   exits {
+> 	to { n, 229 }
+> 	to { s, 231 }
+>   }
+> }
+> 
+> 231
+> {
+>   name { Pentacle Chamber }
+>   desc {
+> "   You have entered the guilds pentacle hall, this is where the
+> guildmaster of Lucenia resides. the room is covered with strange,
+> arcane symbols and mystical treasures. A large wizards pentacle
+> has been drwan on the floow and seems to glow with a power of its
+> own......
+>   }
+>   exits {
+> 	to { n, 230 }
+>   }
+> }
+> 
+> 232
+> {
+>   name { Crimson Avenue }
+>   desc {
+> "   You are amazed by the many guilds on this street, people crowd this
+> section of the city. Looking around you, you notice just about every type
+> of person ranging from a citizen to a regal looking mage. Looking to the
+> west you see the entrance to the hall of wizardry, while to the east, you
+> spot the entrance to the warriors guild.
+>   }
+>   exits {
+> 	to { e, 233 }
+> 	to { w, 228 }
+>   }
+> }
+> 
+> 233
+> {
+>   name { Crimson Avenue }
+>   desc {
+> "   Straining to make your way through the endless crowd of people in
+> this section of the city, you manage to catch a glimpse of the warriors
+> guild hall to the north. You are standing on Crimson Avenue, in the
+> guild section of Lucenia, exits lead to the east, west, and north into
+> the warriors guild hall.
+>   }
+>   exits {
+> 	to { n, 234 }
+> 	to { e, 237 }
+> 	to { w, 232 }
+>   }
+> }
+> 
+> 234
+> {
+>   name { Entrance to the Guild of Warriors }
+>   desc {
+> "   You stand to the north of Crimson Avenue, ay what appears to be
+> the entrance to the warriors guild hall. Over the doorway to the
+> building hangs a pair of crossed swords, and a shield bearing the
+> insignia of the guild of warriors. A large man glarges at you, as if
+> in judgement.
+>   }
+>   exits {
+> 	to { n, 235 }
+> 	to { s, 233 }
+>   }
+> }
+> 
+> 235
+> {
+>   name { Waiting Chamber }
+>   desc {
+> "   This chamber is richly decorated with portraits of several of
+> the lands top warriors. Also hanging upon the walls are swords and
+> shields of all sorts, many of which seem to glow with a faint aura
+> of magic. You can hear the sounds of battle from the chamber to the
+> north.
+>   }
+>   exits {
+> 	to { n, 236 }
+> 	to { s, 234 }
+>   }
+> }
+> 
+> 236
+> {
+>   name { Champions Field }
+>   desc {
+> "   You stand in the center of Champions field, an aged man stands before
+> you, although he is quite old, he looks like he couls hold more than his
+> own in combat. Blood stains the ground of Champions Field, but none of
+> the trainees seem to by injured badly.
+>   }
+>   exits {
+> 	to { s, 235 }
+>   }
+> }
+> 
+> 237
+> {
+>   name { Crimson Avenue }
+>   desc {
+> As you walk along Crimson Avenue your attention becomes centered
+> upon a large tower. You try to wrench your eyes from the this strange
+> edifice which pulsates an vertiable aura of power. You have no doubt
+> that this tower is not from world.
+>   }
+>   extra {
+> 	keywords { tower" }
+> 	desc { As you concentrate on the tower you notice thousands of
+> sapphire-like stones which glow and pulsate with a life of their
+> own. 	}
+>   }
+>   exits {
+> 	to { e, 238 }
+> 	to { s, 240 }
+> 	  key { 2 }
+> 	  info { door, closed }
+> 	  keywords { Sapphire" }
+> 	to { w, 233 }
+>   }
+> }
+> 
+> 238
+> {
+>   name { Crimson Avenue }
+>   desc {
+> "   You stand on Crimson Avenue, located in the guild section of town.
+> To the west you notice some sort of shimmering light coming from the
+> entrance to a small room. Directly to the south of you, stands a large
+> black tower, its majestic beauty seems to captivate you. Looking closer
+> at the tower, you notice that it seems to pulse with a strange light.
+>   }
+>   exits {
+> 	to { e, 253 }
+> 	to { s, 250 }
+> 	to { w, 237 }
+>   }
+> }
+> 
+> 239
+> {
+>   name { Room of Portals }
+>   desc {
+> "    This is room has been specially dwenowered buy the great mage
+> Magius. In every direction there magical portals leading to all
+> corners of the world.
+>   }
+>   exits {
+> 	to { s, 78 }
+>   }
+> }
+> 
+> 240
+> {
+>   name { Onyx & Silver }
+>   desc {
+> You find yourself in a room of the midnight Onyx with Silver viens
+> swirling in concentric patterns of the most arcane. YOu notice a staircase
+> leading upwards into the unknown......
+>   }
+>   exits {
+> 	to { u, 241 }
+> 	  desc { You find yourself in a room of the midnight Onyx with Silver viens
+> swirling in concentric patterns of the most arcane. YOu notice a staircase
+> leading upwards into the unknown......
+> }
+>   }
+> }
+> 
+> 241
+> {
+>   name { On The Staircase }
+>   desc {
+> The staircase has exits branching off to the east and the west
+> it also continues upwards.
+>   }
+>   exits {
+> 	to { e, 244 }
+> 	to { w, 245 }
+> 	to { u, 242 }
+>   }
+> }
+> 
+> 242
+> {
+>   name { Solar }
+>   desc {
+> "    As you enter this room, all your tension and tightness slowly
+> drains away from you. The huge skylight filters in the sunlight which
+> gently caresses you like a lover's kiss. You feel refreshed and renewed
+> both in body and in soul.
+>   }
+>   exits {
+> 	to { d, 241 }
+>   }
+> }
+> 
+> 243
+> {
+>   name { 25243 }
+>   desc {
+> Empty
+>   }
+> }
+> 
+> 244
+> {
+>   name { Eastern Hallway }
+>   desc {
+> Empty
+>   }
+>   exits {
+> 	to { w, 241 }
+>   }
+> }
+> 
+> 245
+> {
+>   name { Western Hallway }
+>   desc {
+> At the end of this hallway you see two doors, one leading to the
+> north and one leading to the south. Both doors are made of unusual wood,
+> the northen one of Blacken Ash and the southern on of Silvered Oak.
+>   }
+>   exits {
+> 	to { n, 246 }
+> 	  info { door, closed }
+> 	  keywords { Blackened" }
+> 	to { e, 241 }
+> 	to { s, 247 }
+> 	  info { door, closed }
+> 	  keywords { Silvered" }
+> 	to { w, 239 }
+> 	  key { 25240 }
+> 	  info { door, closed }
+> 	  keywords { hidden" }
+>   }
+> }
+> 
+> 246
+> {
+>   name { Quarg's Room }
+>   desc {
+> You find yourself in the the private bedroom of Quarg, the interpid
+> Herald-Mage chosen by Companion himself. Although Quarg could afford
+> the finest trapping the room is simple and plain.
+>   }
+>   exits {
+> 	to { s, 245 }
+> 	  info { door, closed }
+> 	  keywords { Blackened" }
+>   }
+> }
+> 
+> 247
+> {
+>   name { 25247 }
+>   desc {
+> Empty
+>   }
+>   exits {
+> 	to { n, 245 }
+> 	  info { door, closed }
+> 	  keywords { Silvered" }
+>   }
+> }
+> 
+> 250
+> {
+>   name { Entrance to the Hall of Clerics }
+>   desc {
+> "   You stand just to the south of Crimson Avenue, a large temple rises
+> before you. The white marble walls of the temple seem to emenate an aura
+> of peace and tranquility. A large man, dressed in the flowing white robes
+> of a Bishop guards the entrance to this sacred stucture.
+>   }
+>   exits {
+> 	to { n, 238 }
+> 	to { s, 251 }
+>   }
+> }
+> 
+> 251
+> {
+>   name { Meditation Chamber }
+>   desc {
+> "   Upon entering this room, you immediately get the feeling that
+> you are completely safe here. The room is completely void of any
+> and all furnishings, save for a few small statues of the gods of
+> the land. An exit leads south to the Temple Altar.
+>   }
+>   exits {
+> 	to { n, 250 }
+> 	to { s, 252 }
+>   }
+> }
+> 
+> 252
+> {
+>   name { Temple Altar }
+>   desc {
+> "   You enter this room and notice a small, aged man, kneeling before
+> an altar of soid crystal. He is dressed in the grey robes of the
+> town's master healer. To the north you can see the temples meditation
+> chamber.
+>   }
+>   exits {
+> 	to { n, 251 }
+>   }
+> }
+> 
+> 253
+> {
+>   name { Crimson Avenue }
+>   desc {
+> "   Here, the city gets dark and the streets completely shadowed. Several
+> seedy looking characters walk around aimlessly in this portion of Lucenia.
+> From the looks you are getting by the people here, and the condition of
+> the buildings, you would say that you are nearing the loacal Thieves Guild.
+>   }
+>   exits {
+> 	to { e, 254 }
+> 	to { w, 238 }
+>   }
+> }
+> 
+> 254
+> {
+>   name { Crimson Avenue }
+>   desc {
+> "   You stand at the eastern end of Crimson Avenue, located in the guild
+> section of Lucenia. The streets are completely shadowed by the tall, run
+> down buildings here. There is a large, seedy looking building to the north,
+> you are almost certain that the thieves guild hall must be located there.
+>   }
+>   exits {
+> 	to { n, 255 }
+> 	to { w, 253 }
+>   }
+> }
+> 
+> 255
+> {
+>   name { Entrance to the Guild of Thieves }
+>   desc {
+> "   Coming closer to this building, you notice several people staring
+> at you from behind the windows of the structure. A large, hooded
+> figure glares at you with hatred as you near the guild, in his right
+> hand he clutches a wicked-looking dagger.
+>   }
+>   exits {
+> 	to { n, 256 }
+> 	to { s, 254 }
+>   }
+> }
+> 
+> 256
+> {
+>   name { The Thieves Bar }
+>   desc {
+> "   You stand at the bar of thieves, where the robbers and assassins
+> of the town come to relax after a hard days work of pilfering peoples
+> valuable belongings. Several chairs rest along the edges of the chamber.
+> To the north you notice the Master Assassin's Chamber.
+>   }
+>   exits {
+> 	to { n, 257 }
+> 	to { s, 255 }
+>   }
+> }
+> 
+> 257
+> {
+>   name { Chamber of the Master Assassin }
+>   desc {
+> "   This room is richly decorated, fine tapestries line the walls of
+> the chamber. An evil looking man stands in the far corner, ready to
+> kill you at a moments notice. To the south you can make you the
+> local thieves bar.
+>   }
+>   exits {
+> 	to { s, 256 }
+>   }
+> }
+> 
+> 258
+> {
+>   name { Ciera Avenue }
+>   desc {
+> "   You stand just to the south of Archers Way, loacted at the northern
+> edge of the residential section of Lucenia. Ciera Avenue continues to
+> the west, where the homes of the residents of Lucenia are located.
+>   }
+>   exits {
+> 	to { n, 188 }
+> 	to { w, 259 }
+>   }
+> }
+> 
+> 259
+> {
+>   name { Ciera Avenue }
+>   desc {
+> "   You stand on Ciera Avenue, loacted in the residential section
+> of Lucenia. The road continues to the west, where the residents of
+> Lucenias houses are kept. You see a large, oranate loking building
+> to the south. The surface of the building emenates a faint aura of
+> red light, and is covered with many strange arcane runes and symbols
+> whose meanings have been long forgotten.
+>   }
+>   exits {
+> 	to { e, 258 }
+> 	to { s, 260 }
+> 	  key { 25260 }
+> 	  info { door, closed }
+> 	  keywords { door rune covered" }
+>   }
+> }
+> 
+> 260
+> {
+>   name { Darkened Chamber }
+>   desc {
+> "   Upon entering this room, it takes a moment for your eyes to
+> adjust to the dimly lut chamber. As your eyes begin to focus,
+> and you are able to see clearly, you notice that you are in a
+> small chamber, decorated by many huge statues of demonic looking
+> creatures formed entirely of black onyx. All of the statues seem
+> to radiate a feeling of intense evil, and look as though they
+> were alive. The walls of the chamber decorated with many fine
+> tapestries, which also radiate a feeling of intense evil. A bright
+> light seems to be coming from beyond the doorway to the south.
+>   }
+>   exits {
+> 	to { n, 259 }
+> 	  key { 25260 }
+> 	  info { door, closed }
+> 	  keywords { door rune covered" }
+> 	to { s, 261 }
+>   }
+> }
+> 
+> 261
+> {
+>   name { Shimmering Chamber }
+>   desc {
+> "   Upon entering this room, you are astonished by the sight of several
+> portals of shimmering light, which when looked through reveals the
+> destination of each. The portals radiate a sense of powerful magic.
+> The walls of the chamber also shimmer with a faint magic quality.
+>   }
+>   exits {
+> 	to { n, 260 }
+> 	to { e, Drow1:0 }
+> 	  info { door, closed }
+> 	  keywords { drow" }
+> 	to { w, 200 }
+> 	  info { door, closed }
+> 	  keywords { ancients" }
+> 	to { d, 0 }
+> 	  info { door, closed }
+> 	  keywords { abyss" }
+>   }
+Abyss2
+Ambush
+12,13c12,13
+< 	to { n, southern_path:1 }
+< 	to { s, Mirkwood1:0 }
+---
+> 	to { n, Crossroads:1 }
+> 	to { s, Crossroads:100 }
+25,26c25,26
+< 	to { n, southern_path:1 }
+< 	to { s, Mirkwood1:0 }
+---
+> 	to { n, Crossroads:1 }
+> 	to { s, Crossroads:100 }
+30a31,38
+> 2
+> {
+>   name { 402 }
+>   desc {
+> Empty
+>   }
+> }
+> 
+80c88
+< "  Once again, the bandits jump from hiding, but this time there are 
+---
+> "  Once again, the bandits jump from hiding, but this time there are
+94c102
+< "   You are standing in a large circular clearing in the forest.  There is a 
+---
+> "   You are standing in a large circular clearing in the forest.  There is a
+142,143c150,151
+< 	to { n, southern_path:1 }
+< 	to { s, Mirkwood1:0 }
+---
+> 	to { n, Crossroads:1 }
+> 	to { s, Crossroads:100 }
+176c184
+< 200
+---
+> 100
+178c186
+<   name { Dweeb's place }
+---
+>   name { 500 }
+180c188
+< La   
+---
+> Empty
+182,183d189
+<   sector { Field }
+<   flags { indoors }
+Arachnos
+1a2,9
+> 0
+> {
+>   name { 20000 }
+>   desc {
+> Empty
+>   }
+> }
+> 
+16c24
+< 	to { s, Mirkwood3:0 }
+---
+> 	to { s, Crossroads:200 }
+102c110
+< as well as cats, wolves, and humans.  
+---
+> as well as cats, wolves, and humans.
+180c188
+< is cluttered with desiccated corpses, apparently bitten 
+---
+> is cluttered with desiccated corpses, apparently bitten
+208c216
+< "     Strange.  No webbing here.  In fact, no sounds whatsoever.  
+---
+> "     Strange.  No webbing here.  In fact, no sounds whatsoever.
+226c234
+< some bear and small deer bones in fact.  No human skeletons are visible 
+---
+> some bear and small deer bones in fact.  No human skeletons are visible
+286c294
+< -lit by the golden orbs that hang from the sides, you can see the paths 
+---
+> -lit by the golden orbs that hang from the sides, you can see the paths
+330c338
+< in and out, each strand reveals a different hue from black to green 
+---
+> in and out, each strand reveals a different hue from black to green
+378c386
+< trees.  Various leaves and other debris that the many drones 
+---
+> trees.  Various leaves and other debris that the many drones
+515c523
+< 	to { d, Haondor_dark:32 }
+---
+> 	to { d, Pyramid:832 }
+634c642
+< free souls of living beings to inhabit and perhaps adventure once 
+---
+> free souls of living beings to inhabit and perhaps adventure once
+667c675
+< here.  
+---
+> here.
+680c688
+< across the ether you seen a single shack up ahead with a light in 
+---
+> across the ether you seen a single shack up ahead with a light in
+750,751c758,759
+< anticipation (or is it fear?).  The sky is clear on this strand of 
+< web, surprisingly unsticky.  The strand does not vibrate like the 
+---
+> anticipation (or is it fear?).  The sky is clear on this strand of
+> web, surprisingly unsticky.  The strand does not vibrate like the
+768c776
+< the webwork.  Perhaps lists of victims?  You can't tell.  
+---
+> the webwork.  Perhaps lists of victims?  You can't tell.
+785c793
+< adorned rainbow web, her lair allows her to move to any universe 
+---
+> adorned rainbow web, her lair allows her to move to any universe
+788c796
+< tunately Arachnos is a baggy spider too, and webs all her treasures 
+---
+> tunately Arachnos is a baggy spider too, and webs all her treasures
+Arctica
+Arena
+11c11
+<   flags { no_mob, peaceful }
+---
+>   flags { no_mob, peaceful, arena }
+27c27
+<   flags { peaceful }
+---
+>   flags { peaceful, arena }
+44c44
+<   flags { peaceful }
+---
+>   flags { peaceful, arena }
+60c60
+<   flags { peaceful }
+---
+>   flags { peaceful, arena }
+76c76
+<   flags { peaceful }
+---
+>   flags { peaceful, arena }
+92c92
+<   flags { peaceful }
+---
+>   flags { peaceful, arena }
+108c108
+<   flags { peaceful }
+---
+>   flags { peaceful, arena }
+124c124
+<   flags { peaceful }
+---
+>   flags { peaceful, arena }
+140c140
+<   flags { peaceful }
+---
+>   flags { peaceful, arena }
+156c156
+<   flags { peaceful }
+---
+>   flags { peaceful, arena }
+172c172
+<   flags { peaceful }
+---
+>   flags { peaceful, arena }
+712,719d711
+<   }
+< }
+< 
+< 99
+< {
+<   name { 999 }
+<   desc {
+< Empty
+Asgard
+22c22
+<  *     Read these periodically, as they are subject to change w/o notice. 
+---
+>  *     Read these periodically, as they are subject to change w/o notice.
+25,26c25,26
+<  *     Failure to follow the rules will result in demotion to level 1 with  
+<        lousy stats, and a permanant trip to the Abyss.                      
+---
+>  *     Failure to follow the rules will result in demotion to level 1 with
+>        lousy stats, and a permanant trip to the Abyss.
+30c30
+< 		spells on them. Do not help them in fights either.                   
+---
+> 		spells on them. Do not help them in fights either.
+32,33c32,33
+< 		extremely obnoxious (repeated shouts, bad language *gasp*, 
+< 		ordering multiple followers to shout (just purge/kill the  
+---
+> 		extremely obnoxious (repeated shouts, bad language *gasp*,
+> 		ordering multiple followers to shout (just purge/kill the
+37c37
+< 		Immortal, you may not aid it in ANY way. You must use this 
+---
+> 		Immortal, you may not aid it in ANY way. You must use this
+41,45c41,45
+< 		character  may not interact with the other normal  mortals. 
+< 		This means, no grouping, no helping or hindering (see #1  
+< 		and #2), and you better loot ALL corpses of MOBs you kill. 
+< 		You may help an Test Char some, but you may not give them 
+< 		equipment. Allowed help includes Restore/Healing them, or  
+---
+> 		character  may not interact with the other normal  mortals.
+> 		This means, no grouping, no helping or hindering (see #1
+> 		and #2), and you better loot ALL corpses of MOBs you kill.
+> 		You may help an Test Char some, but you may not give them
+> 		equipment. Allowed help includes Restore/Healing them, or
+52c52
+< 		Zucan. Make sure they know ALL of the details, including what  
+---
+> 		Zucan. Make sure they know ALL of the details, including what
+56,57c56,57
+< 		You may tell someone that something is Good/Bad, Hard/Easy,  
+< 		or a similar vague response.(*NOT* good compared to anything  
+---
+> 		You may tell someone that something is Good/Bad, Hard/Easy,
+> 		or a similar vague response.(*NOT* good compared to anything
+60c60
+<         8 - Do not kill monsters. Do not take monsters equipment.	
+---
+>         8 - Do not kill monsters. Do not take monsters equipment.
+65c65
+<      Promotions are given based on responsible behavior and writing areas 
+---
+>      Promotions are given based on responsible behavior and writing areas
+110a111,121
+> }
+> 
+> 200
+> {
+>   name { The Chat Room }
+>   desc {
+> "   You are lounging in a quiet cozy parlor, warmed by a gentle magical fire
+> which twinkles happily in a warm fireplace.  There are no doors out.  Clearly
+> the owner of this room needs none.
+>   }
+>   flags { indoors, private }
+Bank
+6c6
+< "   You are in the Bank of Silliness.  A sign is pasted by the door.  
+---
+> "   You are in the Bank of Silliness.  A sign is pasted by the door.
+16,20d15
+<   exits {
+< 	to { e, Main_matrix:1 }
+< 	  desc { You can see the Palace Road
+< }
+<   }
+Castle_python
+Chat_room
+Chessboard
+DanjerHaus
+Deadly_exhibit
+Desert
+6,7c6,8
+< "   To the west, you can see a blue shimmering light.   To the east, you 
+< can see a dark tunnel.  The north and south are blocked by tall mountains.
+---
+> "     To the west the Exodus from Midnight Thicket is close enough to give
+> you nightmares.  To the east you can see a dark mouthed tunnel.   The north
+> and south are blocked by tall mountains.
+10c11
+<   river { e, 15 }
+---
+>   river { e, 6 }
+20c21
+< 	to { w, Haondor_dark:46 }
+---
+> 	to { w, 79 }
+259c260
+< "   The walls of the tunnel are extremely damp here. You hear the faint 
+---
+> "   The walls of the tunnel are extremely damp here. You hear the faint
+385c386
+< you. A pyramid lies to the east and a snow-capped mountain range to the 
+---
+> you. A pyramid lies to the east and a snow-capped mountain range to the
+403,404c404,405
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+< you. A pyramid lies to the east and a snow-capped mountain range to the 
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+> you. A pyramid lies to the east and a snow-capped mountain range to the
+422c423
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+441c442
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+460c461
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+479c480
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+489c490
+< 	to { s, 44 }
+---
+> 	to { s, Skexie:0 }
+505c506
+< 	  desc { You see three tents and some camels hitched to a stake. Shadows moving 
+---
+> 	  desc { You see three tents and some camels hitched to a stake. Shadows moving
+520c521
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+540c541
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+560c561
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+580c581
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+600c601
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+622c623
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+642c643
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+662c663
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+682c683
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+702c703
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+705c706
+< the massive structure. From here you can sense the great evil which resides 
+---
+> the massive structure. From here you can sense the great evil which resides
+728c729
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+749c750
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+769c770
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+789c790
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+809c810
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+829c830
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+849c850
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+870c871
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+890c891
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+910c911
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+930c931
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+948c949
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+968c969
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+988c989
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+1006c1007
+< "    A vast desert stretches for miles, the sands constantly shifting around  
+---
+> "    A vast desert stretches for miles, the sands constantly shifting around
+1063,1064c1064,1065
+< "    Here stand about ten camels, all hitched to some stakes plugged into 
+< the ground. To the east you see a small tent while to the north you see a 
+---
+> "    Here stand about ten camels, all hitched to some stakes plugged into
+> the ground. To the east you see a small tent while to the north you see a
+1086c1087
+< "     This tent has a few furnishings, but mainly it holds the band's 
+---
+> "     This tent has a few furnishings, but mainly it holds the band's
+1118c1119
+< "     This is where the leader of this band of nomads resides. He is 
+---
+> "     This is where the leader of this band of nomads resides. He is
+1157c1158
+< 	to { e, Dwarven_outpost:0 }
+---
+> 	to { e, Dwarf_outpost:0 }
+1168,1169c1169,1170
+< "   The air in here is MUCH cooler than outside. From the west you hear 
+< strange sounds, but can see nothing. The cave slopes down into the 
+---
+> "   The air in here is MUCH cooler than outside. From the west you hear
+> strange sounds, but can see nothing. The cave slopes down into the
+1269a1271,1415
+>   }
+> }
+> 
+> 71
+> {
+>   name { Midnight Thicket }
+>   desc {
+> "    As the path starts to twist and curve you knock on the plentiful wood that
+> the path doesn't vanish and leave you stranded in the midst of these dire
+> woods.  Even the most skilled of trackers only have a vague sense that the
+> path continues to the south from here.
+>   }
+>   sector { Forest }
+>   flags { dark }
+>   exits {
+> 	to { e, Midgard:297 }
+> 	to { s, 72 }
+>   }
+> }
+> 
+> 72
+> {
+>   name { Midnight Thicket }
+>   desc {
+> "    The path thins here and you are a tad bit anxious.  It continues to twist
+> and turn crazily but never crosses itself (as far as you can tell...).  It
+> appears to exit east from here but that is a pure guess as moss doesn't even
+> grow on the north side of these trees as it's supposed to.
+>   }
+>   sector { Forest }
+>   flags { dark }
+>   exits {
+> 	to { n, 71 }
+> 	to { e, 73 }
+>   }
+> }
+> 
+> 73
+> {
+>   name { Midnight Thicket }
+>   desc {
+> "    Though you find it hard to believe the path straightens here and actually
+> widens out a little.  It is now possible to walk side by side though there
+> still isn't enough room to fight in this manner.  Up ahead there is a small
+> patch of light and you wonder if you have finally made it out of this cursed
+> wood.
+>   }
+>   sector { Forest }
+>   flags { dark }
+>   exits {
+> 	to { e, 74 }
+> 	to { w, 72 }
+>   }
+> }
+> 
+> 74
+> {
+>   name { The Heart of Midnight Thicket }
+>   desc {
+> "    You had always heard of the eye of the storm being calm and such but this
+> goes beyond even that.  There are birds singing for the first time since you 
+> entered the wood and there is light streaming through the branches of the 
+> single tree in the clearing.  As you take in the scene a deer darts across th
+> clearding and disappears in the underbrush.
+>   }
+>   sector { Forest }
+>   exits {
+> 	to { n, 76 }
+> 	to { w, 73 }
+> 	to { u, 75 }
+>   }
+> }
+> 
+> 75
+> {
+>   name { The Branches of the Heart }
+>   desc {
+> "   As you make the remarkably easy climb up the Heart of the thicket you can
+> sense the pulsing of the tree under you.  As you reach the uppermost branches
+> you look about you in a sense of awe for surrounding you as far as the eye can
+> see is the Midnight Thicket.  Birds flit about the tops of trees and sing 
+> happily.  The sight is enough to bring tears of happiness to your eye and for
+> the moment you forget that you are only halfway through the wood.
+>   }
+>   sector { Forest }
+>   exits {
+> 	to { d, 74 }
+>   }
+> }
+> 
+> 76
+> {
+>   name { Midnight Thicket }
+>   desc {
+> "    Though there is no way to explain it your best trackers insist that you
+> must have crossed your previous path but you didn't see it.  You are now 
+> completely lost in the heart of these damnable woods.  The path seems to 
+> continue towards what you thought was north but who knows.
+>   }
+>   exits {
+> 	to { n, 77 }
+> 	to { s, 74 }
+>   }
+> }
+> 
+> 77
+> {
+>   name { Midnight Thicket }
+>   desc {
+> "    The path jumps around in circles without actually crossing itself.  The
+> age old friend of rangers, moss, fails you here in the midst of this large
+> wood.  You are completely lost and can only guess that the exit is to the
+> east.
+>   }
+>   exits {
+> 	to { s, 76 }
+> 	to { w, 78 }
+>   }
+> }
+> 
+> 78
+> {
+>   name { Midnight Thicket }
+>   desc {
+> "    You may be crazy but it actually seems to be getting a bit brighter here.
+> The trees seem to be thining out and you let yourself hope that you are 
+> nearing the end of the path.  Your heart and pace quicken.
+>   }
+>   exits {
+> 	to { e, 77 }
+> 	to { s, 79 }
+>   }
+> }
+> 
+> 79
+> {
+>   name { The Exodus from Midnight Thicket }
+>   desc {
+> "     You breathe a gasp of relief as you finally exit the forest.  You drop
+> your packs and rest but after a few minutes the forest starts making you
+> nervous again.  You grab your stuff and hurry on your way.
+>   }
+>   exits {
+> 	to { n, 78 }
+> 	to { e, 0 }
+Doom
+Drow1
+10,20d9
+< 	WE ARE RENOVATING!  WE ARE RENOVATING!  WE ARE RENOVATING!
+< 
+< 	   We'll soon be closing for renovations, and we may end
+< 
+< 	up moving somewhere else entirely.  Please feel free to shop
+< 	with us for the time being, but be forewarned that we may 
+< 	pack up and move elsewhere at any moment, and we may end up
+< 	with an entirely different look too!!  Thank you
+< 
+< 			THE MANAGEMENT
+< 
+28,33d16
+< 	to { n, trash2:0 }
+< 	  key { 1 }
+< 	  info { door, closed }
+< 	  keywords { palace" }
+< 	  desc { You see a huge palace
+< }
+93c76
+< by drow standards having a few statues, murals and such. A door leads to the 
+---
+> by drow standards having a few statues, murals and such. A door leads to the
+200c183
+< The room is extremely large and decorative. Mural and paintings hang on the 
+---
+> The room is extremely large and decorative. Mural and paintings hang on the
+316c299
+< imagination. Inside of the temple entrance, the walls are made of gold and 
+---
+> imagination. Inside of the temple entrance, the walls are made of gold and
+392c375
+< "    You stand inside the 4th house of the city. Its inner courtyard is rather 
+---
+> "    You stand inside the 4th house of the city. Its inner courtyard is rather
+564c547
+< "     You are standing at the bottom of a giant obsidian and adamantite 
+---
+> "     You are standing at the bottom of a giant obsidian and adamantite
+578c561
+< "     You are standing in the middle of a grand hallway. The walls are 
+---
+> "     You are standing in the middle of a grand hallway. The walls are
+610c593
+< and gold. To the north the hall goes down a flight of stairs while a door is 
+---
+> and gold. To the north the hall goes down a flight of stairs while a door is
+627c610
+< and the like. Large beds line the floor making this a comfortable room to live 
+---
+> and the like. Large beds line the floor making this a comfortable room to live
+690c673
+< body to shreds. 
+---
+> body to shreds.
+718,719c701,702
+< "     You are standing infront of a highly and freshly bloodstained altar. 
+< Engraved on the top of the altar is a giant spider witha human head. Looking 
+---
+> "     You are standing infront of a highly and freshly bloodstained altar.
+> Engraved on the top of the altar is a giant spider witha human head. Looking
+736c719
+< "     This is the main room to the cell chambers for the slaves to be 
+---
+> "     This is the main room to the cell chambers for the slaves to be
+751c734
+< "     Rotten meat and breads lie about the floor while shackles hang from the 
+---
+> "     Rotten meat and breads lie about the floor while shackles hang from the
+767c750
+< of a female drow turning into a giant spider and back again. There is a door 
+---
+> of a female drow turning into a giant spider and back again. There is a door
+782c765
+< "     This is obviously only a temporary storage place for the collected 
+---
+> "     This is obviously only a temporary storage place for the collected
+796c779
+< "     This one person bedchamber is very elegant. The owner must be held in high 
+---
+> "     This one person bedchamber is very elegant. The owner must be held in high
+Dwarven_kingdom
+Dwarven_outpost
+Ent_forest
+Ershteep
+Felix_Arena
+Graveyard1
+HELL
+12,14d11
+< 	to { e, Dwarven_kingdom:169 }
+< 	to { s, Dwarven_kingdom:169 }
+< 	to { w, Dwarven_kingdom:169 }
+Haondor_dark
+Haondor_light
+Harpy
+2,9d1
+< 0
+< {
+<   name { 9100 }
+<   desc {
+< Empty
+<   }
+< }
+< 
+26,28d17
+< 	to { s, Redferne:0 }
+< 	  desc { The way back to solid footing, it seems.
+< }
+32c21
+< 	to { d, Midenir:2 }
+---
+> 	to { d, Midgard_trail:4 }
+1225d1213
+< 	to { w, Sewer1:70 }
+1253d1240
+< 	to { w, Sewer1:66 }
+1499a1487,1494
+>   }
+> }
+> 
+> 100
+> {
+>   name { 9200 }
+>   desc {
+> Empty
+Kyoto
+Main_matrix
+Main_matrix_auxiliary
+Marsh3
+Midenir
+Midgard
+44c44
+< 	to { d, Midgard_trail:49 }
+---
+> 	to { d, Donation:0 }
+111c111
+< you'll find a well-spring of advice on navigating Midgard's web of roads 
+---
+> you'll find a well-spring of advice on navigating Midgard's web of roads
+130c130
+< plaza continues in all directions, except the south.  There, a quaint 
+---
+> plaza continues in all directions, except the south.  There, a quaint
+268a269,357
+> 	keywords { poster" }
+> 	desc { "
+> Welcome to New Midgard.
+> 
+> We hope that you won't get lost, but if you ever do, just keep walking
+> till you see a large block of marble embedded into the ground.  They're
+> usually found at most major intersections and always have a map eteched
+> on their surface.  To help you get started, there are several posters
+> here you can look at.
+> The STREET map will show you how the layout works around here.
+> The GUILD poster has a map of where all the guilds in town are located.
+> and the ZONE poster will give you a feel as to what parts of town might
+>    carry what shops.
+> Oh yeah...I almost forgot.  There's also a SHOP poster which will tell
+> you where to find just about anything!
+> 
+> Happy Traveling! (And don't forget to look for those MAPS at all major
+> intersections...they'll keep you on the right track!)
+> 
+> 	}
+> 	keywords { guild" }
+> 	desc { :
+> :  M i d g a r d                    File #20932SF    Dragon; Day 19; Year 38
+> :  C o n s t r u c t i o n          Unclassified     (c) Copyright 38,39...
+> :  D e p a r t m e n t
+> :
+> :     []==============================[]        A  -  The Clerics' Guild
+> :     ||....#.......A-#-B.............||        B  -  The Paladins' Guild
+> :     ||....#........###..#...........||        C  -  The Assassins' Guild
+> :     ||....##########################||        D  -  The Avengers' Guild
+> :     ||..E-#........###........#.....||        E  -  The Barbarians' Guild
+> :     ||..F-#-G.......#.........#-K...||        F  -  The Cavilers' Guild
+> :     ||....#.........#-N.....L-#.....||        G  -  The Ninja' Guild
+> :     ||....#........###........#.....||        H  -  The Illusionists' Guild
+> :     ||#############...#########.....||        I  -  The Magic Users' Guild
+> :     ||....#........###..............||        J  -  The Warriors' Guild
+> :     ||....#.........#-J.............||        K  -  The Rangers' Guild
+> :     ||....#...I.....#...............||        L  -  The Bards' Guild
+> :     ||....#...|....###..............||        M  -  The Thieves' Guild
+> :     ||....#####################.....||        N  -  The Druids' Guild (x)
+> :     ||......|......###........#-M...||
+> :     ||......H.....C-#-D.......#.....||
+> :     []==============================[]	}
+> 	keywords { street" }
+> 	desc { :
+> :  M i d g a r d                    File #20932SF    Dragon; Day 19; Year 38
+> :  T r a n s p o r t a t i o n      Unclassified     (c) Copyright 38,39...
+> :  D e p a r t m e n t
+> :
+> :     []==============================[]
+> :     ||....#.........&...............||
+> :     ||....#........PPP..#...........||        P  -  Market Plaza
+> :     ||....#########PPP#########=====||        C  -  Circle Way
+> :     ||....#........PPP........#.....||        D  -  Midgard Wharf
+> :     ||....#.........&.........#.....||        &  -  Woodmar Lane
+> :     ||....#.........&.........#.....||        #  -  Main Street
+> :     ||....#........CCC........#.....||        %  -  Iron Road
+> :     ||====########C...C########.....||
+> :     ||....%........CCC..............||        =  -  Gate
+> :     ||....%.........W...............||
+> :     ||....%.........W...............||  Any use of this product without
+> :     ||....%........DDD..............||  the expressed, written permission
+> :     ||....%%%%%%%%%DDD%%%%%%%%%.....||  of the Council of Midgard is
+> :     ||.............DDD........%.....||  strictly prohibited and is punishable
+> :     ||..............&.........%.....||  by law (or bounty hunter....)
+> :     []==============================[]	}
+> 	keywords { zone" }
+> 	desc { :  M i d g a r d                    File #20932SF    Dragon; Day 19; Year 38
+> :  T r a n s p o r t a t i o n      Unclassified     (c) Copyright 38,39...
+> :  D e p a r t m e n t
+> :
+> :     []==============================[]
+> :     ||...........OOOOOOO............||
+> :     ||...###......OOOO%%%%%%........||       O  -  Religious Zone
+> :     ||..######...%%%%%%%%%%%%%%.....||       %  -  Commercial Zone
+> :     ||..####### %%%%%%%%%%%%%%%%%%%%||       +  -  Industrial Zone
+> :     ||.#######....%%%%%%%%%%%%%%%%%%||       *  -  Mystical Zone
+> :     ||.######............%%%%%%%%%%.||       #  -  Residential Zone
+> :     ||.#####......OOOOO.....%%%%%%..||
+> :     ||..####.....OOOOOOO....%%%%%...||       .  -  Unzoned
+> :     ||....##.....OOOOOOO..%%%%%.....||
+> :     ||............OOOOO....%%%......||
+> :     ||...****.......++++............||
+> :     ||..*******.....+++++++++.......||  Any use of this product without
+> :     ||.************...+++++++++++++.||  the expressed, written permission
+> :     ||.************....+++++++++++++||  of the Council of Midgard is
+> :     ||..***********....++++++++++++.||  strictly prohibited and is punishable
+> :     ||....******* OOOOO...+++++++++.||  by law (or bounty hunter....)
+> :     []==============================[]	}
+313,401d401
+< 	keywords { zone" }
+< 	desc { :  M i d g a r d                    File #20932SF    Dragon; Day 19; Year 38
+< :  T r a n s p o r t a t i o n      Unclassified     (c) Copyright 38,39...
+< :  D e p a r t m e n t
+< :
+< :     []==============================[]
+< :     ||...........OOOOOOO............||
+< :     ||...###......OOOO%%%%%%........||       O  -  Religious Zone
+< :     ||..######...%%%%%%%%%%%%%%.....||       %  -  Commercial Zone
+< :     ||..####### %%%%%%%%%%%%%%%%%%%%||       +  -  Industrial Zone
+< :     ||.#######....%%%%%%%%%%%%%%%%%%||       *  -  Mystical Zone
+< :     ||.######............%%%%%%%%%%.||       #  -  Residential Zone
+< :     ||.#####......OOOOO.....%%%%%%..||
+< :     ||..####.....OOOOOOO....%%%%%...||       .  -  Unzoned
+< :     ||....##.....OOOOOOO..%%%%%.....||
+< :     ||............OOOOO....%%%......||
+< :     ||...****.......++++............||
+< :     ||..*******.....+++++++++.......||  Any use of this product without
+< :     ||.************...+++++++++++++.||  the expressed, written permission
+< :     ||.************....+++++++++++++||  of the Council of Midgard is
+< :     ||..***********....++++++++++++.||  strictly prohibited and is punishable
+< :     ||....******* OOOOO...+++++++++.||  by law (or bounty hunter....)
+< :     []==============================[]	}
+< 	keywords { street" }
+< 	desc { :
+< :  M i d g a r d                    File #20932SF    Dragon; Day 19; Year 38
+< :  T r a n s p o r t a t i o n      Unclassified     (c) Copyright 38,39...
+< :  D e p a r t m e n t
+< :
+< :     []==============================[]
+< :     ||....#.........&...............||
+< :     ||....#........PPP..#...........||        P  -  Market Plaza
+< :     ||....#########PPP#########=====||        C  -  Circle Way
+< :     ||....#........PPP........#.....||        D  -  Midgard Wharf
+< :     ||....#.........&.........#.....||        &  -  Woodmar Lane
+< :     ||....#.........&.........#.....||        #  -  Main Street
+< :     ||....#........CCC........#.....||        %  -  Iron Road
+< :     ||====########C...C########.....||
+< :     ||....%........CCC..............||        =  -  Gate
+< :     ||....%.........W...............||
+< :     ||....%.........W...............||  Any use of this product without
+< :     ||....%........DDD..............||  the expressed, written permission
+< :     ||....%%%%%%%%%DDD%%%%%%%%%.....||  of the Council of Midgard is
+< :     ||.............DDD........%.....||  strictly prohibited and is punishable
+< :     ||..............&.........%.....||  by law (or bounty hunter....)
+< :     []==============================[]	}
+< 	keywords { guild" }
+< 	desc { :
+< :  M i d g a r d                    File #20932SF    Dragon; Day 19; Year 38
+< :  C o n s t r u c t i o n          Unclassified     (c) Copyright 38,39...
+< :  D e p a r t m e n t
+< :
+< :     []==============================[]        A  -  The Clerics' Guild
+< :     ||....#.......A-#-B.............||        B  -  The Paladins' Guild
+< :     ||....#........###..#...........||        C  -  The Assassins' Guild
+< :     ||....##########################||        D  -  The Avengers' Guild
+< :     ||..E-#........###........#.....||        E  -  The Barbarians' Guild
+< :     ||..F-#-G.......#.........#-K...||        F  -  The Cavilers' Guild
+< :     ||....#.........#-N.....L-#.....||        G  -  The Ninja' Guild
+< :     ||....#........###........#.....||        H  -  The Illusionists' Guild
+< :     ||#############...#########.....||        I  -  The Magic Users' Guild
+< :     ||....#........###..............||        J  -  The Warriors' Guild
+< :     ||....#.........#-J.............||        K  -  The Rangers' Guild
+< :     ||....#...I.....#...............||        L  -  The Bards' Guild
+< :     ||....#...|....###..............||        M  -  The Thieves' Guild
+< :     ||....#####################.....||        N  -  The Druids' Guild (x)
+< :     ||......|......###........#-M...||
+< :     ||......H.....C-#-D.......#.....||
+< :     []==============================[]	}
+< 	keywords { poster" }
+< 	desc { "
+< Welcome to New Midgard.
+< 
+< We hope that you won't get lost, but if you ever do, just keep walking
+< till you see a large block of marble embedded into the ground.  They're
+< usually found at most major intersections and always have a map eteched
+< on their surface.  To help you get started, there are several posters
+< here you can look at.
+< The STREET map will show you how the layout works around here.
+< The GUILD poster has a map of where all the guilds in town are located.
+< and the ZONE poster will give you a feel as to what parts of town might
+<    carry what shops.
+< Oh yeah...I almost forgot.  There's also a SHOP poster which will tell
+< you where to find just about anything!
+< 
+< Happy Traveling! (And don't forget to look for those MAPS at all major
+< intersections...they'll keep you on the right track!)
+< 
+< 	}
+413c413
+< "   The floor here is covered in a soft, lush carpet.  Hollow glass 
+---
+> "   The floor here is covered in a soft, lush carpet.  Hollow glass
+432c432
+< is set into the west wall.  A small sign rests on the counter. 
+---
+> is set into the west wall.  A small sign rests on the counter.
+447c447
+<                   This port connects to the:         
+---
+>                   This port connects to the:
+449c449
+<                  M A R K E T   P L A Z A            
+---
+>                  M A R K E T   P L A Z A
+452c452
+<        to our sponsor, Osfol's Shoppe of Wonderous Things. 
+---
+>        to our sponsor, Osfol's Shoppe of Wonderous Things.
+454c454
+<                                      Have a nice day. =)   
+---
+>                                      Have a nice day. =)
+539,546c539,546
+< The Cathedral of Virtue rises to dizzying heights before you.  Carved
+< from immortal stone, the Cathedral is a bastion for what is True and Pure
+< throughout the lands of Midgard.  Simply standing in its shadow fills you
+< with peace and tranquility.
+< On either side of the Cathedral stand the guilds dedicated to upholding
+< virtue. To the west the Cleric's Guild, and to the east the Paladin's 
+< Guild. Woodmar Lane leads the way back to the Market Plaza to the south.
+< A small stairway leads to the annex hallways of the Cathedral.
+---
+> "  The Cathedral of Virtue rises to dizzying heights before you.
+> Carved from immortal stone, the Cathedral is a bastion for what is True and
+> Pure throughout the lands of Midgard.  Simply standing in its shadow
+> fills you with peace and tranquility.
+>    On either side of the Cathedral stand the guilds dedicated to
+> upholding virtue. To the west the Cleric's Guild, and to the east the
+> Paladin's Guild. Woodmar Lane leads the way back to the Market Plaza to
+> the south.
+555d554
+< 	to { d, Midgard_tunnels:0 }
+566c565
+< business.  To the south, you can just barely make you what might be some 
+---
+> business.  To the south, you can just barely make you what might be some
+676c675
+< the south, the Midgard Shrine of Neutrality peeks over the horizon. 
+---
+> the south, the Midgard Shrine of Neutrality peeks over the horizon.
+745c744
+< "  The walls here are stark white and unadorned.  You guess that the 
+---
+> "  The walls here are stark white and unadorned.  You guess that the
+765c764
+< around the Shrine, while Woodmar lane streches off in the distance to 
+---
+> around the Shrine, while Woodmar lane streches off in the distance to
+774c773
+< :..||    C e n t r a l    ||.   The Shrine of   .. . . ..  .. . 
+---
+> :..||    C e n t r a l    ||.   The Shrine of   .. . . ..  .. .
+776,778c775,777
+< :..[]=====================[]....................... . ... . .. 
+< :......................Market Plaza.............. . . . . . 
+< :.........................|   |--------................. .. .. 
+---
+> :..[]=====================[]....................... . ... . ..
+> :......................Market Plaza.............. . . . . .
+> :.........................|   |--------................. .. ..
+783,787c782,786
+< :.....................|     *     |    |............... .. . 
+< :.................+---+   :   :   +---+...............  .. . 
+< :.................|       |   |       |..................  .. . 
+< :.-.-.--.---------    - -       - -    ------------..... .  .. 
+< :...  Main Street                        Main Street  
+---
+> :.....................|     *     |    |............... .. .
+> :.................+---+   :   :   +---+...............  .. .
+> :.................|       |   |       |..................  .. .
+> :.-.-.--.---------    - -       - -    ------------..... .  ..
+> :...  Main Street                        Main Street
+789,792c788,791
+< :.................|       |   |       |................ .  .. 
+< :.................+---+   :   :   +---+.................. .. . 
+< :.....................|           |.................... . .. 
+< :.....................+---+   +---+................. . . .. . 
+---
+> :.................|       |   |       |................ .  ..
+> :.................+---+   :   :   +---+.................. .. .
+> :.....................|           |.................... . ..
+> :.....................+---+   +---+................. . . .. .
+865c864
+< of the rising sun'.   To the east, Main Street leads the way to the 
+---
+> of the rising sun'.   To the east, Main Street leads the way to the
+875c874
+< :..||    C e n t r a l    ||.   The Shrine of   .. . . ..  .. . 
+---
+> :..||    C e n t r a l    ||.   The Shrine of   .. . . ..  .. .
+877,879c876,878
+< :..[]=====================[]....................... . ... . .. 
+< :......................Market Plaza.............. . . . . . 
+< :.........................|   |--------................. .. .. 
+---
+> :..[]=====================[]....................... . ... . ..
+> :......................Market Plaza.............. . . . . .
+> :.........................|   |--------................. .. ..
+884,888c883,887
+< :.....................|  Circle   |    |............... .. . 
+< :.................+---+   :   :   +---+...............  .. . 
+< :.................|       |   |       |..................  .. . 
+< :.-.-.--.---------    - -       - -    ------------..... .  .. 
+< :...  Main Street                    *   Main Street  
+---
+> :.....................|  Circle   |    |............... .. .
+> :.................+---+   :   :   +---+...............  .. .
+> :.................|       |   |       |..................  .. .
+> :.-.-.--.---------    - -       - -    ------------..... .  ..
+> :...  Main Street                    *   Main Street
+890,893c889,892
+< :.................|       |   |       |\............... .  .. 
+< :.................+---+   :   :   +---+.\____ You are here. . 
+< :.....................|           |.................... . .. 
+< :.....................+---+   +---+................. . . .. . 
+---
+> :.................|       |   |       |\............... .  ..
+> :.................+---+   :   :   +---+.\____ You are here. .
+> :.....................|           |.................... . ..
+> :.....................+---+   +---+................. . . .. .
+976c975
+< :..||    C e n t r a l    ||.   The Shrine of   .. . . ..  .. . 
+---
+> :..||    C e n t r a l    ||.   The Shrine of   .. . . ..  .. .
+978,980c977,979
+< :..[]=====================[]....................... . ... . .. 
+< :......................Market Plaza.............. . . . . . 
+< :.........................|   |--------................. .. .. 
+---
+> :..[]=====================[]....................... . ... . ..
+> :......................Market Plaza.............. . . . . .
+> :.........................|   |--------................. .. ..
+985,989c984,988
+< :.....................|  Circle   |    |............... .. . 
+< :.................+---+   :   :   +---+...............  .. . 
+< :.................|       |   |       |..................  .. . 
+< :.-.-.--.---------    - -       - -    ------------..... .  .. 
+< :...  Main Street         Shrine         Main Street  
+---
+> :.....................|  Circle   |    |............... .. .
+> :.................+---+   :   :   +---+...............  .. .
+> :.................|       |   |       |..................  .. .
+> :.-.-.--.---------    - -       - -    ------------..... .  ..
+> :...  Main Street         Shrine         Main Street
+991,994c990,993
+< :.................|       |   |       |................ .  .. 
+< :.................+---+   :   :   +---+.................. .. . 
+< :.....................|     *--------------You are here. .. 
+< :.....................+---+   +---+................. . . .. . 
+---
+> :.................|       |   |       |................ .  ..
+> :.................+---+   :   :   +---+.................. .. .
+> :.....................|     *--------------You are here. ..
+> :.....................+---+   +---+................. . . .. .
+1047c1046
+< periodically, you think that they're probably in the mystical zone.  
+---
+> periodically, you think that they're probably in the mystical zone.
+1075c1074
+< :..||    C e n t r a l    ||.   The Shrine of   .. . . ..  .. . 
+---
+> :..||    C e n t r a l    ||.   The Shrine of   .. . . ..  .. .
+1077,1079c1076,1078
+< :..[]=====================[]....................... . ... . .. 
+< :......................Market Plaza.............. . . . . . 
+< :.........................|   |--------................. .. .. 
+---
+> :..[]=====================[]....................... . ... . ..
+> :......................Market Plaza.............. . . . . .
+> :.........................|   |--------................. .. ..
+1084,1088c1083,1087
+< :.....................|  Circle   |    |............... .. . 
+< :.................+---+   :   :   +---+...............  .. . 
+< :.................|       |   |       |..................  .. . 
+< :.-.-.--.---------    - -       - -    ------------..... .  .. 
+< :...  Main Street  *                     Main Street  
+---
+> :.....................|  Circle   |    |............... .. .
+> :.................+---+   :   :   +---+...............  .. .
+> :.................|       |   |       |..................  .. .
+> :.-.-.--.---------    - -       - -    ------------..... .  ..
+> :...  Main Street  *                     Main Street
+1090,1093c1089,1092
+< :................/|       |   |       |................ .  .. 
+< :You are here___/.+---+   :   :   +---+.................. .. . 
+< :.....................|           |.................... . .. 
+< :.....................+---+   +---+................. . . .. . 
+---
+> :................/|       |   |       |................ .  ..
+> :You are here___/.+---+   :   :   +---+.................. .. .
+> :.....................|           |.................... . ..
+> :.....................+---+   +---+................. . . .. .
+1112c1111
+< large building sitting on the horizon.  Perhaps it's the Midgard 
+---
+> large building sitting on the horizon.  Perhaps it's the Midgard
+1277c1276
+< "   The entire floor here is covered with newspaper to prevent the 
+---
+> "   The entire floor here is covered with newspaper to prevent the
+1326c1325
+< hanging above the doorway identifies the building at the Bards' Guild. 
+---
+> hanging above the doorway identifies the building at the Bards' Guild.
+1347c1346
+< a minstrel sings of a battle between an evil dragon and a beautiful 
+---
+> a minstrel sings of a battle between an evil dragon and a beautiful
+1379c1378
+< and into Midgard.  It seems to go under Main Street to the south and 
+---
+> and into Midgard.  It seems to go under Main Street to the south and
+1620c1619
+< :........-|-----------------+   Market   +----- - a      
+---
+> :........-|-----------------+   Market   +----- - a
+1796c1795
+< you can't find it anywhere else, you can probably find it in here.  
+---
+> you can't find it anywhere else, you can probably find it in here.
+1798c1797
+< curve back to the east as you look a bit further.  
+---
+> curve back to the east as you look a bit further.
+1816c1815
+< keeper here, you can see one over to the south.  An exit to the west 
+---
+> keeper here, you can see one over to the south.  An exit to the west
+1849c1848
+< clothing related.  Racks and racks of the stuff are scattered 
+---
+> clothing related.  Racks and racks of the stuff are scattered
+1896c1895
+< :..           of Neutrality       ___    * |QG |.. .     &&&& - Inverness     : 
+---
+> :..           of Neutrality       ___    * |QG |.. .     &&&& - Inverness     :
+1916c1915
+<                I N V E R N E S S   R I V E R 
+---
+>                I N V E R N E S S   R I V E R
+1956c1955
+< :.....%%%%%-+  +------------     The Shrine     -`---'  
+---
+> :.....%%%%%-+  +------------     The Shrine     -`---'
+1958c1957
+< :.....%%%%%-+  \------------                    -----   
+---
+> :.....%%%%%-+  \------------                    -----
+1998,1999c1997,1998
+<                       QUICK-GO BOOTH  
+<          Midgard's Public Access Teleportation System  
+---
+>                       QUICK-GO BOOTH
+>          Midgard's Public Access Teleportation System
+2002c2001
+<        T H E   W E S T   G A T E   O F   M I D G A R D 
+---
+>        T H E   W E S T   G A T E   O F   M I D G A R D
+2005c2004
+<        north, and west twice to reach the edge of town. 
+---
+>        north, and west twice to reach the edge of town.
+2007c2006
+<                                      Have a nice day. =)   
+---
+>                                      Have a nice day. =)
+2117c2116
+< of the recycling centre.  Iron Road leads into the industrial zone to 
+---
+> of the recycling centre.  Iron Road leads into the industrial zone to
+2242c2241
+< :..|| S o u t h C e n t r a l ||.................   .. . . ..  .. . 
+---
+> :..|| S o u t h C e n t r a l ||.................   .. . . ..  .. .
+2244,2246c2243,2245
+< :..[]=========================[]...................&&&. . ... . .. 
+< :........................ Circle Way ............... .&&&& . . 
+< :.............................|   |--------........&&&&&.... .. .. 
+---
+> :..[]=========================[]...................&&&. . ... . ..
+> :........................ Circle Way ............... .&&&& . .
+> :.............................|   |--------........&&&&&.... .. ..
+2251,2253c2250,2252
+< :......................|  The Wharf...   |&&.......&&&.... .. . 
+< :......................|                 |&.........&&&.....  .. . 
+< :Mystical..--.---------      You are     ----------,&&&,----  .. 
+---
+> :......................|  The Wharf...   |&&.......&&&.... .. .
+> :......................|                 |&.........&&&.....  .. .
+> :Mystical..--.---------      You are     ----------,&&&,----  ..
+2256,2258c2255,2257
+< :......................|                 |.........&&&&... .  .. 
+< :.....................&|                 |.........&&&........ . .. 
+< :..................&&&&&------+   +-----+..........&&..... . . .. . 
+---
+> :......................|                 |.........&&&&... .  ..
+> :.....................&|                 |.........&&&........ . ..
+> :..................&&&&&------+   +-----+..........&&..... . . .. .
+2261c2260
+< :...........&&&&&&........ of Corruption ......&........ . . . 
+---
+> :...........&&&&&&........ of Corruption ......&........ . . .
+2406c2405
+< from the back wall of the shop.  The weaponsmith has carefully kept 
+---
+> from the back wall of the shop.  The weaponsmith has carefully kept
+2523,2524c2522,2523
+< you have no idea what it might have been. There is a grate in one corner of
+< the floor, it looks as if it has been opened before...
+---
+> you have no idea what it might have been.  The place doesn't look quite
+> stable and if you stay here much longer it might crumble down upon you.
+2530,2533d2528
+< 	to { d, Sewer1:30 }
+< 	  info { door, closed }
+< 	  keywords { grate" }
+< 	  desc { It looks damp and chilly down there}
+2542c2537
+< coming from the huge piles of trash on the east side of the street.  
+---
+> coming from the huge piles of trash on the east side of the street.
+2570c2565
+<                                      Have a nice day. =)  
+---
+>                                      Have a nice day. =)
+2766,2770c2761,2766
+< "   At this point, the Iron Road reaches both to the east and the north.
+< The buildings to the west and the south are both completely burnt to the
+< ground.  The only explanation for this is if people where hurtling
+< fireballs down Iron Road at the very spot you're standing...Nah...
+< Mystil's Mystics, the magic shop, is just northeast of here.
+---
+> "    At this point, the Iron Road reaches both to the east and the north.
+> The buildings to the west are completely burnt to the ground.  The only
+> explanation for this is if people where hurtling fireballs down Iron 
+> Road at the very spot you're standing...Nah...Mystil's Mystics, the
+> magic shop, is just northeast of here.  Fern Road starts just to the
+> south of here.
+2802a2799
+> 	to { s, SW_wilderness:0 }
+2815c2812
+< the east.  
+---
+> the east.
+2823d2819
+< 	to { w, Chessboard:99 }
+2853c2849
+< to have to talk to the owner.  The exit leads west back out to the 
+---
+> to have to talk to the owner.  The exit leads west back out to the
+2905c2901
+< Neutrality.  Immediately to the north, the Iron Road intersects 
+---
+> Neutrality.  Immediately to the north, the Iron Road intersects
+2968c2964
+< :.......|   |----................|  |.....&&&&&....... . 
+---
+> :.......|   |----................|  |.....&&&&&....... .
+2972c2968
+< :.......|      Iron Road        Wharf             trial 
+---
+> :.......|      Iron Road        Wharf             trial
+3033d3028
+< 	to { d, 396 }
+3294c3289
+< know the difference.  You can exit the exhibit to the south. 
+---
+> know the difference.  You can exit the exhibit to the south.
+3413c3408
+< and the griffin.  To the east, the gravel path heads toward the 
+---
+> and the griffin.  To the east, the gravel path heads toward the
+3465c3460
+< from the heat of the day.  
+---
+> from the heat of the day.
+3773c3768
+< "   A small jungle has been provided by the zookeepers to make the 
+---
+> "   A small jungle has been provided by the zookeepers to make the
+3844,3846c3839,3840
+< albeit dangerous, big cat exhibit.  There is an iron door to the west with a 
+< sign hanging over it.  The path also leads east into what seems to be a 
+< construction zone.
+---
+> albeit dangerous, big cat exhibit.  The path also leads east into what seems
+> to be a construction zone.
+3858,3860d3851
+< 	to { w, Deadly_exhibit:0 }
+< 	  info { door, closed }
+< 	  keywords { door iron" }
+4089c4080
+< "  All of the artifical foliage has been removed from here to reveal 
+---
+> "  All of the artifical foliage has been removed from here to reveal
+4173c4164
+< north.  
+---
+> north.
+4228c4219
+< little path running right through the middle.  
+---
+> little path running right through the middle.
+4266,4267c4257
+< to a duck pond.  The hill descends to the north and west.  Also, 
+< fastened right to the top of the hill is a huge chain which leads up.
+---
+> to a duck pond.  The hill descends to the north and west.
+4275d4264
+< 	to { u, Redferne:14 }
+4459c4448
+< "   The small of broken grass beneath your feet reminds you of your 
+---
+> "   The small of broken grass beneath your feet reminds you of your
+4610c4599
+< In one corner, the bones of various sorts of creatures lie neatly stacked. 
+---
+> In one corner, the bones of various sorts of creatures lie neatly stacked.
+4640c4629
+< shadows across the room.  
+---
+> shadows across the room.
+4655c4644
+< thing in the field besides youself is your guildmaster. 
+---
+> thing in the field besides youself is your guildmaster.
+4747c4736
+< through space.  The loss of sensation when in the Ether has always 
+---
+> through space.  The loss of sensation when in the Ether has always
+4787c4776
+< seemed eerie to you. Luckily, it'll be over soon.  
+---
+> seemed eerie to you. Luckily, it'll be over soon.
+4815c4804
+< carry out their bidding.  The room is completely empty save for a few 
+---
+> carry out their bidding.  The room is completely empty save for a few
+4849c4838
+< people of Midgard from invading hoards.  Just a few steps west, and 
+---
+> people of Midgard from invading hoards.  Just a few steps west, and
+4874c4863
+< 	to { w, Haondor_light:0 }
+---
+> 	to { w, 293 }
+4906,4907c4895
+< 	to { n, Midgard_trail:8 }
+< 	to { e, Midenir:3 }
+---
+> 	to { e, 503 }
+5036c5024
+< small acloves line the east and west walls. 
+---
+> small acloves line the east and west walls.
+5056c5044
+< site leads back to the center of the Cathedral. 
+---
+> site leads back to the center of the Cathedral.
+5202d5189
+< 	to { e, Shark:1 }
+5280c5267
+< eye out for danger.  A bridge arches over the blue waters of the 
+---
+> eye out for danger.  A bridge arches over the blue waters of the
+5412c5399
+< "   Iron Road crosses the river just down stream on its way to the 
+---
+> "   Iron Road crosses the river just down stream on its way to the
+5472d5458
+< 	to { n, Quinmoor:6 }
+5652c5638,5639
+< The river takes you slowly south which leads into a dense forest.
+---
+> The river takes you slowly sout as you notice the river is becoming
+> more shallow and beginning to dry up.
+5658c5645
+< 	to { s, Haondor_dark:45 }
+---
+> 	to { s, 300 }
+5680c5667
+<   name { 3293 }
+---
+>   name { The Edge of Midnight Thicket }
+5682c5669,5672
+< Empty
+---
+> "     You stand on the brink of the Midnight Thicket.  Rumored to be one of 
+> the most dangerous forests in the known world, many parties have entered 
+> never to be seen again.  You can still see the West Gate and long to be there
+> instead of on the brink of this dread woodlands.
+5684c5674,5677
+<   sector { City }
+---
+>   exits {
+> 	to { e, 246 }
+> 	to { w, 294 }
+>   }
+5689c5682
+<   name { 3294 }
+---
+>   name { The Entrance to Midnight Thicket }
+5691c5684,5687
+< Empty
+---
+> "    Even during the brightest day little light get's down here.  Only the fact
+> that you are so close to the entrance makes it possible to see at all.  All 
+> those tales you heard in you childhood start coming back with startling 
+> clarity.
+5693c5689,5693
+<   sector { City }
+---
+>   sector { Forest }
+>   exits {
+> 	to { e, 293 }
+> 	to { w, 296 }
+>   }
+5718c5718
+<   name { 3296 }
+---
+>   name { Midnight Thicket }
+5720c5720,5723
+< Empty
+---
+> "    Stories of young boys straying from the path only to return as zombies or
+> worse to attack passing travelers make you very sure that this is not a path 
+> to stray from, even if you are the grown men and women defending your city
+> from all sorts of evil monsters.
+5722c5725,5730
+<   sector { City }
+---
+>   sector { Forest }
+>   flags { dark }
+>   exits {
+> 	to { e, 294 }
+> 	to { w, 297 }
+>   }
+5727c5735
+<   name { 3297 }
+---
+>   name { Midnight Thicket }
+5729c5737,5739
+< Empty
+---
+> "    The dark completely enshrouds you now.  At high noon the sun is but a
+> faint memory.  There is nothing to do but stay on the path and hope for the
+> best as you hurry to reach your journey's end.
+5731,5738c5741,5745
+<   sector { City }
+< }
+< 
+< 298
+< {
+<   name { 3298 }
+<   desc {
+< Empty
+---
+>   sector { Forest }
+>   flags { dark }
+>   exits {
+> 	to { e, 296 }
+> 	to { w, Desert:71 }
+5740d5746
+<   sector { City }
+5743,5751d5748
+< 299
+< {
+<   name { 3299 }
+<   desc {
+< Empty
+<   }
+<   sector { City }
+< }
+< 
+5754c5751
+<   name { 3300 }
+---
+>   name { A muddy river bed }
+5756c5753,5756
+< Empty
+---
+> "  You are standing up to your knees in the muddy river bed.  The travelling
+> is quite ardurous here.  The river actually starts flowing again to the 
+> north while the bed is totally dry to the south.  There are mosquitos 
+> everywhere as the climate is quite humid.
+5758c5758,5762
+<   sector { City }
+---
+>   sector { Forest }
+>   exits {
+> 	to { n, 291 }
+> 	to { s, 323 }
+>   }
+5763c5767
+<   name { 3323 }
+---
+>   name { A Dry River Bed }
+5765c5769,5773
+< Empty
+---
+> "  The river bed has totally dried up here because of the intense dryness
+> in the climate.  The perspiration is pouring off your brow like a 
+> waterfall in this heat.  You are becoming fatigued as you walk along the
+> bed.  The bed to the north looks quite muddy while to the south it is
+> perfectly dry.
+5767c5775,5779
+<   sector { City }
+---
+>   sector { Forest }
+>   exits {
+> 	to { n, 300 }
+> 	to { s, Trog_caves:62 }
+>   }
+5777c5789
+< thing in the field besides yourself is your guildmaster. 
+---
+> thing in the field besides yourself is your guildmaster.
+5786c5798
+< The council chambers are fairly plain.  A large, round table sits in the 
+---
+> The council chambers are fairly plain.  A large, round table sits in the
+5795,5796c5807,5809
+< 	keywords { sign" }
+< 	desc { The large sign says 'NO SMOKING!'
+---
+> 	keywords { vending machine" }
+> 	desc { It emits a faint humming sound!
+> You can see all sorts of goodies...M&M's, snickers, butterfingers...
+5801,5803c5814,5815
+< 	keywords { vending machine" }
+< 	desc { It emits a faint humming sound!
+< You can see all sorts of goodies...M&M's, snickers, butterfingers...
+---
+> 	keywords { sign" }
+> 	desc { The large sign says 'NO SMOKING!'
+5820c5832
+<   name { The Mayors Office }
+---
+>   name { The hills }
+5822,5828c5834,5835
+< The mayors office is large and spacious.  A large desk sits in the north west 
+< wall, with stacks of papers neatly arranged on top of it.  Along the west 
+< wall lies a comfortable looking couch, and a coke machine is next to it. 
+< Atop the desk is a large gavel, humming softly.  It looks dangerous, so you 
+< decide not to touch it.  To the south, you can see a partially open closet,
+< with something inside.  Putting two gold into the coke machine, you settle
+< back onto the couch and wait.
+---
+> "   You are on a path leading north, small hills surrounds you. You feel
+> the forces of evil approach you from the north.
+5830,5869c5837
+<   extra {
+< 	keywords { closet" }
+< 	desc { The closet is open, and peeking inside, you see several skimpy undergarments
+< that the mayor wears when shes alone with Deth.  Embarrased, she quickly 
+< closes it.	}
+< 	keywords { gavel" }
+< 	desc { It looks like a oversized mallet.
+< It emits a faint humming sound!
+< 	}
+< 	keywords { coke machine" }
+< 	desc { The coke machine glows softly....it emits a faint humming sound!
+< 	}
+< 	keywords { desk" }
+< 	desc { A well worn, well used desk.  It has a comfortable chair.
+< 	}
+< 	keywords { papers paper" }
+< 	desc { The stack of papers threaten to overflow and swamp the room.  Good thing they
+< dont...you might die from paper cuts.
+< 	}
+< 	keywords { couch" }
+< 	desc { The couch looks like the right place to go to sleep.
+< 	}
+<   }
+<   exits {
+< 	to { e, 360 }
+< 	  key { 3361 }
+< 	  info { door, closed }
+< 	  keywords { mayors door" }
+<   }
+< }
+< 
+< 396
+< {
+<   name { Path behind Temple }
+<   desc {
+< "   You stand on an eerie path just to the side of the Temple of Corruption.
+< The black obsidian walls stretch up far above you, and reach toward the sky
+< with an air of rebellion.  You can follow the path up into town, or continue
+< south, towards the object of its dark intentions...
+<   }
+---
+>   sector { Hills }
+5872,5873c5840
+< 	to { s, 397 }
+< 	to { u, 138 }
+---
+> 	to { n, Moria1:1 }
+5877c5844
+< 397
+---
+> 503
+5879c5846
+<   name { Path behind Temple }
+---
+>   name { City Entrance }
+5881,5884c5848,5851
+< "  The sounds of the city have faded into non-existence, leaving in their
+< wake no replacement.  No bird cries are heard, and no foot treads without
+< fear.  It seems to be growing darker and darker as you approach your desti-
+< nation.
+---
+> "   You stand on the outskirts of a large city - Midgaard; the capital of this
+> land. The road leads east into the peace and quiet - and dangers - of the
+> forest; and to the west it becomes the main street of the town; surrounded by
+> a confusion of shops, bars, and market places.
+5887,5922c5854,5855
+< 	to { n, 396 }
+< 	to { s, 398 }
+<   }
+< }
+< 
+< 398
+< {
+<   name { Path to Graveyard }
+<   desc {
+< "   This place is pure evil.  You feel it under your skin; through your bones,
+< to the tips of your fingers.  A dawning hatred and bitter menacing cold tears
+< through you like a biting wind.  The path ends just to the south, and travels
+< north towards the southern end of Midgard.
+<   }
+<   exits {
+< 	to { n, 397 }
+< 	to { s, 399 }
+<   }
+< }
+< 
+< 399
+< {
+<   name { Entrance to Graveyard }
+<   desc {
+< "  You stand just outside the old burial grounds of the city of Midgard.  The
+< place is completely silent; no breeze, no bird-call, no life.  It is as if
+< all life is repelled by the cold tombstones, which stretch on farther than
+< you care to know.  You realize that you are depressed; even deeper, you are
+< scared.  The gate between you and the graveyard mocks you silently, beckoning
+< endlessly...
+<   }
+<   exits {
+< 	to { n, 398 }
+< 	to { s, Graveyard1:0 }
+< 	  info { door, closed }
+< 	  keywords { gate" }
+---
+> 	to { e, Crossroads:0 }
+> 	to { w, 248 }
+Midgard_trail
+4c4
+<   name { West trail around Midgaard }
+---
+>   name { West trail around Midgard }
+8c8
+< forest of Haon-Dor. The trail leads north and south along the wall. 
+---
+> Midnight Thicket.  The trail leads north and south along the wall.
+10d9
+<   sector { Field }
+13d11
+< 	  desc { The dusty trail winds north closely to the wall.  }
+15d12
+< 	  desc { The dusty trail leads to the west gate of Midgaard.  }
+21c18
+<   name { West trail around Midgaard }
+---
+>   name { West trail around Midgard }
+25c22
+< forest of Haon-Dor. The trail leads north and south along the wall. 
+---
+> Midnight Thicket.  The trail leads north and south along the wall.
+27d23
+<   sector { Field }
+30,31d25
+< 	  desc { To the north you notice the path makes a turn, following the City wall. 
+< }
+33,34d26
+< 	  desc { The dusty trail continues towards the south.
+< }
+43c35,37
+< The trail leads east following the north wall and south towards the gate.  
+---
+> The trail leads east following the north wall and south towards the gate.
+> The trail strays to the north and way east seems to head into a
+> foggy moor.
+45d38
+<   sector { Field }
+46a40
+> 	to { n, Moor1:2 }
+48,49d41
+< 	  desc { The dusty trail winds close up to the north wall of Midgaard.
+< }
+51,53d42
+< 	  desc { The dusty trail leads south towards the gate.
+< }
+< 	to { w, Kyoto:1 }
+61,62c50,52
+< "   You are walking on the trail following the outside of Midgaard's
+< northern wall.  
+---
+> "   You are walking on the trail following the outside of Midgard's
+> northern wall.  There is a mist wisping about your ankles as you 
+> walk along. A corner in the trail lies to the east.
+64d53
+<   sector { Field }
+67,68d55
+< 	  desc { The dusty trail is winding along the north wall of Midgaard.
+< }
+70,71d56
+< 	  desc { The dusty trail turns left around the corner of the wall, behind it Haon-Dor. 
+< }
+77c62
+<   name { The long dusty trail following the north wall. }
+---
+>   name { A Corner in the Trail }
+79,82c64,68
+< You are walking along the north wall. This is the rear of the Temple.
+< It is not as pompous and impressive from this side. To the north a path
+< that leads across the plain.
+< You notice some markings on the wall here.
+---
+> "  Midgard's northern city wall lies directly south of here and blocks your
+> movement south.  The trail continues to the west around the northern wall
+> and to the north your visibility is greatly reduced by fog on the horizon.
+> Something catches your eye from the sky above.  You dream of flying like
+> the birds among the beautiful clouds which extend above your head.
+84,89d69
+<   sector { Field }
+<   extra {
+< 	keywords { wall markings writing" }
+< 	desc { "	We don't need no education.
+< 	}
+<   }
+91,100c71
+< 	to { n, Dwarven_kingdom:0 }
+< 	  desc { A small path extends into the plains.
+< }
+< 	to { e, 5 }
+< 	  desc { The dusty trail is winding along the north wall of Midgaard. 
+< }
+< 	to { s, Midgard_tunnels:66 }
+< 	  key { 100 }
+< 	  info { door, closed }
+< 	  keywords { secret door s" }
+---
+> 	to { n, Moor1:0 }
+102,192c73
+< 	  desc { The dusty trail is winding along the north wall of Midgaard.
+< }
+<   }
+< }
+< 
+< 5
+< {
+<   name { Dusty trail along north wall. }
+<   desc {
+< "   You are walking on the trail following the outside of Midgaard's
+< northern wall.  
+<   }
+<   sector { Field }
+<   exits {
+< 	to { e, 6 }
+< 	  desc { The dusty trail turns right around the corner of the wall. 
+< You notice some mountains in the distance.
+< }
+< 	to { w, 4 }
+< 	  desc { The dusty trail is winding along the north wall of Midgaard.
+< }
+<   }
+< }
+< 
+< 6
+< {
+<   name { Northeast corner of dusty trail. }
+<   desc {
+< "   You are standing outside the northeastern corner of the city wall.
+< The trail leads west following the north wall and south towards the gate.  
+<   }
+<   sector { Field }
+<   exits {
+< 	to { s, 7 }
+< 	  desc { The dusty trail leads south towards the gate.
+< }
+< 	to { w, 5 }
+< 	  desc { The dusty trail winds close up to the north wall of Midgaard.
+< }
+<   }
+< }
+< 
+< 7
+< {
+<   name { East trail around Midgaard }
+<   desc {
+< "   You are on a dusty trail following the outside wall of Midgaard.
+< To the west the wall towers over you and far to the east you see
+< some mountains. The trail leads north and south along the wall. 
+<   }
+<   sector { Field }
+<   exits {
+< 	to { n, 6 }
+< 	  desc { To the north you notice the path makes a turn, following the City wall. 
+< }
+< 	to { s, 8 }
+< 	  desc { The dusty trail continues towards the south.
+< }
+<   }
+< }
+< 
+< 8
+< {
+<   name { East trail around Midgaard }
+<   desc {
+< "   You are on a dusty trail following the outside wall of Midgaard.
+< To the west the wall towers over you and far to the east you see
+< some mountains. The trail leads north and south along the wall. 
+<   }
+<   sector { Field }
+<   exits {
+< 	to { n, 7 }
+< 	  desc { The dusty trail winds north closely to the wall.
+< }
+< 	to { s, Midgard:248 }
+< 	  desc { The dusty trail leads to the east gate of Midgaard.
+< }
+<   }
+< }
+< 
+< 49
+< {
+<   name { Donation Room }
+<   desc {
+< "   This is the donation room where people can donate items for new players.
+< There are candles lining the wall, and a large pile of stuff lying on the
+< floor.
+<   }
+<   flags { no_mob, indoors, nosteal }
+<   exits {
+< 	to { u, Midgard:0 }
+---
+> 	to { u, Harpy:1 }
+Midgard_tunnels
+Mirkwood1
+Mirkwood2
+Mirkwood3
+Mistamere
+425c425
+< The west wall of this room has a ledge about seven feet from the floor, 
+---
+> The west wall of this room has a ledge about seven feet from the floor,
+442c442
+< The west wall of this room has a ledge about seven feet from the floor, 
+---
+> The west wall of this room has a ledge about seven feet from the floor,
+450c450
+<  
+---
+> 
+496c496
+< 	desc { It it timeless, now one with the castle.. 
+---
+> 	desc { It it timeless, now one with the castle..
+518c518
+< The east wall of this room has a ledge about seven feet from the floor, 
+---
+> The east wall of this room has a ledge about seven feet from the floor,
+648c648
+<  
+---
+> 
+666c666
+< them in the cracks. A ray of light hits the floor in front of you from a 
+---
+> them in the cracks. A ray of light hits the floor in front of you from a
+1030c1030
+<  
+---
+> 
+Mordilnia
+Moria1
+6,7c6,7
+< "   You are on a path leading north, small hills surrounds you. You feel
+< the forces of evil approach you from the north. 
+---
+> You are on a path leading north, small hills surrounds you. You feel
+> the forces of evil approach you from the north.
+9,10d8
+<   sector { Hills }
+<   flags { no_mob }
+13c11
+< 	to { s, Midenir:0 }
+---
+> 	to { s, 75 }
+68d65
+< 	to { e, Doom:170 }
+92c89
+< "   You force your way through a small tunnel, to you south you sense 
+---
+> "   You force your way through a small tunnel, to you south you sense
+137c134
+< "   You are in a tunnel, the tunnel continues to the south and to the 
+---
+> "   You are in a tunnel, the tunnel continues to the south and to the
+382c379
+< "   You are in a light cave, through a hole large above you, you see 
+---
+> "   You are in a light cave, through a hole large above you, you see
+402c399
+< "   You are in a small valley, surrounded by hills and a mountain to 
+---
+> "   You are in a small valley, surrounded by hills and a mountain to
+413c410
+< 	to { n, Main_matrix_auxiliary:900 }
+---
+> 	to { n, Tagol:0 }
+499c496
+< "   You are in a maze of small damp tunnels. Only exit is west to a 
+---
+> "   You are in a maze of small damp tunnels. Only exit is west to a
+576c573
+< "   You are in a small tunnel, to the west the tunnel continues and 
+---
+> "   You are in a small tunnel, to the west the tunnel continues and
+635c632
+< "   You are in a tunnel, only exit is west - Only exit, well there is 
+---
+> "   You are in a tunnel, only exit is west - Only exit, well there is
+794a792,814
+>   }
+> }
+> 
+> 75
+> {
+>   name { The Plains }
+>   desc {
+> You are on the plains, to the north you notice a small path into the
+> hills. A large chain is fastened to the ground right next to you.  It
+> looks like you can climb up it and into the clouds above.
+>   }
+>   exits {
+> 	to { n, 0 }
+> 	to { s, Crossroads:0 }
+> 	to { u, Redferne:14 }
+>   }
+> }
+> 
+> 76
+> {
+>   name { 4076 }
+>   desc {
+> Empty
+Moria2
+6c6
+< "   Suddenly you feel that the tunnel leads slightly down.. The only 
+---
+> "   Suddenly you feel that the tunnel leads slightly down.. The only
+188c188
+< 	to { d, 26 }
+---
+> 	to { d, Void:-1 }
+224c224
+< "   You are in a passage that leads towards the south. To the east 
+---
+> "   You are in a passage that leads towards the south. To the east
+241c241
+< light. The cave continues to the north, to the west you see a dark 
+---
+> light. The cave continues to the north, to the west you see a dark
+436c436
+< 26
+---
+> 899
+438c438
+<   name { A Path }
+---
+>   name { 4999 }
+440,444c440
+< "    You are on a path heading slightly downwards and most likely out of moria
+< you can go back up to the safety (hah) of moria or journey onwards to ?
+<   }
+<   exits {
+< 	to { u, 10 }
+---
+> Empty
+Mouse
+Nodonn
+PR-entrance
+Pyramid
+45a46,49
+> 	keywords { etchings" }
+> 	desc { Unfortunately you can't read ancient egyptian.... however a faded ink
+> translation, apparently left by the owners of the grappling hook, is here.
+> 	}
+54,57d57
+< 	keywords { etchings" }
+< 	desc { Unfortunately you can't read ancient egyptian.... however a faded ink 
+< translation, apparently left by the owners of the grappling hook, is here.
+< 	}
+91c91
+< tomb. You notice the bones of some daring adventurers, less fortunate 
+---
+> tomb. You notice the bones of some daring adventurers, less fortunate
+96,98d95
+< 	keywords { up" }
+< 	desc { Someone or something has magically blocked your way up.
+< 	}
+102a100,102
+> 	keywords { up" }
+> 	desc { Someone or something has magically blocked your way up.
+> 	}
+119,120c119
+< 	  keywords { nothing
+< nothing" }
+---
+> 	  keywords { nothing" }
+165c164
+< permeates the stones of the Pyramid. 
+---
+> permeates the stones of the Pyramid.
+218c217
+< its height of power. 
+---
+> its height of power.
+292,293c291
+< 	  keywords { south
+< door" }
+---
+> 	  keywords { south door" }
+535c533
+< This corridor ends here, but a lonely Spectre looks up as you enter. He 
+---
+> This corridor ends here, but a lonely Spectre looks up as you enter. He
+800c798
+<   name { Desert Floor. }
+---
+>   name { Outside Redferne's residence }
+802,803c800,804
+< For some strange reason you decided to jump off the pyramid.
+< You're dead.
+---
+> A huge cloud forms the plateau on which you are now standing. The wind here
+> is absolutely quiet and the sun is shining warmly upon you. From under the
+> cloud you can hear the faint sounds of Midgaard. Right before you to the
+> north lies the grand Mansion of Naris, the residence of the Greater God
+> Redferne.
+805c806,825
+<   flags { death }
+---
+>   flags { no_mob, private }
+>   exits {
+> 	to { n, Redferne:1 }
+> 	  key { 7901 }
+> 	  info { door, closed }
+> 	  keywords { gate door huge arched" }
+> 	  desc { You see a HUGE arched gate leading into this magnificent building.
+> }
+> 	to { d, Redferne:18 }
+> 	  desc { You see a Huge Chain that anchors the Mansion of Naris to the ground.
+> }
+>   }
+> }
+> 
+> 100
+> {
+>   name { 5400 }
+>   desc {
+> Empty
+>   }
+Quest_inn
+Quifael_rooms
+Quinmoor
+Redferne
+12d11
+<   flags { no_mob, private }
+18,19d16
+< 	  desc { You see a HUGE arched gate leading into this magnificent building.
+< }
+21,22d17
+< 	  desc { You see a Huge Chain that anchors the Mansion of Naris to the ground.
+< }
+40a36,38
+> 	keywords { letters" }
+> 	desc { They read "LIBRARY".
+> 	}
+46,48d43
+< 	keywords { letters" }
+< 	desc { They read "LIBRARY".
+< 	}
+98,102c93,96
+< 	keywords { globe world map" }
+< 	desc { You see a large world map stretch out on the enormous globe. It has towns
+< drawn in every spot available for such. In the middle of the map you can
+< spot a large town with the name 'MIDGAARD' written over it. The rest is
+< mountains, woods, plains and water.
+---
+> 	keywords { river" }
+> 	desc { You see a large and winding river cut through the landscape, starting at a
+> huge mountain chain, it seeps through Midgaard and finally ends up in the
+> Grand Sea on the West-coast of the land.
+104,108c98,101
+< 	keywords { midgaard town city" }
+< 	desc { You see a small speck with woods on the west from it, plains to the east
+< from it and mountains to the north from it. To the south from it you can
+< see a thin trail lead to a large castle. Finally you notice a rather large
+< river pour in from the east and go through Midgaard in the middle.
+---
+> 	keywords { out outside beyond" }
+> 	desc { The clouds muster and form the ground on which this entire building is set.
+> Through the thinnest of the clouds you can just make out MIDGAARD with all
+> it's magnificent activity.
+110,114d102
+< 	keywords { chairs leather arm-chairs" }
+< 	desc { These two chair are exactly alike one another. They look incredibly
+< comfortable. They're both made from old leather, and yet they seem so worn
+< that they can be nothing but a perfect place for a long needed rest.
+< 	}
+120,123c108,111
+< 	keywords { out outside beyond" }
+< 	desc { The clouds muster and form the ground on which this entire building is set.
+< Through the thinnest of the clouds you can just make out MIDGAARD with all
+< it's magnificent activity.
+---
+> 	keywords { chairs leather arm-chairs" }
+> 	desc { These two chair are exactly alike one another. They look incredibly
+> comfortable. They're both made from old leather, and yet they seem so worn
+> that they can be nothing but a perfect place for a long needed rest.
+125,128c113,117
+< 	keywords { river" }
+< 	desc { You see a large and winding river cut through the landscape, starting at a 
+< huge mountain chain, it seeps through Midgaard and finally ends up in the
+< Grand Sea on the West-coast of the land.
+---
+> 	keywords { midgaard town city" }
+> 	desc { You see a small speck with woods on the west from it, plains to the east
+> from it and mountains to the north from it. To the south from it you can
+> see a thin trail lead to a large castle. Finally you notice a rather large
+> river pour in from the east and go through Midgaard in the middle.
+129a119,124
+> 	keywords { globe world map" }
+> 	desc { You see a large world map stretch out on the enormous globe. It has towns
+> drawn in every spot available for such. In the middle of the map you can
+> spot a large town with the name 'MIDGAARD' written over it. The rest is
+> mountains, woods, plains and water.
+> 	}
+223c218
+< This must be the place of food and drink. You can hear the faint noise of 
+---
+> This must be the place of food and drink. You can hear the faint noise of
+281c276
+< up OR down. It's just a seemingly insurmountable climb, either way. Up is the 
+---
+> up OR down. It's just a seemingly insurmountable climb, either way. Up is the
+295c290
+< This place is gloomy. A HUGE safe is cemented into the west wall. The only 
+---
+> This place is gloomy. A HUGE safe is cemented into the west wall. The only
+321c316
+< broad balcony to the south. 
+---
+> broad balcony to the south.
+362,363c357,358
+< the state the walls are in, this could very well be a large AGGRESSIVE animal. 
+< This makes you pretty insecure, this stating your feeling about the place, 
+---
+> the state the walls are in, this could very well be a large AGGRESSIVE animal.
+> This makes you pretty insecure, this stating your feeling about the place,
+391c386
+< 	to { d, Midgard:209 }
+---
+> 	to { d, Moria1:75 }
+401c396
+< Hanging on to the chain you figure out that there's no way of leaving down 
+---
+> Hanging on to the chain you figure out that there's no way of leaving down
+416c411
+< ABSOLUTELY out of the QUESTION. 
+---
+> ABSOLUTELY out of the QUESTION.
+449c444
+< originating from within the Chain *ITSELF*. 
+---
+> originating from within the Chain *ITSELF*.
+458c453
+< 	  desc { It seems to you that the Chain is dissolving again. Maybe it's just an 
+---
+> 	  desc { It seems to you that the Chain is dissolving again. Maybe it's just an
+497c492
+< . 
+---
+> .
+Road_malvaria
+Sewer1
+Sewer2
+Sewermaze
+Shark
+Shire
+Tagol
+15c15
+< 	to { s, Main_matrix_auxiliary:902 }
+---
+> 	to { s, Moria1:31 }
+60c60
+< "   You stand at the eastern end of a wide, flat section of exposed bedrock.
+---
+> You stand at the eastern end of a wide, flat section of exposed bedrock.
+64,65c64,66
+< of the surrounding countryside as well.  The only exits are along paths to
+< the north and east.
+---
+> of the surrounding countryside as well.  A twisted path leads off to
+> the south and into a foreboding horizon.  The only other exits are along
+> paths to the north and east.
+71a73
+> 	to { s, 318 }
+79c81
+< "   You are standing at the base of a rather severe rockslide.  A quick 
+---
+> "   You are standing at the base of a rather severe rockslide.  A quick
+120c122
+< unconciously running your hand along the eastern cliff for balance.  The 
+---
+> unconciously running your hand along the eastern cliff for balance.  The
+169c171
+< banks.  Looking down into the waters, you feel peaceful and at ease.  
+---
+> banks.  Looking down into the waters, you feel peaceful and at ease.
+194c196
+< "   A path through the cliffs has been cut here, but it looks like it was a 
+---
+> "   A path through the cliffs has been cut here, but it looks like it was a
+544c546
+< left you town inhabitants.  Considering that this is the middle of a 
+---
+> left you town inhabitants.  Considering that this is the middle of a
+583,584c585,586
+< gates were renamed as 'The Inner Gates.'  In times of war, the populous of 
+< Tagol can still retreat behind these gates for protection.  The plaque 
+---
+> gates were renamed as 'The Inner Gates.'  In times of war, the populous of
+> Tagol can still retreat behind these gates for protection.  The plaque
+586c588
+< within the confines of the inner gates.  
+---
+> within the confines of the inner gates.
+709c711
+< "   It's obvious that this is the main road of the city.  Moving along with 
+---
+> "   It's obvious that this is the main road of the city.  Moving along with
+745c747
+< "   Looking up and to the north you see a tremendous black, stone tower.  
+---
+> "   Looking up and to the north you see a tremendous black, stone tower.
+747,748c749,750
+< once an active volcano.  The Inhabitants must have hollowed out the 
+< mountain, leaving the hardened volcanic core.  The core stretches up into 
+---
+> once an active volcano.  The Inhabitants must have hollowed out the
+> mountain, leaving the hardened volcanic core.  The core stretches up into
+885c887
+< position as a symbolic gesture to encourage visitors.  The Heartroad 
+---
+> position as a symbolic gesture to encourage visitors.  The Heartroad
+932c934
+< Totem road runs east and west here.  The crowds of people lining the street 
+---
+> Totem road runs east and west here.  The crowds of people lining the street
+987c989
+< start, you realize that the entire tower must be the core of an extinct 
+---
+> start, you realize that the entire tower must be the core of an extinct
+1094c1096
+< to the east and west.  A path to the south leads to a large, stucco 
+---
+> to the east and west.  A path to the south leads to a large, stucco
+1412c1414
+< as the cavern was being carved.  A path circling the center tower leads 
+---
+> as the cavern was being carved.  A path circling the center tower leads
+1461c1463
+< "   This path runs in an east-west direction, circling the base of the 
+---
+> "   This path runs in an east-west direction, circling the base of the
+1522c1524
+< "   Three different streets intersect at the north totem.  The Heartroad, 
+---
+> "   Three different streets intersect at the north totem.  The Heartroad,
+1588c1590
+< west direction, and a small cobblestone path winds to the south.  
+---
+> west direction, and a small cobblestone path winds to the south.
+1624c1626
+< toward the north totem, and west, toward the magic shop and the mage's 
+---
+> toward the north totem, and west, toward the magic shop and the mage's
+1993c1995
+< "   You are standing at a three way intersection between Onyx Street and a 
+---
+> "   You are standing at a three way intersection between Onyx Street and a
+1995c1997
+< than the path, and is travelled by far many more people, but the plain, 
+---
+> than the path, and is travelled by far many more people, but the plain,
+2052c2054
+< to a more secure area.  The northwest square has traditionally been a 
+---
+> to a more secure area.  The northwest square has traditionally been a
+2075c2077
+< from this square.  You have the urge to grab one of the cloaked shadows 
+---
+> from this square.  You have the urge to grab one of the cloaked shadows
+2170c2172
+<             An Inn & Lodging Area                    Hathor's Coffee Shoppe 
+---
+>             An Inn & Lodging Area                    Hathor's Coffee Shoppe
+2176c2178
+<             The Thief's Guild                                      
+---
+>             The Thief's Guild
+2285,2287c2287,2289
+< even you.  You realize that the space inside the tower must be magically 
+< enhanced to radiate light.  This is quite a convenience;  you are free from 
+< the soot and smell that burning oil-lamps would cause.  Totem road leads 
+---
+> even you.  You realize that the space inside the tower must be magically
+> enhanced to radiate light.  This is quite a convenience;  you are free from
+> the soot and smell that burning oil-lamps would cause.  Totem road leads
+2322c2324
+< on.  The path runs in an east-west direction.  To the west, the path 
+---
+> on.  The path runs in an east-west direction.  To the west, the path
+2354c2356
+< and slowly conforms to the tower's more circular shape as it ascends. 
+---
+> and slowly conforms to the tower's more circular shape as it ascends.
+2392c2394
+< "   Whoops!  You almost slipped on the rounded pebbles paving this path. 
+---
+> "   Whoops!  You almost slipped on the rounded pebbles paving this path.
+2424c2426
+< completely circle the tower as well.  The path continues south, where a 
+---
+> completely circle the tower as well.  The path continues south, where a
+2439c2441
+< "   You can see why they call this Ruby Road, it's paved with shiny, red 
+---
+> "   You can see why they call this Ruby Road, it's paved with shiny, red
+2459c2461
+< smaller of the two roads looks inviting; you are hesitiant to brave the 
+---
+> smaller of the two roads looks inviting; you are hesitiant to brave the
+2534c2536
+< everyone around you is getting ready for (or has just been in) a fight.  
+---
+> everyone around you is getting ready for (or has just been in) a fight.
+2552c2554
+< "   This is an intersection between Ruby Road, and a smaller brick-paved 
+---
+> "   This is an intersection between Ruby Road, and a smaller brick-paved
+2554c2556
+< The northern path is deserted; it seems to be little more than an alley. 
+---
+> The northern path is deserted; it seems to be little more than an alley.
+2793c2795
+< here to discuss their upcomming battles.  
+---
+> here to discuss their upcomming battles.
+2805c2807
+<                    
+---
+> 
+2830c2832
+< thievery of any sort will not be 
+---
+> thievery of any sort will not be
+2848c2850
+< wreath of roses hangs on the southern wall. 
+---
+> wreath of roses hangs on the southern wall.
+2924c2926
+< from the wall.  Unfortunately, it's not for sale, and it's rigged with 
+---
+> from the wall.  Unfortunately, it's not for sale, and it's rigged with
+3000c3002
+< of ornamentation.  A small alter to the gods of virtue is the only 
+---
+> of ornamentation.  A small alter to the gods of virtue is the only
+3115c3117
+< of the fires from the city.  This place radiates peace, it is the perfect 
+---
+> of the fires from the city.  This place radiates peace, it is the perfect
+3192c3194
+< stone furnace, at least two stories in height.  All around the furnace, 
+---
+> stone furnace, at least two stories in height.  All around the furnace,
+3316c3318
+< and silver.  A tremendous, polished oak table rests in the center of the 
+---
+> and silver.  A tremendous, polished oak table rests in the center of the
+3377,3378c3379,3380
+< "   The walls here have been painted jet black.  After a close examination, you 
+< discover that they are also covered with small cubby-holes, easy ambush 
+---
+> "   The walls here have been painted jet black.  After a close examination, you
+> discover that they are also covered with small cubby-holes, easy ambush
+3646c3648
+< of the more exotic wares for sale. 
+---
+> of the more exotic wares for sale.
+3719c3721
+< stone alter.  A golden spike has been driven vertically into the alter. Atop 
+---
+> stone alter.  A golden spike has been driven vertically into the alter. Atop
+3809c3811
+< of the tower is just enough to make you feel off balance.  Totem road 
+---
+> of the tower is just enough to make you feel off balance.  Totem road
+3842c3844
+< locked open; apparently only the outer gates are used in times of peace.  
+---
+> locked open; apparently only the outer gates are used in times of peace.
+3856c3858
+< the heavens.  The closer you get to it's maw-like opening, the more you're 
+---
+> the heavens.  The closer you get to it's maw-like opening, the more you're
+3890c3892
+< and pulsating before your very eyes; the growth is so thick that you can't 
+---
+> and pulsating before your very eyes; the growth is so thick that you can't
+4036c4038
+< bust.  The shrine is quite serene, and is free from the blood and chaos of 
+---
+> bust.  The shrine is quite serene, and is free from the blood and chaos of
+4104c4106
+< so respected.  The items before you are utterly beautiful, but you doubt 
+---
+> so respected.  The items before you are utterly beautiful, but you doubt
+4239c4241
+< If you are travelling elsewhere, please wait for the teleportation 
+---
+> If you are travelling elsewhere, please wait for the teleportation
+4531c4533
+< tables have been strategically placed throughout the room, designed 
+---
+> tables have been strategically placed throughout the room, designed
+4595c4597
+< realize that it probably only connects the gates with necessary 
+---
+> realize that it probably only connects the gates with necessary
+4671c4673
+< "   The bridge here is extremely damp, making walking hazardous at best.  
+---
+> "   The bridge here is extremely damp, making walking hazardous at best.
+4796c4798
+< "   The corn here is so high that you're afraid you might get lost.  
+---
+> "   The corn here is so high that you're afraid you might get lost.
+4799c4801
+< of a diet that consisted primarily of corn.  
+---
+> of a diet that consisted primarily of corn.
+4916c4918
+< "   Looking into the depths of the pool, you can see water bubbling from 
+---
+> "   Looking into the depths of the pool, you can see water bubbling from
+5026c5028
+< chains and whips.  You can't imagine what it's used for, but it looks like 
+---
+> chains and whips.  You can't imagine what it's used for, but it looks like
+5131c5133
+< "   The stone walls here are adorned with various ebony seals.  Each seal 
+---
+> "   The stone walls here are adorned with various ebony seals.  Each seal
+5135c5137
+< at the center of the hall's domed ceiling.   Hallways lead away from the 
+---
+> at the center of the hall's domed ceiling.   Hallways lead away from the
+5184c5186
+< "   The walls here are adorned with even more charts, graphs, and tables of 
+---
+> "   The walls here are adorned with even more charts, graphs, and tables of
+5194c5196
+< those who have demonstrated financial stability may be granted 
+---
+> those who have demonstrated financial stability may be granted
+5254c5256
+< at the midpoint of each side.  Two roads connect the four totems, 
+---
+> at the midpoint of each side.  Two roads connect the four totems,
+5256c5258
+< town, the center totem spears upward into the darkness.  Wall road 
+---
+> town, the center totem spears upward into the darkness.  Wall road
+5273c5275
+< quite frustrating to enemies of the city.  You wonder how many more of 
+---
+> quite frustrating to enemies of the city.  You wonder how many more of
+5289c5291
+< and survival takes a higher priority than taste.  A passage east leads back 
+---
+> and survival takes a higher priority than taste.  A passage east leads back
+5303c5305
+< you can hear the snoring of an old adventurer.  This isn't luxury by any 
+---
+> you can hear the snoring of an old adventurer.  This isn't luxury by any
+5318c5320
+< to stock the state of the art and the exotic.  Many of the weapons on 
+---
+> to stock the state of the art and the exotic.  Many of the weapons on
+5334c5336
+< a war between the gods.  the rest of the room is bare, except for a 
+---
+> a war between the gods.  the rest of the room is bare, except for a
+5399a5402,5495
+>   }
+> }
+> 
+> 318
+> {
+>   name { A Twisted Path }
+>   desc {
+> The vegetation here is severly disfigured.  You have no idea as to what
+> caused this horrible mutation.  The trail continues southward and to the
+> north is a small plateau.  The wind is beginning to howl as blows into
+> your face.
+>   }
+>   sector { Forest }
+>   flags { dark }
+>   exits {
+> 	to { n, 3 }
+> 	to { s, 319 }
+>   }
+> }
+> 
+> 319
+> {
+>   name { A Twisted Path }
+>   desc {
+> You walk along a twisting path which is made up of mostly dirt.  The
+> vegetation around seems to be dying as if by some slow festering 
+> disease. The horizon to the south looks quite gloomy as you can
+> barely make out some shadows of mountains.  The path also continues
+> to the north.
+>   }
+>   sector { Forest }
+>   flags { dark }
+>   exits {
+> 	to { n, 318 }
+> 	to { s, 320 }
+>   }
+> }
+> 
+> 320
+> {
+>   name { A Twisted Path }
+>   desc {
+> You are standing on unused path.  The path has deformed vegetation around
+> it. The trees look hideous and almost alive.  The formation of mountains
+> looms in the south.  The howling wind is quite frightening maybe you
+> should head back to the safe city of Tagol.  The path leads the north
+> as well.
+>   }
+>   sector { Forest }
+>   flags { dark }
+>   exits {
+> 	to { n, 319 }
+> 	to { s, 321 }
+>   }
+> }
+> 
+> 321
+> {
+>   name { Entryway to the Mountains }
+>   desc {
+> You stand before some majestic mountains which lie to the south.
+> They tower above you and this path seems to be there only entrance.
+> There is no sign of animal or plant life here and that scares you.
+> The wind howls from the south.  You can turn back to the north and
+> evade these mountains altogether.
+>   }
+>   sector { Forest }
+>   flags { dark }
+>   exits {
+> 	to { n, 320 }
+> 	to { s, Abyss:1 }
+>   }
+> }
+> 
+> 322
+> {
+>   name { 44822 }
+>   desc {
+> Empty
+>   }
+> }
+> 
+> 499
+> {
+>   name { Wasabe's Private Dining Chamber }
+>   desc {
+> Empty  }
+> }
+> 
+> 1001
+> {
+>   name { 45501 }
+>   desc {
+> Empty
+Tarin
+Thalos
+50c50
+< ruined mansion. Eerie sounds echo within the mansion. Near the center of 
+---
+> ruined mansion. Eerie sounds echo within the mansion. Near the center of
+117c117
+< Vines and ivy creep up the sides of the temple and entangle themselves 
+---
+> Vines and ivy creep up the sides of the temple and entangle themselves
+138c138
+< "     A circular path surrounds a magnificant domed temple in the center 
+---
+> "     A circular path surrounds a magnificant domed temple in the center
+140c140
+< Vines and ivy creep up the sides of the temple and entangle themselves 
+---
+> Vines and ivy creep up the sides of the temple and entangle themselves
+172c172
+< 	  desc { A small garden path encircles a large domed temple in the center of the 
+---
+> 	  desc { A small garden path encircles a large domed temple in the center of the
+193,194d192
+< 	to { e, 7 }
+< 	  desc { The center of the market lies this way.}
+197a196
+> 	to { w, 55 }
+222c221
+< clay and stone is all the view has to offer. Most of these homes are 
+---
+> clay and stone is all the view has to offer. Most of these homes are
+373c372
+< "     A narrow alley leads east to a wider street and west to one of 
+---
+> "     A narrow alley leads east to a wider street and west to one of
+391c390
+< the floor as if some massive battle had taken place here. Draped along 
+---
+> the floor as if some massive battle had taken place here. Draped along
+407c406
+< "    A large cart sits here carrying rotted fruit and vegitables. Flys 
+---
+> "    A large cart sits here carrying rotted fruit and vegitables. Flys
+441c440
+< robes and various articles of clothing are now just rags. You stare at 
+---
+> robes and various articles of clothing are now just rags. You stare at
+491c490
+< across the market place. Most of these trinkets are battered and 
+---
+> across the market place. Most of these trinkets are battered and
+572,573c571,572
+< belongings lie under the rubble, but the people they once belonged to are 
+< not with them. Looking up you see that the entire second floor and roof 
+---
+> belongings lie under the rubble, but the people they once belonged to are
+> not with them. Looking up you see that the entire second floor and roof
+587c586
+< "     You stand in a large room attached to this end of the hallway which 
+---
+> "     You stand in a large room attached to this end of the hallway which
+609c608
+< the city's side streets. Obviously noone will be seeing you through today. 
+---
+> the city's side streets. Obviously noone will be seeing you through today.
+652c651
+< beauty. Above stands the reminants of one of the watchtowers. Archways 
+---
+> beauty. Above stands the reminants of one of the watchtowers. Archways
+682c681
+< and a very large blast crater. Obviously someone or something important 
+---
+> and a very large blast crater. Obviously someone or something important
+698c697
+< a mess. The back wall as been completely knocked down revealing an 
+---
+> a mess. The back wall as been completely knocked down revealing an
+806c805
+< "    A narrow back alley leads west to a small side street and east to one 
+---
+> "    A narrow back alley leads west to a small side street and east to one
+913c912
+< stunning domed temple once housed the city's worshipers en masse. 
+---
+> stunning domed temple once housed the city's worshipers en masse.
+918c917
+< strange tounge. 
+---
+> strange tounge.
+948a948,1004
+>   }
+> }
+> 
+> 52
+> {
+>   name { 5252 }
+>   desc {
+> Empty
+>   }
+>   exits {
+> 	to { n, Tower_sorc:0 }
+> 	to { e, 53 }
+>   }
+> }
+> 
+> 53
+> {
+>   name { The Edge of the Western Desert. }
+>   desc {
+> "     You are standing at the edge of the Western Desert and are shocked to
+> see a dense forest growing so close to the barren waste land that you've
+> just left.  The trees here seem to emit an aura of power that you are not
+> sure about and the dark mists that are forming dont help to calm your fears.
+>   }
+>   exits {
+> 	to { n, Tower_sorc:0 }
+> 	to { e, 54 }
+>   }
+> }
+> 
+> 54
+> {
+>   name { The Western Desert. }
+>   desc {
+> You are in the western desert.  All around you can be seen the shifting sands
+> so typical of the desert climate.  To the east you can still get glimpses of
+> the city wall and to the west you see the edge of the desert where a mist
+> covered forest begins.
+>   }
+>   exits {
+> 	to { e, 55 }
+> 	to { w, 53 }
+>   }
+> }
+> 
+> 55
+> {
+>   name { Outside the city wall. }
+>   desc {
+> "     You are just outside the city wall of Thalos.  To the west you see sand
+> as far as the eye can see.  To the east you see a small hole the leads back
+> into the city.
+>   }
+>   flags { no_mob }
+>   exits {
+> 	to { e, 8 }
+> 	to { w, 54 }
+Tunnels
+Void
+6,7c6
+< "  Just a big boring void....
+<   }
+---
+> boring..  }
+11c10
+< 	to { d, Midgard:0 }
+---
+> 	to { u, Midgard:0 }
+69c68
+< "   You are now at the Temple of Midgaard.  
+---
+> "   You are now at the Temple of Midgaard.
+106c105
+< 	to { e, Haondor_dark:44 }
+---
+> 	to { e, Pyramid:844 }
+121c120
+< 	to { e, Ershteep:1 }
+---
+> 	to { e, Arachnos:1001 }
+136c135
+< 	to { e, Shire:0 }
+---
+> 	to { e, Asgard:100 }
+166c165
+< 	to { e, southern_path:4 }
+---
+> 	to { e, Crossroads:4 }
+203a203,210
+> }
+> 
+> 44
+> {
+>   name { 44 }
+>   desc {
+> Empty
+>   }
+Wasteland
+area.list
+3,4c3,4
+< #define Midgard_tunnels 100
+< #define Shark 250
+---
+> #define Moor1 55
+> #define Donation 99
+6,8d5
+< #define hall_rules 666
+< #define chaos_hall 700
+< #define Marsh3 800
+11,13c8,9
+< #define Shire 1100
+< #define Chat_room 1200
+< #define Chessboard 1400
+---
+> #define Canticle 1300
+> #define Tower_sorc 1500
+17c13
+< #define PR-entrance 2999
+---
+> #define PR_entrance 2999
+19,23c15,16
+< #define Graveyard1 3400
+< #define Midenir 3500
+< #define Quest_inn 3600
+< #define Felix_Arena 3700
+< #define DanjerHaus 3900
+---
+> #define swamp 3600
+> #define Warg_ally 3900
+30,34d22
+< #define Haondor_light 6000
+< #define Haondor_dark 6100
+< #define Dwarven_kingdom 6500
+< #define Arctica 6800
+< #define Quifael_rooms 6900
+36,39d23
+< #define Sewer1 7000
+< #define Sewer2 7100
+< #define Sewermaze 7200
+< #define Tunnels 7400
+41,42d24
+< #define Main_matrix 8000
+< #define Main_matrix_auxiliary 8100
+44,56c26,28
+< #define Deadly_exhibit 10000
+< #define trash 10100
+< #define temple_maze 10900
+< #define Castle_python 11000
+< #define southern_path 15000
+< #define Mirkwood1 15100
+< #define Mirkwood2 15200
+< #define Mirkwood3 15300
+< #define Road_malvaria 16000
+< #define trash2 16200
+< #define dems_area 17000
+< #define darkenelfs_area 18000
+< #define Mordilnia 18200
+---
+> #define SW_wilderness 14200
+> #define Crossroads 15000
+> #define Skexie 15797
+59c31,32
+< #define Ershteep 21000
+---
+> #define Trog_caves 21200
+> #define Rhyodin 21269
+61,67d33
+< #define Abyss2 25500
+< #define Ent_forest 31000
+< #define Quinmoor 31100
+< #define trash3 31176
+< #define Tarin 33000
+< #define Doom 35000
+< #define Forest 35500
+69,75c35,36
+< #define trash4 44818
+< #define Kyoto 50500
+< #define trash5 50641
+< #define Dwarven_outpost 52500
+< #define Nodonn 57500
+< #define Mouse 60000
+< #define last_room 62000
+---
+> #define Dwarf_outpost 52500
+> #define HIGHEST_ROOM 999999
+chaos_hall
+darkenelfs_area
+dems_area
+hall_rules
+output
+river1
+8c8
+< an exit from the river in the way west.  You can leave and enter 
+---
+> an exit from the river in the way west.  You can leave and enter
+14c14
+< 	to { n, Mirkwood1:0 }
+---
+> 	to { n, Crossroads:100 }
+southern_path
+temple_maze
+trash
+trash2
+trash3
+trash4
+trash5
+world
+9,10c9,10
+< #offset Midgard_tunnels
+< #include <Midgard_tunnels>
+---
+> #offset Moor1
+> #include <Moor1>
+12,13c12,13
+< #offset Shark
+< #include <Shark>
+---
+> #offset Donation
+> #include <Donation>
+18,26d17
+< #offset hall_rules
+< #include <hall_rules>
+< 
+< #offset chaos_hall
+< #include <chaos_hall>
+< 
+< #offset Marsh3
+< #include <Marsh3>
+< 
+33,34c24,25
+< #offset Shire
+< #include <Shire>
+---
+> #offset Canticle
+> #include <Canticle>
+36,37c27,28
+< #offset Chat_room
+< #include <Chat_room>
+---
+> #offset Tower_sorc
+> #include <Tower_sorc>
+39,41d29
+< #offset Chessboard
+< #include <Chessboard>
+< 
+51,52c39,40
+< #offset PR-entrance
+< #include <PR-entrance>
+---
+> #offset PR_entrance
+> #include <PR_entrance>
+57,58c45,46
+< #offset Graveyard1
+< #include <Graveyard1>
+---
+> #offset swamp
+> #include <swamp>
+60,61c48,49
+< #offset Midenir
+< #include <Midenir>
+---
+> #offset Warg_ally
+> #include <Warg_ally>
+63,71d50
+< #offset Quest_inn
+< #include <Quest_inn>
+< 
+< #offset Felix_Arena
+< #include <Felix_Arena>
+< 
+< #offset DanjerHaus
+< #include <DanjerHaus>
+< 
+90,104d68
+< #offset Haondor_light
+< #include <Haondor_light>
+< 
+< #offset Haondor_dark
+< #include <Haondor_dark>
+< 
+< #offset Dwarven_kingdom
+< #include <Dwarven_kingdom>
+< 
+< #offset Arctica
+< #include <Arctica>
+< 
+< #offset Quifael_rooms
+< #include <Quifael_rooms>
+< 
+108,119d71
+< #offset Sewer1
+< #include <Sewer1>
+< 
+< #offset Sewer2
+< #include <Sewer2>
+< 
+< #offset Sewermaze
+< #include <Sewermaze>
+< 
+< #offset Tunnels
+< #include <Tunnels>
+< 
+123,128d74
+< #offset Main_matrix
+< #include <Main_matrix>
+< 
+< #offset Main_matrix_auxiliary
+< #include <Main_matrix_auxiliary>
+< 
+132,133c78,79
+< #offset Deadly_exhibit
+< #include <Deadly_exhibit>
+---
+> #offset SW_wilderness
+> #include <SW_wilderness>
+135,136c81,82
+< #offset trash
+< #include <trash>
+---
+> #offset Crossroads
+> #include <Crossroads>
+138,139c84,85
+< #offset temple_maze
+< #include <temple_maze>
+---
+> #offset Skexie
+> #include <Skexie>
+141,170d86
+< #offset Castle_python
+< #include <Castle_python>
+< 
+< #offset southern_path
+< #include <southern_path>
+< 
+< #offset Mirkwood1
+< #include <Mirkwood1>
+< 
+< #offset Mirkwood2
+< #include <Mirkwood2>
+< 
+< #offset Mirkwood3
+< #include <Mirkwood3>
+< 
+< #offset Road_malvaria
+< #include <Road_malvaria>
+< 
+< #offset trash2
+< #include <trash2>
+< 
+< #offset dems_area
+< #include <dems_area>
+< 
+< #offset darkenelfs_area
+< #include <darkenelfs_area>
+< 
+< #offset Mordilnia
+< #include <Mordilnia>
+< 
+177,178c93,94
+< #offset Ershteep
+< #include <Ershteep>
+---
+> #offset Trog_caves
+> #include <Trog_caves>
+179a96,98
+> #offset Rhyodin
+> #include <Rhyodin>
+> 
+183,200d101
+< #offset Abyss2
+< #include <Abyss2>
+< 
+< #offset Ent_forest
+< #include <Ent_forest>
+< 
+< #offset Quinmoor
+< #include <Quinmoor>
+< 
+< #offset trash3
+< #include <trash3>
+< 
+< #offset Tarin
+< #include <Tarin>
+< 
+< #offset Doom
+< #include <Doom>
+< 
+204,220c105,106
+< #offset trash4
+< #include <trash4>
+< 
+< #offset Kyoto
+< #include <Kyoto>
+< 
+< #offset trash5
+< #include <trash5>
+< 
+< #offset Dwarven_outpost
+< #include <Dwarven_outpost>
+< 
+< #offset Nodonn
+< #include <Nodonn>
+< 
+< #offset Mouse
+< #include <Mouse>
+---
+> #offset Dwarf_outpost
+> #include <Dwarf_outpost>

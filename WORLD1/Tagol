@@ -1,0 +1,5401 @@
+
+0
+{
+  name { A steep sloping path }
+  desc {
+"   The mountain path is so steep here that the path must curve in extreme,
+and sometimes dangerous angles.  You struggle to keep your footing on the
+pebble path beneath you.  The path continues up the mountain to the north,
+and down the mountain to the south.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 1 }
+	to { s, Main_matrix_auxiliary:902 }
+  }
+}
+
+1
+{
+  name { On a steep path }
+  desc {
+"   All this hiking is really wearing you out.  The grade of this path isn't
+helping matters, either.  You guess that some mountain stream cut this path
+long ago; the surrounding walls are both steep and high.  The path narrows
+to the north and continues down the mountain to the south.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 2 }
+	to { s, 0 }
+  }
+}
+
+2
+{
+  name { A tiny path }
+  desc {
+"   The path is so narrow here that you have to turn your shoulder's slightly
+just to squeeze between the two cliff-like walls arond you.  The close
+confies combined with the humidity of the air gives you a sickening
+claustophibic feeling.  Fortunately, you spy a more open area to the west.
+For the more brave at heart, the existing path leads both to the north and
+south
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 4 }
+	to { s, 1 }
+	to { w, 3 }
+  }
+}
+
+3
+{
+  name { A small plateau }
+  desc {
+"   You stand at the eastern end of a wide, flat section of exposed bedrock.
+The rock forms a small plateau, a welcome open space after your adventures
+through narrow mountain passes.  Looking over the edge of the plateau brings
+on a sickening sence of vertigo, but you are treated to a spectacular view
+of the surrounding countryside as well.  The only exits are along paths to
+the north and east.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 6 }
+	to { e, 2 }
+  }
+}
+
+4
+{
+  name { A rockslide }
+  desc {
+"   You are standing at the base of a rather severe rockslide.  A quick 
+estimation reveals thatthe rocks are both too numerous and too big to move.
+You guess that it could be possible to scale the slide, but as many of the
+rocks are loose, it would be a dangerous climb.  A mountain path leads
+south from the rockslide.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { s, 2 }
+	to { u, 5 }
+  }
+}
+
+5
+{
+  name { on the rockslide }
+  desc {
+"   The rockslide has completely cut off a north-south path that had been
+cut into the bottom of a mountain ravine.  You can see the path stretching
+out both to the north and south.  Also, a path has been carved out on top
+of the rockslide, running in and east to west direction.  From this vantage,
+you realize that the path would be competely invisible to an observer from
+the ground.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 7 }
+	to { s, 4 }
+	to { w, 11 }
+  }
+}
+
+6
+{
+  name { On the side of the mountain }
+  desc {
+"   You are in the awkward position of having a sheer cliff on your eastern
+side, and thin air on your west.  Between these two runs a narrow path
+cut into the face of the mountain.  You feel uneasy, and find yourself
+unconciously running your hand along the eastern cliff for balance.  The 
+path continues north and south.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 8 }
+	to { s, 3 }
+  }
+}
+
+7
+{
+  name { A dead end }
+  desc {
+"   Here the narrow path that you had been following narrows to a hairline
+fracture in the northern cliff face, about 30 feet away.  The only exit is
+to the south, up a shallow talus slope.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { s, 5 }
+  }
+}
+
+8
+{
+  name { A steep mountain path }
+  desc {
+"   You are standing on a three foot wide path cut into the side of the
+mountain.  About fifteen feet below, you spy a water hole, surrounded by
+various forms of shrubbery.  You guess that it MIGHT be safe to jump down
+to the pool.  The path leads up the mountain to the north.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { s, 6 }
+	to { d, 9 }
+  }
+}
+
+9
+{
+  name { A clear mountain pool }
+  desc {
+"   You stand on the pebbled shore of a remarkably clean, shimmering pool.
+Tiny fur trees and several types of ferns have taken root along the shore's
+banks.  Looking down into the waters, you feel peaceful and at ease.  
+Unfortunately, the pool is surrounded on all sides.  It looks like the only
+way out is to climb up one of the surrounding cliff-like walls.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { u, 8 }
+  }
+}
+
+10
+{
+  name { 44510 }
+  desc {
+Empty
+  }
+  sector { Mountains }
+  flags { dark }
+}
+
+11
+{
+  name { A roughly carved path }
+  desc {
+"   A path through the cliffs has been cut here, but it looks like it was a 
+rushed job.  THe floor and walls of the path are lined with jagged edges, which
+keep snagging your clothing.  The path leads both east and west.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { e, 5 }
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { A thin rock bridge }
+  desc {
+"   Here a thin, natural bridge spans an amazingly deep chasm.  Below you can
+hear the murmuring of river rapids.  The bridge looks studry enough, but it's
+covered with a spongy moss and is slick with dew.  You're reluctant to try
+a crossing, as slipping would mean certain death.  The bridge runs in an
+east-west direction.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { e, 11 }
+	to { w, 13 }
+  }
+}
+
+13
+{
+  name { A natural cavern }
+  desc {
+"   You are standing in the northeast corner of a prodigous, bubble-shaped
+cavern.  Judging by the swirling patterns in the rock, you judge that the
+cavern was sculpted by the currents and tides of some long gone sea.  That
+would mean that this whole area was once under water, something with you
+find difficult to believe. The cavern stretches out before you to the west
+and to the south.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { e, 12 }
+	to { s, 16 }
+	to { w, 14 }
+  }
+}
+
+14
+{
+  name { The huge Stone Totem }
+  desc {
+"   You climb atop a large, smooth stone, only to realize that it is the big
+toe of a tremendous stone scupture carved from the face of the cavern itself.
+The sculpture depicts some type of mythical creature; something like a cross
+between a human and a gargoyle.  You estimate that the totem must be at least
+three stories high, and all three stories are covered with small runic
+engravings.  The cavern lies to the south and east of you, but to get a closer
+look at the totem, you'll have to climb right on up it!
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { e, 13 }
+	to { s, 16 }
+	to { u, 15 }
+  }
+}
+
+15
+{
+  name { On the totem's tongue }
+  desc {
+"   You are standing on the gigantic, carved tongue of the totem.  Overhead
+teeth, lips, and gums have been carved with amazing detail.  The 'mouth'
+creates a depression in the north wall of the mountain's edge.  Looking up
+and down, you see many ornamental depressions that would function well as
+hand and foot holds.
+  }
+  sector { Mountains }
+  tele { 60, 1, 15 }
+  exits {
+	to { n, 17 }
+	  info { door }
+	  keywords { secret throat mouth" }
+	  desc { The totem's 'throat' extends about 4 feet into the rock.  You can just make
+out a seal on the northern wall of this cavern.
+}
+	to { u, 19 }
+	to { d, 14 }
+  }
+}
+
+16
+{
+  name { A natural hollow }
+  desc {
+"   You enter a house-sized, spherical bubble in the sideof the cavern wall.
+It must have taken some sub-surface eddy years to carve out this sub-cavern,
+but the results seem to have been well worth the effort.  As you admire the
+swirling patterns in the rock, you realize that this would be a great place
+to rest for the night.  The main section of the cavern lies to the north.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 13 }
+  }
+}
+
+17
+{
+  name { A throat-like passage }
+  desc {
+"   The mucus lining the floor here would make walking very hazardous.  The
+cave continues to resemble the maw of some gigantic creature.
+  }
+  sector { Mountains }
+  flags { dark }
+  tele { 60, 1, 18 }
+  exits {
+	to { s, 15 }
+  }
+}
+
+18
+{
+  name { Falling........ }
+  desc {
+"   You slip and fall!!  You loose all sence of diriection as you
+plummet head over heels.
+  }
+  sector { Mountains }
+  flags { dark }
+  tele { 60, 1, 22 }
+}
+
+19
+{
+  name { On top of the totem's head }
+  desc {
+"   Wow!  What a view.  The cavern's ceiling is a scant 10 feet above you're
+head.  Looking down, you can see nearly the entire cavern, and yes, the top
+of the totem's head is covered with those little runic carvings as well.
+You're starting to get dizzy, you'd better start heading back down the totem.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { d, 15 }
+  }
+}
+
+20
+{
+  name { Base of the Grand Stairway }
+  desc {
+"   You are standing by the southern wall of a modest cavern.  Before you rests
+the biggest set of stairs that you've seen in a while.  The stairway is
+stone, is at least 50 yards across, and looks like it could serve the
+inhabitiants of a small city.  Scenes of ritual sacrifice and warriors in
+battle are carved into the banisters and into the floor leading to the
+staricase.  A smaller, less impressive passageway leads west.
+  }
+  sector { City }
+  tele { 50, 1, 20 }
+  exits {
+	to { n, 23 }
+	to { w, 25 }
+	to { u, 21 }
+  }
+}
+
+21
+{
+  name { In the throat }
+  desc {
+"   The 'throat' of the totem is rather narrow, given the size of the totem
+itself.  Hopefully, you can climb your way to safety and get out of these blasted caves.
+  }
+  exits {
+	to { u, 15 }
+	to { d, 20 }
+  }
+}
+
+22
+{
+  name { Still falling..... }
+  desc {
+"   You begin to wonder how big of a mess you'll make when you hit the ground.
+But wait!!! Some mystical force seems to be slowing your descent.  How
+fortunate.
+  }
+  tele { 60, 1, 20 }
+}
+
+23
+{
+  name { On the Grand Stairway }
+  desc {
+"   The vertical distance between steps of the staricase is just enough to
+make climbing them uncomfortable.  From here you have a great view of some
+rather spectacular stone carvings carved into the side of each banister.
+The carvings depict scenes of battle, as well as several natural disasters,
+presumably brought about by the wrath of the gods.  One reappearing theme
+along the banister is that of the volcano.
+  }
+  sector { City }
+  flags { dark, no_mob }
+  exits {
+	to { n, 24 }
+	to { s, 20 }
+  }
+}
+
+24
+{
+  name { Tagolic Gates }
+  desc {
+"   Before you lies an imposing set of stone double doors.  The doors
+are at least fifteen feet tall, and are about half as wide.  A huge stone
+bas-relief of an erupting volcano has been carved into the doors' faces.
+Above the door carved letters, filled with silver, glitter in the light.
+They read:
+                         MAIN GATES TO THE CITY OF TAGOL
+        Rooted in fire and stone, here we wait for the arrival of our
+                                   Savior
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 29 }
+	  key { 44500 }
+	  info { door }
+	  keywords { gate doors" }
+	to { s, 23 }
+  }
+}
+
+25
+{
+  name { A large passage }
+  desc {
+"   This east-west passage has been carved from the inside of the mountain.
+The workmanship is very rough, this must have been a rushed job.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { e, 20 }
+	to { w, 26 }
+  }
+}
+
+26
+{
+  name { A cavern }
+  desc {
+"   You stand at a three way intersection.  To the north lies a small, stone
+hut.  A wooden fence blocks off a room to the south, and a stone passage
+leads to the east.  Looking around, you realize that this must be some sort
+ofr tiny, primitive farming community.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 27 }
+	to { e, 25 }
+	to { s, 28 }
+  }
+}
+
+27
+{
+  name { A stone hut }
+  desc {
+"   The walls of the hut are smooth, but completely devoid of all decoration.
+The only furniture is a small, wooden bed and a stone desk.  Different types
+of stone-cutting equipment lie scattered in a corner.
+  }
+  flags { indoors }
+  exits {
+	to { s, 26 }
+  }
+}
+
+28
+{
+  name { A corrale }
+  desc {
+"   The floor of the corrale is littered with filth and garbage.  Your boots
+will definately need a cleaning after this.  The only exit is to the north.
+  }
+  sector { Mountains }
+  flags { dark }
+  exits {
+	to { n, 26 }
+  }
+}
+
+29
+{
+  name { North of the Main Gates }
+  desc {
+"   You find youself at the southern end of an amazingly large cavern.  The
+walls of the cavern are beyond your sight, and if it weren't for the
+perpetual, twilight-like darkness, you would swear that you were outside.
+The floor of the cavern is slightly bowl shaped.  From your vantage point
+you see hundreds of stone huts, streets, and buildings stretching to the
+north, east and west.  Far to te north, you can just make out a tall tower.
+  }
+  flags { indoors }
+  exits {
+	to { n, 30 }
+	to { s, 24 }
+	  key { 44500 }
+	  info { door }
+	  keywords { gate doors" }
+  }
+}
+
+30
+{
+  name { Hero's Square }
+  desc {
+"   You are standing in the middle of a small, marble plaza.  A carving in
+the plaza's floor depicts a Dwarvish fighter, holding back a dragon-like
+creature with his shield.  A small town in nestled between the fighter's feet.
+Runic carvings around the hero indicate that this plaza is a memorial to
+those heros who have displayed extraordinary valor in defense of the city.
+The Plaza continues to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 31 }
+	to { s, 29 }
+  }
+}
+
+31
+{
+  name { Northern Hero's Plaza }
+  desc {
+"   This is the northern most extent of the Hero's Plaza.  The Marble walk-
+way here is lined with larger-than-life sized statues of the great hero's
+of Tagol.  The statue's countenances range form contemplative, to noble, to
+savage.  The base of each statue is adorned with fresh flowers, presumably
+left you town inhabitants.  Considering that this is the middle of a 
+mountain, the flowers must have been hard to come by.  The plaza continues
+to the south, and meets up with a small garden to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 32 }
+	to { s, 30 }
+  }
+}
+
+32
+{
+  name { The Hero's Garden }
+  desc {
+"   As you walk through the garden, you are filled with a sence of peace and
+solitude.  It appears that this garden in an annexation of the Hero's Plaza.
+A marble totem in the garden's center reports that this garden is a memorial
+to those heros whose deeds, while not spectacular enough to win a place in
+the Plaza, were none the less nobel beyond the confines of everyday life.
+A small bronze plaque on the totem lists the names of these heros.  You
+hope that one day, your name will join those inscribed.  The Hero's Plaza
+lies to the south, while the Heartroad lies to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 33 }
+	to { s, 31 }
+  }
+}
+
+33
+{
+  name { Outside the Southern Inner Gates }
+  desc {
+"   You are standing just south of the southern inner gates.  A small, bronze
+plaque on the gates gives their history.  Apparently, Tagol was once at war
+with a race of lizard-like beings; making this wall a primpary defense.  In
+the years after the war, the city grew past it's previous confines, and these
+gates were renamed as 'The Inner Gates.'  In times of war, the populous of 
+Tagol can still retreat behind these gates for protection.  The plaque 
+explains that every vital shop and service that Tagol has to offer is held
+within the confines of the inner gates.  
+  }
+  flags { indoors }
+  exits {
+	to { n, 34 }
+	  info { door }
+	to { s, 32 }
+  }
+}
+
+34
+{
+  name { Inside the Southern Gate }
+  desc {
+"   Gee, these walls must be about 10 feet thick.  The interior of the south
+gate almost makes a room of itself.  From inside the gate, you can see the
+interlocking pattern of stones and metal reinforcement within the walls that
+encircle the city.  It's quite an impressive piece of engineering.  The
+road running through the gate leads to the north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 35 }
+	to { s, 33 }
+	  info { door }
+  }
+}
+
+35
+{
+  name { The Heartroad }
+  desc {
+"   You are standing at the southern end of the Heartroad, Tagol's largest and
+most used highway.  The road is roughly 40 fett wide, with a small, decorated
+median splitting it down the middle.  Making your way through the crowds, you
+wish that the road was even wider.  The road continues to the north and south.
+A small booth lies to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 37 }
+	to { e, 242 }
+	to { s, 34 }
+  }
+}
+
+36
+{
+  name { A smooth path }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { w, 29 }
+  }
+}
+
+37
+{
+  name { The Heartroad }
+  desc {
+"   These crowds are getting to you.  Even though this is a main road, it has
+no reason to be THIS crowded.  The road continues to the north and south.  To
+the north, you notice an octagonal, stone totem.  The totem stands about
+six feet in height, and appears to have something written on it's faces.
+  }
+  flags { indoors }
+  exits {
+	to { n, 38 }
+	to { s, 35 }
+  }
+}
+
+38
+{
+  name { South Totem }
+  desc {
+"   You are standing at a four way intersection.  However, rather than forming
+a 't' shape, the roads all meet at a six foot heigh stone totem.  The totem
+is octagonal in shape, and is covered with all sorts of writings, symbols,
+and directions.  Boldly carved in the top of the totem are the words, 'READ
+ME.'
+  }
+  extra {
+	keywords { totem" }
+	desc { "
+                                W E L C O M E
+
+                                     T O
+
+               T H E   D W A R V E N   C I T Y   O F   T A G O L
+              Providing clean mountain living for three centuries
+
+
+            ----------------                       ----------------
+            SOUTHWEST SQUARE                       SOUTHEAST SQUARE
+            ----------------                       ----------------
+            Hathor's Tea & Coffee Shoppe           General provisions shoppes
+            Assorted weapon shoppes                The Bakery
+            The Armory                             The Pet Shoppe
+            The Warrior's Guild                    The Adventure's Guild
+            The Paladin's Guild                    The Cavalier's Guild
+            The Barbarian's Guild                  The Ranger's Guild
+                                                   The Diamond Rose Inn
+
+Have a nice day, and be sure to look for other information totems like
+this one.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 39 }
+	to { e, 75 }
+	to { s, 37 }
+	to { w, 140 }
+  }
+}
+
+39
+{
+  name { The Heartroad }
+  desc {
+"   It's obvious that this is the main road of the city.  Moving along with 
+ther crowd, you are pressed from all sides.  Were it not for the smooth
+paving of the road, you're sure that you'd loose your balance.  The
+heartroad continues to the north and south.  To the west lies a small booth.
+  }
+  flags { indoors }
+  exits {
+	to { n, 40 }
+	to { s, 38 }
+	to { w, 300 }
+  }
+}
+
+40
+{
+  name { The Heartroad }
+  desc {
+"   The heartroad continues along it's north-south path through the city.
+The road is quite wide, but is crowded despite this.  To the west you spy a
+stone building, just a touch higher and stouter than the rest.  While other
+buildings are hopelessly drab, this one his embellished by marble columns
+and woven tapestries.  Carved letters above the building's front doors read:
+Tagolic City Hall.
+  }
+  flags { indoors }
+  exits {
+	to { n, 41 }
+	to { s, 39 }
+	to { w, 301 }
+  }
+}
+
+41
+{
+  name { South of the Center Totem }
+  desc {
+"   Looking up and to the north you see a tremendous black, stone tower.  
+Perhaps 'tower' isn't the the right word; it appears that this mountain was
+once an active volcano.  The Inhabitants must have hollowed out the 
+mountain, leaving the hardened volcanic core.  The core stretches up into 
+the darkness. A stone portal carved in the side of the core leads north,
+while a road circling the core leads to the east and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 42 }
+	to { e, 81 }
+	to { s, 40 }
+	to { w, 146 }
+  }
+}
+
+42
+{
+  name { Inside the Southern Portal }
+  desc {
+"   The walls of the center totem are at least thrity feet thick.  The
+incredible girth of the wall makes the souther gate look more like a room
+of it's own.  The inner tower to the north looks like it is illuminated by
+some mystical light, definately not torchlight.  The Heartroad runs to the
+north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 43 }
+	to { s, 41 }
+  }
+}
+
+43
+{
+  name { The Heartroad }
+  desc {
+"   A mystical light bathes the inner tower with a soft, but warm light.  The
+sides of the Heartroad are lined with administrative offices of different
+sorts.  Merchants and public servants scurry about, usually while balancing
+obscenly large stacks of papers.  The Heartroad runs north and south from
+here.
+  }
+  flags { indoors }
+  exits {
+	to { n, 45 }
+	to { s, 42 }
+  }
+}
+
+44
+{
+  name { Southern Portal Security Mechanism }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { d, 42 }
+  }
+}
+
+45
+{
+  name { The Heartroad }
+  desc {
+"   The crowds here are a little thicker than youremember them being elsewhere.
+To the west you spy a large shopping mall, perhaps that's where all the people
+are coming from.  The same magical light illuminates the shoppers and their
+goods.  The Heartroad continues to the south, and intersects a large granite
+road to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 46 }
+	to { s, 43 }
+	to { w, 261 }
+  }
+}
+
+46
+{
+  name { The Heart }
+  desc {
+"   The light here is just a little bit brighter than in other parts of the
+totem.  The crossing between the Heartroad and Totem Road is ornamented with
+a gleaming marble star.  Looking up, you can see the hollow interior of the
+tower streatching up beyond imagination.  The Heartroad runs in a north-
+south direction, while Totem Road runs to the east and west.
+  }
+  flags { indoors, peaceful, nosteal }
+  exits {
+	to { n, 47 }
+	to { e, 52 }
+	to { s, 45 }
+	to { w, 125 }
+	to { u, 315 }
+  }
+}
+
+47
+{
+  name { The Heartroad }
+  desc {
+"   The crowds here seem to be thinning out.  You take this time to breath
+deeply; you're quite sure that the crowds will be back in full force very
+soon.  To the east and west you spy two large storage rooms.  The Heartroad
+continues north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 48 }
+	to { e, 184 }
+	to { s, 46 }
+	to { w, 185 }
+  }
+}
+
+48
+{
+  name { The Heartroad }
+  desc {
+"   The light here inside the tower is subtly different than the torch light
+of the rest of the cavern.  Somehow, light is being magically generated and
+cast throughout the inner tower.  The magic bathes your surroundings in a
+soft, warm light.  The Heartroad continues to the north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 49 }
+	to { s, 47 }
+  }
+}
+
+49
+{
+  name { Inside the Northern Portal }
+  desc {
+"   The amazing thickness of the tower's walls makes the norther gate seem
+like a room itself.  The gates double doors have been locked in their open
+position as a symbolic gesture to encourage visitors.  The Heartroad 
+continues to the north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 51 }
+	to { s, 48 }
+  }
+}
+
+50
+{
+  name { Northern Portal Security Mechanism }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { d, 49 }
+  }
+}
+
+51
+{
+  name { North of the Center Totem }
+  desc {
+"   Looking up and to the south  you see a tremendous black, stone tower.
+It appears that the tower is the core of an extinct volcano.  The inhabitants
+of the city must have hollowed out the mountain, leaving the volcano's core
+as a tower.  There is an ornately carved portal in the wall of the tower.
+A road running along the base of the tower stretches to the east and to he
+west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 83 }
+	to { e, 101 }
+	to { s, 49 }
+	to { w, 131 }
+  }
+}
+
+52
+{
+  name { Totem Road }
+  desc {
+"   The mystical light inside the center totem is a relief to your sore eyes.
+Totem road runs east and west here.  The crowds of people lining the street 
+get thicker to the west, though.  An ornate meeting hall lies to the north,
+while the guard barracks are to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 188 }
+	to { e, 53 }
+	to { s, 186 }
+	to { w, 46 }
+  }
+}
+
+53
+{
+  name { Totem Road }
+  desc {
+"   The road here is extremely crowded.  Unlike other parts of the road,
+though, this particular part of town has many loiters, who seem to be waiting
+for nothing in particular.  Looking north, you can see the entrance to the
+Tagolic Hose of Medicine.  You realize that all these loiters must be waiting
+for a loved one who is being treated.  Totem road runs east and west from
+here.
+  }
+  flags { indoors }
+  exits {
+	to { n, 209 }
+	to { e, 54 }
+	to { w, 52 }
+  }
+}
+
+54
+{
+  name { Inside the Eastern Portal }
+  desc {
+"   Gosh!  The walls of the center totem must be at least thirty feet thick.
+The gatehouse here is actually more like a small room.  A large granite road
+leads west, to the interior of the center totem, and west, towards the
+'outside.'
+  }
+  flags { indoors }
+  exits {
+	to { e, 55 }
+	to { w, 53 }
+  }
+}
+
+55
+{
+  name { East of the Center Totem }
+  desc {
+"   The center totem stretches up into the darkness above.  Looking closely,
+you can see that the rock of the totem and the floor of the cavern are
+different.  The totem's wall seems to be made from an igneous rock.  With a
+start, you realize that the entire tower must be the core of an extinct 
+volcanoe.  If so, it's quite a fine piece of engineering, even for Dwarves.
+  }
+  flags { indoors }
+  exits {
+	to { n, 100 }
+	to { e, 57 }
+	to { s, 82 }
+	to { w, 54 }
+  }
+}
+
+56
+{
+  name { Eastern Portal Security Mechanism }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { d, 54 }
+  }
+}
+
+57
+{
+  name { Totem Road }
+  desc {
+"   You're having quite a time bustling your way throught the crowded streets.
+Even though this part of the road is devoid of any kind of shop, people scurry
+along, obviously in a big hurry to go somewhere terribly important.  The road
+continues to the east and west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 58 }
+	to { w, 55 }
+  }
+}
+
+58
+{
+  name { Totem Road }
+  desc {
+"   The road here is clogged with various shoppers, merchants, and on-lookers.
+You're getting kind of sick of the crowds, but you'll just have to put up
+with them.  Totem road runs to the east and west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 59 }
+	to { w, 57 }
+  }
+}
+
+59
+{
+  name { East Totem }
+  desc {
+"   This appears to be a four-way intersection between three roads.  A wide,
+granite road leads east-west, but two different roads meet here from the
+north and south.  The northern road is paved with flat, greenish stones,
+while the southern road is paved with a whitish gravel.  Sitting at the
+intersection is a six-foot high granite totem.  The totem is enscribed with
+the words, 'READ ME.'
+  }
+  extra {
+	keywords { totem" }
+	desc { "
+                                W E L C O M E
+
+                                     T O
+
+               T H E   D W A R V E N   C I T Y   O F   T A G O L
+              Providing clean mountain living for three centuries
+
+
+            ----------------                         ----------------
+            NORTHEAST SQUARE                         SOUTHEAST SQUARE
+            ----------------                         ----------------
+            The Magic Shoppe                         General provisions shop
+            The Mage's Guild                         The Bakery
+            The Illusionist's Guild                  The Pet Shoppe
+            Shoppe of wonders                        The Adventurer's Guild
+            Jah's Ornaments                          The Cavalier's Guild
+                                                     The Ranger's Guild
+                                                     The Diamond Rose Inn
+
+Have a nice day, and be sure to look for other information totems like
+this one.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 94 }
+	to { e, 60 }
+	to { s, 67 }
+	to { w, 58 }
+  }
+}
+
+60
+{
+  name { Totem Road }
+  desc {
+"   The road here is empty, without a hint of business or life about.  In the
+distance you can hear the sqeaking of some tiny rodent.  The road continues
+to the east and west.  A path to the south leads to a large, stucco 
+building.
+  }
+  flags { indoors }
+  exits {
+	to { e, 61 }
+	to { s, 212 }
+	to { w, 59 }
+  }
+}
+
+61
+{
+  name { Totem Road }
+  desc {
+"   You are standing on the eastern edge of Totem Road.  The road runs to the
+west, and least to the city's outer gates to the east.  The gates look quite
+impressive from this distance.  A path to the north leads to a small, wooden
+booth.
+  }
+  flags { indoors }
+  exits {
+	to { n, 241 }
+	to { e, 62 }
+	to { w, 60 }
+  }
+}
+
+62
+{
+  name { Inside the Eastern Gates }
+  desc {
+"   Because of the unusual thickness of the eastern wall, the gatehouse here
+is actually more like a small room.  Each side of the wall has been equipped
+with gates, which for now have been locked in their open position.  A road
+runs through the gate to the east and west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 63 }
+	to { w, 61 }
+  }
+}
+
+63
+{
+  name { Outside the Eastern Inner Gates }
+  desc {
+"   The eastern gate lies just to your west.  Beyond the gates lies the city
+of Tagol, but things are strangely quite.  The rough stone path that you
+travel runs east and west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 66 }
+	to { w, 62 }
+  }
+}
+
+64
+{
+  name { Totem Road }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { e, 65 }
+	to { w, 63 }
+  }
+}
+
+65
+{
+  name { A stone totem }
+  desc {
+note to Wasabe: ex desc for toem
+  }
+  flags { indoors }
+  exits {
+	to { e, 66 }
+	to { w, 64 }
+  }
+}
+
+66
+{
+  name { A narrow fissure }
+  desc {
+"   The path abruptly ends here, butting into the east side of the cavern.  A
+tiny crack can be seen in the face of the rock, but it's far too narrow to
+fit through.  The path leads back to the west.
+  }
+  flags { indoors }
+  exits {
+	to { w, 63 }
+  }
+}
+
+67
+{
+  name { Opal Road }
+  desc {
+"   You are standing at the northern end of a gravel paved road.  Looking
+down, you notice that the gravel is a whitish, iridescent stone.  The road
+is quite busy, with merchants, businessmen, and families scurrying from
+shop to shop.  Nearby, a dwarvish woman slaps her child for being rude.
+The road continues to the south, and leads to the east totem to the north.
+The rangers guild lies to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 59 }
+	to { s, 68 }
+	to { w, 171 }
+  }
+}
+
+68
+{
+  name { An intersection }
+  desc {
+"   This is an intersection between two roads.  Running north-south is Opal
+road.  A smaller, gravel path leads to the west.  A bit to the north, you
+can just make out the eastern totem.
+  }
+  flags { indoors }
+  exits {
+	to { n, 67 }
+	to { s, 69 }
+	to { w, 80 }
+  }
+}
+
+69
+{
+  name { Opal Road }
+  desc {
+"   Your feet crunch with each footfall on the gravel road.  All the relfections
+off of the irridescent stones are getting to your eyes.  The road continues
+to the north and south, while the adventurer's guild lies to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 68 }
+	to { s, 70 }
+	to { w, 164 }
+  }
+}
+
+70
+{
+  name { Opal Road }
+  desc {
+"   Fittingly enough, Opal road is paved with a white, irridescent gravel.
+You doubt that it's real opal, but it's a nice touch anyway.  The road
+continues to the north and south.  To the west lies the Cavalier's Guild.
+  }
+  flags { indoors }
+  exits {
+	to { n, 69 }
+	to { s, 71 }
+	to { w, 163 }
+  }
+}
+
+71
+{
+  name { Southeast Totem }
+  desc {
+"
+                    W E L C O M E   T O   T A G O L ' S
+
+                     S O U T H E A S T   S Q U A R E
+
+The southeast square is resevered for non-specialty shoppes and facilities.
+Thus being the case, you are certain to find all the necessities for daily
+life, without the embarassing mark-ups charged by brand name stores.  Please
+remember that here at Tagol, we're a champion of the small store-owner and
+independantly run business.  Have a nice day.
+
+  }
+  extra {
+	keywords { totem" }
+	desc { "
+                    W E L C O M E   T O   T A G O L ' S
+
+                     S O U T H E A S T   S Q U A R E
+
+The southeast square is resevered for non-specialty shoppes and facilities.
+Thus being the case, you are certain to find all the necessities for daily
+life, without the embarassing mark-ups charged by brand name stores.  Please
+remember that here at Tagol, we're a champion of the small store-owner and
+independantly run business.  Have a nice day.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 70 }
+	to { w, 72 }
+  }
+}
+
+72
+{
+  name { Opal Road }
+  desc {
+"   The paving of opal road shimmers like a gazilloin diamonds.  Here the road
+is a bit busier though, and looking to the north and south, you discover why.
+To the north is the general provisons shoppe, where you're bound to find many
+of the essential equipment for any adventure.  To the south is the lobby of
+the Diamond Rose Inn, reputed to be the best inn under the mountain.  Opal
+road continues east and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 150 }
+	to { e, 71 }
+	to { s, 263 }
+	to { w, 73 }
+  }
+}
+
+73
+{
+  name { Opal Road }
+  desc {
+"   The road here is paved with irridescent stones.  It's quite pretty.  Opal
+road continues to the east and west, but to the west it also intersects a
+smaller road from the north.  From north of here, you can smell the wonderful
+aroma of baked goods.  Looking northward you spy a sign, 'Jentan's Quality
+Baked Goods.'
+  }
+  flags { indoors }
+  exits {
+	to { n, 149 }
+	to { e, 72 }
+	to { s, 316 }
+	to { w, 74 }
+  }
+}
+
+74
+{
+  name { An intersection }
+  desc {
+"   The gravel surface of this road is very pretty, but it's making your feet
+sore.  But these are adventurous times, and you vow to struggle to the end!
+Opal road continues to the east and west, while a smaller road branches to
+the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 76 }
+	to { e, 73 }
+	to { w, 75 }
+  }
+}
+
+75
+{
+  name { Opal Road }
+  desc {
+"   This road is appropriately named, it is paved with a whitish, irridescent
+gravel that sparkles in the torchlight.  The road is busy, with merchants and
+buyers scurrying about, no doubt on serious business.  The road continues to
+the east, and leads to the South Totem to the west.  A pet shoppe lies to the
+north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 148 }
+	to { e, 74 }
+	to { w, 38 }
+  }
+}
+
+76
+{
+  name { A wide gravel path }
+  desc {
+"   The gravel-paving of the path crunches beneath your feet.  The path
+continues to the north and south.  To the south, the path intersects a
+larger, busier road.
+  }
+  flags { indoors }
+  exits {
+	to { n, 77 }
+	to { s, 75 }
+  }
+}
+
+77
+{
+  name { A gravel path }
+  desc {
+"   You are standing on a plain, gravel path.  To the north you can see a
+huge, black, stone tower.  You can't tell how tall the tower is, it's upper
+reaches are lost in the darkness above.  The path leads north, towards the
+tower, and south, away from the tower.
+  }
+  flags { indoors }
+  exits {
+	to { n, 78 }
+	to { s, 76 }
+  }
+}
+
+78
+{
+  name { The Southeast Carving }
+  desc {
+"   You are standing by a protrusion in the town's center tower.  All along
+the protrusion, runic symbols have been carved.  The carvings start at the
+ground, and go as far as you can see.  A small bronze plaque explains that
+these are the names of the original builders of this tower, and the
+surrounding city.  This memorial is dedicated to the carriers, those who
+moved the building stones from the quarry to the town and removed the rubble
+as the cavern was being carved.  A path circling the center tower leads 
+north and west, while two gravel paths lead south and east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 82 }
+	to { e, 79 }
+	to { s, 77 }
+	to { w, 81 }
+  }
+}
+
+79
+{
+  name { A gravel path }
+  desc {
+"   The fine gravel of this path is remarkably soft; it's almost comfortable
+to walk on.  The path itself is pretty plain, it seems to be more of an
+alley than a road.  To the northwest, you can see a tremendous stone tower
+reaching up into the darkness.  The path leads to this tower to the west, but
+also travels to the east.
+  }
+  flags { indoors }
+  exits {
+	to { e, 80 }
+	to { w, 78 }
+  }
+}
+
+80
+{
+  name { A gravel path }
+  desc {
+"   You are walking down a plain, gravel-paved alley.  From the path, you
+can see the backs of several buildings.  You can tell that this path wasn't
+meant for lots of public use.  The path continues to the west, and intersects
+a larger road to the east.
+  }
+  flags { indoors }
+  exits {
+	to { e, 68 }
+	to { w, 79 }
+  }
+}
+
+81
+{
+  name { Circling the Center Totem }
+  desc {
+"   This path runs in an east-west direction, circling the base of the 
+center tower.  To the east, the path butts up against a magnificent bulge
+in the tower's side.  It looks like it was placed there by design.  The
+path intersects a gate carved into the towers southern face to the west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 78 }
+	to { w, 41 }
+  }
+}
+
+82
+{
+  name { Circling the Center Totem }
+  desc {
+"   This path follows the base of the center totem.  The tower's eastern wall
+in directly on your western side.  To the north, there is a portal carved
+into the tower's side, while to the south, there is a large protrusion sticking
+out of the face of the tower.
+  }
+  flags { indoors }
+  exits {
+	to { n, 55 }
+	to { s, 78 }
+  }
+}
+
+83
+{
+  name { The Heartroad }
+  desc {
+"   Walking down Tagol's main road, you are continually bumped and pushed by
+the city's many merchants, shoppers, and adventurers.  To the south you see
+a tremendous black tower stretching into the darkness above.  The Heartroad
+itself runs north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 85 }
+	to { s, 51 }
+  }
+}
+
+84
+{
+  name { The Heartroad }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { n, 85 }
+	to { s, 83 }
+  }
+}
+
+85
+{
+  name { North Totem }
+  desc {
+"   Three different streets intersect at the north totem.  The Heartroad, 
+Tagol's main street, runs to the north and south.  A dark, sinister road
+leads to the west, while a more friendly, but exotically intimidating road
+leads to the east.  The totem itself is granite, and stands about six feet
+high.  Its eight faces are covered with runes.  Bold letters reading, '
+INFORMATION TOTEM, PLEASE READ ME' are carved in its top.
+  }
+  extra {
+	keywords { totem" }
+	desc { "
+                                W E L C O M E
+
+                                     T O
+
+               T H E   D W A R V E N   C I T Y   O F   T A G O L
+              Providing clean mountain living for three centuries
+
+
+            ----------------                         ----------------
+            NORTHWEST SQUARE                         NORTHEAST SQUARE
+            ----------------                         ----------------
+            An Inn & Lodging Area                    The Magic Shoppe
+            The Weapon shop                          The Mage's Guild
+            The blacksmith                           The Illusionist's Guild
+            The Avenger's Guild                      Shoppe of Wonders
+            The Ninja's Guild                        Jah's Ornaments
+            The Assassin's Guild
+            The Thief's Guild
+
+Have a nice day, and be sure to look for other information totems like
+this one.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 102 }
+	to { e, 86 }
+	to { s, 83 }
+	to { w, 109 }
+  }
+}
+
+86
+{
+  name { Jade Road }
+  desc {
+"   Round, greenish stones pave the road beneath your feet.  It's possible that
+they are in fact jade.  Jade Road isn't very crowded, but the people who
+do visit here seem very business-like.  You think it may be because the
+First Bank of Tagol lies just to the south, but you also have a feeling that
+there's a reason deeper than that.  Jade Road runs west towards the north
+totem, and east towards more stores and shoppes.
+  }
+  flags { indoors }
+  exits {
+	to { e, 87 }
+	to { s, 202 }
+	to { w, 85 }
+  }
+}
+
+87
+{
+  name { Road intersection }
+  desc {
+"   You are standing at a three way intersection.  Jade road runs in an east-
+west direction, and a small cobblestone path winds to the south.  
+  }
+  flags { indoors }
+  exits {
+	to { e, 88 }
+	to { s, 99 }
+	to { w, 86 }
+  }
+}
+
+88
+{
+  name { Jade road }
+  desc {
+"   The crowds along the road thicken as you near the heart of the square.
+The buildings here have been painted in an off-white hue, with just enough
+color to give them both warmth and dignity.  The magic shop rests on the
+southern curb, while the entrance to the mage's guild lies to the north.
+Jade road continues to run to the east and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 204 }
+	to { e, 89 }
+	to { s, 203 }
+	to { w, 87 }
+  }
+}
+
+89
+{
+  name { Jade Road }
+  desc {
+"   The jade-like paving of this road acts like a cushion, softening your
+every step.  You wonder if some sort of spell is acting on the road, or if
+it's just a natural characteristic of the stone paving.  Jade road runs east
+toward the north totem, and west, toward the magic shop and the mage's 
+guild.  The entrance to the illusionist's guild is to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 90 }
+	to { s, 206 }
+	to { w, 88 }
+  }
+}
+
+90
+{
+  name { Northeast Totem }
+  desc {
+"
+                    W E L C O M E   T O   T A G O L ' S
+
+                      N O R T H E A S T   S Q U A R E
+
+The northeast square is devoted nearly exclusivly to the mystical, arcane,
+and bizarre.  Many of our residents have a fear of magic (brought about by
+superstition, I can assure you) so we thought it best to keep all the sources
+of fear in one location.  It has sence turned out to be convienent, as now
+a buyer can find all his mystical needs granted in one location.  Kinsil
+reminds you that he is always looking for interesting items to add to his
+collection.  We warn you when buying though.  Kinsil's prices are rather
+exhorbitant.
+
+                                          - Tagolic City Council -
+  }
+  flags { indoors }
+  exits {
+	to { s, 91 }
+	to { w, 89 }
+  }
+}
+
+91
+{
+  name { Jade Road }
+  desc {
+"   Jade road's green stone paving shimmers in the torchlight.  You imagine
+that it must be really pretty in the sunlight......if there was a sun in
+here.  The road continues to the north and south.  The northeast totem is
+to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 90 }
+	to { s, 92 }
+  }
+}
+
+92
+{
+  name { Jade Road }
+  desc {
+"   Most of the buildings lining Jade Road are rather dignified, but the
+shoppe to the immediate west is a notable exception.  The building has been
+pained a light coral color, and is adorned with several outrageous tapestries.
+A glowing sign reading, 'Kinsil's Shoppe of Amazing Wonders and
+Collectables (tm)' levitates above the buiding.  Every now and then, lightning
+arcs from a large rod mounted on the top of the building to the upper reaches
+of the cavern.
+  }
+  flags { indoors }
+  exits {
+	to { n, 91 }
+	to { s, 93 }
+	to { w, 208 }
+  }
+}
+
+93
+{
+  name { An intersection }
+  desc {
+"  The air above this road has been magically charged, creating a soft
+overhead lighting.  You havn't seen this effect anywhere else in the square,
+so you assume that it's just an experiment.  Jade road continues to the north
+and south.  A cobblestone path intersects the west side of the road.
+  }
+  flags { indoors }
+  exits {
+	to { n, 92 }
+	to { s, 94 }
+	to { w, 96 }
+  }
+}
+
+94
+{
+  name { Jade Road }
+  desc {
+"    The road here is paved with rounded, irregular stones that are a milky
+greenish color.  Looking closely, you believe that they just might be real
+jade.  If so, the cost must hve been tremendous, unless the material came
+right from this very mountain.  The buildings lining the road are bright
+yet somehow serious.  Jade road runs south towards the east totem, and north
+towards some shoppes.  The jewelry shoppe lies to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 93 }
+	to { s, 59 }
+	to { w, 240 }
+  }
+}
+
+95
+{
+  name { By the Northeast Carving }
+  desc {
+"   You are standing by a protrusion in the town's center totem.  You guess
+that the term 'totem' is meant to be cute, this is actually a tower of some
+sort.  The protrusion is about 30 feet long at ground level.  It slowly
+becomes less and less noticable as it ascends, and it eventually conforms to the
+tower's circular shape.  Looking cloesly, you can see thousands of tiny runes
+carved into the protrusion's surface.  the runes start at ground level and
+travel upward indefinately.  A small plaque explains that the protrusion is
+a memorial to the dwarven magic users, who's spell casting abilites went into
+designing and building this city.  The magic users were also the first to call
+for an opening of Tagol, allowing other races to become citizens.  A path
+circling the center tower leads south and west, while two cobblestone paths
+lead north and east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 98 }
+	to { e, 97 }
+	to { s, 100 }
+	to { w, 101 }
+  }
+}
+
+96
+{
+  name { A cobblestone path }
+  desc {
+"   Ouch!  These cobbles are a pain to walk on.  The small, but difficult
+path runs in an east-west direction.  To the east, the path intersects Jade
+Road.  To the west, you can just make out a really big tower, looming in the
+distance.
+  }
+  flags { indoors }
+  exits {
+	to { e, 93 }
+	to { w, 97 }
+  }
+}
+
+97
+{
+  name { A cobblestone path }
+  desc {
+"   This path intersects a huge, stone tower to the west.  From here, you can
+see that there's a large bump in the side of the tower.  It looks like the
+path runs straight into this bump.  The path also leads to the east.
+  }
+  flags { indoors }
+  exits {
+	to { e, 96 }
+	to { w, 95 }
+  }
+}
+
+98
+{
+  name { A cobblestone path }
+  desc {
+"  The cobbles of this path are likely to hobble you for life.  You find it
+to be no laughing matter.  To the south, the path intersects a rather large
+bump in the side of the town's center tower.  The path also continues to the
+north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 99 }
+	to { s, 95 }
+  }
+}
+
+99
+{
+  name { A cobblestone path }
+  desc {
+"   From this vantage point, you can see a tremendous tower to the southwest.
+It looks like this path may intersect it at one point.  To the north, the
+path runs into Jade road.
+  }
+  flags { indoors }
+  exits {
+	to { n, 87 }
+	to { s, 98 }
+  }
+}
+
+100
+{
+  name { Circling the Center Totem }
+  desc {
+"   The path you are waling on follows the east wall of the center totem.
+The path continues to the north and south.  To the south, a gate leads into
+the center tower.
+  }
+  flags { indoors }
+  exits {
+	to { n, 95 }
+	to { s, 55 }
+  }
+}
+
+101
+{
+  name { Circling the Center Totem }
+  desc {
+"   It appears that this path runs right around the base of the tower.  The
+path here runs roughly in an east-west direction, although it does curve
+somewhat.
+  }
+  flags { indoors }
+  exits {
+	to { e, 95 }
+	to { w, 51 }
+  }
+}
+
+102
+{
+  name { The Heartroad }
+  desc {
+"   This part of the Heartroad seems to be more family-oriented than other
+parts.  Mothers craddle their babies while walking to the Tagolic House of
+Virtue to the east.  Other townfolk can be seen bowing to clerics who enter the
+cleric's guild to the west.  The Heartroad itself continuse north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 103 }
+	to { e, 231 }
+	to { s, 85 }
+	to { w, 229 }
+  }
+}
+
+103
+{
+  name { The Heartroad }
+  desc {
+"   The Heartroad isn't very crowded here, you guess because it's so far from
+the center of town.  To the north, the road leads to the northern gates.
+The Heartroad leads into the center of town to the south.  Also, a small
+booth with the words 'Far Hop' written on it lies to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 104 }
+	to { s, 102 }
+	to { w, 244 }
+  }
+}
+
+104
+{
+  name { Inside the North Gate }
+  desc {
+"   The gate, which is actually just a hole in the wall with doors attached,
+is quite thick.  From inside, you notice that there are actually two sets
+of doors, one even with the outer plane of the wall, and one even with the
+wall's inner plane.  Right now, the inner gates are locked in the open
+position, but in times of war, you imagine that they could both be close to
+enhance the protection of the city.  A road, built on top of the wall,
+leads east and west.  There is also a road running through the gate in a
+north-south direction.
+  }
+  flags { indoors }
+  exits {
+	to { n, 105 }
+	to { e, 309 }
+	to { s, 103 }
+	to { w, 308 }
+  }
+}
+
+105
+{
+  name { Outside the Northern Inner Gate }
+  desc {
+"   You are standing just north of the city limits of Tagol.  The city looks
+pretty busy; you can see torches of hundreds of shops and homes glitter in
+the darkness.  The road you are travelling on leads south, into the city, and
+north, towards the wall of the cavern.
+  }
+  flags { indoors }
+  exits {
+	to { n, 106 }
+	to { s, 104 }
+  }
+}
+
+106
+{
+  name { The Heartroad }
+  desc {
+"   The road here is wide and nicely paved.  To the south you can see a large
+wall running east to west.  Judging by its size, you guess that a pretty
+leage fortress or town must lie in that direction.  A small stone totem sits
+by the side of the road to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 107 }
+	to { s, 105 }
+  }
+}
+
+107
+{
+  name { A stone totem }
+  desc {
+"   The road here runs in a north-south direction.  Far to the south, you can
+hear the distant sound of civilization.  The path to the north leads toward
+the cavern wall.  A small totem on the side of the road reads, 'CITY LIMITS.'
+  }
+  flags { indoors }
+  exits {
+	to { n, 108 }
+	to { s, 106 }
+  }
+}
+
+108
+{
+  name { A rounded cavern }
+  desc {
+"  You are on the northern edge of a tremendous cavern within the rock.  Looking
+around, you find it difficult to believe that this place could have been
+formed naturally; the cavern is literally miles across.  A small road stretches
+to the south from here.
+  }
+  flags { indoors }
+  exits {
+	to { s, 107 }
+  }
+}
+
+109
+{
+  name { Onyx Street }
+  desc {
+"   Onyx street seems to have been forged from one, continuous, black stone.
+You can see no lines or seams in the road that would indicate any brickwork.
+Looking around, you notice that the buildings along the street have been
+painted in dark grays and black, almost as if they were designed to be
+gloomy.  Onyx Street leads east toward the north totem, and west into the
+northwest square.
+  }
+  flags { no_mob }
+  exits {
+	to { e, 85 }
+	to { w, 110 }
+  }
+}
+
+110
+{
+  name { An intersection }
+  desc {
+"   You are standing at a three way intersection between Onyx Street and a 
+smaller, and much more interesting, gravel path.  Onyx Street is much wider
+than the path, and is travelled by far many more people, but the plain, 
+black decor of the street and its surrounding buildings is quite monotonous.
+The gravel path, which leads to the south, is small, but quaint and inviting.
+  }
+  flags { indoors }
+  exits {
+	to { e, 109 }
+	to { s, 130 }
+	to { w, 111 }
+  }
+}
+
+111
+{
+  name { Onyx Street }
+  desc {
+"   You hear some particularly rachous music from the south.  Mixed in with
+the sound of music and laughter is the sound of breaking furniture and one
+muffled scream.  Glancing to the south, you can see that the noises are coming
+from the Bat's Toe Inn.  While you'd like to sit and rest a spell, you're
+not quite sure if doing so here would be a wise decision.
+  }
+  flags { indoors }
+  exits {
+	to { e, 110 }
+	to { s, 200 }
+	to { w, 112 }
+  }
+}
+
+112
+{
+  name { Onyx Street }
+  desc {
+"   Everything about this place spells GLOOM.  The street, the buildings, even
+the people around here are clad in deep grays and black.  The people aren't
+all that friendly either.  Oh well, knowing that the weapons shoppe is just
+to the south gives you some comfort.  A narrow side-street branches from the
+north, and the ever-so-gloomy Onyx Street runs east and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 266 }
+	to { e, 111 }
+	to { s, 199 }
+	to { w, 113 }
+  }
+}
+
+113
+{
+  name { Northwest Totem }
+  desc {
+"
+                      N O R T H W E S T   S Q U A R E
+
+If you don't have business here, we stongly suggest that you make your way
+to a more secure area.  The northwest square has traditionally been a 
+hide-away for thieves, murdurers, and other types of scum.  The council has
+tried numerous attempts at driving the bandits out, but all have proved to
+be ineffectual.  There is now a gentle balance of power, Tagol allows this
+area to remain intact, as long as the sinful activities of this square do not
+spread to other areas of the city.  At any rate, any law-abiding citizen had
+best be on his way (travel straight south or east until you hit a gem-stone
+street), and remeber, DO NOT BRING YOUR CHILDREN TO THE NORTHWEST SQUARE.
+
+                                       - Tagolic City Council -
+  }
+  flags { indoors }
+  exits {
+	to { e, 112 }
+	to { s, 114 }
+  }
+}
+
+114
+{
+  name { Onyx Street }
+  desc {
+"   You're getting really sick of all the secrecy and subterfuge emanating
+from this square.  You have the urge to grab one of the cloaked shadows 
+around you and shake him to his sences, but you of course realize that such
+actions could prove to be quite dangerous.  Here Onyx Street intersects a
+tiny path.  The path is utterly filty, and you are reluctant to visit it.
+Onyx Street leads north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 113 }
+	to { s, 115 }
+  }
+}
+
+115
+{
+  name { Onyx Street }
+  desc {
+"   Most of the other areas of Tagol are busy and festive, but for some reason
+this area is quite secretive.  Most of the people lining the street are clad
+in loose-fitting, dark robes.  You wouldn't want to ask any of them for
+directions.  The ninja's guild lies to the east.  You are also very surprised
+to find the druid's guild sitting on the west curb.  You wonder what the
+druids would be doing in a place like this.  Onyx Street continues to the
+north and south from here.
+  }
+  flags { indoors }
+  exits {
+	to { n, 114 }
+	to { e, 195 }
+	to { s, 116 }
+	to { w, 197 }
+  }
+}
+
+116
+{
+  name { An intersection }
+  desc {
+"   Entering the intersection, you notice that this isn't a very freindly
+part of town.  People shuffle along the sides of the street, hugging the
+building walls, and mostly keeping to themselves.   Onyx Street leads north
+and south.  A small, pebble path intersects the street here and leads to
+the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 115 }
+	to { e, 126 }
+	to { s, 117 }
+  }
+}
+
+117
+{
+  name { Onyx Street }
+  desc {
+"   This road is smooth, jet-black, and wide.  Rather than any sort of paving,
+the road seems to be made of one smooth, continuous surface.  Onyx road leads
+north and south.  Also, a variety of shoppes line the road's curbes.  Arcane
+music emanates from the Slippery Token Tavern to the east, and you shudder as
+you recognize the assassin's guild to the west.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 116 }
+	to { e, 191 }
+	to { s, 118 }
+	to { w, 192 }
+  }
+}
+
+118
+{
+  name { West Totem }
+  desc {
+"   The west totem is an intersection for a variety of roads.  A granite-
+paved road runs to the east and west.  The paving of the northern road is
+jet-black, while the southern road is paved with a shiny, redish brick.
+The totem itself is granite, and stands about six feet high.  At it's top,
+it is enscribed with the words, 'READ ME.'
+  }
+  extra {
+	keywords { totem" }
+	desc { "
+                                W E L C O M E
+
+                                     T O
+
+               T H E   D W A R V E N   C I T Y   O F   T A G O L
+              Providing clean mountain living for three centuries
+
+
+            ----------------                         ----------------
+            NORTHWEST SQUARE                         SOUTHWEST SQUARE
+            ----------------                         ----------------
+            An Inn & Lodging Area                    Hathor's Coffee Shoppe 
+            The Weapon shop                          Assorted weapon shoppes
+            The blacksmith                           The Armory
+            The Avenger's Guild                      The Warrior's Guild
+            The Ninja's Guild                        The Paladin's Guild
+            The Assassin's Guild                     The Barbarian's Guild
+            The Thief's Guild                                      
+
+Have a nice day, and be sure to look for other information totems like
+this one.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 117 }
+	to { e, 119 }
+	to { s, 133 }
+	to { w, 219 }
+  }
+}
+
+119
+{
+  name { Totem Road }
+  desc {
+"   Strange, the buildings on the northers side of this road have been painted
+black.  Looking in their direction, you notice the thief's guild; yo guess
+that it's not a very pleasant part of town.  All the buildings to your south
+have their backs to you.  You'll have to find a different way to get to them.
+Totem Road continues to the east and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 189 }
+	to { e, 120 }
+	to { w, 118 }
+  }
+}
+
+120
+{
+  name { Totem road }
+  desc {
+"   This is most certainly not the best part of town.  Totem Roads normally
+regal granite-paving has been marred by graphitti and garbage.  Beggars and
+slimy merchants line the streets, preying on the innocent and foolish.  To
+the north, you spy Mothin's House of Pleasure.  You feel inclined to tarry,
+but the filthiness of your surroundings makes you reluctant.  Totem Road
+leads east and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 194 }
+	to { e, 122 }
+	to { w, 119 }
+  }
+}
+
+121
+{
+  name { West Portal Security Mechanism }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { d, 123 }
+  }
+}
+
+122
+{
+  name { West of the Center Totem }
+  desc {
+"   You are standing before a tremendous, stone tower.  The tower appears to
+be an outgrowth of the cavern itself; the floor sloothly slopes upwards,
+melding into the tower wall.  The only difference is between the color of the
+stones.  The granite of the cavern floor is a speckled grey, but the tower
+is jet black.  With a start, you realize that this tower must be an extinct
+volcanic core!  If that's the case, the mountain that this city is built
+within was once an active volcanoe.  The thought sends a chill up your spine.
+Totem road runs west and east (into the tower).  There is also a road running
+around the tower itself, leading north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 132 }
+	to { e, 123 }
+	to { s, 147 }
+	to { w, 120 }
+  }
+}
+
+123
+{
+  name { Inside the West Portal }
+  desc {
+"   The walls here are rounded and smooth.  From inside the gate, you can see
+that the walls are at least 50 feet thick at the base.  You feel like you're
+in a tunnel.  Totem road runs west, to the outside, and east, to the inside
+of the tower.
+  }
+  flags { indoors }
+  exits {
+	to { e, 124 }
+	to { w, 122 }
+  }
+}
+
+124
+{
+  name { Totem Road }
+  desc {
+"   Waling through the tower, you're unable to pin-point any single source of
+light.  Rather, light seems to emanate from everywhere, the walls, the floor,
+even you.  You realize that the space inside the tower must be magically 
+enhanced to radiate light.  This is quite a convenience;  you are free from 
+the soot and smell that burning oil-lamps would cause.  Totem road leads 
+north and south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 125 }
+	to { w, 123 }
+  }
+}
+
+125
+{
+  name { Totem Road }
+  desc {
+"   The soft lighting in here is a boon to your eyes.  You wonder if you'll
+ever be satisfied with torch lighting again.  People are pretty busy here;
+there are very few civilians, most of the people around you are sooty, and
+clad in an orangish uniform.  Perhaps these people work in the Central Furnace
+to your north.  The heating control room is to the south, so you assume that
+they are public servats of some kind.
+  }
+  flags { indoors }
+  exits {
+	to { n, 180 }
+	to { e, 46 }
+	to { s, 181 }
+	to { w, 124 }
+  }
+}
+
+126
+{
+  name { A pebbel path }
+  desc {
+"   The pebbles of this path are slippery, making it very difficult to walk
+on.  The path runs in an east-west direction.  To the west, the path 
+intersects Onyx Street, and to the east, the path leads towards a huge tower
+looming in the distance.
+  }
+  flags { indoors }
+  exits {
+	to { e, 127 }
+	to { w, 116 }
+  }
+}
+
+127
+{
+  name { A pebble path }
+  desc {
+"   As you walk down the path, you can see an awfully big tower to the east.
+The tower is so tall, that it's upper reaches are lost in the darkness.  The
+pebbled path runs east toward this tower, and west, toward a larger road.
+  }
+  flags { indoors }
+  exits {
+	to { e, 128 }
+	to { w, 126 }
+  }
+}
+
+128
+{
+  name { By the Northwest Carving }
+  desc {
+"   You are standing just northwest of a tremendous protrusion in the center
+tower's wall.  The protrusion sticks out about thirty feet at ground level,
+and slowly conforms to the tower's more circular shape as it ascends. 
+Looking closely, you notice that runic symbols have been carved into the
+protrusion's face.  The runes start at ground level, and snake upward along
+the protrusion's face as far as the eye can see.  A small bronze plaque
+notes that the runes are the names of the wanderers, the first tribe of
+Dwarves who came to the mountain and decided to make it their home.  It took
+several generations to finish the job, but this memorial is dedicated to the
+courage of those original founders.   A path circling the center tower
+runs to the east and south, while small, pebble paths lead north and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 129 }
+	to { e, 131 }
+	to { s, 132 }
+	to { w, 127 }
+  }
+}
+
+129
+{
+  name { A pebble path }
+  desc {
+"   Looking south, you can see a gigantic tower.  The tower is all black, and
+it looks like it's made of stone.  The path heads toward this tower to the
+south, and leads toward some shoppes and busier roads to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 130 }
+	to { s, 128 }
+  }
+}
+
+130
+{
+  name { A pebble path }
+  desc {
+"   Whoops!  You almost slipped on the rounded pebbles paving this path. 
+You'll have to be more careful, that could have been a nasty fall.  The
+path intersects a larger road to the north, and leads toward a huge tower to
+the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 110 }
+	to { s, 129 }
+  }
+}
+
+131
+{
+  name { Circling the Center Totem }
+  desc {
+"   You are just north of the center totem, and are on a path circling it's
+base.  The path continues east and west.  To the east, you can see that a
+portal has been carved into the face of the tower.
+  }
+  flags { indoors }
+  exits {
+	to { e, 51 }
+	to { w, 128 }
+  }
+}
+
+132
+{
+  name { Circling the Stone Totem }
+  desc {
+"   This path runs parallel to the side of the tower.  You assume that it must
+completely circle the tower as well.  The path continues south, where a 
+portal has been carved in the tower's face, and north, towards a large
+protrusion in the tower's wall.
+  }
+  flags { indoors }
+  exits {
+	to { n, 128 }
+	to { s, 122 }
+  }
+}
+
+133
+{
+  name { Ruby Avenue }
+  desc {
+"   You can see why they call this Ruby Road, it's paved with shiny, red 
+bricks.  They're not rubies, but it's a nice touch.  You also notice that
+the people travelling this road are significantly bigger than you remember
+from other parts of the city.  The road leads north to the west totem, and
+south, to a three-way intersection.  The barbarian's guild is to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 118 }
+	to { e, 161 }
+	to { s, 134 }
+  }
+}
+
+134
+{
+  name { Road intersection }
+  desc {
+"   The roads here form a 'T'.  Ruby Road runs to the north and south.  To
+the east a small, but neat, path heads towards a large, black tower.  The
+smaller of the two roads looks inviting; you are hesitiant to brave the 
+crowds of Ruby Road.
+  }
+  flags { indoors }
+  exits {
+	to { n, 133 }
+	to { e, 145 }
+	to { s, 135 }
+  }
+}
+
+135
+{
+  name { Ruby Avenue }
+  desc {
+"   For some reason, the folks around here look a bit more dignified, even
+more stuffy than the other inhabitants you'e seen.  Regardless, they're
+still quite big.   A quick survey of your surroundings expalins matters.
+The entrance to the paladin's guild is to the east.  Ruby Road continues to
+the north and south, and intersects a smaller road to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 134 }
+	to { e, 159 }
+	to { s, 136 }
+  }
+}
+
+136
+{
+  name { Ruby avenue }
+  desc {
+"   You're amazed at how huge the people of these streets are!  They can't
+be representative of the populous as a whole, or else you're in trouble.
+The brick-paved Ruby Ruad continues to the north and south.  A shoppe which
+you take for the armoury lies to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 135 }
+	to { e, 158 }
+	to { s, 137 }
+  }
+}
+
+137
+{
+  name { Southwest Totem }
+  desc {
+"
+                    W E L C O M E   T O   T A G O L ' S
+
+                      S O U T W E S T   S Q U A R E
+
+Here at the southwest square, we cater to the more savage, yet regrettably
+necessary aspect of business, that of selling arms and armour.  Here, one
+can find something to suit his every offensive (and defensive) need.  The
+only expection is that of large arms;  the city council has decreed that
+access to such monstrous weapons in this particular location would have
+disasterous results.  The southwest square also houses several fighting-
+man's (and woman's of course) guilds.
+  }
+  flags { indoors }
+  exits {
+	to { n, 136 }
+	to { e, 155 }
+  }
+}
+
+138
+{
+  name { Ruby Avenue }
+  desc {
+"   You're beginning to feel uneasy on this particular road.  It seems that
+everyone around you is getting ready for (or has just been in) a fight.  
+Even the shops of the street seem to be devoted to the art of warfare.  To the
+north lies a small arms shoppe, and the entrance to the warriors guild is
+to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 152 }
+	to { e, 139 }
+	to { s, 153 }
+	to { w, 155 }
+  }
+}
+
+139
+{
+  name { Road intersection }
+  desc {
+"   This is an intersection between Ruby Road, and a smaller brick-paved 
+path.  As you dodge the crowds, you wonder why the intersection exists at all.
+The northern path is deserted; it seems to be little more than an alley. 
+Ruby Road continues to the east and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 141 }
+	to { e, 140 }
+	to { s, 317 }
+	to { w, 138 }
+  }
+}
+
+140
+{
+  name { Ruby Avenue }
+  desc {
+"   Ruby Avenue, huh?  The road here is paved with a shiny, red brick, but
+there's no way it's ruby.  You guess that the name is just for effect.  The
+road is quite busy though, with stout men and downright fierce-looking women
+parading up and down.  Ruby road leads to the east and west.  The south
+totem is to the east, and a quiant-looking coffee house lies to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 151 }
+	to { e, 38 }
+	to { w, 139 }
+  }
+}
+
+141
+{
+  name { A tiny brick path }
+  desc {
+"   To the south, this path intersects a larger, busier road.  Judging by the
+red-brick paving, you judge it to be Ruby Road.  The path continues to
+the north, towards a gigantic, black tower.
+  }
+  flags { indoors }
+  exits {
+	to { n, 142 }
+	to { s, 139 }
+  }
+}
+
+142
+{
+  name { A tiny brick path }
+  desc {
+"   To the north, you can see a fairly large bump in the center tower's
+surface.  Carvings seem to have been made on the hump's surface.  The
+path continues north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 143 }
+	to { s, 141 }
+  }
+}
+
+143
+{
+  name { By the Southwest Carving }
+  desc {
+"   You are standing by a protrusion in the town's center tower.  Runic
+symbols have been carved all along the protrusion's surface.  The carvings
+start at the ground and go up as far as you can see.  A small, bronze
+plaque explains that these are the names of the original builders of this
+tower, and the surrounding city.  This memorial is dedicated to the masons,
+those who carved the interlocking bricks that form the city's buildings
+and walls.  A path circling the center tower leads north and east, while
+two small, brick-paved paths lead south and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 147 }
+	to { e, 146 }
+	to { s, 142 }
+	to { w, 144 }
+  }
+}
+
+144
+{
+  name { A tiny brick path }
+  desc {
+"   You are standing just west of a rather large protrusion in the stone
+tower.  Form here, you can see that something has been carved in it's face,
+but you're not quite sure what.  The path intersects this protrusion to
+the east, and leads back to the west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 143 }
+	to { w, 145 }
+  }
+}
+
+145
+{
+  name { A tiny brick path }
+  desc {
+"   The bricks of this road are set in a nice, wavy pattern.  While the
+road is small, it's a pleasant break from all the hub-bub of the city.
+The path leads toward a large, black tower to the east, and intersects a
+larger road to the west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 144 }
+	to { w, 134 }
+  }
+}
+
+146
+{
+  name { Circling the Center Totem }
+  desc {
+"   This path runs right along the base of that huge, stone tower.  To the
+east, the path intersects a rather large gate carved into the tower's
+surface.  The path also leads west, towards a big protrusion in the
+tower's surface.
+  }
+  flags { indoors }
+  exits {
+	to { e, 41 }
+	to { w, 143 }
+  }
+}
+
+147
+{
+  name { Circling the Center Totem }
+  desc {
+"   You are standing on a path that circumnavigates the town's center totem.
+The black rock face of the totem is directly east.  The path continues to
+the north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 122 }
+	to { s, 143 }
+  }
+}
+
+148
+{
+  name { The Pet Shoppe }
+  desc {
+"   The shoppe is filled with cages of all shapes and sizes.  Birds, furry
+creatures, scaled things, and some things you can't identify peek out of
+their respective dens.  There is a note on the counter.
+  }
+  extra {
+	keywords { not" }
+	desc { "
+	}
+	keywords { note" }
+	desc { "
+     WELCOME TO MY HUMBLE STORE
+
+Please type list to see our selection.
+When you wish to buy, use the command
+below.....
+
+buy <pet> <name>
+
+once you purchase a pet, you may call him
+or her by what he is (like a wolf) or by
+his name.  To command your pet, type the
+following...  order <pet> <orders>
+Feel free to browse, and have a nice day.
+
+                    The Management
+	}
+  }
+  flags { no_magic }
+  exits {
+	to { s, 75 }
+  }
+}
+
+149
+{
+  name { Jentan's Quality Baked Goods }
+  desc {
+"   The wooden shelfs behind the store counter are filled with all sorts of
+breads and pastries.  The aroma and atmosphere give you a warm, homey feeling.
+The only exit from the Bakery is to the south.  There is a note on the
+counter.
+  }
+  extra {
+	keywords { note" }
+	desc { "   Type 'list' to review our selection.
+Have a nice day.
+	}
+  }
+  flags { no_magic }
+  exits {
+	to { s, 73 }
+  }
+}
+
+150
+{
+  name { 'The Mountaineer's' Privision's Shoppe }
+  desc {
+"   The walls of the shoppe are covered with all sorts of bags, ropes, stakes
+and other assorted gear.  It looks like there's enough equipment to tear
+down the entire mountain, then build it back up again!  The only exit is to
+the south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 72 }
+  }
+}
+
+151
+{
+  name { Hathor's Tea and Coffee Shoppe }
+  desc {
+"   The walls here have been panelled with oak, and are covered by autographed
+portraits of the realms more colorful personalities.  The floor is oak as well.
+Scattered throughout the room are comfortable-looking booths and tables.
+Couple and groups chatter away, enjoying their drinks.  There is a counter
+here, and a small note on the counter.  On the far wall is a large board.
+A sign explains that the board is posted for gossip as well as challenges
+of honor between two heros.  The only exit is to the south.
+  }
+  extra {
+	keywords { note" }
+	desc { "
+Welcome to Hathor's Tea and Coffee Shoppe
+
+This coffee shoppe, which also happens to
+be the oldest food-stuff store under the
+mountain, is an ancient meeting place.
+Traditionally, parties of hero's would meet
+here to discuss their upcomming battles.  
+The board which has been provided is used
+to post any juicy gossip, or a serious
+challenge to another mortal.  Here, it is
+a disgrace to back away once a challenge has
+been given, and unless there are extreme
+circumstances, it is always a disgrace to
+refuse a challenge.  If you'd like to
+order something, type 'list'.  Feel free to
+stay as long as you like.
+
+               Pleasant eating,
+                   
+                    Hathor
+	}
+  }
+  flags { no_magic }
+  exits {
+	to { s, 140 }
+  }
+}
+
+152
+{
+  name { Swinns Knives and Daggers }
+  desc {
+"   All the wares of this store look very small, but also very deadly.  You're
+a bit surprised at how many customers are browsing the shoppe; you assumed
+that these hefty folk would prefer something larger.   There is a small
+note on the front counter.
+  }
+  extra {
+	keywords { note" }
+	desc { "
+Welcome to Swinns Knives and Daggers.
+
+please type 'list' to view our selection.
+thievery of any sort will not be 
+tolerated.  Happy hunting.
+
+                 The management.
+	}
+  }
+  flags { no_magic }
+  exits {
+	to { s, 138 }
+  }
+}
+
+153
+{
+  name { Entrance to the Warrior's Guild }
+  desc {
+"   The walls here are plain stone, but they are covered with ceremonial
+weapons and suits of armor.  A banner depicting two crossed swords and a
+wreath of roses hangs on the southern wall. 
+  }
+  flags { indoors }
+  exits {
+	to { n, 138 }
+	to { w, 154 }
+  }
+}
+
+154
+{
+  name { The Pracitce Yard }
+  desc {
+"   The ground here is flat and a little dusty.  Several wooden posts, covered
+with thorns, are scattered throughout the yard.
+  }
+  flags { indoors }
+  exits {
+	to { e, 153 }
+  }
+}
+
+155
+{
+  name { Ruby Avenue }
+  desc {
+"   These crowds are getting to be a little intimidating; what they lack in
+numbers, they more than make up for in weight.   Ruby Road continues to the
+east and west.  Shandra's Bow shoppe lies to the north, and fittingly enough,
+there's a fletcher to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 156 }
+	to { e, 138 }
+	to { s, 157 }
+	to { w, 137 }
+  }
+}
+
+156
+{
+  name { Shandra's Bows }
+  desc {
+"   The bows in displayed on the far wall range from small and functional, to
+wonderously ornate.  Racks full of bows stand here and there throughout the
+shoppe.  There's even a rack with a sign reading, 'used bows.'  The only
+exit is to the south.
+  }
+  flags { no_magic }
+  exits {
+	to { s, 155 }
+  }
+}
+
+157
+{
+  name { Eagle's Wing Fletchers }
+  desc {
+"   The depiction of a flaming eagle is carved into the shoppe's ceiling.
+By the south wall, you see several craftsmen, busily stripping branches and
+smoothing them into fine shafts.   Literally thousands of arrows litter the
+shoppe.  The only exit is to the north.
+  }
+  flags { no_magic }
+  exits {
+	to { n, 155 }
+  }
+}
+
+158
+{
+  name { The Armoury }
+  desc {
+"   The shoppe is littered with a varied array of armour, in various states
+of dis-repair.  In the corner, a full suit of ceremonial platemail hangs
+from the wall.  Unfortunately, it's not for sale, and it's rigged with 
+several anti-theft devices.  The only exit is to the west.
+  }
+  flags { no_magic }
+  exits {
+	to { w, 136 }
+  }
+}
+
+159
+{
+  name { Entrance to the Paladin's Guild }
+  desc {
+"   The walls here have been white-washed, giving the room a solemn, quiet
+appearance.  In the center of the room rests a small, wooden alter.  The
+alter is devoid of all decoration, except for one, thin candle.  The
+paladin's practice circle is to the west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 160 }
+	to { w, 135 }
+  }
+}
+
+160
+{
+  name { The Paladin's Practice Circle }
+  desc {
+"   A large, white circle has been painted in the center of this room.  The
+ceiling boasts a nice-looking fresco of several, silver-clad knights doing
+battle against a hoard of lizard-like creatures.   A passage leads back to the
+east.
+  }
+  flags { indoors }
+  exits {
+	to { w, 159 }
+  }
+}
+
+161
+{
+  name { Entrance to the Barbarian's Guild }
+  desc {
+"   Your guild is the perfect home away from home.  A trememdous dining
+table, complete with roast and wine, dominates the room.  The room's walls
+are adorned with tapestries depicting an attricious battle between dwarves
+and some kind of lizard-like humanoid.  A hole in the floor leads to your
+guildmaster's lair.
+  }
+  flags { indoors }
+  exits {
+	to { w, 133 }
+	to { d, 162 }
+  }
+}
+
+162
+{
+  name { The Battle Cave }
+  desc {
+"   The light in this cave is so dim that it's difficult for you to see.
+Your guildmaster is just a blobish-shadow in the far corner.  None the
+less, you are determined to make him proud.
+  }
+  flags { indoors }
+  exits {
+	to { u, 161 }
+  }
+}
+
+163
+{
+  name { Entrance to the Cavalier's Guild }
+  desc {
+"   The walls here are plain stone, and the room itself is completely devoid
+of ornamentation.  A small alter to the gods of virtue is the only 
+furniture.  Entering the room gives you a sence of peace and calm.  There is
+a portal in the west wall.
+  }
+  flags { indoors }
+  exits {
+	to { e, 70 }
+	to { w, 170 }
+  }
+}
+
+164
+{
+  name { Entrance to the Bard's Guild }
+  desc {
+"   Ornate and beautiful instruments adorn the walls of this guilds.  A
+large tapestry depicting a glorious battle has been tacked to the ceiling.
+It's inspirational.  Exits lead further into the guild, and back to the
+street outside.
+  }
+  flags { indoors }
+  exits {
+	to { e, 69 }
+	to { w, 165 }
+  }
+}
+
+165
+{
+  name { The Practice Circle }
+  desc {
+"   A tiny circle has been etched in the floor with chalk.  You understand
+that this is the location of your audition, to see if you can advance in the
+ways of your trade. You sweat at the tension, but you're also confident in
+your abilities.
+  }
+  flags { indoors }
+  exits {
+	to { e, 164 }
+  }
+}
+
+166
+{
+  name { 44666 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+167
+{
+  name { 44667 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+168
+{
+  name { 44668 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+169
+{
+  name { 44669 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+170
+{
+  name { The Practice Circle }
+  desc {
+"   A circle of glowing stones have been placed on the dusty floor here.
+Looking closer, you realize that the stones themselves aren't glowing, they're
+just reflecting the lamp light.  Still, they shine like the stars.
+  }
+  flags { indoors }
+  exits {
+	to { e, 163 }
+  }
+}
+
+171
+{
+  name { Entrance to the Ranger's Guild }
+  desc {
+"   The walls of this room are wooden, rather than the traditional stone.  With
+a start, you realize that the walls are actually the trunks of living trees.
+They must be under some kind of enchantment, to live in this subterranian
+city.  In the center of the room, a small fountain bubbles from the ground,
+providing water for the trees.  Some of the trees' banches bend very low,
+providing a sort of ladder, leading upward.
+  }
+  flags { indoors }
+  exits {
+	to { e, 67 }
+	to { u, 172 }
+  }
+}
+
+172
+{
+  name { The Ranger's Den }
+  desc {
+"   High in the branches of your guildmaster's den, you can just make out some
+of the fires from the city.  This place radiates peace, it is the perfect 
+spot for meditation and concentration.
+  }
+  flags { indoors }
+  exits {
+	to { d, 171 }
+  }
+}
+
+173
+{
+  name { 44673 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+174
+{
+  name { 44674 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+175
+{
+  name { 44675 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+176
+{
+  name { 44676 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+177
+{
+  name { 44677 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+178
+{
+  name { 44678 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+179
+{
+  name { 44679 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+180
+{
+  name { The Central Furnace }
+  desc {
+"   The noise in this room is deafening.  The room is dominated by a gigantic
+stone furnace, at least two stories in height.  All around the furnace, 
+dwarven workers shovel chunks of coal into the furnace through openings
+circling it's base.  Exits north and west lead to the secondary furnaces,
+while a door to the south leads to Totem road.
+  }
+  flags { indoors }
+  exits {
+	to { n, 182 }
+	to { s, 125 }
+	to { w, 183 }
+  }
+}
+
+181
+{
+  name { Heating Control Room }
+  desc {
+"   The walls here are metalic, and covered with large switches and lights.
+The lights are very puzzling, sometimes the glow green, but then quickly
+flash to red, and then green again.  You have no idea what all this is for,
+and have no interest in finding out.  An exit north leads back to Totem
+Road.
+  }
+  flags { indoors }
+  exits {
+	to { n, 125 }
+  }
+}
+
+182
+{
+  name { A huge furnace }
+  desc {
+"   This furnace isn't as big as the Central Furnace, but it still puts out a
+lot of heat.  The constant blast from the furnace is a pain to both your
+ears and the skin of your face.  An exit south leads to the Central Furnace.
+  }
+  flags { indoors }
+  exits {
+	to { s, 180 }
+  }
+}
+
+183
+{
+  name { A huge furnace }
+  desc {
+"   This furnace isn't as big as the Central Furnace, but it still puts out a
+lot of heat.  The constant blast from the furnace is a pain to both your
+ears and the skin of your face.  An exit east leads to the Central Furnace.
+  }
+  flags { indoors }
+  exits {
+	to { e, 180 }
+  }
+}
+
+184
+{
+  name { A storage room }
+  desc {
+"   The walls of this room are lined with shelves.  Covering the shelves,
+and some of the floor, are packages of all shapes and sizes.  You estimate
+that this room must store foodstuffs, torches, and many other varied
+supplies.  You'd like to get your hands on some of it, but some sort of
+mystical ward deters you.
+  }
+  flags { indoors }
+  exits {
+	to { w, 47 }
+  }
+}
+
+185
+{
+  name { A storage room }
+  desc {
+"   The walls of this room are lined with shelves.  Covering the shelves,
+and some of the floor, are packages of all shapes and sizes.  You estimate
+that this room must store foodstuffs, torches, and many other varied
+supplies.  You'd like to get your hands on some of it, but some sort of
+mystical ward deters you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 47 }
+  }
+}
+
+186
+{
+  name { The Barracks }
+  desc {
+"   The barracks are cold and rather spartan in decor.  The only ornament is a
+small royal insignia on the west wall.  A gate to the norht leads back to
+Totem road, while a narrow staircase leads down, further into the barracks.
+  }
+  flags { indoors }
+  exits {
+	to { n, 52 }
+	to { d, 187 }
+  }
+}
+
+187
+{
+  name { Lower Barracks }
+  desc {
+"   The air here is even colder than the air in the upper barracks.  This place
+looks more like a cellar than a sleeping quarters.  It's dark, slightly damp,
+and just not an all around nice place to be.  A wooden staircase leads to the
+upper barracks.
+  }
+  flags { indoors }
+  exits {
+	to { u, 186 }
+  }
+}
+
+188
+{
+  name { The conference room }
+  desc {
+"   The walls here are panelled with oak, which are in turn inlaid with gold
+and silver.  A tremendous, polished oak table rests in the center of the 
+room.  Chairs line either side of the table.  A portal to the south leads
+back to Totem road.
+  }
+  flags { indoors, peaceful, nosteal }
+  exits {
+	to { s, 52 }
+  }
+}
+
+189
+{
+  name { Entrance to the Thief's Guild }
+  desc {
+"   The walls of this guild have been painted in a camoflaged patter of greys
+and black.  Looking closely, you can see that several cubby holes have also
+been carved into the walls.  Obviously, this whole arrangement's purpose is
+guild defense, the niches in the walls would make ideal ambush spots.  A
+stairway down leads to the training room.
+  }
+  flags { indoors }
+  exits {
+	to { s, 119 }
+	to { d, 190 }
+  }
+}
+
+190
+{
+  name { The Cellar }
+  desc {
+"  It's very dark in here; you stubble down the stairs and look around.  In
+the dim light, you notice that the room is irregularly shaped, and is filled
+with all sorts of sprug booby-traps.  You wonder how many are left unsprung.
+Stairs lead up.
+  }
+  flags { indoors }
+  exits {
+	to { u, 189 }
+  }
+}
+
+191
+{
+  name { The Slippery Token Tavern }
+  desc {
+"   Welcome stranger!  Welcome to the Slippery Token, known across the realm for
+our savory taste in draught and games.   Have a seat, but keep one hand on your
+purse; the management takes no responsibility for lost or damaged goods
+(including your person) during your stay.
+  }
+  flags { indoors }
+  exits {
+	to { w, 117 }
+  }
+}
+
+192
+{
+  name { Entrance to the Assassin's Guild }
+  desc {
+"   The walls here have been painted jet black.  After a close examination, you 
+discover that they are also covered with small cubby-holes, easy ambush 
+hide-aways.  You have no doubt that this whole scheme is designed with guild-
+defense in mind.  A hole in the floor leads to your guildmaster's lair.
+  }
+  flags { indoors }
+  exits {
+	to { e, 117 }
+	to { d, 193 }
+  }
+}
+
+193
+{
+  name { The Guildmaster's Lair }
+  desc {
+"   Here to, all the walls have been painted black.  Wait, no.....it's something
+more.  It's almost as if the 'blackness' itself emanates from your guildmaster.
+In the dark, you are surprised that you can see him, yet there he is.
+  }
+  flags { indoors }
+  exits {
+	to { u, 192 }
+  }
+}
+
+194
+{
+  name { Mothin's House of Pleasure }
+  desc {
+"   The walls here are covered by a think, red velvet.  A rich, shag carpet
+cushions your feet.  The place might actually be homey if it weren't for
+the outlandish clashing of decor and the pornography displayed on the walls.
+An ornate set of doors lead back to the south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 120 }
+  }
+}
+
+195
+{
+  name { Entrance to the Ninja's Guild }
+  desc {
+"   Not surprisingly, the walls here are panneled black panneling.  The north
+and south walls are also adorned with red, silk banners.  A display-case
+filled with all sorts of ceremonial armor and weapons sits in the center of
+the room.  You also notice that small hand-holds have been cut into the east
+wall.  You have little doubt that they lead upward, to the ninja's training
+facilities.
+  }
+  flags { indoors }
+  exits {
+	to { w, 115 }
+	to { u, 196 }
+  }
+}
+
+196
+{
+  name { The Training Room }
+  desc {
+"   The room is simple stone-work, completely devoid of any decoration.  A
+weapons-rack stands against the far wall.  You have little doubt that your
+up-coming training will be difficult, but you are determined to make your
+sensee proud.
+  }
+  flags { indoors }
+  exits {
+	to { d, 195 }
+  }
+}
+
+197
+{
+  name { Entrance to the Druid's Guild }
+  desc {
+"   Finally, a room without simple, black as a decor!  The walls of the druid's
+guild have been left their natural, granite color.  In addition, they have
+been ornamented with gold and green tapestries, depicting honorable deeds
+of sacrifice and chairity.  A circular portal carved in the south wall leads
+to the druid's practice yard.  There is a small, bronze plaque by the door.
+  }
+  extra {
+	keywords { plaque" }
+	desc { "
+WELCOME TO OUR SANCTUARY
+
+We have chosen this place
+only to prove to the good
+people of Tagol that even
+here, amongst the filth
+and squalor of sin, good
+may triumpth.  This is the
+home of the misguided, and
+we, by example, hope to
+guide them back to the light
+of rightousness.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 115 }
+	to { s, 198 }
+  }
+}
+
+198
+{
+  name { The Practice Yard }
+  desc {
+"   You step outside into a large, outdoor yard.  Wait! You just forgot that
+you're actually under a mountain...you can't be outside.  Ahhhh, you realize
+that some powerful magic must be giving the illusion of the trees, the fresh
+air, and the grass beneath your feet.  It's a very welcome illusion.  A
+portal north leads back to reality.
+  }
+  flags { indoors }
+  exits {
+	to { n, 197 }
+  }
+}
+
+199
+{
+  name { The Weapons Shoppe }
+  desc {
+"   The Rogue's Square Weapon Shoppe boast to have the best suppy of heavy
+weapondry in Tagol.  Given their location, you assume that they need it just
+to keep their stock intack.  The walls are covered with sharp, angled, pointy,
+barbed, and ridged things...all of which look very painful.  The only exit is
+to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 112 }
+  }
+}
+
+200
+{
+  name { The Bat's Toe Inn }
+  desc {
+"   Ah! Home sweet home!  This place looks like it's recently been victim to
+a particularl vicious bar-room brawl.  What must have been marvelous
+tapestries hang in ribbons, and most of the furniture is in pieces, or is
+mended with rope and tar.  None the less, it's an inn, and you're thankful
+for it.  Stairs lead upward to the reception, and an exit to the north leads
+out of the inn.
+  }
+  flags { indoors }
+  exits {
+	to { n, 111 }
+	to { u, 201 }
+  }
+}
+
+201
+{
+  name { The Receptionist }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { d, 200 }
+  }
+}
+
+202
+{
+  name { First Bank of Tagol }
+  desc {
+"   The walls here are oak pannelled and are inlaid with gold.  The decor gives
+you a feeling of both opulence and security.  You have no doubt that your
+funds will be in safe hands here.  An exit to the north leads outside of the
+bank.
+  }
+  flags { indoors }
+  exits {
+	to { n, 86 }
+  }
+}
+
+203
+{
+  name { The Magic Shop }
+  desc {
+"   This shop has a particular odor to it...you guess it's the result of so
+many incantations taking place in such a confined area.  Rather than leaving
+his wares out in a display case, the wizard has left a small note, listing
+all she has to offer.  Type 'list' to see what you can buy.
+  }
+  flags { no_magic }
+  exits {
+	to { n, 88 }
+  }
+}
+
+204
+{
+  name { Entrance to the Mage's Guild }
+  desc {
+"   The walls here have been left as their natural, stone color.  A large
+circle, ornamented with candles and brass stakes, has been painted in the
+center of the room.  It's purpose is lost on you, perhaps it's some kind
+of ward or summoning device.
+  }
+  flags { indoors }
+  exits {
+	to { e, 205 }
+	to { s, 88 }
+  }
+}
+
+205
+{
+  name { The Wizard's Study }
+  desc {
+"   Your guildmaster sits behind her desk, slowly writing an incantation in
+her huge book of spells.  All sorts of tapestries adorn the walls.  While
+they appear to be just for decoration, you realize that they must also carry
+some powerful spells.  An exit west leads back to the entrance to the guild.
+  }
+  flags { indoors }
+  exits {
+	to { w, 204 }
+  }
+}
+
+206
+{
+  name { Floating on a cloud }
+  desc {
+"   You bask in the sunlight, floating high above the realm on a magnificent,
+puffy, white cloud.  The sky is as blue as can be, and below, you hear the
+chirping of a pair of love birds.  A hole in the northern face of the cloud
+leads elswhere, or, you could climb up the cloud to greater heights.
+  }
+  flags { indoors }
+  exits {
+	to { n, 89 }
+	to { u, 207 }
+  }
+}
+
+207
+{
+  name { A shimmering cloud }
+  desc {
+"   This is your guild, and (of course) the clouds are an illusion.  Still,
+you must say that your guildmaster has wonderful taste.  The cloud is touched
+with a bit of orange, reflected from a distant sunset.  The sky is a bit
+purple, fading to red at the horizon.  An exit down leads to a smaller cloud.
+  }
+  flags { indoors }
+  exits {
+	to { d, 206 }
+  }
+}
+
+208
+{
+  name { Kinsil's Shoppe of Amazing Wonders and Collectables }
+  desc {
+"   The walls of this shoppe have been magically enhanced.  They swim with
+varying colors, which seem to change if you look at them too long.  Kinsil's
+shoppe is filled with boxes of assorted items.  Disply cases showcase some
+of the more exotic wares for sale. 
+  }
+  flags { nosteal, no_magic }
+  exits {
+	to { e, 92 }
+  }
+}
+
+209
+{
+  name { The hospital waiting room }
+  desc {
+"   The waiting room is filled with people with minor cuts, bruises, and the
+occasional broken bone.  Most of the 'wounds' in here don't look too serious.
+You hope that you don't have to wait long; you have some serious adventuring
+to get down to!  The treatment center lies to the north.
+  }
+  flags { indoors, peaceful, nosteal }
+  exits {
+	to { n, 210 }
+	to { s, 53 }
+  }
+}
+
+210
+{
+  name { The infirmary }
+  desc {
+"   A small table in th corner of this room is host to a variety of steel-
+plated tools and implements.  You're beginning to have second thoughts about
+this 'healing' stuff.  But, your adventures await, so you'll just have to
+grit your teeth and hope everything comes out all right.  For the weak of
+heart, there's an exit to the south.
+  }
+  flags { indoors, peaceful, nosteal }
+  exits {
+	to { s, 209 }
+  }
+}
+
+211
+{
+  name { w }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { w, 45 }
+  }
+}
+
+212
+{
+  name { Antechamber of the Tagolic House of Neutrality (Non-denominational) }
+  desc {
+"   The stucco walls of the temple seem to radiate warmth and affection.  The
+chamber, which extends to the south, has been carpeted with a lush, cream
+colored rug, which sets off the earth-colored stucco quite nicely.  A portal
+leads north, to the outside.
+  }
+  flags { indoors, peaceful, nosteal }
+  exits {
+	to { n, 60 }
+	to { s, 213 }
+  }
+}
+
+213
+{
+  name { The Worship Hall }
+  desc {
+"   The southern end of the worshiping chamber is dominated by a tremendous
+stone alter.  A golden spike has been driven vertically into the alter. Atop 
+which balances a golden globe.  The chamber extends to the north.
+  }
+  flags { indoors, peaceful, nosteal }
+  exits {
+	to { n, 212 }
+  }
+}
+
+214
+{
+  name { The Alter of Neutaltion (Non-denominational) }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { n, 213 }
+	to { e, 215 }
+  }
+}
+
+215
+{
+  name { The Reliquary }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { w, 214 }
+  }
+}
+
+216
+{
+  name { Tagolic House of Neutrality Information Booth }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { n, 61 }
+	to { w, 213 }
+  }
+}
+
+217
+{
+  name { 44717 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+218
+{
+  name { 44718 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+219
+{
+  name { Totem Road }
+  desc {
+"   This part of the road is rather deserted.  There are no shoppes lining its
+sides, and very few people.  The granite road beneath your feet is hard, and
+not an ideal surface for long walks.  You hope you find something interesting
+soon.
+  }
+  flags { indoors }
+  exits {
+	to { e, 118 }
+	to { w, 220 }
+  }
+}
+
+220
+{
+  name { Totem Road }
+  desc {
+"   This is the western edge of Totem Road.  The streets here are nearly
+deserted.  Looking around, you get an icy feeling in your stomach.  There's
+a small, green booth to the south, but what reall gets your attention is
+a twisted, metal tower rising to the north.  The tower is build on a slight
+slant, and is covered with metallic thorns, prongs, and blades.  The tilt
+of the tower is just enough to make you feel off balance.  Totem road 
+continues to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 223 }
+	to { e, 219 }
+	to { s, 243 }
+	to { w, 222 }
+  }
+}
+
+221
+{
+  name { Totem Road }
+  desc {
+"
+  }
+  flags { indoors }
+  exits {
+	to { e, 220 }
+	to { w, 222 }
+  }
+}
+
+222
+{
+  name { Inside the Western Gate }
+  desc {
+"   Because of the thickness of the surrounding wall, the gate seems more like
+a room than a portal.  There are two sets of double doors here, one for each
+side of the wall.  You are standing in the twelve feet of empty space between
+the two gates.  Looking closely, you notice that the inner gates have been
+locked open; apparently only the outer gates are used in times of peace.  
+Totem road leads to the east and west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 220 }
+  }
+}
+
+223
+{
+  name { Outside the Tagolic Tower of Evil }
+  desc {
+"   The jagged tower before you reaches up like a claw, pointing accusingly at
+the heavens.  The closer you get to it's maw-like opening, the more you're 
+overcome with a sence of what true evil is.  To your east, a smaller, but
+just as obscene, building smoulders in the shadow of it's neighbor.  This
+must be the Avenger's Guild.  A path to the south leads to Totem Road.
+  }
+  flags { indoors }
+  exits {
+	to { n, 224 }
+	to { e, 313 }
+	to { s, 220 }
+  }
+}
+
+224
+{
+  name { The Tower's Foyer }
+  desc {
+"   The foyer is round in shape, with a metal, spiral-staircase ascending into
+the tower's sacrificial chamber.  The walls a black, and are covered with a
+red, unfamiliar writing.  A passage south leads outside.
+  }
+  flags { indoors }
+  exits {
+	to { s, 223 }
+	to { u, 225 }
+  }
+}
+
+225
+{
+  name { The Sacrificial Circle }
+  desc {
+"   The walls here seem to be moving.  Wait! They are moving!!  The walls
+here are covered by a hedge of black, thorny vines.  The vines are growing
+and pulsating before your very eyes; the growth is so thick that you can't 
+see the walls in most places.  Every now and then, a tendril reaches out for
+some bystander.  On the floor, a pentagram has been drawn in blood.  The
+blood is still wet, but how?  You hear a moan from above, and rejoice as you
+see hundreds of innocents, their bodies pinned to the ceiling by the same
+vines that fester along the walls.  The thorns pierce the victims' bodies,
+their blood dripping from the wounds and falling to the floor, keeping the
+sacrifical pentagram fresh with the blood of the good.  You can hear the
+moans and screams of agony from the tortured souls above.  A stairway down
+leads to the tower's foyer.
+  }
+  flags { indoors }
+  exits {
+	to { n, 226 }
+	to { d, 224 }
+  }
+}
+
+226
+{
+  name { The Alter of Hatred }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { s, 225 }
+  }
+}
+
+227
+{
+  name { Entrance to the Avenger's Guild }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { n, 220 }
+	to { s, 220 }
+	to { d, 228 }
+  }
+}
+
+228
+{
+  name { The Black Alter }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { u, 227 }
+  }
+}
+
+229
+{
+  name { Entrance to the Cleric's Guild }
+  desc {
+"   The walls here have been covered with a thin, oak lattice-work.  The
+effect is economical, yet pretty.  You imagine that his must be the
+undergound equivlant of stained-glass windows.  A portal to the east
+leads back to the Heartroad, while a modest ladder up leads to the
+cleric's inner sanctum.
+  }
+  flags { indoors }
+  exits {
+	to { e, 102 }
+	to { u, 230 }
+  }
+}
+
+230
+{
+  name { The Cleric's Inner Sanctum }
+  desc {
+"   Here the walls are devoid of all decoration.  A small, stone alter rests
+in the middle of the room.  You understand that you are to rid your mind
+of thoughts of this world, and concentrate on the divine.
+  }
+  flags { indoors }
+  exits {
+	to { d, 229 }
+  }
+}
+
+231
+{
+  name { Entrance to the Tagolic House of Virtue }
+  desc {
+"   The bricks of this hall interlock in a lattice-like pattern.  Since there's
+no sun, you guess that the patterns are the Dwarven equivilant of stained-
+glass windows.  A small hedge of roses grows at the base of the northern and
+southern walls; they must be magically enhances to live without direct light.
+The high arching ceiling of the hallway paradoxally gives you both a feeling
+of awe and comfort.  The House of virtue countinues to the east.
+  }
+  flags { indoors, peaceful, nosteal }
+  exits {
+	to { e, 232 }
+	to { w, 102 }
+  }
+}
+
+232
+{
+  name { The nave }
+  desc {
+"   A narrow, carpeted path cuts between two sections of pews.  In the center
+of the hall rests a fairly large alter and podium.  You guess that this is
+where the Dwarven Priests preach the rites of virtue to their chruch.  In
+front of the poduim, the carpeted path splits to the east and west.  There
+is also a chamber beyond the podium, to the east.
+  }
+  flags { indoors, peaceful, nosteal }
+  exits {
+	to { n, 234 }
+	to { e, 235 }
+	to { s, 233 }
+	to { w, 102 }
+  }
+}
+
+233
+{
+  name { The martyr's shine }
+  desc {
+"   About a dozen stone urns mark the resting places of the first priests of
+the Tagolic Order of Virtue.  Many of those resting here gave their lives
+to the spreading of the faith, and this memorial is dedicated to them.  A
+portal to the north leads back to the nave.
+  }
+  flags { indoors, peaceful, nosteal }
+  exits {
+	to { n, 232 }
+  }
+}
+
+234
+{
+  name { The hero's shrine }
+  desc {
+"   Hundreds of candles and copper urns have been placed here as a memorial to
+those brave adventurers who have given their lives defending the rites of
+virtue.  The walls are adorned with portraits, and an occasional statue or
+bust.  The shrine is quite serene, and is free from the blood and chaos of 
+the battlefield with each of these warriors knew so well.  The church's main
+hall is to the south.
+  }
+  flags { indoors, peaceful, nosteal }
+  exits {
+	to { s, 232 }
+  }
+}
+
+235
+{
+  name { Alter at the believer's shrine }
+  desc {
+"   A polished stone alter has been placed by the eastern wall of this chamber.
+A wreath of roses, magically protected against the ravages of time, has been
+placed here as a tribute to the thousands of people who have followed the
+rites of Virtue, despite the bitter trials of their life.  True virtue
+requires sacrifice, and this memorial is dedicated to those who accepted and
+embraced this sacrifice.
+  }
+  flags { indoors, peaceful, nosteal }
+  exits {
+	to { w, 232 }
+  }
+}
+
+236
+{
+  name { 44736 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+237
+{
+  name { 44737 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+238
+{
+  name { 44738 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+239
+{
+  name { 44739 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+240
+{
+  name { Jah's Finely Crafted Ornaments }
+  desc {
+"   Looking at the ware before you, it's easy to see why Jah's craftmanship is
+so respected.  The items before you are utterly beautiful, but you doubt 
+they'd come in handy in a practical adventure.  Still, your vanity causes you
+to linger.
+  }
+  extra {
+	keywords { totem" }
+	desc { "
+                                W E L C O M E
+
+                                     T O
+               T H E   D W A R V E N   C I T Y   O F   T A G O L
+              Providing clean mountain living for three centuries
+
+
+            ----------------                         ----------------
+            NORTHEAST SQUARE                         SOUTHEAST SQUARE
+            ----------------                         ----------------
+            The Magic Shoppe                         General Provisions
+            The Mage's Guild                         The Pet Shoppe
+            The Illusionist's Guild                  The Cavalier's Guild
+            Kinsil's Shoppe of Amazing Wonders       The Adventurer's Guild
+            Jah's Finely Crafted Ornaments           The Ranger's Guild
+                                                     The Diamond Rose Inn
+
+Have a nice day, and be sure to look for other information totems like
+this one.
+	}
+  }
+  flags { no_magic }
+  exits {
+	to { e, 94 }
+  }
+}
+
+241
+{
+  name { Eastern Far Hop Terminal }
+  desc {
+"
+                             =============
+                             F A R - H O P
+                             =============
+
+                       Tagolic's Public Access
+                   Rapid Transit Teleportaion System
+
+                    -------------------------------
+                    E A S T E R N   T E R M I N A L
+                    -------------------------------
+                 Please step east if this is your stop.
+
+
+If you are travelling elsewhere, please wait for the teleportation
+mechanism to take effect.  Have a nice day. =)
+  }
+  flags { indoors }
+  tele { 120, 1, 245 }
+  exits {
+	to { s, 61 }
+  }
+}
+
+242
+{
+  name { Southern Far-Hop Terminal }
+  desc {
+"                             =============
+                             F A R - H O P
+                             =============
+
+                       Tagolic's Public Access
+                   Rapid Transit Teleportaion System
+
+                   ---------------------------------
+                   S O U T H E R N   T E R M I N A L
+                   ---------------------------------
+                 Please step west if this is your stop.
+
+
+If you are travelling elsewhere, please wait for the teleportation
+mechanism to take effect.  Have a nice day. =)
+  }
+  flags { indoors }
+  tele { 120, 1, 245 }
+  exits {
+	to { w, 35 }
+  }
+}
+
+243
+{
+  name { Western Far-Hop Terminal }
+  desc {
+"
+                             =============
+                             F A R - H O P
+                             =============
+
+                       Tagolic's Public Access
+                   Rapid Transit Teleportaion System
+
+                    -------------------------------
+                    W E S T E R N   T E R M I N A L
+                    -------------------------------
+                 Please step north if this is your stop.
+
+
+If you are travelling elsewhere, please wait for the teleportation
+mechanism to take effect.  Have a nice day. =)
+  }
+  flags { indoors }
+  tele { 120, 1, 245 }
+  exits {
+	to { n, 220 }
+  }
+}
+
+244
+{
+  name { Northern Far-Hop Terminal }
+  desc {
+"
+                             =============
+                             F A R - H O P
+                             =============
+
+                       Tagolic's Public Access
+                   Rapid Transit Teleportaion System
+
+                   ---------------------------------
+                   N O R T H E R N   T E R M I N A L
+                   ---------------------------------
+                 Please step east if this is your stop.
+
+
+If you are travelling elsewhere, please wait for the teleportation 
+mechanism to take effect.  Have a nice day. =)
+  }
+  flags { indoors }
+  tele { 120, 1, 245 }
+  exits {
+	to { e, 103 }
+	to { s, 61 }
+  }
+}
+
+245
+{
+  name { A juncture in the etheral plane }
+  desc {
+"          ================================================
+           _________   _______     __   __        ______
+          |      |  \  |      \   |  | |  | _____ |     \
+          |  ____|   \ |  --   \ _|_ |_|  |/     \|  -- |
+          |   _||  -  \|  __   /|___| _   |  O O  \  ___/
+          |  |  |  __  \  | \  \  |  | |  | \___/ /  |
+          |__|  |__| \__\_| |__|  |__| |__|\_____/|__|
+
+          ================================================
+                    -------------------------------
+                    C E N T R A L   J U N C T I O N
+                    -------------------------------
+
+      Stepping NORTH will connect you to :: NORTHERN TERMINAL
+      Stepping SOUTH will connect you to :: SOUTHERN TERMINAL
+      Stepping  EAST will connect you to :: EASTERN TERMINAL
+      Stepping  WEST will connect you to :: WESTERN TERMINAL
+
+Feel free to visit the Junction as long as you like.
+Have a nice day. =)
+  }
+  flags { indoors }
+  tele { 160, 1, 245 }
+  exits {
+	to { n, 244 }
+	to { e, 241 }
+	to { s, 242 }
+	to { w, 243 }
+	to { u, 247 }
+	  info { door }
+	  keywords { secret" }
+  }
+}
+
+246
+{
+  name { Falling through the colors }
+  desc {
+"   You leap upward and are caught up in the swirling tides of color. A
+sence of nausua fills you as you watch the world slip and turn at obscene
+angles around you.  You begin to get the sensation that you are falling.
+Falling towards something! YES! In the distance you can just make out.....
+  }
+  flags { indoors }
+  tele { 250, 1, Midgard:0 }
+}
+
+247
+{
+  name { A trans-space portal }
+  desc {
+"  One color pattern directly overhead seems to resemble a twisted door.
+  }
+  flags { indoors }
+  tele { 10, 1, 246 }
+}
+
+248
+{
+  name { A muddy road }
+  desc {
+strange that you'd find a muddy road inside a mountain.  Where could the
+water be coming from? Perhaps an undergound stream??
+  }
+  flags { indoors }
+  exits {
+	to { e, 35 }
+	to { w, 249 }
+  }
+}
+
+249
+{
+  name { A muddy street }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { e, 248 }
+	to { w, 250 }
+  }
+}
+
+250
+{
+  name { The muck }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { e, 249 }
+	to { w, 251 }
+  }
+}
+
+251
+{
+  name { By a huge metal pipe }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { e, 250 }
+	to { u, 252 }
+  }
+}
+
+252
+{
+  name { On the huge metal pipe }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { n, 254 }
+	to { s, 253 }
+	to { d, 251 }
+  }
+}
+
+253
+{
+  name { On the huge metal pipe }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { n, 252 }
+  }
+}
+
+254
+{
+  name { A junction at the pipe }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { n, 255 }
+	to { s, 252 }
+	to { w, 256 }
+  }
+}
+
+255
+{
+  name { On the huge metal pipe }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { n, 258 }
+	to { s, 254 }
+  }
+}
+
+256
+{
+  name { Entrance to the Tagol Sewer Control Office }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { e, 254 }
+	to { d, 257 }
+  }
+}
+
+257
+{
+  name { Tagol Sewer Control Office }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { u, 256 }
+  }
+}
+
+258
+{
+  name { A bend in the huge metal pipe }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { s, 255 }
+	to { w, 259 }
+  }
+}
+
+259
+{
+  name { By the west wall }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { e, 258 }
+	to { d, 260 }
+  }
+}
+
+260
+{
+  name { Inside the pipe }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { u, 259 }
+  }
+}
+
+261
+{
+  name { South Heart Shopping Center }
+  desc {
+"   The mall is a convenient store, a supermarket, and a department store
+all rolled into one.  There are several counters and booths, each selling
+differnt wares.  For your convenience, an index of all goods has been
+complied.  Type 'list' to view the index.
+  }
+  flags { indoors }
+  exits {
+	to { e, 45 }
+  }
+}
+
+262
+{
+  name { The Mayor's Office }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { e, 261 }
+  }
+}
+
+263
+{
+  name { Lobby of the Diamond Rose Inn }
+  desc {
+"   The lobby of the inn has been lighted by mystical means, rather than by
+torchlight.  The result is a much softer, warmer light, without that harsh
+burning odor.  There are also several potted plants lining the lobby walls,
+quite expensive to maintain when one lives inside a mountain.  The Inn's
+lounge is to the south.  An exit leading to Opal road is to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 72 }
+	to { s, 264 }
+	to { u, 265 }
+  }
+}
+
+264
+{
+  name { The Lounge }
+  desc {
+"   The room is dominated by an enormous bar, complete with a brass banister
+and built in coasters.  It's really quite a piece of work.  Booths and
+tables have been strategically placed throughout the room, designed 
+especially for your comfort.  An exit to the north leads back to the lobby.
+  }
+  flags { no_magic }
+  exits {
+	to { n, 263 }
+  }
+}
+
+265
+{
+  name { The Reception }
+  desc {
+"  A secretary sits behind her desk, filling out paperwork and assigning new
+guests to their rooms.  The floor here is covered with animal pelts, making
+it easy on the feet.  An exit down leads to the lobby.
+  }
+  flags { indoors }
+  exits {
+	to { d, 263 }
+  }
+}
+
+266
+{
+  name { A sidestreet }
+  desc {
+"  This is really more of a alley than a sidestreet.  It's covered with trash
+and grime.  The path leads north and south.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 267 }
+	to { s, 112 }
+  }
+}
+
+267
+{
+  name { A sidestreet }
+  desc {
+"   This part of the street is more of a tunnel; an annexation of the north
+wall forms walls to the east and west.  As a form of contempt, someone
+has carved a rather interesting runic graphitti in the west wall.  The
+graphitti depicts a small house with a dagger and shuriken superimposed on
+it.  The alley leads north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 268 }
+	to { s, 266 }
+	to { w, 269 }
+	  info { door }
+	  keywords { secret graphitti runes carving" }
+  }
+}
+
+268
+{
+  name { North Wall Road }
+  desc {
+"   The only exits from here are south and east.  The eastern exit leads
+you down wall road, while the southern exit follows a tiny, dirty alley.
+You expected the wall road to completely encircle the city, but now you
+realize that it probably only connects the gates with necessary 
+provisons stores.
+  }
+  flags { indoors }
+  exits {
+	to { e, 308 }
+	to { s, 267 }
+  }
+}
+
+269
+{
+  name { A dirt road }
+  desc {
+"   This road lacks paving of any sort.  That's very odd, all the other
+roads in Tagol had at least some kind of covering.  The road continues to
+the west, and meets up with a side street to the east.
+  }
+  flags { indoors }
+  exits {
+	to { e, 267 }
+	to { w, 270 }
+  }
+}
+
+270
+{
+  name { A dirt road }
+  desc {
+"   The road here is completely outside the city proper.  You can see just a
+few city rooftops to the east.  The path here is also littered with broken
+weapons, and is stained with blood.  The path continues east, and leads to
+a severe drop to the west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 269 }
+	to { w, 271 }
+  }
+}
+
+271
+{
+  name { The cliff }
+  desc {
+"   You are standing on the northern edge of a very steep, jagged cliff.
+There are similar cliffs to the west and south, but there is a dirt path
+leading to the east.  Looking down over the cliff, you can just make out
+a hardened lava flow, hundreds of feet below.  In some spots, the flow is
+laced with deep red cracks, it appears that this volcanoe isn't as inactive
+as the City Council thinks.  A thin rock bridge meets up with the cliff and
+stretches north.
+  }
+  flags { indoors }
+  exits {
+	to { e, 270 }
+	to { u, 273 }
+  }
+}
+
+272
+{
+  name { West Wall Road }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { e, 271 }
+  }
+}
+
+273
+{
+  name { On a narrow bridge }
+  desc {
+"   The bridge here is extremely damp, making walking hazardous at best.  
+To the north, it seems that the bridge runs into a solid wall, but looking
+closely, you can see a narrow fissure, almost hidden in this bad light.  The
+bridge meets up with a small plateau to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 274 }
+	to { d, 271 }
+  }
+}
+
+274
+{
+  name { A narrow fissure }
+  desc {
+"   As you slip into the narrow crack in the rock, a feeling of claustrophobia
+overcomes you.  Fighting against the urge to scream and pound against the
+walls, you survey your surroundings.  To the north, you can see what looks
+like a staircase.  A tiny, rock bridge leads to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 275 }
+	to { s, 273 }
+  }
+}
+
+275
+{
+  name { A black, shiny stairway }
+  desc {
+"   This stairway has been made from a black rock, and polished to a wonderous
+shine.  Putting your hand on the first stain, you find it to be as smooth as
+glass, but also as cold as ice.  The stairs are beautiful, but frightening at
+the same time.  There is a narrow fissure in the south wall that you might
+squeeze through, or you can take your chances on the stairs.
+  }
+  flags { indoors }
+  exits {
+	to { s, 274 }
+	to { u, 276 }
+  }
+}
+
+276
+{
+  name { The black gates }
+  desc {
+"   You stand before two two hugh polished stone gates.  A shuriken centered in
+a circle is inscribed on each gate.  The inscriptions look vaguely like
+pentagram's, but that could be a coincidence.  The gates are icy cold to the
+touch.  A stairway leads down to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 277 }
+	  key { 44501 }
+	  info { door }
+	  keywords { gates gate door doors stone black shiny" }
+	to { s, 275 }
+  }
+}
+
+277
+{
+  name { Entrance to the Hidden Fields }
+  desc {
+"   This is the entrance to what seems to be a small military operation.  The
+cavern here is small, but looks like it could be completely self-sufficient.
+You can see fields providing food and even stores selling baked goods.  The
+cavern is bowl shaped, with the walls creeping together to form a dome at the
+top.  Looking up at that dome, you see sky!  There is a large, star-shaped
+hole cut into the top of the dome.  The arms of the star are very long, so
+long that their points end about halfway down the side of the cavern walls.
+Judging by the corseness of the rock, and by the particular pattern of the
+hole, you guess that from the outside, this must look like any other
+mountain top, unless one got right on top of it.
+  }
+  flags { indoors }
+  exits {
+	to { n, 289 }
+	to { e, 288 }
+	to { s, 276 }
+	to { w, 278 }
+  }
+}
+
+278
+{
+  name { The gardens }
+  desc {
+"   You thnk it's sweet that even here, people can find time to plant a flower
+garden, but looking around, you notice that most of the plants here are
+sources of either hallucenigenic drugs or lethal poisons.  So much for the
+soft side of human nature.  The bakery is to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 279 }
+	to { e, 277 }
+  }
+}
+
+279
+{
+  name { Entrance to the Bakery }
+  desc {
+"   You are standing in front of a portal carved into the west face of the
+cavern.  A sign above the hole identifies it as the bakers.  Rows of corn
+stand to the north, and a small garden has been placed south of here.
+  }
+  flags { indoors }
+  exits {
+	to { n, 280 }
+	to { e, 289 }
+	to { s, 278 }
+	to { w, 310 }
+  }
+}
+
+280
+{
+  name { the Corn fields }
+  desc {
+"   The corn here is so high that you're afraid you might get lost.  
+Fortunately, it's also laid in nice, even rows.  If disaster ever does strike
+you're sure hat there will be plenty of food, but people here might get sick
+of a diet that consisted primarily of corn.  
+  }
+  flags { indoors }
+  exits {
+	to { n, 281 }
+	to { e, 290 }
+	to { s, 279 }
+  }
+}
+
+281
+{
+  name { The corrale }
+  desc {
+"   Various types of livestock are kept here.  You guess that they are kept
+in case some emergency forces the entire clan into hiding.  For now, the
+pigs, chickens, and cows here meander about in bliss.  A gate to the south
+leads to a large corn field, while the animal's grazig fields lie to the
+east.
+  }
+  flags { indoors }
+  exits {
+	to { e, 282 }
+	to { s, 280 }
+  }
+}
+
+282
+{
+  name { The grazing fields }
+  desc {
+"   The grass here has been clipped short from over-grazing.  Hence, it's also
+sharp, tough, and generally a pain to walk on.  The corrale, which houses the
+animals who graze on this field, lies to the west.  The entrance to the
+barracks in to the east, and the fountain is to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 283 }
+	to { s, 290 }
+	to { w, 281 }
+  }
+}
+
+283
+{
+  name { Entrance to the Barracks }
+  desc {
+"   You are standing by the north wall of the cavern.  A hole carved into the
+wall leads to some kind of sleeping quarters.  It seems that the surrounding
+countryside is devoted to farming.  A grass field lies to the south.  There's
+a barn to the east, and some more fields to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 311 }
+	to { e, 284 }
+	to { s, 291 }
+	to { w, 282 }
+  }
+}
+
+284
+{
+  name { The Barn }
+  desc {
+"   You assume that this barn is just a storage space for extra equipment.
+You can see crates of dried food, but also several racks of weapons and
+armor.  You wonder where they keep the animals, if not here.
+  }
+  flags { indoors }
+  exits {
+	to { s, 285 }
+	to { w, 283 }
+  }
+}
+
+285
+{
+  name { Entrance to Spave's Equalizers }
+  desc {
+"   The entrance to the weapons shoppe is actually a hole in the cavern's
+east wall.  You guess that the stores and buildings of the cavern were built
+this way in order to conserve space.  You wonder what kind of 'equalizers'
+Spave has for sale today.
+  }
+  flags { indoors }
+  exits {
+	to { n, 284 }
+	to { e, 312 }
+	to { s, 286 }
+	to { w, 291 }
+  }
+}
+
+286
+{
+  name { Entrance to the Hidden Guild }
+  desc {
+"   The guild before you is actually inside the cavern wall.  Right now, all
+you can make out is a stone pole of some kind.  A sign above the guild
+explains that this training room is open to all inhabitants of the cavern.
+A path north leads to the special weapons shoppe.  A natural water hole
+lies to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 285 }
+	to { e, 293 }
+	to { w, 287 }
+  }
+}
+
+287
+{
+  name { the Hidden Pool }
+  desc {
+"   Looking into the depths of the pool, you can see water bubbling from 
+underground.  This must the the water source for the hideaway.  It looks
+pretty convenient; it may even be the reason why this location was chosen for
+a hide-out in the first place.
+  }
+  flags { indoors }
+  exits {
+	to { n, 291 }
+	to { e, 286 }
+	to { s, 288 }
+	to { w, 289 }
+  }
+}
+
+288
+{
+  name { The vegatable gardens }
+  desc {
+"   Neat rows of tomatoes, cabbage, and plants you can't identify have been
+placed here.  Even in the scant sunlight of this cavern, the plants have
+managed to thrive.  The garden isn't big enough to sustain the population of
+this hide-away, so you guess that they must be here for emergency purpouses
+only.  The fields continue to the west, and lead to a pool to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 287 }
+	to { w, 277 }
+  }
+}
+
+289
+{
+  name { Star Road }
+  desc {
+"   Star road is made of a polished black stone.  The streets are sparse, you
+imagine that the few inhabitants of this hide-away are saving their strenght.
+You also think that this will be your new refuge as well.  Looking around,
+you see that the shoppes and buildings of this place are built into the cavern
+walls themselves.  The Bakery lies to the west, while a natural hot-spring
+lies the the east.  Star road leads north, toward a small, bubbling fountain,
+and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 290 }
+	to { e, 287 }
+	to { s, 277 }
+	to { w, 279 }
+  }
+}
+
+290
+{
+  name { Fountain at the Hidden Fields }
+  desc {
+"   A small, stone fountain has been carved from black stone here.  The stone
+have been polished to a shine; it catches the reflected light of the
+fountain in a hyptontizing manner.  The fountain is small, but essential for
+the existance of this colony.  Fields surround the fountain on all sides,
+except from the south; there lies a polished black road.
+  }
+  flags { indoors }
+  exits {
+	to { n, 282 }
+	to { e, 291 }
+	to { s, 289 }
+	to { w, 280 }
+  }
+}
+
+291
+{
+  name { A field }
+  desc {
+"   You are standing on the only unused patch of grass in the whole cavern.
+All around you, people are busy working, buying, selling, and resting.  To
+the north, you can see the entrance to the barracks.  A natural water-hole
+lies to the south, and the fountain and the weapons shoppe are to the west
+and east of you respectivly.
+  }
+  flags { indoors }
+  exits {
+	to { n, 283 }
+	to { e, 285 }
+	to { s, 287 }
+	to { w, 290 }
+  }
+}
+
+292
+{
+  name { 44792 }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { n, 291 }
+	to { e, 286 }
+	to { s, 287 }
+	to { w, 289 }
+  }
+}
+
+293
+{
+  name { The Training Room }
+  desc {
+"   A stone pole in the center of this room is covered with thorns, blades,
+chains and whips.  You can't imagine what it's used for, but it looks like 
+you're going to find out.  Here, out can learn skills that the conventional
+guilds don't dare to teach.
+  }
+  flags { indoors }
+  exits {
+	to { w, 286 }
+  }
+}
+
+294
+{
+  name { A filthy road }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { e, 114 }
+	to { w, 295 }
+  }
+}
+
+295
+{
+  name { A filthy road }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { e, 294 }
+	to { w, 296 }
+  }
+}
+
+296
+{
+  name { A four-way intersection }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { e, 295 }
+	to { w, 297 }
+  }
+}
+
+297
+{
+  name { Outside the west wall }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { e, 296 }
+	to { w, 298 }
+  }
+}
+
+298
+{
+  name { A filthy road }
+  desc {
+Empty
+  }
+  flags { indoors }
+  exits {
+	to { n, 299 }
+	to { e, 297 }
+  }
+}
+
+299
+{
+  name { Entrance to the Baazar at Tagol }
+  desc {
+don't forget the totem, Wasabe
+  }
+  flags { indoors }
+  exits {
+	to { s, 298 }
+  }
+}
+
+300
+{
+  name { An information booth }
+  desc {
+"   Stepping into the room, you are surprised by it's clean smell and neat,
+simple decor.  Steel-rod chairs surround an enormous mahogony desk, which
+dominates the room.  A large technical map hangs on the far wall.
+  }
+  flags { indoors }
+  exits {
+	to { e, 39 }
+  }
+}
+
+301
+{
+  name { Tagolic City Hall }
+  desc {
+"   The stone walls here are adorned with various ebony seals.  Each seal 
+seems to represent a particular guild or town profession; there are seals
+for each class, as well as for the transportation-guild and the waste-
+management-guild.  A final seal, that of an erupting volcano, has been placed
+at the center of the hall's domed ceiling.   Hallways lead away from the 
+chamber from the north and south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 305 }
+	to { e, 40 }
+	to { s, 302 }
+  }
+}
+
+302
+{
+  name { Tagol Foreign Affairs Department }
+  desc {
+"   A sign overhead indicates that the offices in this branch of the city hall
+are devoted to Tagol's relationship with outside civilization.  The walls
+are covered with various maps and charts, indicating tourism and immigration
+infomation.  Specific offices of the department are located to the east and
+west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 301 }
+	to { e, 304 }
+	to { w, 303 }
+  }
+}
+
+303
+{
+  name { Tourism Office }
+  desc {
+"   The walls of this room are covered with attractive, colorful posters
+advertising various scenic spots in the known world.  The posters carry
+slogans like: 'The Tagolic Lava Flows. Man, are they HOT!' and 'See Midguard,
+home of the Amber Rose Restraunt.'  Other than the posters, the office is
+rather drab, consisting of a small, stone desk and wicker waste-paper basket.
+  }
+  flags { indoors }
+  exits {
+	to { e, 302 }
+  }
+}
+
+304
+{
+  name { Immigration Office }
+  desc {
+"   The walls here are adorned with even more charts, graphs, and tables of 
+information.  Whoever works here must take their work very seroiusly.  A
+small stone desk, cluttered with unorderly piles of paper, sits by the
+north wall.  There is a small note on the desk.
+  }
+  extra {
+	keywords { note" }
+	desc { "                 TAGOLIC IMMIGRATION PROCEEDURE:
+
+In order to ensure the future prosperity of our great city, only
+those who have demonstrated financial stability may be granted 
+Tagolic Citizen status.  As a citizen, you will be granted special
+privilages, and will be allowed access to extra civil services.
+If you are interested in applying for citizenship, please type
+'list' and a clerk will assist you.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { w, 302 }
+  }
+}
+
+305
+{
+  name { The secretary's office }
+  desc {
+"   This room has a slighty different feel than the rest.  With a start, you
+realize that it's the floor....it's carpeted!  Now that you're used to it,
+it is a welcome change.  Other than the carpet, the most striking feature
+of this room is an enormous bookshelf lining the north wall.  The
+secretary's desk is marble, unlike the other, plainer desks of city hall.
+  }
+  flags { indoors }
+  exits {
+	to { s, 301 }
+	to { w, 306 }
+  }
+}
+
+306
+{
+  name { The Mayor's Office }
+  desc {
+"   The walls of this room have been lined with oak panelling; it's quite a
+relief, after staring at stones for so long.  The mayor's desk sits by the
+west wall.  It's absolutely huge - at least seven feet in length - and is
+nearly covered with assorted forms and papers.
+  }
+  flags { indoors }
+  exits {
+	to { e, 305 }
+  }
+}
+
+307
+{
+  name { 44807 }
+  desc {
+Empty
+  }
+  flags { indoors }
+}
+
+308
+{
+  name { North Wall Road }
+  desc {
+"   Perched on top of the wall, you have a great view of the city to the
+south.  It appears to be set up in a square pattern, with a small totem
+at the midpoint of each side.  Two roads connect the four totems, 
+dividing the town into four, smaller squares.  Right in the center of the
+town, the center totem spears upward into the darkness.  Wall road 
+continues to the east and west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 104 }
+	to { w, 268 }
+  }
+}
+
+309
+{
+  name { A dead end on the North Wall Road }
+  desc {
+"   You've hit a dead end.  Strangely, the wall in front of you is covered
+with tiny holes.  Too late, you look down and see that you have stepped on
+a trip plate.  In times of war, when the trap s set, this must prove to be
+quite frustrating to enemies of the city.  You wonder how many more of 
+these traps are lying around. (and if anyone forgot to disarm one of them!)
+  }
+  flags { indoors }
+  exits {
+	to { e, 104 }
+	to { w, 104 }
+  }
+}
+
+310
+{
+  name { The bakery }
+  desc {
+"   The wares here are pretty plain; most of them are corn based and not too
+tasely.  None the less, you're sure that they'd make terrific iron rations,
+and survival takes a higher priority than taste.  A passage east leads back 
+to the cavern.
+  }
+  flags { indoors }
+  exits {
+	to { e, 279 }
+  }
+}
+
+311
+{
+  name { The Barracks }
+  desc {
+"   The room is lined with nearly a hundred small, wood and wool cots.  Nearby,
+you can hear the snoring of an old adventurer.  This isn't luxury by any 
+means, but it's safe, and that's good enough for you now.  A passage south
+leads back to the cavern.
+  }
+  flags { indoors }
+  exits {
+	to { s, 283 }
+  }
+}
+
+312
+{
+  name { Spave's Equalizers }
+  desc {
+"  Gee, most of these weapons are unfamiliar to you.  Apparently, Spave likes
+to stock the state of the art and the exotic.  Many of the weapons on 
+display are carved with tiny magical symbols.  Your mouth starts to water
+when you think of the havok you could reap with such weapons.  Of course,
+such power comes at a price.  A portal to the west leads back to the passage.
+  }
+  flags { indoors }
+  exits {
+	to { w, 285 }
+  }
+}
+
+313
+{
+  name { Entrance to the Avenger's Guild }
+  desc {
+"   The far wall of this room is covered by an ancient silk tapestry, depicting
+a war between the gods.  the rest of the room is bare, except for a 
+complicated patter of candles surrounding a hole in the room's floor.  This
+must lead to your guildmaster.
+  }
+  flags { indoors }
+  exits {
+	to { w, 223 }
+	to { d, 314 }
+  }
+}
+
+314
+{
+  name { The sacrificial pit }
+  desc {
+"   Here too, the walls are void of decoration.  But, looking around, you get
+the feeling that some abhorrently evil presence lurks here.  A knotted rope
+leads up, to the entrance of the guild.
+  }
+  flags { indoors }
+  exits {
+	to { u, 313 }
+  }
+}
+
+315
+{
+  name { The Reception }
+  desc {
+"   Because of the incredible amount of consumer traffic running through the
+Heart daily, the City Council has decided that it would be a good itea to
+install some sort of lodging facility.  The accomodations here are modest, but
+clean, and sturdy.  An exit down leads back to the Heart.
+  }
+  flags { indoors }
+  exits {
+	to { d, 46 }
+  }
+}
+
+316
+{
+  name { The grocery }
+  desc {
+"   Here one can buy all the little essentials needed for daily life and
+adventuring.  A more exotic supply of equipment can be found at the
+Mountaineer's Provision's Shoppe, also located in the Southeast Square.
+An exit north leads out of the shoppe.
+  }
+  flags { indoors }
+  exits {
+	to { n, 73 }
+  }
+}
+
+317
+{
+  name { The blacksmith }
+  desc {
+"  The heat and smell of the air here burns your nostrils.  Several dwarven
+smiths and apprentices work in the far corner of the room.  The banging of
+hammer on steel is deafening.  An exit leads north, out of the building.
+  }
+  flags { indoors }
+  exits {
+	to { n, 139 }
+  }
+}

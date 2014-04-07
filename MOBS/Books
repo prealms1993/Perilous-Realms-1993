@@ -1,0 +1,171 @@
+960
+{
+     name { A Tome of Beginning Magic }
+     namelist { tome beginning magic }
+     long { A Tome of Beginning Magic lays here gathering dust. }
+     weight { 2 }
+     value { 2500 }
+     rent { 500 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+961
+{
+     name { A Tome of Advanced Magic }
+     namelist { tome advanced magic }
+     long { A Tome of Advanced Magic lays here gathering dust. }
+     weight { 2 }
+     value { 25000 }
+     rent { 4000 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+962
+{
+     name { A Master's Tome of Magic }
+     namelist { masters tome magic }
+     long { A Master's Tome of Magic lies here gathering dust. }
+     weight { 2 }
+     value { 50000 }
+     rent { 8000 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+963
+{
+     name { The Beginner's Book of Wisdom }
+     namelist { beginner's book wisdom }
+     long { A book entitled 'The Beginner's Book of Wisdom' lies here. }
+     weight { 2 }
+     value { 2500 }
+     rent { 500 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+964
+{
+     name { The Advanced Book of Wisdom }
+     namelist { advanced book wisdom }
+     long { A book entitled 'The Advanced Book of Wisdom' lies here. }
+     weight { 2 }
+     value { 25000 }
+     rent { 4000 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+965
+{
+     name { The Master's Book of Wisdom }
+     namelist { masters book wisdom }
+     long { A Master's Book of Wisdom lies here gathering dust. }
+     weight { 2 }
+     value { 50000 }
+     rent { 8000 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+966
+{
+     name { The Art of Defense }
+     namelist { art defense book }
+     long { A book titled 'The Art of Defense' lays here. }
+     weight { 2 }
+     value { 5000 }
+     rent { 1000 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+967
+{
+     name { The Art of Offense }
+     namelist { art offense book }
+     long { A book titled 'The Art of Offense' lays here. }
+     weight { 2 }
+     value { 9000 }
+     rent { 1000 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+968
+{
+     name { The Art of Healing }
+     namelist { art healing book }
+     long { A book titled 'The Art of Healing' lays here. }
+     weight { 2 }
+     value { 5000 }
+     rent { 1000 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+969
+{
+     name { The Art of Necromancy }
+     namelist { art necromancy book }
+     long { A book entitled 'The Art of Necromancy' lies here. }
+     weight { 2 }
+     value { 5000 }
+     rent { 1000 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+970
+{
+     name { A Book on The Use of Fire }
+     namelist { book use fire }
+     long { A Book concerning the Uses of Fire lies here under some trash. }
+     weight { 2 }
+     value { 5000 }
+     rent { 1000 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+971
+{
+     name { A Book on The Use of Electricity }
+     namelist { book use electricity }
+     long { A Book concerning the Uses of Electricity lies here under some
+     trash. }
+     weight { 2 }
+     value { 5000 }
+     rent { 1000 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+972
+{
+     name { A Book on The Use of Water }
+     namelist { book use water }
+     long { A Book concerning the Uses of Water lies here under some trash. }
+     weight { 2 }
+     value { 5000 }
+     rent { 1000 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+973
+{
+     name { A Book on Movement of Matter }
+     namelist { book movement matter }
+     long { A Book concerning the Movement of Matter lies here under some
+     trash. }
+     weight { 2 }
+     value { 5000 }
+     rent { 1000 }
+     type { component { uses { 500 }}}
+     bits { magic }
+     wear { take, hold }
+}
+

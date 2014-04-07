@@ -1,0 +1,25 @@
+SKILL KICK
+
+General Description:
+  The kick command attempts to kick the body of your oppenent.
+
+Chance of success:
+  If your kick skill exceeds
+     random(1,101) + 10 - (your oponents body armor/10)*2
+  you succed with the kick, otherwise you fail.
+
+Result of Success:
+  You damage your opponent for 2 * your level, with a maximum of 50 hp of
+  damage.
+
+Results of Failure:
+  No damage is done, but the action is considered violent (ie, start fighting).
+
+Restrictions:
+  You may not kick someone if more than 2 people are attacking you, or more
+  than 3 people are attacking your victim.
+
+  You may not type commands for 3 rounds regardless of the success or failure
+  of this command.
+
+  Kick may not be initiated in a peacful zone.

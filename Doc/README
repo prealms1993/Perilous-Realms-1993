@@ -1,0 +1,27 @@
+This is the documentation of DikuMUD. I have added some examples, on a form
+I'd like to get new areas on. Of course, we have to look through everything
+sent, carefully, before eventually adding it. To better the chances of 
+approval, your area should have an overall athmosphere, that melts well into
+the present world of AlexMUD. Also, of course, it should be quality building:-)
+(We are not very found of illogical things, like a lot of one way exits etc)
+Too powerful items will most likely not be approved on. Read the docs, even
+if they are not very good at all points. The most important ones, to building,
+are database.doc, dbsup.doc, and values.doc. To see how powerful a monster,
+of a certain level, should be, you can check defs.doc
+
+If the docs say 'DO NOT USE', etc, that most often means DO NOT USE!:-)
+However, some of the things ARE implemented, so I suggest you ask us, if in
+doubt.
+
+Any questions can be discussed, either on the game, or by mail.
+I can be reached at:
+	nv90-mho@nada.kth.se
+	     mho@alex.stacken.kth.se   or
+	mudadmin@alex.stacken.kth.se
+I can't promise I will be able to answer every question, but I WILL try...
+
+In the examples, I have substituted the zone number with ZZ. You too should 
+do this, to enable us to easilly fit the zone in, where we have free numbers.
+
+				
+					- Gimli

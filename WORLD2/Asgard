@@ -1,0 +1,122 @@
+
+0
+{
+  name { Asgard }
+  desc {
+"   You stand on a huge expanse of glass. Below you is the universe, in its
+ever-fluctuating state.  You stand in Asgard, home of the gods, frozen in
+its unchanging state.  A huge Mansion lies to the east.
+
+There is a strange looking postit note tacked to the wall with a bit of gum
+you may want to read it, it looks important.
+
+looking up you see the hall of the creators.
+
+
+  }
+  extra {
+	keywords { postit post it note sign weird" }
+	desc { "
+			>>>  Rules For Immortals  <<<
+
+ *     Read these periodically, as they are subject to change w/o notice.
+ *     Follow these rules strictly. Do not attempt to create loopholes due
+       to wording, etc.
+ *     Failure to follow the rules will result in demotion to level 1 with
+       lousy stats, and a permanant trip to the Abyss.
+
+        1 - The only help you may render a PC is advice. You may not give the
+		items, gold, experience, stats on items or MOBs, or cast
+		spells on them. Do not help them in fights either.
+	2 - Do not hinder PC's either, unless they are breaking rules/being
+		extremely obnoxious (repeated shouts, bad language *gasp*,
+		ordering multiple followers to shout (just purge/kill the
+		followers))
+
+	3 - If you play a mortal character that you had before you became an
+		Immortal, you may not aid it in ANY way. You must use this
+		character as if they were just a regular mortal.
+
+	4 - If you start a Test Character  once you become Immortal,then this
+		character  may not interact with the other normal  mortals.
+		This means, no grouping, no helping or hindering (see #1
+		and #2), and you better loot ALL corpses of MOBs you kill.
+		You may help an Test Char some, but you may not give them
+		equipment. Allowed help includes Restore/Healing them, or
+		other such spells that affect only your character.
+
+	5 - Do not bring MOBs with 'AGGRESSIVE' in their flags to town. This
+		includes so called 'WIMPY/AGGRESSIVES'.
+
+	6 - Do not run a 'Quest' w/o permission from Deth, Alcanzar, Kemper or
+		Zucan. Make sure they know ALL of the details, including what
+		'reward' there is going to be at the end.
+
+	7 - Do not give out explicit information about MOBs, Items, or Areas.
+		You may tell someone that something is Good/Bad, Hard/Easy,
+		or a similar vague response.(*NOT* good compared to anything
+		just good or bad).
+
+        8 - Do not kill monsters. Do not take monsters equipment.
+
+		If you have any questions, ask a level 2009 or 2010.
+
+     More rules may be coming, and may be made up on the spot by any 2009+
+     Promotions are given based on responsible behavior and writing areas
+     or new code.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 0 }
+	to { e, 1 }
+	to { s, 0 }
+	to { w, 0 }
+	to { u, 2 }
+	to { d, Midgard:0 }
+  }
+}
+
+1
+{
+  name { Valhalla }
+  desc {
+"  This is the huge Hall of Valhalla, where the Gods rule supreme.  The
+cavernous building stretches infinitely in all directions except up,
+which returns you to Asgard, and down, which takes you to the Market Square.
+  }
+  flags { indoors }
+  exits {
+	to { n, 1 }
+	to { e, 1 }
+	to { s, 1 }
+	to { w, 1 }
+	to { u, 0 }
+	to { d, Midgard:14 }
+  }
+}
+
+2
+{
+  name { The Hall of Creation }
+  desc {
+"  This is where the creators post all of the areas they are working on and
+exchange creation ideas with the higher gods of the world.
+
+  }
+  sector { Forest }
+  exits {
+	to { d, 0 }
+  }
+}
+
+200
+{
+  name { The Chat Room }
+  desc {
+"   You are lounging in a quiet cozy parlor, warmed by a gentle magical fire
+which twinkles happily in a warm fireplace.  There are no doors out.  Clearly
+the owner of this room needs none.
+  }
+  flags { indoors, private }
+}

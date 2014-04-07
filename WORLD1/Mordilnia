@@ -1,0 +1,4132 @@
+
+0
+{
+  name { Temple Road }
+  desc {
+"   Near the center of this long road, you look north and south for exits from
+this long, tiring expanse of cobbled pavement.  South of here, you see the
+inside of the MidWest gate, while southwest is its exit.  Southeast of here,
+you spy a humble temple.  To the northeast, however, a grand, majestic oak
+towers above the buildings of the city.
+  }
+  sector { City }
+  exits {
+	to { n, 1 }
+	to { s, darkenelfs_area:198 }
+  }
+}
+
+1
+{
+  name { Temple Road }
+  desc {
+"   As you walk the long, seemingly endless variety of cobblestones which
+make up this road, you notice a great vision of greenery to the east.
+Turning to look, you see a majestic, gargantuan tree...certainly the largest
+oak you've ever seen in a largely populated area.  It's singularity seems to
+make it some sort of symbolic presence, like a talisman of ultimate nature
+grasped cruelly in the stony talons of society.
+   The road continues from here, both to the north and the south.
+  }
+  sector { City }
+  exits {
+	to { n, 2 }
+	to { e, 21 }
+	to { s, 0 }
+  }
+}
+
+2
+{
+  name { Temple Road }
+  desc {
+"   You are standing on the Temple Road, which runs almost endlessly south
+of here, and beginning just to the north.  An equipment shop lies to the
+northeast, while you see a great oak to the southeast, filling the sky with
+its beautiful greenery.  You marvel at its size and its solidity, within the
+walls of an almost natureless city.
+  }
+  sector { City }
+  exits {
+	to { n, 3 }
+	to { s, 1 }
+  }
+}
+
+3
+{
+  name { Temple Road }
+  desc {
+"   You are standing on the northernmost end of Temple Road, leading from the
+inside of the NorthWest gate, just north of here.  The road continues south
+from here, finally meeting with South Street at its southern end.  East of
+here, you see the entryway to a small shop, which specializes in the selling
+of basic equipment for adventuring needs.
+  }
+  sector { City }
+  exits {
+	to { n, 4 }
+	to { e, 32 }
+	to { s, 2 }
+  }
+}
+
+4
+{
+  name { Inside the NorthWest Gate of Mordilnia }
+  desc {
+"   At the northwestern outskirts of town, the cobblestone road runs south
+along Temple Road, and east through Opal Court and Diamond Street.  What
+lies west, through the heavy iron gate and out of town, you'll not know
+untill you venture that way.
+  }
+  sector { City }
+  exits {
+	to { e, 6 }
+	to { s, 3 }
+	to { w, 5 }
+	  info { door, closed }
+	  keywords { gate" }
+  }
+}
+
+5
+{
+  name { Outside the NorthWest Gate of Mordilnia }
+  desc {
+Empty
+  }
+  sector { City }
+  exits {
+	to { e, 4 }
+	  info { door, closed }
+	  keywords { gate" }
+  }
+}
+
+6
+{
+  name { Opal Court }
+  desc {
+"   This semi-road, cobble stoned as is the rest of the city, heads north,
+toward the town wall, and the jewelry shop above.  Glancing westward, you
+see a gate leading out of town, while the scenery of the east flows toward
+the center of Mordilnia, and a bit past it.
+   The sounds of a forge can be heard nearby, and you wince at the deafening
+revertebrations of the hammer as it meets the anvil, sending a ringing sound
+through the streets, a sound not unlike that of heavy weaponry clashing
+furiously in battle.
+  }
+  sector { City }
+  exits {
+	to { n, 7 }
+	to { e, 9 }
+	to { w, 4 }
+  }
+}
+
+7
+{
+  name { Opal Court }
+  desc {
+"   You stand at the end of Opal Court, shadowed by the jewelry shop above;
+the building seemingly levitating in mid-air.  Upon closer inspection,
+however, you see that the building is built into the top of the wall
+surrounding Mordilnia, with a strong, steel frame stairway leading up to the
+front door of the establishment.
+   Though the cobbled stone street here is shadowed by the building above it,
+the stones have an almost supernatural polished gleam to them, as if
+advertising the wares bought and sold daily just atop the stair...
+  }
+  sector { City }
+  exits {
+	to { s, 6 }
+	to { u, 8 }
+  }
+}
+
+8
+{
+  name { Belmirek's Fine Jewelry }
+  desc {
+"   You stand in the typical shop of a jeweler; expensive carpeting, drapes,
+crystalline display cases displaying the wares, and a sense of monetary loss,
+even if nothing is bought or sold by you.
+   The cloving scent of incense floats lazily about the room, calming the
+mind and relaxing the muscles.  It, and the glittering gemstones, are the
+only things of serenity in the room.
+  }
+  flags { indoors }
+  exits {
+	to { d, 7 }
+  }
+}
+
+9
+{
+  name { Diamond Street }
+  desc {
+"   This is the westernmost end of Diamond Street.  Even farther west is
+Opal Court, and the NorthWest Gate.  The cobblestone street is covered in
+soot and ash, and the sounds of a forge can be heard, both coming from the
+blacksmithy to the south.  A cleaner section of the street can be found
+eastward.
+  }
+  sector { City }
+  exits {
+	to { e, 11 }
+	to { s, 10 }
+	to { w, 6 }
+  }
+}
+
+10
+{
+  name { The Blacksmithy }
+  desc {
+"   You stand inside the sooty workshop of Mordilnia's Blacksmith.  The
+walls and ceiling are blackened with heat and grime, giving you a good
+impression of a fiery dragon's lair.  The floor is constructed of cobbled
+stone, some of which has been worked loose over the years.  A large
+assortment of armours and weapons hang from the walls here, and a giant
+cauldron of cool, steel-quenching water lies in the center of the room,
+waiting to extinguish the metal's heat.
+  }
+  flags { indoors }
+  exits {
+	to { n, 9 }
+  }
+}
+
+11
+{
+  name { Diamond Street }
+  desc {
+"   The smell of roses, apples, and oranges wafts through the street here,
+coming from a beautiful courtyard to the north.  The cobblestones in this
+section of the street are so clean that they seem to have been polished with
+great care, but to the west the street is filthy with ashes and soot.  To
+the east, you see the town square.
+  }
+  sector { City }
+  exits {
+	to { n, 33 }
+	to { e, 12 }
+	to { w, 9 }
+  }
+}
+
+12
+{
+  name { The Mordilnia Town Square }
+  desc {
+"   At the center of town, you see that Mordilnia bustles with activity, as
+clouds of dust float lazily down the cobblestone street, marking the passing
+of many people.  Here in the the heart of the town, you can see the groups
+of establishments and small villas lining the streets.
+   Diamond Street leads west from here, Blackraven Avenue leads east, and
+Phantom Road leads south.  To the north, Wizard Way leads to the North Gate,
+and beyond.
+  }
+  sector { City }
+  exits {
+	to { n, 34 }
+	to { e, 39 }
+	to { s, 13 }
+	to { w, 11 }
+  }
+}
+
+13
+{
+  name { Phantom Road }
+  desc {
+"   The sun beats warmly down your back and on the street here.  A sense of 
+friendliness and good cheer fills the air.  The cobblestone road runs north,
+into the town square, and southward.  To the east, the sign of a small
+tavern catches your eye.
+  }
+  sector { City }
+  extra {
+	keywords { sign" }
+	desc { You see a wooden sign, hanging from above the doorway. It reads:
+   'Der Ratskeller's Bar and Grille'
+	}
+  }
+  exits {
+	to { n, 12 }
+	to { e, 14 }
+	to { s, 16 }
+  }
+}
+
+14
+{
+  name { Der Ratskeller's Bar and Grille }
+  desc {
+"   You sense an air of peace and well-being here, as this is the palace of
+drunken gossip and rest from adventure.  The hardwood floor is finely
+polished and still shines, though many heeled boots have tried to scar its
+surface in the past.  The building is illuminated by many small candles
+hanging from oaken pillars, giving the room a warm, cheery glow.  Many
+tables are sitting around the room, and a long, oaken bar sits against the
+far wall.
+  }
+  flags { indoors }
+  exits {
+	to { w, 13 }
+	to { u, 15 }
+  }
+}
+
+15
+{
+  name { The Inn of Der Ratskeller's }
+  desc {
+"   This room is made of finely polished wood, from which wafts a pleasant,
+and somewhat familiar smell.  The sconces holding the candles which illuminate
+the room are crafted from fine pewter, and the mahogany staircase leading
+down to the Bar looks well cared for.
+   A large tome rests on the desk here.
+  }
+  extra {
+	keywords { tome book" }
+	desc { This is the book used by the Innkeeper to take note of the names of those who
+stay at the Inn.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { d, 14 }
+  }
+}
+
+16
+{
+  name { Phantom Road }
+  desc {
+"   You stand on Phantom Road, which leads north and south from here.  To
+the west, you see The Apothecary Shop, where one can pay to have spells of a
+beneficial sort cast to restore health and vigor.  Northeast from here, you
+see Der Ratskeller's Bar and Grille, while The Executioner's Block lies to
+the southwest.
+  }
+  sector { City }
+  exits {
+	to { n, 13 }
+	to { s, 18 }
+	to { w, 17 }
+  }
+}
+
+17
+{
+  name { The Apothecary Shop }
+  desc {
+"   Standing in this humble building, you can see the vast amounts of holy
+articles which serve as the rooms decor.  Splendid portraits of ancient
+gods are hung neatly upon the walls, as well as intricately smithed golden
+candelabras which hold herb-scented, multicolored candles of a respected
+and lovely craft.  Vast, almost limitless tomes containing holy knowledge
+fill countless shelves, as well as statuettes depicting deities of every
+pantheon and creed.
+   At the front of the shop, for that is the true purpose of this otherwise
+saintly abode, sits a small, mahogany desk scarred by many years of loving
+use by quill and scroll.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { e, 16 }
+  }
+}
+
+18
+{
+  name { Phantom Road }
+  desc {
+"   You are standing on Phantom Road, which continues to the north.  The
+Executioner's Block lies west of here, and you see an Apothecary Shop to
+the northwest.
+  }
+  sector { City }
+  exits {
+	to { n, 16 }
+	to { w, 19 }
+  }
+}
+
+19
+{
+  name { The Executioner's Block }
+  desc {
+"   At the center of the intersection stands a large wooden stage of sorts.
+At the southern edge of the stage, you see a podium, its ebony surface a
+grim testament to the death which has been dealt here.
+   In the center of the wooden stage, a guillotine stands, solemnly waiting
+for its wicked blade to bite into flesh and bone.  Spectators of past
+decapitations have always gasped at the meaty thump of a severed head
+falling into the blood-lined interior of the bucket below.
+   East of here, you see Phantom Road.  East Avenue runs south into South
+Street from here, and oddly enough, you see an oak tree shading the grass of
+the Town Common to the west.
+  }
+  sector { City }
+  exits {
+	to { e, 18 }
+	to { s, 22 }
+	to { w, 20 }
+  }
+}
+
+20
+{
+  name { The Town Common }
+  desc {
+"   You stand on the soft, fragrant grasses of the Town Common, where those
+who seek rest or socialization often venture.  You see many indications of
+past loungings, such as soft indentations in the grass where someone has
+briefly taken seat for lunch or small talk.  Small, wild flowers grow in
+dense, well-distributed patches throughout the common, giving you a picture
+of simplistic beauty.
+   A great, towering oak resides west of here, shading that part of the
+common and providing an adequate place of slumber.  The only irony to these
+sights is the existance of the sadistic tool of death just east of here, a
+great chopping block for those of unruly nature.
+  }
+  sector { Field }
+  exits {
+	to { e, 19 }
+	to { w, 21 }
+  }
+}
+
+21
+{
+  name { At The Great Oak }
+  desc {
+"   You stand at the thick base of the gargantuan Great Oak.  Its trunk is as
+thick as any building in Mordilnia, a testimony to its great age.  None of the
+inhabitants know how or why it is here, but some have guessed that it was
+planted millennia ago by a wisened race of Druidic creatures, as a legacy of
+their passing, and some traveller set up camp at its base, eventually deciding
+to stay, building Mordilnia as a whole around this central figurehead of
+nature and beauty.  No one has dared bring blade against this tree, for some
+unspoken law, or perhaps a Druidic ritual, has forbade it.
+   The Town Common lies east of here, shaded by the branches of the oak, while
+the Temple Road is to the west.
+  }
+  sector { Forest }
+  exits {
+	to { e, 20 }
+	to { w, 1 }
+  }
+}
+
+22
+{
+  name { East Avenue }
+  desc {
+"   As you stand here, you see that East Avenue continues southward, to
+South Street, which eventually meanderes off into the Guild Roads.
+   North of here, you see The Executioner's Block, and shiver uncomfortably
+at the thought of your neck under the blade.  To the southeast, you see a
+sign claiming that the door beneath it leads to the Bank of Mordilnia.
+  }
+  sector { City }
+  exits {
+	to { n, 19 }
+	to { s, 23 }
+  }
+}
+
+23
+{
+  name { East Avenue }
+  desc {
+"   You are standing on East Avenue.  The street runs north, where you can
+see a guillotine at its end, and southward to South Street.  Glancing to the
+east, you see the reputable Bank of Mordilnia.
+  }
+  sector { City }
+  exits {
+	to { n, 22 }
+	to { e, 24 }
+	to { s, 25 }
+  }
+}
+
+24
+{
+  name { The Bank of Mordilnia }
+  desc {
+"   You stand in the lavishly furnished bank of Mordilnia.  Soft, leather
+upholstered couches line the walls, though they seem to show no signs of use,
+past or recent.  The carpeted floor and paneled walls, accompanied by the
+soft glow of the illuminating wall lamps suggest wealth and prosperity.  A
+single, barred window lies to the east, behind which the bank teller makes
+note of and executes all transactions.
+   Through the door to the west, you see East Avenue.
+  }
+  flags { indoors }
+  exits {
+	to { w, 23 }
+  }
+}
+
+25
+{
+  name { East Avenue }
+  desc {
+"   You stand on the southernmost end of East Avenue, which seems to lack any
+prominant features...at least any worth mention.  The roadway continues north
+and south from this point.
+  }
+  sector { City }
+  exits {
+	to { n, 23 }
+	to { s, 26 }
+  }
+}
+
+26
+{
+  name { Intersection: East Avenue and South Street }
+  desc {
+"   You stand at an intersection, looking intently at your surroundings for
+a hint of where you should travel.  East Avenue runs north from here,
+eventually to the infamous executioner's block.  South Street runs both
+west and east.  Along the westernmost section of te street, you see a few
+shops and other buildings, while eastward the road abruptly ends, meandering
+to the south, onto the Guild Roads.
+  }
+  sector { City }
+  exits {
+	to { n, 25 }
+	to { e, 27 }
+	to { w, 28 }
+  }
+}
+
+27
+{
+  name { South Street }
+  desc {
+"   You are at the eastern end of South Street, which continues to the west
+some distance untill merging with Temple Road.  Northwest of here lies East 
+Avenue, and to the south you see the famous Guild Roads - so named for 
+the almost central concentration of the guilds.
+  }
+  sector { City }
+  exits {
+	to { s, 43 }
+	to { w, 26 }
+  }
+}
+
+28
+{
+  name { South Street }
+  desc {
+"   The dust which comes up from your walking is thick here; this road is less
+travelled than the others.  It continues both to the east and west, turning
+north to the immediate east onto East Avenue.
+  }
+  sector { City }
+  exits {
+	to { e, 26 }
+	to { w, 29 }
+  }
+}
+
+29
+{
+  name { South Street }
+  desc {
+"   You stand on South Street, which continues to the east and west from here.
+The cobbled stones of this street seem to be less worn, as this area is not
+as often travelled as the other streets in the city.
+  }
+  sector { City }
+  exits {
+	to { e, 28 }
+	to { w, 30 }
+  }
+}
+
+30
+{
+  name { South Street }
+  desc {
+"   You stand on the western end of South Street, which runs east of here.
+To the north, Temple Road continues in that direction, with no end in sight.
+  }
+  sector { City }
+  exits {
+	to { n, 31 }
+	to { e, 29 }
+  }
+}
+
+31
+{
+  name { Temple Road }
+  desc {
+"   You are standing at the southernmost end of Temple Road.  Its rough,
+cobbled surface extends far to the north, and suddenly ends south of here,
+turning eastward on South Street.  To the northeast, you see the Temple of
+Mordilnia, just opposite the MidWest gate.
+  }
+  sector { City }
+  exits {
+	to { n, darkenelfs_area:198 }
+	to { s, 30 }
+  }
+}
+
+32
+{
+  name { Heimslan's Surplus Equipment Shop }
+  desc {
+"   You stand in a small, comfortable shop.  The stone floor has a few rugs
+thrown on it, so that wet or muddied adventurers have a spot to clean their
+boots.  Shelves line the walls here, lined and neatly packed with a great
+multitude of adventuring equipment; from bags to torches, and beyond.
+  }
+  flags { indoors }
+  exits {
+	to { w, 3 }
+  }
+}
+
+33
+{
+  name { In Front of the Villa }
+  desc {
+"   You stand in the front yard of this lavish courtyard.  There is a
+beautiful marble fountain of a dragon with water flowing from its mouth,
+positioned in the center of the walkway.  Large apple and orange trees line
+the sides of the building as you look at it, giving you a sense of peaceful
+splendor.
+   The fresh-cut lawn and exotic flowers show you that the owner of this
+place has much wealth.
+   Northward, through the marble support columns, is a large double door.
+  }
+  sector { City }
+  exits {
+	to { s, 11 }
+  }
+}
+
+34
+{
+  name { Wizard Way }
+  desc {
+"   Nearly in the center of town, you can hear, if not taste, the goings-on of
+the inhabitants.  The cobblestone road leads north, eventually out of town,
+and south, into the Town Square and beyond.
+  }
+  sector { City }
+  exits {
+	to { n, 35 }
+	to { s, 12 }
+  }
+}
+
+35
+{
+  name { Wizard Way }
+  desc {
+"   Here at the northernmost sector of town, you can still hear the sounds of
+the wilderness, mixed in with the more familiar bustlings of civilization.
+   To the north, a gate leads out of town, into the wilderness, and 
+southward, the road continues.
+  }
+  sector { City }
+  exits {
+	to { n, 36 }
+	to { s, 34 }
+  }
+}
+
+36
+{
+  name { Inside the North Gate of Mordilnia }
+  desc {
+"   You are inside the walls of the town, an unpaved dirt road leading north,
+and Wizard Way leading southward. The walls look strong and new, but are
+much weaker than those surrounding Midgaard.
+  }
+  sector { City }
+  exits {
+	to { n, 37 }
+	to { s, 35 }
+  }
+}
+
+37
+{
+  name { Outside the North Gate of Mordilnia }
+  desc {
+"   You are outside of the protective walls of Mordilnia, just south of here,
+and are exposed to the elements of the wilderness, so close to the haven of
+the town.
+  }
+  sector { City }
+  exits {
+	to { n, 38 }
+	to { s, 36 }
+  }
+}
+
+38
+{
+  name { On the Road to Mordilnia }
+  desc {
+"   You walk on an old dirt road, though it seems less abused here than it
+is farther north.  Either side of the road here is surrounded by thick
+shrubbery, which starts here and extends southward until it reaches the walls
+of Mordilnia.
+  }
+  sector { City }
+  exits {
+	to { n, 82 }
+	to { s, 37 }
+  }
+}
+
+39
+{
+  name { Blackraven Avenue }
+  desc {
+"   You stand at the beginning of Blackraven avenue, which heads east to the
+town square, and west to an eventual dead end.  Clouds of dust float close
+to the ground here, touching down on the cobbled stone street and lifting off
+again with the changes in the wind.
+   To the northwest, you see an alchemy shop.  The faint scent of sulphur and
+exotic spices wrestle with your sense of smell.
+  }
+  sector { City }
+  exits {
+	to { e, 40 }
+	to { w, 12 }
+  }
+}
+
+40
+{
+  name { Blackraven Avenue }
+  desc {
+"   Here, the scents of chemical and spice are nearly overpowering, and your
+hair at the base of your neck stands on end with the strong magical energy
+that is pulsating through the atmosphere.  Some sort of hallucigenic residue
+floats through the air here, for your vision blurs and colors change; from
+magenta to fuscia, to every visible color imaginable.
+   The sign of the shop to the north seems to waver and dance writhingly, and
+the cobbled stones beneath your feet seem to shift restlessly, as if they
+were tiny, sentient beings, set on carrying your weight with only their sheer
+size in numbers.  Then a fresh wind tugs at your face and through your hair,
+and all is normal in the world once again.
+  }
+  sector { City }
+  exits {
+	to { n, 42 }
+	to { e, 41 }
+	to { w, 39 }
+  }
+}
+
+41
+{
+  name { Blackraven Avenue }
+  desc {
+"   You are standing at the easternmost end of Blackraven Avenue, which stops
+here with the eastern town wall.  The street continues to the west from here,
+and to the immediate west you see a spiralling cloud of multicolored gases,
+just it front of the Alchemy Shop.  The source of these gases seems to be
+a ventillation pipe leading from the roof of the establishment.  Here, it is
+dead calm.
+  }
+  sector { City }
+  exits {
+	to { w, 40 }
+  }
+}
+
+42
+{
+  name { The House of Supreme Alchemy }
+  desc {
+"   As you stand in this dim, musty room, you discover that the cloying
+smells of exotic spices and strange chemicals are not as strong as they are
+out on the street.  In fact, this doesn't look to be a laboratory of any
+sort, so the room where the various potions and other oddities are made must
+be located in the back somewhere, with a ventillation shaft extanding above
+the shop.
+   Here, you see strange, arcane symbols attached to the walls here and there
+along with shelves full of bottled liquids and jarred powders.  A large,
+stone-carved counter lies in the center of the room, with neatly stacked
+papers and other secretarial paraphanelia lining its top.
+   To the south, you see the street.
+  }
+  flags { indoors }
+  exits {
+	to { s, 40 }
+  }
+}
+
+43
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing at the beginning of a mazelike procession of streets,
+which contain and are compromised of all the guilds of every profession.
+   The odd construction of these roads has never been fully understood...as
+if some deranged architect were put to the task of designing a trap of
+knowledge for the unwary.
+  }
+  sector { City }
+  exits {
+	to { n, 27 }
+	to { e, 44 }
+	to { s, 57 }
+  }
+}
+
+44
+{
+  name { The Guild Roads }
+  desc {
+"   Walking along the cobbled stone street, with the wind whipping through
+your hair, you notice a lone Knight standing before a majestic oaken door
+to the south.  The road leads east and west, but stops in either
+direction.  You feel boxed in for some unspecified reason...
+  }
+  sector { City }
+  exits {
+	to { e, 45 }
+	to { s, 56 }
+	to { w, 43 }
+  }
+}
+
+45
+{
+  name { The Guild Roads }
+  desc {
+"   You stand at the eastern corner of the northernmost block of the Guild
+Roads.  You wonder why the roads were not constructed as one, with the
+various guilds lining it, instead of its current configuration.
+   The road continues both to the west and the south, and you see the
+entrance to the Warriors' Guild to the southwest.
+  }
+  sector { City }
+  exits {
+	to { s, 46 }
+	to { w, 44 }
+  }
+}
+
+46
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on the Guild Roads, which twist and wind their way
+together in a strange, mysterious fashion.  To the north, the road ends, but
+turns to the west.  Southward, the road continues into an entryway of some
+sort, but turns eastward.  West of here, you see the entrance to the guild
+of Warriors.
+  }
+  sector { City }
+  exits {
+	to { n, 45 }
+	to { s, 47 }
+	to { w, 56 }
+  }
+}
+
+47
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on The Guild Roads, which continue to the north and the
+east, though both directions end with the town wall.  Where the road ends to
+the north, it turns westward, and where it ends to the east, it turns to the
+south.  An odd configuration of streets, if you ever saw one...
+   South of here is the Entryway to the Guild of Clerics, while to the
+northwest you see the Entryway to the Warriors' Guild.
+  }
+  sector { City }
+  exits {
+	to { n, 46 }
+	to { e, 48 }
+	to { s, 76 }
+  }
+}
+
+48
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on The Guild Roads, wondering how anyone could keep track
+of themselves through this barrage of mazelike roads.  The road heads east
+and west from here, ending in both directions but turning northward to the
+west and turning southward toward the east.  You hear cries of anger and
+frustration from somewhere on the roads...
+  }
+  sector { City }
+  exits {
+	to { e, 49 }
+	to { w, 47 }
+  }
+}
+
+49
+{
+  name { The Guild Roads }
+  desc {
+"   You stand on the northern corner of the eastern block of the Guild Roads.
+The road continues both to the west and to the south.  The southern stretch
+ends with the town wall, but turns westward once again, while just south of
+here lies the SouthEast gate, the only eastern gate in all of Mordilnia.
+  }
+  sector { City }
+  exits {
+	to { s, 50 }
+	to { w, 48 }
+  }
+}
+
+50
+{
+  name { Inside the SouthEast Gate of Mordilnia }
+  desc {
+"   You stand at the SouthEast gate of Mordilnia, a heavy oaken portal with
+overlapping iron bands for reinforcement.  It stands nearly three men tall,
+and looks to be a cumbersome thing to open.  Looking closely at its surface,
+you see that it has been hacked in several places, as if someone from the
+inside were trying to get out.
+   The Guild Roads continue north and south of here, the northern stretch
+turning westward as does the southern end.
+  }
+  sector { City }
+  exits {
+	to { n, 49 }
+	to { e, 80 }
+	  info { door, closed }
+	  keywords { gate" }
+	to { s, 51 }
+  }
+}
+
+51
+{
+  name { The Guild Roads }
+  desc {
+"   You stand on the southern corner of the eastern block of the Guild Roads.
+The road continues both to the west and to the north.  The northern stretch
+ends with the town wall, but turns westward once again, while just north of
+here lies the SouthEast gate, the only eastern gate in all of Mordilnia.
+  }
+  sector { City }
+  exits {
+	to { n, 50 }
+	to { w, 52 }
+  }
+}
+
+52
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on The Guild Roads, wondering how anyone could keep track
+of themselves through this barrage of mazelike roads.  The road heads east
+and west from here, ending in both directions but turning northward to the
+east and turning southward toward the west.  You hear cries of anger and
+frustration from somewhere on the roads...
+  }
+  sector { City }
+  exits {
+	to { e, 51 }
+	to { w, 53 }
+  }
+}
+
+53
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on The Guild Roads, which continue to the south and the
+east, though both directions end with the town wall.  Where the road ends to
+the south, it turns westward, and where it ends to the east, it turns to the
+north.  An odd configuration of streets, if you ever saw one...
+   North of here is the Entryway to the Guild of Clerics, while to the
+southwest you see the Entryway to the Guild of Thieves.
+  }
+  sector { City }
+  exits {
+	to { n, 76 }
+	to { e, 52 }
+	to { s, 54 }
+  }
+}
+
+54
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on the Guild Roads, which twist and wind their way
+together in a strange, mysterious fashion.  To the south, the road ends, but
+turns to the west.  Northward, the road continues into an entryway of some
+sort, but turns eastward.  West of here, you see the entrance to the guild
+of Thieves.
+  }
+  sector { City }
+  exits {
+	to { n, 53 }
+	to { s, 55 }
+	to { w, 72 }
+  }
+}
+
+55
+{
+  name { The Guild Roads }
+  desc {
+"   You stand at the eastern corner of the southernmost block of the Guild
+Roads.  You wonder why the roads were not constructed as one, with the
+various guilds lining it, instead of its current configuration.
+   The road continues both to the west and the north, and you see the
+entrance to the Thieves' Guild to the northwest.
+  }
+  sector { City }
+  exits {
+	to { n, 54 }
+	to { w, 69 }
+  }
+}
+
+56
+{
+  name { The Entryway to The Guild of Warriors }
+  desc {
+"   You are standing at the entryway of the Guild of Warriors; a guild of
+brute strength and instinct, a guild of people who revel in hacking the life
+out of their adversaries.
+   The roof above you is made of finely polished ceramic tile, while the
+walls are made of a hard, granite-like substance.  The southern door, which
+leads into the main room itself, is crafted of a sturdy wood which has been
+sanded and finished to a gleaming shine.  On either side of the door, exquisite
+marble columns as big around as an average sized tree hold up the ceiling
+above your head, so beautiful and yet so stonily strong and cold.
+  }
+  flags { indoors }
+  exits {
+	to { n, 44 }
+	to { e, 46 }
+	to { s, 75 }
+	to { w, 57 }
+  }
+}
+
+57
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on the Guild Roads, which twist and wind their way
+together in a strange, mysterious fashion.  To the north, the road ends, but
+turns to the west.  Southward, the road continues into an entryway of some
+sort, but turns westward.  East of here, you see the entrance to the guild
+of Warriors.
+  }
+  sector { City }
+  exits {
+	to { n, 43 }
+	to { e, 56 }
+	to { s, 58 }
+  }
+}
+
+58
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on The Guild Roads, which continue to the north and the
+west, though the northern stretch intersects with South Street, while west
+ends end with the town wall.  Where the road ends to the north, it turns
+westward, and where it ends to the west, it turns to the south.  An odd
+configuration of streets, if you ever saw one...
+   South of here is the Entryway to the Guild of Magic-Users, while to the
+northeast you see the Entryway to the Warriors' Guild.
+  }
+  sector { City }
+  exits {
+	to { n, 57 }
+	to { s, 66 }
+	to { w, 59 }
+  }
+}
+
+59
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on The Guild Roads, wondering how anyone could keep track
+of themselves through this barrage of mazelike roads.  The road heads east
+and west from here, ending in both directions but turning northward to the
+east and turning southward toward the west.  You hear cries of anger and
+frustration from somewhere on the roads...
+  }
+  sector { City }
+  exits {
+	to { e, 58 }
+	to { w, 60 }
+  }
+}
+
+60
+{
+  name { The Guild Roads }
+  desc {
+"   You stand on the northern corner of the western block of the Guild Roads.
+The road continues both to the east and to the south.  The southern stretch
+ends with the town wall, but turns both east and west, the western stretch
+leading to the SouthWest Gate of Mordilnia.
+  }
+  sector { City }
+  exits {
+	to { e, 59 }
+	to { s, 61 }
+  }
+}
+
+61
+{
+  name { The Guild Roads }
+  desc {
+"   Looking at the city from overhead, you would see that, at your present
+location, this side of the Guild Roads differs from the eastern side in that
+there is no gate here.  It lies south and west of here...another testament to
+the strangeness of the Roads' creator.  You can go north and south from here.
+  }
+  sector { City }
+  exits {
+	to { n, 60 }
+	to { s, 62 }
+  }
+}
+
+62
+{
+  name { The Guild Roads }
+  desc {
+"   You stand at the southern corner of the western block of The Guild Roads.
+The road continues to the north, west, and east.  The northern stretch ends 
+with the town wall, but turns eastward.  East of here, the road continues,
+but turns southward, while to the immediate west, the road makes a sharp turn
+southward, to the SouthWest Gate of Mordilnia.
+  }
+  sector { City }
+  exits {
+	to { n, 61 }
+	to { e, 67 }
+	to { w, 63 }
+  }
+}
+
+63
+{
+  name { The Guild Roads }
+  desc {
+"   You stand at the westernmost end of the Guild Roads.  The road leads back to
+the east, turning northward to the immediate east.  South of here, you see the
+SouthWest Gate of Mordilnia.
+  }
+  sector { City }
+  exits {
+	to { e, 62 }
+	to { s, 64 }
+  }
+}
+
+64
+{
+  name { Inside the SouthWest Gate of Mordilnia }
+  desc {
+Empty
+  }
+  sector { City }
+  exits {
+	to { n, 63 }
+	to { w, 65 }
+  }
+}
+
+65
+{
+  name { Outside the SouthWest Gate of Mordilnia }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 64 }
+  }
+}
+
+66
+{
+  name { The Entryway to The Guild of Magicians }
+  desc {
+"   You are standing at the entryway of the Guild of Magicians; a guild of
+arcane lore, ancient runes, and mysterious ways.  The sorcery which encircles
+this building leaves you in awe of its power, for you can taste an electricity
+in the air just standing here.
+   The roof above you is made of finely polished ceramic tile, while the
+walls are made of a hard, granite-like substance.  The western door, which
+leads into the main room itself, is crafted of a sturdy wood which has been
+sanded and finished to a gleaming shine.  On either side of the door, exquisite
+marble columns as big around as an average sized tree hold up the ceiling
+above your head, so beautiful and yet so stonily strong and cold.
+  }
+  flags { indoors }
+  exits {
+	to { n, 58 }
+	to { s, 68 }
+	to { w, 74 }
+  }
+}
+
+67
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on The Guild Roads, wondering how anyone could keep track
+of themselves through this barrage of mazelike roads.  The road heads east
+and west from here, ending in both directions but turning northward to the
+west and turning southward toward the east.  You hear cries of anger and
+frustration from somewhere on the roads...
+  }
+  sector { City }
+  exits {
+	to { e, 68 }
+	to { w, 62 }
+  }
+}
+
+68
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on The Guild Roads, which continue to the south and the
+west, though both directions end with the town wall.  Where the road ends to
+the south, it turns eastward, and where it ends to the ewst, it turns to the
+north.  An odd configuration of streets, if you ever saw one...
+   North of here is the Entryway to the Guild of Magic-Users, while to the
+southeast you see the Entryway to the Thieves' Guild.
+  }
+  sector { City }
+  exits {
+	to { n, 66 }
+	to { s, 71 }
+	to { w, 67 }
+  }
+}
+
+69
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on the Guild Roads, which continue to the east and west
+from here, both directions meeting with the wall and turning northward.  To
+the north, you can see the Entryway to The Guild of Thieves, while south of
+here is the South Gate of Mordilnia.
+  }
+  sector { City }
+  exits {
+	to { n, 72 }
+	to { e, 55 }
+	to { s, 78 }
+	to { w, 70 }
+  }
+}
+
+70
+{
+  name { The Guild Roads }
+  desc {
+"   You stand at the western corner of the southernmost block of the Guild
+Roads.  You wonder why the roads were not constructed as one, with the
+various guilds lining it, instead of its current configuration.
+   The road continues both to the east and the north, and you see the
+entrance to the Thieves' Guild to the northeast.
+  }
+  sector { City }
+  exits {
+	to { n, 71 }
+	to { e, 69 }
+  }
+}
+
+71
+{
+  name { The Guild Roads }
+  desc {
+"   You are standing on the Guild Roads, which twist and wind their way
+together in a strange, mysterious fashion.  To the south, the road ends, but
+turns to the east.  Northward, the road continues into an entryway of some
+sort, but turns westward.  East of here, you see the entrance to the guild
+of Thieves.
+  }
+  sector { City }
+  exits {
+	to { n, 68 }
+	to { e, 72 }
+	to { s, 70 }
+  }
+}
+
+72
+{
+  name { The Entryway to The Guild of Thieves }
+  desc {
+"   You are standing at the entryway of the Guild of Thieves; a guild of quick
+thinking and even quicker hands.  A guild where shadows are home and trust is
+impossible.
+   The roof above you is made of finely polished ceramic tile, while the
+walls are made of a hard, granite-like substance.  The northern door, which
+leads into the main room itself, is crafted of a sturdy wood which has been
+sanded and finished to a gleaming shine.  On either side of the door, exquisite
+marble columns as big around as an average sized tree hold up the ceiling
+above your head, so beautiful and yet so stonily strong and cold.
+  }
+  flags { indoors }
+  exits {
+	to { n, 73 }
+	to { e, 54 }
+	to { s, 69 }
+	to { w, 71 }
+  }
+}
+
+73
+{
+  name { The Room of Shadowed Pasts }
+  desc {
+"   The room is filled with a thick cloud of smoke, spewing forth from a
+large urn filled with exotic incense and dried spices.  The smoke and its
+pleasant odor do not fill you with dull, meditative thoughts.  Rather, they
+sharpen your senses, hone your instincts...make you slightly paranoid.
+   Instruments of the thieving trade line the walls and rest upon tables
+throughout the room, but you can tell they are not of high-quality; mere
+toys for trainees.  All is quiet here, as is the way of the silent and
+sure thief.
+  }
+  flags { indoors }
+  exits {
+	to { s, 72 }
+  }
+}
+
+74
+{
+  name { The Room of Magical Arts }
+  desc {
+"   You are standing in a large room, full of scrolls and inkwells, arcane
+runes and the like.  Large, oaken tables line the walls, cluttered with 
+unfinished scrolls and alchemaecal experiments.  Over in one corner of the
+room, a circle of candles containing a chalked pentacle lie undisturbed, a
+circle of summoning.  Large portriats of past mages unleashing powerful
+dweaomercraeft upon their foes hang on the walls, as do strange words of advice
+for powerful spells.
+  }
+  flags { indoors }
+  exits {
+	to { e, 66 }
+  }
+}
+
+75
+{
+  name { The Chamber of War }
+  desc {
+"   You stand in a fortress-like room, walled with reinforced iron, and
+adorned with a multitude of deadly and artfully crafted weapons.  Double-
+edged swords and serrated blades, as well as huge axes of war and weapons
+designed to literally crush the life out of one's opponent are carefully,
+and almost lovingly cleaned and displayed in museum-fasion in glass cases
+and velvet-lined chests.  Large, bulky suits of armor rest on quilted tables
+and crates, as well as some that have been put up on display.
+   The room is strangely clean, though that is due to the fact that if it
+were not, weapons and armor both would go to ruin in a dry heap of crimson
+rust and corrosion.
+  }
+  flags { indoors }
+  exits {
+	to { n, 56 }
+  }
+}
+
+76
+{
+  name { The Entryway to The Guild of Clerics }
+  desc {
+"   You are standing at the entryway of the Guild of Clerics; a guild of priests
+whom have devoted their lives to adventuring and the art of healing.  An aura
+of extreme holiness radiates from the walls of this place.
+   The roof above you is made of finely polished ceramic tile, while the
+walls are made of a hard, granite-like substance.  The eastern door, which 
+leads into the main room itself, is crafted of a sturdy wood which has been
+sanded and finished to a gleaming shine.  On either side of the door, exquisite
+marble columns as big around as an average sized tree hold up the ceiling
+above your head, so beautiful and yet so stonily strong and cold.
+  }
+  flags { indoors }
+  exits {
+	to { n, 47 }
+	to { e, 77 }
+	to { s, 53 }
+  }
+}
+
+77
+{
+  name { The Room of the Healing Arts }
+  desc {
+"   You stand within a small shrine, dedicated to no specific deity, yet to
+all gods known throughout the realms.  Marble arches and granite columns
+add to the grand scene of holiness, as does the gold and silver altar in
+the center of this vast room.  Clerics of every creed and social class
+kneel before the precious oracle, heads bowed in silent prayer, awaiting
+their magical reward for fufilling their religous duties.
+  }
+  flags { indoors }
+  exits {
+	to { w, 76 }
+  }
+}
+
+78
+{
+  name { Inside the Southern Gate of Mordilnia }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 69 }
+	to { s, 79 }
+	  info { door, closed }
+	  keywords { gate" }
+  }
+}
+
+79
+{
+  name { Outside the Southern Gate of Mordilnia }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 78 }
+	  info { door, closed }
+	  keywords { gate" }
+  }
+}
+
+80
+{
+  name { Outside the SouthEast Gate of Mordilnia }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 50 }
+	  info { door, closed }
+	  keywords { gate" }
+  }
+}
+
+81
+{
+  name { At The Altar }
+  desc {
+"   You stand before a stunningly white altar make of shimmering, polished
+marble.  Tapestries of long ago arorn the walls here, casting long shadows
+on the walls where they are positioned.  Looking over the balcony, you feel
+an extremely vivid rush of vertigo as you see the temple floor below.
+   The mahogany staircase leads downward, while bright rays of multicolored
+light flit playfully from its surface, reflected from the sunlight that floats
+down through the stained glass dome above.
+  }
+  flags { indoors }
+  exits {
+	to { d, darkenelfs_area:199 }
+  }
+}
+
+82
+{
+  name { The Road to Mordilnia }
+  desc {
+"   Just outside of the canopy of trees, your feet trod upon an ages old road,
+unpaved and eroded, leading south into the town of Mordilnia.  Perhaps the
+sign at the bridge is obsolete, for you see no sign of the bandits it warned
+of, not even an old footprint.
+  }
+  sector { City }
+  exits {
+	to { n, 83 }
+	to { s, 38 }
+  }
+}
+
+83
+{
+  name { A path through the woods }
+  desc {
+"   You are walking along a small, seemingly unused, woods path...  Branches
+and leaves litter the path on both sides and a large tree seems to have
+fallen over part of the path to the south...
+  }
+  sector { Forest }
+  exits {
+	to { e, 84 }
+	to { s, 82 }
+  }
+}
+
+84
+{
+  name { A path through a murky forest }
+  desc {
+"   There is an ominous whistling as the wind whips through the dead trees
+here.  Though they sport no leaves, the trees completely block out the sky
+as their branches interlock.  You neither see or hear any wildlife in this
+area, giving you the feeling that all is not well.  The path leads north, to
+a stone bridge, and west through the forest.
+  }
+  sector { Forest }
+  exits {
+	to { n, 85 }
+	to { w, 83 }
+  }
+}
+
+85
+{
+  name { The stone bridge }
+  desc {
+"   You are standing on the crumbling remains of an ancient stone bridge, 
+which spans the width of a wide but shallow stream.  The forest around you
+sways in unison with the breeze which pulls through your hair and clothing.
+   An ancient, weathered sign has been posted by the bridge.
+  }
+  sector { Forest }
+  extra {
+	keywords { sign" }
+	desc { An ancient, warped sign with an arrow carved into its surface, pointing the
+way south. The sign reads 'Beware: Bandits on path to Mordilnia...'
+	}
+  }
+  exits {
+	to { n, 86 }
+	to { s, 84 }
+  }
+}
+
+86
+{
+  name { A trail through the light forest }
+  desc {
+"   You stand at the beginning of a long path leading out of the forest, and
+eventually to the city of Mordilnia.  A gentle, but chilling breeze blows
+through the dark, heavy oaks which border the path, casting their sinister
+shadows over everything around.  The path continues southward, over a bridge,
+then curves toward the west.
+  }
+  sector { Forest }
+  exits {
+	to { n, 87 }
+	to { s, 85 }
+  }
+}
+
+87
+{
+  name { The Southern Boundary of Midgaard }
+  desc {
+"   You are in a green and fair valley amidst the gently murmuring oaks. The
+sun shines gently through the trees sending dancing, golden beams rippling
+across the shadowy grass while midges dance between the branches. A path
+leads southward, to a bridge and beyond, while civilization can be found to
+the north.
+  }
+  sector { Field }
+  exits {
+	to { n, 88 }
+	to { s, 86 }
+  }
+}
+
+88
+{
+  name { On a steep hill }
+  desc {
+"   You are at the crest of a steep hill overlooking a dilapidated bridge that
+crosses the river to the north.  Looking east you can manage to see over the
+walls of Midgaard and into the city.  South of here the road becomes little
+more than a path as it heads down into a valley.
+  }
+  sector { Hills }
+  exits {
+	to { n, 89 }
+	to { s, 87 }
+  }
+}
+
+89
+{
+  name { A decaying bridge }
+  desc {
+"   You have reached the remains of a bridge crossing the River of Midgaard.
+From here you can look upstream toward Midgaard and see where the river
+emerges from under the city wall.  The water, cold and dark, rushes through
+the narrow channel created by the bridge and the large stones that have
+fallen from the pilings.  The wood looks rotted and groans loudly with
+every step.  On the south side of the bridge the road rises suddenly up a
+steep bank.
+  }
+  sector { Forest }
+  exits {
+	to { n, 90 }
+	to { s, 88 }
+  }
+}
+
+90
+{
+  name { A Forest Road }
+  desc {
+"   Travel on this old road is difficult.  Here and there it is partially
+blocked by brambles that reach out and grab your clothing as you pass.  Deep
+ruts and large stones make you stumble.  A bit further south is the river,
+you can hear it from here.
+  }
+  sector { Forest }
+  exits {
+	to { n, 91 }
+	to { s, 89 }
+  }
+}
+
+91
+{
+  name { A Forest Road }
+  desc {
+"   The road is overgrown with weeds, and large roots catch at your feet.  The
+road continues south toward the river or north toward Midgaard.
+  }
+  sector { Forest }
+  exits {
+	to { n, 92 }
+	to { s, 90 }
+  }
+}
+
+92
+{
+  name { Wide Way Through the Forest }
+  desc {
+"   You are traveling a rather wide path along the forest edge west of
+Midgaard.  The path is actually the remains of an old road that once carried
+trade to and from the southern parts of the continent.
+   Few people travel this way nowadays... too dangerous.
+  }
+  sector { Forest }
+  exits {
+	to { n, Haondor_light:0 }
+	to { s, 91 }
+  }
+}
+
+93
+{
+  name { 18293 }
+  desc {
+Empty
+  }
+}
+
+94
+{
+  name { The Catacombs }
+  desc {
+"   You are standing in a small, subterranean chamber.  Set into the walls at
+regular intervals are deep recesses, within which lie the stone tombs of a
+generation long since departed.  A gentle breeze blows in from the passage to
+the north, while dark hallways lead south, east, and west.
+   A spiral staircase fills one corner of the room.
+  }
+  exits {
+	to { n, 94 }
+	to { e, 95 }
+	to { w, 94 }
+  }
+}
+
+95
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, darkenelfs_area:139 }
+	to { e, 96 }
+	to { s, 98 }
+	to { w, 94 }
+	to { d, 113 }
+  }
+}
+
+96
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 102 }
+	to { e, 99 }
+	to { s, 99 }
+	to { w, 95 }
+	to { d, 114 }
+  }
+}
+
+97
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 94 }
+	to { e, 98 }
+	to { s, 100 }
+	to { w, 100 }
+	to { d, 115 }
+  }
+}
+
+98
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 95 }
+	to { e, 99 }
+	to { s, 101 }
+	to { w, 97 }
+	to { d, 114 }
+  }
+}
+
+99
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 96 }
+	to { e, 96 }
+	to { s, 101 }
+	to { w, 98 }
+	to { d, 114 }
+  }
+}
+
+100
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 97 }
+	to { e, 101 }
+	to { s, 101 }
+	to { w, 97 }
+	to { d, 118 }
+  }
+}
+
+101
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 98 }
+	to { e, 99 }
+	to { s, 100 }
+	to { w, 100 }
+	to { d, 119 }
+  }
+}
+
+102
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 99 }
+	to { e, 96 }
+	to { s, 101 }
+	to { w, 101 }
+	to { d, 110 }
+  }
+}
+
+103
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 103 }
+	to { e, 104 }
+	to { s, 109 }
+	to { w, 103 }
+	to { u, 97 }
+	to { d, 112 }
+  }
+}
+
+104
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 108 }
+	to { e, 105 }
+	to { s, 110 }
+	to { w, 103 }
+	to { u, 108 }
+	to { d, 108 }
+  }
+}
+
+105
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 105 }
+	to { e, 105 }
+	to { s, 108 }
+	to { w, 104 }
+	to { u, 98 }
+	to { d, 114 }
+  }
+}
+
+106
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 103 }
+	to { e, 107 }
+	to { s, 109 }
+	to { w, 115 }
+	to { u, 98 }
+	to { d, 115 }
+  }
+}
+
+107
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 104 }
+	to { e, 108 }
+	to { s, 110 }
+	to { w, 106 }
+	to { u, 98 }
+	to { d, 116 }
+  }
+}
+
+108
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 105 }
+	to { e, 104 }
+	to { s, 111 }
+	to { w, 110 }
+	to { u, 104 }
+	to { d, 104 }
+  }
+}
+
+109
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 103 }
+	to { e, 110 }
+	to { s, 109 }
+	to { w, 109 }
+	to { u, 97 }
+	to { d, 109 }
+  }
+}
+
+110
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+A massive iron door with a mighty lock bars the south passage.
+  }
+  exits {
+	to { n, 106 }
+	to { e, 111 }
+	to { s, 121 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 109 }
+	to { u, 102 }
+	to { d, 110 }
+  }
+}
+
+111
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 108 }
+	to { e, 111 }
+	to { s, 111 }
+	to { w, 110 }
+	to { u, 109 }
+	to { d, 120 }
+  }
+}
+
+112
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 112 }
+	to { e, 113 }
+	to { s, 115 }
+	to { w, 112 }
+	to { u, 94 }
+  }
+}
+
+113
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 115 }
+	to { e, 114 }
+	to { s, 117 }
+	to { w, 112 }
+	to { u, 95 }
+  }
+}
+
+114
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 114 }
+	to { e, 114 }
+	to { s, 117 }
+	to { w, 113 }
+	to { u, 96 }
+  }
+}
+
+115
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 112 }
+	to { e, 113 }
+	to { s, 118 }
+	to { w, 113 }
+	to { u, 115 }
+  }
+}
+
+116
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.  However, you notice a faint light by the
+spiral stairs, apparently emanating from the room below.
+  }
+  exits {
+	to { n, 113 }
+	to { e, 117 }
+	to { s, 119 }
+	to { w, 115 }
+	to { u, 107 }
+	to { d, 123 }
+  }
+}
+
+117
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 114 }
+	to { e, 119 }
+	to { s, 120 }
+	to { w, 119 }
+	to { u, 99 }
+  }
+}
+
+118
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 115 }
+	to { e, 119 }
+	to { s, 118 }
+	to { w, 118 }
+	to { u, 100 }
+  }
+}
+
+119
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 115 }
+	to { e, 120 }
+	to { s, 117 }
+	to { w, 118 }
+	to { u, 101 }
+  }
+}
+
+120
+{
+  name { The Catacombs }
+  desc {
+"   You are lost in the catacombs.
+  }
+  exits {
+	to { n, 117 }
+	to { e, 120 }
+	to { s, 120 }
+	to { w, 119 }
+	to { u, 111 }
+  }
+}
+
+121
+{
+  name { The Closet }
+  desc {
+"   You are in a small closet.  Discarded rags on the floor suggest that it may
+once have been used as a storage area for burial clothes.  The only exit is
+through the door to the north.
+  }
+  exits {
+	to { n, 110 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+122
+{
+  name { The Sacrificial Pit }
+  desc {
+"   ... you plummet into a small spherical chamber which has somehow been carved
+out of the living stone.  Many objects litter the ground, including your
+unpleasant remains ...
+  }
+}
+
+123
+{
+  name { The Beggar's Room }
+  desc {
+"   You are in a large, rectangular room.  There is a feeling of anticipation to
+this place.  Doorways lead in all directions, above each is an inscription. The
+northern inscription reads "Charity", the eastern says "Faith", to the south
+lies "Wisdom", and "Courage" can be found to the west.  It seems there is no
+"Hope" ...
+   A spiral staircase runs up and down in the north-east corner of the room.
+  }
+  exits {
+	to { n, 124 }
+	to { e, 125 }
+	to { s, 126 }
+	to { w, 127 }
+	to { u, 116 }
+	to { d, 128 }
+  }
+}
+
+124
+{
+  name { The North Cave }
+  desc {
+"   You are in a small, unadorned cave.
+There is a sacrificial pit in the floor.  Within it you see only darkness.
+  }
+  exits {
+	to { s, 123 }
+	to { d, 122 }
+  }
+}
+
+125
+{
+  name { The East Cave }
+  desc {
+"   You are in a small, unadorned cave.
+There is a sacrificial pit in the floor.  Within it you see only darkness.
+  }
+  exits {
+	to { w, 123 }
+	to { d, 122 }
+  }
+}
+
+126
+{
+  name { The South Cave }
+  desc {
+"   You are in a small, unadorned cave.
+There is a sacrificial pit in the floor.  Within it you see only darkness.
+  }
+  exits {
+	to { n, 123 }
+	to { d, 122 }
+  }
+}
+
+127
+{
+  name { The West Cave }
+  desc {
+"   You are in a small, unadorned cave.
+There is a sacrificial pit in the floor.  Within it you see only darkness.
+  }
+  exits {
+	to { e, 123 }
+	to { d, 122 }
+  }
+}
+
+128
+{
+  name { The Stone-Carved Stairs }
+  desc {
+"   Here, the spiral staircase straightens out.  You may climb the stairs, or
+descend to the north.
+  }
+  exits {
+	to { n, 129 }
+	to { u, 123 }
+	to { d, 129 }
+  }
+}
+
+129
+{
+  name { The Foot of the Stairs }
+  desc {
+"   You are standing in an underground cave at the foot of a set of stone
+stairs which ascend to the south.  The front of the first step is decorated
+with a carving of a human skull.
+   To the north, an archway has been carved out of the rock wall.
+  }
+  exits {
+	to { n, 130 }
+	to { s, 128 }
+	to { u, 128 }
+  }
+}
+
+130
+{
+  name { Southern End of Ledge }
+  desc {
+"   You find yourself at the southern end of a narrow ledge overlooking a deep,
+seemingly bottomless chasm.
+An archway has been carved into the stone here.
+  }
+  exits {
+	to { n, 131 }
+	to { s, 129 }
+  }
+}
+
+131
+{
+  name { Northern End of the Ledge }
+  desc {
+"   You find yourself at the northern end of a narrow ledge overlooking a deep,
+seemingly bottomless chasm.
+An archway has been carved into the stone here.
+  }
+  exits {
+	to { s, 130 }
+	to { d, 132 }
+  }
+}
+
+132
+{
+  name { CATACOMB40 }
+  desc {
+Empty
+  }
+}
+
+133
+{
+  name { Suspended Above The Chasm }
+  desc {
+"   You are borne up by a mysterious force. Below your feet, the chasm continues
+down into darkness.  Above you, the heights of the chasm also disappear into
+blackness.  To the east is solid ground: a narrow ledge.
+  }
+}
+
+134
+{
+  name { Northern End of the Ledge }
+  desc {
+"   You find yourself at the northern end of a narrow north-south ledge
+overlooking a deep, seemingly bottomless chasm.
+The outline of an archway has been carved into the stone.
+  }
+}
+
+135
+{
+  name { CATACOMB43 }
+  desc {
+Empty
+  }
+}
+
+136
+{
+  name { CATACOMB44 }
+  desc {
+Empty
+  }
+}
+
+137
+{
+  name { CATACOMB45 }
+  desc {
+Empty
+  }
+}
+
+138
+{
+  name { The Hall of Challenging }
+  desc {
+"   You are in a large, oval-shaped chamber.  Tapestries, depicting scenes of
+single combat, hang from the roof of the chamber, which is high overhead.  A
+vast array of weapons and armor, from various ages, adorn the walls all about
+you.  The arena is ringed with torches, burning silently.
+There is an archway leading south.
+There is a heavy wooden door, made of cedar and overlayed with gold, at the
+northern end of the Hall.
+  }
+  exits {
+	to { n, 139 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 134 }
+  }
+}
+
+139
+{
+  name { The Final Resting Place }
+  desc {
+"   You are in a rectangular hall, with smooth stone walls, and a marble floor.
+An overwhelming sense of satisfaction fills the air in this room.  Twelve
+marble pillars line the eastern and western walls of the chamber.
+   At the northern end of the hall is a dais, made from a single round slab of
+pure gold.  There is a crystal pedestal in the center of the dais.  To the
+south is a heavy wooden door, made of cedar and overlayed with gold.
+  }
+  exits {
+	to { s, 138 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+140
+{
+  name { Before the Ruined Gates of Skara Brae }
+  desc {
+"   You are standing before a pair of large, thick wooden gates, which have
+somehow been obliterated and ripped asunder by a great, unknown power.  The
+walls of the city are charred and fragmented, and large chunks of it lie in
+your path.  You feel an overwhelming sense of impending doom, though, from
+the looks of your surroundings, that sense has been late in coming.
+   Eastward, through the ruined gates lies the rest of the defiled, charred
+city, while westward lies the horizon-reaching greenery and prosperity of the
+surrounding forest.
+  }
+  exits {
+	to { e, 141 }
+	  info { door, closed }
+	  keywords { gate" }
+  }
+}
+
+141
+{
+  name { Skara Brae }
+  desc {
+"   Standing just inside of the city's skeletal cadaver, you can't suppress a
+shudder, as the fire blasted buildings and streets loom into view.  The foul
+reek of scorched wood and ruptured sewers permeates the atmosphere, fitting
+easily with the sights before you.  Shattered and gutted buildings lie in
+rubbled heaps, like the ravaged playthings of an angry child.
+   The road continues westward, through the decimated gates and into the
+forest.  The road also continues eastward, its name obscured by the thick
+dust and rubble of past chaos.
+  }
+  exits {
+	to { e, 142 }
+	to { w, 140 }
+  }
+}
+
+142
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 143 }
+	to { w, 141 }
+  }
+}
+
+143
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 145 }
+	to { e, 144 }
+	to { s, 205 }
+	to { w, 142 }
+  }
+}
+
+144
+{
+  name { A Charred Dwelling }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 143 }
+  }
+}
+
+145
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 146 }
+	to { s, 143 }
+  }
+}
+
+146
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 147 }
+	to { s, 145 }
+  }
+}
+
+147
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 148 }
+	to { s, 146 }
+	to { w, 201 }
+  }
+}
+
+148
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 149 }
+	to { s, 147 }
+  }
+}
+
+149
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 150 }
+	to { w, 148 }
+  }
+}
+
+150
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 151 }
+	to { w, 149 }
+  }
+}
+
+151
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 152 }
+	to { w, 150 }
+  }
+}
+
+152
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see both to the south and east from here.
+To the west, you see a road leading toward the outskirts of town.
+  }
+  exits {
+	to { e, 153 }
+	to { s, 179 }
+	to { w, 151 }
+  }
+}
+
+153
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the east, south, and west.
+  }
+  exits {
+	to { e, 154 }
+	to { s, 180 }
+	to { w, 152 }
+  }
+}
+
+154
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the east, south, and west.
+  }
+  exits {
+	to { e, 155 }
+	to { s, 181 }
+	to { w, 153 }
+  }
+}
+
+155
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see both to the south and west from here.
+  }
+  exits {
+	to { s, 156 }
+	to { w, 154 }
+  }
+}
+
+156
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and west.
+  }
+  exits {
+	to { n, 155 }
+	to { s, 157 }
+	to { w, 181 }
+  }
+}
+
+157
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and west.
+  }
+  exits {
+	to { n, 156 }
+	to { s, 158 }
+	to { w, 182 }
+  }
+}
+
+158
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and west.
+  }
+  exits {
+	to { n, 157 }
+	to { s, 159 }
+	to { w, 183 }
+  }
+}
+
+159
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and west.
+  }
+  exits {
+	to { n, 158 }
+	to { s, 160 }
+	to { w, 184 }
+  }
+}
+
+160
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and west.
+  }
+  exits {
+	to { n, 159 }
+	to { s, 161 }
+	to { w, 185 }
+  }
+}
+
+161
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and west.
+   A strange, black marble temple stands alone just east of here, in front of
+which stands a large, sinister looking statue.
+  }
+  exits {
+	to { n, 160 }
+	to { e, 240 }
+	to { s, 162 }
+	to { w, 186 }
+  }
+}
+
+162
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and west.
+  }
+  exits {
+	to { n, 161 }
+	to { s, 163 }
+	to { w, 187 }
+  }
+}
+
+163
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and west.
+  }
+  exits {
+	to { n, 162 }
+	to { s, 164 }
+	to { w, 188 }
+  }
+}
+
+164
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and west.
+  }
+  exits {
+	to { n, 163 }
+	to { s, 165 }
+	to { w, 189 }
+  }
+}
+
+165
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in scorched ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and scorched beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see  to the north, west, and south.
+  }
+  exits {
+	to { n, 164 }
+	to { s, 166 }
+	to { w, 190 }
+  }
+}
+
+166
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in scorched ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and scorched beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see both to the north and west, while
+you see a small road run off to the east.
+  }
+  exits {
+	to { n, 165 }
+	to { e, 228 }
+	to { w, 167 }
+  }
+}
+
+167
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, east, and west.
+  }
+  exits {
+	to { n, 190 }
+	to { e, 166 }
+	to { w, 168 }
+  }
+}
+
+168
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, east, and west.
+  }
+  exits {
+	to { n, 191 }
+	to { e, 167 }
+	to { w, 169 }
+  }
+}
+
+169
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north and east.
+  }
+  exits {
+	to { n, 170 }
+	to { e, 168 }
+  }
+}
+
+170
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and east.
+  }
+  exits {
+	to { n, 171 }
+	to { e, 191 }
+	to { s, 169 }
+  }
+}
+
+171
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and east.
+  }
+  exits {
+	to { n, 172 }
+	to { e, 192 }
+	to { s, 170 }
+  }
+}
+
+172
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and east.
+  }
+  exits {
+	to { n, 173 }
+	to { e, 193 }
+	to { s, 171 }
+  }
+}
+
+173
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and east.
+  }
+  exits {
+	to { n, 174 }
+	to { e, 194 }
+	to { s, 172 }
+  }
+}
+
+174
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and east.
+  }
+  exits {
+	to { n, 175 }
+	to { e, 195 }
+	to { s, 173 }
+  }
+}
+
+175
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and east.
+  }
+  exits {
+	to { n, 176 }
+	to { e, 196 }
+	to { s, 174 }
+  }
+}
+
+176
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and east.
+  }
+  exits {
+	to { n, 177 }
+	to { e, 197 }
+	to { s, 175 }
+  }
+}
+
+177
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and east.
+  }
+  exits {
+	to { n, 178 }
+	to { e, 198 }
+	to { s, 176 }
+  }
+}
+
+178
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+  The Plaz extends as far as you can see to the north, south, and east.
+  }
+  exits {
+	to { n, 179 }
+	to { e, 199 }
+	to { s, 177 }
+  }
+}
+
+179
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+  The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see to the north, south, and east.
+  }
+  exits {
+	to { n, 152 }
+	to { e, 180 }
+	to { s, 178 }
+  }
+}
+
+180
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 153 }
+	to { e, 181 }
+	to { s, 199 }
+	to { w, 179 }
+  }
+}
+
+181
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 154 }
+	to { e, 156 }
+	to { s, 182 }
+	to { w, 180 }
+  }
+}
+
+182
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 181 }
+	to { e, 157 }
+	to { s, 183 }
+	to { w, 199 }
+  }
+}
+
+183
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 182 }
+	to { e, 158 }
+	to { s, 184 }
+	to { w, 198 }
+  }
+}
+
+184
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 183 }
+	to { e, 159 }
+	to { s, 185 }
+	to { w, 197 }
+  }
+}
+
+185
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 184 }
+	to { e, 160 }
+	to { s, 186 }
+	to { w, 196 }
+  }
+}
+
+186
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 185 }
+	to { e, 161 }
+	to { s, 187 }
+	to { w, 195 }
+  }
+}
+
+187
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 186 }
+	to { e, 162 }
+	to { s, 188 }
+	to { w, 194 }
+  }
+}
+
+188
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 187 }
+	to { e, 163 }
+	to { s, 189 }
+	to { w, 193 }
+  }
+}
+
+189
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 188 }
+	to { e, 164 }
+	to { s, 190 }
+	to { w, 192 }
+  }
+}
+
+190
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 189 }
+	to { e, 165 }
+	to { s, 167 }
+	to { w, 191 }
+  }
+}
+
+191
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 192 }
+	to { e, 190 }
+	to { s, 168 }
+	to { w, 170 }
+  }
+}
+
+192
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 193 }
+	to { e, 189 }
+	to { s, 191 }
+	to { w, 171 }
+  }
+}
+
+193
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 194 }
+	to { e, 188 }
+	to { s, 192 }
+	to { w, 172 }
+  }
+}
+
+194
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 195 }
+	to { e, 187 }
+	to { s, 193 }
+	to { w, 173 }
+  }
+}
+
+195
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 196 }
+	to { e, 186 }
+	to { s, 194 }
+	to { w, 174 }
+  }
+}
+
+196
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 197 }
+	to { e, 185 }
+	to { s, 195 }
+	to { w, 175 }
+  }
+}
+
+197
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 198 }
+	to { e, 184 }
+	to { s, 196 }
+	to { w, 176 }
+  }
+}
+
+198
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 199 }
+	to { e, 183 }
+	to { s, 197 }
+	to { w, 177 }
+  }
+}
+
+199
+{
+  name { The Gran Plaz }
+  desc {
+"   You are standing on the barren remains of the Gran Plaz.  Once famed for its
+variety of temples and assorted shops, the Plaz now lies in shattered ruin.
+   The awesome destructive power which has crushed the entire city of Skara
+Brae did not spare this section any more than it did any other.  Broken homes
+lie silent, crumbled and charred beyond repair.  Temples at which the citizens
+came to worship the Gods are now worthless heaps of blasted rock and scorched
+memories.
+   The few survivors of the chaotic catastrophy seem to have labored hard to
+gather what little was left, for all around you lie the shattered remnants of
+a once-proud city; nothing of personal value or affinity was left.
+   The Plaz extends as far as you can see in all directions.
+  }
+  exits {
+	to { n, 180 }
+	to { e, 182 }
+	to { s, 198 }
+	to { w, 178 }
+  }
+}
+
+200
+{
+  name { Darkenelf's Demense }
+  desc {
+"   Although this room is deep beneath the ground, Darkenelf's home is quite
+warm, if a bit odd.  Intricate rugs from faraway lands cover the floor, save
+for the center, which is a spiralling downward stairway.
+   Tapestries as intricate as the rugs, if not more so, alsmot completely
+cover the walls, each telling its own complex story.  A chest lies open on
+one side of the room, containing many maps and scrolls, as well as a few
+jewels and a strange dagger.
+   Beside Darkenelf's desk, you see a long table, covered with vials of odd,
+strange liquids; some bubbling, some glowing, others making wretched noises.
+   On the desk itself, you see rolls of parchment, jars of multicolored ink,
+feathered quills, and a few assorted gems.  On the upper section of the desk
+rests a lagre reptillian skull on a pedastle, next to which is an ominously
+large crystal sphere.
+   Southward, you see a rune-covered oaken door.
+  }
+}
+
+201
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 147 }
+	to { w, 202 }
+  }
+}
+
+202
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 201 }
+	to { s, 203 }
+  }
+}
+
+203
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 202 }
+	to { s, 204 }
+  }
+}
+
+204
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 203 }
+  }
+}
+
+205
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 143 }
+	to { s, 206 }
+  }
+}
+
+206
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 205 }
+	to { s, 207 }
+  }
+}
+
+207
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 206 }
+	to { s, 208 }
+  }
+}
+
+208
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 207 }
+	to { e, 209 }
+	to { w, 219 }
+  }
+}
+
+209
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 210 }
+	to { w, 208 }
+  }
+}
+
+210
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 211 }
+	to { w, 209 }
+  }
+}
+
+211
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 210 }
+	to { s, 212 }
+	to { w, 218 }
+  }
+}
+
+212
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 211 }
+	to { w, 213 }
+  }
+}
+
+213
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 218 }
+	to { e, 212 }
+	to { w, 214 }
+  }
+}
+
+214
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 217 }
+	to { e, 213 }
+	to { w, 215 }
+  }
+}
+
+215
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 216 }
+	to { e, 214 }
+  }
+}
+
+216
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 217 }
+	to { s, 215 }
+  }
+}
+
+217
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 218 }
+	to { s, 214 }
+	to { w, 216 }
+  }
+}
+
+218
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 211 }
+	to { s, 213 }
+	to { w, 217 }
+  }
+}
+
+219
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 208 }
+	to { w, 220 }
+  }
+}
+
+220
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 219 }
+	to { s, 221 }
+  }
+}
+
+221
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 220 }
+	to { s, 222 }
+  }
+}
+
+222
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 221 }
+	to { s, 223 }
+  }
+}
+
+223
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 222 }
+	to { e, 224 }
+  }
+}
+
+224
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 225 }
+	to { w, 223 }
+  }
+}
+
+225
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 226 }
+	to { w, 224 }
+  }
+}
+
+226
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 227 }
+	to { w, 225 }
+  }
+}
+
+227
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 226 }
+  }
+}
+
+228
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 229 }
+	to { w, 166 }
+  }
+}
+
+229
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 230 }
+	to { w, 228 }
+  }
+}
+
+230
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 231 }
+	to { s, 235 }
+	to { w, 229 }
+  }
+}
+
+231
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 232 }
+	to { s, 230 }
+  }
+}
+
+232
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 233 }
+	to { e, 234 }
+	to { s, 231 }
+  }
+}
+
+233
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { s, 232 }
+  }
+}
+
+234
+{
+  name { The Review Board }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 232 }
+  }
+}
+
+235
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 230 }
+	to { s, 236 }
+  }
+}
+
+236
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 235 }
+	to { e, 238 }
+	to { s, 237 }
+	to { w, 239 }
+  }
+}
+
+237
+{
+  name { Skara Brae }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 236 }
+	to { s, 237 }
+  }
+}
+
+238
+{
+  name { The Weapon Shop }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 236 }
+  }
+}
+
+239
+{
+  name { The Magic Shop }
+  desc {
+Empty
+  }
+  exits {
+	to { e, 236 }
+  }
+}
+
+240
+{
+  name { The Temple of The Mad God }
+  desc {
+"   You stand in a small, dismal shrine, dedicated to The Mad God, Tarjan.
+This being one of few buildings standing in Skara Brae, and being in the best
+condition, shows Tarjan's grasping hold over this realm just as well as did
+the destruction of the city.
+   The sleek, black marble walls of this unholy place glisten as though they
+were covered in dimly illuminated rivulets of blood.  The very air of this
+place reeks of foulness, though it appears to be thoroughly clean.  Strange
+rune patterns are etched carefully into the walls' surfaces.  Their pattern
+seems to change as you look at it, so their meanings are indecipherable.
+   Two doors, one north, one south, made of blackened iron stand here, each
+with a legend written above it.  The northern door has been labelled 'Chaos',
+and the southern door has written above it, 'Tarjan'.
+   To the west, just outside of the temple, you can see the doomed city of
+Skara Brae, solemnly awaiting the end of eternity.
+  }
+  exits {
+	to { s, 241 }
+	  info { door, closed }
+	  keywords { door iron" }
+	to { w, 161 }
+  }
+}

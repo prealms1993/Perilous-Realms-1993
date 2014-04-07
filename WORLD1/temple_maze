@@ -1,0 +1,626 @@
+
+1
+{
+  name { Entrance to the Temple Labyrinth }
+  desc {
+"   This is a chance to turn back. Once in, return is not guaranteed.
+Turn back to the south and leave or continue into the fray. There
+is a large flashing neon sign here attracting your attention.
+  }
+  extra {
+	keywords { sign neon" }
+	desc { It reads:
+
+               This area designed specifically for mid-level
+               players.  Caution all who  enter  who  aren't
+               between levels 5 and 10.
+
+                           You have been warned!
+
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 3 }
+	  desc { A small crack in the wall
+}
+	to { e, 4 }
+	  desc { A small crack in the wall
+}
+	to { w, 2 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+2
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 2 }
+	  desc { A small crack in the wall
+}
+	to { e, 4 }
+	  desc { A small crack in the wall
+}
+	to { s, 1 }
+	  desc { A small crack in the wall
+}
+	to { w, 3 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+3
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rites.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 1 }
+	  desc { A small crack in the wall
+}
+	to { e, 1 }
+	  desc { A small crack in the wall
+}
+	to { s, 2 }
+	  desc { A small crack in the wall
+}
+	to { w, 2 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+4
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 1 }
+	  desc { A small crack in the wall
+}
+	to { e, 2 }
+	  desc { A small crack in the wall
+}
+	to { s, 5 }
+	  desc { A small crack in the wall
+}
+	to { w, 2 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+5
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 6 }
+	  desc { A small crack in the wall
+}
+	to { e, 7 }
+	  desc { A small crack in the wall
+}
+	to { s, 3 }
+	  desc { A small crack in the wall
+}
+	to { w, 1 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+6
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 5 }
+	  desc { A small crack in the wall
+}
+	to { e, 3 }
+	  desc { A small crack in the wall
+}
+	to { s, 2 }
+	  desc { A small crack in the wall
+}
+	to { w, 4 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+7
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 8 }
+	  desc { A small crack in the wall
+}
+	to { e, 7 }
+	  desc { A small crack in the wall
+}
+	to { s, 7 }
+	  desc { A small crack in the wall
+}
+	to { w, 6 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+8
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 9 }
+	  desc { A small crack in the wall
+}
+	to { e, 1 }
+	  desc { A small crack in the wall
+}
+	to { s, 8 }
+	  desc { A small crack in the wall
+}
+	to { w, 10 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+9
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 10 }
+	  desc { A small crack in the wall
+}
+	to { e, 10 }
+	  desc { A small crack in the wall
+}
+	to { s, 7 }
+	  desc { A small crack in the wall
+}
+	to { w, 2 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+10
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 7 }
+	  desc { A small crack in the wall
+}
+	to { e, 11 }
+	  desc { A small crack in the wall
+}
+	to { s, 10 }
+	  desc { A small crack in the wall
+}
+	to { w, 13 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+11
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 11 }
+	  desc { A small crack in the wall
+}
+	to { e, 11 }
+	  desc { A small crack in the wall
+}
+	to { s, 11 }
+	  desc { A small crack in the wall
+}
+	to { w, 10 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+12
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 11 }
+	  desc { A small crack in the wall
+}
+	to { e, 10 }
+	  desc { A small crack in the wall
+}
+	to { s, 12 }
+	  desc { A small crack in the wall
+}
+	to { w, 2 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+13
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 8 }
+	  desc { A small crack in the wall
+}
+	to { e, 16 }
+	  desc { A small crack in the wall
+}
+	to { s, 14 }
+	  desc { A small crack in the wall
+}
+	to { w, 7 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+14
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 15 }
+	  desc { A small crack in the wall
+}
+	to { e, 15 }
+	  desc { A small crack in the wall
+}
+	to { s, 15 }
+	  desc { A small crack in the wall
+}
+	to { w, 15 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+15
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 14 }
+	  desc { A small crack in the wall
+}
+	to { e, 1 }
+	  desc { A small crack in the wall
+}
+	to { s, 14 }
+	  desc { A small crack in the wall
+}
+	to { w, 14 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+16
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 19 }
+	  desc { A small crack in the wall
+}
+	to { e, 2 }
+	  desc { A small crack in the wall
+}
+	to { s, 10 }
+	  desc { A small crack in the wall
+}
+	to { w, 3 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+17
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 10 }
+	  desc { A small crack in the wall
+}
+	to { e, 3 }
+	  desc { A small crack in the wall
+}
+	to { s, 9 }
+	  desc { A small crack in the wall
+}
+	to { w, 12 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+18
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 21 }
+	  desc { A small crack in the wall
+}
+	to { e, 20 }
+	  desc { A small crack in the wall
+}
+	to { s, 7 }
+	  desc { A small crack in the wall
+}
+	to { w, 10 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+19
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 18 }
+	  desc { A small crack in the wall
+}
+	to { e, 17 }
+	  desc { A small crack in the wall
+}
+	to { s, 22 }
+	  desc { A small crack in the wall
+}
+	to { w, 17 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+20
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 11 }
+	  desc { A small crack in the wall
+}
+	to { e, 21 }
+	  desc { A small crack in the wall
+}
+	to { s, 2 }
+	  desc { A small crack in the wall
+}
+	to { w, 4 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+21
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 22 }
+	  desc { A small crack in the wall
+}
+	to { e, 20 }
+	  desc { A small crack in the wall
+}
+	to { s, 23 }
+	  desc { A small crack in the wall
+}
+	to { w, 21 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+22
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 1 }
+	  desc { A small crack in the wall
+}
+	to { e, 1 }
+	  desc { A small crack in the wall
+}
+	to { s, 24 }
+	  desc { A small crack in the wall
+}
+	to { w, 1 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+23
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 12 }
+	  desc { A small crack in the wall
+}
+	to { e, 11 }
+	  desc { A small crack in the wall
+}
+	to { s, 24 }
+	  desc { A small crack in the wall
+}
+	to { w, 2 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+24
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path! Maybe you could learn it too.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 10 }
+	  desc { A small crack in the wall
+}
+	to { e, 25 }
+	  desc { A small crack in the wall
+}
+	to { s, 2 }
+	  desc { A small crack in the wall
+}
+	to { w, 4 }
+	  desc { A small crack in the wall
+}
+  }
+}
+
+25
+{
+  name { A small room }
+  desc {
+"   This small room has been carved out of the bedrock under Midgaard.
+The High Priests of Odin come here to perform many ancient rights.
+Only they know the true path and you have found it. There is a ladder
+leading up here. There are no other exits!
+  }
+  flags { dark, indoors }
+  exits {
+	to { u, Midgard:20 }
+	  desc { A ladder leading up!
+}
+  }
+}

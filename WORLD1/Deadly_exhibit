@@ -1,0 +1,428 @@
+
+0
+{
+  name { Deadly Creatures Exhibit }
+  desc {
+"   This is the entrance room to the dangerous creatures exhibit.  They've
+done a wonderful job of modelling a cave, this room is full of stalactites
+and stalagmites, and deep shadows lurk behind every one.  There is a sign
+against the north wall and a iron door to the east.  There is also a plaque
+on the west wall.  A small note flutters on the floor.
+  }
+  extra {
+	keywords { sign" }
+	desc { The sign reads:
+    CAUTION:  This is a one way trip.  Do not stray from the path!
+    Follow the Signs.  It is strongly suggested that you do not enter
+    the creature's burrows.  Management is not responsible for any death,
+    dismemberment, or digestion.  Have a pleasant day.
+	}
+	keywords { plaque" }
+	desc { "   'The Hel Hound is a vicious and nasty canine.  They can be found in 
+warm climates, and in dungeons and zoos everywhere.'
+	}
+	keywords { note small" }
+	desc { "   The note reads : Hey Bob, do you think we could get some cages for the
+animals anytime soon?  I'm really tired of herding the alligators out of 
+the polar bear exhibit
+    - Al
+	}
+  }
+  exits {
+	to { n, 1 }
+	  desc { You see a cavern, even creepier than this one
+}
+	to { e, Midgard:185 }
+	  info { door, closed }
+	  keywords { door iron" }
+	  desc { You see the safe and inviting exit from the Dangerous Creatures Exhibit.
+}
+  }
+}
+
+1
+{
+  name { Cavern }
+  desc {
+"   As you enter this room, the passage slides shut behind you. This place has 
+a high vaulted ceiling, and huge boulders are strewn about.  There are small
+caves in all directions but west, and to the west there is a large glowing
+sign that reads 'EXIT'.  There is also a plaque on the east wall.
+  }
+  extra {
+	keywords { plaque" }
+	desc { "   'The Belgian Slasher monkey is a fierce warrior, with EXTREMELY sharp
+fangs.   It is always docile, except when intruders enter its lair, like
+you have.'
+	}
+  }
+  exits {
+	to { n, 2 }
+	  desc { You see a dank, smelly cave
+}
+	to { e, 3 }
+	  desc { You see a dank, smelly cave
+}
+	to { s, 4 }
+	  desc { You see a dank, smelly cave
+}
+	to { w, 5 }
+	  desc { You see a desert scene
+}
+  }
+}
+
+2
+{
+  name { Cramped Cave }
+  desc {
+"   This cave is tiny, and there is bareley enough room for you here.  The
+place reeks of droppings and rotting meat.  
+  }
+  exits {
+	to { s, 1 }
+	  desc { You see the main cavern
+}
+  }
+}
+
+3
+{
+  name { Cramped Cave }
+  desc {
+"   This cave is tiny, and there is bareley enough room for you here.  The
+place reeks of droppings and rotting meat.  
+  }
+  exits {
+	to { w, 1 }
+	  desc { You see the main cavern
+}
+  }
+}
+
+4
+{
+  name { Cramped Cave }
+  desc {
+"   This cave is tiny, and there is bareley enough room for you here.  The
+place reeks of droppings and rotting meat.  
+  }
+  exits {
+	to { n, 1 }
+	  desc { You see the main cavern
+}
+  }
+}
+
+5
+{
+  name { Desert Scene }
+  desc {
+"   The passageway from the cavern section slides closed behind you...
+   Before you a vast desert seems to stretch, but it is all an illusion. 
+Dunes and cactii make perfect hiding places for deadly creatures.  There
+is a sign that reads 'EXIT' to the south.  You can see burrows in all other
+directions.  There is a plaque against the eastern wall
+  }
+  extra {
+	keywords { plaque" }
+	desc { "   'The giant cocorada bug is native to the rainforests of south america.
+Noted for its incredible ability to adapt to any environment (even that of
+suburban north america), we have placed it here, in the desert, in order
+to impress you.  Beware, Cocorada are very fast, and very dangerous.'
+	}
+  }
+  exits {
+	to { n, 6 }
+	  desc { You see the burrow of some large carnivore
+}
+	to { e, 7 }
+	  desc { You see the burrow of some large carnivore
+}
+	to { s, 9 }
+	  desc { You see the icy wastes of the next exhibit
+}
+	to { w, 8 }
+	  desc { You see the burrow of some large carnivore
+}
+  }
+}
+
+6
+{
+  name { Sandy Burrow }
+  desc {
+"   A dark, smelly burrow of some desert creature.
+  }
+  exits {
+	to { s, 5 }
+	  desc { You see the desert exhibit
+}
+  }
+}
+
+7
+{
+  name { Sandy Burrow }
+  desc {
+"   A dark, smelly burrow of some desert creature.
+  }
+  exits {
+	to { w, 5 }
+	  desc { You see the desert exhibit
+}
+  }
+}
+
+8
+{
+  name { Sandy Burrow }
+  desc {
+"   A dark, smelly burrow of some desert creature.
+  }
+  exits {
+	to { e, 5 }
+	  desc { You see the desert exhibit
+}
+  }
+}
+
+9
+{
+  name { Arctic Scene }
+  desc {
+"   The passageway slides shut behind you...
+   You see a huge glacial ice plain, Brrrrrrrrrr!  Ice caverns face in
+all directions but south.  To the south you see a sign marked 'EXIT'.
+To the east you see a plaque.
+  }
+  extra {
+	keywords { plaque" }
+	desc { "   'The polar bear is the largest and most powerful of all the bears.  These
+have been taken from the wild, starved and beaten, so they are exceptionally
+angry and hungry.  (Just kidding.  We didn't beat them or starve them.
+They are just really aggressive).'
+	}
+  }
+  exits {
+	to { n, 10 }
+	  desc { You see a frigid ice cave
+}
+	to { e, 11 }
+	  desc { You see a frigid ice cave
+}
+	to { s, 14 }
+	  desc { You see a jungle scene.
+}
+	to { w, 12 }
+	  desc { You see a frigid ice cave
+}
+  }
+}
+
+10
+{
+  name { Ice cave }
+  desc {
+"   There is only enough room for one in here, you and some creature...  You
+can see bits of frozen flesh here and there.
+  }
+  exits {
+	to { s, 9 }
+	  desc { You can see the Arctic Exhibit
+}
+  }
+}
+
+11
+{
+  name { Ice cave }
+  desc {
+"   There is only enough room for one in here, you and some creature...  You
+can see bits of frozen flesh here and there.
+  }
+  exits {
+	to { w, 9 }
+	  desc { You can see the Arctic Exhibit
+}
+  }
+}
+
+12
+{
+  name { Ice cave }
+  desc {
+"   There is only enough room for one in here, you and some creature...  You
+can see bits of frozen flesh here and there.
+  }
+  exits {
+	to { e, 9 }
+	  desc { You can see the Arctic Exhibit
+}
+  }
+}
+
+14
+{
+  name { Jungle Scene }
+  desc {
+"   As the passageway shuts behind you, you enter a humid, tropical jungle,
+with giant trees and large creatures.   There is a dark cave in each 
+directions save east, and that way has a large sign marked 'EXIT'.  There is
+a plaque on the western wall
+  }
+  extra {
+	keywords { plaque" }
+	desc { "   'The jungle is the home of the giant jungle alligator, noted for its
+ability to not live in the swamps.  Very mean, and very dangerous.'
+	}
+  }
+  exits {
+	to { n, 15 }
+	  desc { You can see a stone cave.
+}
+	to { e, 18 }
+	  desc { You can see a grassy plain
+}
+	to { s, 16 }
+	  desc { You can see a stone cave.
+}
+	to { w, 17 }
+	  desc { You can see a stone cave.
+}
+  }
+}
+
+15
+{
+  name { Stone cave }
+  desc {
+"   The place reeks of rotting flesh.  The inhabitants must be truly brutal.
+There is a large pile of bones in the corner.
+  }
+  extra {
+	keywords { bones pile" }
+	desc { You are getting ill just looking at the gobbets of meat and blood still
+clinging to the fresh bones.
+	}
+  }
+  exits {
+	to { s, 14 }
+	  desc { You see the jungle scene
+}
+  }
+}
+
+16
+{
+  name { Stone cave }
+  desc {
+"   The place reeks of rotting flesh.  The inhabitants must be truly brutal.
+There is a large pile of bones in the corner.
+  }
+  extra {
+	keywords { bones pile" }
+	desc { You are getting ill just looking at the gobbets of meat and blood still
+clinging to the fresh bones.
+	}
+  }
+  exits {
+	to { n, 14 }
+	  desc { You see the jungle scene
+}
+  }
+}
+
+17
+{
+  name { Stone cave }
+  desc {
+"   The place reeks of rotting flesh.  The inhabitants must be truly brutal.
+There is a large pile of bones in the corner.
+  }
+  extra {
+	keywords { bones pile" }
+	desc { You are getting ill just looking at the gobbets of meat and blood still
+clinging to the fresh bones.
+	}
+  }
+  exits {
+	to { e, 14 }
+	  desc { You see the jungle scene
+}
+  }
+}
+
+18
+{
+  name { Plains Exhibit }
+  desc {
+"   The exit slides shut behind you....
+   The tall grass hides the movement of the creatures that live here.  It is
+impossible to tell how many deadly creatures live here.  There is a plaque
+on the wall, and to the north is a sign reading 'EXIT'
+  }
+  extra {
+	keywords { plaque" }
+	desc { "  'The saber-toothed tiger is the most dangerous of all the great cats.  
+Standing as high as 5' at the shoulder, and possessing huge fangs, these
+creatures are deadly in the extreme, a fitting final exhibit for our Zoo.'
+	}
+  }
+  exits {
+	to { n, 0 }
+	  desc { You can see the exit cavern
+}
+	to { e, 19 }
+	  desc { You can see a large cave
+}
+	to { s, 20 }
+	  desc { You can see a large cave
+}
+	to { w, 21 }
+	  desc { You can see a large cave
+}
+  }
+}
+
+19
+{
+  name { Large Cave }
+  desc {
+"   This is yet another animal den.  More bones are scattered about.  And
+yes, it smells awful.
+  }
+  exits {
+	to { w, 18 }
+	  desc { You can see the Plains exhibit
+}
+  }
+}
+
+20
+{
+  name { Large Cave }
+  desc {
+"   This is yet another animal den.  More bones are scattered about.  And
+yes, it smells awful.
+  }
+  exits {
+	to { n, 18 }
+	  desc { You can see the Plains exhibit
+}
+  }
+}
+
+21
+{
+  name { Large Cave }
+  desc {
+"   This is yet another animal den.  More bones are scattered about.  And
+yes, it smells awful.
+  }
+  exits {
+	to { e, 18 }
+	  desc { You can see the Plains exhibit
+}
+  }
+}

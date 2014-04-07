@@ -1,0 +1,1042 @@
+
+0
+{
+  name { Cave entrance }
+  desc {
+You are standing in the cave entrance. It is very dark
+downhere. There is writing at the wall. There is an exit
+to the north. A stairway leads up.
+  }
+  sector { City }
+  extra {
+	keywords { writing wall" }
+	desc { The writing says 'BEWARE adventurer!'
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 1 }
+	  desc { To the north you can see a small tunnel.
+}
+	to { u, Sewer2:2 }
+	  info { door, closed }
+	  desc { You can see the stairs going up into darkness.
+}
+  }
+}
+
+1
+{
+  name { Cave tunnel }
+  desc {
+You are walking in a tunnel. It is very cold. You
+can feel the presence of a living thing ... SOMEWHERE.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 2 }
+	  desc { To the north you can see the tunnel continuing.
+}
+	to { s, 0 }
+	  desc { To the south tunnel continuing.
+}
+  }
+}
+
+2
+{
+  name { Cave room }
+  desc {
+You are standing in a room. It's much cooler now.
+The walls are glowing.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { e, 3 }
+	  desc { To the east you see the tunnel going downwards.
+}
+	to { s, 1 }
+	  desc { To the south you see a dark cave tunnel.
+}
+	to { w, 21 }
+  }
+}
+
+3
+{
+  name { Cave T-cross }
+  desc {
+You are standing in a mudlike substance. The smell here is
+awful, it is rotten. To the west you can see some light.
+  }
+  sector { Field }
+  extra {
+	keywords { mud" }
+	desc { When you examine the mud, you notice small worms crawling
+around.
+	}
+	keywords { worms" }
+	desc { The worms are purple. They do not look edible.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 4 }
+	  desc { To the east the tunnel still goes downwards.
+}
+	to { s, 8 }
+	to { w, 2 }
+	  desc { You can see some light to the west.
+}
+  }
+}
+
+4
+{
+  name { Cave turning-point }
+  desc {
+The mud are getting deeper. You are wondering, 'Would
+it be an idea to leave, before I disappear?'. To the
+south you notice a flat round stone are blocking the
+way. To the west you can see mud.
+  }
+  sector { Field }
+  extra {
+	keywords { flat round stone" }
+	desc { The stone looks very uninteresting. BUT as you are
+about to turn away, you see a lightstribe coming
+through a small hole. Conclusion: The stone is moveable.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 5 }
+	  info { door, closed }
+	  keywords { flat round stone" }
+	  desc { You can see an opening behind the stone.
+}
+	to { w, 3 }
+  }
+}
+
+5
+{
+  name { The secret room }
+  desc {
+There is dust all over the place. It looks like nobody
+has been here for ages. In the middle of the room you see
+a socket with a crystal globe. The globe glows with a
+pulsing light. To the north you see a stone door. To the
+south you see a grey block.
+  }
+  sector { City }
+  extra {
+	keywords { socket" }
+	desc { The socket looks like the work of a dwarf. It is VERY
+beautifull.
+	}
+	keywords { crystal globe" }
+	desc { The crystal globe is glowing with a pulsing light. It
+looks like there is smoke inside it.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 4 }
+	  info { door, closed }
+	  keywords { round stone door" }
+	  desc { You see a round stone door.
+}
+	to { s, 6 }
+	  info { door, closed }
+	  keywords { grey block" }
+	  desc { You see a grey block
+}
+  }
+}
+
+6
+{
+  name { The mudhole }
+  desc {
+You are standing in a lot of mud. The mud goes to your
+chest. You feel the precence of something IN the mud.
+The only obivicios exit is to the west.
+  }
+  sector { Water Swim }
+  flags { dark, indoors }
+  exits {
+	to { n, 5 }
+	  info { door, closed }
+	  keywords { grey block" }
+	  desc { You can see nothing at all.
+}
+	to { w, 7 }
+  }
+}
+
+7
+{
+  name { Tunnel }
+  desc {
+The mud goes to your knees. Otherwise the tunnel looks
+very normal.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 8 }
+	to { e, 6 }
+	  desc { You can see a mudhole.
+}
+	to { s, 9 }
+  }
+}
+
+8
+{
+  name { The long tunnel }
+  desc {
+Here There is almost no mud, as you stand at the top
+of a small rock. Just beside you there are a sign which
+says 'WARNING! The worms are dangerous!'.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 3 }
+	  desc { You can see a lot of mud..Yarck!
+}
+	to { s, 7 }
+	  desc { The tunnel goes a little downwards.
+}
+  }
+}
+
+9
+{
+  name { The hot room }
+  desc {
+You are very surprised, as this room for a change are
+hot instead of cold. To the north it goes downwards into
+some mud. There are also an exit to the west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 7 }
+	  desc { You see a lot of mud.
+}
+	to { w, 10 }
+	  desc { You see a entrance to a small room.
+}
+  }
+}
+
+10
+{
+  name { The small room }
+  desc {
+As you look around you notice a small statue. There are
+exits to the west and to the east.
+  }
+  sector { City }
+  extra {
+	keywords { small statue" }
+	desc { This is a statue of a imp, pointing to the west. The imp
+looks like a man with horns and a tail.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 9 }
+	  desc { It is pitch dark out there.
+}
+	to { w, 11 }
+	  desc { You see a VERY long hallway.
+}
+  }
+}
+
+11
+{
+  name { The stalagmite cave }
+  desc {
+You are standing in a stalagmite cave. Water is drippling
+from the walls. It is very cold in here.
+  }
+  sector { Field }
+  extra {
+	keywords { stalagmite" }
+	desc { The stalagmites are very tall, and looks very beautiful.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 14 }
+	to { e, 10 }
+	  desc { You see a long hallway, and some mud.
+}
+	to { s, 12 }
+  }
+}
+
+12
+{
+  name { The stalagmite tunnel }
+  desc {
+You has entered a small tunnel. Here it is quite dry.
+Mabye it would be an idea to rest here.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 11 }
+	  desc { You can see a small cave to the north.
+}
+	to { w, 13 }
+  }
+}
+
+13
+{
+  name { The spongy room }
+  desc {
+"  You definately do NOT like this area.  It is very dank, and
+most of the place is wet.
+  }
+  sector { Forest }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 12 }
+	to { w, 45 }
+  }
+}
+
+14
+{
+  name { The stalagmite T-cross }
+  desc {
+You are standing in a cross. To the north you can see
+some light. Otherwise it is dark.
+  }
+  sector { City }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 17 }
+	  desc { You see some light ahead.
+}
+	to { e, 15 }
+	to { s, 11 }
+  }
+}
+
+15
+{
+  name { The blind end room }
+  desc {
+This room is obviously a blind end. To the north you see
+a primitive picture.
+  }
+  sector { City }
+  extra {
+	keywords { primitive picture" }
+	desc { You see some persons dancing around a huge sun. The
+sun is about 7 feet in diameter, which shows the size
+of the picture.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 16 }
+	  info { door, closed }
+	  keywords { sun" }
+	  desc { You see a primitive picture
+}
+	to { w, 14 }
+  }
+}
+
+16
+{
+  name { The treasure room }
+  desc {
+This room is rich ornamented. The walls has carves showing
+persons dancing around a sun which is drawed at the floor. It
+looks very old, and it is very dusty. To the south you see a
+secret door.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { s, 15 }
+	  info { door, closed }
+	  keywords { door picture sun moon" }
+	  desc { you can see a picture with some persons crawling around a
+huge moon.
+}
+  }
+}
+
+17
+{
+  name { The square lair }
+  desc {
+You are standing in the south-east part of the lair. You can
+see a skeleton lying at the wall.
+  }
+  sector { City }
+  extra {
+	keywords { skeleton" }
+	desc { It looks like a adventurer who was'nt lucky. You better
+watch out-
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 18 }
+	  desc { Another part of the lair
+}
+	to { s, 14 }
+	to { w, 20 }
+	  desc { Another part of the lair
+}
+  }
+}
+
+18
+{
+  name { The square lair }
+  desc {
+You are standing in the north-east part of the lair. You see
+a sign at the wall
+  }
+  sector { City }
+  extra {
+	keywords { sign wall" }
+	desc { The sign says 'Gods of War I call you, my sword is by my side,
+               I seek a light free from all false pride'
+                       Reyemle Grug.....
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 21 }
+	  info { door, closed }
+	  keywords { wooden door" }
+	  desc { You see a wooden door
+}
+	to { s, 17 }
+	  desc { another part of the lair.
+}
+	to { w, 19 }
+	  desc { another part of the lair.
+}
+  }
+}
+
+19
+{
+  name { The square lair }
+  desc {
+You are standing in the north-west part of the lair. Here's
+another sign. There are a exit from the lair to the north.
+  }
+  sector { City }
+  extra {
+	keywords { sign" }
+	desc { The sign says 'I'm wandering around in a everlasting tale,
+               seeking the light to regain my pride
+                           Corama...
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 22 }
+	  desc { You see a small tunnel leading north.
+}
+	to { e, 18 }
+	  desc { another part of the lair.
+}
+	to { s, 20 }
+	  desc { another part of the lair.
+}
+  }
+}
+
+20
+{
+  name { The lair end }
+  desc {
+"  You can see a table in front of you.  It's very dusty.
+Around the table five skeletons are sitting.
+  }
+  sector { City }
+  extra {
+	keywords { tabel" }
+	desc { On the tabel there is dust, in the center there is a small statue of a
+Dragon sleeping.
+	}
+	keywords { skeleton skeletons" }
+	desc { You can see that they have been killed in some sort of way. Not
+by sword or club.
+	}
+	keywords { dragon statue" }
+	desc { it looks like a silver dragon. It is nailed onto the tabel.
+The dragon sits on a red dragon that looks dead. But the
+eyes of the red dragon is glowing pulsating red. You feel
+drained.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 19 }
+	  desc { the northern part of the lair.
+}
+	to { e, 17 }
+	  desc { the eastern part of the lair.
+}
+  }
+}
+
+21
+{
+  name { East tunnel }
+  desc {
+You are standing in dark tunnel, the exits are east
+and west. To the west you see a wooden door.
+  }
+  sector { City }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 2 }
+	  desc { You can see a muddy tunnel.
+}
+	to { w, 18 }
+	  info { door, closed }
+	  keywords { wooden door" }
+	  desc { You can see a wooden door.
+}
+  }
+}
+
+22
+{
+  name { North tunnel }
+  desc {
+You are standing in a dark tunnel, it leads upwards.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 23 }
+	  desc { The dark tunnel continues.
+}
+	to { s, 19 }
+	  desc { You can see the lair.
+}
+	to { w, 36 }
+	  desc { You can see a cave entrance.
+}
+  }
+}
+
+23
+{
+  name { The L-shaped room. }
+  desc {
+You are standing in deep darkness. To the south there is a small exit.
+To the east you can see a gaping hole.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 24 }
+	to { s, 22 }
+  }
+}
+
+24
+{
+  name { The Circular hall. }
+  desc {
+You are standing in round hall. To the north, east and south you
+can see a stone head hanging on the walls.
+  }
+  sector { City }
+  extra {
+	keywords { head heads" }
+	desc { When you study the faces of the heads you see that it
+is faces of dragons. The face to the north is red, the
+face to the east is green and the face to the south is
+blue.
+	}
+	keywords { green" }
+	desc { This looks like a evil dragon
+	}
+	keywords { red" }
+	desc { This looks like a neutral dragon
+	}
+	keywords { blue" }
+	desc { This looks like a good dragon
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 25 }
+	  info { door, closed }
+	  keywords { green head dragon sculpture face" }
+	  desc { you see nothing special.
+}
+	to { w, 23 }
+	  desc { you see a room far away.
+}
+  }
+}
+
+25
+{
+  name { Dusty tunnel }
+  desc {
+You are standing in dust. This place has not been
+touched for a long time. Otherwise it is quite boring
+here, looks like a place to rest! To the west you see
+the outline of a door. A tunnel leads to the east.
+  }
+  sector { City }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 26 }
+	  desc { You see a tunnel which leads downwards. It is quite
+dark.
+}
+	to { w, 24 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You can see the outline of a door. Just like in the
+description!
+}
+  }
+}
+
+26
+{
+  name { The crossing }
+  desc {
+You are standing in a crossing of hallways. You can leave this place
+in every direction, except up and down. In the dust you notice strange
+footprints.
+  }
+  sector { Forest }
+  extra {
+	keywords { footprints foot" }
+	desc { You have never seen this kind of footprints before!
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 31 }
+	to { e, 30 }
+	to { s, 27 }
+	to { w, 25 }
+  }
+}
+
+27
+{
+  name { The L-shaped room }
+  desc {
+You are standing in a L-shaped room. You can hear
+noices from the long tunnel to the east. You can feel
+fear! A sign is hanging on the wall.
+  }
+  sector { Field }
+  extra {
+	keywords { sign" }
+	desc { The sign says 'DANGER!!'.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 26 }
+	to { e, 28 }
+	  desc { a long dark tunnel.
+}
+  }
+}
+
+28
+{
+  name { Dragons lair }
+  desc {
+You can see burned walls, the floorstones are fiery red.
+All kinds of bones are scattered all over the floor. On
+the walls you can see some burned shapes. You smell burned
+flesh. Two creatures are like melted into the floor.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 29 }
+	  desc { You can see a long tunnel.
+}
+	to { w, 27 }
+	  desc { You can see nothing but darkness.
+}
+  }
+}
+
+29
+{
+  name { The burned room }
+  desc {
+You are in a room, which once had been quite burned.
+There is writing on the wall.
+  }
+  sector { City }
+  extra {
+	keywords { writing" }
+	desc { The writing says 'DANGER!!!'
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 28 }
+	  desc { You can see a red glow
+}
+	to { w, 30 }
+  }
+}
+
+30
+{
+  name { The wind tunnel }
+  desc {
+You are standing in a tunnel. Above you, you can feel
+a breeze.
+  }
+  sector { City }
+  extra {
+	keywords { breeze" }
+	desc { The breeze comes from a hole above you. NO way to get up
+there.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 29 }
+	  desc { To dark to tell
+}
+	to { w, 26 }
+  }
+}
+
+31
+{
+  name { The glittering room }
+  desc {
+This room are all bright. In the walls you can see some
+silver. Exits are: West, east and south.
+  }
+  sector { City }
+  extra {
+	keywords { glitter walls silver" }
+	desc { The glittering silver looks like it is INSIDE the walls.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 32 }
+	to { s, 26 }
+	to { w, 33 }
+  }
+}
+
+32
+{
+  name { The secret passage room }
+  desc {
+You have entered a tiny room. There is an exit down, and an
+exit to the west.
+  }
+  sector { City }
+  extra {
+	keywords { down" }
+	desc { A sign is blocking the way. It says 'This has not been
+implementated yet....'
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 31 }
+	  desc { You can see a light to the west
+}
+  }
+}
+
+33
+{
+  name { End of long tunnel }
+  desc {
+You are at a end of a long tunnel. Right in front of you,
+you can see a grey mass. To the east you can see a tremendous
+long tunnel, but you know that, you has just been there.
+  }
+  sector { Mountains }
+  extra {
+	keywords { grey mass" }
+	desc { The mass is nothing but a mass, but it is quite suspecious!
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 31 }
+	  desc { Long tunnel. JUST like in the description!
+}
+	to { w, 34 }
+	  desc { A grey mass is blocking the way.
+}
+  }
+}
+
+34
+{
+  name { Stair-room }
+  desc {
+You are standing in a small room. Drawings of faces in pain
+are on the walls. You can fell darkness is ruling the place.
+there are two exits: south and down.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { s, 35 }
+	  desc { nothing but darkness
+}
+	to { d, Void:-1 }
+	  desc { A sign is blocking the way: 'This has not been implementated
+yet'.
+}
+  }
+}
+
+35
+{
+  name { Dark tunnel }
+  desc {
+You are standing in a dark tunnel. It continues to the north
+and to the south. Bones are spred on the floor
+  }
+  sector { City }
+  extra {
+	keywords { bones bone" }
+	desc { it looks like bones of a human.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 34 }
+	to { s, 36 }
+  }
+}
+
+36
+{
+  name { Entrance to lair }
+  desc {
+The smell here is awfull. To the south you can see some
+smoke. A tunnel leads north, and east.
+  }
+  sector { Field }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 35 }
+	to { e, 22 }
+	  desc { A small cave is to the east.
+}
+	to { s, 37 }
+	  desc { the only thing you can see are smoke.
+}
+  }
+}
+
+37
+{
+  name { North-eastern part of Basilisks cave }
+  desc {
+It is hard to see here because of the smoke. To the north you
+can see barly see a small tunnel. Other exits are to the south
+and to the west.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { n, 36 }
+	to { s, 38 }
+	to { w, 39 }
+  }
+}
+
+38
+{
+  name { South-eastern part of basilisks cave }
+  desc {
+There are a very small hole in wall, from where the smoke
+are coming from. Otherwise it is pitch dark. Exits are north
+and west.
+  }
+  sector { Field }
+  extra {
+	keywords { hole small" }
+	desc { It's a small hole. About 1 feet in diameter.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 37 }
+	  desc { You can see nothing but smoke
+}
+	to { w, 40 }
+	  desc { You can see nothing but smoke
+}
+  }
+}
+
+39
+{
+  name { North-western part of basilisks cave }
+  desc {
+You can see some hay spred on the floor. The smell is
+awfull here, and it makes you feel sick. This place is
+the place where the basilisk sleep. Watch out..Mabye it is not
+far away.
+  }
+  sector { Field }
+  extra {
+	keywords { hay" }
+	desc { The hay is very dirty. The smell of it makes you feel sick.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 37 }
+	to { s, 40 }
+  }
+}
+
+40
+{
+  name { South-western part of basilisks cave }
+  desc {
+You can see nothing but smoke. 
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 39 }
+	to { e, 38 }
+	to { s, 41 }
+  }
+}
+
+41
+{
+  name { The small cave }
+  desc {
+You are standing in small cave. You can see
+some light in the end. Exits are north and south.
+  }
+  sector { Field }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 40 }
+	  desc { You can see only smoke.
+}
+	to { s, 42 }
+	  desc { You can see a blue glow. And you feel a fresh breeze.
+}
+  }
+}
+
+42
+{
+  name { The northern end of the pool }
+  desc {
+You have wet feet, you are standing in water.
+The water looks calm. You can see that it's
+a big lake. Light seeps from the water.
+  }
+  sector { Hills }
+  flags { indoors }
+  exits {
+	to { n, 41 }
+	  desc { You can see a small cave.
+}
+	to { e, 43 }
+	  desc { You can see more water.
+}
+	to { s, 44 }
+	  desc { You can see water.
+}
+  }
+}
+
+43
+{
+  name { The pool }
+  desc {
+You are swimming in water. It is getting deep here.
+It is also dark in this end.
+  }
+  sector { Water Swim }
+  flags { dark, indoors }
+  exits {
+	to { s, 45 }
+	  desc { You can see some bubbles in the water.
+}
+	to { w, 42 }
+	  desc { You see calm water.
+}
+  }
+}
+
+44
+{
+  name { The south end of the pool }
+  desc {
+You standing in water up to you neck.
+You can only see water.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { n, 42 }
+	  desc { You can see calm water.
+}
+	to { e, 45 }
+	  desc { To dark to tell, but you can feel something nearby.
+}
+  }
+}
+
+45
+{
+  name { The pool }
+  desc {
+You are swimming in DARKNESS. You feel something
+touching your right leg.
+  }
+  sector { Water Swim }
+  flags { dark, indoors }
+  exits {
+	to { n, 43 }
+	  desc { To dark to tell.
+}
+	to { e, 13 }
+	  desc { You can feel a warm  breeze.
+}
+	to { w, 44 }
+  }
+}

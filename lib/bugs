@@ -1,0 +1,121 @@
+**Ullr[3000]: 'sense life' seems to detect immortals in invis mode....
+**NurAlDin[3000]: using earthquake on giants in Arachnos ambush seems to crash the mud.
+**Jayce[3027]: The arachnos in the new world doesn't have an exit
+**Jayce[25100]: The "guard" command for followers seems not to be working
+**Stormbringer[3030]: i am multi-classed i learned summon as cleric at 30th..and the mana cost was 20.  Now at 55th level i have the opportunity to learn it as mage...so the mana cost is 80 because it thinks i just learned it again...
+**Nene[6516]: sold plate gauntlets at dwarven armorer and it gave me no money 
+**Nene[6516]: also w/ the dwarven armorer told me to report it as a bug
+**Back[6516]: the hide &tooth dude doesn't give any money out when he buys stuff
+**Coho[6516]: hide and tooth storekeeper is telling me 'Bug.    Please report.
+**Twig[3000]: I typed get corpse it says You don't their permission. shoud say You dont have.
+**Greyhound[3029]: the regeration cost total does not add mana cost
+**Thane[3000]: before switch paladins could wear strange boots, now cant. please fix. thank you.
+**Thane[3000]: please fix it so that paladin can once more wear strange boots.  thank you very much.
+**Bamf[50505]: pc saves are poor...but mobs seem never to fail
+**Bamf[50505]: are mobs still on the 1-20 system??
+**Deadman[2173]: the east wing north of sanctuary should have west exit instead of east exit (room going to is correct)
+**Mirage[1000]: didn't know how else to mark it, but Puff says challange in one of his statements, should be challEnge...
+**Mazrim[21211]: Check strength ... 1st time I cast = +1, 2nd = +2, 3rd = +3, 4th = +4 ...
+**Mazrim[21211]: The way of stacking like lines (8*)etc., seems to make wear all look kind of strange when you, say, can't use a bunch of stuff.
+**Emerald[3226]: prac lists need fix says you need gold for things you don't have to pay for.
+**Twig[3066]: In fishermans wharf. Map is messed up.
+**Hallet[3000]: Tell doesn't recognize someone whos asleep.
+**Limit[3007]: a barracks room in Rhyodinhas no exit as described in text. or otherwise.
+**Halfrunt[3108]: the armourer sells lots of pants!
+**Scarrow[1144]: Reception in the Shire comes back down to the wrong room.
+**Jayce[126]: There is a way to pkill with followers!
+**WarMok[21032]: The split command only works correctlyu for the leader but not for the other members of the party.
+**Ptah[2999]: full heal send "You do a full heal on whoevre" to_room instead of caster
+**Cutter[14223]: exits
+**Palin[3016]: When I type "put 10*<component> pouch" it only puts 9 in pouch when i have 10 in inventory...
+**Malbeth[3081]: whenever i buy recall scrolls, i go into negative money...  and i have enough.
+**Shrike[3228]: A giant with 17 or 18 con can immediately bounce and gain with 20 con (before affect_total is called by removing/using equipment, saving, etc.).
+**Cerestra[3126]: list is broken in the magic shop.  3 pages of recall scrolls.
+**Zarkon[3030]: when game crashes player get charged for LINK DEAD I and 3 others lost 50k apiece
+**Sivit[3000]: Curse spell affecting Paralyse Save!
+**Limit[14200]: Map at South Iron Road at Fern Road is wrong.
+**At[44575]: in tagol wide gravel path has wrong south exit (leads to square s of pet shope) needs to be moved one east
+**At[44731]: Tagol house of virtue go E then W you move net one W (change exit on room E)
+**Scarrow[32005]: When in an underwater area without breath, it won't let me move into a non-breath area (what if breath wore off?).
+**Jerk[19227]: the info command is not functioning ...
+**Lax[3000]: donate doesn't use 'compact mode' flag correctly...
+**Lax[3000]: 'hide' -> ...standing and not fighting??  (I think I'm resting)
+**Lax[3000]: (yeah, I was resting)
+**Lax[3000]: You hear squeaking noises nearby <- no cr, whatever it was
+**Ptah[33031]: mobs should not junk eq they dont wish to weild :-(
+**Sanrio[3105]: rebecca
+**Style[3000]: voodoo
+**Zbot[1401]: A mortally wounded mob can clamber to its feet (still mortally wounded) after being bashed
+**Lax[3000]: get all fails to recognize when something is gotten (says nothing at bottom)
+**Hemlock[3016]: begineer's
+**Deadman[5133]: either you have decided many things shouldn't be agg or agg is screwed
+**Regn[11017]: castle closed, cant go south...is this normal?
+**Zaq[6131]: no exits in the forest
+**Artagel[3111]: consider gives a line "You probably wouldn't survive" without newline
+**Sio[3115]: where is the armour.
+**Lax[3000]: drinks water from ... lacks punctuation
+**Nok[3016]: If you are forced to drop an object because you are carrying too much, it still lists it as carried, so you can't pick it up again (specifically spell pouches).
+**Caldwell[3006]: tackor
+**Caldwell[104]: tackor
+**Tackor[104]: caldwell
+**Hagger[2999]: I was fighting a dog ,the screen paused  then I was fighting a frost Gaint and Died. What Happened
+**When[1103]: hey look at taunt yourself
+**LordPercy[3019]: galan
+**Sien[3000]: can u guys correct the time in the world command...its 8 hours behind...not a biggie, but I (and prob several others) use it to find outthe time in rl.
+**Nat[3230]: warhammer is its own prerequisite for necromancers :(
+**Nok[3030]: when you re-enter your finger information, you cannot change your Email address
+**Tassandra[3083]: in the new world..when you go south from the iron road near mystil's mystics, onto fern road, and then north again, you arrive near the shopping center, not near the mystil's..
+**Krulos[16030]: In "Overlooking a large Valley, it says you can go east, but you can't
+**Sien[3030]: correct the time in the world command
+**Thoth[3087]: whenever you go off fern road north, then east you end up in shopping center
+**Sien[15881]: skexie maidens chambers have no exits..only 5 rooms available, normally acess to hallways, hmmmm, is this  abug?
+**Brecht[99]: cleaver
+**Brecht[99]: ambrosia
+**Brecht[3227]: maelstrom
+**Hangar[6505]: 6/17/93 mud hasnt ticked in a hour and i am knocked out by a door and i cant get off i will lose all eq if i go link dead and i can not stay in lab for a nother hour
+**Hangar[6505]: hangar is going to loose all eq when he goes link dead please give mercy and give my armor i worked so hard for back im listing it on paper
+**Hangar[6505]: bye teh way only communications i have is bug, no title no nothing
+**Gecko[3126]: I just lost money mysteriously...
+**Nurgle[3030]: Missing note
+**Tazmanian[3021]: echo doesn't work w/ groupsay
+**Tazmanian[58]: split command doesn't split w/ everyone (or the display is wrong)
+**Ksdra[3000]: in the spells list for woodsman, some of the prerequisites aren't obtainable
+**Nothing[2999]: I can't seem to leave entrance after recalling from a crowded combat situation..
+**Ambrosia[16030]: area: Overlooking a large valley. exits: east, west. but cant go east
+**Sapporo[1120]: test
+**Brecht[3006]: i can't look/drop/put/give firebreather from inventory
+**Brecht[3013]: had to drop all to get rid of firebreather
+**Gore[11019]: the % for assassination on att screen has been at 95 since level 5 is it broken?
+**Colossus[3030]: there is a bug in practise
+**Colossus[3030]: i lost 82 points of prac for nothing !
+**Colossus[3030]: btw .. this is colossus
+**Ambrosia[99]: the noun 'me' doesnt work, 'myself' does.
+**Brecht[3000]: All my notes have a T written on them
+**Fizban[15921]: hmm...I noticed us non-chosens can charm eachother...is this a bug? *shrug*
+**Faramir[3163]: from a path in the forest, when you go south, you end up in the zoo!
+**Ace[3030]: that
+**Ace[3030]: baranow
+**Sweet[3005]: idea
+**Sweet[3005]: i tried to practice backstab and it says backstab is a pre req for backstab.. i must try harder at the basics  :(
+**Alister[3030]: solaris
+**Mauler[14223]: exits says there is an exit east
+**Garulf[3000]: help areas needs revamping
+**Garulf[3000]: also the spells/practice commands say 'mana' for both mage spells and cleric prayers, be nice to know which is which
+**Garulf[19225]: when something is too big to carry message needs to be changed, says 'you can't carry that many items'
+**Garulf[3000]: no help on spell 'flamestrike'
+**Fizban[3000]: when i type taunt fizban (me) it gives me some really wierd shit.
+**Vasaaggo[20007]: You recieve 1859 experience of a total 2324.....yet i was the only one in my group in the room.,...goodberry sits next to me in the lab and he was resting outside arachnos?????
+**Dimi[3000]: Graynard
+**LeChuck[3030]: help channel seems to be outdated ;)
+**Gork[3000]: I think players should also heal when fighting, as I was just fighting a mob, and it was stunned, then the tick happened, and it was in excellent condition and I died and lost a level!!
+**Gork[3000]: (cont) It is unrealistic that when fighting a mob would heal but not a player.
+**Chap[3000]: what the hell does flamestrike do?
+**Gelf[3108]: studded leather gloves
+**Darius[3087]: When traveling north on Fern Road to re-enter Midgard, It should transition into The Iron Road, but it dumps out onto Main Street 8 areas North of where it should
+**Olorin[50504]: Rogues cannot pick locks, it just says 'Pardon?' when I type pick...
+**Squander[4051]: hobgoblin
+**Elohi[3000]: countess.
+**Flashy[3000]: woodsman get call lightning twice once at level 13, then again at level 60 i think one should be summon lightning
+**Goon[1000]: You should not be able to track link-dead or inivs platers and maybe not gods at all
+**Avare[19233]: this altar opens but allows no new exits. 
+**Avare[4104]: it says we can go west here but we can't.

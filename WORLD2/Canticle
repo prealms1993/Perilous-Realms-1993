@@ -1,0 +1,571 @@
+
+1
+{
+  name { The Moor }
+  desc {
+"    A grassy plain darkened by wisps of fog.  The moor stretches northward.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 2 }
+	  desc { You see a great expanse of misty moor.
+}
+	to { s, Moor1:1 }
+  }
+}
+
+2
+{
+  name { Moor }
+  desc {
+A dried-out marsh, now barren of all vegetation and covered with a layer
+of dust about an inch thick.  You feel a warm breeze. You see a great iron
+gate to the north; the moor expands to the south.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 3 }
+	  desc { You see a great iron gate.
+}
+	to { s, 1 }
+	  desc { You see a foggy moor.
+}
+  }
+}
+
+3
+{
+  name { Iron Gate }
+  desc {
+A huge iron gate rusted by years of corrosion has fallen from its hinges.
+It appears to be under repair.  A dark entrance lies north and the moor
+is to the south.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 4 }
+	  desc { You see the stone entryway to Canticle.
+}
+	to { s, 2 }
+	  desc { You see a foggy, misty moor.
+}
+  }
+}
+
+4
+{
+  name { Entryway to Canticle }
+  desc {
+A foreboding entrance made entirely of perfectly cut granite stone.  An air
+of decay and desolation surrounds you.  Maybe you should turn back.
+  }
+  flags { indoors }
+  exits {
+	to { n, 5 }
+	  desc { You see a beautiful blue hall.
+}
+	to { s, 3 }
+	  desc { You see the wrought Iron Gate.
+}
+  }
+}
+
+5
+{
+  name { Blue Hall }
+  desc {
+A well-decorated passageway colored entirely blue.  The walls appear to
+have eyes.  You have the feeling you are being watched.
+  }
+  flags { indoors }
+  exits {
+	to { n, 9 }
+	  desc { You see a beautiful hall colored Light Blue.
+}
+	to { e, 6 }
+	  desc { You see the Hall of the Rooks.
+}
+	to { s, 4 }
+	  desc { You see a great stone entryway.
+}
+  }
+}
+
+6
+{
+  name { Rook Hall }
+  desc {
+A small damp hallway filled with eerie noises.  The floor is damp from
+moisture which is leaking from the ceiling.
+  }
+  flags { indoors }
+  exits {
+	to { e, 7 }
+	  desc { You see the Rook Nook.
+}
+	to { w, 5 }
+	  desc { You see a blue hall.
+}
+  }
+}
+
+7
+{
+  name { Rook Nook }
+  desc {
+The southeast corner canticle, the nook is a rather unpleasant place, the
+floor worn by the constant pacing of the Rooks, cobwebs brush across your
+face as you look around.
+  }
+  flags { indoors }
+  exits {
+	to { n, 8 }
+	  desc { You see the Bastille where the Rooks keep their prisoners.
+}
+	to { w, 6 }
+	  desc { Rook Hall lies to the west.
+}
+  }
+}
+
+8
+{
+  name { Bastille }
+  desc {
+A damp, dingy prison empty of windows.  A strange unpleasant feeling comes
+over you.  You notice that the door has been locked behind you --
+you're trapped!!
+  }
+  flags { no_mob, indoors }
+}
+
+9
+{
+  name { Light Blue Hall }
+  desc {
+A well-decorated passageway colored entirely blue.  The walls appear to
+have eyes.  You have the feeling you are being watched.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 15 }
+	  desc { You see a beautiful blue hall.
+}
+	to { s, 5 }
+	  desc { You see a hall decorated totally in blue.
+}
+	to { w, 10 }
+	  info { door, closed }
+	  desc { You see the Scullery.
+}
+  }
+}
+
+10
+{
+  name { Scullery }
+  desc {
+A filthy eatery cluttered with dirty pans and plates.  The tables around
+the room are warped and faded.  The smell of garlic overpowers you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 11 }
+	  desc { The Frump's Den lies to the north.
+}
+	to { e, 9 }
+	  desc { You see a light blue hall.
+}
+	to { w, 13 }
+	  desc { You see the Scullery.
+}
+  }
+}
+
+11
+{
+  name { Frump's Den }
+  desc {
+The Frump's meeting place, a stone lair fallen to decay.  The place is
+littered with broken chairs.  It appears that someone lives here.
+  }
+  flags { indoors }
+  exits {
+	to { s, 10 }
+	  desc { You see the Scullery.
+}
+	to { w, 12 }
+	  desc { An Altar Room lies to the west.
+}
+  }
+}
+
+12
+{
+  name { Altar Room }
+  desc {
+A darkened room with raised structures used for sacrifice.  The floor is
+stained blood red and the smell is horrendous.  Mice are everywhere
+scampering around.
+  }
+  flags { indoors }
+  exits {
+	to { e, 11 }
+	  desc { The Frump's Den lies to the north.
+}
+  }
+}
+
+13
+{
+  name { Scullery }
+  desc {
+You're in a storeroom, amidst spices, vegetables, and vast sacks of flour
+and other provisions.  The air is thick with spice and garlic.
+  }
+  flags { indoors }
+  exits {
+	to { e, 10 }
+	  desc { You see the Scullery.
+}
+	to { s, 14 }
+	  info { door, closed }
+	  desc { You see the Jitney.
+}
+  }
+}
+
+14
+{
+  name { The Jitney }
+  desc {
+A large kitchen filled with boiling caldrons.  A rat scurries across the
+floor.  You wonder what's for dinner.  The smell of garlic overpowers you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 13 }
+	  desc { You see the Scullery.
+}
+  }
+}
+
+15
+{
+  name { Deep Blue Hall }
+  desc {
+A well-decorated passageway colored entirely blue.  The faded tapestries
+on the walls only hint at the splendor which this hall once had.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 16 }
+	  desc { You see a dark blue hall.
+}
+	to { s, 9 }
+	  desc { You see a light blue hall.
+}
+  }
+}
+
+16
+{
+  name { Dark Blue Hall }
+  desc {
+A well-decorated passageway colored entirely blue.  The walls appear to
+have eyes.  You have the feeling you are being watched.
+  }
+  flags { indoors }
+  exits {
+	to { n, 18 }
+	  desc { You see a black corridor.
+}
+	to { e, 17 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see a blue cube.
+}
+	to { s, 15 }
+	  desc { You see a deep blue hall.
+}
+  }
+}
+
+17
+{
+  name { Blue Cube }
+  desc {
+A perfect cube set in blue, the hair on your neck stands straight as you
+feel electricity in the air.  You may want to leave now.
+  }
+  flags { indoors }
+  exits {
+	to { w, 16 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see a dark blue hall.
+}
+  }
+}
+
+18
+{
+  name { Black Corridor }
+  desc {
+A dank, dusty corridor completely void of light.  The walls feel extremely
+cold.  From the dust on the floor you can tell no one has walked this way
+for a long time.
+  }
+  flags { indoors }
+  exits {
+	to { n, 19 }
+	  desc { You see a glass walk.
+}
+	to { s, 16 }
+	  desc { You see a dark blue hall.
+}
+  }
+}
+
+19
+{
+  name { Glass Walk }
+  desc {
+The entire room appears made of glass.  Your reflection is distorted.  The
+brilliance almost blinds you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 20 }
+	  desc { You see a glass walk.
+}
+	to { s, 18 }
+	  desc { You see a black corridor.
+}
+	to { w, 24 }
+	  desc { You see a glass walk.
+}
+  }
+}
+
+20
+{
+  name { Glass Walk }
+  desc {
+The entire room appears made of glass.  Your reflection is distorted.  The
+brilliance almost blinds you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 21 }
+	  desc { You see a crystal parapet.
+}
+	to { w, 19 }
+	  desc { You see a glass walk.
+}
+  }
+}
+
+21
+{
+  name { Crystal Parapet }
+  desc {
+A crystal wall built to protect the soldiers has been damaged by many wars
+but stands firm.  From here you can see the surrounding forest.
+  }
+  flags { indoors }
+  exits {
+	to { w, 20 }
+	  desc { You see a glass walk.
+}
+	to { u, 22 }
+	  desc { You see the upper parapet.
+}
+  }
+}
+
+22
+{
+  name { Upper Parapet }
+  desc {
+A lofty perch on the wall, you become woosy as you realize your altitude.
+Over the wall you see a beautiful view.
+  }
+  flags { indoors }
+  exits {
+	to { s, 23 }
+	  desc { You see the rampart.
+}
+	to { d, 21 }
+	  desc { You see a crystal parapet.
+}
+  }
+}
+
+23
+{
+  name { Rampart }
+  desc {
+A battlement high up on Canticle's walls.  It has been used for centuries of
+holy wars.  From here you can survey the entire countryside.
+  }
+  flags { indoors }
+  exits {
+	to { n, 22 }
+	  desc { you see the upper parapet.
+}
+  }
+}
+
+24
+{
+  name { Glass Walk }
+  desc {
+The entire room appears made of glass.  Your reflection is distorted.  The
+brilliance almost blinds you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 19 }
+	  desc { You see the glass walk.
+}
+	to { s, 25 }
+	  desc { You see a large library.
+}
+	to { w, 26 }
+	  desc { You see a room of mirrors.
+}
+  }
+}
+
+25
+{
+  name { Edificant Library }
+  desc {
+The libraries collection of books, parchments, and artifacts fill the
+entire room.  Most of the books are on potions and spell casting.
+  }
+  flags { indoors }
+  exits {
+	to { n, 24 }
+	  desc { You see the glass walk.
+}
+  }
+}
+
+26
+{
+  name { Mirror Room }
+  desc {
+The entire room is encased in mirrors.  As you gaze around, you see
+yourself reflected a hundred times or more.  The magic mirror hangs on
+the south wall.
+  }
+  flags { indoors }
+  exits {
+	to { e, 24 }
+	  desc { You see the glass walk.
+}
+	to { s, 27 }
+	  desc { You think you might be able to enter this magical mirror.
+}
+  }
+}
+
+27
+{
+  name { In The Mirror }
+  desc {
+You have a strange distored feeling.  You are inside a rainbow of mirrors,
+and you wonder which one is the real you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 26 }
+	  desc { You see a room full of mirrors.
+}
+	to { s, 28 }
+	  desc { You see the bottom of staircase.
+}
+  }
+}
+
+28
+{
+  name { Bottom of Staircase }
+  desc {
+A circular flowing granite staircase ascends the walls and leads into ominous
+darkness.  The skeletons of dead adventurers lie strewn about.  Behind you
+is a beautiful magic mirror.
+  }
+  flags { indoors }
+  exits {
+	to { n, Midgard:1 }
+	  desc { You think you might be able to enter this magical mirror.
+}
+	to { u, 29 }
+	  desc { You see the entrance to the Keep.
+}
+  }
+}
+
+29
+{
+  name { Entrance to the Keep }
+  desc {
+A strange foyer with satanistic carvings on the wall.  The floor creaks
+beneath your feet.  Strange noises and flashes of light come from the door
+to the south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 30 }
+	  key { 1305 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see the Keep.
+}
+	to { d, 28 }
+	  desc { You see the bottom of staircase.
+}
+  }
+}
+
+30
+{
+  name { The Keep }
+  desc {
+The Keep of Canticle, home of the Dark Overlord.  A huge throne room filled
+with the odor of sulphur.  The floor is made of silver tile laid perfectly
+in the shape of a dragon.  The heat is too much and the sweat drips off
+your brow.  You see a huge wooden doorway to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 29 }
+	  key { 1305 }
+	  info { door, closed }
+	  keywords { door" }
+	  desc { You see the entrance to the Keep.
+}
+  }
+}
+
+100
+{
+  name { 1400 }
+  desc {
+Empty
+  }
+}
+
+198
+{
+  name { 1498 }
+  desc {
+Empty
+  }
+}

@@ -1,0 +1,14 @@
+
+0
+{
+  name { Entrance to Perilous Realms }
+  desc {
+"   You are in the entrance room to Perilous Realms. Here you may get ready
+for whatever may happen below. Once you leave this room you may not enter
+again, so be ready! You feel very safe here. The exit is down.
+  }
+  flags { no_mob, indoors, rent_room }
+  exits {
+	to { d, Midgard:0 }
+  }
+}

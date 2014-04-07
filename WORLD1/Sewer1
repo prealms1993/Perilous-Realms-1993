@@ -1,0 +1,1502 @@
+
+1
+{
+  name { The muddy sewer }
+  desc {
+You are standing in mud to your knees. This is not the kind of place
+for a picnic. The muddy sewer stretches further into the south.
+  }
+  sector { Mountains }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 2 }
+	  desc { You see the muddy sewer continuing into the darkness to the south.
+}
+  }
+}
+
+2
+{
+  name { The muddy sewer junction }
+  desc {
+The muddy sewer stretches into the dark to the south. It looks as if 
+no person has ever sat his foot here before. It's too muddy for that
+anyway. The sewer leads north, south and east from here.
+  }
+  sector { Mountains }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 1 }
+	  desc { The muddy sewer stretches into the dark to the north.
+}
+	to { e, 7 }
+	  desc { East. The muddy sewer leads into a bend that goes south.
+}
+	to { s, 3 }
+	  desc { South. The muddy sewer ends in a mudhole that way.
+}
+  }
+}
+
+3
+{
+  name { The mudhole }
+  desc {
+You stand in mud all the way up to your thighs and it's not too 
+comfortable since you are used to a somewhat different environment.
+The sewer leads to the north of here. In the middle you can just make
+out an enormous drainpipe leading down.
+  }
+  sector { Mountains }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 2 }
+	  desc { North. The muddy junction lies in that direction.
+}
+	to { d, Sewer2:1 }
+	  desc { The muddy drainpipe leads down through the mud, otherwise it is utterly dark.
+}
+  }
+}
+
+4
+{
+  name { The Dark Pit }
+  desc {
+You are standing by the edge of a dark pit that leads down into even
+deeper darkness. >BWWAAADDRR< - The smell from down there is unbearable.
+The sewer stretches into the darkness to the east.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 9 }
+	  desc { East. The sewer leads into the sewer junction.
+}
+	to { d, Sewer2:2 }
+	  desc { The Dark Pit leads down an down and down ... well you can't see the 
+bottom anyway. There are bars that function as a ladder on the side.
+}
+  }
+}
+
+5
+{
+  name { The muddy sewer }
+  desc {
+You are standing in the middle of a bend of the sewer pipe. It is very
+dark around here and the mud is sticking to your legs, not very pleasant.
+The pipe leads east and south from here.
+  }
+  sector { Hills }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 11 }
+	  desc { East. The mud stretches on into the darkness.
+}
+	to { s, 6 }
+	  desc { South. There is even more mud in that direction than where you are now. 
+Incredible.
+}
+  }
+}
+
+6
+{
+  name { The muddy sewer }
+  desc {
+You are standing in something that reminds you very much of porridge, this
+has the advantage that it's not hot, it's rather cold actually. The pipe 
+bends to the north and east.
+  }
+  sector { Mountains }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 5 }
+	  desc { The muddy sewer pipe leads into a bend that goes east.
+}
+	to { e, 12 }
+	  desc { The pipe leads into a bend that goes south. Interesting, there's mud on the
+floor there.
+}
+  }
+}
+
+7
+{
+  name { The muddy sewer bend }
+  desc {
+This isn't your idea of a place to stay too long. You're in up to your
+knees in something that resembles mud, but you're not quite sure. The
+bend in which you stand leads west and south.
+  }
+  sector { Mountains }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 8 }
+	  desc { The pipe leads into a intersection that goes south and east. The floor here 
+is still covered in mud.
+}
+	to { w, 2 }
+	  desc { The pipe (still filled with mud) leads into a intersection that goes north 
+and south. Interesting.
+}
+  }
+}
+
+8
+{
+  name { A muddy intersection }
+  desc {
+You have both your feet safely stuck in mud. It isn't the mud that's wrong
+it's the smell, the sounds, the total darkness that surrounds you. Everything
+here is so depressing. The pipe leads on with a trail of thick mud to the
+north, east and south.
+  }
+  sector { Hills }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 7 }
+	  desc { North. The pipe goes into a bend with a load of mud all the way up the walls.
+The bend leads west.
+}
+	to { e, 14 }
+	  desc { East. This way like a place for the annual mud festival, although the stench
+wouldn't allow any happiness at all. The pipe leads into a bend that leads 
+north.
+}
+	to { s, 9 }
+	  desc { South. There's less mud in that direction. *smile*. Your light doesn't 
+cover enough space for you to see much more than that it leads into some
+sort of junction.
+}
+  }
+}
+
+9
+{
+  name { The Sewer Junction }
+  desc {
+You stand in the middle of a huge junction of sewer pipes right under
+what you'd think was an air shaft. The sewer pipes lead to the north,
+south, east and west. It look quite impossible to force your way up.
+  }
+  sector { Forest }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 8 }
+	  desc { North. Mud is the floor basis in that direction. Yummy.
+}
+	to { e, 17 }
+	  desc { YYEEUUCH! BOOH! THAT looks like a nice place for creepy crawlies.
+}
+	to { s, 10 }
+	  desc { North. This direction looks quite nice actually. The pipe leads into 
+a bend that goes east.
+}
+	to { w, 4 }
+	  desc { A few yards ahead - away from this junction - there is a pit leading down,
+but the smell from there...>PHEWW<.
+}
+  }
+}
+
+10
+{
+  name { A bend in sewer pipe }
+  desc {
+You are in a bend in the sewer pipe. A strong smell seeps in from the north.
+The sewer goes north and east.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { n, 9 }
+	  desc { North. You are staring into a huge junction with exits in all directions.
+}
+	to { e, 18 }
+	  desc { East. The Pipe leads into utter darkness that way.
+}
+  }
+}
+
+11
+{
+  name { The muddy sewer pipe }
+  desc {
+You have entered a kind of tube intersection that leads south, west and east.
+Your legs are covered in mud up to the knees. REAL yucky! 
+  }
+  sector { Mountains }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 24 }
+	  desc { East. There's less mud in that direction, or that's your impression.
+}
+	to { s, 21 }
+	  desc { That way is lost in darkness, though you sense less mud in that direction,
+perhaps even a complete end to this sludge that surrounds you.
+}
+	to { w, 5 }
+	  desc { West. The mud reaches that way too, all the way up the walls.
+}
+  }
+}
+
+12
+{
+  name { The bend in the Muddy sewer }
+  desc {
+This is not your idea of a holiday. You stand in mud up to your knees.
+It's absolutely inconceivable how all this mud could have been placed
+here. The pipe leads to the west and south.
+  }
+  sector { Mountains }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 13 }
+	  desc { South. There's even more mud that way, incredible! Although it looks
+like an intersection in the sewer system that leads east and south.
+}
+	to { w, 6 }
+	  desc { West. All you can see, is that the pipe leads into a bend that goes
+north. But there's less mud in that direction, however odd that sounds.
+}
+  }
+}
+
+13
+{
+  name { A MUDDY intersection }
+  desc {
+You wouldn't want to know the true feeling of standing in this mud up to 
+your hips. >BWAADR<. All that fills your mind right now is the dream of 
+a hot bath. This is NOT very clean mud you know, remember you're in the
+sewer! The pipes leads north, south and east.
+  }
+  sector { Mountains }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+	keywords { sediment" }
+	desc { It's NOT the kind of matter that would concern you too much, normally, but
+as you are in the middle of it, it just might become your main concern.
+REAL YUCKY!
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 12 }
+	  desc { North. Sludge and sediment fills this corridor of the sewer that leads
+into a bend going west.
+}
+	to { e, 26 }
+	  desc { East. You can see absolutely nothing of interest in that direction (Maybe
+that's why it's so damn interesting.??) There's no mud in that direction
+either, GREAT!
+}
+	to { s, 14 }
+	  desc { South. All you can see is more mud! Although the pipe goes into a bend
+leading west.
+}
+  }
+}
+
+14
+{
+  name { Muddy sewer }
+  desc {
+You stand in a bend of the pipe system of the sewer with mud up to your
+thighs. Contemplating a higher level of existence here would be utterly
+inappropriate, as the smell would keep any intelligent creature from even
+thinking of anything but getting away from this foul end of the WORLD.
+The bend goes from north to west.
+  }
+  sector { Mountains }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 13 }
+	  desc { North. Filled with mud, that place looks like an impassable intersection
+with pipes leading north and east.
+}
+	to { w, 8 }
+	  desc { West. There's less mud that way, maybe you're on your way out of this foul
+place.
+}
+  }
+}
+
+15
+{
+  name { The old well }
+  desc {
+You are standing by an old and worn well from before this century. The sewer
+leads to the east from here and the well leads down into darkness. Metal
+bars implanted in the side of the well lead down as a ladder.
+  }
+  sector { Forest }
+  extra {
+	keywords { bars" }
+	desc { These look like they're pretty slippery, and not very safe, but perhaps safe
+enough for you to climb down, WITH both hands on them.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 28 }
+	  desc { East. You see, because of the utter darkness that surround you, absolutely
+nothing. Your light isn't of much use for that kind of distance.
+}
+	to { d, Sewer2:5 }
+	  desc { Down the well there's even less light than up here, so ... sorry, you can't
+see a thing. There are metal bars in the side leading down into the darkness.
+}
+  }
+}
+
+16
+{
+  name { The ordinary bend }
+  desc {
+You are in the middle of a bend in the pipe system of the sewer system, 
+WHAT a place!!! The pipe leads to the south and the east.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 21 }
+	  desc { East. What a quiet place you've found there. It's an intersection that have
+pipeways going north and east.
+}
+	to { s, 17 }
+	  desc { South. You see nothing at all in that direction it's too dark anyway.
+}
+  }
+}
+
+17
+{
+  name { The sewer junction }
+  desc {
+You are in a junction that leads north, west and south.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 16 }
+	  desc { North. You see a bend.
+}
+	to { s, 18 }
+	  desc { South. It looks like a pipe junction just like this one. Only that one
+leads east and west.
+}
+	to { w, 9 }
+	  desc { West. There's a junction with four pipelines in that direction.
+}
+  }
+}
+
+18
+{
+  name { The ordinary junction }
+  desc {
+This looks like an ordinary junction, actually it seems very quiet
+here. The pipelines lead west, east and north.
+  }
+  sector { City }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 17 }
+	  desc { To the north you can see a junction like this one, leading north and west.
+}
+	to { e, 31 }
+	  desc { To the east there's nothing of particular interest, though there's a 
+junction with pipelines leading norht and east.
+}
+	to { w, 10 }
+	  desc { There's a bend to the west leading north.
+}
+  }
+}
+
+21
+{
+  name { A quiet pipe junction }
+  desc {
+This is the kind of place to rest, though the smell could be a LOT better
+than this. The sewer goes east, north and west from here.
+  }
+  sector { City }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 11 }
+	  desc { In that direction, you can't see anything. It's just too dark.
+}
+	to { e, 29 }
+	  desc { There's an ordinary junction in the pipe system to the east
+}
+	to { w, 16 }
+	  desc { West. There's an ordinary bend leading south into the sewer system in
+that direction.
+}
+  }
+}
+
+22
+{
+  name { The odd room with smooth walls }
+  desc {
+As you enter you hear a loud click from one of the walls ... and you fall
+and fall and fall ...
+.
+.
+.
+.
+ ... And come to an abrupt end. THIS is strange indeed. There's an arched
+entryway leading down.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { d, Sewer2:12 }
+	  keywords { entryway" }
+	  desc { Down. It's utterly dark that way, though you can make out an intersection
+of sewer pipes leading west, north and east.
+}
+  }
+}
+
+24
+{
+  name { The sewer }
+  desc {
+You are standing in mud up to your ankles. This is an intersection with 
+sewer pipes leading east, south and west.
+  }
+  sector { City }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { e, 37 }
+	  desc { To the east there's a peculiar looking round room.
+}
+	to { s, 25 }
+	  desc { To the south there's another intersection with pipes going south and east.
+}
+	to { w, 11 }
+	  desc { To the west there's another intersection like this one, with sewer pipes
+leading south and west.
+}
+  }
+}
+
+25
+{
+  name { Another intersection }
+  desc {
+You have never seen anything so BORING...This is an intersection with pipes
+leading north, south and east.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 24 }
+	  desc { To the north there's an intersection, where the pipes are leading west and
+east. You notice that the floor to the west is covered in mud.
+}
+	to { e, 38 }
+	  desc { East. You see nothing of interest in that direction, just another 
+intersection. This one leads east and south.
+}
+	to { s, 26 }
+	  desc { Another intersection lies to the south. It leads west and south.
+}
+  }
+}
+
+26
+{
+  name { A junction }
+  desc {
+This one seems interesting, a big difference from all the other junctions.
+It seems cleaner than the rest of them. Weird. Something that looks like 
+an air shaft leads upwards, but it looks far too slippery to climb.
+The pipes lead to the south, west and north.
+  }
+  extra {
+	keywords { mud" }
+	desc { It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+	}
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 25 }
+	  desc { North. You see an intersection there, leading north and east.
+}
+	to { s, 28 }
+	  desc { To the south there's ANOTHER junction leading west and east.
+}
+	to { w, 13 }
+	  desc { To the west you see a load of mud and sediment in the sewer. That should
+be an intersection there but you're not quite sure.
+}
+  }
+}
+
+28
+{
+  name { The sewer junction }
+  desc {
+You stand in a junction of sewer pipes leading north, east and west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 26 }
+	to { e, 34 }
+	  desc { To the east you can see a bend in the pipe going south.
+}
+	to { w, 15 }
+	  desc { To the west you can just make out an old well.
+}
+  }
+}
+
+29
+{
+  name { The Triple Junction }
+  desc {
+You stand in the middle of a huge junction of concrete sewer pipes. The 
+pipes lead into three different directions : east, south and west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 35 }
+	  desc { East. You can see a bend in the sewer pipe leading north.
+}
+	to { s, 30 }
+	  desc { To the south there's a ENORMOUS quadruple sewer junction, all lit up by
+an odd light.
+}
+	to { w, 21 }
+	  desc { To the west you can just make out another junction similar to the one 
+you are standing in.
+}
+  }
+}
+
+30
+{
+  name { The Quadruple Junction Under the Warehouse }
+  desc {
+You are standing in something that reminds you of an entry to an ant hive.
+There are enormous concrete pipes leading north, south, east and west. 
+There's also a metal ladder built into the concrete wall leading up.
+  }
+  sector { City }
+  extra {
+	keywords { ladder" }
+	desc { It looks as if it's made of stainless steel, and it would very well function
+as a club of considerable power, but alas ... You can't take at all since
+it's firmly set into the concrete wall.
+	}
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 29 }
+	  desc { To the north you can see a huge triple junction with sewer pipes leading
+west and east.
+}
+	to { e, 36 }
+	  desc { East. You can see a pit in the floor.
+}
+	to { s, 31 }
+	  desc { To the south there's a huge junction with pipes leading east and west.
+}
+	to { w, 22 }
+	  desc { To the west there's an odd looking room with totally smooth walls.
+}
+	to { u, Midgard:114 }
+	  info { door, closed }
+	  keywords { grate" }
+	  desc { You see a grate}
+  }
+}
+
+31
+{
+  name { A triple junction }
+  desc {
+You stand in a junction with pipes leading west, north and east.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 30 }
+	  desc { To the north there's a ENORMOUS quadruple sewer junction, all lit up by
+an odd light.
+}
+	to { e, 44 }
+	  desc { East. You can just make out a triple junction leading north and east.
+}
+	to { w, 18 }
+	  desc { West. You can just make out a triple junction leading north and west.
+}
+  }
+}
+
+34
+{
+  name { A bend in the sewer pipe }
+  desc {
+You can look in two directions where the pipe leads : south and west.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { s, 35 }
+	  desc { To the south you can see another bend leading west.
+}
+	to { w, 28 }
+	  desc { West. You can just make out a triple junction leading north and west.
+}
+  }
+}
+
+35
+{
+  name { The sewer pipe bend }
+  desc {
+You can look in two different directions where the pipe goes : west and 
+north.
+  }
+  sector { Field }
+  flags { dark, indoors }
+  exits {
+	to { n, 34 }
+	  desc { North. You see another bend leading west.
+}
+	to { w, 29 }
+	  desc { You can see another junction although this one is a triple one with pipes
+going south and west.
+}
+  }
+}
+
+36
+{
+  name { The pit }
+  desc {
+You stand in a section of a pipe that leads to a dead end. In the floor
+there's a pit leading down. There are bars set in the side of the pit wall
+functioning as a ladder.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { w, 30 }
+	  desc { West. You can see a dimly lit quadruple junction with an exit up.
+}
+	to { d, Sewer2:22 }
+	  desc { Down the pit it's utterly dark you can't see a thing.
+}
+  }
+}
+
+37
+{
+  name { The round room }
+  desc {
+As you enter the room it starts rotating - at first slowly, later faster
+and faster - You get totally confused as to where up and down is, but you are
+certain that the doorway is in the opposite direction of what it was when
+you entered. It now leads east. There was only this one exit.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 50 }
+	  desc { You can just make out a smaller room with a chair.
+}
+  }
+}
+
+38
+{
+  name { The three way junction }
+  desc {
+You are standing in a junction of pipes that lead west, east and south.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 45 }
+	  info { door, closed }
+	  desc { East. You can make out a dimly lit Guard Room.
+}
+	to { s, 39 }
+	  info { door, closed }
+	  desc { To the south you can see what looks like a store room.
+}
+	to { w, 25 }
+	  desc { West. You see another junction similar to this one leading north and south.
+}
+  }
+}
+
+39
+{
+  name { The Sewer Store Room }
+  desc {
+You stand in a small room lit by a single torch set in the wall. The only 
+way out of here is to the north.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 38 }
+	  info { door, closed }
+	  desc { To the north you see a pipe junction.
+}
+  }
+}
+
+41
+{
+  name { The Shaft }
+  desc {
+You are standing by the edge of a deep, dark shaft leading down. A single
+ladder is your tool to work your way down if you so wish. The sewer pipe
+leads south from here.
+  }
+  sector { City }
+  extra {
+	keywords { ladder" }
+	desc { Firmly set into the wall of the shaft it's impossible to even rock, is your
+estimate.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 43 }
+	  desc { To the south you can see the pipe leading further south into darkness.
+}
+	to { d, Sewer2:23 }
+	  desc { Down and utter darkness. There's absolutely nothing to be seen in that 
+direction.
+}
+  }
+}
+
+43
+{
+  name { The Sewer Entrance }
+  desc {
+You stand in the middle of a pipe that leads from north to south. Above you
+an air shaft leads up into sunlight. It seems totally impossible to go up
+that way.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 41 }
+	  desc { To the north you can just make out a huge shaft leading down.
+}
+	to { s, 44 }
+	  desc { To the south you can see a triple junction leading west and east.
+}
+  }
+}
+
+44
+{
+  name { The junction going three ways }
+  desc {
+You are in a passageway in the pipes of the sewer system leading north, east
+and west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 43 }
+	  desc { You see a sewer pipe leading north.
+}
+	to { e, 49 }
+	to { w, 31 }
+	  desc { West. You see another junction very similar to this one that leads north
+and west.
+}
+  }
+}
+
+45
+{
+  name { The Sewer Room }
+  desc {
+You are standing in a large room with chairs set in the walls. You have the
+feeling of being watched. To the south there's an entry to a larger room.
+The room is lit by five torches, also set in the walls. To the west there
+is a doorway leading out to the sewers.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { s, 46 }
+	  desc { You can see an even larger room than this one, filled with light.
+}
+	to { w, 38 }
+	  info { door, closed }
+	  desc { To the west you can see the sewers.
+}
+  }
+}
+
+46
+{
+  name { The Sewer room }
+  desc {
+This is a Room with walls that glitters like gold though not quite like it.
+This is strange as it looks as if the glitter lights the whole room. It
+looks very bright. To the south the floor is covered with yucky water. The
+North leads to sort of a Guard Room.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 45 }
+	  desc { To the north you can see the guard room.
+}
+	to { s, 47 }
+	  desc { To the south there is nothing but water and an exit leads east from there.
+}
+  }
+}
+
+47
+{
+  name { The Pool in the sewer }
+  desc {
+You stand in water to your waste. To the north is the entrance to this room.
+A single door leads east.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 47 }
+	  desc { To the north you see the entrance to this room.
+}
+	to { e, 53 }
+	  info { door, closed }
+	  desc { You can see an enormous hall through the doorway.
+}
+  }
+}
+
+48
+{
+  name { The Sewers }
+  desc {
+You stand in a dead end of the sewer. The only way out is south.
+You can see a shaft leading up but it looks too difficult to go up
+that way.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { s, 49 }
+  }
+}
+
+49
+{
+  name { The junction }
+  desc {
+You stand in a junction leading north, west and east.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 48 }
+	to { e, 60 }
+	  desc { Darkness has closed in on that part of the sewer system, you can't see
+a thing in that direction.
+}
+	to { w, 44 }
+	  desc { West. You see another junction very similar to this one that leads north
+and west.
+}
+  }
+}
+
+50
+{
+  name { The small room }
+  desc {
+The only thing in this room of interest is a chair, and that's tight to the 
+rock floor. A doorway leads south and another leads east into darkness.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { e, 55 }
+	  desc { Utter darkness...!
+}
+	to { s, 51 }
+	  info { door, closed }
+	  desc { You can see a room with a lot of light in it. You can't make out any details.
+}
+  }
+}
+
+51
+{
+  name { The Sewer pipe }
+  desc {
+You are in what reminds you of a foul sewer, as if you liked being here! 
+You can see two exits leading either north or south.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 50 }
+	  info { door, closed }
+	to { s, 52 }
+	  desc { To the south you can see a strange light flowing from there.
+}
+  }
+}
+
+52
+{
+  name { The Grand Sewer }
+  desc {
+You are in a Grand Sewer Pipe. This stretches toward the south. It's large 
+indeed! A doorway leads to the east from here.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 51 }
+	  desc { To the north you can see a doorway.
+}
+	to { e, 56 }
+	  info { door, closed }
+	  desc { You can't see anything in that darkness.
+}
+	to { s, 53 }
+	  desc { In the south end of the pipe the "floor" is completely covered with water.
+}
+  }
+}
+
+53
+{
+  name { The South end of the Grand Pipe }
+  desc {
+You stand in water to your knees. A doorway leads west from here. The Pipe
+stretches north.
+  }
+  sector { City }
+  flags { indoors }
+  exits {
+	to { n, 52 }
+	  desc { You see a lot of pictures decorating the walls.
+}
+	to { w, 47 }
+	  info { door, closed }
+  }
+}
+
+55
+{
+  name { The Edge of The Water Sewer }
+  desc {
+You stand in a room where half of the floor is covered in water. The water
+leads east and a doorway leads west.
+  }
+  sector { Forest }
+  extra {
+	keywords { water" }
+	desc { It looks dark and murky, and emanates a foul stench.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 61 }
+	  desc { You can hardly make out much more than that the next place is in a pipe 
+with more water.
+}
+	to { w, 50 }
+  }
+}
+
+56
+{
+  name { The Dark hallway }
+  desc {
+You can't see much of this, even with a light. The hallway goes into a
+passageway to the south. A dorway leads west.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { s, 57 }
+	  desc { You can see nothing at all, because it's completely dark in that direction.
+}
+	to { w, 52 }
+	  desc { You see a lot of light, bright as daylight, but nothing of interest.
+}
+  }
+}
+
+57
+{
+  name { The dark passageway }
+  desc {
+You can't see anything but the ground where you put your feet. The 
+passageway seems to continue south and north.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 56 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { s, 58 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+  }
+}
+
+58
+{
+  name { The dark passageway }
+  desc {
+You can't see anything but the ground where you put your feet. The
+passageway seems to continue south and north.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 57 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { s, 59 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+  }
+}
+
+59
+{
+  name { The dark passageway }
+  desc {
+You can't see anything but the ground where you put your feet. The
+passageway seems to continue south and north.
+  }
+  sector { City }
+  flags { dark, indoors }
+  exits {
+	to { n, 58 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { s, 60 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+  }
+}
+
+60
+{
+  name { The dark passageway }
+  desc {
+You can't see anything but the ground where you put your feet. The
+passageway seems to continue west and north. To the east there's water
+covering the floor and that leads through an arched entry to a watery
+sewer.
+  }
+  sector { City }
+  extra {
+	keywords { water" }
+	desc { It looks dark and murky, and emanates a foul stench.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 59 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { e, 68 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { w, 49 }
+	  desc { You can just make out a triple junction leading north and west.
+}
+  }
+}
+
+61
+{
+  name { The Watery Sewer Bend }
+  desc {
+You can't see anything but the water you're in up to your hips. The sewer
+seems to bend and lead south and west.
+  }
+  sector { Mountains }
+  extra {
+	keywords { water" }
+	desc { It looks dark and murky, and emanates a foul stench.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 62 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { w, 55 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+  }
+}
+
+62
+{
+  name { The Watery sewer }
+  desc {
+You can't see anything but the water you're in up to your hips. The sewer
+seems to lead south and north.
+  }
+  sector { Mountains }
+  extra {
+	keywords { water" }
+	desc { It looks dark and murky, and emanates a foul stench.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 61 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { s, 63 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+  }
+}
+
+63
+{
+  name { The Watery sewer }
+  desc {
+You can't see anything but the water you're in up to your hips. The sewer
+seems to lead south and north.
+  }
+  sector { Mountains }
+  extra {
+	keywords { water" }
+	desc { It looks dark and murky, and emanates a foul stench.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 62 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { s, 64 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+  }
+}
+
+64
+{
+  name { The Watery Sewer Junction }
+  desc {
+You can't see anything but the water you're in up to your hips. The sewer
+seems to lead into a junction going south,north and east.
+  }
+  sector { Mountains }
+  extra {
+	keywords { water" }
+	desc { It looks dark and murky, and emanates a foul stench.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 63 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { e, 69 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { s, 65 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+  }
+}
+
+65
+{
+  name { The Watery sewer }
+  desc {
+You can't see anything but the water you're in up to your hips. The sewer
+seems to lead south and north.
+  }
+  sector { Mountains }
+  extra {
+	keywords { water" }
+	desc { It looks dark and murky, and emanates a foul stench.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 64 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { s, 66 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+  }
+}
+
+66
+{
+  name { The Watery sewer junction }
+  desc {
+You can't see anything but the water you're in up to your hips. The sewer
+seems to lead into a junction that goes north,south and east.
+  }
+  sector { Mountains }
+  extra {
+	keywords { water" }
+	desc { It looks dark and murky, and emanates a foul stench.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 65 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { e, 70 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { s, 67 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+  }
+}
+
+67
+{
+  name { The Watery sewer }
+  desc {
+You can't see anything but the water you're in up to your hips. The sewer
+seems to lead south and north.
+  }
+  sector { Mountains }
+  extra {
+	keywords { water" }
+	desc { It looks dark and murky, and emanates a foul stench.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 66 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { s, 68 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+  }
+}
+
+68
+{
+  name { The Watery sewer bend }
+  desc {
+You can't see anything but the water you're in up to your hips. The sewer
+seems to bend and lead west and north.
+  }
+  sector { Mountains }
+  extra {
+	keywords { water" }
+	desc { It looks dark and murky, and emanates a foul stench.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 67 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+	to { w, 60 }
+	  desc { You can't see anything in that direction and your light isn't enough to light
+that far.
+}
+  }
+}
+
+69
+{
+  name { A ledge by the dark pool }
+  desc {
+You can't see much here but the echo tells you that there's quite a drop
+down. You can just make out a huge dark pool out there in the darkness, 
+mostly because of the trickling of water. The water from the sewer actually
+washes over this ledge and makes it quite slippery. From here it drops, 
+like a waterfall, into the pool far down.
+  }
+  sector { Mountains }
+  extra {
+	keywords { water" }
+	desc { It looks dark and murky, and emanates a foul stench.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 70 }
+	  desc { You can't see a thing. It's too dark.
+}
+	to { w, 64 }
+	  desc { You can't see a thing. It's too dark.
+}
+  }
+}
+
+70
+{
+  name { A ledge by the dark pool }
+  desc {
+You can't see much here but the echo tells you that there's quite a drop
+down. You can just make out a huge dark pool out there in the darkness,
+mostly because of the trickling of water. The water from the sewer actually
+washes over this ledge and makes it quite slippery. From here it drops,
+like a waterfall, into the pool far down. Under you there is a small fissure
+in the rock. It seems big enough to contain a few people.
+  }
+  sector { Mountains }
+  extra {
+	keywords { water" }
+	desc { It looks dark and murky, and emanates a foul stench.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 69 }
+	  desc { You can't see a thing. It's too dark.
+}
+	to { w, 66 }
+	  desc { You can't see a thing. It's too dark.
+}
+	to { d, 99 }
+  }
+}
+
+99
+{
+  name { The fissure under the ledge }
+  desc {
+This is a small fissure in the solid rock. Under you lies the deep dark pool.
+The water trickles quietly down from the ledge above you. The water smells 
+like the water in a sewer.
+  }
+  sector { Mountains }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { u, 70 }
+	to { d, Sewer2:99 }
+	  desc { The water edge.
+}
+  }
+}

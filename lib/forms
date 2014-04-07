@@ -1,0 +1,61 @@
+2 <-- TOTAL RECORDS (must stay like this)
+
+===============================================================================
+INDEX: 0
+NAME: Humanoid
+
+LOCATIONS    % hit factor
+head        |   5 |   5 |
+neck        |   0 |   0 |
+neck        |   0 |   0 |
+body        |  45 |  45 |
+arms        |  20 |  20 |
+wrist       |   0 |   0 |
+wrist       |   0 |   0 |
+primary     |   5 |   5 |
+secondary   |   5 |   5 |
+finger      |   0 |   0 |
+finger      |   0 |   0 |
+waist       |   0 |   0 |
+legs        |  15 |  15 |
+feet        |   5 |   5 |
+
+===============================================================================
+INDEX: 1
+NAME: Quadruped
+
+LOCATIONS    % hit factor
+head        |   5 |   5 |
+neck        |  20 |  20 |
+body        |  50 |  50 |
+legs        |  25 |  25 |
+
+===============================================================================
+INDEX: 2
+NAME: Serpent
+
+LOCATIONS    % hit factor
+head        |   5 |   5 |
+neck        |   5 |   5 |
+tail        |  90 |  90 |
+
+===============================================================================
+INDEX: 3
+NAME: Dragon
+
+LOCATIONS    % hit factor
+head        |   5 |   5 |
+neck        |  15 |  15 |
+wings       |  10 |  10 |
+claw        |   0 |   0 |
+claw        |   0 |   0 |
+body        |  60 |  60 |
+legs        |  10 |  10 |
+
+===============================================================================
+INDEX: 4
+NAME: Blob
+
+LOCATIONS    % hit factor
+body        | 100 | 100 |
+

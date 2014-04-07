@@ -1,0 +1,20 @@
+25
+{
+  keeper { 3017 }
+  location { 3016 }
+  buy { 900,901,902,903,904,905,906,907,908,909,910,911,912,913,914,915,916,917,918,950,951 }
+  buy_mult { 0.4 }
+  sell_mult { 1.9 }
+  sell { 900,901,902,903,904,905,906,907,908,909,910,911,912,913,914,915,916,917,918,950,951,
+         919,920,921,922,923,924,925,926,927,928,929,930,931,932,933,934,935,936,937,938,939,
+         940,941,942,943,944,945,946,947,948,949,952,953,26}
+  messages {
+    dont_have { Haven't got that on storage - Try list! }
+    dont_buy { Try to sell that somewhere else, not here! }
+    no_item { Nice try, but you don't have that. }
+    shop_cant_afford { I can't afford it sorry. Try back later.}
+    player_cant_afford { Hey, you don't have enough money. }
+    buy { Here's %d coins for that. }
+    sell { That will be %d coins. }
+  }
+}

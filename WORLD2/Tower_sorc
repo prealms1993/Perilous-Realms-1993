@@ -1,0 +1,3278 @@
+
+0
+{
+  name { Entrance to the Shadow Grove }
+  desc {
+"  Before you, the grove of shadows lies. Giant grey trees are all that
+can be seen through the thick shadows. A great sense of both power and
+menace permeates the surrounding area. You have a strange urge to turn
+back and go the way you've come.
+  A small path leads north into the shadows and back south into the desert.
+   }
+  sector { Forest }
+  flags { no_mob }
+  exits {
+	to { n, 1 }
+	  desc { The shadows cloud your vision.
+}
+	to { s, Thalos:53 }
+  }
+}
+
+1
+{
+  name { The Shadow Grove }
+  desc {
+"  You are inside the shadow grove. Giant trees seem to glare at you
+from all sides. The shadowy mist obscures most of your vision. Strange
+sounds of moaning and growling come from all directions.
+  All exits lead into shadows, you are very confused.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 2 }
+	  desc { The shadows obscure your vision.
+}
+	to { e, 3 }
+	  desc { The shadows obscure you vision.
+}
+	to { s, 0 }
+	  desc { The shadows obscure your vision.
+}
+	to { w, 4 }
+	  desc { The shadows obscure your vision.
+}
+  }
+}
+
+2
+{
+  name { The Shadow Grove }
+  desc {
+"  You are inside the shadow grove. Giant trees seem to glare at you
+from all sides. The shadowy mist obscures most of your vision. Strange
+sounds moaning and growling come from all directions.
+  All exits lead into shadows, you are very confused.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 1 }
+	  desc { The shadows obscure your vision.
+}
+	to { e, 4 }
+	  desc { The shadows obscure your vision.
+}
+	to { s, 5 }
+	  desc { The shadows obscure your vision.
+}
+	to { w, 3 }
+	  desc { The shadows obscure your vision.
+}
+  }
+}
+
+3
+{
+  name { The Shadow Grove }
+  desc {
+"  You are inside the shadow grove. Giant trees seem the glare at you
+from all sides. The shadowy mist obscures most of your vision. Strange
+sounds of moaning and growling come from all directions.
+  All exits lead into shadows, you are very confused.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, Void:-1 }
+	  desc { The shadows obscure your vision.
+}
+	to { e, 4 }
+	  desc { The shadows obscure your vision.
+}
+	to { s, 1 }
+	  desc { The shadows obscure your vision.
+}
+	to { w, 2 }
+	  desc { The shadows obscure your vision.
+}
+  }
+}
+
+4
+{
+  name { The Shadow Grove }
+  desc {
+"  You are inside the shadow grove. Giant trees seem to glare at you
+from all sides. The shadowy mist obscures most of your vision. Strange
+sounds of moaning and growling come from all directions.
+  All exits lead into shadows, you are very confused.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 2 }
+	  desc { The shadows obscure your vision.
+}
+	to { s, 1 }
+	  desc { The shadows obscure your vision.
+}
+	to { w, 3 }
+	  desc { The shadows obscure your vision.
+}
+  }
+}
+
+5
+{
+  name { The Shadow Grove }
+  desc {
+"  You are inside the shadow grove. Giant trees seem to glare at you
+from all sides. The shadowy mist obscures most of your vision. Strange
+sounds of moaning and growling come from all directions.
+  All exits lead into shadows, you are very confused.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 2 }
+	  desc { The shadows obscure your vision.
+}
+	to { e, 4 }
+	  desc { The shadows obscure your vision.
+}
+	to { s, 6 }
+	  desc { The shadows obscure your vision.
+}
+	to { w, 3 }
+	  desc { The shadows obscure your vision.
+}
+  }
+}
+
+6
+{
+  name { The Shadow Grove }
+  desc {
+"  You are inside the shadow grove. Giant trees seem to glare at you
+from all sides. The shadowy mist obscures most of your vision. Strange
+sounds of moaning and growling come from all directions.
+  All exits lead into shadows, you are very confused.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 5 }
+	  desc { The shadows obscure your vision.
+}
+	to { e, Void:-1 }
+	  desc { The shadows obscure your vision.
+}
+	to { s, 7 }
+	  desc { The shadows obscure your vision.
+}
+	to { w, 1 }
+	  desc { The shadows obscure your vision.
+}
+  }
+}
+
+7
+{
+  name { The Shadow Grove }
+  desc {
+"  You are inside the shadow grove. Giant trees seem to glare at you
+from all sides. The shadowy mist obscures most of your vision. Strange
+sounds of moaning and growling come from all directions.
+  All exits lead into shadows, you are very confused.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 6 }
+	  desc { The shadows obscure your vision.
+}
+	to { e, 8 }
+	  desc { The shadows obscure your vision.
+}
+	to { s, 9 }
+	  desc { The shadows obscure your vision.
+}
+	to { w, 10 }
+	  desc { The shadows obscure your vision.
+}
+  }
+}
+
+8
+{
+  name { The Shadow Grove }
+  desc {
+"  You are inside the shadow grove. Giant trees seem to glare at you
+from all sides. The shadowy mist obscures most of your vision. Strange
+sounds of moaning and growling come from all directions.
+  All exits lead into shadows, you are very confused.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 5 }
+	  desc { The shadows obscure your vision.
+}
+	to { e, 3 }
+	  desc { The shadows obscure your vision.
+}
+	to { s, 9 }
+	  desc { The shadows obscure your vision.
+}
+	to { w, Void:-1 }
+	  desc { The shadows obscure your vision.
+}
+  }
+}
+
+9
+{
+  name { The Shadow Grove }
+  desc {
+"  You are inside the shadow grove. Giant trees seem to glare at you
+from all sides. The shadowy mist obscures most of your vision. Strange
+sounds of moaning and growling come from all directions.
+  All directions lead into shadows, you are very confused.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 8 }
+	  desc { The shadows obscure your vision.
+}
+	to { e, Void:-1 }
+	  desc { The shadows obscure your vision.
+}
+	to { s, 6 }
+	  desc { The shadows obscure your vision.
+}
+	to { w, 1 }
+	  desc { The shadows obscure your vision.
+}
+  }
+}
+
+10
+{
+  name { The Shadow Grove }
+  desc {
+"  You are inside the shadow grove. Giant trees seem to glare at you
+from all sides. The shadowy mist obscures most of your vision. Strange
+sounds of moaning and growling come from all directions.
+  All exits save one lead into shadows, you are a little confused.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 7 }
+	  desc { The shadows obscure your vision.
+}
+	to { e, Void:-1 }
+	  desc { The shadows obscure your vision.
+}
+	to { s, 11 }
+	  desc { The shadows part to reveal a small clearing.
+}
+	to { w, 2 }
+	  desc { The shadows obscure your vision.
+}
+  }
+}
+
+11
+{
+  name { A small clearing. }
+  desc {
+"  You are in a small clearing in the shadow grove. There is chared grass
+underfoot, and the signs of fire here and there. It is almost as if the
+plant life shuns this spot. The shadowy mist hovers all around, obscuring
+your view into the grove.
+  A small path leads north to some shadowy structure. All other exits are
+shrouded in shadowy mist.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 12 }
+	  desc { You can barely make out some sort of building to the north.
+}
+	to { e, 7 }
+	  desc { The shadows obscure your vision.
+}
+	to { s, 3 }
+	  desc { The shadows obscure your vision.
+}
+	to { w, Void:-1 }
+	  desc { The shadows obscure your vision.
+}
+  }
+}
+
+12
+{
+  name { Entrance to the High Tower }
+  desc {
+"  You have reached the entrance to the high tower of sorcerery. The
+tower looms above you at an incredible height. It seems to disappear
+into the storm clouds above.
+  A diamond gate is to the north, guarded by a huge golem. The trail
+back south has disappeared behind you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 13 }
+	  keywords { gate diamond" }
+	  desc { The diamond gate looks incredibly strong.
+}
+  }
+}
+
+13
+{
+  name { Inside the High Tower of Sorcerery }
+  desc {
+"  You are inside the high tower of sorcery. The sight is truly amazing.
+From here, it is obvious that somehow, the tower is much larger on the
+inside than it is on the outside. Young mages walk about, completely
+oblivious to your presence.
+  Exits lead north to the common room, west to the dinning room, east to
+a plain hallway and back south through the gate.
+  }
+  flags { indoors }
+  exits {
+	to { n, 14 }
+	  desc { The common room looks quite busy and noisy.
+}
+	to { e, 15 }
+	to { s, 12 }
+	  keywords { diamond gate" }
+	to { w, 16 }
+  }
+}
+
+14
+{
+  name { Common Room }
+  desc {
+"  You are in the common room. There are many apprentice warlocks here
+talking and resting, playing games, comparing notes. Obviously they
+are taking a break from their rigorous studies. There are benches,
+tables and a small water fountain here, otherwise the room is quite
+unremarkable.
+  Exits lead off in all directions.
+  }
+  flags { indoors }
+  exits {
+	to { n, 17 }
+	to { e, 18 }
+	  desc { The mages bar can be seen to the east.
+}
+	to { s, 13 }
+	to { w, 19 }
+  }
+}
+
+15
+{
+  name { The Hallway }
+  desc {
+"  You are in a long hallway, it seems rather unremarkable.
+  The hallway continues east and back west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 30 }
+	to { w, 13 }
+  }
+}
+
+16
+{
+  name { Dinning Room }
+  desc {
+"  You are in the dinning area of the student mages. From the number of
+tables and chairs here, you can see that this room could easilly seat
+several hundred people. It is oddly deserted here, obviously not meal time.
+  Exits lead west to the kitchen, and back east.
+  }
+  flags { indoors }
+  exits {
+	to { e, 13 }
+	to { w, 20 }
+	  keywords { door wooden" }
+  }
+}
+
+17
+{
+  name { Dark Hallway }
+  desc {
+"  You are in a dark hallway. It is apparent that this area is seldom
+used by the regular occupants of the tower. Dust covers the floors
+here.
+  The faint outline of a trapdoor can be seen in the dust.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 14 }
+	to { d, 21 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+  }
+}
+
+18
+{
+  name { Mages Tavern }
+  desc {
+"  You are in mages tavern. The air is smokey and filled with the smells
+of foriegn food and drink. The other patrons pay you little heed, as
+they obviously have more interesting things to contemplate. Strick the
+bartender is here waiting to take your order.
+  The only exit leads back west.
+  }
+  flags { indoors }
+  exits {
+	to { w, 14 }
+  }
+}
+
+19
+{
+  name { The Magic Shop }
+  desc {
+"  You are in the High Tower's store of magic. Tatorious stands behind
+the counter, selling all sorts of herbs, parchment and other reagents
+used in magical studies.
+  The only exit leads back east to the common room.
+  }
+  flags { indoors }
+  exits {
+	to { e, 14 }
+  }
+}
+
+20
+{
+  name { the kitchen }
+  desc {
+"  You are in a small kitchen. All the usual kitchen type utensils and
+equipment is here, including some not so usual ones. Among the later,
+a huge black oven against one wall, it must be at least 12 feet high.
+Opposite the oven is an equally enormous meat locker, large enough to
+comfortably store several hapless adventurers no doubt. In the middle of
+the room, hanging in mid-air is a spice rack.
+  }
+  flags { indoors }
+  exits {
+	to { e, 16 }
+	  keywords { door wooden" }
+  }
+}
+
+21
+{
+  name { Below the trapdoor }
+  desc {
+"  You are below the trapdoor. It is very dark and dusty here, very little
+light filters through from above. A faint sound of dripping water can be
+heard in the distance below.
+  A rope ladder leads down.
+  }
+  flags { dark, indoors }
+  exits {
+	to { u, 17 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+	to { d, 22 }
+  }
+}
+
+22
+{
+  name { A damp intersection }
+  desc {
+"  You are in a damp intersection of what seems to be the basement of the
+tower. The sound of running water can be heard comming from the south,
+other than that, an almost tangable stillness fills the air.
+  Passages lead off in all directions, and a ladder leads up.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 23 }
+	to { e, 24 }
+	  desc { A faint light can be seen in the distance up the east passage.
+}
+	to { s, 25 }
+	to { w, 26 }
+	to { u, 21 }
+  }
+}
+
+23
+{
+  name { A dark passage }
+  desc {
+"  You are at the end of a dark passage which ends in a stout wooden door.
+Other then through the door, the only apparent exit is back the way you
+came.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 27 }
+	  key { 1523 }
+	  info { door, closed }
+	  keywords { oak door" }
+	to { s, 22 }
+  }
+}
+
+24
+{
+  name { A dark passage }
+  desc {
+"  You are at the end of a dark passage. A half opened door is to the east,
+shedding soft light around the edges. Faint snoring sounds can be heard
+behind the door.
+  Exits lead east through the door, or back west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 28 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 22 }
+  }
+}
+
+25
+{
+  name { The stagnant pool }
+  desc {
+"  You are at the edge of a stagnant pool of water. The smell here is quite
+nauseating. This is apparently where the denizens of the tower dispose of
+their garbage. Faint gurgling can be heard from benieth the surface of the
+pool.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 22 }
+  }
+}
+
+26
+{
+  name { A dark passage }
+  desc {
+"  You are in a dark passage, which comes to an abrubt stop at what appears
+to be a cave-in to the west. It is certainly unpassable, and perhaps quite
+dangerous just being this close.
+  The only exit leads back east.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 22 }
+  }
+}
+
+27
+{
+  name { A dark cell }
+  desc {
+"  You are in a dark cell. Straw and dirt cover the floors here, it is
+very dark. Someone, or something seems to be chained to the far wall.
+  The only exit is back south.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 23 }
+	  info { door, closed }
+	  keywords { oak door" }
+  }
+}
+
+28
+{
+  name { The Jailor's office }
+  desc {
+"  You are in the Jailor's office. It is rather messy here. Judging by the
+sleeping form of the Jailor on duty, you can surmise that very few, if any
+prisoners survive long enough to spend much time in these dank dungeons.
+  The only exit leads back west.
+  }
+  flags { indoors }
+  exits {
+	to { w, 24 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+29
+{
+  name { Below the stagnant pool }
+  desc {
+"  As you dive beneith the putrid waters, you feel a strong tug and a
+whirlpool drags you under.
+  You are sucked into blackness and you feel your lungs begining to
+burst from lack of oxygen!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Just as you feel your life fading, you notice a change in direction, and
+start to float to the surface.
+  }
+  flags { dark, indoors }
+}
+
+30
+{
+  name { The hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { n, 32 }
+	  info { door, closed }
+	  keywords { door wooden north" }
+	to { e, 31 }
+	to { s, 33 }
+	  info { door, closed }
+	  keywords { oaken south" }
+	to { w, 15 }
+  }
+}
+
+31
+{
+  name { A bend in the hallway }
+  desc {
+"  You are at a bend in the hallway. The walls emit a faint magical glow
+which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { n, 34 }
+	  info { door, closed }
+	  keywords { door wooden north" }
+	to { e, 36 }
+	  info { door, closed }
+	  keywords { door wooden east" }
+	to { s, 35 }
+	  info { door, closed }
+	  keywords { door wooden south" }
+	to { w, 30 }
+  }
+}
+
+32
+{
+  name { A store room }
+  desc {
+"  You are in a small store room. Assorted junk is piled on shelves or
+leaning against walls.
+  The only apparent exit it back south.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 30 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+33
+{
+  name { A broom closet }
+  desc {
+"  You are in a dark broom closet. Many straw brooms and other cleaning
+intruments have been left here, apparently unused (perhaps the maid quit?).
+  The only exit leads back north to the hallway.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 30 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+34
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a
+faint magical glow which provides enough light to see by.
+  }
+  extra {
+	keywords { walls wall" }
+	desc { The walls shed a warm light
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 38 }
+	to { e, 37 }
+	  info { door, closed }
+	  keywords { door wooden east" }
+	to { s, 31 }
+	  info { door, closed }
+	  keywords { door wooden south" }
+  }
+}
+
+35
+{
+  name { Guardians chamber }
+  desc {
+"  You are in the chamber of the tower guardians. It is rather sparesely
+furnished, but then again the odd occupants dont look to need furiture.
+Here and there a disembodied pair of hands or eyes flits about.
+  }
+  flags { indoors }
+  exits {
+	to { n, 31 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+36
+{
+  name { A guest bedroom }
+  desc {
+"  You are in a small guest bedroom. A small cot is in one corner, and a
+dusty mirror on one wall, other than that the room looks quite bare, and
+unused.
+  The only apparent exit leads back west to the hallway.
+  }
+  extra {
+	keywords { mirror" }
+	desc { Why, someone seems to be looing back at you from the other side!
+
+	}
+  }
+  flags { indoors }
+  exits {
+	to { w, 31 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+37
+{
+  name { A guest bedroom }
+  desc {
+"  You are in a comfortable looking bedroom. A small globe of magical energy
+floats overhead, providing light. A small cot is in one corner looking
+ever so comfortable, so comfortable in fact ...someone is sleeping in it.
+  The only apparent exit leads back west to the hallway.
+  }
+  flags { indoors }
+  exits {
+	to { w, 34 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+38
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading from the south. The walls emit a faint
+magical glow which provides enough light to see by.
+  Stairs lead up to the next level and the hallway leads back south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 39 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	to { s, 34 }
+	to { u, 40 }
+  }
+}
+
+39
+{
+  name { The burnt room }
+  desc {
+"  You are in what looks to have once been a guest bed room. The walls are
+blackened and burnt by what you could only immagine to be magical fire.
+There is no sign of the previous occupant, undoubtedly he left in a hurry.
+  The only exit leads back west to the hallway.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 38 }
+	  info { door, closed }
+	  keywords { door chared" }
+  }
+}
+
+40
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading west from here. The walls emit a faint
+magical glow which provides enough light to see by. Some faint moonlight
+can be seen in the culdesac to the east.
+  The hallway continues west and stairs lead down to the level below.
+  }
+  flags { indoors }
+  exits {
+	to { n, 42 }
+	  info { door, closed }
+	  keywords { door oak" }
+	to { e, 41 }
+	  desc { Faint moonlight can be seen to the east
+}
+	to { w, 43 }
+  }
+}
+
+41
+{
+  name { A culdesac }
+  desc {
+"  You are in a small culdesac. A window to the east is letting in moonlight
+and a pleasant breeze. Through it, the surrounding country side can be seen.
+  The only apparent exit leads back west to the hallway.
+  }
+  extra {
+	keywords { window east" }
+	desc { "  Stretching out as far as the eye can see is a canopy of dark tree tops
+which can only be the Haon-Dor-Dark Forest. A faint light in the distance
+to the northeast marks what is probably the city of midgaard.
+
+	}
+  }
+  flags { indoors }
+  exits {
+	to { w, 40 }
+  }
+}
+
+42
+{
+  name { The Apprentice's Barracks }
+  desc {
+"  You are in the barracks of the apprentice magic users. Here and there, a
+young apprentice sits engrosed in magical study, or practicing a feable
+cantrip. Cots line the walls, and the room continues west.
+  }
+  flags { indoors }
+  exits {
+	to { s, 40 }
+	  info { door, closed }
+	  keywords { door oak" }
+	to { w, 44 }
+  }
+}
+
+43
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  There is a door to the north, and the hallway continues west or back east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 44 }
+	  info { door, closed }
+	  keywords { door oak" }
+	to { e, 40 }
+	to { w, 45 }
+  }
+}
+
+44
+{
+  name { The Apprentice's barracks }
+  desc {
+"  You are in the barracks of the apprentice magic users. Here and there, a
+young apprentice sits engrosed in magical study, or practicing a feable
+cantrip. Cots line the walls, and the room continues east.
+  }
+  flags { indoors }
+  exits {
+	to { e, 42 }
+	to { s, 43 }
+	  info { door, closed }
+	  keywords { door oak" }
+  }
+}
+
+45
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by. Flashes of light can
+be seen under the doorway to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 46 }
+	  info { door, closed }
+	  keywords { door oak" }
+	  desc { A flash of blue light momentarily lights up the doors outline
+}
+	to { e, 43 }
+	to { w, 47 }
+  }
+}
+
+46
+{
+  name { The apprentice's workshop }
+  desc {
+"  You are in a small workshop. Writting implements and parchment are strewn
+about on a few worktables. In the far corner several young mages have a
+small kitten cornered and seem to be testing spells upon it.
+  The only apparent exit leads back south to the hallway.
+  }
+  flags { indoors }
+  exits {
+	to { s, 45 }
+	  info { door, closed }
+	  keywords { door oak" }
+  }
+}
+
+47
+{
+  name { A bend in the hallway }
+  desc {
+"  You are at a bend in the hallway. The walls emit a faint magical glow
+which provides enough light to see by.
+  The hallway continues south and back east.
+  }
+  flags { indoors }
+  exits {
+	to { e, 45 }
+	to { s, 48 }
+  }
+}
+
+48
+{
+  name { The hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  There is a closed metal door to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 47 }
+	to { w, 49 }
+	  info { door, closed }
+	  keywords { door metal" }
+  }
+}
+
+49
+{
+  name { A classroom }
+  desc {
+"  You are in a large classroom filled with bored looking students of the
+art. The instructor stops in his lecture on the fine uses of magic missile
+at your entry and lunges to attack you.
+  The only apparent exit is back east to the hallway.
+  }
+  flags { indoors }
+  exits {
+	to { e, 48 }
+	  info { door, closed }
+	  keywords { door metal" }
+  }
+}
+
+50
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { n, 48 }
+	to { s, 51 }
+	to { w, 52 }
+	  info { door, closed }
+	  keywords { door metal" }
+  }
+}
+
+51
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enought light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { n, 50 }
+	to { s, 53 }
+	to { w, 54 }
+	  info { door, closed }
+	  keywords { door metal" }
+  }
+}
+
+52
+{
+  name { An empty classroom }
+  desc {
+"  You are in an empty classroom. Some strange sigils are written on a
+blackboard which is floating in the air here. Other than a few desks,
+it is bare of furnishings.
+  The only apparent exit leads back east to the hallway.
+  }
+  flags { indoors }
+  exits {
+	to { e, 50 }
+	  info { door, closed }
+	  keywords { door metal" }
+  }
+}
+
+53
+{
+  name { A bend in the hallway }
+  desc {
+"  You are at a bend in the hallway. The walls emit a faint magical glow
+which provides enough light to see by.
+  The hallway continues east and north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 51 }
+	to { e, 55 }
+  }
+}
+
+54
+{
+  name { An empty classroom }
+  desc {
+"  You are in an apparently empty classroom. A strange feeling of being
+watched comes over you, and you hear the faint russle of robes.
+  The only apparent exit is back east to the hallway.
+  }
+  flags { indoors }
+  exits {
+	to { e, 51 }
+	  info { door, closed }
+	  keywords { door metal" }
+  }
+}
+
+55
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  A sturdy iron door can be seen to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 56 }
+	to { s, 57 }
+	  info { door, closed }
+	  keywords { door sturdy iron" }
+	to { w, 53 }
+  }
+}
+
+56
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  There is a large oaken door to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 58 }
+	to { s, 59 }
+	  info { door, closed }
+	  keywords { door large oaken" }
+	to { w, 55 }
+  }
+}
+
+57
+{
+  name { The ampitheatre }
+  desc {
+"  You are in a small ampitheatre. Rows of comfortable looking chairs circle
+a large podium. The echos of your footsteps seem very loud here.
+  The only apparent exit leads north to the hallway.
+  }
+  flags { indoors }
+  exits {
+	to { n, 55 }
+	  info { door, closed }
+	  keywords { door sturdy iron" }
+  }
+}
+
+58
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow providing enough light to see by.
+  A small door can be seen to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 60 }
+	to { s, 61 }
+	  info { door, closed }
+	  keywords { door small" }
+	to { w, 56 }
+  }
+}
+
+59
+{
+  name { The training room }
+  desc {
+"  You are in a large training room. It is filled with battle scared manikins
+, and many other devices used in the practice of fighting.
+  }
+  flags { indoors }
+  exits {
+	to { n, 56 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+60
+{
+  name { A bend in the hallway }
+  desc {
+"  You are at a bend in the hallway. The walls emit a faint magical glow
+which provides enough light to see by.
+  The hallway continues north and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 62 }
+	to { w, 58 }
+  }
+}
+
+61
+{
+  name { A dueling room }
+  desc {
+"  You are in a large room used for duals arcane. The walls, ceiling and
+floor all bare the scars of many firey spells, but still look quite strong
+and hold fast.
+  The only exit leads north to the hallway.
+  }
+  flags { indoors }
+  exits {
+	to { n, 58 }
+	  info { door, closed }
+	  keywords { door small" }
+  }
+}
+
+62
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  A doorway can be seen to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 63 }
+	to { e, 64 }
+	  info { door, closed }
+	  keywords { door" }
+	to { s, 60 }
+  }
+}
+
+63
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which privides enough light to see by.
+  A wooden door can been seen to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 66 }
+	to { e, 65 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	to { s, 62 }
+  }
+}
+
+64
+{
+  name { The spellmaster's lounge }
+  desc {
+"  You are in a large comfortable looking lounge. Off duty spell teachers
+are here relaxing in their idle time. A large coffee machine is against
+the far wall.
+  The only apparent exit leads back west to the hallway.
+  }
+  flags { indoors }
+  exits {
+	to { w, 62 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+65
+{
+  name { A bedroom }
+  desc {
+"  You are in a large, plush bedroom. The owner is obviously someone of high
+standing in the magical community here. An ice mirror is on one wall, and
+a scrying globe sit on a stand in the middle of the room. An enormous bed
+can be seen floating about a meter above the floor.
+  The only exit leads back west to the hallway.
+  }
+  flags { indoors }
+  exits {
+	to { w, 63 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+66
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow providing enough light to see by.
+  A glass door can be seen to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 68 }
+	to { e, 67 }
+	  info { door, closed }
+	  keywords { door glass" }
+	to { s, 63 }
+  }
+}
+
+67
+{
+  name { The study }
+  desc {
+"  You are in a small, well kept study. Ancient tomes are on shelves on the
+walls, A huge table sits in the middle of the room, with maps weighted
+down upon it. The only light source here comes from an interestingly non-
+magical oil lamp.
+  The only apparent exit leads back west to the hallway.
+  }
+  flags { indoors }
+  exits {
+	to { w, 66 }
+	  info { door, closed }
+	  keywords { door glass" }
+  }
+}
+
+68
+{
+  name { Below the stairs }
+  desc {
+"  You are at the end of a long hallway. The walls emit a faint magical glow
+which provides enough light to see by. A lesser guardian is here keeping
+silent watch on the entrance to the levels above.
+  Stairs lead up and the hallway continutes back south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 66 }
+	to { u, 69 }
+  }
+}
+
+69
+{
+  name { Atop the stairway }
+  desc {
+"  You are atop a stairway. The halls here look quite a bit less used than
+those below. Obviously access to these magic filled corridors is limmited
+to those of the upper eschelon of mages. The walls here emit a faint blue
+magical aura which provides some light.
+  The hallway leads west from here and the stairs go down.
+  }
+  flags { indoors }
+  exits {
+	to { w, 70 }
+	to { d, 68 }
+  }
+}
+
+70
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway stretching east and west. The walls here emit
+a faint magical energy providing enough light to see by.
+  There is a thick looking wooden door to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 71 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	to { e, 69 }
+	to { w, 72 }
+  }
+}
+
+71
+{
+  name { A small office }
+  desc {
+"  You are in a small office. It looks like a caligropher's study, there
+are quills, inkpots and parchments all about on desks and worktables.
+A section to the west seems to be curtained off, but the flicker of a
+candle can be seen through the curtain.
+  }
+  flags { indoors }
+  exits {
+	to { s, 70 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	to { w, 73 }
+	  info { door, closed }
+	  keywords { curtain" }
+  }
+}
+
+72
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { e, 70 }
+	to { w, 74 }
+  }
+}
+
+73
+{
+  name { The master scribe's workshop }
+  desc {
+"  You are in the workshop of the tower's master scribe. Many half finished
+scrolls lay on the writing table in the center of the room. A giant candle
+flickering with soft blue flames provides the only light here.
+  The only apparent exit is the way you came in.
+  }
+  flags { indoors }
+  exits {
+	to { e, 71 }
+	  info { door, closed }
+	  keywords { curtain" }
+  }
+}
+
+74
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  A half closed door can be seen to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 75 }
+	  info { door, closed }
+	  keywords { door wooden" }
+	  desc { A dark room can be seen through the half opened door
+}
+	to { e, 72 }
+	to { w, 76 }
+  }
+}
+
+75
+{
+  name { A store room }
+  desc {
+"  You are in a small dark store room. A few common items are stacked upon
+the shelves here, but very little looks interesting.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 74 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+76
+{
+  name { A bend in the hallway }
+  desc {
+"  You are at a bend in the long hallway. The walls emit a faint magical
+glow which provides enough light to see by.
+  The hallway continues south and east from here.
+  }
+  flags { indoors }
+  exits {
+	to { e, 74 }
+	to { s, 77 }
+  }
+}
+
+77
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  An iron bound door can be seen to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 76 }
+	to { s, 78 }
+	to { w, 79 }
+	  info { door, closed }
+	  keywords { door iron" }
+  }
+}
+
+78
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  The sharp sound of metal on metal can be heard to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 77 }
+	to { s, 80 }
+	to { w, 81 }
+	  info { door, closed }
+	  keywords { door iron" }
+  }
+}
+
+79
+{
+  name { A store room }
+  desc {
+"  You are in a large store room. Bins of ores, minerals and other rare
+materials are here along with many neatly stacked piles of precious metals.
+A large cabinet with sigils of warding is bolted to one wall.
+  The ring of metal on metal can be heard to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 77 }
+	  info { door, closed }
+	  keywords { door iron" }
+	to { s, 81 }
+  }
+}
+
+80
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { n, 78 }
+	to { s, 83 }
+  }
+}
+
+81
+{
+  name { A very hot room }
+  desc {
+"  You are in a very hot room. Against one wall is a large forge, magical
+fires crackle within and heavy blue smoke pours into a vent in the cieling.
+A rune encrusted mithril anvil is in the center of the room, looking well
+used and other tools of metalurgy hang on a rack which floats about three
+meters in the air of its own force.
+  }
+  flags { indoors }
+  exits {
+	to { n, 79 }
+	  info { door, closed }
+	to { e, 78 }
+	  info { door, closed }
+	  keywords { door iron" }
+	to { s, 82 }
+	  info { door, closed }
+	  keywords { door" }
+	to { u, 112 }
+	  info { door, closed }
+	  keywords { vent" }
+  }
+}
+
+82
+{
+  name { The master Enchanter's chamber }
+  desc {
+"  You have entered the master enchanter's chamber. Upon all the walls here
+are racks of finely crafted weapons. A huge chest with a glowing lock is
+set to one side. Several unfinished looking blades rest atop a small work
+table.
+  }
+  flags { indoors }
+  exits {
+	to { n, 81 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+83
+{
+  name { A bend in the hallway }
+  desc {
+"  You are at a bend in a long hallway. The walls emit a faint magical glow
+which provides enough light to see by.
+  The hallway continues north and east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 80 }
+	to { e, 84 }
+  }
+}
+
+84
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  A steel door can be seen to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 85 }
+	to { s, 86 }
+	  info { door, closed }
+	  keywords { door steel" }
+	to { w, 83 }
+  }
+}
+
+85
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { e, 87 }
+	to { w, 84 }
+  }
+}
+
+86
+{
+  name { A laboratory }
+  desc {
+"  You are in a small laboratory. Many strange instruments, vials, bottles
+and some scrawled notes are piled about a workbench. This room is very
+untidy, looking almost abandoned, or used by a madman.
+  The only apparent exits are east and north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 84 }
+	  info { door, closed }
+	  keywords { door steel" }
+	to { e, 88 }
+  }
+}
+
+87
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enought light to see by.
+  You can see a steel door to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 89 }
+	to { s, 90 }
+	  info { door, closed }
+	  keywords { door steel" }
+	to { w, 85 }
+  }
+}
+
+88
+{
+  name { The Mad Alchemist's woorkroom }
+  desc {
+"  You are in the workroom of The Mad Alchemist. Bubbling braizers, long
+glass tubes and scores of oddly shaped vials and bottles are everywhere.
+It is incredibly messy here, crushed glass and other trash litter the floor.
+  The only apparent exit is the one you entered by.
+  }
+  flags { indoors }
+  exits {
+	to { w, 86 }
+  }
+}
+
+89
+{
+  name { A bend in the hallway }
+  desc {
+"  You are at a bend in a long hallway. The walls emit a faint magical glow
+which provides enough light to see by.
+  The hallway continues north and west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 91 }
+	to { w, 87 }
+  }
+}
+
+90
+{
+  name { The pentagram chamber }
+  desc {
+"  You are in a large room with a five pointed star etched into the floor.
+A crackling energy field can be seen to the south, it looks quite dangerous.
+  }
+  flags { indoors }
+  exits {
+	to { n, 87 }
+	  info { door, closed }
+	  keywords { door steel" }
+	to { s, 92 }
+	  desc { The energy field crackles and glows, nothing seems to be beyond
+}
+  }
+}
+
+91
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  A bronze door can be seen to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 93 }
+	to { e, 94 }
+	  info { door, closed }
+	  keywords { door bronze" }
+	to { s, 89 }
+  }
+}
+
+92
+{
+  name { Inside the energy field }
+  desc {
+"  You feel a stomach twisting sensation as you enter the energy field,
+suddenly you dont think you are where you were.
+  You are very confused.
+  }
+  flags { indoors }
+  exits {
+	to { n, Moria2:15 }
+	  desc { You cant see anything through the energy field
+}
+	to { s, Drow1:20 }
+	  desc { You cant see anything through the energy field
+}
+  }
+}
+
+93
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  A bronze door can be seen to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 96 }
+	to { e, 95 }
+	  info { door, closed }
+	  keywords { door bronze" }
+	to { s, 91 }
+  }
+}
+
+94
+{
+  name { An empty room }
+  desc {
+"  You are in an empty room. It is both quiet and comfortable here, it looks
+like a safe place to rest.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { w, 91 }
+	  info { door, closed }
+	  keywords { door bronze" }
+  }
+}
+
+95
+{
+  name { The charm master's chamber }
+  desc {
+"  You are in the chambers of the tower's master of charm. Some straw and
+dirt litters the floor here, it looks to have been recently used by wild
+animals.
+  Strange sounds can be heard through the bars to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 97 }
+	  info { door, closed }
+	  keywords { cage bars" }
+	to { w, 93 }
+	  info { door, closed }
+	  keywords { door bronz" }
+  }
+}
+
+96
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { n, 98 }
+	to { s, 93 }
+  }
+}
+
+97
+{
+  name { The animal pens }
+  desc {
+"  You are in the animal pens. Many caged animals are here looking unhappy.
+Obviously they are destined to be enslaved, or used in some cruel magical
+experimentation.
+  }
+  flags { indoors }
+  exits {
+	to { s, 95 }
+	  info { door, closed }
+	  keywords { cage bars" }
+  }
+}
+
+98
+{
+  name { The end of the hallway }
+  desc {
+"  You are at the end of a long north-south hallway. The walls emit a faint
+magical glow which provies enough light to see by.
+  Stairs here lead up to the next level, and the hallway continues south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 96 }
+	to { u, 99 }
+  }
+}
+
+99
+{
+  name { Atop the stairway }
+  desc {
+"  You are atop the stairway to the upper levels of the high tower. The walls
+emit a faint magical glow which provides enough light to see by.
+  A hallway leads west from here, and the stairs lead down.
+  }
+  flags { indoors }
+  exits {
+	to { w, 100 }
+	to { d, 98 }
+  }
+}
+
+100
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  A silver door can be seen to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 101 }
+	  info { door, closed }
+	  keywords { door silver" }
+	to { e, 99 }
+	to { w, 104 }
+  }
+}
+
+101
+{
+  name { A store room }
+  desc {
+"  You are in a large store room. Raw materials are neatly bundled and piled
+here and here. Many freshly cut staves rods and wands of different sizes
+are here.
+  You can see a silver door to the west.
+  }
+  flags { indoors }
+  exits {
+	to { s, 100 }
+	  info { door, closed }
+	  keywords { door silver" }
+	to { w, 102 }
+	  info { door, closed }
+	  keywords { door silver" }
+  }
+}
+
+102
+{
+  name { The master spellbinder's chamber }
+  desc {
+"  You are in the chambers of the master spell binder. Unlike other work
+shops of similar nature, this one is without furnishings or tools. The
+spell binder obviously needs none for the working of his art.
+  A silver door can be seen to the west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 101 }
+	  info { door, closed }
+	  keywords { door silver" }
+	to { w, 103 }
+	  info { door, closed }
+	  keywords { door silver" }
+  }
+}
+
+103
+{
+  name { The spellbinder's cache }
+  desc {
+"  You have discovered the cache of the master spell binder. There are three
+very large silver chased cabinets here, other than that, the room is bare.
+  A silver door can be seen to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 102 }
+	  info { door, closed }
+	  keywords { door silver" }
+	to { s, 105 }
+	  info { door, closed }
+	  keywords { door silver" }
+  }
+}
+
+104
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { e, 100 }
+	to { w, 105 }
+  }
+}
+
+105
+{
+  name { A hallway }
+  desc {
+You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  A silver door can be seen to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 103 }
+	  info { door, closed }
+	  keywords { door silver" }
+	to { e, 104 }
+	to { w, 106 }
+  }
+}
+
+106
+{
+  name { A bend in the hallway }
+  desc {
+"  You are at a bend in the long hallway. The walls emit a faint magical
+glow which provides enough light to see by.
+  The hallway continues east and south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 105 }
+	to { s, 107 }
+  }
+}
+
+107
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { n, 106 }
+	to { s, 108 }
+  }
+}
+
+108
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  A rusty old door can be seen to the west.
+  }
+  flags { indoors }
+  exits {
+	to { n, 107 }
+	to { s, 113 }
+	to { w, 109 }
+	  info { door, closed }
+	  keywords { door rusty" }
+  }
+}
+
+109
+{
+  name { The golem master's workshop }
+  desc {
+"  You are in the golem master's workshop. A few unfinished looking humanoid
+forms of different make are here, some moving some not. The animated forms
+lunge to attack you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 110 }
+	to { e, 108 }
+	  info { door, closed }
+	  keywords { door rusty" }
+	to { s, 111 }
+	to { d, 112 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+  }
+}
+
+110
+{
+  name { A store room }
+  desc {
+"  You are in a small store room. Large chunks of clay, stone, wood and many
+other raw materials are here.
+  }
+  flags { indoors }
+  exits {
+	to { s, 109 }
+  }
+}
+
+111
+{
+  name { The golem chamber }
+  desc {
+"  You are in the golem chamber. Golems made of every immaginable material
+are here, ranging in size from a handspan to nearly the cieling. They all
+seem to be sleeping.
+  }
+  flags { indoors }
+  exits {
+	to { n, 109 }
+  }
+}
+
+112
+{
+  name { It is very dark here... }
+  desc {
+It is very dark here...
+  }
+  flags { dark, indoors }
+  exits {
+	to { u, 109 }
+	  info { door, closed }
+	  keywords { trapdoor" }
+	to { d, 81 }
+	  info { door, closed }
+	  keywords { vent" }
+  }
+}
+
+113
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { n, 108 }
+	to { s, 114 }
+  }
+}
+
+114
+{
+  name { A bend in the hallway }
+  desc {
+"  You are at a bend in the long hallway. The walls emit a faint magical
+glow which provides enough light to see by.
+  The hallway continues north and east from here.
+  }
+  flags { indoors }
+  exits {
+	to { n, 113 }
+	to { e, 115 }
+  }
+}
+
+115
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { e, 116 }
+	to { w, 114 }
+  }
+}
+
+116
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provies enough light to see by.
+  An emerald door can be seen to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 119 }
+	to { s, 117 }
+	  info { door, closed }
+	  keywords { door emerald" }
+	to { w, 115 }
+  }
+}
+
+117
+{
+  name { The master of illusion's chamber }
+  desc {
+"  You are in the chamber of the master of illusions. The walls here are
+every changing in color and texture, as if they were reforming before your
+very eyes. Many splenderous treasures lie all around in heaps and piles, or
+at least they seem to be treasures...
+  }
+  flags { indoors }
+  exits {
+	to { n, 116 }
+	  info { door, closed }
+	  keywords { door emerald" }
+	to { w, 118 }
+  }
+}
+
+118
+{
+  name { A bedroom }
+  desc {
+"  You are in the bedroom of the master of illusions. Strange looking items
+and artifacts float here and there in the air. The ripples of strong magic
+can be felt everywhere.
+  The room seems much larger than it looks...
+  }
+  flags { indoors }
+  exits {
+	to { n, Void:-1 }
+	to { e, 117 }
+	to { s, Void:-1 }
+	to { w, Void:-1 }
+  }
+}
+
+119
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading east and west. The walls emit a faint
+magical glow which provides enough light to see by.
+  A glass door can be seen to the south.
+  }
+  flags { indoors }
+  exits {
+	to { e, 121 }
+	to { s, 120 }
+	  info { door, closed }
+	  keywords { door glass" }
+	to { w, 116 }
+  }
+}
+
+120
+{
+  name { The meditation chamber }
+  desc {
+"  You are in a meditation chamber. It is very silent here, in fact you
+can not even hear your own footsteps.
+  You feel very peaceful.
+  }
+  flags { no_mob, indoors, private }
+  exits {
+	to { n, 119 }
+	  info { door, closed }
+	  keywords { door glass" }
+  }
+}
+
+121
+{
+  name { A bend in the hallway }
+  desc {
+"  You are at a bend in the long hallway. The walls emit a faint magical
+glow which provides enough light to see by.
+  The hallway continues north and west from here.
+  }
+  flags { indoors }
+  exits {
+	to { n, 122 }
+	to { w, 119 }
+  }
+}
+
+122
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  A blackened door can be seen to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 126 }
+	to { e, 123 }
+	  info { door, closed }
+	  keywords { door black" }
+	to { s, 121 }
+  }
+}
+
+123
+{
+  name { A dark room }
+  desc {
+"  You are in a large dark room. The air here seems quite stale, and a sense
+of extreme dread comes over you. The stench of rotten flesh seems to be
+wafting in from the open doorway to the north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 124 }
+	to { w, 122 }
+	  info { door, closed }
+	  keywords { door black" }
+  }
+}
+
+124
+{
+  name { A dark room }
+  desc {
+"  You are in a large dark room. The stench here makes you gag and wretch.
+There are body parts and half rotted corpses strewn about with complete
+abandon. Several operating tables with still forms that resemble nothing
+you've ever seen alive are here.
+  Tortured screams can be heard from the north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 125 }
+	  desc { Upon gazing northwards, you are filled with deep dread
+}
+	to { s, 123 }
+  }
+}
+
+125
+{
+  name { The Necromancer's Lair }
+  desc {
+"  You are in the lair of the evil Necromancer. Undead minions of all types,
+human and otherwise stand here waiting to do their master's bidding. Some
+glowing arcane sigils have been etched into walls and floor, no doubt to
+protect the evil master from his own ungodly creations.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 124 }
+  }
+}
+
+126
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { n, 127 }
+	to { s, 122 }
+  }
+}
+
+127
+{
+  name { A hallway }
+  desc {
+"  You are in a long hallway leading north and south. The walls emit a faint
+magical glow which provides enough light to see by.
+  }
+  flags { indoors }
+  exits {
+	to { n, 128 }
+	to { s, 126 }
+  }
+}
+
+128
+{
+  name { The end of the hallway }
+  desc {
+"  You are at the end of a long hallway. The walls here glow with a faint
+magical energy which provides plenty of light.
+  Stairs lead up to the next level here and the hallway continues south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 127 }
+	to { u, 129 }
+  }
+}
+
+129
+{
+  name { A corridor }
+  desc {
+"  You are at the east end of a long corridor. Obsidian walls engraved with
+ancient runes of power stretch out before you. Magical energies seem to
+crackle with power all around and whisper in tongues long forgotten, almost
+as if the corridor it self were alive.
+  }
+  flags { indoors }
+  exits {
+	to { w, 130 }
+	to { d, 128 }
+  }
+}
+
+130
+{
+  name { A corridor }
+  desc {
+"  You are in a long corridor. Obsidian walls engraved with ancient runes
+of power stretch out before you. Magical energies seem to crackle with
+power all around and whisper in tongues long forgotten, almost as if the
+corridor itself were alive.
+  }
+  flags { indoors }
+  exits {
+	to { e, 129 }
+	to { w, 131 }
+  }
+}
+
+131
+{
+  name { A bend in the corridor }
+  desc {
+"  You are at a bend in the long corridor. Obsidian walls engraved with
+ancient runes of power stretch out before you. Magical energies seem to
+crackle with power all around and whisper in tongues long forgotten, almost
+as if the corridor itself were alive.
+  }
+  flags { indoors }
+  exits {
+	to { e, 130 }
+	to { s, 132 }
+  }
+}
+
+132
+{
+  name { A corridor }
+  desc {
+"  You are in a long corridor leading north and south. Obsidian walls
+engraved with ancient runes of power stretch out before you. Magical
+energies seem to crackle with power all around and whisper in tongues
+long forgotten, almost as if the corridor itself were alive.
+  }
+  flags { indoors }
+  exits {
+	to { n, 131 }
+	to { s, 133 }
+  }
+}
+
+133
+{
+  name { An intersection }
+  desc {
+"  You are at an intersection in the corridor. The obsidian walled halls
+lead off in every direction from here, pulsing with the power of their
+ancient runes.
+  }
+  flags { indoors }
+  exits {
+	to { n, 132 }
+	to { e, 134 }
+	to { s, 146 }
+	to { w, 136 }
+  }
+}
+
+134
+{
+  name { A corridor }
+  desc {
+"  You are at the end of a long corridor. Obsidian walls engraved with
+ancient runes of power stretch out before you. A darkened door is to the
+east. Tendrils of mist cling to the floor here, they seem to be seeping
+from under the door.
+  }
+  flags { indoors }
+  exits {
+	to { e, 135 }
+	  key { 1 }
+	  info { door, closed }
+	  keywords { door black" }
+	to { w, 133 }
+  }
+}
+
+135
+{
+  name { The scrying chamber }
+  desc {
+"  You are in the scying chamber of the high tower of sorcerery. It is here
+that arcane rituals are performed to enable those of the art to look in
+upon denizons throughout the world and spy out their darkest secrets.
+  A huge black cauldrin is in the center of the room, bubbling and gurgling,
+it pours forth a constant stream of smokey fog into the air about you. Here
+and there on stands of different sizes are crystal balls and oddly shaped
+mirrors.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 134 }
+	  info { door, closed }
+	  keywords { door black" }
+  }
+}
+
+136
+{
+  name { A corridor }
+  desc {
+"  You have reached an end in the long corridor. Obsidian walls engraved
+with ancient runes of power stretch out before you. The sound of snoring
+can barely be heard through the door to the west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 133 }
+	to { w, 137 }
+	  info { door, closed }
+	  keywords { door wooden" }
+  }
+}
+
+137
+{
+  name { The entrance to the library }
+  desc {
+"  You are in the entrance to the great library of magic. A giant desk is
+here, covered with books parchments and scrolls. Long shelves loaded with
+row upon row of books stretch out in every direction as far as the eye can
+see.
+  }
+  flags { indoors }
+  exits {
+	to { n, 139 }
+	to { e, 136 }
+	to { s, 140 }
+	  desc { All you can see are books
+}
+	to { w, 138 }
+	  desc { All you can see are books
+}
+  }
+}
+
+138
+{
+  name { In the library }
+  desc {
+"  You are in the great library of magic. A strong musty smell permeates the
+entire area. Upon shelves which float just out of reach are hundreds of
+books, tomes and scrolls of every possible shape size and color. The elusive
+books seem to wink in and out of existance before your untrained eyes.
+  It is very quiet here.
+  }
+  flags { indoors }
+  exits {
+	to { n, 141 }
+	to { e, 137 }
+	to { s, 142 }
+	to { w, 143 }
+  }
+}
+
+139
+{
+  name { In the library }
+  desc {
+"  You are in the great library of magic. A strong musty smell permeates the
+entire area. Upon shelves which float just out of reach are hundreds of
+books, tomes and scrolls of every possible shape size and color. The elusive
+books seem to wink in and out of existance before your untrained eyes.
+  It is very quiet here.
+  }
+  flags { indoors }
+  exits {
+	to { n, 140 }
+	to { e, 142 }
+	to { s, 137 }
+	to { w, 141 }
+  }
+}
+
+140
+{
+  name { In the library }
+  desc {
+"  You are in the great library of magic. A strong musty smell permeates the
+entire area. Upon shelves which float just out of reach are hundreds of
+books, tomes and scrolls of every possible shape size and color. The elusive
+books seem to wink in and out of existance before your untrained eyes.
+  It is very quiet here.
+  }
+  flags { indoors }
+  exits {
+	to { n, 137 }
+	to { e, 141 }
+	to { s, 139 }
+	to { w, 142 }
+  }
+}
+
+141
+{
+  name { In the library }
+  desc {
+"  You are in the great library of magic. A strong musty smell permeates the
+entire area. Upon shelves which float just out of reach are hundreds of
+books, tomes and scrolls of every possible shape size and color. The elusive
+books seem to wink in and out of existance before your untrained eyes.
+  It is very quiet here.
+  }
+  flags { indoors }
+  exits {
+	to { n, 142 }
+	to { e, 139 }
+	to { s, 138 }
+	to { w, 140 }
+  }
+}
+
+142
+{
+  name { In the library }
+  desc {
+"  You are in the great library of magic. A strong musty smell permeates the
+entire area. Upon shelves which float just out of reach are hundreds of
+books, tomes and scrolls of every possible shape size and color. The elusive
+books seem to wink in and out of existance before your untrained eyes.
+  It is very quiet here.
+  }
+  flags { indoors }
+  exits {
+	to { n, 138 }
+	to { e, 140 }
+	to { s, 141 }
+	to { w, 139 }
+  }
+}
+
+143
+{
+  name { In the library }
+  desc {
+"  You are in the great library of magic. A strong musty smell permeates the
+entire area. Upon shelves which float just out of reach are hundreds of
+books, tomes and scrolls of every possible shape size and color. The elusive
+books seem to wink in and out of existance before your untrained eyes.
+  It is very quiet here.
+  }
+  flags { indoors }
+  exits {
+	to { e, 138 }
+	to { w, 144 }
+  }
+}
+
+144
+{
+  name { Between the shelves }
+  desc {
+"  You are in the great library of magic. The shelves seem uncomfortably
+close here, you can barely manuver between them. The musty smell is still
+strong, and the elusive books still hover just out of reach.
+  A faint flicker of light can barely be made out to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 145 }
+	to { e, 143 }
+  }
+}
+
+145
+{
+  name { The reading room }
+  desc {
+"  You are in a small room completely devoid of furnishings. The only thing
+here is an enormous tome, lying face open on the floor. The great book looks
+both heavy and ancient. Its jewel encrusted bindings are well worn as the
+bark of a tree. Spidery writings seem to crawls across the pages, totally
+uncomprehensible to your mortal eye. Something seems to be wedged between
+the pages.
+  }
+  flags { indoors }
+  exits {
+	to { s, 144 }
+  }
+}
+
+146
+{
+  name { A corridor }
+  desc {
+"  You are in a long corridor leading north and south. Obsidian walls
+engraved with ancient runes of power stretch out before you. Magical
+energies seem to crackle with power all around and whisper in tongues
+long forgotten, almost as if the corridor itself were alive.
+  }
+  flags { indoors }
+  exits {
+	to { n, 133 }
+	to { s, 147 }
+  }
+}
+
+147
+{
+  name { The end of the corridor }
+  desc {
+"  You are at the end of a long corridor. The obsidian walls come to an
+abrupt halt at the edge of a golden archway here. The hum of power is so
+strong it nearly numbs your body.
+  The archway lies before you, glowing and pulsing with energy.
+  }
+  flags { indoors }
+  exits {
+	to { n, 146 }
+	to { s, 148 }
+  }
+}
+
+148
+{
+  name { The arched entrance }
+  desc {
+"  You feel a slight tingle as you pass through the archway, as if the living
+magical energies here had infused your body, found it wanting and left. The
+intense glow from the arch above you is almost blinding. Through the light
+you can barely makeout a stairway leading up.
+  }
+  flags { indoors }
+  exits {
+	to { n, 147 }
+	to { u, 149 }
+  }
+}
+
+149
+{
+  name { The landing }
+  desc {
+"  You are on a small landing in the middle of a long stairway leading up.
+Your senses seem dulled here, no sound or smell can be detected at all, and
+the only thing you can see in any direction is endless stairway.
+  }
+  flags { indoors }
+  exits {
+	to { u, 150 }
+	to { d, 148 }
+  }
+}
+
+150
+{
+  name { An intersection }
+  desc {
+"  You are at an intersection of several hallways. You feel as if strange
+mystical forces are pushing and pulling at each other from all around you.
+The sensation of being trapped, in the middle is almost tangible in the air
+here.
+  A grey tiled hallway leads south, a white tiled west, and a multi-colored
+hallway swirling with patterns that remain just barely unrecognizeable is to
+the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 173 }
+	to { s, 151 }
+	to { w, 165 }
+	to { d, 149 }
+  }
+}
+
+151
+{
+  name { A grey tiled hallway }
+  desc {
+"  You are in a grey tiled hallway leading north and south. Dim balls of
+energy float here and there sheding a warm light, and showing the way.
+A feeling of peace and balance comes over you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 150 }
+	to { s, 152 }
+  }
+}
+
+152
+{
+  name { A grey tiled hallway }
+  desc {
+"  You are in a grey tiled hallway leading north and south. Dim balls of
+energy float here and there shedding a warm light, and showing the way.
+A feeling of peace and balance comes over you.
+  Large grey metal double doors can be seen to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 151 }
+	to { s, 153 }
+	  info { door, closed }
+	  keywords { door grey" }
+  }
+}
+
+153
+{
+  name { The antechamber }
+  desc {
+"  You are in the antechamber of the master magician of the grey light. A
+feeling of strong magic floats in the air about you, almost as if you could
+taste the power held within these walls.
+  Once your eyes adjust to the semi-light, you can make out a larger room
+to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 152 }
+	  info { door, closed }
+	  keywords { door grey" }
+	to { s, 154 }
+  }
+}
+
+154
+{
+  name { The main chamber }
+  desc {
+"  A feeling of tranquility comes over you as you enter the main chamber of
+neutrality. Some artifacts are hung on the walls here, or set on stands.
+The room in general looks both comfortable and official. Probably where the
+master of neutrality holds audience.
+  }
+  flags { indoors }
+  exits {
+	to { n, 153 }
+	to { e, 156 }
+	to { s, 157 }
+	to { w, 155 }
+  }
+}
+
+155
+{
+  name { The study }
+  desc {
+"  You are in a large study. Shelves filled with many books or arcane
+knowledge are on every wall. A large oaken desk is in the center, with
+many parchments and scrolls on it. The most notable thing in the room is
+a small set of scales, which floats about eye level. In perfect balance,
+the scales are no doubt a sign of the master's neutrality.
+  }
+  flags { indoors }
+  exits {
+	to { e, 154 }
+  }
+}
+
+156
+{
+  name { A closet }
+  desc {
+"  You are in a small closet. It is filled with many cloaks, and some other
+apparel.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 154 }
+  }
+}
+
+157
+{
+  name { A bedroom }
+  desc {
+"  You are in the bedroom of the master magician of neutrality. Curtained
+windows can be seen on the south wall. A large comfortable looking bed
+takes up most of the room.
+  }
+  flags { indoors }
+  exits {
+	to { n, 154 }
+  }
+}
+
+158
+{
+  name { A dark hallway }
+  desc {
+"  You are in a long dark hallway leading east and west. Not much can be
+seen in the unnatural darkness here, but you get a deep sense of dread
+the further you go.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 159 }
+	to { w, 150 }
+  }
+}
+
+159
+{
+  name { A dark hallway }
+  desc {
+"  You are in a long dark hallway leading east and west. Not much can be
+seen in the unnatural darkness here, but you get a deep sense of dread
+the further you go.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 158 }
+  }
+}
+
+160
+{
+  name { The end of the hallway }
+  desc {
+"  You are at the end of a long dark hallway. The darkness here is almost
+tangable in its thickness. A deep sense of fear and loathing comes over
+you.
+  A pair of obsidian doors can be seen to the east.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 161 }
+	  info { door, closed }
+	  keywords { door obsidian" }
+	to { w, 159 }
+  }
+}
+
+161
+{
+  name { The chamber of darkness }
+  desc {
+"  You are in a vast chamber. The walls fade into darkness, leaving you
+with a very vague idea of the actual size of the room. Swirling here and
+there in the dark, are patches of pure black which seem to suck in your
+light and leave it that much darker here.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 162 }
+	to { e, 164 }
+	to { s, 163 }
+	to { w, 160 }
+	  info { door, closed }
+	  keywords { door obsidian" }
+  }
+}
+
+162
+{
+  name { It is very dark here... }
+  desc {
+It is very dark here...
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 161 }
+  }
+}
+
+163
+{
+  name { Torture chamber }
+  desc {
+"  You are in an ill lit chamber. Intruments of torture hang from a rack
+on the wall, they seem to quiver with anticipation of a victim as if they
+had a mind of their own. An operating table is here, though it is bare.
+  An extreme feeling of evil permeates the entire area.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 161 }
+  }
+}
+
+164
+{
+  name { The inner chamber }
+  desc {
+"  You are in a small dark chamber. Upon the walls are glowing sigils of
+dark power, scrawled and traced in an evil language no longer known to most
+of this plane of existance. There is an obsidian altar here which seem to
+glow, but does not shed any light, in fact it seems to be taking light in.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 161 }
+  }
+}
+
+165
+{
+  name { A bright hallway }
+  desc {
+"  You are in a long well lit hallway leading east and west. The walls here
+are a milky white color, and glow with a warm luminescence, as does the
+floor. A feeling of goodness permeates the area, and you feel unworthy to
+tread upon these sacred floors.
+  }
+  flags { indoors }
+  exits {
+	to { e, 150 }
+	to { w, 166 }
+  }
+}
+
+166
+{
+  name { A bright hallway }
+  desc {
+"  You are in a long well lit hallway leading east and west. The walls here
+are a milky white color, and glow with a warm luminescence, as does the
+floor. A feeling of goodness permeates the area, and you feel unworthy to
+tread upon these sacred floors.
+  A huge set of double doors in finely worked ivory can be seen to the west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 165 }
+	to { w, 167 }
+	  info { door, closed }
+	  keywords { door ivory" }
+  }
+}
+
+167
+{
+  name { An antechamber }
+  desc {
+"  You are in a small antechamber. It is well lit here, though the source
+of light cannot be seen. It is almost as if the room itself exudes a warm
+glow of goodness. A larger chamber can be seen to the west, but you do not
+feel worthy to pass into it.
+  }
+  flags { indoors }
+  exits {
+	to { e, 166 }
+	  info { door, closed }
+	  keywords { door ivory" }
+	to { w, 169 }
+  }
+}
+
+169
+{
+  name { The chamber of the white light }
+  desc {
+"  You are in a vast chamber, its walls floor and ceiling are of an unknown
+metalic material, the brightest white, almost blindingly stark. A flickering
+flame is in the center of the room, seeming to feed off of darkness and
+cleansing the room of any evil. You feel a slight tug at your being as the
+flame flickers towards you.
+  }
+  exits {
+	to { n, 170 }
+	to { e, 167 }
+	to { s, 171 }
+	to { w, 172 }
+  }
+}
+
+170
+{
+  name { The meditation chamber }
+  desc {
+"  You are in a small meditation chamber. White silk cushions are everywhere,
+looking very comfortable. You get an easy peaceful feeling of relaxation
+here, almost making you want to lie down and fall asleep.
+  }
+  flags { indoors }
+  exits {
+	to { s, 169 }
+  }
+}
+
+171
+{
+  name { A study }
+  desc {
+"  You are in a spacious study. It is extremely tidy here, to an almost
+antisceptic nature. One would wonder how anyone could study without a
+mess all around them, the master of this chamber obviously can.
+  }
+  flags { indoors }
+  exits {
+	to { n, 169 }
+  }
+}
+
+172
+{
+  name { A closet }
+  desc {
+"  You are in a small closet. Cloaks and vests hang from hooks in the wall,
+and a few old boots are all that can be seen here. Rather featureless.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 169 }
+  }
+}
+
+173
+{
+  name { A wide hallway }
+  desc {
+"  You are in a large hallway, wide enough to accomodate several people
+standing abreast. The floor here is a swirl of multicolored paterns, in
+constant motion.
+  A huge grey metal door blocks the way north, it looks quite sturdy.
+  }
+  flags { indoors }
+  exits {
+	to { n, 174 }
+	  key { 1673 }
+	  info { door, closed }
+	  keywords { door metal grey" }
+	to { s, 150 }
+  }
+}
+
+174
+{
+  name { A wide hallway }
+  desc {
+"  You are in a large hallway, wide enough to accomodate several people
+standing abreast. The floor here is a swirl of multicolored paterns, in
+constant motion.
+  A huge black obsidian door blocks the way north, it looks quite sturdy.
+  }
+  flags { indoors }
+  exits {
+	to { n, 175 }
+	  key { 1674 }
+	  info { door, closed }
+	  keywords { door obsidian black" }
+	to { s, 173 }
+	  key { 1673 }
+	  info { door, closed }
+	  keywords { door metal grey" }
+  }
+}
+
+175
+{
+  name { A wide hallway }
+  desc {
+"  You are in a large hallway, wide enough to accomodate several people
+standing abreast. The floor here is a swirl of multicolored paterns, in
+constant motion.
+  A huge white ivory door blocks the way north, it looks quite sturdy.
+  }
+  flags { indoors }
+  exits {
+	to { n, 176 }
+	  key { 1675 }
+	  info { door, closed }
+	  keywords { door ivory white" }
+	to { s, 174 }
+	  key { 1674 }
+	  info { door, closed }
+	  keywords { door obsidian black" }
+  }
+}
+
+176
+{
+  name { The entranceway }
+  desc {
+"  You are at the entrance to the audience chamber of the grand master of
+magic. Beautiful tapestries displaying the ancient masters of lore are on
+the walls, and the floor is covered with a plush multicolored carpet, which
+seems to rustle and move at the touch of your boots.
+  }
+  flags { indoors }
+  exits {
+	to { n, 177 }
+	to { s, 175 }
+	  key { 1675 }
+	  info { door, closed }
+	  keywords { door white ivory" }
+  }
+}
+
+177
+{
+  name { The audience chamber }
+  desc {
+"  You are in a large chamber. Small bolts of energy leap from wall to wall,
+crackling with power. The floor is a swirl of indeterminable colors and
+paterns ever changing. Bright bursts of color seem to explode into the air
+and fade again at random times. All this splender plays about and draws
+attention to a large throne in the center of the room, it seems to be cut
+from a single enormous emerald.
+  }
+  extra {
+	keywords { throne" }
+	desc { The giant emerald is flawless, and must be incredibly valuable.
+
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 180 }
+	to { e, 178 }
+	to { s, 176 }
+	to { w, 179 }
+  }
+}
+
+178
+{
+  name { A dressing room }
+  desc {
+"  You are in a plush dressing room. Fine garments of many styles and some
+outlandish colors hang from a rack suspended in mid air at eye level. The
+only other interesting feature in the room is a large silver mirror on a
+finely crafted gold stand.
+  }
+  flags { indoors }
+  exits {
+	to { w, 177 }
+  }
+}
+
+179
+{
+  name { The library }
+  desc {
+"  You are in a small cozy looking library. A few well made books sit atop
+shelves which span every wall. A large oaken writing table is in the center
+of the room with odd papers and parchments on it. The illumination here,
+to your supprise is a quite un-magical oil lamp.
+  }
+  flags { indoors }
+  exits {
+	to { e, 177 }
+  }
+}
+
+180
+{
+  name { The altar }
+  desc {
+"  You are in a small chapel designed around a beautifully crafted golden
+altar. Many icons to lesser dieties line the room, but it is obvious by one
+glance at the symbols on the altar, that this room was designed for the
+worship of Mystra, the goddess of magic.
+  }
+  flags { indoors }
+  exits {
+	to { e, 181 }
+	  info { door, closed }
+	  keywords { door concealed east" }
+	to { s, 177 }
+  }
+}
+
+181
+{
+  name { The treasury }
+  desc {
+"  You are in a small chamber, the stale air here is testiment to the fact
+that it has gone undisturbed for many years.
+  }
+  flags { indoors }
+  exits {
+	to { w, 180 }
+	  info { door, closed }
+	  keywords { door secret" }
+  }
+}
+
+182
+{
+  name { A passage }
+  desc {
+"  You are in a small dark passage, which would be unremarkable if not for
+the fact that it ends in a blindling blue light to the west. On hooks set
+into the wall here there hangs several travel worthy cloaks, and a small
+leather backpack.  It looks as if someone has prepared this room to be used
+in the event speedy evacuation.
+  }
+  flags { dark, no_mob, indoors }
+}
+
+183
+{
+  name { In the light }
+  desc {
+"  You seem to be floating in a magical energy field, though you cannot see
+the source of the energy, you can feel its power pushing at you from all
+sides, completely negating the effects of gravity.
+  An imperfection in the uniform blue can be seen overhead, it might be an
+exit.
+  }
+  flags { no_mob, indoors }
+}
+
+199
+{
+  name { 1699 }
+  desc {
+Empty
+  }
+}

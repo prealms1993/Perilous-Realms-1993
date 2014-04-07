@@ -1,0 +1,151 @@
+PF = $&
+
+CFLAGS = -g -pipe -DBSD -Ih
+EXE = dmserver
+
+LIBS =
+##
+LD=cc
+CC=cc
+O=obj
+##
+OBJS =  $O/db.o $O/skills.o $O/oedit.o $O/medit.o $O/online.o\
+	$O/interpreter.o $O/comm.o $O/spec_mob.o\
+	$O/player.save.o $O/act.new.o $O/act.builder.o\
+	$O/guild.o $O/spec_obj.o $O/events.o\
+	$O/act.inf1.o $O/act.move.o $O/act.obj1.o\
+ 	$O/act.obj2.o $O/act.offensive.o $O/act.other.o\
+	$O/act.social.o	$O/act.wizard.o	$O/handler.o\
+	$O/termcap.o $O/utility.o $O/spec_assign.o\
+	$O/shop.o $O/limits.o $O/mobact.o\
+	$O/fight.o $O/modify.o	$O/weather.o\
+	$O/spells1.o $O/spells2.o $O/spell_parser.o\
+	$O/reception.o $O/constants.o $O/act.comm.o\
+	$O/signals.o $O/board.o	$O/magic.o\
+	$O/magic2.o $O/opinion.o $O/magic3.o\
+	$O/trap.o $O/magicutils.o $O/multiclass.o\
+	$O/hash.o $O/sound.o $O/spec_rooms.o\
+	$O/ticks.o $O/nlog.o $O/debug.o\
+	$O/act.look.o	$O/stat.o $O/skills1.o $O/maze.o
+
+#memory.o
+
+SRCS =  interpreter.c comm.c act.comm.c act.inf1.c act.inf1.new.c\
+	act.move.c act.obj1.c act.obj2.c guild.c events.c\
+	act.offensive.c act.other.c act.social.c act.wizard.c handler.c \
+	db.c utility.c spec_assign.c shop.c limits.c mobact.c \
+	fight.c modify.c weather.c spells1.c spells2.c spell_parser.c \
+	reception.c constants.c spec_mob.c signals.c board.c magic.c \
+	magic2.c skills.c opinion.c trap.c magicutils.c multiclass.c hash.c \
+	sound.c spec_rooms.c player.save.c online.c act.new.c\
+	oedit.c spec_obj.c nlog.c medit.c ticks.c act.builder.c\
+	memory.c debug.c act.look.c stat.c skills1.c magic3.c utility.new.c\
+	maze.c termcap.c
+
+$O/%.o: %.c
+	$(CC) $(CFLAGS) -o $@ -c $<
+
+all : $(EXE)
+
+$(EXE) : $(PF)  ${OBJS}
+	$(LD) $(CFLAGS) -o $(EXE) ${OBJS} $(LIBS)
+
+$(MEXE) : $(PF)  ${MOBJS}
+	$(LD) $(CFLAGS) -o $(MEXE) ${MOBJS} $(MLIBS)
+
+UTL_OBJS = player.save.o utl1.o constants.o
+GEN_OBJS = player.save.o utl1.o genlist.o constants.o
+PUR_OBJS = player.save.o utl1.o purge.o constants.o
+CON_OBJS = player.save.o utl1.o convert.o constants.o db1.o hash.o
+
+list: $(PF) $(UTL_OBJS) list.o
+	$(LD) $(CFLAGS) -o list $(UTL_OBJS) list.o
+
+purge: $(PF) $(PUR_OBJS)
+	$(LD) $(CFLAGS) -o purge $(PUR_OBJS)
+
+convert: $(PF) $(CON_OBJS)
+	$(LD) $(CFLAGS) -o convert $(CON_OBJS)
+
+genlist: $(PF) $(GEN_OBJS)
+	$(LD) $(CFLAGS) -o genlist $(GEN_OBJS) -lmalloc
+
+depend :
+	mkdep -f makefile -Ih ${SRCS}
+
+fcns: proto
+	proto $(SRCS)
+
+proto: strip.c
+	cc -O -o proto strip.c
+
+clean: fcns
+	-rm -f $(OBJS)
+	-rm $(EXE)
+
+
+# DO NOT DELETE THIS LINE -- make depend depends on it.
+
+comm.o: h/structs.h h/utils.h h/comm.h h/interpreter.h h/handler.h h/db.h h/ticks.h
+act.comm.o: h/structs.h h/utils.h h/comm.h h/interpreter.h h/handler.h h/db.h h/spells.h
+act.informative.o: h/structs.h h/utils.h h/comm.h h/interpreter.h h/handler.h h/db.h
+act.informative.:oh/spells.h h/limits.h h/race.h h/trap.h h/hash.h
+act.move.o: h/structs.h h/utils.h h/comm.h h/interpreter.h h/handler.h h/db.h h/spells.h
+act.move.o: h/trap.h h/ticks.h
+act.obj1.o: h/utils.h h/comm.h h/interpreter.h h/handler.h h/db.h h/spells.h h/trap.h
+act.obj1.o: h/structs.h h/utils.h h/comm.h h/interpreter.h h/handler.h
+act.obj2.o: h/db.h h/spells.h h/structs.h
+act.offensive.o: h/structs.h h/limits.h h/race.h h/ticks.h
+act.offensive.o: h/utils.h h/comm.h h/interpreter.h h/handler.h h/db.h h/spells.h
+act.other.o: h/structs.h h/utils.h h/comm.h h/interpreter.h h/handler.h
+act.other.o: h/db.h h/spells.h h/limits.h h/ticks.h
+act.social.o: h/structs.h h/utils.h h/comm.h h/interpreter.h h/handler.h h/db.h h/spells.h
+act.wizard.o: h/utils.h h/comm.h h/interpreter.h h/handler.h h/structs.h
+act.wizard.o: h/db.h h/spells.h h/limits.h
+handler.o: h/structs.h h/utils.h h/comm.h h/db.h h/handler.h h/interpreter.h h/spells.h
+db.o: h/structs.h h/utils.h h/db.h h/comm.h h/handler.h h/limits.h h/race.h h/hash.h
+interpreter.o:  h/structs.h h/interpreter.h h/db.h h/utils.h h/limits.h h/race.h h/inter.h
+utility.o: h/structs.h  h/utils.h h/spells.h h/race.h h/db.h h/comm.h h/hash.h h/ticks.h
+spec_assign.o: h/structs.h h/db.h
+shop.o: h/structs.h h/comm.h h/handler.h h/db.h h/interpreter.h h/utils.h
+limits.o:  h/structs.h h/limits.h h/utils.h h/spells.h h/comm.h h/race.h
+mobact.o: h/structs.h h/utils.h h/handler.h h/db.h h/comm.h h/trap.h h/ticks.h
+fight.o: h/structs.h h/utils.h h/comm.h h/handler.h h/interpreter.h h/db.h h/spells.h
+modify.o: h/structs.h h/utils.h h/interpreter.h h/handler.h h/db.h h/comm.h
+weather.o: h/structs.h h/utils.h h/comm.h h/handler.h h/interpreter.h h/db.h
+spells1.o: h/structs.h h/utils.h h/comm.h h/db.h h/interpreter.h h/spells.h h/handler.h
+spells2.o: h/structs.h h/utils.h h/comm.h h/db.h h/interpreter.h h/spells.h h/handler.h h/poly.h
+spell_parser.o: h/structs.h h/utils.h h/comm.h h/db.h h/interpreter.h h/spells.h h/handler.h
+spell_parser.o: h/spell_func.h
+reception.o: h/structs.h h/comm.h h/handler.h h/db.h h/interpreter.h h/utils.h h/spells.h
+constants.o: h/structs.h h/limits.h h/trap.h h/spell_list.h
+spec_mob.o: h/structs.h h/utils.h h/comm.h h/interpreter.h h/handler.h h/db.h h/spells.h
+spec_mov.o: h/limits.h h/hash.h
+spec_rooms.o: h/structs.h h/utils.h h/comm.h h/interpreter.h h/handler.h h/db.h h/spells.h h/limits.h h/hash.h
+signals.o: h/structs.h h/utils.h h/ticks.h
+board.o: h/utils.h h/comm.h h/db.h h/structs.h
+magic.o: h/structs.h h/utils.h h/ticks.h
+magic.o: h/comm.h h/spells.h h/handler.h h/limits.h h/db.h
+magic2.o: h/structs.h h/utils.h
+magic2.o: h/comm.h h/spells.h h/handler.h h/limits.h h/db.h h/race.h
+skills.o: h/structs.h h/ticks.h
+skills.o: h/utils.h h/race.h h/spells.h h/comm.h h/handler.h
+opinion.o: h/structs.h h/utils.h h/spells.h h/race.h
+opinion.o: h/db.h
+trap.o: h/structs.h h/utils.h
+trap.o: h/spells.h h/trap.h h/comm.h
+magicutils.o: h/structs.h
+magicutils.o: h/utils.h h/comm.h h/spells.h h/handler.h h/limits.h
+multiclass.o: h/structs.h
+multiclass.o: h/utils.h h/comm.h h/interpreter.h h/handler.h h/spells.h h/limits.h
+multiclass.o: h/race.h
+hash.o:  h/hash.h h/structs.h
+sound.o: h/utils.h h/structs.h
+sound.o: h/comm.h h/interpreter.h h/handler.h h/db.h h/spells.h h/trap.h h/structs.h
+player.save.o: h/structs.h h/db.h
+act.new.o: h/structs.h h/ticks.h
+oedit.c: h/structs.h h/utils.h h/oedit.h
+spec_obj.o: h/structs.h
+ticks.o: h/ticks.h
+magic3.o: h/structs.h h/utils.h h/ticks.h
+magic3.o: h/comm.h h/spells.h h/handler.h h/limits.h h/db.h h/race.h

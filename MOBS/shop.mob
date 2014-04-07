@@ -1,0 +1,24 @@
+3017
+{ name { Osfol }
+namelist { Osfol }
+short { Osfol stands here waiting for you to make up your mind. }
+long {
+Osfol stares back at you with a burning intensity in his eyes, it would
+be best to not even think about attacking him.
+}
+experience { 100000}
+level { 250 }
+hp { 10000, 2, 5000 }
+attacks_per_round { 8 }
+alignment { 0 }
+damage { 100, 2, 50 }
+act { sentinel }
+race { human }
+move { 250 }
+height {180 }
+head { -100, 10 }
+body { -100, 10 }
+arms { -100, 10 }
+legs { -100, 10 }
+feet { -100, 10 }
+}

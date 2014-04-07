@@ -1,0 +1,4128 @@
+
+0
+{
+  name { Lost in the Mountains }
+  desc {
+" Numerous craggy mountains surround you. Twisted, deadened trees stare at
+you from all around. A neglected path, at your feet. You get an uneasy
+feeling of deja-vu.
+  }
+  exits {
+	to { n, 1 }
+  }
+}
+
+1
+{
+  name { Lost in the Mountains }
+  desc {
+" Numerous craggy mountains surround you. Twisted, deadened trees stare at
+you from all around. A neglected path, at your feet. You get an uneasy
+feeling of deja-vu.
+  }
+  sector { Mountains }
+  flags { private }
+  exits {
+	to { n, 1 }
+	to { e, 1 }
+	to { s, 1 }
+	to { w, 74 }
+  }
+}
+
+2
+{
+  name { A Steep Trail }
+  desc {
+" Here lies a steep, rocky trail, amidst the mountains, descending
+downward, into pitch black silence.  }
+  sector { City }
+  exits {
+	to { n, 3 }
+	to { s, 1 }
+  }
+}
+
+3
+{
+  name { The End of the Trail }
+  desc {
+" As you disappear into the mountains, you get a growing feeling
+of evil, among the faint darkness. You find yourself amidst an
+ancient warrior, towering far above you. His face, twisted into
+an evil grin. A jagged opening in the mountain lies behind your
+foe.
+  }
+  sector { Mountains }
+  flags { private }
+  exits {
+	to { s, 2 }
+	to { d, 4 }
+  }
+}
+
+4
+{
+  name { Gateway to the Abyss }
+  desc {
+" As you enter the jagged opening, you feel the coldness of the rock
+against your skin. As you look into the darkness ahead, you are striken
+by an overwhelming sense of evil. You dread the thought of what lies
+ahead
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { u, 3 }
+	to { d, 5 }
+  }
+}
+
+5
+{
+  name { Into the Dark }
+  desc {
+" Here, the feeling of heat starts to engulf your soul. The intensity
+is almost unbearable. The walls around you have a glow of faint red.
+Thoughts of turning back start creeping into your mind. But, you feel
+a strange force pulling you... pulling you deeper and deeper into the
+pits of hell!
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 6 }
+	to { u, 4 }
+  }
+}
+
+6
+{
+  name { Cavern of Lost Souls }
+  desc {
+" You wander into a dimly lit, caverous room. You are overpowered by
+a strong sense of death, here. The darkness seems to come alive at
+your presence. Visions of gruesome death, dance before your eyes...
+so real... as if they were alive... The souls of evil, banished from
+their bodies.... trapped here, seeking revenge... You feel your body
+being ravaged by the souls of adventurers long past.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 7 }
+	to { s, 5 }
+  }
+}
+
+7
+{
+  name { Into the Caverns }
+  desc {
+" From here, caverns branch off in all directions. You here
+waves coming from a cavern to the east, while to the west
+the cavern has beed enveloped in a glowing mist.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 7 }
+	to { e, 8 }
+	to { s, 6 }
+	to { w, 9 }
+  }
+}
+
+8
+{
+  name { Damp Cavern }
+  desc {
+" Here you find yourself in a large, cavernous passageway. The
+walls and floor of the cave are rather damp, and a musty smell
+feels the air. A familiar crashing sound continues to come from
+beyond the east passageway.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 11 }
+  }
+}
+
+9
+{
+  name { Misty Cavern }
+  desc {
+" As you enter the cavern you are surronded by a strange mist
+filling the cavern. You are overpowered by the feeling of
+death and despair. Through the mist you can just barely make
+out what looks like a door to the west.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 7 }
+	to { w, 10 }
+  }
+}
+
+10
+{
+  name { Western End of the Misty Cavern }
+  desc {
+" The entire west wall is made up of two huge doors which seem
+to be glowing with a red aura. There is a small hole in one of
+the doors, perhaps a key hole. The mist in this room seems to
+be alive. You here a deep wailing from beyond the doors, you
+shudder at the thought of what lies behind them.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 9 }
+	to { w, 12 }
+	  info { door }
+	  keywords { Door Huge" }
+  }
+}
+
+11
+{
+  name { The Gate }
+  desc {
+" As you enter this room, your eyes become fixed upon a large
+black object, in the center of the room. After carefull obse-
+rvation, you find that it resembeles some sort of window.
+The sounds you have been hearing appear to be coming from inside
+you start to recall the crashing sounds of the waves...and
+suddenly you realize you have stumbled upon there source.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 13 }
+  }
+}
+
+12
+{
+  name { Realm of the Dead }
+  desc {
+" This room appears to be a room of great riches. A large
+chest sits at the back of the room, you notice a pair of
+eyes staring at you from a dark corner of the room. You
+are suddenly overcome by an overwhelming feeling of un-
+easiness.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 11 }
+	to { e, 10 }
+  }
+}
+
+13
+{
+  name { The Other Side }
+  desc {
+" As you step through the window, you are instantly transported
+to find yourself here. Just to the north is what appears to be
+the shore of a lareg ocean.
+  }
+  sector { Forest }
+  exits {
+	to { n, 14 }
+  }
+}
+
+14
+{
+  name { Ocean Shore }
+  desc {
+" Here, though you are underground (or so you believe) there seems
+to be a sky of some sort, it is dark, and above you are black,
+constantly moveing clouds, as black as the waves of the ocean which
+flows before you.
+  }
+  sector { Forest }
+  exits {
+	to { n, 15 }
+  }
+}
+
+15
+{
+  name { On the Ocean of Despair }
+  desc {
+" As you float on the jet-black waters of the ocean, occasionally
+something will stick its head above the surface. You try to focus
+your eyes upon the image, but unfortuantely it is too dark to make
+out exactly what the creature is.
+  }
+  sector { Field }
+  exits {
+	to { n, 15 }
+	to { e, 15 }
+	to { s, 16 }
+	to { w, 15 }
+  }
+}
+
+16
+{
+  name { On the Ocean of Despair }
+  desc {
+" As you go farther and farther out into the see you lose sight of
+all land. The thing that was back toword the shore appears to be
+following you. You begin to wonder what lies ahead.
+  }
+  sector { Field }
+  exits {
+	to { n, 15 }
+	to { e, 17 }
+	to { s, 15 }
+	to { w, 16 }
+  }
+}
+
+17
+{
+  name { On the Ocean of Despair }
+  desc {
+" After you have been on the ocean for what seems like says....
+You notice what may be land to the north, at last land!
+  }
+  sector { Forest }
+  exits {
+	to { n, 18 }
+	to { e, 15 }
+	to { s, 15 }
+	to { w, 15 }
+  }
+}
+
+18
+{
+  name { On the Shore }
+  desc {
+"   The shore is covered with the dead remains of many strange
+creatures. Bones line the shore, hundreds of them, every wave
+seems to bring more of the eerie, decayed debris.
+  }
+  exits {
+	to { e, 19 }
+	to { s, 17 }
+  }
+}
+
+19
+{
+  name { A Wooded Path }
+  desc {
+"   As you enter these woods you feel an ever growing sense
+of evil. The trees are twisted and bent, and you notice many plants
+that have long since died, there is a small path  branching off to
+east.
+  }
+  exits {
+	to { e, 20 }
+	to { w, 18 }
+  }
+}
+
+20
+{
+  name { A Small Path in the Twisted Forest }
+  desc {
+"   This faint path appears to have been neglected. You get
+the feeling that this path has not been treaded uopn for quite
+some time. As you continue down the path a large, twisted tree
+blocks the northern path. After taking a closer look you are
+able to make out what appears to be a flat clear land to the south.
+  }
+  exits {
+	to { e, 19 }
+	to { s, 21 }
+  }
+}
+
+21
+{
+  name { The Abyssial Plains }
+  desc {
+"   Here the land is free of all trees. You actually see some
+plant life here. The plains are vast, and endless as far as the
+eye can see. Besides the woods from which you have just come
+there is nothing but flat land as far as the eye can see.
+
+  }
+  exits {
+	to { n, 20 }
+	to { e, 22 }
+  }
+}
+
+22
+{
+  name { On the Plains }
+  desc {
+"   These vast plains seem to go on forever. A well worn
+path along the plains lies to the north, while you can make
+out a small hill to the east.
+  }
+  exits {
+	to { n, 23 }
+	to { e, 35 }
+	to { w, 21 }
+  }
+}
+
+23
+{
+  name { Along a Well Worn Path }
+  desc {
+"   As you come closer to the trail, you realize that it
+has not been worn at all, but has been burned into the very
+ground on which you stand. Whatever made this trail could
+not be far ahead, for the trail is still smoldering.
+  }
+  exits {
+	to { s, 22 }
+	to { w, 24 }
+  }
+}
+
+24
+{
+  name { The Smouldering Trail }
+  desc {
+"   As you continue down the trail, you notive parts of the
+trail are still burning. You appear to be catching up with
+whatever made this trail.
+  }
+  exits {
+	to { e, 23 }
+	to { w, 25 }
+  }
+}
+
+25
+{
+  name { The Smouldering Trail }
+  desc {
+"   Looking around you notice that you are no longer is
+sight of the forest from which you came. The trail continues
+to smolder at your feet.
+  }
+  exits {
+	to { e, 24 }
+	to { w, 26 }
+  }
+}
+
+26
+{
+  name { The Smouldering Trail }
+  desc {
+"   The sky seems to get darker and darker with every step.
+You start to wonder why you are hunting the creature which
+lies at the end of this flaming trail.
+  }
+  exits {
+	to { e, 25 }
+	to { w, 27 }
+  }
+}
+
+27
+{
+  name { The Smouldering Trail }
+  desc {
+"   It continues to grow darker, the only thing you can see are
+the flames lighting your way along the trail on which you now
+walk.
+  }
+  exits {
+	to { e, 26 }
+	to { w, 28 }
+  }
+}
+
+28
+{
+  name { The Smouldering Trail }
+  desc {
+"   You must be nearing the end of the trail, for here the
+heat gets more intense. Flames are all about the trail, you
+must be nearing your quarry also.
+  }
+  exits {
+	to { e, 27 }
+	to { w, 29 }
+  }
+}
+
+29
+{
+  name { The Smouldering Trail }
+  desc {
+"   Just ahead you see the end of the trail, the very end
+appears to be burning heavily. You can make out anything else
+ahead for the flames are too bright.
+  }
+  exits {
+	to { e, 28 }
+	to { w, 30 }
+  }
+}
+
+30
+{
+  name { The Flaming Gates }
+  desc {
+"   As you approach the flames  you realize it was not
+the trail itself that was burning so brightly ahead.
+Suddenly you stand face to face with a huge, flaming
+efreet! You cringe in terror as you see two large gates
+that seem to glowing with a faint aura of red.
+  }
+  exits {
+	to { n, 31 }
+	to { e, 29 }
+  }
+}
+
+31
+{
+  name { Inside the Flaming Gates }
+  desc {
+"   As you open the huge gates and step inside, you notice
+a large courtyard just to the north of you. On the far side
+of the courtyard you can just barely make out what appears
+to be a large castle of some sort.
+  }
+  exits {
+	to { n, 32 }
+	to { s, 30 }
+  }
+}
+
+32
+{
+  name { The Castle Courtyard }
+  desc {
+"   Strange, the courtyard is very quiet, nothing appears to
+be around. Off to the west you notice a small structure. Closer
+to the castle, you can now make out some sort of statues on each
+side of the entrance.
+  }
+  exits {
+	to { n, 40 }
+	to { s, 31 }
+	to { w, 33 }
+  }
+}
+
+33
+{
+  name { Western End of the Courtyard }
+  desc {
+"   Upon nearing the building you notice that it looks
+rather ruined, you hear a strange sound come from within.
+You find here, what appears to be the remains of some sort
+of creature, bones are strewn all about the ground.
+  }
+  exits {
+	to { e, 32 }
+	to { w, 34 }
+	  key { 25050 }
+	  info { door, closed }
+	  keywords { door ruined" }
+  }
+}
+
+34
+{
+  name { Inside a Small Stone Building }
+  desc {
+"   As you enter the room you see several weapons hung upon
+the walls, just as you start to take some of the weaponry you
+notice that is has long since rusted and is of no use to you.
+At the far end of the room you notice a small table, a closer
+look reveals the remains of what may have been a knight. The
+corpse, resting in a chair just behind the table appears to be
+grasping something. Moving closer to the corpse you notice a
+sword held tightly in the clutch on the skeletal figure, looking
+at the sword you realize it is unlike the rest of the decayed
+weaponry.... The blade appears to be razor sharp, and the metal
+untarnished.
+  }
+  exits {
+	to { e, 33 }
+	  key { 25050 }
+	  info { door, closed }
+	  keywords { door ruined" }
+  }
+}
+
+35
+{
+  name { A Small Hill }
+  desc {
+"   As you climb the hill you notice something at the top,
+however it is too dark to make out exactly what the shape is.
+  }
+  exits {
+	to { w, 22 }
+	to { u, 36 }
+  }
+}
+
+36
+{
+  name { Entrance to a Small Building }
+  desc {
+"   As you come to the top of the hill, you can see that
+that the shape you seen from below was a small building.
+The building appears empty, for the door lies open,
+revealing a stair well within.
+  }
+  exits {
+	to { w, 37 }
+	to { d, 35 }
+  }
+}
+
+37
+{
+  name { Top of the Stair Well }
+  desc {
+"   You step inside the building to find that you were
+correct, you find nothing within the small room. There is
+a stair well descending downward into the darkness below.
+  }
+  exits {
+	to { e, 36 }
+	to { d, 38 }
+  }
+}
+
+38
+{
+  name { The Stair Well }
+  desc {
+"   You set foot down the descending passage. The stairs are
+made of stone and appear to be quite solid. There is a strong
+steanch coming from below, you begin to feel sick as you
+continue to descend the stairs.
+  }
+  exits {
+	to { u, 37 }
+	to { d, 39 }
+  }
+}
+
+39
+{
+  name { A Large Room }
+  desc {
+"   Upon entering, you discover that this may have been
+once been a small crypt of some sort. What looks to be the
+remains of several adventures... perhaps a large party...
+You wonder what could have done away with them. A strange
+feeling comes over you, you sense you are not alone.
+  }
+  exits {
+	to { u, 38 }
+  }
+}
+
+40
+{
+  name { The Central Courtyard }
+  desc {
+"   As you come to the center of the courtyard, you notice
+a large fountain... it looks very old and weathered, but a
+constant stream of clear liquid continues to flow from a
+small statue in the ceter of the fountain. The castle
+drawbridge lies just to the north of you.
+  }
+  exits {
+	to { n, 41 }
+	to { s, 32 }
+  }
+}
+
+41
+{
+  name { The Castle Drawbridge }
+  desc {
+"   You are now standing on the drawbridge of an ancient
+castle. Two huge statues of some strange creature float in
+mid-air directly above the pit beneath the drawbridge on
+which you now stand. You can't see any farther than the
+inside of the entrance, for the castle appears to be
+totally without light.
+  }
+  exits {
+	to { n, 43 }
+	to { s, 40 }
+	to { d, 42 }
+  }
+}
+
+42
+{
+  name { In The Bottomless Pit }
+  desc {
+"   As you begin to climb down the side of the pit, you begin to
+lose your footing. Desperatly you try to regain any hold you can,
+but unfortunatly you can not find any and you begin to fall! After
+several minutes, you begin to wonder if there is any end to this
+seemingly bottomless pit into which you have fallen. Just as you
+decide that there must be no end and that you will fall eternally,
+you notice a bed of very large steel spikes fast approaching you,
+Alas there is no escape. You cry out in agony as the spikes pierce
+your flesh!
+  }
+  sector { City }
+  flags { death }
+  exits {
+	to { u, 41 }
+  }
+}
+
+43
+{
+  name { Inside the Entrance to the Castle }
+  desc {
+"   As you step inside the castle, you are overpowered by the
+darkness, the shadows seem to come alive at your presence. The
+whole castle is pitch black, as your light cuts through the darkness
+you notice a large banner hanging upon the wall. There are exits in
+nearly every direction, to the north a large staircase asecnds
+upwords into the darkness.
+  }
+  exits {
+	to { n, 44 }
+	to { e, 52 }
+	to { s, 41 }
+  }
+}
+
+44
+{
+  name { At the Base of the Spiral Staircase }
+  desc {
+"    As you come to the base of the staircase, you hear a faint
+roaring sound from somewhere above you. The staircase is old, but
+still looks quite sturdy. Strange symbols are engraved into the
+railings of the staircase.
+  }
+  exits {
+	to { s, 43 }
+	to { u, 45 }
+  }
+}
+
+45
+{
+  name { On the Spiral Staircase }
+  desc {
+"   As you begin to climb the staircase, you start to hear strange
+noises from further up. The stairs creak as you set foot upon them,
+you see the outline of something up ahead. Your light just barely
+penetrates the darkness, you can only see about three feet in any
+direction.
+  }
+  exits {
+	to { u, 46 }
+	to { d, 44 }
+  }
+}
+
+46
+{
+  name { On the Spiral Staircase }
+  desc {
+"   You approach the figure.... you hear a loud roar and the darkness
+is lit by a stream of fire coming from some kind of three-headed
+beast. The creature is winged, neither of the three heads appear to
+be of the same species. Worn around the central neck of the creature is
+an amulet of some kind.
+  }
+  exits {
+	to { u, 47 }
+	to { d, 45 }
+  }
+}
+
+47
+{
+  name { The Top of the Spiral Staircase }
+  desc {
+"   You find the top floor of the castle is much cleaner than the
+previous level. The floor is richly carpeted, several pictures line
+the walls. The figure in the paintings is a skeletal, and dressed
+in a richly tailored robe.
+  }
+  exits {
+	to { e, 48 }
+	to { d, 46 }
+  }
+}
+
+48
+{
+  name { A Coridoor }
+  desc {
+"   You step into a rather long hallway, there appears to be
+a door or two further down the hall. There seems to be a
+strange glow at the southern end of the hall.
+  }
+  exits {
+	to { s, 49 }
+	to { w, 47 }
+  }
+}
+
+49
+{
+  name { Southern End of Coridoor }
+  desc {
+"   At this end of the hall, you come to a huge door, made entirely of
+gold and silver. A small keyhole is set into the left side of the
+door. The air seems to crackle with magical energy, the door resists
+all of your attempts to enter without the proper key. As you reach
+out to touch the door, you feel a sharp pain run through your body,
+thoughts of death and great evil race through your mind. You hear an
+evil laugh from beyond the door.
+  }
+  exits {
+	to { n, 48 }
+	to { s, 50 }
+	  key { 25051 }
+	  info { door, closed }
+	  keywords { ex
+door" }
+  }
+}
+
+50
+{
+  name { Castle Throne Room }
+  desc {
+"   As you enter the room you notice several symbols and markings
+of unholy nature. The room is light enough to see, but rather dim.
+A huge pentacle is layed out upon the floor, the dwemor of some evil
+magic is in the air. At the far back of the room, you see a brilliant
+throne of crystal, strange runes of gold are set into the throne. Your
+heart stops for a moment as you notice the decayed, skeletal form of a
+lich seated in the throne, the red glow of its eyes fixed dead upon you.
+With a quick motion of its hand, the door from which you entered,
+magically forms into a stone wall. the only exit is an ornate door set
+into the wall behind the throne of the lich! An evil laugh echoes
+through the air.
+  }
+  exits {
+	to { s, 51 }
+	  key { 25052 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+51
+{
+  name { The Vault }
+  desc {
+"   You now stand within the lich's treasure vault, a huge treasure
+lies in the center of the room. The room is decorated with many marble
+columns, in the far corner you can make out a shiimering portal........
+through which you can see a path along a vast mountain range.
+  }
+  exits {
+	to { n, 50 }
+	  key { 25052 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+52
+{
+  name { The Grand Hallway }
+  desc {
+"   You stand just to the east of the castke entrance. Many statues
+of gargoyles and other strange creatures line each side of the hall
+ a little farther down the hall, you can make our a huge set of double
+doors, you hear a strange sound to the east.
+  }
+  exits {
+	to { e, 53 }
+	to { w, 43 }
+  }
+}
+
+53
+{
+  name { The Grand Hallway }
+  desc {
+"   This part of the hall is lined with the same sort of statues.
+The statues in the part of the hall to the east look a little more
+life like...... they almost look real. A large statue of a wizard
+of some sort stands at one side of the room, the statue is not like
+the others, it seems to be newly made. No dust or cracks are visible on the
+statue, it almost appears as if it were staring directly at you!
+  }
+  exits {
+	to { e, 54 }
+	to { w, 52 }
+  }
+}
+
+54
+{
+  name { End of the Grand Hallway }
+  desc {
+"   A huge set of doors are set into the wall to the east, the doors
+are bound of iron and are very sturdy. The statues in this end of
+the hall look as though they are watching you! As you reach for the
+doors the statues suddenly spring to life and attack!
+
+  }
+  exits {
+	to { e, 55 }
+	  key { 25053 }
+	  info { door, closed }
+	  keywords { double doors" }
+	to { w, 53 }
+  }
+}
+
+55
+{
+  name { A Large Room }
+  desc {
+"   This rooms appears to be the room where the owner of the castle
+comes to dine. A large feast is layed out upon a table in the
+center of the room, a voice echoes through the room 'I have been
+expecting you' the voice says. You look all about the room for the
+speaker, but fail to find one.
+  }
+  exits {
+	to { e, 56 }
+	to { w, 54 }
+	  key { 25053 }
+	  info { door, closed }
+	  keywords { double door
+doors" }
+  }
+}
+
+56
+{
+  name { The Castle Pantry }
+  desc {
+"   Shelves line the walls, many differnt goods lay in piles
+on top of them. The floors are covered with the remains of broken
+shelves and other various items which were once stored on them.
+There are exits to the west and south.
+  }
+  exits {
+	to { s, 57 }
+	to { w, 55 }
+  }
+}
+
+57
+{
+  name { The Castle Store Room }
+  desc {
+"   The room is dark and very damp, dust covers the goods stored
+here. There are many boxes and crates here, however most are empty,
+but you manage to find an old noz with a few remaining goods stored
+inside.
+  }
+  exits {
+	to { n, 56 }
+	to { s, 58 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+58
+{
+  name { Castle Barracks }
+  desc {
+"   Upon entering this room, you see several figures laying all about
+the room. Suddenly you realize you have entered the guards barracks!
+Just as you are about to leave the figures begin to move, angry that
+you have awakened them, they charge you!
+  }
+  exits {
+	to { n, 57 }
+	  info { door }
+	  keywords { door" }
+	to { s, 59 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+59
+{
+  name { Guest Room }
+  desc {
+"   This room is richly decorated, may fine tapestries line the
+walls. A large bed lies in the southwest corner of the room. There
+are also many chests in the room, but you look through them and
+find nothing of value. There is a large metal door to the east.
+  }
+  exits {
+	to { n, 58 }
+	to { e, 60 }
+	  key { 25054 }
+	  info { door, closed }
+	  keywords { metal large door" }
+  }
+}
+
+60
+{
+  name { Base of the Tower }
+  desc {
+"   This room appears to be the base of a large watch tower, stairs
+ascend upword twords the top of the tower.. Several strange runes are
+etched into each stair, the feeling of evil is strong in the air. You
+hear footsteps behind you as the door suddenly slams shut! The only
+exit, now that the door has been sealed are a set of stairs going up
+to the top of the tower and a set of stairs going downward into the
+darkness.
+  }
+  exits {
+	to { u, 61 }
+	to { d, 75 }
+  }
+}
+
+61
+{
+  name { The Tower Staircase }
+  desc {
+"   As you climb the staircase, you feel the presence of something
+watching you. You feel a slight draft, there must be an opening
+somewhere up the tower. You hear the movement of something above you.
+  }
+  exits {
+	to { u, 62 }
+	to { d, 60 }
+  }
+}
+
+62
+{
+  name { The Tower Staircase }
+  desc {
+"   You have entered a small room near the top of the tower.
+Stairs continue upword to the top of the tower, the room is deathly
+quiet, you wander what could have made the strange sounds which
+you heard from below.
+  }
+  exits {
+	to { u, 63 }
+	to { d, 61 }
+  }
+}
+
+63
+{
+  name { Top of the Tower }
+  desc {
+" The top of the tower is lit by a large window, probably meant as
+a lookout incase of an attack. From the looks of the castle it appears
+that this tower obviously didnt help much.
+  }
+  exits {
+	to { d, 62 }
+  }
+}
+
+64
+{
+  name { 25064 }
+  desc {
+Empty
+  }
+  sector { Mountains }
+  flags { private }
+}
+
+65
+{
+  name { 25065 }
+  desc {
+Empty
+  }
+  sector { Mountains }
+  flags { private }
+}
+
+66
+{
+  name { 25066 }
+  desc {
+Empty
+  }
+  sector { Mountains }
+  flags { private }
+}
+
+67
+{
+  name { 25067 }
+  desc {
+Empty
+  }
+  sector { Mountains }
+  flags { private }
+}
+
+68
+{
+  name { 25068 }
+  desc {
+Empty
+  }
+  sector { Mountains }
+  flags { private }
+}
+
+69
+{
+  name { 25069 }
+  desc {
+Empty
+  }
+  sector { Mountains }
+  flags { private }
+}
+
+70
+{
+  name { 25070 }
+  desc {
+Empty
+  }
+  sector { Mountains }
+  flags { private }
+}
+
+71
+{
+  name { 25071 }
+  desc {
+Empty
+  }
+  sector { Mountains }
+  flags { private }
+}
+
+72
+{
+  name { 25072 }
+  desc {
+Empty
+  }
+  sector { Mountains }
+  flags { private }
+}
+
+73
+{
+  name { 25073 }
+  desc {
+Empty
+  }
+  sector { Mountains }
+  flags { private }
+}
+
+74
+{
+  name { Lost in the Mountains }
+  desc {
+"  Numerous craggy mountains surround you. Twisted, deadened trees stare at
+you from all around. A neglected path, at your feet. You get an uneasy
+feeling of deja-vu.
+  }
+  exits {
+	to { n, 2 }
+	to { e, 1 }
+  }
+}
+
+75
+{
+  name { The Central Chamber }
+  desc {
+"   You are in a large chamber, from the looks of the room, it
+appears that this is the place where the prisoners are exicuted.
+A large pit lies in the center of the room, huge flames erupt
+upwords from its firey depths.
+  }
+  exits {
+	to { u, 60 }
+	to { d, 76 }
+  }
+}
+
+76
+{
+  name { The Pit of Sacrafice }
+  desc {
+"   As you begin to descend into the depths of the pit, you ready
+yourself for the agony of the blaze. As the flames come in contact
+with your skin you feel a slight disorientation, but you remain
+unharmed.
+
+  }
+  exits {
+	to { u, 75 }
+	to { d, 77 }
+  }
+}
+
+77
+{
+  name { Beneath the Sacraficial Pit }
+  desc {
+"   As you near the base of the illusionary blaze, you notice
+several figures emerge from the flames. A large door lies to
+the west, while the exit from the pit lies directly overhead.
+
+  }
+  exits {
+	to { w, 78 }
+	  info { door }
+	  keywords { door large" }
+	to { u, 76 }
+  }
+}
+
+78
+{
+  name { Entrance to the Sanctuary }
+  desc {
+"   You stand in the doorway of some sort of sanctuary.
+A small altar lies in the center of the room, bloodstained
+from recent sacrafices that have been made upon it. The
+only exits from the room are east and west.
+  }
+  exits {
+	to { e, 77 }
+	  info { door }
+	  keywords { door large" }
+	to { w, 79 }
+  }
+}
+
+79
+{
+  name { The Sanctuary }
+  desc {
+"   As you approach the altar, you notice the blood upon it
+is fresh. There are several exits to this room, the door to the
+north is slightly ajar, while the door to the west remains closed.
+The altar seems to glow with a sort of inner light....
+  }
+  exits {
+	to { n, 82 }
+	  info { door }
+	  keywords { door ajar" }
+	to { e, 78 }
+	to { s, 86 }
+	to { w, 80 }
+	  info { door }
+	  keywords { door" }
+	to { d, 94 }
+  }
+}
+
+80
+{
+  name { The Sanctuary }
+  desc {
+"   As you enter this room, you get a feeling of safety. A large,
+ornate door lies directly to the west of you, a feeling of great
+evil radiates from it. As you begin to look around the room, a
+strange red mist begins to seep from a crak beneath the door....
+  }
+  exits {
+	to { e, 79 }
+	  info { door }
+	  keywords { door" }
+	to { w, 81 }
+	  info { door }
+	  keywords { ornate door large" }
+  }
+}
+
+81
+{
+  name { Crimson's Death Room }
+  desc {
+"   This oddly shaped room gives off a feeling of great power.
+Dimly lit, and vast in size, you eyes focus on an eerie, demonic
+throne at the far end of the chamber. The throne is etched with
+many twisted, grotesque carvings that give off a faint aura of
+crimson.
+  }
+  exits {
+	to { e, 80 }
+	  info { door }
+	  keywords { large ornate door" }
+  }
+}
+
+82
+{
+  name { The Sanctuary }
+  desc {
+"   You are in a small chamber, upon entering the room you
+notice a lone knight clad in armor run through the door to
+the west, perhaps the same one you seen earlier. Suddenly,
+without warning, you see two shadowy figures materialize
+before you!
+  }
+  exits {
+	to { s, 79 }
+	  info { door }
+	  keywords { door ajar" }
+	to { w, 83 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+83
+{
+  name { The Sanctuary }
+  desc {
+"   You chase the knight into a small alcove. Upon seeing you,
+the knight quickly shifts the south wall, revealing a passage,
+and quickly runs through it. You hear an evil laugh.
+  }
+  exits {
+	to { e, 82 }
+	  info { door }
+	  keywords { door" }
+	to { s, 84 }
+  }
+}
+
+84
+{
+  name { Sanctuary Guard Post }
+  desc {
+"   You have entered the guard post of the sanctuary, several
+guards snarl at you entry. The knight quickly orders them to
+dispose of the and takes off through the south door.
+  }
+  exits {
+	to { n, 83 }
+	to { s, 85 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+85
+{
+  name { Chamber of Kalas }
+  desc {
+"   You have entered the chambers of Kalas, the knight, and
+defender of this castle. Upon entering, Kalas begins to speak,
+'You must leave, do not force me to destroy you.' The is a glint
+of evil in his eyes as he prepares for battle.
+  }
+  exits {
+	to { n, 84 }
+	  info { door, closed }
+	  keywords { door" }
+	to { u, 40 }
+  }
+}
+
+86
+{
+  name { A Narrow Passage }
+  desc {
+"   You stand within a narrow passage deep below the castle.
+You see no other exits other than the one you have just
+come from except for the passage to the west.
+  }
+  exits {
+	to { n, 79 }
+	to { w, 87 }
+  }
+}
+
+87
+{
+  name { A Narrow Passage }
+  desc {
+"   As you walk a little further down the passage, you see
+a door a little further to the west. A thick mist fills this
+portion of the passage, it appears to get even thicker to the
+west.
+  }
+  exits {
+	to { e, 86 }
+	to { w, 88 }
+  }
+}
+
+88
+{
+  name { End of a Narrow Passage }
+  desc {
+"   At this end of the passage, the mist gets very thick, and
+you can just barely make out the door to the west. You hear
+a faint, ghost like voice float through the air, but you
+cant make out the words that are spoken.
+  }
+  exits {
+	to { e, 87 }
+	to { w, 89 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+89
+{
+  name { The Mist }
+  desc {
+"   Upon entering this room, you are assaulted by a dense patch
+of mist. The mist seems to glow with an inner light, its almost
+as if it were alive. The ghostly voice grows louder, speaking in
+a language unknown to you.
+  }
+  exits {
+	to { e, 88 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+90
+{
+  name { The Castle Dungeon }
+  desc {
+"   You find yourself in a small room near the Dungeon entrance.
+The room is deathly quiet, a large doorway lies to the south.
+The words 'Beware of the Ancient One' are inscribed into the wall
+next to the doorway.
+  }
+  exits {
+	to { e, 66 }
+	to { s, 91 }
+  }
+}
+
+91
+{
+  name { The Castle Dungeon }
+  desc {
+"   You stand in a small torture chamber, like the rest of the
+dungeon, bones lie strewn about the room. The only exit from
+this room is to the south. The wall to the west has a small
+split down the middle... it appears as if it could be opened.
+  }
+  exits {
+	to { n, 90 }
+	to { w, 92 }
+	  info { door }
+	  keywords { wall split" }
+  }
+}
+
+92
+{
+  name { Secret Passage }
+  desc {
+"   This room is clean, the walls here are of marble, and are a
+spectacular sight. Many fine tapestries line the walls. The room
+is quiet, almost too quiet... You see a solid iron door to the south.
+  }
+  exits {
+	to { e, 91 }
+	  info { door }
+	  keywords { wall split" }
+	to { s, 93 }
+	  info { door }
+	  keywords { iron solid door" }
+  }
+}
+
+93
+{
+  name { Hall of Ancients }
+  desc {
+"   This room is amazingly beautiful, there is the throne made
+entirely of silver set against the south wall. A gruesome thing
+lies in the center of the room, some disgusting green liquid
+oozes from many small bubbles on the creatures flesh. The sight
+of the horrible creature nearly makes you sick. The creature
+slowly begins to make its way toword you.......
+  }
+  exits {
+	to { n, 92 }
+	  info { door }
+	  keywords { solid iron door" }
+  }
+}
+
+94
+{
+  name { A Small Alcove }
+  desc {
+"   Upon entering this small alcove, you get a safe feeling
+within its walls. The room is clean and several tapestries
+hang upon the wall. The wall to the east appears to be moveable,
+for there are marks on the floor where the wall may have
+scraped it.
+  }
+  exits {
+	to { e, 95 }
+	  info { door }
+	  keywords { wall" }
+	to { u, 79 }
+  }
+}
+
+95
+{
+  name { A Narrow Tunnel }
+  desc {
+"   Shifting the wall has revealed a long, narrow tunnel
+in which you now find yourself. The tunnel is freshly dug
+and appears to extend quite a long way. No doors are visible
+save for the wall you just shifted.
+  }
+  exits {
+	to { e, 94 }
+	  info { door }
+	  keywords { wall" }
+	to { w, 96 }
+  }
+}
+
+96
+{
+  name { A Narrow Tunnel }
+  desc {
+"   As you come around a small corner in the tunnel, you see
+a faint light to the south. The southern part of the tunnel
+is lit by a dim light of some kind at the far end of the
+tunnel.
+  }
+  exits {
+	to { e, 95 }
+	to { s, 97 }
+  }
+}
+
+97
+{
+  name { A Narrow Tunnel }
+  desc {
+"   At this point of the tunnel, the walls get closer together
+and the passage gets very narrow. As you near the southern end
+of the tunnel, the light grows brighter. The only apparent exits
+from the room are north and south.
+  }
+  exits {
+	to { n, 96 }
+	to { s, 98 }
+  }
+}
+
+98
+{
+  name { A Small Portal }
+  desc {
+"   As you come to the end of the tunnel, you notice the
+light is coming from a somewhat small portal. The light coming
+from the portal is so intense that it nearly blinds you.
+  }
+  exits {
+	to { n, 97 }
+  }
+}
+
+99
+{
+  name { 25099 }
+  desc {
+Empty
+  }
+}
+
+100
+{
+  name { An Arched Entryway }
+  desc {
+"   You stand at the foot of a huge arch, formed of the finest
+silver. The arch is covered with many ancient runes, sybolizing
+peace and purity. The walkway before you is made entirely of gold
+and gleams brightly in the sunlight. Upon entering the archway,
+you get a feeling of peace and saftey, it is obvious that this
+place is of good nature.
+  }
+  exits {
+	to { e, 101 }
+  }
+}
+
+101
+{
+  name { The Path of Gold }
+  desc {
+"   You stand on a path formed of solid gold, many statues of the mighty
+gods line each side of the path. There is a statue of Loki, the god of
+thieves on the right hand side of the path, it stares at you, its eyes
+piercing into your very soul. The statue is of solid white marble, and
+many fine gems have been set into it. The statue is protected by some
+sort of magical aura, and seems to glow with a bluish light.
+  }
+  exits {
+	to { e, 102 }
+	to { w, 100 }
+  }
+}
+
+102
+{
+  name { The Path of Gold }
+  desc {
+"   As you venture further down the golden pathway, you see yet another
+of the remarkable statues, made entirely of black onyx, a statue of
+Kaylor, god of paladins stands here. The beauty of the statue almost
+overwhelms you, but you can tell that this statue is newly formed.
+The statue is a symbol of peace and well being, and you feel safe in
+its presence.
+  }
+  exits {
+	to { e, 103 }
+	to { w, 101 }
+  }
+}
+
+103
+{
+  name { Outside a Large Mansion }
+  desc {
+"   As you reach the end of the golden pathway, you come to base of
+a large, marble staircase. At the top the the staircase lies a beautiful
+mansion, its walls formed of some unknown substance. The mansion seems
+to shimmer with magical energy, the staircase leads directly to a set of
+huge doors which lead into the mansion. Resting atop the staircase are
+two beatiful statues of white gold, almost as if they were guarding the
+entrance to the magnificent building.
+
+  }
+  exits {
+	to { w, 102 }
+	to { u, 104 }
+  }
+}
+
+104
+{
+  name { Atop the Marble Staircase }
+  desc {
+"   As you climb the last of the stairs, you finally reach the top
+of the staicase. The two huge figures of gold you had seen from below
+are now quite clear, and you recognize them as manticores. The doors
+of the mansion are made of crystal, and appear to have no keyholes.
+A soft blue aura radiates from within the doors, and the manticore's
+eyes fixed dead upon you, almost is if judging you.
+
+  }
+  exits {
+	to { e, 105 }
+	  key { 25056 }
+	  info { door, closed }
+	  keywords { door crystal" }
+	to { d, 103 }
+  }
+}
+
+105
+{
+  name { The Hall of Paladins }
+  desc {
+"   Upon entering this building, you notice several men clad in
+suits of silver armour, and bearing the paladins coat of arms.
+Several guards have been placed all about the guild hall, various
+types of armour and weaponry adorn the walls of this huge building
+and all of them quite magical. It is obvious that you have stumbled
+into the guild of paladins, where acts of the slightest evil are
+strictly forbidden.
+  }
+  exits {
+	to { e, 106 }
+	to { w, 104 }
+	  key { 25056 }
+	  info { door, closed }
+	  keywords { door crystal" }
+  }
+}
+
+106
+{
+  name { Guest's Quarters }
+  desc {
+"   This room has several richly furnished beds for the weary travellers
+of the land to rest upon. The room is decorated on each wall with
+many fine tapestries, no swords, shields or other armour line the room.
+Many fine paintings of the past leaders of the guild also adorn the
+walls. Crosses and other symbols of holy nature are all about the room.
+Here, you can be ceratin of a good, safte rest from your adventuring.
+  }
+  exits {
+	to { s, 107 }
+	to { w, 105 }
+  }
+}
+
+107
+{
+  name { Meditation Chamber }
+  desc {
+"   This room is where the paladins of the land come to pray to
+the gods of the land. The room is decorated crosses and many
+books and tomes containing all the knowledge of the generations
+of paladins long past. The room is richly carpeted and a large
+altar of marble sets in the center of the room, for the
+sacrificing of of objects as gifts to the gods.
+  }
+  exits {
+	to { n, 106 }
+	to { s, 108 }
+	to { d, 115 }
+	  key { 25057 }
+	  info { door, closed }
+	  keywords { altar marble" }
+  }
+}
+
+108
+{
+  name { A Guarded Hallway }
+  desc {
+"   As you enter this hallway, you notice several heavily armored
+guards posted all about the hall. The walls are decorated with
+intricately carved pictures, showing the past history of the paladins.
+At the far end of the hall, you notice an ornate door, covered
+with strange symbols and markings, the guards seem to protect
+it fiercely.
+  }
+  exits {
+	to { n, 107 }
+	to { w, 109 }
+  }
+}
+
+109
+{
+  name { A Guarded Hallway }
+  desc {
+"   Moving further down the hall, you notice the words 'Grand Knight'
+carved into a sign mounted above the door. The guards seem to watch
+you closely as you near the door. This part of the hall is brightly
+lit, by several torches on each wall.
+  }
+  exits {
+	to { e, 108 }
+	to { w, 110 }
+  }
+}
+
+110
+{
+  name { A Guarded Hallway }
+  desc {
+"
+   You stand at the door to the office of the Grand Knight of
+Paladins, the ruler and protetor of the guild of paladins. The
+door is made of solid silver, and no key holes are visible.
+The guards ease their tension as they notice that you bear the
+paladin's coat of arms.
+  }
+  exits {
+	to { e, 109 }
+	to { w, 111 }
+	  key { 25057 }
+	  info { door, closed }
+	  keywords { door huge ornate" }
+  }
+}
+
+111
+{
+  name { Throne of the Grand Knight }
+  desc {
+"   As you enter the room, you notice the huge form of the Grand
+Knight of Paladins seated in a throne of pure crystal. His face
+bearing am expression of greeting, he welcomes you to his guild
+and tells you all about the legacy of the paladins, and how he
+is one of the few Grand Knights left among them.
+  }
+  exits {
+	to { e, 110 }
+	  key { 25057 }
+	  info { door, closed }
+	  keywords { door huge ornate" }
+	to { d, 112 }
+	  key { 25058 }
+	  info { door, closed }
+	  keywords { throne crystal" }
+  }
+}
+
+112
+{
+  name { Beneath the Throne }
+  desc {
+"   As you carefully descend the stairs of the passge, you find
+yourself in a small section of the guild, unknown by the rest of
+its members. The walls and floor of this entire chamber are of
+solid gold and silver. A magical light seems to radiate from the
+walls as you enter.
+  }
+  exits {
+	to { w, 113 }
+	to { u, 111 }
+	  key { 25058 }
+	  info { door, closed }
+	  keywords { throne crystal" }
+  }
+}
+
+113
+{
+  name { Chambers of the Grand Knight }
+  desc {
+"   Upon entering this room, you notice a large bed, the frame formed
+of solid platinum. The room is furnished with a pair of crossed swords
+on the right wall, while on the left is a picture of a young warrior
+fighting a dragon of enormous size. A large rug lies spread about the
+floor at the foot of the bed.
+  }
+  exits {
+	to { e, 112 }
+	to { d, 114 }
+	  key { 25059 }
+	  info { door, closed }
+	  keywords { rug large" }
+  }
+}
+
+114
+{
+  name { Grand Knight's Treasury }
+  desc {
+"   As you descend the passage. you come upon a vast treasure vault.
+treasure lies strewn all about the room, and armor and weapons litter
+the floor. You get a sense of betrayal as you reach for the knight's
+belongings. You begin to regret the actions you have taken.
+  }
+  exits {
+	to { u, 113 }
+	  key { 25059 }
+	  info { door, closed }
+	  keywords { ex
+rug large" }
+  }
+}
+
+115
+{
+  name { Beneath the Altar }
+  desc {
+"   You descend the marble staircase with great ease, and find
+yourself in a small room beneath the guild's altar. Guards are
+posted all about the room, noticing your coat of arms, they let
+you pass without harm.
+  }
+  exits {
+	to { n, 116 }
+	to { u, 107 }
+	  key { 25057 }
+	  info { door, closed }
+	  keywords { altar marble" }
+  }
+}
+
+116
+{
+  name { The Forge }
+  desc {
+"   You have entered the guild's forge, where the paladins
+of the land come to have their armor repaired after their
+many battles. A large man works behind the forge, and stops
+his work to greet you as you enter.
+  }
+  exits {
+	to { n, 117 }
+	to { s, 115 }
+  }
+}
+
+117
+{
+  name { A Barren Room }
+  desc {
+"   You have entered an ordinary room, the walls are unfurnished
+and the floor bare. You seem to sense some sort of magic
+in the air upon entering. The only exit from the room lies
+back to the south.
+  }
+  tele { 60, 0, 118 }
+  exits {
+	to { s, 116 }
+  }
+}
+
+118
+{
+  name { Secret Passage }
+  desc {
+"   Suddenly, you find yourself in a hidded passage somewhere
+beneath the guild. The walls are covered with many fine tapestries.
+The floor of the room is of solid oak, and looks quite sturdy.
+Looking further down the passage, you can see nothing, for the
+passage reaches out of you range of sight.
+  }
+  exits {
+	to { e, 119 }
+	to { u, 105 }
+  }
+}
+
+119
+{
+  name { Secret Passage }
+  desc {
+"   As you travel farther down the passage, the light of the torches
+on the walls begins to grow dim. The passage is deathly quiet, no
+sounds are to be heard. Looking further down the hall you can just
+barely make out what appears to be a door.
+  }
+  exits {
+	to { e, 120 }
+	to { w, 118 }
+  }
+}
+
+120
+{
+  name { End of Passage }
+  desc {
+"   Coming closer to the end of the passage, you can see the door
+in plain sight now. A sign that reads 'Storage' is mounted above
+the door ahead. The door appears that it can not be opened from
+this side, for there are no keyholes.
+  }
+  exits {
+	to { e, 121 }
+	  key { 25059 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 119 }
+  }
+}
+
+121
+{
+  name { Storage Chamber }
+  desc {
+"   You have entered the guild's storage chamber, used in case of
+new members of the paladin's guild needing equipment. The room is
+dusty and appears to have not been used for quite some time. Armor
+and weapons of all kinds lie strewn about the floor in various piles.
+  }
+  exits {
+	to { w, 120 }
+	  key { 25059 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+126
+{
+  name { The Svelerian Forest }
+  desc {
+"   Upon entering this forest, you notice that a strange, glowing
+mist lies all about the ground, enveloping the bases of the trees.
+You hear the sounds of many creatures from all around you, strangely
+enough, none of them are familiar to you.
+  }
+  exits {
+	to { n, 127 }
+	to { e, 141 }
+	to { w, 133 }
+  }
+}
+
+127
+{
+  name { The Svelerian Forest }
+  desc {
+"   Everywhere you look mist is all about you, you sence that you
+are being watched. The trees are almost impassable save for narrow
+openings between them to the north and south, almost as if it were
+an intentional trail of some sort.
+  }
+  exits {
+	to { n, 128 }
+	to { e, 130 }
+	to { s, 126 }
+	to { w, 140 }
+  }
+}
+
+128
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 126 }
+	to { e, 139 }
+	to { s, 127 }
+	to { w, 129 }
+  }
+}
+
+129
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 130 }
+	to { e, 128 }
+	to { s, 129 }
+	to { w, 128 }
+  }
+}
+
+130
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 131 }
+	to { e, 129 }
+	to { s, 129 }
+	to { w, 127 }
+  }
+}
+
+131
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 132 }
+	to { e, 133 }
+	to { s, 130 }
+	to { w, 134 }
+  }
+}
+
+132
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 129 }
+	to { e, 129 }
+	to { s, 131 }
+	to { w, 131 }
+  }
+}
+
+133
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 148 }
+	to { e, 126 }
+	to { s, 148 }
+	to { w, 134 }
+  }
+}
+
+134
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem on thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 126 }
+	to { e, 133 }
+	to { s, 133 }
+	to { w, 135 }
+  }
+}
+
+135
+{
+  name { The Svelerian Forest  }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 133 }
+	to { e, 134 }
+	to { s, 133 }
+	to { w, 136 }
+  }
+}
+
+136
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 142 }
+	to { e, 128 }
+	to { s, 140 }
+	to { w, 137 }
+  }
+}
+
+137
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 126 }
+	to { e, 136 }
+	to { s, 128 }
+	to { w, 138 }
+  }
+}
+
+138
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 126 }
+	to { e, 137 }
+	to { s, 127 }
+	to { w, 139 }
+  }
+}
+
+139
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 141 }
+	to { e, 128 }
+	to { s, 139 }
+	to { w, 140 }
+  }
+}
+
+140
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 139 }
+	to { e, 139 }
+	to { s, 140 }
+	to { w, 132 }
+  }
+}
+
+141
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and youu find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 130 }
+	to { e, 142 }
+	to { s, 132 }
+	to { w, 141 }
+  }
+}
+
+142
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately is is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 142 }
+	to { e, 143 }
+	to { s, 140 }
+	to { w, 141 }
+  }
+}
+
+143
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 144 }
+	to { e, 144 }
+	to { s, 149 }
+	to { w, 142 }
+  }
+}
+
+144
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 151 }
+	to { e, 145 }
+	to { s, 140 }
+	to { w, 143 }
+  }
+}
+
+145
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost att directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 143 }
+	to { e, 146 }
+	to { s, 127 }
+	to { w, 131 }
+  }
+}
+
+146
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 129 }
+	to { e, 147 }
+	to { s, 133 }
+	to { w, 127 }
+  }
+}
+
+147
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, wonged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 130 }
+	to { e, 136 }
+	to { s, 140 }
+	to { w, 144 }
+  }
+}
+
+148
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out herem and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 149 }
+	to { e, 126 }
+	to { s, 133 }
+	to { w, 126 }
+  }
+}
+
+149
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 150 }
+	to { e, 135 }
+	to { s, 148 }
+	to { w, 129 }
+  }
+}
+
+150
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately is it too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 143 }
+	to { e, 151 }
+	to { s, 137 }
+	to { w, 127 }
+  }
+}
+
+151
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 133 }
+	to { e, 139 }
+	to { s, 144 }
+	to { w, 152 }
+  }
+}
+
+152
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 153 }
+	to { e, 151 }
+	to { s, 127 }
+	to { w, 140 }
+  }
+}
+
+153
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 142 }
+	to { e, 154 }
+	to { s, 152 }
+	to { w, 144 }
+  }
+}
+
+154
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 155 }
+	to { e, 154 }
+	to { s, 126 }
+	to { w, 126 }
+  }
+}
+
+155
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 133 }
+	to { e, 130 }
+	to { s, 156 }
+	to { w, 135 }
+  }
+}
+
+156
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 155 }
+	to { e, 152 }
+	to { s, 153 }
+	to { w, 157 }
+  }
+}
+
+157
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 157 }
+	to { e, 156 }
+	to { s, 158 }
+	to { w, 126 }
+  }
+}
+
+158
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 137 }
+	to { e, 159 }
+	to { s, 129 }
+	to { w, 142 }
+  }
+}
+
+159
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 160 }
+	to { e, 126 }
+	to { s, 126 }
+	to { w, 158 }
+  }
+}
+
+160
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 155 }
+	to { e, 159 }
+	to { s, 161 }
+	to { w, 155 }
+  }
+}
+
+161
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 160 }
+	to { e, 126 }
+	to { s, 162 }
+	to { w, 139 }
+  }
+}
+
+162
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to thin out here, and you find that travel is
+possible in almost all directions. You notice a large, winged
+creature floating far above you, unfortunately it is too dark
+to make out exactly what the creature is, and it is well out of
+your reach.
+  }
+  exits {
+	to { n, 132 }
+	to { e, 133 }
+	to { s, 163 }
+	to { w, 161 }
+  }
+}
+
+163
+{
+  name { The Svelerian Forest }
+  desc {
+"   As you step into this part of the forest, you breath a sigh
+of relief as you realize that you have finally found your way
+through the maze of trees from which you came. One familiar thing
+about this part of the forest is that as in the maze before, there
+seems to be some sort of winged creature continually watching you
+from above. The trees once again begin to thicken here, forming
+a path through the neverending trees of this forest.
+  }
+  exits {
+	to { n, 164 }
+	to { w, 162 }
+  }
+}
+
+164
+{
+  name { The Svelerian Forest }
+  desc {
+"   As you set foot onto the path, the winged figure begins to
+follow you once more. Far ahead, through a small opening in the trees
+you can make out a tall, majestic tower, rising far above the
+treetops. The path is darkened by the thickness of the trees
+alowing no light to enter. As you head up the path, you begin
+to wonder what lies in the tower ahead.
+  }
+  exits {
+	to { s, 163 }
+	to { w, 165 }
+  }
+}
+
+165
+{
+  name { The Svelerian Forest }
+  desc {
+"   The trees seem to remain thick here, and there is no sign
+of the forest thinning out. Still ahead, you can see the top
+of the tower to which you are trying to make your way. The
+winged creature the had been following you before, seems
+to have disappeared for the time being.
+  }
+  exits {
+	to { e, 164 }
+	to { s, 166 }
+  }
+}
+
+166
+{
+  name { The Svelerian Forest }
+  desc {
+"   The forest remains thick here, but just off to the west, the
+trees seem to thin out a little, revealing  the entrance to a
+large cavern. Ahead, the forest continues for as far as you can
+see.
+  }
+  exits {
+	to { n, 165 }
+	to { s, 175 }
+	to { w, 167 }
+  }
+}
+
+167
+{
+  name { The Svelerian Caverns }
+  desc {
+"   As you enter these caverns, you notice the walls of this
+portion of the cavern are covered with ancient runes and markings
+which you do not understand. The ceiling of the caverns are fairly
+high above you, and the cavern seems to glow with a sort of inner
+light. Just as you are about to leave, you hear what you think
+are voices somewhere to the west.
+  }
+  exits {
+	to { e, 166 }
+	to { w, 168 }
+  }
+}
+
+168
+{
+  name { The Svelerian Caverns }
+  desc {
+"   As you venture further into the caverns, the voices slowly
+begin to fade away, as if the speakers had taken another passage.
+The walls of the cavern here, are not like that of the entrance,
+for they have no runes or markings upon them.
+  }
+  exits {
+	to { e, 167 }
+	to { w, 169 }
+  }
+}
+
+169
+{
+  name { The Svelerian Caverns }
+  desc {
+"   Here, the cavern gets very narrow, but you can manage to
+go further with little trouble. The walls here are damp, and
+unlike most caverns, the walls of this one are warm to your
+touch. Once again you think you hear voices, but the seem to
+fade away into the distance.
+  }
+  exits {
+	to { e, 168 }
+	to { w, 170 }
+  }
+}
+
+170
+{
+  name { A Narrow Cavern }
+  desc {
+"   Moving further down into the caverns, again you hear the
+voices, this time louder than before. This part of the cavern
+seems that it is used often, for the rough edges of the cavern
+floor have been worn away from what would seem to be constant
+travel.
+  }
+  exits {
+	to { e, 169 }
+	to { s, 171 }
+  }
+}
+
+171
+{
+  name { A Narrow Cavern }
+  desc {
+"   Strange, the cavern seems to dead end here, although you
+are sure that you heard voices, and that this cavern has been
+traveled by many people. A small pile of rubble lies against
+the far wall, as if a portion of the wall had colapsed.
+  }
+  exits {
+	to { n, 170 }
+	to { d, 172 }
+	  key { 25126 }
+	  info { door, closed }
+	  keywords { floor trap rubble" }
+  }
+}
+
+172
+{
+  name { Caverns Beneath Violet Mountain }
+  desc {
+"   Here, far beneath the earths surface, you find the fabled caverns
+of Violet Mountain.  It is said that these caverns once housed the
+late king of Lucenia's most valuable treasures, also the stories of
+these caverns also tell of a great dragon being housed within the walls
+of these caverns to protect the riches.  If the stories are true, and
+and the riches were placed here, then perhaps the treasure is still within
+these caverns, also, to your dismay, that would mean the dragon is here
+also.
+  }
+  exits {
+	to { n, 173 }
+	to { u, 171 }
+  }
+}
+
+173
+{
+  name { The Violet Caverns }
+  desc {
+"   Entering these caverns, you can feel the dragon's presence,
+there is no doubt that the tresure is still here, that is if it
+ever was, for the twisted remains of what looks as though it was
+a group of adventurers, probably attempting to steal the dragon's
+treasures lies here. The ground beneath you trembles slightly
+as you hear a loud roar from somewhere far below...
+  }
+  exits {
+	to { n, 174 }
+	to { s, 172 }
+  }
+}
+
+174
+{
+  name { 25174 }
+  desc {
+Empty
+  }
+}
+
+175
+{
+  name { The Svelerian Forest }
+  desc {
+"   Entering this portion of the forest, you hear the sound of laughter
+and you spot a small town to the south. the ground is fairly well worn
+here from the constant travel of the townsfolk. A small, broken wagon
+lies of the the right hand side of the trail.
+  }
+  exits {
+	to { n, 166 }
+	to { s, 176 }
+  }
+}
+
+176
+{
+  name { Outside the Northern Gate of Lucenia }
+  desc {
+"   As you come closer to the town, you realize that it is not so small
+after all, but rather large. A huge iron gate has been left open for the
+occupants of the town to go in and out. Guarding the gate, are many large,
+mean looking guards dressed in full plate and eyeing you as if you were
+some sort of suspect.
+  }
+  exits {
+	to { n, 175 }
+	to { e, 177 }
+	to { s, 179 }
+  }
+}
+
+177
+{
+  name { Lucenian Gatehouse }
+  desc {
+"   This room is lines with many different types of weapons and armor
+hanging upon the walls. Several of the local guards stand duty here,
+ordering you to leave immediately. A small jail cell lies to the east,
+and the only other exit from the room appears to be back west.
+  }
+  exits {
+	to { e, 178 }
+	to { w, 176 }
+  }
+}
+
+178
+{
+  name { Inside the Jail of Lucenia }
+  desc {
+"   Here, the criminals, killers, and robbers of the town are kept.
+Although the guards are not supposed to torture their prisoners, there
+seems to be an awful lot of blood splattered along the walls of this
+cell.Perhaps it is not wise for you to be in here, the guards may
+mistake you for a prisoner....
+  }
+  exits {
+	to { w, 177 }
+  }
+}
+
+179
+{
+  name { Inside the Northern Gate of Lucenia }
+  desc {
+"   Here, you are able to get your first look at the inner city, as
+you gaze the the city, you almost lose you breath, for placed directly
+in front of the gate to the city, is a large, marble building, with to
+large marble columns. A sign above the door to the building reads
+"The Lucenian Town Hall".
+  }
+  exits {
+	to { n, 176 }
+	to { s, 180 }
+  }
+}
+
+180
+{
+  name { Archers Way }
+  desc {
+"   The cobblestone streets of Lucenia make it even more spectacular
+to look at upon first arrival. The entrance to the Lucenian Town Hall
+lies just to the south of you, while Archers Way continues to the east
+and west. You hear the distant sounds of battle comimg from somewhere
+to the east.
+  }
+  exits {
+	to { n, 179 }
+	to { e, 182 }
+	to { s, 181 }
+	  key { 25130 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 212 }
+  }
+}
+
+181
+{
+  name { The Lucenian Town Hall }
+  desc {
+"   This is where the mayor of the town of Lucenia comes to relax, the
+room looks very comfortable and doest look like much business ever goes
+on here. Looking over to your right, you see the mayor of Lucenia looking
+you over carefully, and then he welcomes your presence when after he
+decides you mean no harm.
+  }
+  exits {
+	to { n, 180 }
+	  key { 25130 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+182
+{
+  name { Archers Way }
+  desc {
+"   You stand on Archers Way, signs tell you that the merchant section
+of the town, and local training area lie somewhere further down Archers
+Way to the east. The smell of freshly baked bread seems to coming from
+the east.
+  }
+  exits {
+	to { e, 183 }
+	to { w, 180 }
+  }
+}
+
+183
+{
+  name { Archers Way }
+  desc {
+"   You stand on Archers Way, signs indicate that you have entered the
+merchant section of Lucenia. Directly to the south of you lies the town
+bakery, while you hear the sound of metal being forged a little further
+to the east.
+  }
+  exits {
+	to { e, 185 }
+	to { s, 184 }
+	to { w, 182 }
+  }
+}
+
+184
+{
+  name { Askevon's Bakery }
+  desc {
+"   You have entered the town bakery, the smell of fresh bread fills the
+air. A large counters rests in the back of the rooms, behind which many
+different baked goods are placed for sale. The baker stands behind the
+counter, waiting patiently for his next customer.
+  }
+  exits {
+	to { n, 183 }
+  }
+}
+
+185
+{
+  name { Archers Way }
+  desc {
+"   You are standing on Archers Way, in the middle of the merchant section
+of town. From somewhere to the east, you hear the sound of metal being
+forged. The sounds of battle seem to get closer with every step. A sign
+indicates that the local blacksmith is a little to the east.
+  }
+  exits {
+	to { e, 186 }
+	to { w, 183 }
+  }
+}
+
+186
+{
+  name { Archers Way }
+  desc {
+"   A sign indicates that the town blacksmith lies just to the north of
+here, while another indicates that the town grocer lies a little further
+to the east on Archers Way. A blast on intense heat assaults you as the
+door to the blacksmith's shop is opened.
+  }
+  exits {
+	to { n, 187 }
+	to { e, 188 }
+	to { w, 185 }
+  }
+}
+
+187
+{
+  name { Raylock's Smithy Shop }
+  desc {
+"   You are assaulted by a wave of intense heat as you enter this building.
+A large, muscular man works at the forge in the far corner of the room, upon
+noticing you, he immediately stops his work to offer you a look at his finest
+wares.
+  }
+  exits {
+	to { s, 186 }
+  }
+}
+
+188
+{
+  name { Archers Way }
+  desc {
+"   From the east you hear the sounds of combat. Many people crowd in this
+part of town to do the days shopping. To the south, a long road stretches
+out into the residential portion of the city, while to the east, you just
+barely make out the blacksmith's shop.
+  }
+  exits {
+	to { e, 189 }
+	to { s, 258 }
+	to { w, 186 }
+  }
+}
+
+189
+{
+  name { Archers Way }
+  desc {
+"   You stand on Archers Way, the main street of Lucenia. A large sign
+hangs above the doorway to the north, indicating that it is the local
+grocers. While another sign indicates thats the northern gate of the
+town lies to the west.
+  }
+  exits {
+	to { n, 190 }
+	to { e, 191 }
+	to { w, 188 }
+  }
+}
+
+190
+{
+  name { General Store }
+  desc {
+"   As you walk into this room, a small, burly man offers you a look
+at his goods. The room is decorated with several different things on
+each wall. Knives, bags, torches etc are all carefully placed upon
+each wall, so the customers can see what the store has to offer.
+  }
+  exits {
+	to { s, 189 }
+  }
+}
+
+191
+{
+  name { Archers Way }
+  desc {
+"   To the north, you see the remains of what looks as though it was
+once some sort of shop. The walls now crumbled and blackened, it appears
+as though it was destroyed by a fire. To the east, the sound of battle
+gets louder... that must be where the traning yard is.
+  }
+  exits {
+	to { n, 193 }
+	to { e, 192 }
+	to { w, 189 }
+  }
+}
+
+192
+{
+  name { Archers Way }
+  desc {
+"    You stand on Archers Way, directly to the east of you, the town
+training yard can be seen. While to the east lies the Merchant section
+of the town. You hear the sound of metal being forged in the distance.
+  }
+  exits {
+	to { e, 194 }
+	to { w, 191 }
+  }
+}
+
+193
+{
+  name { A Runied Building }
+  desc {
+"   Walking into this room, you see large pieces of wood hanging from
+the ceiling, blackened by the fire that ravaged the building. The roof
+of the structure doesnt look to strong, but seems to be holding out.
+The shattered remains of glass vials and bottles can be identified from
+the various useless items that line the floor.
+  }
+  exits {
+	to { s, 191 }
+  }
+}
+
+194
+{
+  name { Outside the Training Yard }
+  desc {
+"   You stand outside of the training yard of Lucenia. The walls around this
+large battle field are scratched and nicked from constant battle. A large
+man stands here at the entrance, preventing strong people from taking advan-
+tage of the young trainees.
+  }
+  exits {
+	to { e, 195 }
+	to { w, 192 }
+  }
+}
+
+195
+{
+  name { Training Yard }
+  desc {
+"   Entering the training yard, you see many young pupils practicing
+their combat techniques. Blood stains the ground, but no one seems to be
+severly injured.
+  }
+  exits {
+	to { n, 196 }
+	to { e, 199 }
+	to { w, 194 }
+  }
+}
+
+196
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { n, 197 }
+	to { e, 201 }
+	to { s, 195 }
+  }
+}
+
+197
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { n, 198 }
+	to { e, 202 }
+	to { s, 196 }
+  }
+}
+
+198
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { e, 203 }
+	to { s, 197 }
+  }
+}
+
+199
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { n, 201 }
+	to { e, 204 }
+	to { w, 195 }
+  }
+}
+
+200
+{
+  name { The Hall of Ancients }
+  desc {
+"   Suddenly, after being summoned by magical forces far beyond
+your control, you find yourself in what appears to be the chambers
+of someone or something of great power. As you look around you, you
+notice that the walls are decorated with many fine tapestries, many
+of which bear the likes of the gods of myth and legend on them, The
+tapestries seem to stare at you from their eyes, piercing into your
+very soul, it is almost as if the tapestries do not just bear the
+images of the gods, but that they are looking glasses for them also.
+   The floor of the chamber is richly carpeted, and there is a large
+throne of black onyx against the wall opposite of you, its many runes
+and carvings radiate a strong sence of magic. Although panic-stricken
+by the sight of the chamber, and the feeling that had overcome you
+upon your arrival, you get a feeling on peace and tranquility, almost
+as if the gods themselves were watching over you.
+  }
+}
+
+201
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { n, 202 }
+	to { e, 205 }
+	to { s, 199 }
+	to { w, 196 }
+  }
+}
+
+202
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { n, 203 }
+	to { e, 206 }
+	to { s, 201 }
+	to { w, 197 }
+  }
+}
+
+203
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { e, 207 }
+	to { s, 202 }
+	to { w, 198 }
+  }
+}
+
+204
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { n, 205 }
+	to { e, 208 }
+	to { w, 199 }
+  }
+}
+
+205
+{
+  name { Training Yard }
+  desc {
+"   you see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { n, 206 }
+	to { e, 209 }
+	to { s, 204 }
+	to { w, 201 }
+  }
+}
+
+206
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { n, 207 }
+	to { e, 210 }
+	to { s, 205 }
+	to { w, 202 }
+  }
+}
+
+207
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { e, 211 }
+	to { s, 206 }
+	to { w, 203 }
+  }
+}
+
+208
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { n, 209 }
+	to { w, 204 }
+  }
+}
+
+209
+{
+  name { Training Yard }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 210 }
+	to { s, 208 }
+	to { w, 205 }
+  }
+}
+
+210
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { n, 211 }
+	to { s, 209 }
+	to { w, 206 }
+  }
+}
+
+211
+{
+  name { Training Yard }
+  desc {
+"   You see many young pupils practicing their combat techniques.
+Blood stains the ground, but no one seems to be severly injured.
+  }
+  exits {
+	to { s, 210 }
+	to { w, 207 }
+  }
+}
+
+212
+{
+  name { Archers Way }
+  desc {
+"   You stand the the street of Archers Way, exits lead east and west. The
+Lucenian Town Hall lies a little ways to the east, also the merchant
+section of town lies to the east.
+  }
+  exits {
+	to { e, 180 }
+	to { w, 213 }
+  }
+}
+
+213
+{
+  name { Archers Way }
+  desc {
+"   Here, the city gets dark, the walkway being shadowed by the wall
+of the city, and a large building to the south. The building to the
+south has no entrance from this side, forcing you to walk around the
+town to get in.
+  }
+  exits {
+	to { e, 212 }
+	to { w, 214 }
+  }
+}
+
+214
+{
+  name { Archers Way }
+  desc {
+"   You are nearing the end of Archers Way, a little to the west, the
+road turns and cuts off on to another street. The building to the south
+casts a dark shadow over the walkway, making it hard to read any signs
+that might be placed here.
+  }
+  exits {
+	to { e, 213 }
+	to { w, 215 }
+  }
+}
+
+215
+{
+  name { Archers Way }
+  desc {
+"   You have reached the end of Archers way, here the street cuts off
+onto Silver Avenue. The street is dark here, and would be a likely
+spot for the beggars of the down to make there homes.
+  }
+  exits {
+	to { e, 214 }
+	to { s, 216 }
+  }
+}
+
+216
+{
+  name { Silver Avenue }
+  desc {
+"   You stand on Silver Avenue, this is where some of the more expensive
+shops are housed. The walls of the buildings in this section of town
+are clean and you can tell that this part of town is well cared for by
+the richer portion of the the towns residents.
+  }
+  exits {
+	to { n, 215 }
+	to { s, 217 }
+  }
+}
+
+217
+{
+  name { Silver Avenue }
+  desc {
+"   You stand on Silver Avenue, home to the richer shops of the town.
+A sign above the door to the east has a large, richly decorated sign
+above it which reads "Jeweler". Silver Avenue continues to run to the
+south, while a little to the north is Archers way.
+  }
+  exits {
+	to { n, 216 }
+	to { e, 218 }
+	to { s, 219 }
+  }
+}
+
+218
+{
+  name { Jeweler }
+  desc {
+"   Upon entering this room, you are astonished by all of the gems and
+jewelery. All of the gem and jewelery are finelycut and crafted, and
+not a flaw can be seen in one of them. The only exit from the room is
+back to the west.
+  }
+  exits {
+	to { w, 217 }
+  }
+}
+
+219
+{
+  name { Silver Avenue }
+  desc {
+"   This section of Silver Avenue contains nothing of Interest. Further
+south, you can make out a few shops. The east walls appears to be newly
+constructed, making you guess that there was a shop there at one time,
+but has just recently closed down.
+  }
+  exits {
+	to { n, 217 }
+	to { s, 220 }
+  }
+}
+
+220
+{
+  name { Silver Avenue }
+  desc {
+"   You are standing on Silver Avenue, just east of the mages armory
+and to the south you can make see a few other stores. The sign above
+the door to the easy reads "The Mages Armory" in fancy lettering.
+Silver Avenue continues to the north and south.
+  }
+  exits {
+	to { n, 219 }
+	to { s, 222 }
+	to { w, 221 }
+  }
+}
+
+221
+{
+  name { The Mages Armory }
+  desc {
+"   As you enter this room, you see many fine silk robes and various
+other items, made for the specific purpose of protecting mages. There
+is a large, wooden counter, behind which rests an old, wise looking
+man dressed in the robes of a wizard.
+  }
+  exits {
+	to { e, 220 }
+  }
+}
+
+222
+{
+  name { Silver Avenue }
+  desc {
+"   You are on Silver Avenue, to the north of you lies the mages armory,
+while the entrance to the Haven Inn. The shops on this street lies to the
+north, also Archers way lies a ways to the north of here.
+  }
+  exits {
+	to { n, 220 }
+	to { s, 223 }
+  }
+}
+
+223
+{
+  name { Silver Avenue }
+  desc {
+"   Over the doorway to the east of you is a sign that reads "Haven Inn"
+in fancy gold lettering. Directly to the south lies the end of Silver
+Avenue. You hear soft music coming from inside doorway to the Haven Inn
+to your east.
+  }
+  exits {
+	to { n, 222 }
+	to { e, 224 }
+	to { s, 225 }
+  }
+}
+
+224
+{
+  name { The Haven Inn }
+  desc {
+"   Entering this room, you notice that the floor is richly carpeted,
+and on the eastern wall hangs a pair of crossed swords. On the southern
+wall of the Inn there are many trophies donated by adventures on previous
+expeditions, among them are the head of a brass dragon and the head of
+an ancient blue dragon.
+  }
+  exits {
+	to { w, 223 }
+	to { u, 226 }
+  }
+}
+
+225
+{
+  name { Silver Avenue }
+  desc {
+"   Here, Silver Avenue comes to an end and cuts into Crimson Avenue.
+A sign indicates that the guild section of the town is housed. Crimson
+Avenue continues to the east, while Silver Avenue continues to the north.
+  }
+  exits {
+	to { n, 223 }
+	to { e, 227 }
+  }
+}
+
+226
+{
+  name { Upstairs of the Haven Inn }
+  desc {
+"   This room is decorated by portraits of the gods, each finely painted
+and looks remarkably life-like. The western wall of the room is covered
+with many fine tapestries of great beauty and value. A large, gold plated
+dest rests in the far corner, behind which a small woman sits, assigning
+rooms to her many customers.
+  }
+  exits {
+	to { d, 224 }
+  }
+}
+
+227
+{
+  name { Crimson Avenue }
+  desc {
+"   You are standing at the beginning of Crimson Avenue, signs indicate
+that the guild section of the town of Lucenia is a little further east
+on Crimson Avenue, while Silver Avenue lies to the west of here. You
+spot the entrance to some sort of guild just to the east of you.
+  }
+  exits {
+	to { e, 228 }
+	to { w, 225 }
+  }
+}
+
+228
+{
+  name { Crismon Avenue }
+  desc {
+"   You stand on Crimson Avenue, a sign hangs just above the doorway
+to the south that reads "Mages Only" in brilliant blue lettering.
+Signs indicate that you have entered the guild section of town, and
+that this section extends further to the west on Crimson Avenue.
+  }
+  exits {
+	to { e, 232 }
+	to { s, 229 }
+	to { w, 227 }
+  }
+}
+
+229
+{
+  name { Entrance to the Hall of Wizardry }
+  desc {
+"   You have stumbled upon what appears to be the local mages guild.
+A brilliant sign reads "Mages Only" in glowing blue lettering. A large
+man, dressed in long, black robes stands here, glaring at you as if
+you didnt belong. The only exits from the room are to the north and
+south.
+  }
+  exits {
+	to { n, 228 }
+	to { s, 230 }
+  }
+}
+
+230
+{
+  name { Library }
+  desc {
+"   You have entered the guilds library, thousands and thousands of
+magic books and tomes line the wall. The books here are sacred and
+have been placed under a magic protection to prevent those of lesser
+skills using the books for personal study.
+  }
+  exits {
+	to { n, 229 }
+	to { s, 231 }
+  }
+}
+
+231
+{
+  name { Pentacle Chamber }
+  desc {
+"   You have entered the guilds pentacle hall, this is where the
+guildmaster of Lucenia resides. the room is covered with strange,
+arcane symbols and mystical treasures. A large wizards pentacle
+has been drwan on the floow and seems to glow with a power of its
+own......
+  }
+  exits {
+	to { n, 230 }
+  }
+}
+
+232
+{
+  name { Crimson Avenue }
+  desc {
+"   You are amazed by the many guilds on this street, people crowd this
+section of the city. Looking around you, you notice just about every type
+of person ranging from a citizen to a regal looking mage. Looking to the
+west you see the entrance to the hall of wizardry, while to the east, you
+spot the entrance to the warriors guild.
+  }
+  exits {
+	to { e, 233 }
+	to { w, 228 }
+  }
+}
+
+233
+{
+  name { Crimson Avenue }
+  desc {
+"   Straining to make your way through the endless crowd of people in
+this section of the city, you manage to catch a glimpse of the warriors
+guild hall to the north. You are standing on Crimson Avenue, in the
+guild section of Lucenia, exits lead to the east, west, and north into
+the warriors guild hall.
+  }
+  exits {
+	to { n, 234 }
+	to { e, 237 }
+	to { w, 232 }
+  }
+}
+
+234
+{
+  name { Entrance to the Guild of Warriors }
+  desc {
+"   You stand to the north of Crimson Avenue, ay what appears to be
+the entrance to the warriors guild hall. Over the doorway to the
+building hangs a pair of crossed swords, and a shield bearing the
+insignia of the guild of warriors. A large man glarges at you, as if
+in judgement.
+  }
+  exits {
+	to { n, 235 }
+	to { s, 233 }
+  }
+}
+
+235
+{
+  name { Waiting Chamber }
+  desc {
+"   This chamber is richly decorated with portraits of several of
+the lands top warriors. Also hanging upon the walls are swords and
+shields of all sorts, many of which seem to glow with a faint aura
+of magic. You can hear the sounds of battle from the chamber to the
+north.
+  }
+  exits {
+	to { n, 236 }
+	to { s, 234 }
+  }
+}
+
+236
+{
+  name { Champions Field }
+  desc {
+"   You stand in the center of Champions field, an aged man stands before
+you, although he is quite old, he looks like he couls hold more than his
+own in combat. Blood stains the ground of Champions Field, but none of
+the trainees seem to by injured badly.
+  }
+  exits {
+	to { s, 235 }
+  }
+}
+
+237
+{
+  name { Crimson Avenue }
+  desc {
+As you walk along Crimson Avenue your attention becomes centered
+upon a large tower. You try to wrench your eyes from the this strange
+edifice which pulsates an vertiable aura of power. You have no doubt
+that this tower is not from world.
+  }
+  extra {
+	keywords { tower" }
+	desc { As you concentrate on the tower you notice thousands of
+sapphire-like stones which glow and pulsate with a life of their
+own. 	}
+  }
+  exits {
+	to { e, 238 }
+	to { s, 240 }
+	  key { 2 }
+	  info { door, closed }
+	  keywords { Sapphire" }
+	to { w, 233 }
+  }
+}
+
+238
+{
+  name { Crimson Avenue }
+  desc {
+"   You stand on Crimson Avenue, located in the guild section of town.
+To the west you notice some sort of shimmering light coming from the
+entrance to a small room. Directly to the south of you, stands a large
+black tower, its majestic beauty seems to captivate you. Looking closer
+at the tower, you notice that it seems to pulse with a strange light.
+  }
+  exits {
+	to { e, 253 }
+	to { s, 250 }
+	to { w, 237 }
+  }
+}
+
+239
+{
+  name { Room of Portals }
+  desc {
+"    This is room has been specially dwenowered buy the great mage
+Magius. In every direction there magical portals leading to all
+corners of the world.
+  }
+  exits {
+	to { s, 78 }
+  }
+}
+
+240
+{
+  name { Onyx & Silver }
+  desc {
+You find yourself in a room of the midnight Onyx with Silver viens
+swirling in concentric patterns of the most arcane. YOu notice a staircase
+leading upwards into the unknown......
+  }
+  exits {
+	to { u, 241 }
+	  desc { You find yourself in a room of the midnight Onyx with Silver viens
+swirling in concentric patterns of the most arcane. YOu notice a staircase
+leading upwards into the unknown......
+}
+  }
+}
+
+241
+{
+  name { On The Staircase }
+  desc {
+The staircase has exits branching off to the east and the west
+it also continues upwards.
+  }
+  exits {
+	to { e, 244 }
+	to { w, 245 }
+	to { u, 242 }
+  }
+}
+
+242
+{
+  name { Solar }
+  desc {
+"    As you enter this room, all your tension and tightness slowly
+drains away from you. The huge skylight filters in the sunlight which
+gently caresses you like a lover's kiss. You feel refreshed and renewed
+both in body and in soul.
+  }
+  exits {
+	to { d, 241 }
+  }
+}
+
+243
+{
+  name { 25243 }
+  desc {
+Empty
+  }
+}
+
+244
+{
+  name { Eastern Hallway }
+  desc {
+Empty
+  }
+  exits {
+	to { w, 241 }
+  }
+}
+
+245
+{
+  name { Western Hallway }
+  desc {
+At the end of this hallway you see two doors, one leading to the
+north and one leading to the south. Both doors are made of unusual wood,
+the northen one of Blacken Ash and the southern on of Silvered Oak.
+  }
+  exits {
+	to { n, 246 }
+	  info { door, closed }
+	  keywords { Blackened" }
+	to { e, 241 }
+	to { s, 247 }
+	  info { door, closed }
+	  keywords { Silvered" }
+	to { w, 239 }
+	  key { 25240 }
+	  info { door, closed }
+	  keywords { hidden" }
+  }
+}
+
+246
+{
+  name { Quarg's Room }
+  desc {
+You find yourself in the the private bedroom of Quarg, the interpid
+Herald-Mage chosen by Companion himself. Although Quarg could afford
+the finest trapping the room is simple and plain.
+  }
+  exits {
+	to { s, 245 }
+	  info { door, closed }
+	  keywords { Blackened" }
+  }
+}
+
+247
+{
+  name { 25247 }
+  desc {
+Empty
+  }
+  exits {
+	to { n, 245 }
+	  info { door, closed }
+	  keywords { Silvered" }
+  }
+}
+
+250
+{
+  name { Entrance to the Hall of Clerics }
+  desc {
+"   You stand just to the south of Crimson Avenue, a large temple rises
+before you. The white marble walls of the temple seem to emenate an aura
+of peace and tranquility. A large man, dressed in the flowing white robes
+of a Bishop guards the entrance to this sacred stucture.
+  }
+  exits {
+	to { n, 238 }
+	to { s, 251 }
+  }
+}
+
+251
+{
+  name { Meditation Chamber }
+  desc {
+"   Upon entering this room, you immediately get the feeling that
+you are completely safe here. The room is completely void of any
+and all furnishings, save for a few small statues of the gods of
+the land. An exit leads south to the Temple Altar.
+  }
+  exits {
+	to { n, 250 }
+	to { s, 252 }
+  }
+}
+
+252
+{
+  name { Temple Altar }
+  desc {
+"   You enter this room and notice a small, aged man, kneeling before
+an altar of soid crystal. He is dressed in the grey robes of the
+town's master healer. To the north you can see the temples meditation
+chamber.
+  }
+  exits {
+	to { n, 251 }
+  }
+}
+
+253
+{
+  name { Crimson Avenue }
+  desc {
+"   Here, the city gets dark and the streets completely shadowed. Several
+seedy looking characters walk around aimlessly in this portion of Lucenia.
+From the looks you are getting by the people here, and the condition of
+the buildings, you would say that you are nearing the loacal Thieves Guild.
+  }
+  exits {
+	to { e, 254 }
+	to { w, 238 }
+  }
+}
+
+254
+{
+  name { Crimson Avenue }
+  desc {
+"   You stand at the eastern end of Crimson Avenue, located in the guild
+section of Lucenia. The streets are completely shadowed by the tall, run
+down buildings here. There is a large, seedy looking building to the north,
+you are almost certain that the thieves guild hall must be located there.
+  }
+  exits {
+	to { n, 255 }
+	to { w, 253 }
+  }
+}
+
+255
+{
+  name { Entrance to the Guild of Thieves }
+  desc {
+"   Coming closer to this building, you notice several people staring
+at you from behind the windows of the structure. A large, hooded
+figure glares at you with hatred as you near the guild, in his right
+hand he clutches a wicked-looking dagger.
+  }
+  exits {
+	to { n, 256 }
+	to { s, 254 }
+  }
+}
+
+256
+{
+  name { The Thieves Bar }
+  desc {
+"   You stand at the bar of thieves, where the robbers and assassins
+of the town come to relax after a hard days work of pilfering peoples
+valuable belongings. Several chairs rest along the edges of the chamber.
+To the north you notice the Master Assassin's Chamber.
+  }
+  exits {
+	to { n, 257 }
+	to { s, 255 }
+  }
+}
+
+257
+{
+  name { Chamber of the Master Assassin }
+  desc {
+"   This room is richly decorated, fine tapestries line the walls of
+the chamber. An evil looking man stands in the far corner, ready to
+kill you at a moments notice. To the south you can make you the
+local thieves bar.
+  }
+  exits {
+	to { s, 256 }
+  }
+}
+
+258
+{
+  name { Ciera Avenue }
+  desc {
+"   You stand just to the south of Archers Way, loacted at the northern
+edge of the residential section of Lucenia. Ciera Avenue continues to
+the west, where the homes of the residents of Lucenia are located.
+  }
+  exits {
+	to { n, 188 }
+	to { w, 259 }
+  }
+}
+
+259
+{
+  name { Ciera Avenue }
+  desc {
+"   You stand on Ciera Avenue, loacted in the residential section
+of Lucenia. The road continues to the west, where the residents of
+Lucenias houses are kept. You see a large, oranate loking building
+to the south. The surface of the building emenates a faint aura of
+red light, and is covered with many strange arcane runes and symbols
+whose meanings have been long forgotten.
+  }
+  exits {
+	to { e, 258 }
+	to { s, 260 }
+	  key { 25260 }
+	  info { door, closed }
+	  keywords { door rune covered" }
+  }
+}
+
+260
+{
+  name { Darkened Chamber }
+  desc {
+"   Upon entering this room, it takes a moment for your eyes to
+adjust to the dimly lut chamber. As your eyes begin to focus,
+and you are able to see clearly, you notice that you are in a
+small chamber, decorated by many huge statues of demonic looking
+creatures formed entirely of black onyx. All of the statues seem
+to radiate a feeling of intense evil, and look as though they
+were alive. The walls of the chamber decorated with many fine
+tapestries, which also radiate a feeling of intense evil. A bright
+light seems to be coming from beyond the doorway to the south.
+  }
+  exits {
+	to { n, 259 }
+	  key { 25260 }
+	  info { door, closed }
+	  keywords { door rune covered" }
+	to { s, 261 }
+  }
+}
+
+261
+{
+  name { Shimmering Chamber }
+  desc {
+"   Upon entering this room, you are astonished by the sight of several
+portals of shimmering light, which when looked through reveals the
+destination of each. The portals radiate a sense of powerful magic.
+The walls of the chamber also shimmer with a faint magic quality.
+  }
+  exits {
+	to { n, 260 }
+	to { e, Drow1:0 }
+	  info { door, closed }
+	  keywords { drow" }
+	to { w, 200 }
+	  info { door, closed }
+	  keywords { ancients" }
+	to { d, 0 }
+	  info { door, closed }
+	  keywords { abyss" }
+  }
+}

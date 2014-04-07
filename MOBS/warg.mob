@@ -1,0 +1,263 @@
+3901
+{
+name { A Fireant }
+namelist { Fireant fire ant }
+shortdesc { A worker fireant, busily going about its business of finding food for the
+nest. }
+longdesc {
+A bright red, fireant looking to feed its hungry nest with any and all
+possible food sources, scuttles towards you.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 1 }
+alignment { 0 }
+gold { 25 }
+hit_bonus { 0 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 90, 0 }
+body { 90, 0 }
+arms { 90, 0 }
+legs { 90, 0 }
+feet { 90, 0 }
+hp { 1, 2, 4  }
+move { 300 }
+experience { 201 }
+damage { 1, 2, 1  }
+act { scavenger, aggressive, stay-zone }
+}
+3902
+{
+name { A Soldier Fireant }
+namelist { Soldier Fireant fire ant }
+shortdesc { A large soldier fireant with big pinchers. }
+longdesc {
+A bright red, fireant angrily defending its nest races towards you.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 3 }
+alignment { 0 }
+gold { 100 }
+hit_bonus { 1 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 70, 0 }
+body { 70, 0 }
+arms { 70, 0 }
+legs { 70, 0 }
+feet { 70, 0 }
+hp { 1, 12, 22  }
+move { 300 }
+experience { 493 }
+damage { 2, 3, 1  }
+act { scavenger, aggressive, stay-zone }
+}
+3903
+{
+name { The Queen Fireant }
+namelist { Queen Fireant fire ant }
+shortdesc { A huge, fat queen fireant. }
+longdesc {
+Surrounded by white, oval eggs, the queen glares at you with vast hunger.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 40 }
+alignment { 0 }
+gold { 300 }
+hit_bonus { 2 }
+dam_bonus { 2 }
+attacks_per_round { 1 }
+head { 40, 1 }
+body { 40, 1 }
+arms { 40, 1 }
+legs { 40, 1 }
+feet { 40, 1 }
+hp { 100, 1, 100  }
+move { 300 }
+experience { 3760 }
+damage { 1, 2, 1  }
+act { sentinel, aggressive, stay-zone }
+}
+3904
+{
+name { A cute, warg-fido puppy }
+namelist { Warg fido puppy }
+shortdesc { A cute, but mean looking puppy. }
+longdesc {
+Cute like most baby animals, with too long ears and huge paws. And very
+large jaws, filled with huge teeth. Compared to most fidos you have seen,
+the teeth are huge.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 1 }
+alignment { 0 }
+gold { 25 }
+hit_bonus { 0 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 100, 0 }
+body { 100, 0 }
+arms { 100, 0 }
+legs { 100, 0 }
+feet { 100, 0 }
+hp { 1, 10, 1  }
+move { 300 }
+experience { 210 }
+damage { 1, 4, 1  }
+act { sentinel }
+}
+3905
+{
+name { Half-grown warg like pup }
+namelist { Warg fido pup }
+shortdesc { Mean, half-grown pup. }
+longdesc {
+Larger and meaner looking than your normal fido. It looks very hungry.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 1 }
+alignment { 0 }
+gold { 50 }
+hit_bonus { 0 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 90, 0 }
+body { 90, 0 }
+arms { 90, 0 }
+legs { 90, 0 }
+feet { 90, 0 }
+hp { 1, 10, 10  }
+move { 300 }
+experience { 319 }
+damage { 1, 5, 1  }
+act { sentinel, aggressive, stay-zone }
+}
+3906
+{
+name { Nearly grown warg like dog }
+namelist { Warg fido mix }
+shortdesc { Large, shaggy warg like fido. }
+longdesc {
+Three times the size of your normal fido. It looks very hungry.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 4 }
+alignment { 0 }
+gold { 100 }
+hit_bonus { 2 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 70, 0 }
+body { 70, 0 }
+arms { 70, 0 }
+legs { 70, 0 }
+feet { 70, 0 }
+hp { 1, 10, 35  }
+move { 300 }
+experience { 595 }
+damage { 1, 5, 2  }
+act { sentinel, aggressive, stay-zone }
+}
+3907
+{
+name { Large warg }
+namelist { Warg stud }
+shortdesc { A massive and very aggressive warg. }
+longdesc {
+The largest warg you have ever seen or heard about. It has a sleek, well-fed
+look. Though from the way it is looking at you, perhaps it thinks you are
+more food. Is it time to panic?
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 7 }
+alignment { -1000 }
+gold { 130 }
+hit_bonus { 5 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 40, 0 }
+body { 40, 0 }
+arms { 40, 0 }
+legs { 40, 0 }
+feet { 40, 0 }
+hp { 5, 10, 35  }
+move { 300 }
+experience { 835 }
+damage { 1, 8, 1  }
+act { sentinel, aggressive, stay-zone }
+}
+3908
+{
+name { Angry warg trainer }
+namelist { Warg trainer }
+shortdesc { Well equiped and evil looking trainer of the wargs. }
+longdesc {
+Before you stands the a tall, strong limbed warrior. Equiped with beautifully
+worked studded leather armor, he draws his sword and attacks.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 16 }
+alignment { -1000 }
+gold { 150 }
+hit_bonus { 6 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 20, 0 }
+body { 20, 0 }
+arms { 20, 0 }
+legs { 20, 0 }
+feet { 20, 0 }
+hp { 2, 6, 83  }
+move { 300 }
+experience { 1930 }
+damage { 2, 4, 1  }
+act { sentinel, aggressive, stay-zone }
+}
+3909
+{
+name { Beautiful mistress }
+namelist { Warg Mistress }
+shortdesc { The beautiful mistress of the house. }
+longdesc {
+Well of course, she is beautiful. After all, aren't all the women in these
+fantasy worlds, both beautiful & scantilly clad? Well, this one meets half of
+that wish. This wonder is the owner of the house, the warg puppies, and the
+warrior you beat to get here. Prepare to die, for you have met the mistress
+of wargs.
+}
+race { none }
+height { 160 }
+weight { 100 }
+level { 20 }
+alignment { -1000 }
+gold { 175 }
+hit_bonus { 7 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { 10, 0 }
+body { 10, 0 }
+arms { 10, 0 }
+legs { 10, 0 }
+feet { 10, 0 }
+hp { 2, 7, 96  }
+move { 300 }
+experience { 2935 }
+damage { 2, 5, 1  }
+act { sentinel, aggressive, stay-zone }
+}

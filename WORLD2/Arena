@@ -1,0 +1,713 @@
+
+0
+{
+  name { Entrance   ** NO KILLING ** }
+  desc {
+" This is the entrance hall you may enter the arena or go farther into the halls
+ to another entrance you cannont enter the halls once you leave
+
+ **DO NOT KILL IN HERE**
+  }
+  flags { no_mob, peaceful, arena }
+  tele { 10, 0, 1 }
+  exits {
+	to { s, 18 }
+  }
+}
+
+1
+{
+  name { Entrance   ** NO KILLING ** }
+  desc {
+" This is the entrance hall you may enter the arena or go farther into the halls
+ to another entrance you cannont enter the halls once you leave
+
+ **DO NOT KILL IN HERE**
+  }
+  flags { peaceful, arena }
+  tele { 10, 0, 2 }
+  exits {
+	to { e, 2 }
+	to { w, 28 }
+  }
+}
+
+2
+{
+  name { Entrance   ** NO KILLING ** }
+  desc {
+" This is the entrance hall you may enter the arena or go farther into the halls
+ to another entrance you cannont enter the halls once you leave
+
+ **DO NOT KILL IN HERE**
+  }
+  flags { peaceful, arena }
+  tele { 1, 0, 3 }
+  exits {
+	to { s, 11 }
+  }
+}
+
+3
+{
+  name { Entrance   ** NO KILLING ** }
+  desc {
+" This is the entrance hall you may enter the arena or go farther into the halls
+ to another entrance you cannont enter the halls once you leave
+
+ **DO NOT KILL IN HERE**
+  }
+  flags { peaceful, arena }
+  tele { 1, 0, 4 }
+  exits {
+	to { s, 21 }
+  }
+}
+
+4
+{
+  name { Entrance   ** NO KILLING ** }
+  desc {
+" This is the entrance hall you may enter the arena or go farther into the halls
+ to another entrance you cannont enter the halls once you leave
+
+ **DO NOT KILL IN HERE**
+  }
+  flags { peaceful, arena }
+  tele { 1, 0, 5 }
+  exits {
+	to { s, 33 }
+  }
+}
+
+5
+{
+  name { Entrance   ** NO KILLING ** }
+  desc {
+" This is the entrance hall you may enter the arena or go farther into the halls
+ to another entrance you cannont enter the halls once you leave
+
+ **DO NOT KILL IN HERE**
+  }
+  flags { peaceful, arena }
+  tele { 1, 0, 6 }
+  exits {
+	to { s, 41 }
+  }
+}
+
+6
+{
+  name { Entrance   ** NO KILLING ** }
+  desc {
+" This is the entrance hall you may enter the arena or go farther into the halls
+ to another entrance you cannont enter the halls once you leave
+
+ **DO NOT KILL IN HERE**
+  }
+  flags { peaceful, arena }
+  tele { 1, 0, 7 }
+  exits {
+	to { s, 30 }
+  }
+}
+
+7
+{
+  name { Entrance   ** NO KILLING ** }
+  desc {
+" This is the entrance hall you may enter the arena or go farther into the halls
+ to another entrance you cannont enter the halls once you leave
+
+ **DO NOT KILL IN HERE**
+  }
+  flags { peaceful, arena }
+  tele { 1, 0, 8 }
+  exits {
+	to { s, 17 }
+  }
+}
+
+8
+{
+  name { Entrance   ** NO KILLING ** }
+  desc {
+" This is the entrance hall you may enter the arena or go farther into the halls
+ to another entrance you cannont enter the halls once you leave
+
+ **DO NOT KILL IN HERE**
+  }
+  flags { peaceful, arena }
+  tele { 1, 0, 9 }
+  exits {
+	to { s, 23 }
+  }
+}
+
+9
+{
+  name { Entrance   ** NO KILLING ** }
+  desc {
+" This is the entrance hall you may enter the arena or go farther into the halls
+ to another entrance you cannont enter the halls once you leave
+
+ **DO NOT KILL IN HERE**
+  }
+  flags { peaceful, arena }
+  tele { 1, 0, 10 }
+  exits {
+	to { s, 50 }
+  }
+}
+
+10
+{
+  name { Entrance   ** NO KILLING ** }
+  desc {
+" This is the entrance hall you may enter the arena or go farther into the halls
+ to another entrance you cannont enter the halls once you leave
+
+ **DO NOT KILL IN HERE**
+  }
+  flags { peaceful, arena }
+  tele { 1, 0, 0 }
+  exits {
+	to { s, 40 }
+  }
+}
+
+11
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 18 }
+	to { e, 12 }
+  }
+}
+
+12
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 19 }
+	to { w, 11 }
+  }
+}
+
+13
+{
+  name { The Killing fields. }
+  desc {
+You Know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 14 }
+  }
+}
+
+14
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 20 }
+  }
+}
+
+15
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 21 }
+	to { e, 16 }
+  }
+}
+
+16
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  tele { 60, 1, 25 }
+  exits {
+	to { e, 17 }
+	to { w, 15 }
+  }
+}
+
+17
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { e, 18 }
+	to { w, 16 }
+  }
+}
+
+18
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  tele { 50, 1, 40 }
+  exits {
+	to { s, 11 }
+	to { w, 17 }
+  }
+}
+
+19
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 25 }
+	to { s, 12 }
+  }
+}
+
+20
+{
+  name { The killing fields }
+  desc {
+You know your gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 26 }
+	to { e, 21 }
+	to { s, 14 }
+  }
+}
+
+21
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { e, 22 }
+	to { s, 15 }
+	to { w, 20 }
+  }
+}
+
+22
+{
+  name { The Killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 28 }
+	to { e, 23 }
+	to { w, 21 }
+  }
+}
+
+23
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 29 }
+	to { w, 22 }
+  }
+}
+
+24
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 30 }
+	to { e, 25 }
+  }
+}
+
+25
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  tele { 40, 1, 50 }
+  exits {
+	to { s, 19 }
+	to { w, 24 }
+  }
+}
+
+26
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 32 }
+	to { s, 20 }
+  }
+}
+
+27
+{
+  name { The killing fields. }
+  desc {
+You know Your gonna die.
+  }
+  flags { arena }
+  exits {
+	to { e, 28 }
+  }
+}
+
+28
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 34 }
+	to { s, 22 }
+	to { w, 27 }
+  }
+}
+
+29
+{
+  name { The killing fields. }
+  desc {
+You Know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 35 }
+	to { e, 30 }
+	to { s, 23 }
+  }
+}
+
+30
+{
+  name { The Killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 36 }
+	to { e, 31 }
+	to { s, 24 }
+	to { w, 29 }
+  }
+}
+
+31
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 37 }
+	to { w, 30 }
+  }
+}
+
+32
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 38 }
+	to { e, 33 }
+	to { s, 26 }
+  }
+}
+
+33
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { e, 34 }
+	to { w, 32 }
+  }
+}
+
+34
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { s, 28 }
+	to { w, 33 }
+  }
+}
+
+35
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { e, 36 }
+	to { s, 29 }
+  }
+}
+
+36
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  tele { 50, 1, 13 }
+  exits {
+	to { e, 37 }
+	to { s, 30 }
+	to { w, 35 }
+  }
+}
+
+37
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 43 }
+	to { s, 31 }
+	to { w, 36 }
+  }
+}
+
+38
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  tele { 60, 1, 28 }
+  exits {
+	to { e, 39 }
+	to { s, 32 }
+  }
+}
+
+39
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 45 }
+	to { w, 38 }
+  }
+}
+
+40
+{
+  name { The killing Fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 46 }
+  }
+}
+
+41
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 47 }
+	to { e, 42 }
+  }
+}
+
+42
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 48 }
+	to { e, 43 }
+	to { w, 41 }
+  }
+}
+
+43
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 49 }
+	to { s, 37 }
+	to { w, 42 }
+  }
+}
+
+44
+{
+  name { The killing fields. }
+  desc {
+You know your're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { e, 45 }
+  }
+}
+
+45
+{
+  name { The killing fields }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { e, 46 }
+	to { s, 39 }
+	to { w, 44 }
+  }
+}
+
+46
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { e, 47 }
+	to { s, 40 }
+	to { w, 45 }
+  }
+}
+
+47
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { e, 48 }
+	to { s, 41 }
+	to { w, 46 }
+  }
+}
+
+48
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { e, 49 }
+	to { s, 42 }
+	to { w, 47 }
+  }
+}
+
+49
+{
+  name { The killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { n, 50 }
+	to { s, 43 }
+	to { w, 48 }
+  }
+}
+
+50
+{
+  name { The Killing fields. }
+  desc {
+You know you're gonna die.
+  }
+  flags { arena }
+  exits {
+	to { s, 49 }
+  }
+}

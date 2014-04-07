@@ -1,0 +1,163 @@
+#330
+Tomb's of Tarin~
+33099 30 2
+*
+*
+D 0 33008 0 1 - Officers barraks  CLOSED to the NORTH
+D 0 33010 2 1 - Officers sleeping quarters  CLOSED to the SOUTH
+D 0 33013 0 2 - Guardmens corridors  LOCKED to the NORTH
+D 0 33012 2 1 - Kitchen  CLOSED to the SOUTH
+D 0 33012 2 1 - Kitchen  CLOSED to the SOUTH
+D 0 33012 2 1 - Kitchen  CLOSED to the SOUTH
+D 0 33015 0 1 - Fridge  CLOSED to the NORTH
+D 0 33024 4 2 - Wine cellar  LOCKED to the UP
+D 0 33024 4 2 - Wine cellar  LOCKED to the UP
+D 0 33023 5 2 - Inside the wardrobe  LOCKED to the DOWN
+D 0 33024 1 1 - Wine cellar  CLOSED to the EAST
+D 0 33026 3 1 - Secret tunnel  CLOSED to the WEST
+D 0 33026 1 2 - Secret tunnel  LOCKED to the EAST
+D 0 33025 0 1 - Behind the curtain  CLOSED to the NORTH
+D 0 33027 2 1 - Southern marble hall  CLOSED to the SOUTH
+D 0 33036 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 33033 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 33036 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 33033 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 33039 1 1 - Eastern end of the marble hallway  CLOSED to the EAST
+D 0 33029 3 1 - Western marble hall  CLOSED to the WEST
+D 0 33031 0 2 - Northern marble hall  LOCKED to the NORTH
+D 0 33041 2 2 - Dark corridor  LOCKED to the SOUTH
+D 0 33044 3 2 - Silvery rooms of privacy  LOCKED to the WEST
+D 0 33036 1 2 - Treasure room of Tarin  LOCKED to the EAST
+D 0 33050 1 1 - Realm of Illusions  CLOSED to the EAST
+D 0 33050 1 2 - Realm of Illusions  LOCKED to the EAST
+D 0 33051 3 2 - Lair of the Dead  LOCKED to the WEST
+D 0 33052 2 2 - Trail up on a little mountain  LOCKED to the SOUTH
+D 0 33000 0 2 - Inside the mountain  LOCKED to the NORTH
+D 0 33052 2 2 - Trail up on a little mountain  LOCKED to the SOUTH
+D 0 33000 0 2 - Inside the mountain  LOCKED to the NORTH
+D 0 33033 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 33036 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 33070 2 2 - Behind the tree  LOCKED to the SOUTH
+D 0 33061 0 2 - Walking on the narrow trail through the forest  LOCKED to the N
+M 0 33000 1 33004 - the King of Tarin -> Vault of heroes
+E 1 33027 1 6 -     the kings visor
+E 1 33021 1 13 -     the magic girdle
+E 1 33000 2 16 -     a mithril two-handed sword
+D 0 33086 1 1 - Lift room  CLOSED to the EAST
+D 0 33005 3 1 - Entrance hall of Tarin  CLOSED to the WEST
+D 0 33024 1 1 - Wine cellar  CLOSED to the EAST
+D 0 33024 1 1 - Wine cellar  CLOSED to the EAST
+D 0 33026 3 1 - Secret tunnel  CLOSED to the WEST
+D 0 33026 1 1 - Secret tunnel  CLOSED to the EAST
+D 0 33020 0 1 - Dimly lit room  CLOSED to the NORTH
+D 0 33023 2 1 - Inside the wardrobe  CLOSED to the SOUTH
+D 0 33077 1 1 - Crown of the trees  CLOSED to the EAST
+D 0 33083 3 1 - Inside a large tree  CLOSED to the WEST
+D 0 33077 1 1 - Crown of the trees  CLOSED to the EAST
+D 0 33083 3 1 - Inside a large tree  CLOSED to the WEST
+D 0 33061 0 1 - Walking on the narrow trail through the forest  CLOSED to the N
+D 0 33070 2 1 - Behind the tree  CLOSED to the SOUTH
+M 0 33002 8 33005 - A dark lord of Tarin -> Entrance hall of Tarin
+M 0 33001 8 33007 - the stone statue -> Guardmens corridors
+E 1 33015 2 3 -     a dooms cloak
+M 0 33001 8 33011 - the stone statue -> Bend in corridors
+M 0 33001 8 33012 - the stone statue -> Kitchen
+M 0 33001 8 33017 - the stone statue -> The Inn for heroes
+E 1 33016 2 7 -     the dooms leggings
+M 0 33002 8 33020 - A dark lord of Tarin -> Dimly lit room
+M 0 33002 8 33023 - A dark lord of Tarin -> Inside the wardrobe
+M 0 33003 1 33024 - the Warlord -> Wine cellar
+E 1 33022 1 5 -     the diamond platemail
+M 0 33004 1 33037 - the silver dragon -> Golden throne
+E 1 33024 1 17 -     a key
+E 1 33004 1 3 -     the silver diadem
+M 0 33005 1 33037 - the royal elven captain -> Golden throne
+E 1 33010 2 3 -     an elven cloak
+E 1 33007 1 8 -     a pair of elven boots
+E 1 33003 2 7 -     a pair of elven leggings
+E 1 33002 2 10 -     a pair of elven bracers
+E 1 33001 2 5 -     an elven platemail
+M 0 33006 6 33035 - the elven guard -> Below the huge golden throne
+E 1 33013 1 3 -     a white medallion
+M 0 33006 6 33035 - the elven guard -> Below the huge golden throne
+M 0 33007 6 33027 - the elven hall guard -> Southern marble hall
+E 1 33009 1 14 -     an elven bracelet
+M 0 33007 6 33027 - the elven hall guard -> Southern marble hall
+E 1 33010 2 3 -     an elven cloak
+M 0 33007 6 33029 - the elven hall guard -> Western marble hall
+E 1 33006 1 6 -     an elven helmet
+M 0 33007 6 33029 - the elven hall guard -> Western marble hall
+E 1 33008 1 16 -     an elven sword
+M 0 33007 6 33031 - the elven hall guard -> Northern marble hall
+E 1 33011 2 17 -     an elven staff of light
+M 0 33007 6 33031 - the elven hall guard -> Northern marble hall
+E 1 33012 1 9 -     a pair of elven gloves
+M 0 33008 2 33028 - the elven battlemaster -> Diamond pillar
+E 1 33005 1 16 -     the battlemasters dirk
+M 0 33008 2 33033 - the elven battlemaster -> Eastern marble hall
+M 0 33009 3 33025 - the undead lich -> Behind the curtain
+M 0 33009 3 33006 - the undead lich -> Marble hallway
+M 0 33009 3 33038 - the undead lich -> Marble hallway
+M 0 33011 6 33086 - the black devil -> Lift room
+M 0 33011 6 33006 - the black devil -> Marble hallway
+M 0 33011 6 33040 - the black devil -> Guards head-quarters
+M 0 33011 6 33011 - the black devil -> Bend in corridors
+M 0 33010 4 33012 - the red devil -> Kitchen
+M 0 33010 4 33007 - the red devil -> Guardmens corridors
+M 0 33010 4 33005 - the red devil -> Entrance hall of Tarin
+M 0 33012 1 33009 - the black knight -> Pr .de barraks
+E 1 33028 2 1 -     a black knight's ring
+M 0 33013 3 33010 - the drake -> Officers sleeping quarters
+M 0 33013 3 33014 - the drake -> Pr .ates bathroom
+M 0 33014 1 33018 - the undead blacksmith -> Inside the weapon shop
+E 1 33014 1 17 -     the black staff of ancient magic
+M 0 33015 1 33039 - the black minotaur -> Eastern end of the marble hallway
+E 1 33017 2 17 -     the black horns of the minotaur
+O 0 33018 1 33035 - the history book of tarin -> Below the huge golden throne
+D 0 33040 4 1 - Guards head-quarters  CLOSED to the UP
+D 0 33087 5 1 - The minotaur's hideout  CLOSED to the DOWN
+M 0 33016 1 33087 - the minotaur god -> The minotaur's hideout
+E 1 33019 1 16 -     the claws of the minotaur god
+M 0 33017 1 33008 - the black baron -> Officers barraks
+M 0 33018 5 33033 - the elven soldier -> Eastern marble hall
+M 0 33018 5 33032 - the elven soldier -> Sapphire pillar
+M 0 33018 5 33031 - the elven soldier -> Northern marble hall
+M 0 33018 5 33029 - the elven soldier -> Western marble hall
+M 0 33019 4 33052 - the undead wolf -> Trail up on a little mountain
+M 0 33019 4 33056 - the undead wolf -> Clearing in the forest
+M 0 33020 4 33059 - the burned tree -> Bend on the old trail through the forest
+M 0 33020 4 33067 - the burned tree -> Very dense forest
+M 0 33020 4 33063 - the burned tree -> Dark dense forest
+M 0 33020 4 33055 - the burned tree -> Old trail through the forest
+M 0 33021 1 33002 - the undead earth snake -> Upper half of the broken stairs
+M 0 33001 8 33086 - the stone statue -> Lift room
+E 1 33020 1 10 -     the dooms sleeves
+O 0 33023 1 33036 - the funds of Tarin -> Treasure room of Tarin
+D 0 33036 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 33033 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 33036 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 33033 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 33036 3 2 - Treasure room of Tarin  LOCKED to the WEST
+M 0 33006 6 33044 - the elven guard -> Silvery rooms of privacy8O 0 33026 1 33044 - the opal chest -> Silvery rooms of privacy
+P 1 33025 1 33026 - an opal potion  -> the opal chest
+P 1 33025 1 33026 - an opal potion  -> the opal chest
+P 1 33025 1 33026 - an opal potion  -> the opal chest
+P 1 33025 1 33026 - an opal potion  -> the opal chest
+M 0 33022 2 33036 - the silvery waiter -> Treasure room of Tarin
+M 0 33022 2 33044 - the silvery waiter -> Silvery rooms of privacy
+M 0 33023 1 33085 - the king of trees -> High tree
+E 1 33029 1 18 -     the iron mask of sorrow
+M 0 33024 1 33084 - A huge ancient tree -> Crown of the trees
+M 0 33025 4 33078 - the black griffen -> Crown of the trees
+M 0 33025 4 33080 - the black griffen -> Crown of the trees
+M 0 33025 4 33074 - the black griffen -> Crown of the trees
+M 0 33026 4 33074 - the undead spirit -> Crown of the trees
+M 0 33026 4 33076 - the undead spirit -> Crown of the trees
+M 0 33026 4 33083 - the undead spirit -> Inside a large tree
+O 0 33030 1 33075 - a heavy wooden club -> Dead chambers up in the crowns of the
+M 0 33027 1 33082 - the titan -> Crown of the trees
+E 1 33031 4 5 -     the titans chain mail
+M 0 33028 1 33070 - the sphinx -> Behind the tree
+*
+*
+S

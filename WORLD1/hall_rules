@@ -1,0 +1,90 @@
+
+0
+{
+  name { The Hall of Rules }
+  desc {
+"   These rules will hopefully make my philosophy on Immortal behavior
+perfectly clear:
+   Do NOT help mortals beyond a limited, and trivial nature.  
+   Do NOT give them items, or statistics on ANYTHING.
+   Do NOT assist mortals in their adventures.
+Do's
+   Do feel free to give out ADVICE.
+   Do feel free to make quests of less than 10k's worth of reward (gold).
+	(per person)
+   Do feel free to add color with possessed monsters.  
+   Do feel free to make monsters more intelligent opponents.
+   Do feel free to penalize players for being assholes.
+   Do feel free to help in EXTREMELY unusual circumstances.
+
+Demand Payment for ->
+   Casting spells on mortals.  3-5k per level of spell.  Cast no spell on
+      a mortal that is of higher level than they are.
+   Retrieving corpses.  The more money they have, the more money you 
+      should charge.  Charge A LOT!.
+   Stating Items -- if you really want to stat an item for mortals,
+       charge then 7k per item. (as if you were an improved Identify scroll) 
+
+If there are any situations that you are not sure about, follow this
+rule:
+	Don't Interfere in ANY meaningful way, without taking as much,
+if not MORE than you give.
+	
+  }
+  flags { indoors }
+}
+
+1
+{
+  name { Godly Duties }
+  desc {
+"   These duties are not all-encompassing.. if you go above and beyond the call
+   of duty, this shows that you probably deserve more authority.
+
+   51 -- have no explicit duties.  Helpful (to the game) behavior can and
+         will be rewarded.  Feel free to dispense advice, and set up quests,
+         although the quests need to be somewhat limited in rewards.  If you 
+         have any doubts about whether the item is too powerful for the quest,
+         ask another god.  You might also consider trying to resolve conflicts
+         between players, although this is not "expected", just "appreciated"
+  
+   52 -- Duties:  Restorations, general public relations.  Obviously, this is
+	 not meant to be a full-time job, however, if you are on, and can be
+         of assistance, please lend a hand.  Public relations means taking
+         suggestions from the players, informing players of changes, fixing
+         broken shopkeepers, purging aggressive monsters found in the city,
+         i.e. basic maintenance of a happy environment :-)
+
+   53 -- Duties:  Resolution of conflicts, between lower level gods, and 
+         between gods and players.  Watching for (and stopping/reporting) 
+         cheating.  Removal of 'innapropriate' items (i.e. items from 
+         unimplemented areas).  (and buggy items too.)
+         Remember, your decisions are more or less final, so make an effort
+         to be sure that the actions/decisions are appropriate.
+
+   54 -- Demotion and promotion of gods.  Write new duties and rules :-)
+
+   (implementors) :  Maintain a happy, easygoing mud.  Let the lower level gods
+         run the day to day operations of the game.
+  }
+}
+
+2
+{
+  name { More General Guidelines }
+  desc {
+"   
+   Try to avoid helping your friends (who are not gods) unnecessarily.  While
+it is difficult, if you do not cut this back, Silly will have a reputation of
+being a mud where only people who already know gods can succeed. (if it does
+not have this reputation already).  A little help is tolerable (ex: loading
+a torch for someone), but try to restrain yourself in general.
+
+   Don't bring aggressive mobiles into the city. Period.  Just say no.
+ 
+   PLEASE tell the high level gods about things which you think should
+   be fixed.  I am willing to make changes, but we need to know.
+
+   More as i think of them. (or you suggest them)
+  }
+}

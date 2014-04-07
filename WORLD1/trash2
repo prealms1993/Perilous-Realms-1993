@@ -1,0 +1,64 @@
+
+0
+{
+  name { The Throne Room of Drow }
+  desc {
+This is a massive hall, with walls made of solid onyx. The light from a 
+massive chandellier illuminates the large hall, making the onyx walls 
+glisten. The floor is covered in a thick, deep red shag carpet, except
+for an aisle spanning in the center of the hall, which leads to two
+thrones. One huge throne, made of gold and ivory, has a demon's leering
+face hanging over it's back, and the second, smaller throne has the legs
+of a spider curling around the cushion. There are two gold doors, one leading
+east, and the other leading west, as well as the exit to the south.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 1 }
+	  info { door }
+	  keywords { door east" }
+	to { s, Drow1:0 }
+	  key { 1 }
+	  info { door }
+	  keywords { palace" }
+	to { w, 2 }
+	  info { door }
+	  keywords { door west" }
+  }
+}
+
+1
+{
+  name { Rambozo's Room }
+  desc {
+This is the room of Rambozo, the Dark Dwarf High Priest of Lolth. This room
+is dominated by a large alter, bearing the likeness of the Spider Queen
+herself on the sacrifice table, her legs curling up to surround whoever
+is unfortunate enough to be placed there. The table is stained the dark
+color of the blood of her sacrifices. In the corner, you see a small 
+bedchamber, where the High Priest sleeps. The only exit is to the west.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { w, 0 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+2
+{
+  name { Shadowspawn's Room }
+  desc {
+This is the bedroom of Shadowspawn, Prince of the Drow. The bed in here
+dominates the entire room. It's canopied in red silk, draping down to the edge
+of the red satin sheets. The floor is carpeted in a dark black shag, which
+matches the color of the onyx walls. The only exit is east.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 0 }
+	  info { door }
+	  keywords { door" }
+  }
+}

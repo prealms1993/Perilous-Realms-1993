@@ -1,0 +1,259 @@
+Poison immunity for barbarians
+
+
+RETREAT
+
+General Description:
+  Retreat is an attempt to calmly exit the scene of a battle.
+
+Chance of Success:
+  If your Retreat skill exceeds
+    random(1,101) - dexterity modifier for you * 10
+                  + int modifier for oppenent * 10
+
+    And you are not below 10% of your hp.
+
+  then you succeed.
+
+Result of Success:
+ You Retreat a random # of rooms (1 to 4) away from present location and the
+ mob wont follow for 1d4 ticks.
+
+Results of Failure:
+ You keep fighting and cant attempt another retreat for 10 rounds.
+ (you can try to flee though)
+
+Restrictions:
+ Must have more than 10% of hp's left
+
+HEADBUTT
+
+General Description:
+ An Attempt to hit your oppenent with your head causing slight damage and
+ disorientation.
+
+Chance of Success:
+  If opponent is the same height
+  your headbutt skill exceeds,
+   random(1,101) - constitution
+                 - luck/2
+                 + constitution for oppenent
+                 + dexterity for oppenent
+you succeed
+
+Result of Success:
+ Will prevent spells from oppenent for 2 rounds. Will do:
+ random(1d12 + your head armor absorb). There is a 50% chance you will take
+ random(1d8+opponents head absorb).There is also a 10% chance that one or the
+ other or both armors will be crushed. 6 rounds no action from you.
+
+Results of Failure:
+ You do no damage, and fall down. no commands for 6 rounds. Aggressive
+
+Restrictions:
+ Must be same height, may not headbutt if more than 3 people are attacking
+ you, or more than 5 people are attacking your victim.
+
+ You may not type commands for 6 rounds regardless of the success or failure
+ of this command.
+
+
+BITE
+
+General Description:
+ Bite is an attempt to bite your opponent and possibly poison him.
+
+Chance of Success:
+ If your bite skills exceeds.
+   random(1,101) - (dexterity modifier for you + luck)
+                 + (dexterity modifier for oppenent + luck)
+
+you succeed.
+
+Result of Success:
+ opponent takes random(5+(level or 30 whichever is higher)) damage. Plus a
+ 5% change your opponent is poisoned. No action 3 rounds.
+
+Results of Failure:
+ Fall on your face. No action 3 rounds. Aggressive
+
+
+
+GRAPPLE
+
+General Description:
+ Is an attempt to prevent a mob from fighting (not casting) by holding them
+ with their arms pinned.
+
+Chance of Success:
+ If your height is equal or greater than opponent and
+ If your grapple skill exceeds
+  random(1,101) - your (strength + luck)
+                + oppenents (strength + luck)
+
+Result of Success:
+ No fighting from mob or PC.
+
+ Break on: random(1,101) - your (strength + luck)
+                         + oppenents (strength + con)
+ if held person is attacked +10 to break for adreninaline.
+
+Results of Failure:
+ Aggressive.
+
+Restrictions:
+ Opponent must be same or lower height. You cannot be weilding any weapons.
+
+
+Release - command to release grappled person
+
+
+
+BATTER
+
+General Description:
+ Batter is an attempt to confuse and disorient an opponent by smashing him
+ with your shield.
+
+Chance of Success:
+ If your Batter skill exceeds
+  random(1,101) - your (str + con)
+                + opponent (con + dex)
+
+you succeed
+
+Result of Success:
+ victim takes 1 damage plus apply batter (on shield). Victim cannot cast for
+ 2 rounds.  No actions for 2 rounds
+
+Results of Failure:
+ You fall. No actions for 4 rounds
+
+Restrictions:
+ You must be wearing a shield and cannot be wielding a weapon.
+ can use on any height.
+
+
+
+PUNCH
+
+General Description:
+ Punch is an attempt to damage your opponent by slugging him.
+
+Chance of Success:
+ If your punch skills exceeds
+  random(1,101) - your (dexterity + strength)
+                + opponents (dex + con)
+
+you succeed
+
+Result of Success:
+ Victim takes random(1d8+lvl/2 (up to lvl 50))
+
+Results of Failure:
+ No damage
+
+Restrictions:
+ No actions 2 rounds either way. Aggressive. NO WEAPONS weilded
+
+
+
+
+NINJA KICK  (prob need a new name)
+
+General Description:
+  The kick command attempts to kick the body of your oppenent.
+
+Chance of success:
+  If your kick skill exceeds
+     random(1,101) + 10 - (your oponents body armor/10)*2
+  you succed with the kick, otherwise you fail.
+
+Result of Success:
+  You damage your opponent for random(1d10+lvl/3 (up to level 150))
+  damage.
+
+Results of Failure:
+  No damage is done, but the action is considered violent (ie, start fighting).
+
+Restrictions:
+  You may not kick someone if more than 2 people are attacking you, or more
+  than 3 people are attacking your victim.
+
+  You may not type commands for 3 rounds regardless of the success or failure
+  of this command.
+
+  Kick may not be initiated in a peacful zone.
+
+
+
+NINJA CHOP
+
+General Description:
+ Chop is an attempt to damage your opponent by hitting him with the side of
+ your hands.
+
+Chance of Success:
+ If your chop skill exceeds
+  random(1,101) - your (dexterity + strength)
+                + opponents (dex + con)
+
+you succeed
+
+Result of Success:
+ Victim takes random(1d8+lvl/3 (up to lvl 150))
+
+Results of Failure:
+ No damage
+
+Restrictions:
+ No actions 2 rounds either way. Aggressive. NO WEAPONS weilded
+
+
+
+DODGE
+
+General Description:
+ dodge allows you to avoid some damage in combat. by moving around alot
+ and trying to dodge blows
+
+
+Chance of Success:
+ If your dodge exceeds random(1,110) then you succeed
+
+Results of Success:
+ You avoid 1d3 points of damage. Each time you are hit, the game checks your
+ dodge skill
+
+Results of Failure:
+  Nothing.
+
+Restrictions:
+ No dodging if more than 3 attackers. Applies only to physical attacks
+
+There should be 10 dodge skills to pratice each would add 10 dodge points
+to your dodge skill.
+
+
+
+SWITCH
+
+General Description:
+Allows you to switch opponents.  if you are attacking X and want to attack Y,
+type 'hit Y'.
+
+Chance of Success:
+ random(1,101) - your (dex + luck)
+               + opponents dex + new opponents int
+
+you succeed
+
+Result of Success:
+ You stop attacking X and start attacking Y.
+
+Results of Failure:
+ you stop attacking anyone
+
+Restrictions:
+ Cannot switch if more than 3 people attacking you or the mob you want to
+ switch to.

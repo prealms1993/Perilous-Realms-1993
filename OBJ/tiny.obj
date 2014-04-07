@@ -1,0 +1,1935 @@
+1
+{
+	name { a leather training helm }
+	namelist { helm leather training }
+	long { A leather training helm is lying on the ground. }
+	weight { 3 }
+	rent { 8 }
+	type {
+		armor {
+			effective_ac { 2 }
+			force { 2 }
+		}
+	}
+	wear { take, head }
+}
+
+2
+{
+	name { a leather training cap }
+	namelist { cap leather training }
+	long { A leather training cap is lying on the ground. }
+	weight { 2 }
+	rent { 1 }
+	type {
+		armor {
+			effective_ac { 1 }
+			force { 1 }
+		}
+	}
+	wear { take, head }
+}
+
+3
+{
+	name { a training dagger }
+	namelist { dagger training }
+	long { A training dagger with a long thin blade is here. }
+	weight { 1 }
+	rent { 10 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 4 }
+			type { stab }
+                        wtype { dagger }
+		}
+	}
+	wear { take, wield }
+}
+
+4
+{
+	name { a small training sword }
+	namelist { sword small training }
+	long { A small training sword lies here. }
+	weight { 4 }
+	rent { 10 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 6 }
+			type { stab }
+			wtype { shortsword }
+		}
+	}
+	wear { take, wield }
+	extras {
+		keywords { inscription }
+		desc { It says : May this sword be a good companion. }
+		keywords { sword small }
+		desc { The small sword seems to have an inscription of some sort. }
+	}
+}
+
+5
+{
+	name { a long training sword }
+	namelist { sword long training }
+	long { A long training sword has been left here. }
+	weight { 6 }
+	rent { 35 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 8 }
+			type { slash }
+			wtype { longsword }
+		}
+	}
+	wear { take, wield }
+}
+
+6
+{
+	name { a wooden training club }
+	namelist { club wooden training }
+	long { A simple looking wooden training club is here. }
+	weight { 3 }
+	rent { 5 }
+	material { wood }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 3 }
+			type { smash }
+			wtype { club }
+		}
+	}
+	wear { take, wield }
+}
+
+7
+{
+	name { a training warhammer }
+	namelist { warhammer hammer training}
+	long { A medium sized training warhammer is here. }
+	weight { 5 }
+	rent { 10 }
+	material { wood }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 5 }
+			type { bludgeon }
+			wtype { warhammer }
+		}
+	}
+	wear { take, wield }
+}
+
+8
+{
+	name { a training shield }
+	namelist { shield wooden training }
+	long { A small training shield is lying on the ground. }
+	weight { 4 }
+	rent { 10 }
+	material { wood }
+	type {
+		armor {
+			effective_ac { 5 }
+			force { 5 }
+			absorb { 2 }
+		}
+	}
+	wear { take, shield }
+	extras {
+		keywords { wooden shield }
+		desc { The shield is tough, and made from sturdy oak. }
+	}
+}
+
+9
+{
+	name { a leather training jacket }
+	namelist { jacket tough leather training }
+	long { A tough leather training jacket is lying on the ground. }
+	weight { 6 }
+	rent { 5 }
+	type {
+		armor {
+			effective_ac { 1 }
+			force { 1 }
+		}
+	}
+	wear { take, body }
+}
+
+10
+{
+	name { a studded leather training jacket }
+	namelist { jacket studded leather training }
+	long { A studded leather training jacket is lying on the ground. }
+	weight { 10 }
+	rent { 20 }
+	type {
+		armor {
+			effective_ac { 2 }
+			force { 2 }
+		}
+	}
+	wear { take, body }
+}
+
+11
+{
+	name { a scale mail training jacket }
+	namelist { jacket scale mail training }
+	long { A scale mail training jacket is lying on the ground. }
+	weight { 28 }
+	rent { 40 }
+	material { steel }
+	type {
+		armor {
+			effective_ac { 4 }
+			force { 4 }
+		}
+	}
+	wear { take, body }
+}
+
+12
+{
+	name { a complimentary bread }
+	namelist { bread }
+	long { A loaf of complimentary bread has been left here. }
+	weight { 1 }
+	rent { 5 }
+	type {
+		food {
+			fullness { 12 }
+			poisoned { 0 }
+		}
+	}
+	wear { take }
+}
+
+13
+{
+	name { a complimentary cup }
+	namelist { water cup }
+	long { A complimentary cup has been set here. }
+	weight { 1 }
+	rent { 1 }
+	material { ceramic }
+	type {
+		drink_container {
+			max_units { 16 }
+			amount { 16 }
+			type { water }
+			poisoned { 0 }
+		}
+	}
+	wear { take }
+	extras {
+		keywords { cup }
+		desc { It is a large simple cup. }
+	}
+}
+
+14
+{
+	name { a complimentary bag }
+	namelist { small bag }
+	long { A small complimentary bag. }
+	weight { 1 }
+	rent { 5 }
+	type {
+		container {
+			max_hold { 20 }
+		}
+	}
+	wear { take, hold }
+	bits { flexible }
+}
+
+16
+{
+	name { a rat-shaped medallion }
+	namelist { medallion rat }
+	long { A rat-shaped medallion is lying here }
+	special { You hear squeaking noises nearby }
+	weight { 1 }
+	rent { 5 }
+	type {
+		audio {
+			frequency { 15 }
+		}
+	}
+	apply {
+		ac_head { -5 }
+		hitndamage { 1 }
+	}
+	wear { take, neck }
+        max_exist { 20 }
+}
+
+17
+{
+	name { a glowing blue vial }
+	namelist { potion vial blue }
+	long { A glowing blue vial lies here }
+	weight { 1 }
+	value { 1800 }
+	rent { 950 }
+	type {
+		potion {
+			level { 12 }
+			spell1 { mana }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+}
+
+18
+{
+	name { a wooden staff }
+	namelist { staff wooden }
+	long { A simple looking wooden staff is here. }
+	weight { 3 }
+	rent { 5 }
+	material { wood }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 5 }
+			type { smite }
+			wtype { staff }
+		}
+	}
+	wear { take, wield }
+}
+
+25
+{
+	name { an Insurance Token }
+	namelist { Insurance Token insurance_token }
+	long { An Insurance token has been carelessly left here }
+	material { wood }
+	type {
+		other { 0, 0, 0, 0 }
+	}
+	bits { glow }
+	wear { take }
+}
+
+26
+{
+	name { a spell pouch }
+	namelist { spell pouch }
+	long { A spell pouch lies here, discarded. }
+	weight { 1 }
+	value { 5000 }
+	rent { 200 }
+	type {
+		pouch {
+			max_hold { 100 }
+		}
+	}
+	bits { hum, magic }
+	wear { take, pouch }
+}
+
+
+30
+{
+	name { a pile of scraps }
+	namelist { scrap scraps pile }
+	long { There is a bunch of scraps here, piled up into a very, very, very small heap }
+	weight { 1 }
+	rent { 5 }
+	type {
+		trash { 5, 0, 0, 0 }
+	}
+	wear { take, hold }
+}
+
+37
+{
+	name { an ice blade }
+	namelist { ice blade }
+	long { An ice blade lies here. }
+	weight { 8 }
+	value { 64000 }
+	rent { 32000 }
+	material { ice }
+	type {
+		weapon {
+			no_dice { 3 }
+			size_dice { 4 }
+			type { stab }
+			wtype { knife }
+		}
+	}
+	apply {
+		hitndamage { 4 }
+	}
+	wear { take, wield }
+        max_exist { 5 }
+}
+
+38
+{
+	name { a shirt of black and gold elven chain }
+	namelist { chain elven }
+	long { A shirt of black and gold elven chain lies here. }
+	weight { 5 }
+	value { 1000 }
+	rent { 200 }
+	material { steel }
+	type {
+		armor {
+			effective_ac { 7 }
+			force { 7 }
+			absorb { 1 }
+		}
+	}
+	wear { take, body }
+        max_exist { 25 }
+}
+
+39
+{
+	name { a short sword }
+	namelist { sword short }
+	long { A short sword lies here. }
+	weight { 4 }
+	value { 9000 }
+	rent { 4500 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 6 }
+			type { pierce }
+			wtype { shortsword }
+		}
+	}
+	apply {
+		backstab { 4 }
+	}
+	bits { bless }
+	wear { take, wield }
+}
+
+40
+{
+	name { a pair of sneakers }
+	namelist { sneakers }
+	long { A brand new pair of sneakers has been left here. }
+	weight { 6 }
+	value { 8000 }
+	rent { 4000 }
+	type {
+		armor {
+			effective_ac { 1 }
+			force { 1 }
+		}
+	}
+	apply {
+		sneak { 15 }
+	}
+	wear { take, feet }
+        max_exist { 10 }
+}
+
+41
+{
+	name { a set of lock-picks }
+	namelist { picks lock }
+	long { A bunch of small, thin pieces of metal lie on the ground. }
+	weight { 1 }
+	value { 1000 }
+	rent { 500 }
+	material { steel }
+	type {
+		key { 101, 0, 0, 0 }
+	}
+	apply {
+		pick { 15 }
+	}
+	wear { take, hold }
+}
+
+42
+{
+	name { a knife }
+	namelist { knife razor sharp }
+	long { A small, razor-sharp knife lies here. }
+	weight { 1 }
+	value { 1000 }
+	rent { 500 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 5 }
+			type { pierce }
+			wtype { knife }
+		}
+	}
+	apply {
+		backstab { 5 }
+	}
+	wear { take, wield }
+}
+
+43
+{
+	name { Tracker }
+	namelist { tracker sword }
+	long { Tracker lies here. }
+	weight { 9 }
+	value { 5000 }
+	rent { 2500 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 8 }
+			type { slash }
+			wtype { shortsword }
+		}
+	}
+	bits { hum, magic }
+	wear { take, wield }
+}
+
+44
+{
+	name { a long sword }
+	namelist { long sword }
+	long { A long sword lies here. }
+	weight { 9 }
+	value { 2000 }
+	rent { 1000 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 8 }
+			type { slash }
+			wtype { longsword }
+		}
+	}
+	apply {
+		hitndamage { 1 }
+	}
+	wear { take, wield }
+}
+
+45
+{
+	name { a short sword }
+	namelist { short sword }
+	long { A short sword lies here. }
+	weight { 6 }
+	value { 2000 }
+	rent { 1000 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 6 }
+			type { slash }
+			wtype { shortsword }
+		}
+	}
+	apply {
+		hitndamage { 1 }
+	}
+	wear { take, wield }
+}
+
+46
+{
+	name { a battleaxe }
+	namelist { axe battle battleaxe }
+	long { A battle axe lies here. }
+	weight { 15 }
+	value { 2000 }
+	rent { 1000 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 10 }
+			type { cleave }
+			wtype { battleaxe }
+		}
+	}
+	apply {
+		hitndamage { 1 }
+	}
+	wear { take, wield }
+}
+
+47
+{
+	name { a spear }
+	namelist { spear }
+	long { A spear lies here. }
+	weight { 4 }
+	value { 2000 }
+	rent { 1000 }
+	material { wood }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 8 }
+			type { stab }
+			wtype { spear }
+		}
+	}
+	apply {
+		hitndamage { 1 }
+	}
+	wear { take, wield }
+}
+
+48
+{
+	name { a spear }
+	namelist { spear }
+	long { A spear lies here. }
+	weight { 4 }
+	value { 300 }
+	rent { 50 }
+	material { wood }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 8 }
+			type { stab }
+			wtype { spear }
+		}
+	}
+	wear { take, wield }
+}
+
+49
+{
+	name { a mace }
+	namelist { mace }
+	long { A mace lies here. }
+	weight { 1 }
+	value { 80 }
+	rent { 10 }
+	type {
+		weapon {
+			no_dice { 2 }
+			size_dice { 4 }
+			type { smash }
+			wtype { mace }
+		}
+	}
+	wear { take, wield }
+}
+
+50
+{
+	name { a mace }
+	namelist { mace }
+	long { A mace lies here. }
+	weight { 1 }
+	value { 2000 }
+	rent { 1000 }
+	type {
+		weapon {
+			no_dice { 2 }
+			size_dice { 4 }
+			type { smash }
+			wtype { mace }
+		}
+	}
+	apply {
+		hitndamage { 1 }
+	}
+	wear { take, wield }
+}
+
+51
+{
+	name { a flail }
+	namelist { flail }
+	long { A flail lies here. }
+	weight { 1 }
+	value { 60 }
+	rent { 10 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 7 }
+			type { crush }
+			wtype { flail }
+		}
+	}
+	wear { take, wield }
+}
+
+52
+{
+	name { a flail }
+	namelist { flail }
+	long { A flail lies here. }
+	weight { 1 }
+	value { 600 }
+	rent { 300 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 7 }
+			type { crush }
+			wtype { flail }
+		}
+	}
+	apply {
+		hitndamage { 1 }
+	}
+	wear { take, wield }
+}
+
+53
+{
+	name { a morning star }
+	namelist { morning star }
+	long { A morning star lies here. }
+	weight { 15 }
+	value { 60 }
+	rent { 10 }
+	type {
+		weapon {
+			no_dice { 2 }
+			size_dice { 6 }
+			type { crush }
+			wtype { flail }
+		}
+	}
+	wear { take, wield }
+}
+
+54
+{
+	name { a morning star }
+	namelist { morning star }
+	long { A morning star lies here. }
+	weight { 15 }
+	value { 2600 }
+	rent { 1310 }
+	type {
+		weapon {
+			no_dice { 2 }
+			size_dice { 6 }
+			type { crush }
+			wtype { flail }
+		}
+	}
+	apply {
+		hitndamage { 1 }
+	}
+	wear { take, wield }
+}
+
+99
+{
+	name { the black amulet }
+	namelist { amulet black }
+	long { A black amulet lies here absorbing the light. }
+	weight { 1 }
+	value { 15000 }
+	rent { 5000 }
+	material { ceramic }
+	type {
+		armor {
+			effective_ac { 1 }
+			force { 1 }
+		}
+	}
+	apply {
+		spell_affect { nosummon }
+	}
+	wear { take, neck }
+}
+
+100
+{
+	name { a pretty key }
+	namelist { key }
+	long { A pretty key to the Temple of Midgard is here }
+	weight { 1 }
+	rent { 1 }
+	type {
+		key { 101, 0, 0, 0 }
+	}
+	wear { take }
+}
+
+/* ALL traps are intentionally NOT wear {take} this would defeat the purpose */
+
+101
+{
+	name { a blade trap }
+	namelist { trap blade }
+	long { A blade trap is here }
+	weight { 10 }
+	value { 500 }
+	rent { 500 }
+	type {
+		trap {
+			effect_type { move, north, east, south, west, up, down }
+			damage_type { 209 }
+			level { 20 }
+			charges { 1 }
+		}
+	}
+	wear { hold }
+}
+
+102
+{
+	name { a fire trap }
+	namelist { trap fire }
+	long { A fire trap is here }
+	weight { 10 }
+	value { 500 }
+	rent { 500 }
+	type {
+		trap {
+			effect_type { object }
+			damage_type { 26 }
+			level { 20 }
+			charges { 1 }
+		}
+	}
+	wear { hold }
+}
+
+103
+{
+	name { a nitro trap }
+	namelist { trap nitro }
+	long { A nitro trap is here }
+	weight { 10 }
+	value { 500 }
+	rent { 500 }
+	type {
+		trap {
+			effect_type { move, room, north, east, south, west, up, down }
+			damage_type { 10 }
+			level { 20 }
+			charges { 1 }
+		}
+	}
+	wear { hold }
+}
+
+104
+{
+	name { a gas trap }
+	namelist { trap gas }
+	long { A gas trap is here }
+	weight { 10 }
+	value { 500 }
+	rent { 500 }
+	type {
+		trap {
+			effect_type { object, room }
+			damage_type { 10 }
+			level { 20 }
+			charges { 1 }
+		}
+	}
+	wear { hold }
+}
+
+236
+{
+	name { a marble ring }
+	namelist { ring marble }
+	long { A small marble ring lies here! }
+	weight { 1 }
+	value { 10000 }
+	rent { 5000 }
+	material { stone }
+	type {
+		worn { 0, 0, 0, 0 }
+	}
+	apply {
+		save_all { -1 }
+	}
+	bits { magic }
+	wear { take, finger }
+}
+
+237
+{
+	name { the black amulet }
+	namelist { amulet black }
+	long { A black amulet lies here absorbing the light. }
+	weight { 2 }
+	value { 15000 }
+	rent { 5000 }
+	material { stone }
+	type {
+		armor {
+			effective_ac { 1 }
+			force { 1 }
+		}
+	}
+	apply {
+		spell_affect { sense-life }
+	}
+	bits { glow, bless }
+	wear { take, neck }
+}
+
+238
+{
+	name { a titanium ring }
+	namelist { ring titanium }
+	long { A titanium ring with the inscription "HELP!" lies here. }
+	weight { 1 }
+	value { 10000 }
+	rent { 5000 }
+	material { titanium }
+	type {
+		worn { 0, 0, 0, 0 }
+	}
+	apply {
+		save_all { -1 }
+	}
+	bits { magic }
+	wear { take, finger }
+}
+
+239
+{
+	name { a wand of fireballs }
+	namelist { wand fireball }
+	long { A wand has carelessly been left here. }
+	weight { 2 }
+	value { 39500 }
+	rent { 25000 }
+	type {
+		wand {
+			level { 7 }
+			max_charges { 5 }
+			charges { 5 }
+			spell { fireball }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { wand fireball }
+		desc { The wand is an old dark stick. You notice a small symbol etched at the
+base of the wand. It looks like this:
+
+     \ /
+    - * -
+     / \ }
+	}
+}
+
+240
+{
+	name { a multi-colored wand }
+	namelist { wand multicolored }
+	long { A wand has carelessly been left here. }
+	weight { 2 }
+	value { 39500 }
+	rent { 24000 }
+	type {
+		wand {
+			level { 7 }
+			max_charges { 5 }
+			charges { 5 }
+			spell { colour spray }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { wand multicolored }
+		desc { The wand is an old dark stick. You notice a small symbol etched at the
+base of the wand. It looks like this:
+
+     ROYGBIV }
+	}
+}
+
+241
+{
+	name { a dull gray wand }
+	namelist { wand dull gray }
+	long { A wand has carelessly been left here. }
+	weight { 2 }
+	value { 95000 }
+	rent { 40000 }
+	type {
+		wand {
+			level { 7 }
+			max_charges { 5 }
+			charges { 5 }
+			spell { energy drain }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { wand dull gray }
+		desc { The wand is an old dark stick. You notice a small symbol etched at the
+base of the wand. It looks like this:
+
+    Whoknows? }
+	}
+}
+
+242
+{
+	name { a dark maroon wand }
+	namelist { wand dark maroon }
+	long { A dark maroon wand has carelessly been left here. }
+	weight { 2 }
+	value { 19500 }
+	rent { 8000 }
+	type {
+		wand {
+			level { 7 }
+			max_charges { 5 }
+			charges { 5 }
+			spell { acid blast }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { wand dark maroon }
+		desc { The wand is an old dark stick. You notice a small symbol etched at the
+base of the wand. It looks like this:
+
+	????? }
+	}
+}
+
+243
+{
+	name { a sparkling white wand }
+	namelist { wand sparkling white }
+	long { A wand has carelessly been left here. }
+	weight { 2 }
+	value { 29500 }
+	rent { 15000 }
+	type {
+		wand {
+			level { 7 }
+			max_charges { 5 }
+			charges { 5 }
+			spell { cone of cold }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { wand sparkling white }
+		desc { The wand is an old dark stick. You notice a small symbol etched at the
+base of the wand. It looks like this:
+
+	BRRRRR }
+	}
+}
+
+244
+{
+	name { a black wand }
+	namelist { wand black }
+	long { A wand has carelessly been left here. }
+	weight { 2 }
+	value { 9500 }
+	rent { 4000 }
+	type {
+		wand {
+			level { 7 }
+			max_charges { 5 }
+			charges { 5 }
+			spell { magic missile }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { wand black }
+		desc { The wand is an old dark stick. You notice a small symbol etched at the
+base of the wand. It looks like this:
+
+     \ /
+    - * -
+     / \ }
+	}
+}
+
+245
+{
+	name { a dogwood staff }
+	namelist { staff dogwood }
+	long { A staff has carelessly been left here. }
+	weight { 5 }
+	value { 25000 }
+	rent { 14000 }
+	type {
+		staff {
+			level { 12 }
+			max_charges { 5 }
+			charges { 5 }
+			spell { harm }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { staff dogwood }
+		desc { The staff is made of dogwood, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+
+       OUCH! }
+	}
+}
+
+246
+{
+	name { a redwood staff }
+	namelist { staff redwood }
+	long { A staff has carelessly been left here. }
+	weight { 5 }
+	value { 15000 }
+	rent { 8000 }
+	type {
+		staff {
+			level { 12 }
+			max_charges { 10 }
+			charges { 10 }
+			spell { cause critical }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { staff redwood }
+		desc { The staff is made of redwood, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+
+       OUCH! }
+	}
+}
+
+247
+{
+	name { a red oak staff }
+	namelist { staff red oak }
+	long { A staff has carelessly been left here. }
+	weight { 5 }
+	value { 8000 }
+	rent { 4000 }
+	type {
+		staff {
+			level { 12 }
+			max_charges { 10 }
+			charges { 10 }
+			spell { cause light }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { staff red oak }
+		desc { The staff is made of red oak, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+
+       OUCH! }
+	}
+}
+
+249
+{
+	name { a gleaming silver staff }
+	namelist { staff gleaming silver }
+	long { A staff has carelessly been left here. }
+	weight { 5 }
+	value { 25000 }
+	rent { 12000 }
+	material { silver }
+	type {
+		staff {
+			level { 12 }
+			max_charges { 10 }
+			charges { 10 }
+			spell { protection from evil }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { staff gleaming silver }
+		desc { The staff is made of gleaming silver, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+
+       ????? }
+	}
+}
+
+250
+{
+	name { a birchwood staff }
+	namelist { staff birchwood }
+	long { A staff has carelessly been left here. }
+	weight { 5 }
+	value { 95000 }
+	rent { 40000 }
+	type {
+		staff {
+			level { 12 }
+			max_charges { 10 }
+			charges { 10 }
+			spell { heal }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { staff birchwood }
+		desc { The staff is made of birchwood, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+
+       :-) }
+	}
+}
+
+251
+{
+	name { a mahogany staff }
+	namelist { staff mahogany }
+	long { A staff has carelessly been left here. }
+	weight { 5 }
+	value { 15000 }
+	rent { 8000 }
+	type {
+		staff {
+			level { 12 }
+			max_charges { 10 }
+			charges { 10 }
+			spell { poison }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { staff mahogany }
+		desc { The staff is made of mahogany, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+
+       R.I.P. }
+	}
+}
+
+252
+{
+	name { a cloak of minor distortion }
+	namelist { cloak minor distortion }
+	long { A cloak of distortion shimmers in front of you. }
+	weight { 2 }
+	value { 8500 }
+	max_exist { 12 }
+	min_level { 35 }
+	rent { 6200 }
+	material { cloth }
+	type {
+		armor {
+			effective_ac { 5 }
+			force { 5 }
+		}
+	}
+	apply {
+		all_armor { -15 }
+	}
+	wear { take, neck }
+}
+
+254
+{
+	name { a mithril bracelet }
+	namelist { bracelet mithril }
+	long { A bracelet barely catches your eye. }
+	weight { 1 }
+	value { 8000 }
+	rent { 4000 }
+	material { mithril }
+	type {
+		armor {
+			effective_ac { 1 }
+		}
+	}
+	apply {
+		hitroll { 1 }
+		damroll { 1 }
+	}
+	wear { take, wrist }
+}
+
+255
+{
+	name { a staff of cure light wounds }
+	namelist { staff birch }
+	long { A birch staff has carelessly been left here. }
+	weight { 5 }
+	value { 5000 }
+	rent { 2000 }
+	type {
+		staff {
+			level { 12 }
+			max_charges { 10 }
+			charges { 10 }
+			spell { cure light }
+		}
+	}
+	wear { take, hold }
+	extras {
+		keywords { staff birch }
+		desc { The staff is made of birch, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+
+       AAAAAHH!	}
+	}
+}
+
+256
+{
+	name { a staff of cure critical wounds }
+	namelist { staff birch }
+	long { A birch staff has carelessly been left here. }
+	weight { 5 }
+	value { 25000 }
+	rent { 14000 }
+	type {
+		staff {
+			level { 12 }
+			max_charges { 10 }
+			charges { 10 }
+			spell { cure critic }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+	extras {
+		keywords { staff birch }
+		desc { The staff is made of birch, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+
+       AAAAAHH! }
+	}
+}
+
+296
+{
+	name { a bag of holding }
+	namelist { bag holding }
+	long { A large bag lies here at your feet. }
+	weight { 1 }
+	value { 5000 }
+	rent { 200 }
+	type {
+		container {
+			max_hold { 100 }
+		}
+	}
+	bits { hum, flexible, magic }
+	wear { take }
+}
+
+417
+{
+	name { Nike walking shoes }
+	namelist { shoes nikes }
+	long { A pair of neat looking Nike Walking shoes are here. }
+	weight { 1 }
+	value { 1500 }
+	rent { 1100 }
+	type {
+		armor {
+			effective_ac { 4 }
+			force { 4 }
+		}
+	}
+	apply {
+		dexterity { 2 }
+	}
+	wear { take, feet }
+}
+
+429
+{
+	name { bag of many pockets }
+	namelist { bag pockets }
+	long { An old looking bag is here. }
+	weight { 5 }
+	value { 2000 }
+	rent { 1000 }
+	type {
+		container {
+			max_hold { 200 }
+		}
+	}
+	wear { take, hold }
+	bits { flexible }
+}
+
+700
+{
+	name { a huge black shield bearing the symbol of Chaos }
+	namelist { shield black dark }
+	long { A large black shield bearing the symbol of Chaos rests here. }
+	weight { 3 }
+	value { 1000 }
+	rent { 1000 }
+	type {
+		key { 10, 10, 0, 3 }
+	}
+	wear { take, shield }
+	extras {
+		keywords { item_for_zip }
+		desc { null }
+		keywords { item_for_pestilence }
+		desc { null }
+		keywords { shield black dark }
+		desc { On the shield is the Symbol of Chaos.. a black fist with a blood
+red aura shining behind it. }
+	}
+}
+
+701
+{
+	name { a small black key }
+	namelist { key black }
+	long { A small black key is lying at your feet. }
+	weight { 1 }
+	rent { -1 }
+	type {
+		key { 2, 0, 0, 0 }
+	}
+	wear { take, hold }
+	extras {
+		keywords { item_for_zip }
+		desc { null }
+		keywords { item_for_pestilence }
+		desc { null }
+		keywords { key black small }
+		desc { On it, you see the symbol of Chaos. }
+	}
+}
+
+702
+{
+	name { a huge closet }
+	namelist { closet huge steel }
+	long { A huge steel closet is standing in the corner of the room. }
+	weight { 100 }
+	material { steel }
+	type {
+		container {
+			max_hold { 2000 }
+			key { 701 }
+			flags { pickproof }
+		}
+	}
+	extras {
+		keywords { closet huge steel }
+		desc { It stands about 15feet tall, with battle scars up and down its front, as if
+someone feebly tried to break into it. }
+	}
+}
+
+714
+{
+	name { a jet-black key }
+	namelist { key }
+	long { A jet-black key lies here }
+	weight { 1 }
+	rent { -1 }
+	type {
+		key { 714, 0, 0, 0 }
+	}
+	wear { take }
+}
+
+750
+{
+	name { a pretty key }
+	namelist { key }
+	long { A pretty GREEN key to a cozy cottage lies here }
+	weight { 1 }
+	rent { -1 }
+	material { steel }
+	type {
+		key { 3142, 0, 0, 0 }
+	}
+	wear { take }
+}
+
+751
+{
+	name { a crimson key }
+	namelist { key }
+	long { A crimson key to a cozy cottage lies here }
+	weight { 1 }
+	rent { -1 }
+	material { steel }
+	type {
+		key { 3145, 0, 0, 0 }
+	}
+	wear { take }
+}
+
+752
+{
+	name { a sinister key }
+	namelist { key sinister }
+	long { A sinister key to a cozy cottage lies here }
+	weight { 1 }
+	rent { -1 }
+	material { steel }
+	type {
+		key { 3146, 0, 0, 0 }
+	}
+	wear { take }
+}
+
+753
+{
+	name { a copper key }
+	namelist { key copper}
+	long { A copper key to a cozy cottage lies here }
+	weight { 1 }
+	rent { -1 }
+	material { copper }
+	type {
+		key { 3155, 0, 0, 0 }
+	}
+	wear { take }
+}
+
+1000
+{
+	name { a note }
+	namelist { note paper }
+	long { A note lies here, discarded. }
+	weight { 1 }
+	value { 10 }
+	rent { 1 }
+	type {
+		note { 1, 0, 0, 0 }
+	}
+	wear { take }
+}
+
+1001
+{
+	name { a pen }
+	namelist { pen quill }
+	long { A fine quill pen lies here. }
+	weight { 1 }
+	value { 100 }
+	rent { 10 }
+	type {
+		pen { 0, 0, 0, 0 }
+	}
+	wear { take, hold }
+}
+
+1100
+{
+	name { the rainbow staff }
+	namelist { rainbow staff }
+	long { The rainbow staff lies here. }
+	weight { 8 }
+	value { 5000 }
+	rent { 2667 }
+	type {
+		light {
+			duration { -1 }
+		}
+	}
+	apply {
+		wisdom { 1 }
+	}
+	bits { magic }
+	wear { take, light }
+}
+
+1101
+{
+	name { Sting }
+	namelist { sting }
+	long { Sting lies here. }
+	weight { 1 }
+	value { 15000 }
+	rent { 10000 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 8 }
+			type { sting }
+			wtype { shortsword }
+		}
+	}
+	apply {
+		hitroll { 3 }
+		damroll { 3 }
+	}
+	bits { glow, hum, anti-evil }
+	wear { take, wield }
+	max_exist { 10 }
+}
+
+1102
+{
+	name { a sign }
+	namelist { sign }
+	long { A sign demands your attention. }
+	type {
+		other { 0, 0, 0, 0 }
+	}
+	extras {
+		keywords { sign }
+		desc {
+Welcome to the Shire.  As you enter the Shire from Haon-Dor you come under
+the jurisdiction of the Thain, the peacekeeper of the Shire.  Consequently,
+by entering these lands you agree to obey our laws.  If you break these laws,
+you will be severely punished.  We do not like riff raff in our peaceful
+town.
+
+					the Thain
+					Peacekeeper of the Shire
+ }
+	}
+}
+
+1103
+{
+	name { a pipeweed bread }
+	namelist { pipeweed bread }
+	long { A loaf of pipeweed bread arouses your hunger. }
+	weight { 1 }
+	value { 13 }
+	rent { 2 }
+	type {
+		food {
+			fullness { 24 }
+			poisoned { 0 }
+		}
+	}
+	wear { take }
+}
+
+1104
+{
+	name { a silvery cloak }
+	namelist { silvery cloak }
+	long { A silvery cloak lies here. }
+	weight { 3 }
+	value { 12000 }
+	rent { 6000 }
+	material { cloth }
+	type {
+		other { 0, 0, 0, 0 }
+	}
+	apply {
+		save_all { -1 }
+		ac_body { -5 }
+	}
+	wear { take, about }
+}
+
+1105
+{
+	name { the One Ring }
+	namelist { one ring }
+	long { The One Ring is here. }
+	weight { 3 }
+	value { 50000 }
+	rent { -1 }
+	material { gold }
+	type {
+		armor {
+			effective_ac { 1 }
+			force { 1 }
+		}
+	}
+	apply {
+		spell_affect { invisible }
+	}
+	bits { magic }
+	wear { take, finger, hold }
+	max_exist { 1 }
+}
+
+1106
+{
+	name { an elven bow }
+	namelist { elven bow }
+	long { An elven bow lies here. }
+	weight { 10 }
+	value { 2000 }
+	rent { 1000 }
+	material { wood }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 8 }
+			type { smash }
+			wtype { longbow }
+		}
+	}
+	apply {
+		hitroll { 2 }
+		damroll { 2 }
+	}
+	bits { hum, anti-evil }
+	wear { take, wield }
+}
+
+1107
+{
+	name { a mithril axe }
+	namelist { mithril axe }
+	long { A mithril axe lies here. }
+	weight { 12 }
+	value { 6000 }
+	rent { 4300 }
+	material { mithril }
+	type {
+		weapon {
+			no_dice { 2 }
+			size_dice { 5 }
+			type { cleave }
+			wtype { battleaxe }
+		}
+	}
+	apply {
+		hitndamage { 2 }
+	}
+	bits { glow }
+	wear { take, wield }
+}
+
+1108
+{
+	name { the thain girth }
+	namelist { thain girth }
+	long { The girth of the thain lies here. }
+	weight { 4 }
+	value { 1000 }
+	rent { 200 }
+	type {
+		armor {
+			effective_ac { 6 }
+			force { 6 }
+			absorb { 1 }
+		}
+	}
+	wear { take, waist }
+}
+
+1109
+{
+	name { a tiny dagger }
+	namelist { tiny dagger }
+	long { A tiny dagger lies here. }
+	weight { 3 }
+	value { 400 }
+	rent { 100 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 6 }
+			type { pierce }
+			wtype { dagger }
+		}
+	}
+	wear { take, wield }
+}
+
+1110
+{
+	name { an egg }
+	namelist { egg }
+	long { An egg lies here. }
+	weight { 1 }
+	value { 3 }
+	rent { 1 }
+	type {
+		food {
+			fullness { 12 }
+			poisoned { 0 }
+		}
+	}
+	wear { take }
+}
+
+1410
+{
+	name { a sack of flour }
+	namelist { sack flour }
+	long { A lumpy sack of flour is here. }
+	weight { 50 }
+	value { 20 }
+  material { cloth }
+	type {
+		trash { 0, 0, 0, 0 }
+	}
+	wear { take }
+	extras {
+		keywords { sack flour }
+		desc { Doesn't look all that exciting.  It has the words "Property of Midgard"
+stamped on it. }
+	}
+}
+
+1411
+{
+	name { an ivory scroll }
+	namelist { ivory scroll }
+	long { A scroll with a skull and crossbones drawn on it is lying here. }
+	weight { 2 }
+	value { 2500 }
+	rent { 1100 }
+	type {
+		scroll {
+			level { 2 }
+			spell2 { cause critical }
+		}
+	}
+	bits { magic }
+	wear { take, hold }
+}
+
+1412
+{
+	name { an oily potion }
+	namelist { oily potion }
+	long { An oily looking potion has been dropped here. }
+	weight { 1 }
+	value { 800 }
+	rent { 200 }
+	type {
+		potion {
+			level { 8 }
+			spell1 { blindness }
+			spell2 { fear }
+		}
+	}
+	bits { magic }
+	wear { take }
+}
+
+1413
+{
+	name { a cow bell }
+	namelist { cow bell }
+	long { A cow bell with a strap attached to it has been left here. }
+	special { 1 25 25 }
+	material { iron }
+	type {
+		worn { 0, 0, 0, 0 }
+	}
+	apply {
+		strength { -3 }
+		all_armor { 5 }
+	}
+	bits { magic }
+	wear { take, neck }
+	extras {
+		keywords { bell cow }
+		desc { It has a strap attached to it. }
+	}
+}
+
+1414
+{
+	name { a potion with flour in it }
+	namelist { potion flour }
+	long { A potion with flour in it has been left here. }
+	weight { 1 }
+	value { 450 }
+	rent { 450 }
+	type {
+		potion {
+			level { 6 }
+			spell1 { sleep }
+			spell2 { armor }
+		}
+	}
+	bits { magic }
+	wear { take }
+}
+
+1420
+{
+	name { the leggings of the Phoenix }
+	namelist { bronze leggings phoenix }
+	long { A pair of bronze leggings is lying on the ground. }
+	weight { 1 }
+	value { 9750 }
+	rent { 4300 }
+	material { bronze }
+	type {
+		armor {
+			effective_ac { 6 }
+			force { 6 }
+			absorb { 1 }
+		}
+	}
+	apply {
+		constitution { 1 }
+	}
+	bits { glow, anti-evil }
+	wear { take, legs }
+	max_exist { 5 }
+}
+
+1421
+{
+	name { the Vorpal Blade }
+	namelist { vorpal blade }
+	long { The Vorpal Blade sits here. }
+	weight { 14 }
+	value { 2000 }
+	rent { 1000 }
+	type {
+		weapon {
+			no_dice { 1 }
+			size_dice { 7 }
+			type { cleave }
+			wtype { scimitar }
+		}
+	}
+	apply {
+		hitroll { 2 }
+		damroll { 1 }
+	}
+	bits { hum, anti-good }
+	wear { take, wield }
+	max_exist { 5 }
+}

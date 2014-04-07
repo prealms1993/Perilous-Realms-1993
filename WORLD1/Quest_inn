@@ -1,0 +1,431 @@
+
+0
+{
+  name { The Front of the Inn }
+  desc {
+"     You are standing on a well-worn path which opens into a clearing.
+An old, wooden building is here with smoke billowing from its
+chimney. A painted sign is visible on the porch to the west. You
+could go north or south around the building or leave this place and
+return to the forest.
+  }
+  sector { Forest }
+  extra {
+	keywords { sign" }
+	desc { The sign reads:
+   The Woodsman
+
+      Bed, Breakfast, Good Conversation
+	}
+  }
+  exits {
+	to { n, 1 }
+	  desc { You can go north around the inn.
+}
+	to { e, Midenir:5 }
+	  desc { Back through the trees to the Miden'Nir.
+}
+	to { s, 2 }
+	  desc { You can go south around the inn.
+}
+	to { w, 4 }
+	  desc { The front door of the warm, friendly inn beckons.
+}
+  }
+}
+
+1
+{
+  name { North of the Inn }
+  desc {
+"     You are standing north of the inn. Things don't look much different
+from this angle, though there is a window to the south if youd like to
+peek inside. The air here is filled with smells of smoke and cooking.
+East, the front porch is waiting for you... or you can see if there is
+a back door.
+  }
+  sector { Forest }
+  exits {
+	to { e, 0 }
+	  desc { This way takes you to the front of the Inn.
+}
+	to { w, 3 }
+	  desc { This way will lead you behind the inn.
+}
+  }
+}
+
+2
+{
+  name { South of the Inn }
+  desc {
+"     You are standing south of the inn. The noise from within is quite
+loud, but consists mainly of boisterous conversation. You could easily
+go east and enter through the front door, or west and to the rear of
+the establishment. From a tiny trail leading south, you hear a muffled
+cry.
+  }
+  sector { Forest }
+  exits {
+	to { e, 0 }
+	  desc { This way leads to the front of the inn.
+}
+	to { s, 5 }
+	  desc { You hear a muffled cry, but cannot see the source!
+}
+	to { w, 3 }
+	  desc { This way leads to the back of the inn.
+}
+  }
+}
+
+3
+{
+  name { Behind the Inn }
+  desc {
+"     You now stand behind the inn. The smell here is not so pleasant as
+the keeper and his help throw a good deal of garbage here. A couple of
+piles of rubbish arre to the west, but you will smell the worse for
+meddling there. As a clean alternative, you can go north or south around
+the inn.
+  }
+  sector { Forest }
+  exits {
+	to { n, 1 }
+	  desc { You can go around the inn this way.
+}
+	to { s, 2 }
+	  desc { You can go around the inn this way.
+}
+	to { w, 8 }
+	  desc { Only rats and fool adventurers play in garbage.
+}
+  }
+}
+
+4
+{
+  name { The Woodsman }
+  desc {
+"    You are in the common room of the Woodsman. A thin haze of smoke sits
+in the air here. People are all about eating, drinking, but mostly just
+talking in as loud a voice as possible. Everything seems quite friendly.
+The bar is just north of here. To the east, you catch a glimpse of a
+man waving for you to come to him. If you'd rather have your own table,
+one is just being vacated to the south.
+  }
+  sector { City }
+  exits {
+	to { n, 6 }
+	  desc { The bar is here, manned by the jolly innkeeper.
+}
+	to { e, 0 }
+	  desc { You can leave now and return to fresher air.
+}
+	to { s, 9 }
+	  desc { An empty table is a rare commodity.
+}
+	to { w, 7 }
+	  desc { A man, clad in a rustic cloak is waving to you.
+}
+  }
+}
+
+5
+{
+  name { The Ambush Point }
+  desc {
+"     This is a overgrown foot-trail south of the inn. It leads west, but you
+would be hard pressed to follow it far. A young boy sits here on the dirt,
+nursing his many bruises and cuts. He looks glad to see you.
+  }
+  sector { Forest }
+  exits {
+	to { n, 2 }
+	  desc { The inn lies to the north, its occupants oblivious to this scene.
+}
+	to { w, 11 }
+	  desc { Far in the distance, two horsemen escape on this trail.
+}
+  }
+}
+
+6
+{
+  name { The Bar }
+  desc {
+"     Many people sit here, enjoying the food, drink and hospitaity of the
+innkeeper. If you do not like the reguars here, you can leave south and
+retrun to the common room. As you look at the various drinks and dishes
+other people have, the innkeeper comes up to you, smiles and gives a
+hardy, "What may I do for you stranger?"
+  }
+  sector { City }
+  extra {
+	keywords { reward payment" }
+	desc { ""Oh yes, no less than 10000 coins. I put up half myself. Anything to
+help a friend. To collect, you have to get the niece, see me and enter
+the command n."
+	}
+	keywords { bard man" }
+	desc { Andros points to the southwest corner of the bar. "Thats the poor man,
+he's been looking for his niece for weeks now. I know they have her, but
+no one we know can track those good for nothing bandits. So, we offered
+a reward, but alas, no one has claimed."
+	}
+	keywords { boy child children ambush" }
+	desc { ""Oh no, they tried to take Bily!!  Damn them, havent they got enough
+of our children? They are nothing but a bunch of slavers. I'd thought
+they'd left for good."
+	}
+	keywords { slavers trouble" }
+	desc { Andros frowns, "Well to be quite honest, we've been having a bit of
+trouble with some slavers lately. They've been taking the children.
+The poor bard's niece was their latest prize."
+	}
+	keywords { job work" }
+	desc { ""Why I am the Innkeeper, of course."  Andros chuckles.
+	}
+	keywords { name" }
+	desc { He seems delighted that you want to talk to him. "My name is Andros."
+	}
+	keywords { innkeeper keeper bartender" }
+	desc { This man smiles at you and seems quite happy. You reaize that you can
+talk to him by typing 'look at <word>' where word is a one word topic
+you'd like to discuss.
+	}
+  }
+  exits {
+	to { s, 4 }
+	  desc { You may retreat south back to the common room.
+}
+  }
+}
+
+7
+{
+  name { The Bard's Table }
+  desc {
+"     A melancholy man sits here in a dirty cloak and boots. He is nursing
+a liquor so strong you can smell it from where you are standing. He
+motions you to sit with him and share his sad tale.
+  }
+  sector { City }
+  extra {
+	keywords { reward find help payment" }
+	desc { ""I am offering a good reward for anyone that can bring her to me. See
+the innkeeper for details."
+	}
+	keywords { house hideout" }
+	desc { ""There is a run down house to the west of here. I thought it was the
+slaver hideout, but it seems I was wrong. Hope is lost, the slavers
+can be many miles distant by now. I wish someone could help me find
+her."
+	}
+	keywords { slavers taken" }
+	desc { ""Yes, they took her on a trail just south of here. I tracked them to
+an abandoned house, but her abductors were nowhere to be found."
+	}
+	keywords { niece missing" }
+	desc { ""She was taken, nearly ten days ago, by the slavers."
+	}
+	keywords { job profession work" }
+	desc { ""I used to be a traveling bard, but now I can only search for my poor
+missing niece."
+	}
+	keywords { name" }
+	desc { He sighs, "My name is Rescuer, but I am afraid it is a decieving name."
+	}
+	keywords { bard man melancholy" }
+	desc { He looks sad, as of he has just borne a great loss. Also, by the
+condition of his clothes, you can tell he has been travelling a long
+time through rough terrain.
+	}
+  }
+  exits {
+	to { e, 4 }
+	  desc { You are able to leave this man in his misery by going east.
+}
+  }
+}
+
+8
+{
+  name { Garbage dump }
+  desc {
+You stand knee deep in garbage.  YECH!!! It smells terrible and who knows
+what vermin live in these piles of filth...
+  }
+  sector { Forest }
+  exits {
+	to { e, 3 }
+	  desc { You can return to cleaner lands this way.
+}
+  }
+}
+
+9
+{
+  name { A Quieter section of the Inn }
+  desc {
+There seems to be noone in this end of the Woodsman, probably a safe place
+to rest and lick your wounds...
+  }
+  sector { Forest }
+  exits {
+	to { n, 4 }
+	  desc { Back to the main Inn
+}
+  }
+}
+
+11
+{
+  name { A dead end trail }
+  desc {
+Wherever those horsemen went they arn't here.  Maybe they had supernatural
+help...
+  }
+  sector { Forest }
+  exits {
+	to { e, 5 }
+	  desc { Back to ambush point
+}
+  }
+}
+
+94
+{
+  name { Common Room of the Clan MacCleod }
+  desc {
+You have entered a large hall with passages leading off in all directions.
+A large table dominates the center of this hall with many chairs were
+the clan gathers for feasting, merriment, and meetings. On the walls 
+hang large tapestries paying homage to thier leader Conner MacCleod.
+  }
+  flags { indoors, peaceful, nosteal }
+  exits {
+	to { n, 99 }
+	  info { door }
+	  keywords { gate" }
+	to { e, 96 }
+	  info { door }
+	  keywords { door east" }
+	to { s, Haondor_dark:0 }
+	  key { 7901 }
+	  info { door }
+	  keywords { drawbridge draw bridge door" }
+	to { w, 97 }
+	  info { door }
+	  keywords { door west" }
+	to { u, 95 }
+	  info { door }
+	  keywords { door up" }
+	to { d, 98 }
+	  info { door }
+	  keywords { door down" }
+  }
+}
+
+95
+{
+  name { Zippo's Room }
+  desc {
+Climbing up the staircase you enter the hovel of a curious mage. A small
+uncomfortable looking bed rests in the corner, surrounded by ancient
+tomes. On the worn desk next to the window candles burn low, casting
+strange shadows on the walls. The only noticeable decor is the mounted
+head of the Demi-Lich.
+  }
+  flags { indoors, peaceful, nosteal, no_sum }
+  exits {
+	to { d, 94 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+96
+{
+  name { Ice's Room }
+  desc {
+Brrrrrr, it's COLD in here. Must be 30 below. It would seem the cleric
+Ice lives up to his name. Healing herbs and other such things line
+the walls in racks, holy symbols and pictures cover the walls, and
+the smiley face button stuck on his bedpost tells you he'll probably
+help you out all he can. As you turn to leave the room the mounted head
+of Kalas stares past you into emptiness.
+  }
+  flags { indoors, peaceful, nosteal, no_sum }
+  exits {
+	to { w, 94 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+97
+{
+  name { Naazgul's Room }
+  desc {
+Three Rings for the Elven-kings under the sky,
+  Seven for the Dwarf-lords in thier halls of stone,
+Nine for Mortal Men doomed to die,
+  One for the Dark Lord on his Dark Throne
+In the Land of Mordor where Shadows lie.
+  One ring to rule them all, One ring to find them,
+  One ring to bring them all and in the darkness bind them
+In the Land of Mordor where the Shadows lie.
+
+If I have to explain, you wouldn't understand.
+  }
+  flags { indoors, peaceful, nosteal, no_sum }
+  exits {
+	to { e, 94 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+98
+{
+  name { Tank's Room }
+  desc {
+Now here's a room that is easy to understand. A bed, a dresser, and a
+rack for weapons and armor are all that occupy it. Some posters adorn
+the walls, to add color, proclaiming things such as Live fast, Die Young,
+and a homemade one in the corner with a picture of Ice and under it the
+inscription, "I LOVE the ressurection spell". The only thing out of 
+place in this happy-go-lucky room is mounted head of Crimson Death.
+  }
+  flags { indoors, peaceful, nosteal, no_sum }
+  exits {
+	to { u, 94 }
+	  info { door }
+	  keywords { door" }
+  }
+}
+
+99
+{
+  name { Inside the Castle of Clan MacCleod }
+  desc {
+You have enterd the grans hall  of the castle. A huge throne dominates a
+raised area in the northern part of then room. In front of this stands a 
+drafting table.
+  }
+  flags { indoors, peaceful, nosteal, no_sum }
+  exits {
+	to { e, Asgard:79 }
+	  key { 5300 }
+	  info { door }
+	  keywords { gate" }
+	to { s, 94 }
+	  info { door }
+	  keywords { gate" }
+	to { d, Midgard:54 }
+	  key { 7901 }
+	  info { door }
+	  keywords { sky" }
+  }
+}

@@ -1,0 +1,620 @@
+
+1
+{
+  name { Throne Room }
+  desc {
+"     You are standing in what you guess is the throne room. The large
+throne situated strategically in this room is a good clue. Another was
+the sign proclaiming Throne Room over the entrance to this room.
+  }
+  extra {
+	keywords { throne }
+	desc { Actually, the throne isn't that big, it's just that the room is small.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 4 }
+	  desc { You see a large archway leading to the entry hall.
+}
+	to { e, 2 }
+	  desc { You see a small archway leading to the ball room.
+}
+  }
+}
+
+2
+{
+  name { Southern Ball Room }
+  desc {
+"     The south end of a large ball room. There are no furnishings here
+except for some chairs along the walls. There are several murals painted
+on the walls here. The ball room continues to the north, and an exit
+leads west.
+  }
+  extra {
+	keywords { mural wall }
+	desc { "     The pictures are of people in various strange uniforms engaged in
+strange and strenuous activities. The only constant is that the activities
+all involve some sort of ball.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 3 }
+	  desc { This long room extends far to the north
+}
+	to { w, 1 }
+	  desc { An archway with a sign proclaiming 'Throne Room' leads somewhere...
+}
+  }
+}
+
+3
+{
+  name { Ball Room }
+  desc {
+"     The large room has a high, arched ceiling. The walls are covered with
+murals. This end of the room is dominated by a large ball resting in the
+center of the room. There is more space to the south and the main hallway
+lies to the west.
+  }
+  extra {
+	keywords { ball }
+	desc { The ball is bright red. It is also over 10 feet high.
+	}
+	keywords { mural wall }
+	desc { "     The pictures are of people in various strange uniforms engaged in
+various strange and strenuous activities. The only constant is that the
+activities all involve some sort of ball.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 2 }
+	  desc { There is more space to the south.
+}
+	to { w, 4 }
+	  desc { The archway leads to the main hallway.
+}
+  }
+}
+
+4
+{
+  name { Main Hall }
+  desc {
+"     This grand hall is richly furnished with many tapestries. Tons of
+gold, silver, and platinum were used to craft the many fine fixtures. The
+size of hall need to hold all these riches is vast. So vast that you must
+have travelled a mile to get to your present location, although you have
+taken a few steps inside.
+     Exits lead in all directions.
+  }
+  extra {
+	keywords { wall mural fixture gold }
+	desc { No matter how you move, you can't get close to anything of interest.
+You also notice that the hall has a tendency to flicker at the edge
+of your vision.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 8 }
+	  desc { In the distance you can just make out a gate.
+}
+	to { e, 3 }
+	  desc { In the distance you can just make out a red ball.
+}
+	to { s, 1 }
+	  desc { In the distance you can just make out a small throne.
+}
+	to { w, 5 }
+	  desc { In the distance you can make out a small room.
+}
+  }
+}
+
+5
+{
+  name { Wait Room }
+  desc {
+"     This is the castle's waiting room. Fine carpeting covers the floor
+and plush furniture is scattered about the room. All very relaxing except
+for the off duty guards standing here lifting weights.
+  }
+  extra {
+	keywords { furniture sofa chair }
+	desc { Several heavy weights are scattered about the furniture.
+	}
+	keywords { floor carpet weights }
+	desc { A heavy crop of weights appears to have grown in the carpet.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 4 }
+	  desc { A large hall extends far into the east.
+}
+	to { s, 6 }
+	  desc { There appears to be an awful mess to the south.
+}
+  }
+}
+
+6
+{
+  name { Mess Hall }
+  desc {
+"     This room is a disaster area. It appears that several good sized
+tornadoes have dumped at ton of food in this room. It would take days to
+clean this room even if you had several water-breathing dragons.
+  }
+  extra {
+	keywords { food mess }
+	desc { This room is an awful mess. You do NOT want to investigate this mess further.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 5 }
+	  desc { The waiting room is to the north.
+}
+	to { w, 7 }
+	  desc { You see the kitchen.
+}
+  }
+}
+
+7
+{
+  name { Kitchen }
+  desc {
+"     The kitchen is a lot cleaner than the mess hall. Still the kitchen is
+a mess. You would guess that it is not wise to disturb the chef.
+  }
+  flags { indoors }
+  exits {
+	to { e, 6 }
+	  desc { The mess hall is a mess.
+}
+  }
+}
+
+8
+{
+  name { Second Gate House }
+  desc {
+"     This is the entrance to the lord's castle. The large gate to the north
+has rusted open due to disuse. To the west is the castle armory, and a small
+guardhouse lies to the east. A large hall extends to the south.
+  }
+  extra {
+	keywords { large rusty gate }
+	desc { "     The large castle gate has rusted open. Obviously the residents
+believe they have little to fear. (At least from things that use the front
+door.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 12 }
+	  desc { The Courtyard is north of here.
+}
+	to { e, 9 }
+	  desc { You see a small gurad room.
+}
+	to { s, 4 }
+	  desc { You see a large hall that extends out to the horizon.
+}
+	to { w, 11 }
+	  desc { The castle armourer works there.
+}
+  }
+}
+
+9
+{
+  name { Guard Room }
+  desc {
+"     This is the room where the castle guards like to hang out. Several
+casks of ale line the wall. The gate house is to the west, and an ominous
+door leads east.
+  }
+  extra {
+	keywords { cask ale }
+	desc { "     Several casks of good ale line the wall. From the way the guards eye
+you, you would guess that it's safer to attack the lord of the castle than
+to stand too close to the ale.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 10 }
+	  info { door, closed }
+	  keywords { ominous door }
+	  desc { You see a large iron bound door. You feel a chill run down your spine, down
+your leg, and scuttle across the floor.
+A sign above the door reads:
+               To the Dungeon
+                  Keep Out!
+}
+	to { w, 8 }
+	  desc { You see the entrance to the inner castle.
+}
+  }
+}
+
+10
+{
+  name { Dungeon Entrance }
+  desc {
+"     This room is dark, dank, and small.
+A small note is taped to the wall.
+  }
+  extra {
+	keywords { note sign }
+	desc { The note reads:
+The dungeon is still under construction.
+Sorry.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { w, 9 }
+	  info { door, closed }
+	  keywords { ominous iron door }
+	  desc { The large iron bound door leads back to the guard house. You feel that it
+would be safer to stand on the other side of the door.
+}
+  }
+}
+
+11
+{
+  name { Armory }
+  desc {
+"     The castle Armoury is here. All sorts of armor and weapons line
+the walls here. The room is unusually warm, the forge must be nearby.
+  }
+  flags { indoors }
+  exits {
+	to { e, 8 }
+	  desc { The gate house lies ahead.
+}
+  }
+}
+
+12
+{
+  name { South End of Courtyard }
+  desc {
+"     You are in the Castle courtyard. Several trees here provide cool
+shade on a hot day. You can smell the bakery to the east, and a cafe
+can be found to the west.
+  }
+  sector { City }
+  exits {
+	to { n, 14 }
+	  desc { You see a fountain in the courtyard to the north.
+}
+	to { e, 19 }
+	  desc { The bakery emits a mouth watering aroma.
+}
+	to { s, 8 }
+	  desc { The gate leading into the inner castle has rusted open.
+}
+	to { w, 20 }
+	  desc { You see a small outdoor cafe with beautiful landscaping.
+}
+  }
+}
+
+13
+{
+  name { East End of Courtyard }
+  desc {
+"     You are in the castle courtyard. To the east large open doors lead
+into the stables. To the south is a large sign identifying the general
+store.
+  }
+  sector { City }
+  exits {
+	to { e, 21 }
+	  desc { The large doors lead into the stable.
+}
+	to { s, 22 }
+	  desc { The entrance to the store is under the sign.
+}
+	to { w, 14 }
+	  desc { You see a fountain in the courtyard to the west.
+}
+  }
+}
+
+14
+{
+  name { Courtyard }
+  desc {
+"     You are in the castle courtyard. To the north is the castle gatehouse.
+The courtyard extends in all the other directions. You can see the inner
+castle in the distance to the south.
+A large fountain dominates this section of the courtyard.
+  }
+  sector { City }
+  extra {
+	keywords { water fountain }
+	desc { "     The water fountain is beautifuly sculptured in white marble. The
+sculpture features a large python. You can see several fish swimming in
+the water. The fish share the water with several gold coins.
+	}
+	keywords { fish gold coins }
+	desc { Lightning piranna guard the coins left in the water.
+	}
+  }
+  exits {
+	to { n, 16 }
+	  desc { The entrance to the castle.
+}
+	to { e, 13 }
+	  desc { You see more courtyard.
+}
+	to { s, 12 }
+	  desc { You see more courtyard.
+}
+	to { w, 15 }
+	  desc { You see more courtyard.
+}
+  }
+}
+
+15
+{
+  name { West End of Courtyard }
+  desc {
+"     You are in the castle courtyard. To the west lies the castle barracks.
+A large sign hangs over the entrance to an inn to the south.
+  }
+  sector { City }
+  extra {
+	keywords { sign inn }
+	desc { The sign identifies the inn as The Flying Circus Inn. It also has strange
+artwork including a large foot at the top.
+	}
+  }
+  exits {
+	to { e, 14 }
+	  desc { You see a fountain in the courtyard to the east.
+}
+	to { s, 23 }
+	  desc { The sign identifies the inn as The Flying Circus Inn. It also has strange
+artwork including a large foot at the top.
+}
+	to { w, 24 }
+	  desc { The castle barracks lie ahead.
+}
+  }
+}
+
+16
+{
+  name { Gate House }
+  desc {
+"     This is the gate house to Castle Python. The drawbridge lies to the
+north and a courtyard lies to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 17 }
+	  info { door, closed }
+	  keywords { drawbridge bridge gate }
+	  desc { The drawbridge leads out of the castle.
+}
+	to { s, 14 }
+	  desc { You see a large fountian in the courtyard.
+}
+  }
+}
+
+17
+{
+  name { Outside Castle }
+  desc {
+"     You are standing outside of the Castle Python. The drawbridge is
+to the south, and a path leads north.
+  }
+  sector { Field }
+  exits {
+	to { n, 18 }
+	to { s, 16 }
+  }
+}
+
+18
+{
+  name { Path to castle }
+  desc {
+"     This path leads south to Castle Python.
+  }
+  sector { Field }
+  exits {
+	to { n, southern_path:4 }
+	to { s, 17 }
+  }
+}
+
+19
+{
+  name { Bakery }
+  desc {
+"     You are in the castle bakery. You can smell the food cooking behind
+the counter.
+A note rests on the counter.
+  }
+  extra {
+	keywords { note counter }
+	desc { The note on the counter reads:
+
+                  Out to Lunch
+                  I will be back
+                  soon.
+
+                  Thank You
+	}
+  }
+  flags { indoors }
+  exits {
+	to { w, 12 }
+	  desc { The door leads out into the courtyard.
+}
+  }
+}
+
+20
+{
+  name { Cafe }
+  desc {
+"     This is a nice, relaxing cafe. Comfortable chairs are strategically
+placed to afford the best view of the beautiful landscaping. The many trees
+provide ample shade and seclusion, but never seem to be in the way.
+  }
+  sector { City }
+  extra {
+	keywords { chair chairs }
+	desc { The chairs are extremely comfortable. You could easily fall asleep in one.
+	}
+	keywords { landscaping tree trees }
+	desc { The landscaping was done by a true artist.
+	}
+  }
+  exits {
+	to { e, 12 }
+	  desc { The courtyard can be seen past the entrance.
+}
+  }
+}
+
+21
+{
+  name { Stables }
+  desc {
+"     You are in the castle stables. The first thing you notice is all
+the hay scattered about. Besides that, you can see more hay and still
+more hay. Under all this you find a relatively normal stable.
+  }
+  sector { City }
+  extra {
+	keywords { still more hay }
+	desc { Attached to the hay you find a note that reads:
+     Made in Taiwan
+
+Looking a little farther you find:
+a needle.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { w, 13 }
+	  desc { The large doors lead out into the courtyard.
+}
+  }
+}
+
+22
+{
+  name { General Store }
+  desc {
+"     You have found the castle's general store. All sorts of items line
+the walls, from standard torches and bags to items that you couldn't
+imagine in your wildest dreams. A staircase leads up.
+There is a sign on the wall.
+  }
+  extra {
+	keywords { sign wall }
+	desc { The sign says:
+     Cheese shop upstairs.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 13 }
+	  desc { Outside you see the courtyard
+}
+	to { u, 25 }
+	  desc { Up the stairs is another shop.
+}
+  }
+}
+
+23
+{
+  name { Flying Circus Inn }
+  desc {
+"     You have entered the Flying Circus Inn. It is owned and operated by
+Monty, Lord Python's cousin. The Inn has an incomplete look to it.
+There is a sign on the wall, and a stairway leading upwards
+  }
+  extra {
+	keywords { sign }
+	desc { "   The sign reads :
+	This sign is too Silly.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 15 }
+	  desc { Outside you see the courtyard.
+}
+	to { u, 26 }
+	  desc { You see the reception.
+}
+  }
+}
+
+24
+{
+  name { Barracks }
+  desc {
+"     You have entered the castle barracks. Many bunks line the walls of
+this room.
+  }
+  flags { indoors }
+  exits {
+	to { e, 15 }
+	  desc { Outside you see the courtyard.
+}
+  }
+}
+
+25
+{
+  name { Cheese Shop }
+  desc {
+"     This is a the best cheese shop in the castle. It is considered the best
+on account of it's the cleanest cheese shop. At least it is certainly
+uncontaminated with cheese.
+  }
+  flags { indoors }
+  exits {
+	to { d, 22 }
+	  desc { Down the stairs you see another shop.
+}
+  }
+}
+
+26
+{
+  name { Inn of the Flying Circus }
+  desc {
+"   This is the reception of the Inn of the Flying Circus.  The walls are
+covered with pictures of herring, the holy grail, gumby, and dead 
+parrots.
+   There is a stairway leading down.
+  }
+  flags { indoors, peaceful }
+  exits {
+	to { d, 23 }
+	  desc { You see the tavern below.
+}
+  }
+}

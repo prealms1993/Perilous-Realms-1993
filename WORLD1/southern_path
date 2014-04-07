@@ -1,0 +1,70 @@
+
+0
+{
+  name { Southern Path }
+  desc {
+"   This path leads south straight into a large, dark forest, and north
+to a crossroads.  There is another path to the east.
+  }
+  sector { Field }
+  exits {
+	to { n, Midenir:2 }
+	to { e, 2 }
+	to { s, 1 }
+  }
+}
+
+1
+{
+  name { Entrance to Mirkwood }
+  desc {
+"   You are in a dark forest.  Why is it called Mirkwood?  You'll see in a 
+little while.
+  }
+  sector { Field }
+  exits {
+	to { n, 0 }
+	to { s, Ambush:0 }
+  }
+}
+
+2
+{
+  name { Southern Path }
+  desc {
+"   The southern path continues.. er... East.   And, er... west.
+  }
+  sector { Field }
+  exits {
+	to { e, 3 }
+	to { w, 0 }
+  }
+}
+
+3
+{
+  name { Southern Path }
+  desc {
+"   The path has finally partially straightened itself out, and now goes
+south and west.
+  }
+  sector { Field }
+  exits {
+	to { s, 4 }
+	to { w, 2 }
+  }
+}
+
+4
+{
+  name { Southern Path }
+  desc {
+"   The path leads north and south, as a southern path should.  To the south,
+you can see a large castle.
+  }
+  sector { Field }
+  exits {
+	to { n, 3 }
+	to { s, Castle_python:18 }
+  }
+}

@@ -1,0 +1,3388 @@
+
+0
+{
+  name { The Great Eastern Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around
+you. A pyramid lies to the north-east and a snow-capped mountain range to
+the west.  You notice that a great road begins far to the south as the
+desert abruptly ends.
+  }
+  exits {
+	to { n, Desert:29 }
+	to { s, 1 }
+  }
+}
+
+1
+{
+  name { The End of the Eastern Desert }
+  desc {
+"  You are amazed at such an abrupt ending to the vast desert which lies
+to the north.  A great road starts up to the south of here and streches
+for miles.  The sand causes you to slip every once in awhile.  You should
+proceed with caution.
+  }
+  exits {
+	to { n, 0 }
+	to { s, 2 }
+  }
+}
+
+2
+{
+  name { An Ancient Path }
+  desc {
+"  This path stems right out of the desert which lies to the north.  The
+path must of been made to handle great amounts of traffic as you can tell
+from its size.  It is frequented often by traveller from all the tracks
+in the loose sand.  It leads to the south where you can see some boulders
+strewn about.
+  }
+  exits {
+	to { n, 1 }
+	to { s, 3 }
+  }
+}
+
+3
+{
+  name { On An Ancient Path }
+  desc {
+"    This is an ancient path. Rocks and boulders are strewn about, yet
+the middle of the path shows signs of wear from the many travelers and
+horses that have passed this way throughout millenia.  The path is dim,
+and some light may be required up ahead. Fresh droppings from a
+strange animal abound here.  It's tracks are not large, but instead,
+seem claw-like. The trees nearby seem strange as well; almost lifelike.
+There is an especially large tree to the west.
+  }
+  sector { Forest }
+  extra {
+	keywords { tree trees" }
+	desc { " While staring at a nearby tree you notice a hole in its stump.  "Strange
+place for a hole", you think to yourself.
+	}
+  }
+  flags { no_mob }
+  exits {
+	to { n, 2 }
+	to { s, 5 }
+	to { w, 4 }
+  }
+}
+
+4
+{
+  name { In an Ancient Tree }
+  desc {
+"   You are able to squeeze into the opening in the tree, to catch a glimpse
+of its contents.  A nest is nearby nuturing some young owls. Upon entering,
+the young have thrown their beaks back into the air, and eagerly await for
+you to regurgitate something.  You wonder where their parent is.....
+
+  }
+  exits {
+	to { e, 3 }
+  }
+}
+
+5
+{
+  name { On an Ancient Path }
+  desc {
+"   This path seems to be getting darker.  The boulders and rocks are more
+prevalent as are the claw marks in the available mud.  The trees are larger,
+and even more lifelike than before.  Your surroundings seem strange, almost
+scary!  You think that it might be a good idea to turn back. There is an
+especially large tree to the west.
+
+  }
+  sector { Forest }
+  extra {
+	keywords { tree" }
+	desc { "   While staring at a nearby tree you notice a hole in its stump.  "Strange place
+for a hole", you think to yourself.
+
+	}
+  }
+  exits {
+	to { n, 3 }
+	to { s, 7 }
+	to { w, 6 }
+  }
+}
+
+6
+{
+  name { In an Ancient Tree }
+  desc {
+"   You are able to squeeze into the opening in the tree, to catch a glimpse
+of its contents.  A nest is nearby nuturing some young eagles. Upon entering,
+the young have thrown their beaks back into the air, and eagerly await for
+you to regurgitate something.  You wonder where their parent is.....
+
+  }
+  exits {
+	to { e, 5 }
+  }
+}
+
+7
+{
+  name { On An Ancient Path }
+  desc {
+"   The path has gotten narrow. You figure it  might be a good time to light
+something, cause it looks real dark and scary ahead. The trees have overgrown
+the path here and are infringing on your passage to the south.  You think you
+might be able to clamber over some of the tree roots and continue further to
+the south.
+
+  }
+  sector { Forest }
+  exits {
+	to { n, 5 }
+	to { s, 8 }
+  }
+}
+
+8
+{
+  name { The Darkened Forest }
+  desc {
+"  Your surroundings here have become too dark to see without light or
+infravision. Thank God you have one of them.  The ancient path seems to have
+been transformed into a well kept meandering pathway amongst well kept trees.
+Something must be tending to the trees. Far in the distance to the south you
+can barely make out a mountain. You might continue south, or return to the
+north.
+
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 7 }
+	to { s, 9 }
+  }
+}
+
+9
+{
+  name { The Darkened Forest }
+  desc {
+"   The path is narrower here with fewer boulders and rocks. Far in the
+distance to the south you can barely make out a mountain. You smell a vile
+stink emanating from a nearby log. You might continue south, or return to the
+north.
+
+  }
+  sector { Forest }
+  extra {
+	keywords { log" }
+	desc { "  Looks like there might be space enough for you push the log back and look
+underneath.  But the smell! Yikes!
+
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 8 }
+	to { s, 11 }
+	to { d, 10 }
+	  info { door, closed }
+	  keywords { log" }
+  }
+}
+
+10
+{
+  name { Inside A Pit }
+  desc {
+"   This is the den of some vile creature.  Bones and and trash lie strewn
+about.  The den is really small, only room for really yourself.  The ceiling
+is low, only about 5', and the stench makes you feel like you might rehash
+your lunch.
+
+  }
+  flags { dark }
+  exits {
+	to { u, 9 }
+  }
+}
+
+11
+{
+  name { The Darkened Forest }
+  desc {
+"   The path continues here.  You peek over your shoulder to make sure no one
+is behind you. The wind russles the leaves of the trees, and howls between
+their branches. Then again, maybe that wasn't the trees......
+
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 9 }
+	to { s, 12 }
+  }
+}
+
+12
+{
+  name { The Darkened Forest }
+  desc {
+"   The path continues here. The distant mountain is beginning to take shape.
+It's not a mountain after all you decide, it is some sort of dwelling, an
+entire city. Claw prints abound here, some large, some small.
+  }
+  sector { Forest }
+  extra {
+	keywords { tracks" }
+	desc { "  The tracks seem to have been made by more than one specie of animal.
+Judging from their depth, some of these animals weighed over 200 pounds.
+	}
+	keywords { claw" }
+	desc { "  The tracks seem to have been made by more than one specie of animal.
+Judging from their depth, some of these animals weighed over 200 pounds.
+
+	}
+	keywords { prints" }
+	desc { "  The tracks seem to have been made by more than one specie of animal.
+Judging from their depth, some of these animals weighed over 200 pounds.
+
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 11 }
+	to { s, 13 }
+  }
+}
+
+13
+{
+  name { A Clearing }
+  desc {
+"  The forest has given way to an open grassy area.  The structure in the
+distance is just a bit further to the south.  You can make out that the
+structure is made of mud, metal scraps, and garbage. Flags fly atop the
+structure, and penants made of metal scraps could be said to "adorn" the
+bastions.  A well lies in the center of the clearing.
+
+  }
+  sector { Field }
+  extra {
+	keywords { well" }
+	desc { The well is covered with a metal plate. The is a drawing upon the metal:
+
+
+
+                       \ / \ / \ /
+                     >|            |<
+                     >|============|<                 ___
+                     >|============|<         /\     /   \
+                     >|     \/     |<        /__\    \___
+                      `------------'        /    \       \
+                  _____\__________/_____   /      \  \___/
+                  \     \        /     /
+                 |\\     \      /     //|
+                 | \\     \    /     // |
+                 |  \\     \__/     //  |
+                 |   \\    {##}    //   |
+                 |    \\          //    |
+                 |     \\        //     |
+                 |      \\      //      |
+                 |       \\    //       |
+                 |/|      \\__//      |\|
+                   |       \  /       |
+                   |========><========|
+                   |==================|
+                   |                  |
+                   |                  |
+                   |                  |
+                   |        |         |
+                   |        |         |
+                   |        |         |
+                   |        |         |
+                |\ |        |\        | /|
+                | \|       /  \       |/ |
+                |         /    \         |
+                |________/      \________|
+
+
+	}
+  }
+  exits {
+	to { n, 12 }
+	to { s, 14 }
+	to { d, 104 }
+	  info { door, closed }
+	  keywords { well" }
+  }
+}
+
+14
+{
+  name { Before The Bridge }
+  desc {
+"  You find yourself before a large bridge, leading to the ugly structure.
+Noise emanates from this massive compost and junk pile.  Apparently, it is
+inhabited.  The structure stands, from your best estimate, at least 200 feet
+high, and must be at least 300 feet long and wide.  The smell is a bit
+disconscerting.
+
+  }
+  sector { Field }
+  extra {
+	keywords { bridge" }
+	desc { "  This rickety thing looks like it could hardly support two adevnturers.
+
+	}
+  }
+  exits {
+	to { n, 13 }
+	to { s, 15 }
+  }
+}
+
+15
+{
+  name { On The Bridge }
+  desc {
+"  You stand atop a rickety bridge.  There are no sides to prevent you from
+falling into the muddy moat that surrounds the structure.  Bubbles burst at
+the surface of the water. Something must live down there! Best make your way
+quickly north or south, this bridge might not last too much longer.
+
+  }
+  sector { Field }
+  tele { 180, 1, 90 }
+  exits {
+	to { n, 14 }
+	to { s, 16 }
+  }
+}
+
+16
+{
+  name { The Entance To The Palace Of The Skexies }
+  desc {
+"   You are at the entrance to the ugly structure. A sign has been hung on a
+nearby protruding scrap of metal.  There is an iron door here with a flimsy
+lock to prevent unwanted visitors. There are claw marks around the lock.  If
+you work quickly, you could easily pick it.
+
+  }
+  sector { Field }
+  extra {
+	keywords { door" }
+	desc { "  This iron door seems really heavy, but the lock is old and rusted.  Hurry!
+Pick it while no one is looking!
+
+	}
+	keywords { sign" }
+	desc { "
+          T H E    P A L A C E    O F    T H E    S K E X I E S
+       ===========================================================
+
+                            ALL ARE WELCOME.
+
+                       'NLESS YOU ARE A GELFLING
+
+                         ENJOY YOUR STAY HERE.
+
+                                                       ALASTAIR,
+                                                       LEADER OF THE SKEXIES
+
+
+	}
+  }
+  exits {
+	to { n, 15 }
+	to { s, 17 }
+	  key { 15802 }
+	  info { door, closed }
+	  keywords { door iron" }
+  }
+}
+
+17
+{
+  name { A Domed Skexie Chamber }
+  desc {
+"   You are now inside the Palace of the Skexies. Sconces line the muddy walls
+every 15 feet, and support torches.  The effect is dim light, that is
+soothing to the eyes.  The smell is acrid and stale.  The area is well kept
+however,and no metal scraps purtrude from the muddy walls. There is an
+occasional feather lying about.  A long dimly lit hallway is to the south,
+and there are passages here both west and east.
+
+  }
+  extra {
+	keywords { feather" }
+	desc { "  The feathers here are of a variety of colors, but all have a characteristic
+spike near the tip. Examining more closes the feathers seem tough and hard.
+They are nearly a foot in legnth. The creature that grew these feathers must
+be quite large.
+
+	}
+	keywords { feathers" }
+	desc { "  The feathers here are of a variety of colors, but all have a characteristic
+spike near the tip. Examining more closes the feathers seem tough and hard.
+They are nearly a foot in legnth. The creature that grew these feathers must
+be quite large.
+	}
+  }
+  exits {
+	to { n, 16 }
+	  key { 15802 }
+	  info { door, closed }
+	  keywords { door" }
+	to { e, 19 }
+	to { s, 20 }
+	to { w, 18 }
+  }
+}
+
+18
+{
+  name { The Salon }
+  desc {
+"  This seems to be some sort of relaxation area.  There are facilities for
+several people to sit and relax.  There is a very large fireplace along
+west wall which heats this room.
+
+  }
+  extra {
+	keywords { fire" }
+	desc { "   The fireplace is extremely large.  There is easily enough room for you to
+actually walk inside.  You think you might like to try that.
+	}
+	keywords { fireplace" }
+	desc { "   The fireplace is extremely large.  There is easily enough room for you to
+actually walk inside.  You think you might like to try that.
+
+	}
+  }
+  exits {
+	to { e, 17 }
+	to { s, 21 }
+	to { w, 103 }
+  }
+}
+
+19
+{
+  name { The Palace Greeting Room }
+  desc {
+"  This is an elaborately decorated meeting area for diplomats and honored
+guests. There are high ceilings with ornately carved masonry. It is
+a remarkably modern room, and differs greatly from adjacent rooms.
+The Skexies did notconstruct this room, and probably contracted the
+services of a more civilized people in order to construct this room.
+It has far too much class to have been constructed by Skexies. Items
+for doing routine maintenence are strewn about.
+
+  }
+  extra {
+	keywords { statues" }
+	desc { "  This work has been done by a neighboring friendly tribe, the Neathar. The
+Neathar are widely known for their fantastic contruction.
+
+	}
+	keywords { masonry" }
+	desc { "  This work has been done by a neighboring friendly tribe, the Neathar. The
+Neathar are widely known for their fantastic contruction.
+	}
+	keywords { ceiling" }
+	desc { "  This work has been done by a neighboring friendly tribe, the Neathar. The
+Neathar are widely known for their fantastic contruction.
+	}
+  }
+  exits {
+	to { s, 22 }
+	to { w, 17 }
+  }
+}
+
+20
+{
+  name { Hallway To The Lair }
+  desc {
+"   This is the long hallway that leads into the heart of the palace. It is
+about 3 feet wide and about 6 feet tall, with a arched ceiling.  Mud has been
+used to pack the sides of the hallway to make the walls seem smooth. An
+occasional mouse scurries between your feet.
+
+  }
+  exits {
+	to { n, 17 }
+	to { e, 22 }
+	to { s, 23 }
+	to { w, 21 }
+  }
+}
+
+21
+{
+  name { Southern Salon }
+  desc {
+"  This is the northern salon area. There are resting spots and louging areas
+here. Skexie children enjoy the furniture as a junglejim. The room is well
+kept in case company wanders in. The room is rarely used.
+
+  }
+  extra {
+	keywords { furniture" }
+	desc { "   This is not what we would normally call furniture.  Actually it really only
+consists of nest material with hard slabs of slate or rock laid over the top.
+	}
+  }
+  exits {
+	to { n, 18 }
+	to { e, 20 }
+  }
+}
+
+22
+{
+  name { Mysterious Altar }
+  desc {
+"  This is a room with little or no decoration.  There are rows for
+participants to sit in. At the head of the room there is a huge altar, at
+least 40 feet high. It is constructed of metal and jewels of various types.
+  }
+  extra {
+	keywords { jewels" }
+	desc { "  This alter is unmovable and its jewels cannot be pried free. When you get
+close enough, you are able to discern a Skexie figure created from the metal
+parts. The two largest jewels compose the eyes of the Skexie.
+	}
+	keywords { altar" }
+	desc { "  This alter is unmovable and its jewels cannot be pried free. When you get
+close enough, you are able to discern a Skexie figure created from the metal
+parts. The two largest jewels compose the eyes of the Skexie.
+
+	}
+	keywords { alter" }
+	desc { "  This alter is unmovable and its jewels cannot be pried free. When you get
+close enough, you are able to discern a Skexie figure created from the metal
+parts. The two largest jewels compose the eyes of the Skexie.
+
+	}
+  }
+  exits {
+	to { n, 19 }
+	to { w, 20 }
+  }
+}
+
+23
+{
+  name { Hallway To The Lair }
+  desc {
+"   This is the long hallway that leads into the heart of the palace. It is
+about 3 feet wide and about 6 feet tall, with a arched ceiling.  Mud has been
+used to pack the sides of the hallway to make the walls seem smooth. An
+occasional mouse scurries between your feet. There is a wood door to the
+west and an iron door to the east.
+  }
+  exits {
+	to { n, 20 }
+	to { e, 25 }
+	  info { door, closed }
+	  keywords { east iron" }
+	to { s, 26 }
+	to { w, 24 }
+	  info { door, closed }
+	  keywords { west wood" }
+  }
+}
+
+24
+{
+  name { Palthor's Chamber }
+  desc {
+"   You have entered the chamber of Palthor, the Sergeant at Arms of the
+Skexies.  Pathor's numerous stuffed accomplishments adorn the walls. Several
+Gelfling warriors have fallen to Palthor and his armies.  Palthor is highly
+regarded among Skexies as among their best tacticians and fighters. The room
+is colored a lusterous blue. Several nests are also here, one in each corner
+of the room.
+  }
+  extra {
+	keywords { accomplishments" }
+	desc { "  These taxidermied heads and torsos are from various animals, including boar,
+Gelfling, Humans, and even some of the Skexies that have dishonored the
+tribe.
+
+	}
+	keywords { stuffed" }
+	desc { "  These taxidermied heads and torsos are from various animals, including boar,
+Gelfling, Humans, and even some of the Skexies that have dishonored the
+tribe.
+
+	}
+	keywords { nest" }
+	desc { "   Would you want someone looking in your nest?
+
+	}
+  }
+  exits {
+	to { e, 23 }
+	  info { door, closed }
+	  keywords { east wood" }
+  }
+}
+
+25
+{
+  name { Wegendel's Lair }
+  desc {
+"   You have stumbled upon the Lair of Wegendel, the Master Illusionist of the
+Skexies. Strange images jump out at you upon entering. Wegendel is a master
+of trickery and disguise. Wegendel has been helpful in the Skexie's battle
+versus the Gelfling by disguising himself as a Gelfling. Magical implements
+lie on a nearby sacrificial table, as do mixtures on unknown substances.
+
+  }
+  extra {
+	keywords { mixtures" }
+	desc { "  These implements and mixtures consitute the necessary items for Wegendel to
+complete various illusions and disguises. They include spider legs, frogs
+eyes, feathers of various types, dragon scales, scrapers, mashers, pastes, and
+glues.
+
+	}
+	keywords { unknown" }
+	desc { "  These implements and mixtures consitute the necessary items for Wegendel to
+complete various illusions and disguises. They include spider legs, frogs
+eyes, feathers of various types, dragon scales, scrapers, mashers, pastes, and
+glues.
+
+	}
+	keywords { implements" }
+	desc { "  These implements and mixtures consitute the necessary items for Wegendel to
+complete various illusions and disguises. They include spider legs, frogs
+eyes, feathers of various types, dragon scales, scrapers, mashers, pastes, and
+glues.
+
+
+	}
+  }
+  exits {
+	to { w, 23 }
+	  info { door, closed }
+	  keywords { west iron" }
+  }
+}
+
+26
+{
+  name { Hallway To The Lair }
+  desc {
+"   This is the long hallway that leads into the heart of the palace. It is
+about 3 feet wide and about 6 feet tall, with a arched ceiling.  Mud has been
+used to pack the sides of the hallway to make the walls seem smooth. An
+occasional mouse scurries between your feet. There is a wood door to the
+west and an iron door to the east.
+
+  }
+  exits {
+	to { n, 23 }
+	to { e, 28 }
+	  info { door, closed }
+	  keywords { east iron" }
+	to { s, 29 }
+	to { w, 27 }
+	  info { door, closed }
+	  keywords { west wood" }
+  }
+}
+
+27
+{
+  name { Brackenred's Chamber }
+  desc {
+"  A horrible sickly stench accosts you upon entering. Garbage and excrement
+are piled up in massive heaps here. The chamber of Brackenred appears in
+obvious disuse. It has become a haven for rats and other scurrying animals. A
+ritualistic symbol is attached to the door. No one seems to have been in here
+in quite a long while.
+
+  }
+  extra {
+	keywords { ritualistic symbol ritualistic" }
+	desc { "  This is the symbol given to a Skexie that fallen out of favor with the
+Skexies. It has a message ingraved upon it:
+Dishonor has earned you the Symbol. Wear it. Die Proud.
+
+	}
+  }
+  exits {
+	to { e, 26 }
+	  info { door, closed }
+	  keywords { east wood" }
+  }
+}
+
+28
+{
+  name { Crandel's Lair }
+  desc {
+"   This is the Lair of Crandel, the Skexie Mage. The rooms walls have been
+painted a luterous purple. There is a large nest in one corner. Netting hangs
+from the ceiling. Sticks have been hung on each intersection of the net. The
+sticks form an artistic image. There is a shelf with various vials upon it.
+
+  }
+  exits {
+	to { w, 26 }
+	  info { door, closed }
+	  keywords { west iron" }
+  }
+}
+
+29
+{
+  name { Hallway To The Lair }
+  desc {
+"   This is the long hallway that leads into the heart of the palace. It is
+about 3 feet wide and about 6 feet tall, with a arched ceiling.  Mud has been
+used to pack the sides of the hallway to make the walls seem smooth. An
+occasional mouse scurries between your feet. There are doors to both sides
+here.
+
+  }
+  exits {
+	to { n, 26 }
+	to { e, 31 }
+	  info { door, closed }
+	  keywords { east iron" }
+	to { s, 32 }
+	to { w, 30 }
+	  info { door, closed }
+	  keywords { west wood" }
+  }
+}
+
+30
+{
+  name { Alastair's Chamber }
+  desc {
+"  This is the chamber of Alastair, the Leader of The Skexies.  Several nests
+lie about for his many maidens. Three large tusks protrude from the
+northern wall. A sash of fine red silk steams across the tusks forming a
+canopy over the largest nest in the room.
+  }
+  extra {
+	keywords { nest" }
+	desc { "  Would you want someone looking in your nest?
+
+	}
+  }
+  exits {
+	to { e, 29 }
+	  info { door, closed }
+	  keywords { east wood" }
+  }
+}
+
+31
+{
+  name { Turendac's Lair }
+  desc {
+"  You have found the lair of Turednac, the High Magister of the Skexies.
+Ornamentations adorn the walls, and a small podium sits before a 2 foot tall
+statue. The area is well kept and a shelf holds various vials, of various
+colors. A small mirror is also here, hung along the northern wall above what
+appears to be his nest.
+
+  }
+  extra {
+	keywords { statue" }
+	desc { "  This is a statue of Queeklor, the god of flying rats.
+
+	}
+  }
+  exits {
+	to { w, 29 }
+	  info { door, closed }
+	  keywords { west iron" }
+  }
+}
+
+32
+{
+  name { Hallway To The Lair }
+  desc {
+"   This is the long hallway that leads into the heart of the palace. It is
+about 3 feet wide and about 6 feet tall, with a arched ceiling.  Mud has been
+used to pack the sides of the hallway to make the walls seem smooth. An
+occasional mouse scurries between your feet.
+
+  }
+  exits {
+	to { n, 29 }
+	to { e, 34 }
+	to { s, 35 }
+	to { w, 33 }
+  }
+}
+
+33
+{
+  name { A Cacophony Of Voices }
+  desc {
+"  This Room has an expansive high ceiling and really loud echos. Apparently,
+the room is still echoing from previous converstions here. The noise is
+deafening. You move your hands to cover your ears. Best return east to
+discuss anything.
+  }
+  exits {
+	to { e, 32 }
+  }
+}
+
+34
+{
+  name { A Null Of Silence }
+  desc {
+"  This room has a large cone in its eastern end.  Everything anyone says is
+swiftly carried into the cone.  There is absolutely no noise here.  People's
+mouths move, but no sound comes from them.
+
+  }
+  flags { no_goto }
+  exits {
+	to { w, 32 }
+  }
+}
+
+35
+{
+  name { A Skexie Intersection }
+  desc {
+"   This is the major intersection in the Palace. The traffic here is heavy.
+The training area for the Challenge of the Skexies is to the west. The long
+hallway runs north and south. General Skexie quaters lie to the east.
+  }
+  exits {
+	to { n, 32 }
+	to { e, 37 }
+	to { s, 38 }
+	to { w, 36 }
+  }
+}
+
+36
+{
+  name { Western Skexie Passage }
+  desc {
+"   This is the western passage in the palace. This hallway is generally left
+unused. This hallway leads to the training area for the Challenge of the
+Skexies.
+
+  }
+  exits {
+	to { e, 35 }
+	to { w, 89 }
+  }
+}
+
+37
+{
+  name { Eastern Skexie Passage }
+  desc {
+"   This passage leads to the General quaters for the Skexies. Normally,
+Skexie men who are not in power are slaves to those who are. The Skexie
+culture is hardly monogamous, and the Skexie maidens are public
+domain. Skexie children are left to caretakers.
+
+  }
+  exits {
+	to { e, 57 }
+	to { w, 35 }
+  }
+}
+
+38
+{
+  name { Hallway To The Lair }
+  desc {
+"   This is the long hallway that leads into the heart of the palace. It is
+about 3 feet wide and about 6 feet tall, with a arched ceiling.  Mud has been
+used to pack the sides of the hallway to make the walls seem smooth. An
+iron door lies to the east, and there is a wood door to the west. An
+occasional mouse scurries between your feet.
+  }
+  exits {
+	to { n, 35 }
+	to { e, 40 }
+	  info { door, closed }
+	  keywords { east iron" }
+	to { s, 41 }
+	to { w, 39 }
+	  info { door, closed }
+	  keywords { west wood" }
+  }
+}
+
+39
+{
+  name { Home Of The Skexie Jester }
+  desc {
+"   This is the fine home of the Skexie Jester. The room is colored a brash
+yellow with strange shapes painted upon the muddy walls. A feeling of
+euphorea hits you as you gaze toward the strange images. You are starting
+to feel really sick. Better leave now.
+
+  }
+  exits {
+	to { e, 38 }
+	  info { door, closed }
+	  keywords { east wood" }
+  }
+}
+
+40
+{
+  name { Home Of The Skexie Magister }
+  desc {
+"   This room is a very proper diplomat's room. There is a desk with parchment
+and quill atop it. There are many books of notable accord in a bookshelf on
+the western wall. A hearth burns coal on the southern wall, its soot escaping
+through a vent. There is also a large nest here, large enough for two Skexie.
+  }
+  exits {
+	to { w, 38 }
+	  info { door, closed }
+	  keywords { west iron" }
+  }
+}
+
+41
+{
+  name { Hallway To The Lair }
+  desc {
+"   This is the long hallway that leads into the heart of the palace. It is
+about 3 feet wide and about 6 feet tall, with a arched ceiling.  Mud has been
+used to pack the sides of the hallway to make the walls seem smooth. An
+iron door lies to the east, and there is a wood door to the west. An
+occasional mouse scurries between your feet.
+  }
+  exits {
+	to { n, 38 }
+	to { e, 43 }
+	  info { door, closed }
+	  keywords { east iron" }
+	to { s, 44 }
+	to { w, 42 }
+	  info { door, closed }
+	  keywords { west wood" }
+  }
+}
+
+42
+{
+  name { Home Of The Skexie Scribe }
+  desc {
+"   This room has very meager accommodations. There is a nest, a table, and a
+chair. On one wall there is a large wood lattice system. There are many
+scrolls rolled and stacked and carefully placed in the wooden lattice of the
+wall.
+
+  }
+  extra {
+	keywords { scrolls" }
+	desc { "   You take a quick peek to see if any are useful. There seem to be a couple
+wedged inside the lattice that might have some use.
+	}
+  }
+  exits {
+	to { e, 41 }
+	  info { door, closed }
+	  keywords { east wood" }
+  }
+}
+
+43
+{
+  name { Home Of The Skexie Bard }
+  desc {
+"   This room is the home of the Skexie Bard. In the room there is a nest, a
+small table and chair, a stool, and a rather long counter. Behind the counter
+you notice some liquors. This is a makeshift bar. On the opposite wall there
+is a case which contains some instruments.
+
+  }
+  extra {
+	keywords { instruments" }
+	desc { "   You check inside the case. Most of them look really old and useless. Some
+of them you wouldn't even know how to play.
+
+	}
+	keywords { case" }
+	desc { "   You check inside the case. Most of them look really old and useless. Some
+of them you wouldn't even know how to play.
+
+	}
+  }
+  exits {
+	to { w, 41 }
+	  info { door, closed }
+	  keywords { west iron" }
+  }
+}
+
+44
+{
+  name { Entrance To The Lair }
+  desc {
+"   This is the  door to the Skexie Lair, meeting place of the Counsel of the
+Skexies. This door has a strange keyhole. It is heavily clad with straps of
+metal and iron bars. You sense fresh air from both the west and the east. It
+is a welcome change to the stale Skexie atmosphere you have been in.
+
+  }
+  extra {
+	keywords { keyhole" }
+	desc { "   This is a rather strange keyhole. It looks like this:
+                          _______
+                       |\ \     / /|
+                       | \ \   / / |
+                       |  \_| |_/  |
+                       |   _   _   |
+                       |  / | | \  |
+                       | / /   \ \ |
+                       |/ /     \ \|
+                         |       |
+                         |       |
+                          \_____/
+
+
+	}
+  }
+  exits {
+	to { n, 41 }
+	to { e, 46 }
+	to { s, 47 }
+	  key { 15801 }
+	  info { door, closed }
+	  keywords { door metal iron" }
+	to { w, 45 }
+  }
+}
+
+45
+{
+  name { The Western Balcony }
+  desc {
+"  The night sky is above you. You have stepped out onto a balcony. The moat
+of the Palace is about 20 feet below you. There is a huge perch here for some
+great bird. The balcony however does not seem all that sturdy.
+
+  }
+  sector { Field }
+  extra {
+	keywords { perch" }
+	desc { "  This perch can accommodate a huge bird. The Skexies use this perch to
+welcome great visitors that come in by way of the air.
+
+	}
+  }
+  exits {
+	to { e, 44 }
+  }
+}
+
+46
+{
+  name { The Eastern Balcony }
+  desc {
+"  The night sky is above you. You have stepped out onto a balcony. The moat
+of the Palace is about 20 feet below you. There is a huge perch here for some
+great bird. The balcony however does not seem all that sturdy.
+
+  }
+  extra {
+	keywords { perch" }
+	desc { "  This perch can accommodate a huge bird. The Skexies use this perch to
+welcome great visitors that come in by way of the air.
+
+	}
+  }
+  exits {
+	to { w, 44 }
+  }
+}
+
+47
+{
+  name { The Lair Entry }
+  desc {
+"  This is the entry to the Lair. Beautiful cave paintings adorn the walls.
+They depict the history of the Skexie race. The largest hallway leading from
+here is to the south. There are less worn hallways to both the west and east.
+
+  }
+  extra {
+	keywords { cave" }
+	desc { "   These cave paintings explain the history of the Skexie race. It begins on
+one wall and continues along the western wall. The first drawing depicts
+Queeklor, the God of Rats, standing over an altar with a vulture, a rat, a
+human, and a huge diamond, in each of his four mighty arms. You conclude that
+these are the elements that came to produce the Skexies.
+
+	}
+	keywords { paintings" }
+	desc { "   These cave paintings explain the history of the Skexie race. It begins on
+one wall and continues along the western wall. The first drawing depicts
+Queeklor, the God of Rats, standing over an altar with a vulture, a rat, a
+human, and a huge diamond, in each of his four mighty arms. You conclude that
+these are the elements that came to produce the Skexies.
+
+	}
+  }
+  exits {
+	to { n, 44 }
+	  key { 15801 }
+	  info { door, closed }
+	  keywords { door metal iron" }
+	to { e, 49 }
+	to { s, 50 }
+	to { w, 48 }
+  }
+}
+
+48
+{
+  name { Helix Centranil }
+  desc {
+"  A disorienting fog is in this room. You feel a strange feeling come over
+you. Weren't you just here?!?!
+  }
+  tele { 30, 0, 55 }
+  exits {
+	to { e, 47 }
+	to { s, 51 }
+	to { u, 55 }
+	to { d, 55 }
+  }
+}
+
+49
+{
+  name { The Feeding Tank }
+  desc {
+"   This is a huge water feeding tank. Visible inside are a variey of special
+Skexie delicacies used during meetings, feasts, and special ceremonies.
+Additionally several open pit grills are here to prepare food that must be
+cooked. A carving table is also nearby for prepare food to be eaten live. The
+entire Skexie dishset is here, awaiting Alastair's order to prepare the next
+feast. Are you invited, or are you to be the feast?
+
+  }
+  extra {
+	keywords { tank" }
+	desc { "   This is a huge water filled tank. The creatures inside are very strange.
+Some have no eyes. Others look like worm-type creatures. Whatever their
+origin, they are truly gruesome looking.
+	}
+	keywords { dishset" }
+	desc { "   Oh....what a horrible thought.
+
+	}
+  }
+  exits {
+	to { s, 52 }
+	to { w, 47 }
+  }
+}
+
+50
+{
+  name { The Skexie Counsel Room }
+  desc {
+"   This is the Counsel Chamber of the Skexies. All important decisions are
+made here. This is where one Skexie might issue a challenge to another
+Skexie, or where the Skexie might discuss treaties, armistices, or
+declarations of war.  The large room is nearly filled by the huge
+rectangle which occupies the room. The middle of the table has been
+removed, leaving the table as actually a large hollow rectangle.
+The walls are adorned with curtains and tapestries. This is perhaps the
+richest room in all the Skexie Palace. Your most chivalrous, and
+appropriate behavior is expected here.
+
+  }
+  extra {
+	keywords { tapestries" }
+	desc { "   The walls are covered with richly colored curtains, and vibrant tapestries.
+The ceilings are tall (40 feet), and the curtains drape down all the way to
+the floor. They are colored in a beautiful blue and red pattern.
+
+	}
+	keywords { curtains" }
+	desc { "   The walls are covered with richly colored curtains, and vibrant tapestries.
+The ceilings are tall (40 feet), and the curtains drape down all the way to
+the floor. They are colored in a beautiful blue and red pattern.
+
+	}
+	keywords { table" }
+	desc { "   This table nearly fills the room. It is very old, and seems to be made
+of single piece construction. The tree it came from therefore must have
+been massive.
+
+	}
+  }
+  exits {
+	to { n, 47 }
+	to { e, 52 }
+	to { s, 53 }
+	to { w, 51 }
+  }
+}
+
+51
+{
+  name { The Statue of Rugrat }
+  desc {
+"  In this room is a monstrous statue of Rugrat the Skexie. Rugrat is revered
+among Skexies as the most noble Skexie to have ever lived. Rugrat is rumored
+to be living in the lap of luxury somewhere nearby. Rugrat gained fame and
+fortune by defeating the Shattenalfen invasion in the Year of the Dragon.
+Rugrat's fighting techniques are still taught, and several Skexies are rumored
+to have been taught some special secrets after training under Rugrat.
+
+  }
+  extra {
+	keywords { rugrat" }
+	desc { "   This massive statue is Rugrat the Skexie. The statue depicts a remarkably
+handsome Skexie with wonderful red plumage. Most notable are Rugrat's finely
+manicured beak and claws. The statue is serious, but somehow friendly.
+	}
+	keywords { statue" }
+	desc { "   This massive statue is Rugrat the Skexie. The statue depicts a remarkably
+handsome Skexie with wonderful red plumage. Most notable are Rugrat's finely
+manicured beak and claws. The statue is serious, but somehow friendly.
+
+	}
+  }
+  exits {
+	to { n, 48 }
+	to { e, 50 }
+	to { s, 54 }
+  }
+}
+
+52
+{
+  name { The Statue of Queeklor }
+  desc {
+"  This room contains a monstrous statue of Queeklor, the God of Rats.
+Queeklor is depicted with his four huge arms at the ordinal points on the
+compass. In the hand pointed upward he holds a huge diamond. Toward the left
+he holds a depiction of a small human being. In his hand pointed down he holds
+a small carved rat. Toward the right he holds a vulture.
+
+  }
+  extra {
+	keywords { statue" }
+	desc { "   This statue represents Queeklor, the God of Rats.
+
+	}
+  }
+  exits {
+	to { n, 49 }
+	to { s, 55 }
+	to { w, 50 }
+  }
+}
+
+53
+{
+  name { The Master's Sanctuary }
+  desc {
+"   This is the Sanctuary of the Master Skexie. Huge red curtains line the
+walls, and a sacrificial table lies in the center. Thin sheets of transparent
+silk cover the arched entryway to the south. The southern exit has a
+beautifully crafted sign posted near it.
+
+  }
+  extra {
+	keywords { sign" }
+	desc { "   The Sign reads:
+
+             THE ENTRANCE TO THE CHALLENGE OF THE SKEXIES
+             ============================================
+
+
+              THE BEGINNERS CHALLENGE LIES TO THE EAST.
+
+              THE INTERMEDIATE CHALLENGE LIES TO THE WEST.
+
+              THE ULTIMATE CHALLENGE LIES TO THE NORTH.
+
+
+
+              GOOD LUCK!
+
+              (CONTACT AN IMMORTAL UPON COMPLETION)
+
+	}
+	keywords { table" }
+	desc { "   This is the table upon which sacrifices are made to the gods prior to
+entering the Challenge of the Skexies.
+
+	}
+  }
+  exits {
+	to { n, 50 }
+	to { e, 55 }
+	to { s, 56 }
+	to { w, 54 }
+  }
+}
+
+54
+{
+  name { The Skexie Room with Revolving Ceiling }
+  desc {
+"  This ceremonial room is nothing like you have ever seen before. The ceiling
+is actually constantly revolving. There is a huge wonderous mosaic on the
+ceiling which actually seem to change shape as the ceiling revolves. The
+paintings are of Skexies in battle.
+  }
+  extra {
+	keywords { mosaic" }
+	desc { "   After checking more closely, your aren't sure if this is some sort of
+illusion or magic, or what...You notice yourself in the mosaic! When you move,
+so does the mosaic!
+
+	}
+	keywords { ceiling" }
+	desc { "   After checking more closely, your aren't sure if this is some sort of
+illusion or magic, or what...You notice yourself in the mosaic! When you move,
+so does the mosaic!
+
+	}
+  }
+  exits {
+	to { n, 51 }
+	to { e, 53 }
+  }
+}
+
+55
+{
+  name { Centranil Helix }
+  desc {
+"  A disorienting fog is in this room. You feel a strange feeling come over you.
+Weren't you just here?!?!
+
+  }
+  tele { 10, 0, 48 }
+  exits {
+	to { n, 52 }
+	to { w, 53 }
+	to { u, 48 }
+	to { d, 48 }
+  }
+}
+
+56
+{
+  name { The Challenge Entry }
+  desc {
+"   This is the entry to the Challenge of the Skexies. This will be your
+last opportunity to prepare yourself. The door to thenorth is painted
+in gold.  The door to the east is painted bronze. The door to the west is
+painted silver.  There is also a sign on a nearby wall.
+
+  }
+  extra {
+	keywords { sign" }
+	desc { "   The Sign reads:
+
+             THE ENTRANCE TO THE CHALLENGE OF THE SKEXIES
+             ============================================
+
+
+              THE BEGINNERS CHALLENGE LIES TO THE EAST.
+
+              THE INTERMEDIATE CHALLENGE LIES TO THE WEST.
+
+              THE ULTIMATE CHALLENGE LIES TO THE NORTH.
+
+
+
+              GOOD LUCK!
+
+              (CONTACT AN IMMORTAL UPON COMPLETION)
+
+
+	}
+  }
+  exits {
+	to { n, 175 }
+	  info { door }
+	  keywords { gold-door gold" }
+	to { e, 154 }
+	  info { door }
+	  keywords { bronze-door bronze" }
+	to { s, 53 }
+	to { w, 164 }
+	  info { door }
+	  keywords { silver-door silver" }
+  }
+}
+
+57
+{
+  name { Entrance To The Skexie Quarters }
+  desc {
+"   This hallway ends with a door that leads into the main Skexie Quaters. It
+is about 3 feet wide and about 6 feet tall, with a arched ceiling.  Mud has
+been used to pack the sides of the hallway to make the walls seem smooth. An
+occasional mouse scurries between your feet.
+  }
+  exits {
+	to { e, 58 }
+	  info { door, closed }
+	  keywords { door" }
+	to { w, 37 }
+  }
+}
+
+58
+{
+  name { Inside The Skexie Quaters }
+  desc {
+"   This small entry room is opens up into a larger room. There are various
+hallways leading in all directions. You hear the squaking and screaming of
+Skexie children coming from the south. The are hallways south, north, and east.
+  }
+  exits {
+	to { n, 59 }
+	to { e, 61 }
+	to { s, 68 }
+	to { w, 57 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+59
+{
+  name { A Skexie Quarters Hallway }
+  desc {
+"   This hallway is rather messy. There is trash and secrant droppings
+everywhere. There are feathers lying all around the floor. The hallway
+continues north and south.
+
+  }
+  exits {
+	to { n, 60 }
+	to { s, 58 }
+  }
+}
+
+60
+{
+  name { A Skexie Quarters Hallway }
+  desc {
+"   This hallway is rather messy. There is trash and secrant droppings
+everywhere. There are feathers lying all around the floor. The hallway
+continues north and south.
+
+  }
+  exits {
+	to { n, 77 }
+	to { s, 59 }
+  }
+}
+
+61
+{
+  name { A Skexie Quarters Hallway }
+  desc {
+"   This hallway is rather messy. There is trash and secrant droppings
+everywhere. There are feathers lying all around the floor. The hallway
+continues west and east.
+
+  }
+  exits {
+	to { e, 62 }
+	to { w, 58 }
+  }
+}
+
+62
+{
+  name { A Skexie Quarters Hallway }
+  desc {
+"   This hallway is rather messy. There is trash and secrant droppings
+everywhere. There are feathers lying all around the floor. The hallway
+has an iron door to the north and a wood door to the south, there is
+a swinging door to the east, and a ladder leading up to the storage room.
+
+  }
+  exits {
+	to { n, 63 }
+	  info { door, closed }
+	  keywords { north iron" }
+	to { e, 65 }
+	  info { door, closed }
+	  keywords { swingingdoor swinging east" }
+	to { s, 64 }
+	  info { door, closed }
+	  keywords { south wood" }
+	to { w, 61 }
+	to { u, 66 }
+  }
+}
+
+63
+{
+  name { A Skexie Dormitory }
+  desc {
+"   This room is the residence of four Skexie. There are four nests with a
+small table and chair near each. Additionally there is a large table in the
+center of the room with four comfortable chairs. This room is a mess, with
+empty bottles lying everywhere.
+
+  }
+  exits {
+	to { s, 62 }
+	  info { door, closed }
+	  keywords { door iron south" }
+  }
+}
+
+64
+{
+  name { A Skexie Dormitory }
+  desc {
+"   This room is the residence of two Skexie. There are two large nests with a
+small table and chair near each. Additionally there is a large table in the
+center of the room with two comfortable chairs. This room is well kept and
+seems to have been cleaned recently.
+
+  }
+  exits {
+	to { n, 62 }
+	  info { door, closed }
+	  keywords { door wood north" }
+  }
+}
+
+65
+{
+  name { The Skexie Dining Room }
+  desc {
+"  This room is the main dining room for the Skexie. The Skexie prefer to eat
+together. There are several side tables, and one main table. Each of seats
+near the head of the main table have ornately covered arms and a very high
+back. The names of each Skexie leader are posted on the high backs of these,
+the largest of the chairs present.
+
+  }
+  extra {
+	keywords { chairs" }
+	desc { "   The largest of the many chairs here belong to each Skexie leader. The
+largest is Alastair's, then Turendac's, then there is a space where
+Brackenred's chair once might have been, then Crandel's, then Palthor's, and
+finally Wegendel's.
+
+	}
+	keywords { chair" }
+	desc { "   The largest of the many chairs here belong to each Skexie leader. The
+largest is Alastair's, then Turendac's, then there is a space where
+Brackenred's chair once might have been, then Crandel's, then Palthor's, and
+finally Wegendel's.
+
+	}
+	keywords { seats" }
+	desc { "   The largest of the many chairs here belong to each Skexie leader. The
+largest is Alastair's, then Turendac's, then there is a space where
+Brackenred's chair once might have been, then Crandel's, then Palthor's, and
+finally Wegendel's.
+	}
+	keywords { seat" }
+	desc { "   The largest of the many chairs here belong to each Skexie leader. The
+largest is Alastair's, then Turendac's, then there is a space where
+Brackenred's chair once might have been, then Crandel's, then Palthor's, and
+finally Wegendel's.
+
+	}
+  }
+  exits {
+	to { e, 67 }
+	to { w, 62 }
+	  info { door, closed }
+	  keywords { swinging-door swinging west" }
+  }
+}
+
+66
+{
+  name { The Skexie Storage Room }
+  desc {
+"   This large room holds the food stores of the Skexies. There are huge
+barrels of wine, vinegar, flour, wheat, nuts, preserved meats, pickled
+cabbage, and other food stuffs. The smell of the old food gives the room a
+particularly nasty scent. There is one barrel that hides a small passage.
+
+  }
+  extra {
+	keywords { barrel" }
+	desc { "   This large barrel hides a passage way. The dust nearby it is covered with
+small humanoid footprints.
+
+	}
+  }
+  exits {
+	to { w, 104 }
+	  info { door, closed }
+	  keywords { barrel" }
+	to { d, 62 }
+  }
+}
+
+67
+{
+  name { The Skexie Kitchen }
+  desc {
+"   This is a large kitchen where all Skexie meals are prepared. There are many
+shelves with various cooking implements, a wall rack with many seasonings,
+several cabinets, an long shelf on the northen wall with jars of preserved
+animal parts.
+
+  }
+  extra {
+	keywords { seasonings" }
+	desc { "   This rack has a variety of unusual seasonings used when preparing Skexie
+specialties. You cannot recognize most of them as anything you have ever seen
+before.
+
+	}
+	keywords { rack" }
+	desc { "   This rack has a variety of unusual seasonings used when preparing Skexie
+specialties. You cannot recognize most of them as anything you have ever seen
+before.
+
+	}
+	keywords { jars" }
+	desc { "   These jars lie on a high shelf on the northen wall. The contain a variety
+of preserved delicacies that are used in the preparation, or in the
+presentation of Skexie meals. They include a variety of things you cannot
+identify, but you do recognize the entrials of a dragon, the hooves of a
+goblin, and the fetal young of some humanoid creature, possibly human.
+
+	}
+	keywords { shelf" }
+	desc { "   These jars lie on a high shelf on the northen wall. The contain a variety
+of preserved delicacies that are used in the preparation, or in the
+presentation of Skexie meals. They include a variety of things you cannot
+identify, but you do recognize the entrials of a dragon, the hooves of a
+goblin, and the fetal young of some humanoid creature, possibly human.
+
+	}
+  }
+  exits {
+	to { w, 65 }
+  }
+}
+
+68
+{
+  name { A Skexie Quarters Hallway }
+  desc {
+"   This hallway is rather messy. There is trash and secrant droppings
+everywhere. There are feathers lying all around the floor. The hallway
+has a wood door to the west and an iron door to the east, the hallway
+continues to the south.
+
+  }
+  exits {
+	to { n, 58 }
+	to { e, 69 }
+	  info { door, closed }
+	  keywords { east iron" }
+	to { s, 71 }
+	to { w, 70 }
+	  info { door, closed }
+	  keywords { west wood" }
+  }
+}
+
+69
+{
+  name { A Skexie Bungalow }
+  desc {
+"   This very small room is the home of a single Skexie. There is a small table
+and chair next to a mattress type nest. There room is barely large enough to
+hold you and its contents, but squeezing in is possible.
+
+  }
+  exits {
+	to { w, 68 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+70
+{
+  name { A Skexie Bungalow }
+  desc {
+"   This very small room is the home of a single Skexie. There is a small table
+and chair next to a mattress type nest. There room is barely large enough to
+hold you and its contents, but squeezing in is possible.
+  }
+  exits {
+	to { e, 68 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+71
+{
+  name { A Skexie Quarters Hallway }
+  desc {
+"   This hallway is rather messy. There is trash and secrant droppings
+everywhere. There are feathers lying all around the floor. The hallway
+has a wood door to the west and an iron door to the east, the hallway
+continues to the south.
+
+  }
+  exits {
+	to { n, 68 }
+	to { e, 72 }
+	  info { door, closed }
+	  keywords { east iron" }
+	to { s, 74 }
+	to { w, 73 }
+	  info { door, closed }
+	  keywords { west wood" }
+  }
+}
+
+72
+{
+  name { A Skexie Bungalow }
+  desc {
+"   This very small room is the home of a single Skexie. There is a small table
+and chair next to a mattress type nest. There room is barely large enough to
+hold you and its contents, but squeezing in is possible.
+  }
+  exits {
+	to { w, 71 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+73
+{
+  name { A Skexie Bungalow }
+  desc {
+"   This very small room is the home of a single Skexie. There is a small table
+and chair next to a mattress type nest. There room is barely large enough to
+hold you and its contents, but squeezing in is possible.
+  }
+  exits {
+	to { e, 71 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+74
+{
+  name { A Skexie Quarters Hallway }
+  desc {
+"   This hallway is rather messy. There is trash and secrant droppings
+everywhere. There are feathers lying all around the floor. The hallway
+has a wood door to the west, and an iron door to the east.
+
+  }
+  exits {
+	to { n, 71 }
+	to { e, 75 }
+	  info { door, closed }
+	  keywords { east iron" }
+	to { w, 76 }
+	  info { door, closed }
+	  keywords { west wood" }
+  }
+}
+
+75
+{
+  name { Chamber of the Secrants }
+  desc {
+"   This is the chamber where all the Secrants of the palace congregate to
+sleep and groom one another. The Secrants have developed a mutually beneficial
+relationship with the Skexies.  The Secrants eat trash that the Skexies cannot
+get rid of, and the Secrants enjoy healthy meals of plentiful rubbish. If it
+weren't for the Secrants, you'd be up to your neck in trash right now.
+
+  }
+  exits {
+	to { w, 74 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+76
+{
+  name { Chamber of the Secrants }
+  desc {
+"   This is the chamber where all the Secrants of the palace congregate to
+sleep and groom one another. The Secrants have developed a mutually beneficial
+relationship with the Skexies. The Secrants eat trash that the Skexies cannot
+get rid of, and the Secrants enjoy healthy meals of plentiful rubbish. If it
+weren't for the Secrants, you'd be up to your neck in trash right now.
+
+  }
+  exits {
+	to { e, 74 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+77
+{
+  name { A Skexie Quarters Hallway }
+  desc {
+"   This hallway is rather messy. There is trash and secrant droppings
+everywhere. There are feathers lying all around the floor. The hallway
+continues north and south.
+  }
+  exits {
+	to { n, 78 }
+	to { s, 60 }
+  }
+}
+
+78
+{
+  name { A Skexie Quarters Hallway }
+  desc {
+"   This hallway is rather messy. There is trash and secrant droppings
+everywhere. There are feathers lying all around the floor. There is a metal
+door to the north, a wood door to the west, and an iron door to the
+east. There are signs on the doors to the west and east.
+
+  }
+  extra {
+	keywords { sign" }
+	desc { "   There is an iron door to the east. The sign on the door reads:
+
+                          G E N T L E M A N
+
+
+   There is a wood door to the west.  The sign on the door reads:
+
+                             L A D I E S
+
+
+	}
+  }
+  exits {
+	to { n, 81 }
+	  info { door, closed }
+	  keywords { north metal" }
+	to { e, 80 }
+	  info { door, closed }
+	  keywords { east iron" }
+	to { s, 77 }
+	to { w, 79 }
+	  info { door, closed }
+	  keywords { west wood" }
+  }
+}
+
+79
+{
+  name { The Skexie Powder Room }
+  desc {
+"   This is a bathroom of sorts. There are stalls and seats all around the room.
+Under these seats are holes that go several feet into the ground. Several
+Secrants are deep within the holes enjoying themselves. A feast of sorts is
+going on within the holes.
+  }
+  extra {
+	keywords { stalls" }
+	desc { "   These stalls and seats are specially made to accommodate the anatomy of the
+Skexie.
+
+	}
+	keywords { seats" }
+	desc { "   These stalls and seats are specially made to accommodate the anatomy of the
+Skexie.
+
+	}
+  }
+  exits {
+	to { e, 78 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+80
+{
+  name { The Skexie Men's Room }
+  desc {
+"   This is a bathroom of sorts. There are stalls and seats all around the room.
+Under these seats are holes that go several feet into the ground. Several
+Secrants are deep within the holes enjoying themselves. A feast of sorts is
+going on within the holes.
+
+  }
+  extra {
+	keywords { seats" }
+	desc { "   These stalls and seats are specially made to accommodate the anatomy of the
+Skexie.
+
+	}
+	keywords { stalls" }
+	desc { "   These stalls and seats are specially made to accommodate the anatomy of the
+Skexie.
+
+	}
+  }
+  exits {
+	to { w, 78 }
+	  info { door, closed }
+	  keywords { door" }
+  }
+}
+
+81
+{
+  name { The Skexie Maiden's Chambers Entryway }
+  desc {
+"   The is the entrance to the chambers of the Skexie maidens. The passages
+west and east lead to the chambers. There is a sign on the wall here with some
+poorly done embroidery.
+
+  }
+  extra {
+	keywords { sign" }
+	desc { "    The sign is very old, and its embroidery is truly dreadful. It reads:
+                                _______________
+                               {    H O M E    }
+                               [               ]
+                               [   S W E E T   ]
+                               [               ]
+                               {    H O M E    }
+                                ---------------
+
+	}
+  }
+  exits {
+	to { e, 85 }
+	to { s, 78 }
+	  info { door, closed }
+	  keywords { door metal south" }
+	to { w, 82 }
+  }
+}
+
+82
+{
+  name { The Skexie Maiden's Hallway }
+  desc {
+"   The hallway ends here, with doors to the north and south. There nothing
+particularly interesting here otherwise, except the usual feathers. In
+general, the Skexie females seem a bit more concerned about hygiene than the
+males. Therefore, it is a bit cleaner here than in other parts of the Palace.
+
+  }
+  exits {
+	to { n, 83 }
+	to { e, 81 }
+	to { s, 84 }
+  }
+}
+
+83
+{
+  name { A Skexie Maiden's Chamber }
+  desc {
+"   This chamber has facilities for four Skexie maidens.  There are four plush
+nests, decorated with scraps of colorful cloth. There are also several chairs,
+and a large table. Various grooming instruments lie on the table.
+
+  }
+  extra {
+	keywords { grooming" }
+	desc { "  These are used for grooming the feathers of the Skexie maidens. Some of them
+look rather painful. Some have pointed teeth like combs, others are somewhat
+like brushes. These grooming instruments have been passed down for generations.
+They show a great deal of use. After all, the maidens need all the help they
+can get.
+
+	}
+	keywords { instruments" }
+	desc { "  These are used for grooming the feathers of the Skexie maidens. Some of them
+look rather painful. Some have pointed teeth like combs, others are somewhat
+like brushes. These grooming instruments have been passed down for generations.
+They show a great deal of use. After all, the maidens need all the help they
+can get.
+
+	}
+	keywords { nests" }
+	desc { "   These nest reflect the individual tastes of their owner. They all have a
+theme, and no two are alike.
+
+	}
+  }
+  exits {
+	to { s, 82 }
+  }
+}
+
+84
+{
+  name { A Skexie Maiden's Chamber }
+  desc {
+"   This chamber has facilities for four Skexie maidens.  There are four plush
+nests, decorated with scraps of colorful cloth. There are also several chairs,
+and a large table. Various grooming instruments lie on the table.
+
+  }
+  extra {
+	keywords { grooming" }
+	desc { "  These are used for grooming the feathers of the Skexie maidens. Some of them
+look rather painful. Some have pointed teeth like combs, others are somewhat
+like brushes. These grooming instruments have been passed down for generations.
+They show a great deal of use. After all, the maidens need all the help they
+can get.
+
+	}
+	keywords { instruments" }
+	desc { "  These are used for grooming the feathers of the Skexie maidens. Some of them
+look rather painful. Some have pointed teeth like combs, others are somewhat
+like brushes. These grooming instruments have been passed down for generations.
+They show a great deal of use. After all, the maidens need all the help they
+can get.
+
+	}
+	keywords { nests" }
+	desc { "   These nest reflect the individual tastes of their owner. They all have a
+theme, and no two are alike.
+
+	}
+  }
+  exits {
+	to { n, 82 }
+  }
+}
+
+85
+{
+  name { The Skexie Maiden's Hallway }
+  desc {
+"   The hallway ends here, with doors to the north and south. There nothing
+particularly interesting here otherwise, except the usual feathers. In
+general, the Skexie females seem a bit more concerned about hygiene than the
+males. Therefore, it is a bit cleaner here than in other parts of the Palace.
+
+  }
+  exits {
+	to { n, 86 }
+	to { s, 87 }
+	to { w, 81 }
+  }
+}
+
+86
+{
+  name { A Skexie Maiden's Chamber }
+  desc {
+"   This chamber has facilities for four Skexie maidens.  There are four plush
+nests, decorated with scraps of colorful cloth. There are also several chairs,
+and a large table. Various grooming instruments lie on the table.
+  }
+  extra {
+	keywords { instruments" }
+	desc { "  These are used for grooming the feathers of the Skexie maidens. Some of them
+look rather painful. Some have pointed teeth like combs, others are somewhat
+like brushes. These grooming instruments have been passed down for generations.
+They show a great deal of use. After all, the maidens need all the help they
+can get.
+	}
+	keywords { nests" }
+	desc { "   These nest reflect the individual tastes of their owner. They all have a
+theme, and no two are alike.
+	}
+  }
+  exits {
+	to { s, 85 }
+  }
+}
+
+87
+{
+  name { A Skexie Maiden's Chamber }
+  desc {
+"   This chamber has facilities for four Skexie maidens.  There are four plush
+nests, decorated with scraps of colorful cloth. There are also several chairs,
+and a large table. Various grooming instruments lie on the table.
+
+  }
+  extra {
+	keywords { grooming" }
+	desc { "  These are used for grooming the feathers of the Skexie maidens. Some of them
+look rather painful. Some have pointed teeth like combs, others are somewhat
+like brushes. These grooming instruments have been passed down for generations.
+They show a great deal of use. After all, the maidens need all the help they
+can get.
+
+	}
+	keywords { instruments" }
+	desc { "  These are used for grooming the feathers of the Skexie maidens. Some of them
+look rather painful. Some have pointed teeth like combs, others are somewhat
+like brushes. These grooming instruments have been passed down for generations.
+They show a great deal of use. After all, the maidens need all the help they
+can get.
+	}
+	keywords { nests" }
+	desc { "   These nest reflect the individual tastes of their owner. They all have a
+theme, and no two are alike.
+	}
+  }
+  exits {
+	to { n, 85 }
+  }
+}
+
+89
+{
+  name { Skexie Challenge Instructions Room }
+  desc {
+"   There are six signs on the wall here which explain the Challenge of the
+Skexies. You are encouraged to read each of the six (Numbered "sign1" through
+"sign6"), and attempt the appropriate challenge. The Challenge of the Skexies
+is designed as a on-going quest. Your fair play and honesty is appreciated, as
+well as expected. When you decide you are ready to try a Challenge, you will
+find the entrance beyond the Skexie Lair.
+
+  }
+  extra {
+	keywords { sign6" }
+	desc { "   The Third Challenge zone is meant for players 40th to 50th Level.
+
+1)   ??? Deathtraps.
+2)   Many Magic wielding opponents.
+3)   ??? Opponents. 3 Questions of Knowledge.
+
+Prizes:
+Warrior : The Purple Shard            Magic-User : A Skexie Medallion
+Thief   : The Skexie Midnight Shield  Cleric     : A Skexie Medallion
+
+	}
+	keywords { sign5" }
+	desc { "   The Second Challenge zone is meant for players 20th to 40th Level.
+
+1)   One Deathtraps.
+2)   Several Magic wielding opponents.
+3)   9 Opponents. 2 Questions of Knowledge.
+
+Prizes:
+Warrior : A Skexie Helm            Magic-User  :  A Skexie Robe
+Thief   : A Black Skexie Suit      Cleric      :  A Skexie Robe
+
+	}
+	keywords { sign4" }
+	desc { "   The First Challenge zone is meant for players 10th to 20th Level.
+
+1)   No Deathtraps.
+2)   Few Magic wielding opponents.
+3)   9 opponents. 1 Question of Knowledge.
+
+Prizes:
+Warrior : Skexie Gauntlets          Magic-User  :  A Skexie Ankh
+Thief   : Skexie Thieves Boots      Cleric      :  A Skexie Ankh
+
+	}
+	keywords { sign3" }
+	desc { "   Any God which discovers you abusing the Challenge is empowered
+to punish you in any reasonable way they see fit. The Challenge
+of the Skexies is an innovative idea in mudding. It has never been
+done before. Your full cooperation and honesty are required to
+make the Challenge a fun and exciting area. The last three signs
+are introductions to each of the three Challenge zones. Read them
+carefully. Most of all, bring many healing potions with you.
+Also, you needn't complete the entire challenge at one sitting
+(the badges can be rented). Simply bypass the challenges you have
+already completed, and continue with the first one that you need.
+
+GOOD  LUCK!
+
+Rugrat the Skexie
+Creator of The Palace of the Skexies
+
+	}
+	keywords { sign2" }
+	desc { "   Players must enter each challenge room alone. The rooms are
+private (i.e. One player per room), and you may not in anyway
+receive help from another player. You may not attempt a challenge
+unless you are in the required level range. Challenge Prizes and
+badges are not tranferable, and have no monetary value. Do not attempt
+to give your Challenge prizes to another player. Any such action
+will cause you to lose any Challenge prize you currently have,
+plus you will lose the right to complete future Challenges (if any).
+To redeem your prize you must contact an Immortal with the ability
+to load the prize. The prizes do not naturally exist in the game.
+
+	}
+	keywords { sign1" }
+	desc { "     The Challenge of the Skexies is designed as an on-going
+quest for people levels 10 to 50. The Challenge area is separated
+into three Challenge zones. The first zone is meant for levels 10
+to 20. The second for levels 20 to 40, and the last, most difficult
+challenge , is meant for levels 40+. In each zone you will find 9
+Challenges to be completed. After successfully completing each
+challenge you will earn a badge (bronze badges for Challenge 1,
+silver badges for Challenge 2, and gold badges for Challenge 3).
+The badges are numbered and you must collect all the badges
+(of the appropriate color) to earn the Challenge prize. There is
+one prize for each class for each of the three Challenge zones
+(i.e. The Warrior's prize for Challenge 3, the most difficult, is
+The Purple Shard). The prizes will be well worth your risk of life.
+	}
+  }
+  exits {
+	to { e, 36 }
+  }
+}
+
+90
+{
+  name { The Bridge Collapses! }
+  desc {
+"   The ropes that hold the bridge in place struggle under your weight,
+then break under the load. You fall about 10' into the murky waters.
+>From below, you hear the stiring of a hungry beast! You are invited
+to dinner, too bad it's not you doing the eating.
+
+  }
+  flags { death }
+}
+
+103
+{
+  name { Inside A Skexie Fireplace }
+  desc {
+"   This is the inside of a huge fireplace. Tucked deep in one corner, not
+visible from the outside, is a small hole, about 2 feet in diameter. In the
+soot you see the tracks of a humanoid. Someone lives down there!
+
+  }
+  extra {
+	keywords { tracks" }
+	desc { "   These tracks look like they were made by someone about 4 feet tall,
+weighing maybe  close to 100 pounds.
+
+	}
+  }
+  exits {
+	to { e, 18 }
+	to { d, 104 }
+  }
+}
+
+104
+{
+  name { A Huge Slide }
+  desc {
+"   You found your way to a large slide and took the plunge down into the
+darkness. The slide is small, barely enough for your derriere, it is smooth and
+cold. It is made of a strong metal, and is of sturdy construction. This was
+definitely not built by the Skexies.
+
+  }
+  tele { 30, 1, 105 }
+  exits {
+	to { d, 105 }
+  }
+}
+
+105
+{
+  name { On A Huge Slide }
+  desc {
+"   You are approaching the end of the slide. Brace yourself for impact!
+
+  }
+  tele { 30, 1, 106 }
+  exits {
+	to { d, 106 }
+  }
+}
+
+106
+{
+  name { The Bottom of the Slide }
+  desc {
+"    THUD! You have reached the bottom of the slide. Your butt hurts a bit.
+The smell of the Skexie Palace has dissipated. You are in a large cavern.
+You shiver with cold. The temperature has easily dropped 50 degrees. There
+is the sound of socializing and talking to the west. There are also three
+signs on the wall. The first is labeled "Notes", the second is labeled
+"Traps", and the last is labeled "Kills". The slide you traveled down
+has springs which caused the slide to receed back up into the ceiling.
+Too bad......You're stuck.
+
+  }
+  extra {
+	keywords { notes" }
+	desc { "   The sign reads:
+
+                               N O T E S
+
+         Dasillea should know that I wont be coming home for dinner.
+                                                        Thrack
+
+         I learned to carve ice spikes today!
+                                                        Gilkey
+
+         It's hard to be humble when you are perfect in every way!
+                                                        Haag
+
+	}
+	keywords { traps" }
+	desc { "    The sign reads:
+
+                                T R A P S
+
+    A new trap has been set in the Skexie Hallway. Clawed toed opponents
+          can no longer travel easily there. I layed down some tiny spikes.
+          We can walk there freely, so it won't effect us at all. Kill those
+          Bastards!
+                                                           Driscol
+
+    I set I trap for Skexie children in the Maiden's Quarters. I hope we catch
+          a few! Best to get them while they're young!
+                                                           Dasillea
+
+    I set it up so that the Skexie's 'll get caught if they slide down the
+          slide. No more surprises!
+                                                           Feuq
+
+	}
+	keywords { kills" }
+	desc { "    The sign reads:
+                              K I L L S
+
+    I killed a Skexie Guard today! Hooray!
+                                                   Thrack
+
+    I slashed a Mantern while he waited on the Balcony!
+                                                   Gilkey
+
+    I massacred a Skexie maiden in the powder room! Blood everywhere!
+                                                   Haag
+
+	}
+  }
+  exits {
+	to { w, 107 }
+  }
+}
+
+107
+{
+  name { The Gelfling Meeting Room }
+  desc {
+"   This room is large. The walls are entirely natural. You are in a damp cave
+environment. There are tables and chairs everywhere. There is a board here
+with a large diagram on it. There are exits in all directions.
+
+  }
+  extra {
+	keywords { board" }
+	desc { "    Z <---              The Palace of the Skexies
+
+                       The Skexie _ Quarters
+                                 |_|
+          _   _   _   _   _   _   [   _   _   _
+         |3|-|6| |9| |c| |f| |i| |l| |o| |r| |u|
+      _   [   [   [   [   [   [   [   [   [   [
+Ent  |1|-|2|-|5|-|8|-|b|-|e|-|h|-|k|-|n|-|q|-|t|-?
+rance     |   |   |   |   |   |   |   |   |   |
+         |4|-|7| |a| |d| |g| |j| |m| |p| |s| |v|
+                                  |
+                                 |_|
+                    The Challenge Directions Room
+
+	}
+	keywords { diagram" }
+	desc { "    Z <---              The Palace of the Skexies
+
+                       The Skexie _ Quarters
+                                 |_|
+          _   _   _   _   _   _   [   _   _   _
+         |3|-|6| |9| |c| |f| |i| |l| |o| |r| |u|
+      _   [   [   [   [   [   [   [   [   [   [
+Ent  |1|-|2|-|5|-|8|-|b|-|e|-|h|-|k|-|n|-|q|-|t|-?
+rance     |   |   |   |   |   |   |   |   |   |
+         |4|-|7| |a| |d| |g| |j| |m| |p| |s| |v|
+                                  |
+                                 |_|
+                    The Challenge Directions Room
+	}
+	keywords { large" }
+	desc { "   Z <---              The Palace of the Skexies
+
+                    The Challenge _ Directions Room
+                                 |_|
+          _   _   _   _   _   _   [   _   _   _
+         |3|-|6| |9| |c| |f| |i| |l| |o| |r| |u|
+      _   [   [   [   [   [   [   [   [   [   [
+Ent  |1|-|2|-|5|-|8|-|b|-|e|-|h|-|k|-|n|-|q|-|t|-?
+rance     |   |   |   |   |   |   |   |   |   |
+         |4|-|7| |a| |d| |g| |j| |m| |p| |s| |v|
+                                  |
+                                 |_|
+                         The Skexie Quarters
+
+	}
+  }
+  exits {
+	to { n, 133 }
+	to { e, 106 }
+	to { s, 123 }
+	to { w, 113 }
+  }
+}
+
+113
+{
+  name { The Gelfling Cleric's Abode }
+  desc {
+A Gelfling cleric lives in this room. The rough cave walls are lined with
+ritualistic symbols, and other artifacts. A mat lies in one corner, presumably
+where the cleric sleeps. The Gelfling visit the cleric to seek counsel and
+healing.
+
+  }
+  exits {
+	to { e, 107 }
+	to { w, 114 }
+  }
+}
+
+114
+{
+  name { An Unused Gelfling Cave }
+  desc {
+"   This room has not been cleared of stalactites or stalagmites. The ground is
+muddy and the room is especially cold. Drawings decorate the small cave area.
+This room seems to get little use. A white line is drawn on the floor. Beyond
+which you are not recommended to go.
+  }
+  extra {
+	keywords { drawings" }
+	desc { "   These drawings show a Gelfling  massacring Skexies right and left.
+   There is also a message on the wall:
+
+   Leave Mehkar alone. Do not cross  the white line.
+
+	}
+	keywords { line" }
+	desc { "   You think it would be best not to close the line. Someone might get upset.
+
+	}
+	keywords { white" }
+	desc { "   You think it would be best not to close the line. Someone might get upset.
+
+	}
+	keywords { drawing" }
+	desc { "   These drawings show a Gelfling  massacring Skexies right and left.
+   There is also a message on the wall:
+
+   Leave Mehkar alone. Do not cross the white line.
+
+	}
+  }
+  exits {
+	to { n, 116 }
+	to { e, 113 }
+	to { s, 117 }
+	to { d, 115 }
+  }
+}
+
+115
+{
+  name { The Mad Gelfling's Lair }
+  desc {
+"   One mean, crazy Gelfling lives here. There is a huge mess. Nothing like
+you have ever seen. The walls have been sanded down. Straw padding lines the
+wall. You have a sudden urge to throw yourself against the wall. You change
+your mind just in time.
+
+  }
+  exits {
+	to { u, 114 }
+  }
+}
+
+116
+{
+  name { The Home of Gilkey the Gelfling }
+  desc {
+"   This is the home of Gilkey. Gilkey is a well known warrior among the
+Gelfling.  The cave has been decorated with an unusual rug. Braziers light
+the room to a dim level. White silk covers the ceiling. Water drips from the
+silk cover into a large bowl. It makes for an interesting waterfall of sorts.
+
+  }
+  exits {
+	to { s, 114 }
+  }
+}
+
+117
+{
+  name { The Gelfling Weapons Factory }
+  desc {
+"   This is where all the Gelfling weapons and traps are made. Various
+projects in various stages of completion are being worked on. Several look
+quite dangerous (spikes and wires etc.) There are metal working instruments
+about, and a large forge with attached billows for crafting weapons. The heat
+makes for a comfortable environment.
+
+  }
+  exits {
+	to { n, 114 }
+  }
+}
+
+123
+{
+  name { A Gelfling Hallway }
+  desc {
+"   To the west you see the start of various slides. That is the must be the
+transportation system for the Gelfling.  A cave hallway continues to the
+south. There is little or nothing of consequence in the nearby area.
+
+  }
+  exits {
+	to { n, 107 }
+	to { e, 124 }
+	to { s, 128 }
+	to { w, 153 }
+  }
+}
+
+124
+{
+  name { The Gelfling Playroom }
+  desc {
+"   Toys of fake weapons are scattered about the room. There are ugly Skexie
+dolls, and beautiful Gelfling  warrior dolls. There is an old tree stump in
+the room, where young Gelfling  often stand and practicing their balancing.
+The cave walls are sanded. Straw mats cover the rooms floor.
+
+  }
+  exits {
+	to { w, 123 }
+  }
+}
+
+125
+{
+  name { The Gelfling Armory }
+  desc {
+"   This is where all the Gelfling protective gear is made. A huge forge and
+billows heats metal to white-hot, then the blacksmith pounds and shapes the
+armor. A massive anvil is near the forge, as well as a large barrel of
+water for cooling finished products.
+
+  }
+  exits {
+	to { e, 128 }
+  }
+}
+
+126
+{
+  name { The Gefling Leather Shop }
+  desc {
+"   This is where all the Gelfling leather gear is made. The items include
+boots, caps, gloves, bags, and other leather products. The Gefling secret
+is to use the cold treated hide of a Skexie. Unfortunately, the Gefling do
+not sell their goods to outsiders.
+
+  }
+  exits {
+	to { w, 128 }
+  }
+}
+
+128
+{
+  name { A Gelfling Hallway }
+  desc {
+The hallway ends here with small passages to the East and West. The smell
+of leather emanates from the East, and clanking sounds can be heared to
+the West.
+
+  }
+  exits {
+	to { n, 123 }
+	to { e, 126 }
+	to { w, 125 }
+  }
+}
+
+133
+{
+  name { The Gelfling Warrior's Guild }
+  desc {
+"   This is the meeting place for the Gefling Warriors. There are diagrams
+on the wall. There are braziers maintaining dim light in the cave atmosphere.
+Several cases line the walls filled with weapons of many types.
+  }
+  extra {
+	keywords { diagram" }
+	desc { "   These diagrams show the weak spots in the Skexie anatomy. The Gelfling
+are apparently learning the best way to kill Skexie.
+
+ed ext diagrams
+   These diagrams show the weak spots in the Skexie anatomy. The Gelfling
+are apparently learning the best way to kill Skexie.
+	}
+  }
+  exits {
+	to { n, 134 }
+	to { s, 107 }
+  }
+}
+
+134
+{
+  name { A Gefling Cave }
+  desc {
+"   This is a huge cave. The walls are lined with bunk beds. This is the group
+sleeping area for the Gelfling. There is a large pit in the center which
+harbors a fire. The fire has burnt down to only the embers. The chamber is
+warm by Gelfling standards....a blazing 40 degrees F.
+
+  }
+  exits {
+	to { n, 137 }
+	to { e, 136 }
+	to { s, 133 }
+	to { w, 135 }
+  }
+}
+
+135
+{
+  name { A Gelfling Ice Pool }
+  desc {
+"   Yikes! You have wandered into a cold subterannean pool. This is the bathing
+room for the Gelfling. The pool is a wonderfully refreshing 35 degrees F!
+You feel sick as the cold water splashes against your skin. You scream out in
+pain....No sound comes out.
+
+  }
+  exits {
+	to { e, 134 }
+  }
+}
+
+136
+{
+  name { The Gelfling Kitchen }
+  desc {
+"   This room is small. There is a hearth which warms the room to a refreshing
+70 degrees F. Finally, a break from the harsh cold. This is where food is
+prepared. The Gelfling do their best to avoid the room when possible. The
+heat is dreadful!
+
+  }
+  exits {
+	to { w, 134 }
+  }
+}
+
+137
+{
+  name { The Gelfling Cold Chamber }
+  desc {
+"   This is where the Gelfling choose to relax. The room is a relaxing 10
+degrees. Fans blow to cool the room. Tables lie nearby where games can be
+played.
+
+  }
+  exits {
+	to { s, 134 }
+  }
+}
+
+153
+{
+  name { The Gelfling Slide System }
+  desc {
+"   This room has slides which lead to various places in the Palace of the
+Skexies. These slides are used by the Gelfling  when preparing traps, and
+going on killing missions. For you, it seems to be the only viable exit from
+the Gelfling Cave area. There is a sign on the wall.
+
+  }
+  extra {
+	keywords { sign" }
+	desc { "   The sign reads:
+
+   The northern slide leads to the Skexie Intersection.
+   The southern slide leads to the Challenge Entrance.
+   The western  slide leads to the Skexie Maiden's Quarters.
+   The down     slide leads to the Domed Skexie Chamber.
+
+	}
+  }
+  exits {
+	to { n, 35 }
+	to { e, 123 }
+	to { s, 56 }
+	to { w, 81 }
+	to { d, 17 }
+  }
+}
+
+154
+{
+  name { Skexie Challenge 1 Room 1 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { e, 155 }
+  }
+}
+
+155
+{
+  name { Skexie Challenge 1 Room 2 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { e, 156 }
+  }
+}
+
+156
+{
+  name { Skexie Challenge 1 Room 3 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { e, 157 }
+  }
+}
+
+157
+{
+  name { Skexie Challenge 1 Room 4 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { e, 158 }
+  }
+}
+
+158
+{
+  name { Skexie Challenge 1 Room 5 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { e, 159 }
+  }
+}
+
+159
+{
+  name { Skexie Challenge 1 Question 1 }
+  desc {
+"   You have been graced with an easy question:
+
+Which Bechemel carries the red tulip?
+
+Choose your exit:    North ----> Midnight
+                     East  ----> Striped
+                     South ----> Herringbone
+                     West  ----> Polkadotted
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 198 }
+	to { e, 198 }
+	to { s, 198 }
+	to { w, 196 }
+  }
+}
+
+160
+{
+  name { Skexie Challenge 1 Room 6 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { e, 161 }
+  }
+}
+
+161
+{
+  name { Skexie Challenge 1 Room 7 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { e, 162 }
+  }
+}
+
+162
+{
+  name { Skexie Challenge 1 Room 8 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { e, 163 }
+  }
+}
+
+163
+{
+  name { Skexie Challenge 1 Final Challenge }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { u, 202 }
+  }
+}
+
+164
+{
+  name { Skexie Challenge 2 Room 1 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { w, 165 }
+  }
+}
+
+165
+{
+  name { Skexie Challenge 2 Room 2 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { w, 166 }
+  }
+}
+
+166
+{
+  name { Skexie Challenge 2 Room 3 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { w, 167 }
+  }
+}
+
+167
+{
+  name { Skexie Challenge 2 Room 4 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { w, 168 }
+  }
+}
+
+168
+{
+  name { Skexie Challenge 2 Question 1 }
+  desc {
+"    Good Luck with the following question:
+
+Which Skexie is rumored to be able to teach fighting tactics?
+
+Choose your response:    North ----> Turandac the Skexie High Magister
+                         East  ----> Palthor the Skexie Sergeant
+                         South ----> Rugrat the Skexie Immortal
+                         West  ----> Alastair the Skexie Leader
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 194 }
+	to { e, 198 }
+	to { s, 197 }
+	to { w, 194 }
+  }
+}
+
+169
+{
+  name { Skexie Challenge 2 Room 5 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { w, 170 }
+  }
+}
+
+170
+{
+  name { Skexie Challenge 2 Room 6 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { w, 171 }
+  }
+}
+
+171
+{
+  name { Skexie Challenge 2 Question 2 }
+  desc {
+"   Good Luck with the following question:
+
+What instrument does the Skexie Bard use?
+
+Choose your response:       North ----> None
+                            East  ----> Mandolin
+                            South ----> Flute
+                            West  ----> Piccollo
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 195 }
+	to { e, 198 }
+	to { s, 198 }
+	to { w, 198 }
+  }
+}
+
+172
+{
+  name { Skexie Challenge 2 Room 7 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { w, 173 }
+  }
+}
+
+173
+{
+  name { Skexie Challenge 2 Room 8 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { w, 174 }
+  }
+}
+
+174
+{
+  name { Skexie Challenge 2 Final Challenge }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { u, 202 }
+  }
+}
+
+175
+{
+  name { Skexie Challenge 3 Room 1 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 176 }
+  }
+}
+
+176
+{
+  name { Skexie Challenge 3 Room 2 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 177 }
+  }
+}
+
+177
+{
+  name { Skexie Challenge 3 Question 1 }
+  desc {
+" Good luck with the following question:
+
+Where can spider's legs be found in the Palace?
+
+Choose your response:     North ----> The Kitchen
+                          East  ----> Wegendel's Lair
+                          South ----> Crandel's Lair
+                          West  ----> The Storage Room
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 194 }
+	to { e, 199 }
+	to { s, 194 }
+	to { w, 194 }
+  }
+}
+
+178
+{
+  name { Skexie Challenge 3 Room 3 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 179 }
+  }
+}
+
+179
+{
+  name { Skexie Challenge 3 Room 4 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 180 }
+  }
+}
+
+180
+{
+  name { Skexie Challenge 3 Question 2 }
+  desc {
+"    Good Luck with the following question:
+
+The Skexie Culture could be characterized as:
+
+Choose the correct combination: North ----> Monogamous,
+                                            Children cared for by parents
+                                East  ----> Polygamous,
+                                            Children cared for by parents
+                                South ----> Monogamous,
+                                            Children have caretakers
+                                West  ----> Polygamous,
+                                            Children have caretakers
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 194 }
+	to { e, 194 }
+	to { s, 194 }
+	to { w, 200 }
+  }
+}
+
+181
+{
+  name { Skexie Challenge 3 Room 5 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 182 }
+  }
+}
+
+182
+{
+  name { Skexie Challenge 3 Room 6 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 183 }
+  }
+}
+
+183
+{
+  name { Skexie Challenge 3 Question 3 }
+  desc {
+"    Good Luck with the following question:
+
+Where can the words: "Dishonor has earned you the Symbol. Wear it.
+Die proud" be found?
+
+Choose your response:     North ----> On a sign in The Hallway to the Lair
+                          East  ----> The Challenge Entry
+                          South ----> Alastair's Chamber
+                          West  ----> Brackenred's Chamber
+
+  }
+  flags { tunnel }
+  exits {
+	to { n, 194 }
+	to { e, 194 }
+	to { s, 194 }
+	to { w, 201 }
+  }
+}
+
+184
+{
+  name { Skexie Challenge 3 Room 7 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 185 }
+  }
+}
+
+185
+{
+  name { Skexie Challenge 3 Room 8 }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { n, 186 }
+  }
+}
+
+186
+{
+  name { Skexie Challenge 3 Final Challenge }
+  desc {
+"   This is a small room. The floor shows signs of a recent battle here. There
+is blood and body parts everywhere. Several skeletons are also here.
+
+  }
+  flags { no_sum, tunnel }
+  exits {
+	to { u, 202 }
+  }
+}
+
+194
+{
+  name { WRONG! A Painful Death Room }
+  desc {
+"
+    Foolish mortal! Study my area more carefully! There is more than
+meets the eye. Good Luck!
+
+P.S. Just a reminder, corpse retrievals are not allowed....
+
+  }
+  flags { dark, death }
+}
+
+195
+{
+  name { A Correct Response! }
+  desc {
+"     Congratulations. You have done your homework. Good Luck!
+
+  }
+  flags { dark, tunnel }
+}
+
+196
+{
+  name { A Correct Response! }
+  desc {
+"     Congratulations. You have done your homework. Good Luck!
+
+  }
+  flags { dark, tunnel }
+}
+
+197
+{
+  name { A Correct Response! }
+  desc {
+"     Congratulations. You have done your homework. Good Luck!
+
+  }
+  flags { dark, tunnel }
+}
+
+198
+{
+  name { An Incorrect Response }
+  desc {
+"    You have incorrectly answered a Challenge Question. You will be
+transfered back to Midgaard.  Remember: You need only collect the badges
+from Challenge Opponents, there is no need to re-kill opponents. Good Luck
+finding the correct response!
+
+  }
+  flags { dark }
+}
+
+199
+{
+  name { A Correct Response! }
+  desc {
+"     Congratulations. You have done your homework. Good Luck!
+
+  }
+  flags { dark, tunnel }
+}
+
+200
+{
+  name { A Correct Response!
+ }
+  desc {
+"     Congratulations. You have done your homework. Good Luck!
+
+  }
+  flags { dark, tunnel }
+}
+
+201
+{
+  name { A Correct Response! }
+  desc {
+"     Congratulations. You have done your homework. Good Luck!
+
+  }
+  flags { dark, tunnel }
+}
+
+202
+{
+  name { The Challange Reward Room }
+  desc {
+"   Congratulations on having completed the Challenge of the Skexies. The Exit
+down leads to the Temple Square. If you need to go back and complete any
+rooms, go up to the Challenge entry. If you want to redeem a prize, wait here
+and "tell" to an Immortal, preferably Rugrat, if he is on.
+
+  }
+  flags { no_mob, no_sum }
+  exits {
+	to { u, 56 }
+	to { d, Midgard:5 }
+  }
+}

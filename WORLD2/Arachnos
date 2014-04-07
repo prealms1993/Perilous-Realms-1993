@@ -1,0 +1,805 @@
+
+0
+{
+  name { 20000 }
+  desc {
+Empty
+  }
+}
+
+1
+{
+  name { Webbed Entrance }
+  desc {
+"     Sticky, sticky, sticky!  The ground is cluttered with leaves, decayed
+remains of webbed crickets, beetle, rats, dogs (?), and even humans.
+You begin to wonder about what lies ahead.  The air is damp here,
+and even the little light that shines through the canopy seems
+absorbed into the webbing.
+  }
+  sector { City }
+  flags { no_mob }
+  exits {
+	to { n, 2 }
+	to { s, Crossroads:200 }
+  }
+}
+
+2
+{
+  name { Webby Passage }
+  desc {
+"     You find that footing here is very good, almost too good.  The
+limbs are coated with cobwebs and seem unusually strong for tree
+branches.  Paths lead in four directions.  The eastward path goes
+down a bit.
+  }
+  sector { Field }
+  exits {
+	to { n, 4 }
+	to { e, 5 }
+	to { s, 1 }
+	to { w, 3 }
+  }
+}
+
+3
+{
+  name { Wasp Hive }
+  desc {
+"     Drones scuttle about in this room.  The cells on the walls
+are honeycomb in shape and many of the maggots and wasps you see
+have fang-marks on there bodies.  You sense some order in their markings.
+  }
+  sector { Field }
+  exits {
+	to { e, 2 }
+  }
+}
+
+4
+{
+  name { Webby Passage }
+  desc {
+"     Another webby passage, all sticky and wet.  Tiny ballooning
+spiders fill the air.  It seems that these young ones are newborns.
+  }
+  sector { Field }
+  exits {
+	to { e, 5 }
+	to { s, 2 }
+  }
+}
+
+5
+{
+  name { Beneath the Busy Path }
+  desc {
+"     You here the sounds of crawling arachnids above.  The rhythms of
+the footsteps suggest a primitive order in there movement.  The light
+seems brighter upwards.
+  }
+  sector { Field }
+  exits {
+	to { w, 4 }
+	to { u, 6 }
+  }
+}
+
+6
+{
+  name { On the Busy Path }
+  desc {
+"     Spiders, spiders, everywhere!  It is almost ant-like in efficiency
+with one big difference.  The spiders here are carrying ant-corpses,
+as well as rats, wolves, and humans.
+  }
+  sector { Field }
+  exits {
+	to { s, 7 }
+	to { d, 5 }
+  }
+}
+
+7
+{
+  name { On the Busy Path }
+  desc {
+"     Spiders, spiders, everywhere!  It is almost ant-like in efficiency
+with one big difference.  The spiders here are carrying ant-corpses,
+as well as cats, wolves, and humans.
+  }
+  sector { Field }
+  exits {
+	to { n, 6 }
+	to { e, 8 }
+  }
+}
+
+8
+{
+  name { On the Busy Path }
+  desc {
+"     Spiders, spiders, everywhere!  It is almost ant-like in efficiency
+with one big difference.  The spiders here are carrying ant-corpses,
+as well as cats, dogs, and humans.
+  }
+  sector { Field }
+  exits {
+	to { n, 7 }
+	to { e, 6 }
+	to { s, 5 }
+	to { w, 9 }
+  }
+}
+
+9
+{
+  name { A Split in the Path }
+  desc {
+"     As always, there is a split in the road.  One road is strewn
+with cricket feelers.  The other is well-kept and suitable for smooth
+travelling.  The webbing that was prevalent in earlier rooms is almost
+non-existant now.
+  }
+  sector { Field }
+  exits {
+	to { n, 10 }
+	to { e, 8 }
+	to { s, 20 }
+  }
+}
+
+10
+{
+  name { Fuzzy Tree Limb }
+  desc {
+"     You are on a "fuzzy" tree limb.  Interesting, since the branches
+seem to have "hairs" sprouting from its bark.  As you look
+closer you see millions of aphids covering each limb.
+  }
+  sector { Field }
+  exits {
+	to { s, 9 }
+	to { w, 11 }
+  }
+}
+
+11
+{
+  name { Tree Trunk }
+  desc {
+"     You feel that you can rest here safely.  There is evidence of
+webbing here, but it is of a finer quality.
+  }
+  sector { Field }
+  exits {
+	to { e, 10 }
+	to { s, 12 }
+  }
+}
+
+12
+{
+  name { Tree Lair Entrance }
+  desc {
+"     It seems the inhabitant of this place does not web her
+victims, as evidenced by the remains before you.  The area
+is cluttered with desiccated corpses, apparently bitten
+but unwebbed, and drained of their life juices.
+  }
+  sector { Field }
+  exits {
+	to { n, 11 }
+	to { w, 13 }
+  }
+}
+
+13
+{
+  name { Wolf Spider Lair }
+  desc {
+"     Very dark, as all lairs of spiders are.  Not much of furnishings
+save an exit.  The wolf spider keeps no corpses here, but rather
+throws them out at her leisure.
+  }
+  sector { Field }
+  exits {
+	to { e, 12 }
+  }
+}
+
+20
+{
+  name { The Webless Path }
+  desc {
+"     Strange.  No webbing here.  In fact, no sounds whatsoever.
+The path continues northward, where you find that you may have to
+tightrope your way across a ravine.
+  }
+  sector { Field }
+  exits {
+	to { n, 9 }
+	to { w, 21 }
+  }
+}
+
+21
+{
+  name { Above the Ravine }
+  desc {
+"     Stranger still.  Your feet get a real firm grip on the spiderline.
+You are above a deep ravine.  This line connects you between two trees.
+Below you can see a prismatic web with lots of animal bones caught in it:
+some bear and small deer bones in fact.  No human skeletons are visible
+(yet).
+  }
+  sector { Field }
+  exits {
+	to { e, 20 }
+	to { s, 23 }
+	to { d, 22 }
+  }
+}
+
+22
+{
+  name { The Rainbow Web }
+  desc {
+"     This is the rainbow web--each strand, each link, a hue of violently
+sharp colors and contrasts.  The resident here seems to have a command
+of light as well.
+  }
+  sector { Field }
+  exits {
+	to { u, 21 }
+  }
+}
+
+23
+{
+  name { The Web Forest }
+  desc {
+"     The trees here take on a different appearance--they are not trees
+anymore, but disjointed make-shift silken made shafts, sticky to the touch,
+and webby in texture.  This is another world it would appear.
+  }
+  sector { Field }
+  exits {
+	to { n, 21 }
+	to { d, 24 }
+  }
+}
+
+24
+{
+  name { The Slave Pit }
+  desc {
+"     You have entered the slave pit.  A voice blares in the distance,
+"Get back to work, maggots!"  Rails upon rails of mined gold and silver
+clutter the trail beneath you.
+  }
+  sector { Field }
+  exits {
+	to { n, 25 }
+	to { u, 23 }
+  }
+}
+
+25
+{
+  name { The Tether Path }
+  desc {
+"     Another tether path just like the rest of them.  Surprising well
+-lit by the golden orbs that hang from the sides, you can see the paths
+become finer and finer in quality.
+  }
+  sector { Field }
+  exits {
+	to { e, 26 }
+	to { w, 24 }
+  }
+}
+
+26
+{
+  name { A Road Crossing }
+  desc {
+"     Another shifty little strand of webs, almost ethereal in nature.
+  }
+  sector { Field }
+  exits {
+	to { w, 25 }
+	to { u, 27 }
+  }
+}
+
+27
+{
+  name { A Leader Strand }
+  desc {
+"     This strand is weightier, more sturdy.  It shimmers as you step on
+it.  You are definitely not in the Midgaardian realms anymore.  Just
+where you are you can't tell.  It feels like you're moving through
+ether.  You can still get back down to more surer lands.
+  }
+  sector { Field }
+  exits {
+	to { n, 28 }
+	to { d, 26 }
+  }
+}
+
+28
+{
+  name { The Entrance of the Ethereal Web }
+  desc {
+"     You are at the entrance to ethereal web.  Flickering in and out,
+in and out, each strand reveals a different hue from black to green
+to blue.
+  }
+  sector { Field }
+  exits {
+	to { s, 31 }
+  }
+}
+
+30
+{
+  name { The Young Wormkin's Crib }
+  desc {
+"     A playpen of sorts, with maggots of wasps and other baby vermin
+lying about.  You feel that humans have been played with here too,
+and eaten later.  You sense that the maker of this place has
+an appetite for dragon meat, and uses this room as a breeding
+area.
+  }
+  sector { Field }
+  exits {
+	to { u, 31 }
+  }
+}
+
+31
+{
+  name { The Base of the Web }
+  desc {
+"     Large strands connect at this point.  The node shimmers and
+flickers within the ether.  You see many flying creatures--
+insects, pegasi, and dragon wormkins--navigate the dangerous
+passages of the web.  Exits go in many directions.
+  }
+  sector { Field }
+  exits {
+	to { n, 30 }
+	to { e, 32 }
+	to { s, 33 }
+	to { w, 34 }
+  }
+}
+
+32
+{
+  name { Through the Trees }
+  desc {
+"     This part of the web intersects through the branches of some
+trees.  Various leaves and other debris that the many drones
+have not picked up yet lie here.
+  }
+  sector { Field }
+  exits {
+	to { e, 31 }
+	to { s, 35 }
+	to { w, 33 }
+  }
+}
+
+33
+{
+  name { Above the Clouds }
+  desc {
+"     You can see all of Midgaard in this ethereal web.  Many
+of the larger dragons that do wish to fly seem to fly
+away from the sticky strands of the web.
+  }
+  sector { Field }
+  exits {
+	to { e, 31 }
+	to { s, 34 }
+	to { w, 35 }
+  }
+}
+
+34
+{
+  name { On A Cloud }
+  desc {
+"     Rather thick in consistency.  You realize this is not
+a typical cloud, but it might be the nest of an aerial creature.
+  }
+  sector { Field }
+  exits {
+	to { d, 31 }
+  }
+}
+
+35
+{
+  name { A Link in the Ethereal Web }
+  desc {
+"     This is another link in the ethereal web.  Various creatures
+seem to get caught (or hypnotized) by its sticky strands.
+  }
+  sector { Field }
+  exits {
+	to { e, 36 }
+	to { w, 31 }
+  }
+}
+
+36
+{
+  name { The Tenuous Strand }
+  desc {
+"     Very windy here since it goes up into the sky somewhat.
+Still, it's safe enough to move around.
+  }
+  sector { Field }
+  exits {
+	to { s, 40 }
+	to { w, 41 }
+	to { d, 31 }
+  }
+}
+
+40
+{
+  name { The Elder Wormkin's Room }
+  desc {
+"     A more mature wormkin it seems resides here.  Various tomes of
+arcane lore clutter the area, along with shards of armor and weaponry.
+  }
+  sector { Field }
+  exits {
+	to { d, 31 }
+  }
+}
+
+41
+{
+  name { Another Tree Limb }
+  desc {
+"     Once again the web crosses another tree limb.  To the side you
+see the possible entrace to another creatures lair.
+  }
+  sector { Field }
+  exits {
+	to { e, 42 }
+	to { s, 34 }
+	to { w, 45 }
+  }
+}
+
+42
+{
+  name { The Bird Spider's Lair }
+  desc {
+"   This is a big game hunter among most spiders.  Crushed jewels
+and other weapons suggest the inhabitant must have powerful jaws.
+Beware!
+  }
+  sector { Field }
+  exits {
+	to { d, 31 }
+  }
+}
+
+45
+{
+  name { A Link in the Ethereal Web }
+  desc {
+"     This is another link in the ethereal web.  Various creatures
+seem to get caught (or hypnotized) by its sticky strands.
+  }
+  sector { Field }
+  exits {
+	to { s, 50 }
+	to { w, 46 }
+	to { u, 45 }
+  }
+}
+
+46
+{
+  name { The Quiet Tree Top }
+  desc {
+"     Here is a quiet tree top.  Downwards you can see a familiar path
+that may lead back to Midgaard.
+  }
+  sector { Field }
+  exits {
+	to { s, 45 }
+	to { w, 47 }
+	to { d, Pyramid:832 }
+  }
+}
+
+47
+{
+  name { On The Web }
+  desc {
+"     RRRRRRRRRRROOOOOOOOOOOOOAAAAAAAAAAAAAARR!  You hear the roar
+of a powerful beast.  Dragon, you think.  You shiver in your boots
+as you tiptoe on this section of the web.
+  }
+  sector { Field }
+  exits {
+	to { e, 46 }
+	to { s, 55 }
+	to { d, 31 }
+  }
+}
+
+50
+{
+  name { The Ki-Rin Chamber }
+  desc {
+"     A wise ki-rin was entrapped here many years ago.  It is from her
+that the ruler of this realm zaps his magical strength.
+  }
+  sector { Field }
+  exits {
+	to { n, 47 }
+  }
+}
+
+55
+{
+  name { A Link in the Ethereal Web }
+  desc {
+"     This is another link in the ethereal web.  Various creatures
+seem to get caught (or hypnotized) by its sticky strands.  To
+the north you sense the heavy breathing of a fiery animal.
+  }
+  sector { Field }
+  exits {
+	to { n, 60 }
+	to { s, 65 }
+  }
+}
+
+60
+{
+  name { Yevaud's Lair }
+  desc {
+"     Yevaud, the Usurper of Midgaard, resides here.  A voice cries
+out, "BEWARE, the Usurper of Midgaard lives here!  FLEE while you can!"
+But even Yevaud has his master...or so you deduce.
+  }
+  sector { Field }
+  exits {
+	to { s, 55 }
+  }
+}
+
+65
+{
+  name { A Link in the Ethereal Web }
+  desc {
+"     This is another link in the ethereal web.  Various creatures
+seem to get caught (or hypnotized) by its sticky strands.  A single
+spider line lies to the north, while ghastly seemings are due
+southward.  The grim entrance of Arachnos' Lair is downward.
+  }
+  sector { Field }
+  exits {
+	to { n, 71 }
+	to { e, 31 }
+	to { s, 66 }
+	to { d, 90 }
+  }
+}
+
+66
+{
+  name { Entrance to the Donjonkeep }
+  desc {
+"     A dark path at the end of the web strand, you see ahead
+a torch lit chamber where the souls of unavenged adventurers
+come and gnash their teeth.  The howls and screams of many echo
+through the hall ways.  You see one definite path ahead.
+  }
+  sector { Field }
+  exits {
+	to { n, 67 }
+  }
+}
+
+67
+{
+  name { The Guardian's Room }
+  desc {
+"     A chair sits here for a tireless guardian who ensures that no
+soul escapes.  The room is undecorated.
+  }
+  sector { Field }
+  extra {
+	keywords { chair" }
+	desc { An ordinary chair, well used, glued to the ground by spiderweb.
+	}
+  }
+  exits {
+	to { n, 68 }
+  }
+}
+
+68
+{
+  name { Realm of the Hopeless }
+  desc {
+"     Here you see many misguided souls who think they still live.
+They search for those who killed them without warrant, and seek the
+free souls of living beings to inhabit and perhaps adventure once
+more.
+  }
+  sector { Field }
+  exits {
+	to { n, 69 }
+  }
+}
+
+69
+{
+  name { Realm of the Hopeless }
+  desc {
+"     Here you see many misguided souls who think they still live.
+They search for those who killed them without warrant, and seek the
+free souls of living beings to inhabit and perhaps adventure once
+more.
+  }
+  sector { Field }
+  exits {
+	to { n, 68 }
+	to { s, 70 }
+  }
+}
+
+70
+{
+  name { The Donjonkeep }
+  desc {
+"     No souls have ever lived in this place.  The wails of slaves
+and the howls of wolves are the only way you can describe the sounds
+you hear.  The walls are thin and wispy.  The only light you recieve
+is the shimmering from the strand of the ethereal web you used to get
+here.
+  }
+  sector { Field }
+  exits {
+	to { e, 71 }
+  }
+}
+
+71
+{
+  name { The Single Spider Line }
+  desc {
+"     A single spider line supports you once more.  As you look
+across the ether you seen a single shack up ahead with a light in
+the window.  You sense a great evil coming from the north and feel
+inclined to go back on the ethereal web and take your chances there.
+  }
+  sector { Field }
+  exits {
+	to { n, 31 }
+	to { s, 72 }
+  }
+}
+
+72
+{
+  name { The Single Spider Line }
+  desc {
+"     A single spider line supports you once more.  The shack comes
+closer into view and you are even more inclined to go back now.
+  }
+  sector { Field }
+  exits {
+	to { n, 71 }
+	to { s, 73 }
+  }
+}
+
+73
+{
+  name { The Hermit's Corner }
+  desc {
+"     Here you see evidence of a vagrant's abode.  The shack is to the
+north, if you dare enter it.  You get the sneaking feeling you should
+go back now.  The skies above you darken and roar with the laughter
+of thunder.
+  }
+  sector { Field }
+  exits {
+	to { n, 72 }
+	to { s, 80 }
+  }
+}
+
+80
+{
+  name { Mahatma's Inescapable Trap }
+  desc {
+"     Mahatma, that silly thief, is here, and he steals everything you
+have.  He says, "Here, have a quick trip to the Temple of Midgaard."
+He plugs a black dagger into your back...
+  }
+  flags { death, no_mob }
+}
+
+90
+{
+  name { The Entrance to the Arachnos' Lair }
+  desc {
+"     All strands inevitably lead here, the center of the web, the
+entrance to Arachnos' Lair.
+  }
+  sector { Field }
+  exits {
+	to { e, 91 }
+  }
+}
+
+91
+{
+  name { The Sticky Chamber }
+  desc {
+"     You can still bail out since your knees are shaking from the
+anticipation (or is it fear?).  The sky is clear on this strand of
+web, surprisingly unsticky.  The strand does not vibrate like the
+others.  A few ballooning spiders pass by, cackling "You're gonna
+die, you're gonna fry.  Good bye!"
+  }
+  sector { Field }
+  exits {
+	to { e, 92 }
+	to { d, 31 }
+  }
+}
+
+92
+{
+  name { The Great Door }
+  desc {
+"     Before you you see a large, web-like door.  Various designs
+of ancient runes and names of Midgaard heroes are etched into
+the webwork.  Perhaps lists of victims?  You can't tell.
+  }
+  sector { Field }
+  flags { indoors }
+  exits {
+	to { n, 99 }
+	  info { door, closed }
+	  keywords { door web large" }
+	to { w, 91 }
+  }
+}
+
+99
+{
+  name { The Lair of Arachnos }
+  desc {
+"     This is the lair of the Empress Spider, Arachnos.  A lavishly
+adorned rainbow web, her lair allows her to move to any universe
+she wishes by using her magical strands to the Prime Material Plane.
+Coffers upon coffers of gold, magical jewels and gems await.  Unfor-
+tunately Arachnos is a baggy spider too, and webs all her treasures
+to her beautiful silken body.
+  }
+  sector { Field }
+  exits {
+	to { s, 92 }
+	  info { door, closed }
+	  keywords { door web" }
+  }
+}

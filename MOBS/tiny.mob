@@ -1,0 +1,464 @@
+1
+{
+name { Puff }
+namelist { Puff }
+shortdesc { Puff the Fractal Dragon is here, contemplating a higher reality. }
+longdesc {
+You see nothing special
+}
+race { none }
+height { 180 }
+level { 71 }
+alignment { 1000 }
+gold { 1400 }
+hit_bonus { 20 }
+dam_bonus { 20 }
+attacks_per_round { 9 }
+head { -20, 5 }
+body { -20, 5 }
+arms { -80, 20 }
+legs { -60, 20 }
+feet { -50, 10 }
+hp { 5, 10, 550  }
+move { 110 }
+experience { 12676 }
+damage { 9, 60, 99 }
+immune { fire, energy, cold }
+act { special }
+caster { 85 }
+spells { word of recall, mage fire, shriek }
+mana { 10000 }
+}
+2
+{
+name { The Ringwraith }
+namelist { wraith ringwraith nazgul }
+shortdesc { A Ringwraith stands here. }
+longdesc {
+Dressed in black, it is almost invisible within the shadows. It promises
+to be a formidable opponent
+}
+race { undead }
+height { 125 }
+level { 515 }
+alignment { -1000 }
+gold { 45000 }
+hit_bonus { 20 }
+dam_bonus { 20 }
+attacks_per_round { 5 }
+head { -50, 15 }
+body { -50, 15 }
+arms { -50, 15 }
+legs { -20, 10 }
+feet { -20, 10 }
+hp { 10, 800, 9000  }
+move { 200 }
+experience { 552170 }
+damage { 3, 8, 12  }
+immune { poison, drain, charm, plus 1 }
+resistant { slash }
+affected { detect-invisible, infravision, sneak }
+act { special, wimpy }
+}
+3
+{
+name { The tormentor }
+namelist { tormentor }
+shortdesc { The tormentor stands here. }
+longdesc {
+He sneers at you.
+}
+race { human }
+level { 180 }
+alignment { -1000 }
+gold { 5000 }
+hit_bonus { 8 }
+dam_bonus { 8 }
+attacks_per_round { 2 }
+head { -20, 0 }
+body { -20, 0 }
+arms { -20, 0 }
+legs { -20, 0 }
+feet { -20, 0 }
+hp { 200, 8, 200  }
+move { 300 }
+experience { 40900 }
+damage { 2, 6, 8  }
+immune { poison, drain, charm, plus 1 }
+affected { detect-invisible, infravision, sneak }
+act { special, wimpy }
+}
+4
+{
+name { James Hetfield }
+namelist { james hetfield }
+shortdesc { James Hetfield stands here. }
+longdesc {
+He sneers at you.
+}
+race { human }
+level { 180 }
+alignment { -1000 }
+gold { 5000 }
+hit_bonus { 8 }
+dam_bonus { 8 }
+attacks_per_round { 3 }
+head { -50, 0 }
+body { -50, 0 }
+arms { -50, 0 }
+legs { -50, 0 }
+feet { -50, 0 }
+hp { 200, 8, 200  }
+move { 300 }
+experience { 45460 }
+damage { 5, 5, 6  }
+immune { poison, drain, charm, plus 1 }
+affected { detect-invisible, infravision, sneak }
+act { special, wimpy }
+}
+5
+{
+name { The Inquisitor }
+namelist { inquisitor }
+shortdesc { The Inquisitor stands here. }
+longdesc {
+He sneers at you.
+}
+race { human }
+level { 180 }
+alignment { -1000 }
+gold { 5000 }
+hit_bonus { 8 }
+dam_bonus { 8 }
+attacks_per_round { 3 }
+head { -50, 0 }
+body { -50, 0 }
+arms { -50, 0 }
+legs { -50, 0 }
+feet { -50, 0 }
+hp { 200, 8, 200  }
+move { 300 }
+experience { 45460 }
+damage { 5, 5, 6  }
+immune { poison, drain, charm, plus 1 }
+affected { detect-invisible, infravision, sneak }
+act { special, wimpy }
+}
+10
+{
+name { A fire elemental }
+namelist { fire elemental }
+shortdesc { A huge fire burns here }
+longdesc {
+It looks vaguely man-shaped
+}
+race { none }
+level { 35 }
+alignment { 0 }
+gold { 300 }
+hit_bonus { 2 }
+dam_bonus { 2 }
+attacks_per_round { 2 }
+head { 20, 1 }
+body { 20, 1 }
+arms { 20, 1 }
+legs { 20, 1 }
+feet { 20, 1 }
+hp { 32, 8, 32  }
+move { 300 }
+experience { 3613 }
+damage { 1, 8, 3  }
+immune { fire }
+susceptible { cold }
+affected { detect-invisible }
+act { sentinel }
+}
+11
+{
+name { A water elemental }
+namelist { water elemental }
+shortdesc { A large water elemental stands here }
+longdesc {
+   It looks vaguely man-shaped.
+}
+race { none }
+level { 35 }
+alignment { 0 }
+gold { 300 }
+hit_bonus { 2 }
+dam_bonus { 2 }
+attacks_per_round { 2 }
+head { 20, 1 }
+body { 20, 1 }
+arms { 20, 1 }
+legs { 20, 1 }
+feet { 20, 1 }
+hp { 32, 8, 32  }
+move { 300 }
+experience { 3613 }
+damage { 1, 8, 3  }
+immune { fire }
+susceptible { cold }
+affected { detect-invisible }
+act { sentinel }
+}
+12
+{
+name { An earth elemental }
+namelist { earth elemental }
+shortdesc { A large earth elemental stands here }
+longdesc {
+   It looks vaguely man-shaped.
+}
+race { none }
+level { 35 }
+alignment { 0 }
+gold { 300 }
+hit_bonus { 2 }
+dam_bonus { 2 }
+attacks_per_round { 2 }
+head { 20, 1 }
+body { 20, 1 }
+arms { 20, 1 }
+legs { 20, 1 }
+feet { 20, 1 }
+hp { 32, 8, 32  }
+move { 300 }
+experience { 3613 }
+damage { 1, 8, 3  }
+immune { electricity }
+resistant { pierce }
+susceptible { energy }
+affected { detect-invisible }
+act { sentinel }
+}
+13
+{
+name { An air elemental }
+namelist { air elemental }
+shortdesc { A small tornado spins here }
+longdesc {
+   It looks vaguely man-shaped.
+}
+race { none }
+level { 35 }
+alignment { 0 }
+gold { 300 }
+hit_bonus { 2 }
+dam_bonus { 2 }
+attacks_per_round { 2 }
+head { 20, 1 }
+body { 20, 1 }
+arms { 20, 1 }
+legs { 20, 1 }
+feet { 20, 1 }
+hp { 32, 8, 32  }
+move { 300 }
+experience { 3613 }
+damage { 1, 8, 3  }
+susceptible { fire }
+affected { detect-invisible }
+act { sentinel }
+}
+20
+{
+name { A vrock }
+namelist { demon vrock }
+shortdesc { A Vrock stands here }
+longdesc {
+It is a vulture/human creature. Extremely ugly, and nasty
+}
+race { devil }
+level { 7 }
+alignment { -666 }
+gold { 130 }
+hit_bonus { 1 }
+dam_bonus { 1 }
+attacks_per_round { 5 }
+head { 0, 0 }
+body { 0, 0 }
+arms { 0, 0 }
+legs { 0, 0 }
+feet { 0, 0 }
+hp { 14, 8, 1  }
+move { 300 }
+experience { 1067 }
+damage { 1, 6, 1  }
+immune { fire, energy }
+affected { detect-invisible, sense-life }
+act { sentinel, scavenger, aggressive }
+}
+21
+{
+name { A hezrou }
+namelist { demon hezrou }
+shortdesc { A demon Hezrou stands here. }
+longdesc {
+Not unlike A large toad/man
+}
+race { devil }
+level { 8 }
+alignment { -666 }
+gold { 130 }
+hit_bonus { 1 }
+dam_bonus { 1 }
+attacks_per_round { 3 }
+head { -20, 0 }
+body { -20, 0 }
+arms { -20, 0 }
+legs { -20, 0 }
+feet { -20, 0 }
+hp { 15, 8, 1  }
+move { 300 }
+experience { 1157 }
+damage { 1, 6, 1  }
+immune { fire, energy }
+affected { detect-invisible, sense-life }
+act { sentinel, scavenger, aggressive }
+}
+22
+{
+name { A glabrezu }
+namelist { demon glabrezu }
+shortdesc { A demon Glabrezu stands here }
+longdesc {
+I forget what this one looks like.
+}
+race { devil }
+level { 9 }
+alignment { -666 }
+gold { 130 }
+hit_bonus { 1 }
+dam_bonus { 1 }
+attacks_per_round { 5 }
+head { -40, 0 }
+body { -40, 0 }
+arms { -40, 0 }
+legs { -40, 0 }
+feet { -40, 0 }
+hp { 16, 8, 1  }
+move { 300 }
+experience { 1373 }
+damage { 1, 8, 1  }
+immune { fire, energy }
+affected { detect-invisible, sense-life }
+act { sentinel, scavenger, aggressive }
+}
+23
+{
+name { Nalfeshnee }
+namelist { demon nalfeshnee }
+shortdesc { Nalfeshnee stands here }
+longdesc {
+This one is big and mean looking.
+}
+race { devil }
+level { 10 }
+alignment { -666 }
+gold { 150 }
+hit_bonus { 1 }
+dam_bonus { 1 }
+attacks_per_round { 3 }
+head { -10, 0 }
+body { -10, 0 }
+arms { -10, 0 }
+legs { -10, 0 }
+feet { -10, 0 }
+hp { 17, 8, 1  }
+move { 300 }
+experience { 1325 }
+damage { 1, 6, 1  }
+immune { fire, energy }
+resistant { cold, electricity }
+affected { detect-invisible, sense-life }
+act { sentinel, scavenger, aggressive }
+}
+24
+{
+name { Marilith }
+namelist { demon marilith }
+shortdesc { Marilith slithers here }
+longdesc {
+A woman with 6 arms and a snake's tail
+}
+race { devil }
+level { 9 }
+alignment { -666 }
+gold { 130 }
+hit_bonus { 1 }
+dam_bonus { 1 }
+attacks_per_round { 7 }
+head { -50, 0 }
+body { -50, 0 }
+arms { -50, 0 }
+legs { -50, 0 }
+feet { -50, 0 }
+hp { 13, 8, 13  }
+move { 300 }
+experience { 1400 }
+damage { 2, 4, 1  }
+immune { fire, energy }
+resistant { cold, electricity }
+affected { detect-invisible, sense-life }
+act { sentinel, scavenger, aggressive }
+}
+25
+{
+name { Balor }
+namelist { demon balor }
+shortdesc { Balor stands here, surrounded by electrical fire }
+longdesc {
+He is very large, and looks rather deadly
+}
+race { devil }
+level { 10 }
+alignment { -666 }
+gold { 150 }
+hit_bonus { 1 }
+dam_bonus { 1 }
+attacks_per_round { 1 }
+head { -20, 0 }
+body { -20, 0 }
+arms { -20, 0 }
+legs { -20, 0 }
+feet { -20, 0 }
+hp { 14, 8, 14  }
+move { 300 }
+experience { 1268 }
+damage { 2, 12, 2  }
+immune { fire, energy }
+resistant { cold, electricity }
+affected { detect-invisible, sense-life }
+act { special, sentinel, scavenger, aggressive }
+}
+5010
+{
+name { The dracolich }
+namelist { dracolich lich }
+shortdesc { A pile of bones rises up to form a skeletal dracolich. }
+longdesc {
+The dracolich is now only bone with pieces of flesh hanging from it.
+Obviously it no longer fears death.
+}
+race { undead }
+level { 290 }
+alignment { -1000 }
+gold { 20000 }
+hit_bonus { 14 }
+dam_bonus { 14 }
+attacks_per_round { 5 }
+head { -50, 0 }
+body { -50, 0 }
+arms { -50, 0 }
+legs { -50, 0 }
+feet { -50, 0 }
+hp { 25, 8, 3500  }
+move { 300 }
+experience { 352247 }
+damage { 1, 6, 4  }
+immune { backstab, poison, drain, sleep, charm, hold }
+resistant { cold }
+susceptible { fire }
+affected { detect-invisible, sense-life, sanctuary }
+act { special, sentinel, aggressive }
+}

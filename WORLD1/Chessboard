@@ -1,0 +1,1725 @@
+
+0
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  There's a
+lot of dust on the floor here.
+  }
+  sector { Field }
+  exits {
+	to { e, 1 }
+	  desc { The plaza continues onward.
+}
+	to { s, 8 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+1
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  There's a
+lot of dust on the floor.
+  }
+  sector { City }
+  exits {
+	to { e, 2 }
+	  desc { The plaza continues onward.
+}
+	to { s, 9 }
+	  desc { The plaza continues onward.
+}
+	to { w, 0 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+2
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  There's
+a lot of garbage here.
+  }
+  sector { City }
+  exits {
+	to { e, 3 }
+	  desc { The plaza continues onward.
+}
+	to { s, 10 }
+	  desc { The plaza continues onward.
+}
+	to { w, 1 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+3
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  It doesn't
+seem like the janitor comes here often.
+  }
+  sector { City }
+  exits {
+	to { e, 4 }
+	  desc { The plaza continues onward.
+}
+	to { s, 11 }
+	  desc { The plaza continues onward.
+}
+	to { w, 2 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+4
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  It smells
+like beer was spilled here.
+  }
+  sector { City }
+  exits {
+	to { e, 5 }
+	  desc { The plaza continues onward.
+}
+	to { s, 12 }
+	  desc { The plaza continues onward.
+}
+	to { w, 3 }
+	  desc { The plaza continues onward.
+}
+	to { d, 70 }
+	  desc { As you peer into the darkness you can only imagine what kind of beast lies
+in wait for you.
+}
+  }
+}
+
+5
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  It smells
+like beer here.
+  }
+  sector { City }
+  exits {
+	to { e, 6 }
+	  desc { The plaza continues onward.
+}
+	to { s, 13 }
+	  desc { The plaza continues onward.
+}
+	to { w, 4 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+6
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  This is the
+northwest corner of a slime mold factory.  Malodorous toxic fumes assault
+your sense of smell.  Toxic mushrooms and half empty beer barrels are
+strewn about.
+  }
+  sector { City }
+  exits {
+	to { e, 7 }
+	  desc { The plaza continues onward.
+}
+	to { s, 14 }
+	  desc { The plaza continues onward.
+}
+	to { w, 5 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+7
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  This is the
+northeast corner of a slime mold factory.  There is a large vat of slime
+bubbling juice here.  You can feel your appetite wilting away as an Oil
+Beast tosses some rotting corpses and poisonous mushrooms into the vat.
+  }
+  sector { City }
+  exits {
+	to { s, 15 }
+	  desc { The plaza continues onward.
+}
+	to { w, 6 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+8
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  It's really
+quite dusty here.  To the west is a large wall-sized mirror.
+  }
+  sector { City }
+  extra {
+	keywords { mirror wall }
+	desc { You see your reflection, but superimposed on that is what looks like
+a distant horizon.  Maybe you can enter this mirror?
+	}
+  }
+  exits {
+	to { n, 0 }
+	  desc { The plaza continues onward.
+}
+	to { e, 9 }
+	  desc { The plaza continues onward.
+}
+	to { s, 16 }
+	  desc { The plaza continues onward.
+}
+	to { w, 74 }
+	  desc { You see a wall sized mirror.
+}
+  }
+}
+
+9
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  So much
+dust around here!
+  }
+  sector { City }
+  exits {
+	to { n, 1 }
+	  desc { The plaza continues onward.
+}
+	to { e, 10 }
+	  desc { The plaza continues onward.
+}
+	to { s, 17 }
+	  desc { The plaza continues onward.
+}
+	to { w, 8 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+10
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  The floor
+is scuffed up and needs polishing.
+  }
+  sector { City }
+  exits {
+	to { n, 2 }
+	  desc { The plaza continues onward.
+}
+	to { e, 11 }
+	  desc { The plaza continues onward.
+}
+	to { s, 18 }
+	  desc { The plaza continues onward.
+}
+	to { w, 9 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+11
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  Sure is
+filthy here!
+  }
+  sector { City }
+  exits {
+	to { n, 3 }
+	  desc { The plaza continues onward.
+}
+	to { e, 12 }
+	  desc { The plaza continues onward.
+}
+	to { s, 19 }
+	  desc { The plaza continues onward.
+}
+	to { w, 10 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+12
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  It smells
+like beer around here.
+  }
+  sector { City }
+  exits {
+	to { n, 4 }
+	  desc { The plaza continues onward.
+}
+	to { e, 13 }
+	  desc { The plaza continues onward.
+}
+	to { s, 20 }
+	  desc { The plaza continues onward.
+}
+	to { w, 11 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+13
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  There is
+a puddle of spilled beer here.
+  }
+  sector { City }
+  exits {
+	to { n, 5 }
+	  desc { The plaza continues onward.
+}
+	to { e, 14 }
+	  desc { The plaza continues onward.
+}
+	to { s, 21 }
+	  desc { The plaza continues onward.
+}
+	to { w, 12 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+14
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  This is the
+southwest corner of a slime mold factory.  Some molds have been stacked
+here ready for shipment.  You involuntarily hold your breath.
+  }
+  sector { City }
+  exits {
+	to { n, 6 }
+	  desc { The plaza continues onward.
+}
+	to { e, 15 }
+	  desc { The plaza continues onward.
+}
+	to { s, 22 }
+	  desc { The plaza continues onward.
+}
+	to { w, 13 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+15
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  This is the
+southeast corner of a slime mold factory.  Rotting corpses and half dried
+slime molds litter the floor.  Oil Beasts slither about, leaving shiny
+trails of ooze behind them.
+  }
+  sector { City }
+  exits {
+	to { n, 7 }
+	  desc { The plaza continues onward.
+}
+	to { s, 23 }
+	  desc { The plaza continues onward.
+}
+	to { w, 14 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+16
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 8 }
+	  desc { The plaza continues onward.
+}
+	to { e, 17 }
+	  desc { The plaza continues onward.
+}
+	to { s, 24 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+17
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 9 }
+	  desc { The plaza continues onward.
+}
+	to { e, 18 }
+	  desc { The plaza continues onward.
+}
+	to { s, 25 }
+	  desc { The plaza continues onward.
+}
+	to { w, 16 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+18
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 10 }
+	  desc { The plaza continues onward.
+}
+	to { e, 19 }
+	  desc { The plaza continues onward.
+}
+	to { s, 26 }
+	  desc { The plaza continues onward.
+}
+	to { w, 17 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+19
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 11 }
+	  desc { The plaza continues onward.
+}
+	to { e, 20 }
+	  desc { The plaza continues onward.
+}
+	to { s, 27 }
+	  desc { The plaza continues onward.
+}
+	to { w, 18 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+20
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 12 }
+	  desc { The plaza continues onward.
+}
+	to { e, 21 }
+	  desc { The plaza continues onward.
+}
+	to { s, 28 }
+	  desc { The plaza continues onward.
+}
+	to { w, 19 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+21
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 13 }
+	  desc { The plaza continues onward.
+}
+	to { e, 22 }
+	  desc { The plaza continues onward.
+}
+	to { s, 29 }
+	  desc { The plaza continues onward.
+}
+	to { w, 20 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+22
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 14 }
+	  desc { The plaza continues onward.
+}
+	to { e, 23 }
+	  desc { The plaza continues onward.
+}
+	to { s, 30 }
+	  desc { The plaza continues onward.
+}
+	to { w, 21 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+23
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 15 }
+	  desc { The plaza continues onward.
+}
+	to { s, 31 }
+	  desc { The plaza continues onward.
+}
+	to { w, 22 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+24
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You hear
+crickets chirping.
+  }
+  sector { City }
+  exits {
+	to { n, 16 }
+	  desc { The plaza continues onward.
+}
+	to { e, 25 }
+	  desc { The plaza continues onward.
+}
+	to { s, 32 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+25
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+birds chirping in the distance.
+  }
+  sector { City }
+  exits {
+	to { n, 17 }
+	  desc { The plaza continues onward.
+}
+	to { e, 26 }
+	  desc { The plaza continues onward.
+}
+	to { s, 33 }
+	  desc { The plaza continues onward.
+}
+	to { w, 24 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+26
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 18 }
+	  desc { The plaza continues onward.
+}
+	to { e, 27 }
+	  desc { The plaza continues onward.
+}
+	to { s, 34 }
+	  desc { The plaza continues onward.
+}
+	to { w, 25 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+27
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  To the
+southeast are some stairs.
+  }
+  sector { City }
+  exits {
+	to { n, 19 }
+	  desc { The plaza continues onward.
+}
+	to { e, 28 }
+	  desc { The plaza continues onward.
+}
+	to { s, 35 }
+	  desc { The plaza continues onward.
+}
+	to { w, 26 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+28
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.  You see some stairs to the south.
+  }
+  sector { City }
+  exits {
+	to { n, 20 }
+	  desc { The plaza continues onward.
+}
+	to { e, 29 }
+	  desc { The plaza continues onward.
+}
+	to { s, 36 }
+	  desc { The plaza continues onward.
+}
+	to { w, 27 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+29
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  To the
+southwest are some stairs.
+  }
+  sector { City }
+  exits {
+	to { n, 21 }
+	  desc { The plaza continues onward.
+}
+	to { e, 30 }
+	  desc { The plaza continues onward.
+}
+	to { s, 37 }
+	  desc { The plaza continues onward.
+}
+	to { w, 28 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+30
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  There is
+a statue of a unicorn here.
+  }
+  sector { City }
+  extra {
+	keywords { statue unicorn }
+	desc { The statue says "Come to Unicorn Mount!"
+	}
+  }
+  exits {
+	to { n, 22 }
+	  desc { The plaza continues onward.
+}
+	to { e, 31 }
+	  desc { The plaza continues onward.
+}
+	to { s, 38 }
+	  desc { The plaza continues onward.
+}
+	to { w, 29 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+31
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  There is
+a statue of John the Lumberjack here.
+  }
+  sector { City }
+  extra {
+	keywords { statue john }
+	desc { The statue says "Been to the forest recently?"
+	}
+  }
+  exits {
+	to { n, 23 }
+	  desc { The plaza continues onward.
+}
+	to { s, 39 }
+	  desc { The plaza continues onward.
+}
+	to { w, 30 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+32
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+nothing here.
+  }
+  sector { City }
+  exits {
+	to { n, 24 }
+	  desc { The plaza continues onward.
+}
+	to { e, 33 }
+	  desc { The plaza continues onward.
+}
+	to { s, 40 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+33
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+footsteps nearby.
+  }
+  sector { City }
+  exits {
+	to { n, 25 }
+	  desc { The plaza continues onward.
+}
+	to { e, 34 }
+	  desc { The plaza continues onward.
+}
+	to { s, 41 }
+	  desc { The plaza continues onward.
+}
+	to { w, 32 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+34
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 26 }
+	  desc { The plaza continues onward.
+}
+	to { e, 35 }
+	  desc { The plaza continues onward.
+}
+	to { s, 42 }
+	  desc { The plaza continues onward.
+}
+	to { w, 33 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+35
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.  You see some stairs to east.
+  }
+  sector { City }
+  exits {
+	to { n, 27 }
+	  desc { The plaza continues onward.
+}
+	to { e, 36 }
+	  desc { The plaza continues onward.
+}
+	to { s, 43 }
+	  desc { The plaza continues onward.
+}
+	to { w, 34 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+36
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.  A staircase leads down from here.
+     You hear a voice say, 'Fido, I don't think we're in Midgaard any more.'
+  }
+  sector { City }
+  exits {
+	to { n, 28 }
+	  desc { The plaza continues onward.
+}
+	to { e, 37 }
+	  desc { The plaza continues onward.
+}
+	to { s, 44 }
+	  desc { The plaza continues onward.
+}
+	to { w, 35 }
+	  desc { The plaza continues onward.
+}
+	to { d, 98 }
+	  desc { The stairs spiral downwards toward familiar ground.
+}
+  }
+}
+
+37
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.  You see some stairs to west.
+  }
+  sector { City }
+  exits {
+	to { n, 29 }
+	  desc { The plaza continues onward.
+}
+	to { e, 38 }
+	  desc { The plaza continues onward.
+}
+	to { s, 45 }
+	  desc { The plaza continues onward.
+}
+	to { w, 36 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+38
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  There is
+a statue of a spider here.
+  }
+  sector { City }
+  extra {
+	keywords { statue spider }
+	desc { The statue says "I like Arachnos."
+	}
+  }
+  exits {
+	to { n, 30 }
+	  desc { The plaza continues onward.
+}
+	to { e, 39 }
+	  desc { The plaza continues onward.
+}
+	to { s, 46 }
+	  desc { The plaza continues onward.
+}
+	to { w, 37 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+39
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  There is
+a statue of a butterfly here.
+  }
+  sector { City }
+  extra {
+	keywords { statue butterfly }
+	desc { The statue weeps "Augh, where's my Matrix?"
+	}
+  }
+  exits {
+	to { n, 31 }
+	  desc { The plaza continues onward.
+}
+	to { s, 47 }
+	  desc { The plaza continues onward.
+}
+	to { w, 38 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+40
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 32 }
+	  desc { The plaza continues onward.
+}
+	to { e, 41 }
+	  desc { The plaza continues onward.
+}
+	to { s, 48 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+41
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 33 }
+	  desc { The plaza continues onward.
+}
+	to { e, 42 }
+	  desc { The plaza continues onward.
+}
+	to { s, 49 }
+	  desc { The plaza continues onward.
+}
+	to { w, 40 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+42
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 34 }
+	  desc { The plaza continues onward.
+}
+	to { e, 43 }
+	  desc { The plaza continues onward.
+}
+	to { s, 50 }
+	  desc { The plaza continues onward.
+}
+	to { w, 41 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+43
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  To the
+northeast are some stairs.
+  }
+  sector { City }
+  exits {
+	to { n, 35 }
+	  desc { The plaza continues onward.
+}
+	to { e, 44 }
+	  desc { The plaza continues onward.
+}
+	to { s, 51 }
+	  desc { The plaza continues onward.
+}
+	to { w, 42 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+44
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.  You see some stairs to the north.
+  }
+  sector { City }
+  exits {
+	to { n, 36 }
+	  desc { The plaza continues onward.
+}
+	to { e, 45 }
+	  desc { The plaza continues onward.
+}
+	to { s, 52 }
+	  desc { The plaza continues onward.
+}
+	to { w, 43 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+45
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  To the
+northwest are some stairs.
+  }
+  sector { City }
+  exits {
+	to { n, 37 }
+	  desc { The plaza continues onward.
+}
+	to { e, 46 }
+	  desc { The plaza continues onward.
+}
+	to { s, 53 }
+	  desc { The plaza continues onward.
+}
+	to { w, 44 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+46
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 38 }
+	  desc { The plaza continues onward.
+}
+	to { e, 47 }
+	  desc { The plaza continues onward.
+}
+	to { s, 54 }
+	  desc { The plaza continues onward.
+}
+	to { w, 45 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+47
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You can hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.
+  }
+  sector { City }
+  exits {
+	to { n, 39 }
+	  desc { The plaza continues onward.
+}
+	to { s, 55 }
+	  desc { The plaza continues onward.
+}
+	to { w, 46 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+48
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  This is the
+northwest corner of a bread factory.  Elves run in and out, stacking
+and removing supplies.  You feel the warmth of an oven nearby.
+  }
+  sector { City }
+  flags { no_mob }
+  exits {
+	to { n, 40 }
+	  desc { The plaza continues onward.
+}
+	to { e, 49 }
+	  desc { The plaza continues onward.
+}
+	to { s, 56 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+49
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  This is the
+northeast corner of a bread factory.  Finished pastries and breads lie
+here, awaiting delivery to the Market Plaza Bakery.
+  }
+  sector { City }
+  flags { no_mob }
+  exits {
+	to { n, 41 }
+	  desc { The plaza continues onward.
+}
+	to { e, 50 }
+	  desc { The plaza continues onward.
+}
+	to { s, 57 }
+	  desc { The plaza continues onward.
+}
+	to { w, 48 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+50
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You see
+some pastry crumbs on the floor.
+  }
+  sector { City }
+  exits {
+	to { n, 42 }
+	  desc { The plaza continues onward.
+}
+	to { e, 51 }
+	  desc { The plaza continues onward.
+}
+	to { s, 58 }
+	  desc { The plaza continues onward.
+}
+	to { w, 49 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+51
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  It looks
+as though someone was eating here recently.
+  }
+  sector { City }
+  exits {
+	to { n, 43 }
+	  desc { The plaza continues onward.
+}
+	to { e, 52 }
+	  desc { The plaza continues onward.
+}
+	to { s, 59 }
+	  desc { The plaza continues onward.
+}
+	to { w, 50 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+52
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  The plaza
+has a large white gladiola painted on it.
+  }
+  sector { City }
+  exits {
+	to { n, 44 }
+	  desc { The plaza continues onward.
+}
+	to { e, 53 }
+	  desc { The plaza continues onward.
+}
+	to { s, 60 }
+	  desc { The plaza continues onward.
+}
+	to { w, 51 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+53
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  There is
+a purple tulip painted on the floor.
+  }
+  sector { City }
+  exits {
+	to { n, 45 }
+	  desc { The plaza continues onward.
+}
+	to { e, 54 }
+	  desc { The plaza continues onward.
+}
+	to { s, 61 }
+	  desc { The plaza continues onward.
+}
+	to { w, 52 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+54
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  There are
+a lot puddles here.
+  }
+  sector { City }
+  exits {
+	to { n, 46 }
+	  desc { The plaza continues onward.
+}
+	to { e, 55 }
+	  desc { The plaza continues onward.
+}
+	to { s, 62 }
+	  desc { The plaza continues onward.
+}
+	to { w, 53 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+55
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  The plaza
+is wet, and you can see your reflection in the floor.
+  }
+  sector { City }
+  exits {
+	to { n, 47 }
+	  desc { The plaza continues onward.
+}
+	to { s, 63 }
+	  desc { The plaza continues onward.
+}
+	to { w, 54 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+56
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  This is the
+southwest corner of a bread factory.  You see a large clay oven watched
+carefully by frantic elves.  The smell of bread is overpowering.
+  }
+  sector { City }
+  extra {
+	keywords { oven clay }
+	desc { Well, it radiates a lot of heat, and it appears to be full of half-baked
+loaves of bread.  You find these facts surprising.
+	}
+  }
+  flags { no_mob }
+  exits {
+	to { n, 48 }
+	  desc { The plaza continues onward.
+}
+	to { e, 57 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+57
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  This is the
+southeast corner of a bread factory.  There is a giant vat of dough
+here, and on some racks you see tidy arrays of dough.
+  }
+  sector { City }
+  flags { no_mob }
+  exits {
+	to { n, 49 }
+	  desc { The plaza continues onward.
+}
+	to { e, 58 }
+	  desc { The plaza continues onward.
+}
+	to { w, 56 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+58
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  Little
+bits of bread are scattered about.
+  }
+  sector { City }
+  exits {
+	to { n, 50 }
+	  desc { The plaza continues onward.
+}
+	to { e, 59 }
+	  desc { The plaza continues onward.
+}
+	to { w, 57 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+59
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  You see
+bread crumbs strewn everywhere.
+  }
+  sector { City }
+  exits {
+	to { n, 51 }
+	  desc { The plaza continues onward.
+}
+	to { e, 60 }
+	  desc { The plaza continues onward.
+}
+	to { w, 58 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+60
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light. You hear
+all kinds of noises around you -- shouting, the clatter of swords, and
+cries of death.  To the south is a small circular building ringed by
+columns.
+  }
+  sector { City }
+  exits {
+	to { n, 52 }
+	  desc { The plaza continues onward.
+}
+	to { e, 61 }
+	  desc { The plaza continues onward.
+}
+	to { s, 72 }
+	  desc { It looks nice and quiet in there.
+}
+	to { w, 59 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+61
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  There is
+a white daisy painted on the floor here.
+  }
+  sector { City }
+  exits {
+	to { n, 53 }
+	  desc { The plaza continues onward.
+}
+	to { e, 62 }
+	  desc { The plaza continues onward.
+}
+	to { w, 60 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+62
+{
+  name { A Black Square }
+  desc {
+"     You are standing on a gleaming black marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  As you
+walk along, your feet splash in puddles of water.
+
+  }
+  sector { City }
+  exits {
+	to { n, 54 }
+	  desc { The plaza continues onward.
+}
+	to { e, 63 }
+	  desc { The plaza continues onward.
+}
+	to { w, 61 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+63
+{
+  name { A White Square }
+  desc {
+"     You are standing on a gleaming white marble plaza.  Ornate patterns
+of inlaid gold and silver in the marble glitter in the light.  It looks
+as though it rained here recently.
+  }
+  sector { City }
+  exits {
+	to { n, 55 }
+	  desc { The plaza continues onward.
+}
+	to { w, 62 }
+	  desc { The plaza continues onward.
+}
+  }
+}
+
+70
+{
+  name { Lair of the Jabberwocky }
+  desc {
+"    It is dark and muggy in here.  The walls have a dim luminescent
+blue glow, but the room itself seems to absorb the light.  From
+somewhere in here you hear water dripping, and what might be the sound
+of a monster breathing.  A debris covered slope allows you return
+upwards to the surface.
+  }
+  sector { Field }
+  flags { dark, no_mob }
+  exits {
+	to { u, 4 }
+	  desc { You see an opening in the plaza floor above you.
+}
+  }
+}
+
+72
+{
+  name { Tempietto }
+  desc {
+"     You are in a small circular chapel.  There is a dome above you with
+colorful frescoes on it depicting robed clerics driving back the warriors
+of evil with a wall of flame.  The walls have ornately carved niches occupied
+by small statues of ancient saints.  The plaza is to the north.
+  }
+  sector { City }
+  extra {
+	keywords { statues niches }
+	desc { The craftsmanship is almost beyond that of mortals.
+	}
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 60 }
+	  desc { You see the plaza.
+}
+  }
+}
+
+74
+{
+  name { Exxon's Retreat }
+  desc {
+"     As you step through the mirror you feel a tingling sensation run
+through your body.  Much to your surprise you are standing on dusty
+clifftop overlooking a magnificient ocean.  The sun seems to be frozen
+just over the horizon, turning the ocean into a swirling plain of gold
+and black reflections.  A warm and gentle breeze brushes your face.
+You hear the roar of the waves crashing rhythmically on the rocks below,
+interspersed with cries of seagulls floating lazily overhead.
+     To the north you can see a large city by the oceanside, far larger
+than Midgaard, perhaps far larger than any city you've seen before.  It
+seems to extend infinitely to the north.  From this distance the city
+resembles a spectacular field of colorful lights, twinkling before you
+in silent majesty.
+  }
+  sector { City }
+  extra {
+	keywords { city north }
+	desc { The cliffs prevent you from getting closer to it.  Perhaps you'll find this
+city some time in the future.
+	}
+	keywords { seagulls seagull }
+	desc { The phrase "...would have given men wings..." comes to mind.
+	}
+	keywords { ocean sunset sun }
+	desc { It's breathtaking.  You're glad that this sun doesn't move.
+	}
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 8 }
+	  desc { You see a giant mirror frame.
+}
+  }
+}
+
+76
+{
+  name { Exxon's Game Room }
+  desc {
+"     You seem to be in a fog shrouded room.  On a tiny table surrounded by
+some comfortable looking chairs is a chessboard.  But the pieces on the
+board are alive, and some are actually moving by themselves.  At the base
+of the table you see a two inch tall humanoid guarding a gate...or is that
+just the fog playing tricks on your imagination?
+  }
+  sector { City }
+  flags { indoors }
+}
+
+98
+{
+  name { The Ivory Tower }
+  desc {
+"     You are inside the tower.  You see stairs spiraling above you
+towards the sky... apparently there's no roof on this tower.  Windows
+going along the stairs allow sunbeams to dance on the walls as the
+haze outside thickens and thins.  The gateway is to the east.  There
+is some writing on the wall.
+  }
+  sector { City }
+  extra {
+	keywords { writing wall }
+	desc { ""Sisyphus aids those in need.  But as for those who aren't..."
+	}
+  }
+  flags { no_mob }
+  exits {
+	to { e, 99 }
+	  info { door, closed }
+	  keywords { gate }
+	  desc { You see the gateway.
+}
+	to { u, 36 }
+	  desc { Round and round she goes, where she stops....
+}
+  }
+}
+
+99
+{
+  name { Gateway to the Ivory Tower }
+  desc {
+"     An enormous circular tower of gleaming ivory stands just west of you,
+shrouded in a bluish haze that matches the sky, giving the illusion that
+the tower disappears as it ascends above Midgard.
+  }
+  sector { City }
+  flags { no_mob, peaceful }
+  exits {
+	to { e, Midgard:128 }
+	  desc { You see the Road.
+}
+	to { w, 98 }
+	  info { door, closed }
+	  keywords { gate }
+	  desc { You see the gated entrance to the tower.
+}
+  }
+}

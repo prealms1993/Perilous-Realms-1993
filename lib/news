@@ -1,0 +1,76 @@
+     Appraise is now the same thing as examine.  The appraise skill gives the 
+user more info than is revealed without the skill.  Mages can also examine    
+some of the magic effects on items.  These changes reflect the desire to go to
+a somewhat less revealing but more colorful system.  To examine magical       
+effects, mages must practice the EXAMINE WARDS skill.  EXAMINE will no longer 
+show the contents of an item (this may be changed back).  Use LOOK IN item for
+now (the same basic effect).                                                  
+     Delays should now work better than previously.  Mobiles should now be    
+delayed properly as well (at least as a result of a player bash ... their own 
+routines may not set delays).                                                 
+     Players may now sacrifice items at their chosen temple to restore all or 
+part of their chosen alignment.  They can now enter their chosen temple only, 
+and will always be able to enter it.  Use the SACRIFICE command to sacrifice  
+an object.  The object must be magical and the more powerful the better.      
+     The weapon and magic systems have undergone intensive work.  The info is 
+quite lengthy and was moved to news.                                          
+                                                                              
+Prioritized commands now require being toggled on to work (via the PRIORITY   
+command), and some commands (namely flee at this point) will clear the rest of
+the stacked commands after taking effect.
+
+COMING EVENTUALLY:
+     Eventually, a new law system will be put into effect, and we'll be
+chucking the old chosen system.  The new law system will attempt to strike a
+balance between having the ability to do whatever you want with your
+character and avoiding multiple killing, etc.  If such a system goes in, you
+can expect towns to be fairly safe areas and for penalties for being caught
+to be fairly harsh.  This along with your own ability to band together to
+defeat an opponent.  Not everyone likes a violent mud.  You aren't expected
+to like it.  Just realize that there will be a potential for bloodshed.  In
+the same manner you probably don't approve of it in real life, but know that
+it can happen.
+
+IMPORTANT NEW STUFF:
+     Antis are now in.  Mages will find it difficult to cast around the
+presence of large amounts of iron (and alloys) on their persons and thieves
+will find it hard to use stealth skills while using a lot of equipped metal.
+In addition, the way spells work has changed dramatically.  Mage spells work
+very similarly, but cleric spells now use a seperate pool (the mage energy is
+now called power, and clerical energy is called mana).  Clerics regain mana
+very slowly unless PRAYing.  In addition, mana regain for clerics is even
+faster if they are praying in the temple of their chosen alignment.  Clerics
+will also find that they can not cast spells if out of alignment from their
+chosen one.  During the initial period, this means a lot of you may need to
+change alignment.  If I have time, I'll try setting you to your chosen
+alignment (only once ... it's your responsibility to keep it after that).  In
+your PROMPT, use %m/%M for mana/max mana and %p/%P for power/max power.
+     Next, proficiencies are in.  To view the proficiencies for your class,
+use the PROFICIENCIES command (abbreviatable, of course).  Your current
+proficiencies can be viewed under practice.  In addition, you practice
+proficiencies just like any other skill.  If you don't have proficiency in a
+weapon, you will use it at a severe penalty.  In addition, you can now wield
+two weapons.  Only classes with the DUAL WIELD skill can use two weapons with
+any degree of success.  In addition, how well you use your secondary weapon
+is affected by this skill.  Extra attacks for most classes have been reduced,
+to compensate for this change.  In addition, weapons are now one-handed and
+two-handed, and take up the appropriate number of hands.  If you are not a
+new character, you will need to practice at least one proficiency before
+entering into armed combat.
+     Finally, volumes were modified somewhat stringently to accomodate for
+what I perceived as too many overladen characters.  If you have reasonable
+problems (your character can't carry a canoe, for instance, or a particular
+item seems to be too big) let me (Scarrow) know.  Don't ask that limits be
+raised because your character can't carry nine bags and three suits of plate.
+Size of character is still factored in (although not a main factor).
+     Your serious input is desired on all of the above.  I will not
+rationally listen to arguments such as "xxx class is more powerful than my
+class now", "we need xxx to survive", etc.  Input that is valued is: "xxx is
+probably too big, as in real life it would be about, oh, yyy lbs.?", "as an
+xxx, it would probably make sense if we had capability yyy", or serious bug
+reports.  It would be interesting (albeit rare) to actually hear of cases
+where you think the errors are in your favor.  Don't expect things to be
+balanced, as we've made a lot of changes and it will take some time to
+accurately guage the results.  Things may be too easy for some and too harsh
+for others as things stand.
+

@@ -1,0 +1,21 @@
+SKILL RESCUE
+
+General Description:
+  Attempt to be heroic by rescuing a person who is being attacked and letting
+  the monster who is attacking to attack you instead.
+
+Chance of Success:
+  If your rescue skill exceeds random(1,101), then you succeed in the rescue.
+
+Results of Success:
+  Whoever you rescue stops fighting the monster, you start fighting the monster
+  and the monster starts fighting you.
+
+  You may not type a command for 2 rounds after a successful rescue.
+
+Results of Failure:
+  Nothing.
+
+Restrictions:
+  If you are being attacked by more than 2 creatures you may not rescue anyone.
+

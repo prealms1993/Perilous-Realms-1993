@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Movement:                           | Communication:
+'n'orth 's'outh 'e'ast 'w'est 'u'p  | say (') shout tell ask whisper emote (:)
+'d'own look exits enter leave sleep |
+wake rest sit stand lock unlock     |
+open close                          |
+-------------------------------------------------------------------------------
+Objects:                        | Information:
+get drop put give wear grab     | score help info who news time weather where
+'i'nventory equipment examine   | consider levels wizlist credits wizhelp
+taste pour write drink sip      | attribute world motd
+-------------------------------------------------------------------------------
+Combat:                         | Utility:
+kill wield flee                 | ! bug idea typo quit save brief compact
+kick bash rescue backstab cast  | DEAFEN GAIN TITLE ECHO ALLSPELL JUNK
+WIMP ASSIST                     | WEAR ALL,  Buy #.?? (example buy 5.cup)
+-------------------------------------------------------------------------------
+Further information available by HELP <keyword>, keyword being a command or
+(for example) one of the following:
+
+SOCIAL, SHOPS, INNS, CLERIC, WARRIOR, THIEF, MAGIC, SPELL NAME
+-------------------------------------------------------------------------------

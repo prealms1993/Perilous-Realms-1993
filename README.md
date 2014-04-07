@@ -47,16 +47,16 @@ are cast as integers in the code and it will not function when
 compiled as a 64-bit app.
 
 Steps:
-cd src
-make clean
-make depend
-make proto
-make fcns
-make tran
-make
-cd ..
-./GenObjs.sh
-src/dmserver 4000
+    cd src
+    make clean
+    make depend
+    make proto
+    make fcns
+    make tran
+    make
+    cd ..
+    ./GenObjs.sh
+    src/dmserver 4000
 
 Thats it. You should be able to run dmserver from the main
 directory.  (ie: 'src/dmserver 4000').

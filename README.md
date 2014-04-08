@@ -1,8 +1,8 @@
 This is complete source code for the excellent Perilous Realms 
 MUD circa 1993-1994.  Compile and run it on your local windows
 or unix box and leap back to 1993!  If you were one of the many
-players of PR, it's quite fun.  "Yes!  The server rebooted!  
-Sprint for the the Shire!"
+players of PR, it's quite fun and I hope you enjoy this leap
+into the retro past.  "Yes!  The server rebooted!  Sprint for the the Shire!"
 
 This repo includes all the world information and is a complete working
 version from that era.   It does not include any players except

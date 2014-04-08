@@ -382,104 +382,111 @@ void FailSkill(struct char_data *ch,int skill)
 
 int boot_form(int form, FILE *f)
 {
-  char input[MAX_STRING_LENGTH];
-  char buf[MAX_STRING_LENGTH];
-  char token[MAX_STRING_LENGTH];
-  locdef_t *nl, *ld;
-  char *p,*q,*r;
-  int index, hit_factor, hp_factor;
+	char input[MAX_STRING_LENGTH];
+	char buf[MAX_STRING_LENGTH];
+	char token[MAX_STRING_LENGTH];
+	locdef_t *nl, *ld;
+	char *p, *q, *r;
+	int index, hit_factor, hp_factor;
 
-  /*FREE(forms[form].locdefs);
-  FREE(forms[form].name);*/
+	/*FREE(forms[form].locdefs);
+	FREE(forms[form].name);*/
 
-  forms[form].virtual = form;
+	forms[form].virtual = form;
 
-  ld = NULL;
-  while (fgets(input,sizeof(input),f)) {
-    input[strlen(input)-1]='\0';
-    if ((p=strchr(input,':'))!=NULL) {
-      q=input; r=token;
-      while (q!=p) {
-	*(r++) = LOWER(*q);
-	q++;
-      }
-      *r='\0';
-      for (p++; isspace(*p); p++);
-      if (!strcmp(token,"index")) return(atoi(p));
-      else if (!strcmp(token,"name")) {
-	forms[form].name=mystrdup(p);
-	vlog(LOG_DEBUG,"Booting %s (%d)",forms[form].name,form);
-      }
-    }
-    else if (strncmp(input,"LOC",3)==0);
-    else {
-      if (!strchr(input,'|')) continue;
-      p=buf;
-      q=input;
-      while (*q!='|')
-	*(p++)=*(q++);
-      p--;
-      while (isspace(*p)) p--;
-      *(++p)='\0';
-      index = exact_search(buf,location_list);
-      if (index<0) {
-	vlog(LOG_DEBUG,"Not found: '%s'",buf);
-	continue;
-      }
-      hit_factor = atoi(++q);
-      while (*q!='|') q++;
-      hp_factor = atoi(++q);
-      CREATE(nl, locdef_t, 1);
-      bzero(nl,sizeof(nl));
-      nl->type = index;
-      nl->hit_factor = hit_factor;
-      nl->hp_factor = hp_factor;
-      if(ld){
-        ld->next = nl;
-        ld = nl;
-      }
-      else{
-        ld = forms[form].locdefs = nl;
-      }
-      forms[form].nlocs++;
-    }
-  }
-  return(-1);
+	ld = NULL;
+	while (fgets(input, sizeof(input), f)) {
+		input[strlen(input) - 1] = '\0';
+		if ((p = strchr(input, ':')) != NULL) {
+			q = input; r = token;
+			while (q != p) {
+				*(r++) = LOWER(*q);
+				q++;
+			}
+			*r = '\0';
+			for (p++; isspace(*p); p++);
+			if (!strcmp(token, "index")) {
+				return(atoi(p));
+			}
+			else if (!strcmp(token, "name")) {
+				forms[form].name = mystrdup(p);
+				vlog(LOG_DEBUG, "Booting %s (%d)", forms[form].name, form);
+			}
+		}
+		else if (strncmp(input, "LOC", 3) == 0);
+		else {
+			if (!strchr(input, '|')) continue;
+			p = buf;
+			q = input;
+			while (*q != '|')
+				*(p++) = *(q++);
+			p--;
+			while (isspace(*p)) p--;
+			*(++p) = '\0';
+			index = exact_search(buf, location_list);
+			if (index < 0) {
+				vlog(LOG_DEBUG, "Not found: '%s'", buf);
+				continue;
+			}
+			hit_factor = atoi(++q);
+			while (*q != '|') q++;
+			hp_factor = atoi(++q);
+			CREATE(nl, locdef_t, 1);
+			bzero(nl, sizeof(nl));
+			nl->type = index;
+			nl->hit_factor = hit_factor;
+			nl->hp_factor = hp_factor;
+			if (ld){
+				ld->next = nl;
+				ld = nl;
+			}
+			else{
+				ld = forms[form].locdefs = nl;
+			}
+			forms[form].nlocs++;
+		}
+	}
+	return(-1);
 }
 
 void boot_forms()
 {
-  int i,form;
-  FILE *f;
-  char s[80];
+	int i, form;
+	FILE *f;
+	char s[80];
 
-  if (forms) {
-    locdef_t *ld, *nl;
-    for (form=0; form<MAX_DEF_FORM; form++)
-    if (forms[form].locdefs) {
-      for (ld = forms[form].locdefs; ld; ld = nl) {
-        nl = ld->next;
-        FREE(ld);
-      }
-    }
-    FREE(forms);
-  }
+	if (forms) {
+		locdef_t *ld, *nl;
+		for (form = 0; form < MAX_DEF_FORM; form++)
+		if (forms[form].locdefs) {
+			for (ld = forms[form].locdefs; ld; ld = nl) {
+				nl = ld->next;
+				FREE(ld);
+			}
+		}
+		FREE(forms);
+	}
 
-  f = fopen("forms","r");
-  if (!f) {
-    perror("forms");
-    exit(1);
-  }
-  fgets(s,sizeof(s),f);
-  MAX_DEF_FORM=atoi(s);
-  vlog(LOG_DEBUG,"There are %d forms",MAX_DEF_FORM);
-  CREATE(forms,form_t,MAX_DEF_FORM);
-  for (i=0; i<MAX_DEF_FORM; i++)
-    memset(&forms[i],sizeof(form_t),0);
-  i=boot_form(0,f);
-  while (i>=0)
-    i=boot_form(i,f);
-  fclose(f);
+	f = fopen("forms", "r");
+	if (!f) {
+		perror("forms");
+		exit(1);
+	}
+	fgets(s, sizeof(s), f);
+	MAX_DEF_FORM = atoi(s);
+	vlog(LOG_DEBUG, "There are %d forms", MAX_DEF_FORM);
+	CREATE(forms, form_t, MAX_DEF_FORM);
+	for (i = 0; i < MAX_DEF_FORM; i++)
+		memset(&forms[i], sizeof(form_t), 0);
+	i = boot_form(0, f);
+	while (i >= 0) {
+		i = boot_form(i, f);
+		if (i >= MAX_DEF_FORM) {
+			vlog(LOG_URGENT, "Number of forms is too low in 'forms' file.");
+			exit(1);
+		}
+	}
+	fclose(f);
 }
 
 /* will return index of next class it finds... -1 = EOF */

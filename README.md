@@ -1,8 +1,8 @@
 This is complete source code for the excellent Perilous Realms 
 MUD circa 1993-1994.  Compile and run it on your local windows
 or box and leap back to 1993!  If you were one of the many
-players of PR, it's quite fun.  "Yes!  The server rebooted!  
-Sprint for the the Shire!"
+players of PR, it's quite fun and I hope you enjoy this view
+into a retro past. "The server rebooted! Sprint for the the Shire!"
 
 This repo includes all the world information and is a complete working
 version from that era.   It does not include any players except
@@ -23,6 +23,7 @@ If you pulled this from github you're going to need to build
 the application and rebuild the binary files.  Follow the 
 "Compiling" section below.  Once compiled just run dmserver
 from the main directory (the one above lib/).
+
 Once running, telnet (or mud client) into the port and create
 a character.  Once you're in the world look at the maps and
 in the first town square there's an information building that
@@ -31,9 +32,11 @@ has enough information to really get going!
 ###Usage
 First off, this is probably unsafe to run directly on the 
 modern internet.  What was safe and secure 20+ years ago is 
-probably not true anymore.
+probably not true anymore.  If you want to play go to the current
+Perilous Realms!  It's still there!
 
 To start the server:
+````
 ./dmserver [port]
 port default is 4000
 Useful options:
@@ -41,8 +44,8 @@ Useful options:
 -w WizLock  (only allow immortals)
 -b DebugLevel (1,2, 11, 1001, 1234 are useful levels)
 -d Data files directory (default is ./lib)
-
-Configuration files
+````
+####Configuration files
 lib/maxplayers    Maximum number of players
 
 ###Compiling

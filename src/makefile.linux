@@ -1,21 +1,17 @@
 PF = $&
 #CFLAGS = -g -O2 -DBSD -Ih -DUSE_MALLOP -fno-builtin
-#Windows
-CFLAGS = -g -O2 -Ih -pipe -fno-builtin 
-LIBS = -lcrypt
-LD=i686-pc-cygwin-gcc.exe
-CC=i686-pc-cygwin-gcc.exe
-EXT=.exe
-#Unix
+#Linux - Note this will only work when compiled as 32-bit app.  On a 64-bit
+#system you can compile it as a 32-bit app but each release does it differently
+#so that is left up to the reader
 #CFLAGS = -g -O2 -DBSD -Ih -pipe -fno-builtin
-#EXE = dmserver
-#LIBS = -lcrypt
-#LD=gcc
-#CC=gcc
-#EXT=
+CFLAGS = -g -O2 -Ih -pipe -fno-builtin
+EXE = dmserver
+LIBS = -lcrypt
+LD=gcc
+CC=gcc
 
-EXE = dmserver$(EXT)
 O=
+EXE = dmserver
 ##
 OBJS =  $Odb.o $Oskills.o $Ooedit.o $Omedit.o $Oonline.o\
 	$Ointerpreter.o $Ocomm.o $Ospec_mob.o\
@@ -96,12 +92,12 @@ proto: strip.c
 	$(CC) -O -o proto$(EXT) strip.c
 
 clean:
-	-rm -f $(OBJS)
-	-rm -f $(TRAN_OBJS)
-	-rm $(EXE)
-	-rm proto$(EXT)
-	-rm *.exe
-	-rm *.o
+	-rm -f $(OBJS) 2>/dev/nul
+	-rm -f $(TRAN_OBJS) 2>/dev/nul
+	-rm $(EXE) 2>/dev/nul
+	-rm proto$(EXT) 2>/dev/nul
+	-rm *.exe 2>/dev/nul
+	-rm *.o 2>/dev/nul
 
 
 

@@ -2074,15 +2074,15 @@ void do_linkload(struct char_data *ch, char *arg, int cmd)
   act("$n has been link-loaded.\n",FALSE,tmp,0,0,TO_ROOM);
 }
 
+//this is used to cause a crash and exit (hopefully an external script is restarting the server).  Suppress the warning about it.
+#pragma GCC diagnostic ignored "-Wdiv-by-zero"
 void do_crash(struct char_data *ch, char *arg, int cmd)
 {
   int x;
-  //this is used to cause a crash and exit (hopefully an external script is restarting the server).  Suppress the warning about it.
-#pragma GCC diagnostic ignored "-Wdiv-by-zero"
   x = ch->player.level/0;
-#pragma GCC diagnostic warning "-Wdiv-by-zero"
   sendf(ch, "%d\n", x);
 }
+#pragma GCC diagnostic warning "-Wdiv-by-zero"
 
 void do_trashcan(struct char_data *ch, char *arg, int cmd)
 {

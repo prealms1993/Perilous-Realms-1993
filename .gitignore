@@ -3,3 +3,4 @@ vcc/
 *.bak
 *.tar
 *.o
+*.exe

@@ -3,6 +3,10 @@
 *  Usage: Utility macros                                                  *
 ************************************************************************* */
 
+#if __x86_64__
+#error "64-Bit is not supported as pointers are cast to/from int's in a couple of places.  Compile this as a 32-bit app."
+#endif
+
 #define GetMaxLevel(ch) (ch->player.level)
 #define GET_LEVEL(ch) (ch->player.level)
 

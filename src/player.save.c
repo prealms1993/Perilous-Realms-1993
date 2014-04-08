@@ -11,12 +11,17 @@
 extern int DEBUG;
 int db_boot = 0;
 
+#ifndef S_IRGRP
 #define S_IRGRP 0000040/* read permission, group */
-#define S_IWGRP 0000020/* write permission, group */
+#endif
 
-//Brutal hack to load Big-Endian encoded player characters.  Only needed when convering from Sparc/PowerPC to Intel architecture
-//2014 - Wrote this to convert the old character files.  Not needed once files are converted
-#define PLAYER_BIG_ENDIAN
+#ifndef S_IWGRP
+#define S_IWGRP 0000020/* write permission, group */
+#endif 
+
+//2014 - Brutal hack to load Big-Endian encoded player characters.  Only needed when convering from Sparc/PowerPC to Intel architecture
+//2014 - Wrote this to convert the old character files.  Not needed once files are converted which if you're not me, you don't need to do.
+//#define PLAYER_BIG_ENDIAN
 
 #define EOF_MARK 255
 #define SUB_OBJECT 254
@@ -352,6 +357,12 @@ if (sizeof(v) == 1) { v = *((unsigned char*)bp); bp += sizeof(v); }\
 else if (sizeof(v) == 2) { _ReadBE16(v); } \
 else if (sizeof(v) == 4) { _ReadBE32(v); } \
 else { nlog("_ReadBE: WARNING AND ERROR %d %d", sizeof(v), __LINE__); exit(1); } \
+}
+
+/* GCC 4.7 has a bug that doesn't include this*/
+unsigned short __builtin_bswap16(unsigned short a) 
+{
+	return (a << 8) | (a >> 8);
 }
 
 #define _ReadBE16(v) { \
